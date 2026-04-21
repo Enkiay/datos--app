@@ -1,5 +1,16 @@
 {
   "version": "1.0",
   "titulo": "Proyectos compartidos - Enkiay",
-  "proyectos": []
+  "proyectos": [
+    {
+      "id": "ejemplo-muro-001",
+      "nombre": "Muro Perimetral - Ejemplo",
+      "descripcion": "Proyecto de ejemplo: muro de ladrillo 6H en dos tramos (45 m² y 30 m²). Incluye materiales, mano de obra y herramientas.",
+      "tipoProyecto": "BODEGA_GALPON",
+      "lugar": "Cochabamba",
+      "autor": "Enkiay",
+      "fechaPublicacion": "2026-04-21",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/proyectos/ejemplo_muro_perimetral.presup"
+    }
+  ]
 }

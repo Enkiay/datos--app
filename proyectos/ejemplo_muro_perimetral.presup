@@ -1,0 +1,165 @@
+{
+  "formatVersion": 1,
+  "exportadoEn": "1745193600000",
+  "appVersion": "1.0",
+  "proyecto": {
+    "syncId": "proy-ejemplo-001",
+    "nombre": "Muro Perimetral - Ejemplo",
+    "tipoProyecto": "BODEGA_GALPON",
+    "clienteNombre": "Juan Pérez",
+    "clienteDireccion": "Av. Blanco Galindo Km 5",
+    "clienteTelefono": "77712345",
+    "lugar": "Cochabamba",
+    "espaciosStr": "TRAMO 1;TRAMO 2",
+    "porcentajeUtilidad": 10.0,
+    "porcentajeImprevistos": 5.0,
+    "porcentajeCargasSociales": 30.0,
+    "porcentajeIVA": 14.94,
+    "porcentajeGastosGenerales": 7.0,
+    "porcentajeImpTransacciones": 3.09,
+    "tipoCambio": 6.96,
+    "modoCalculo": "SABS",
+    "fechaCreacion": 1745193600000
+  },
+  "insumos": [
+    {
+      "syncId": "ins-cem-001",
+      "codigo": "M001",
+      "nombre": "Cemento Portland",
+      "unidad": "Kg",
+      "tipoInsumo": "MATERIAL",
+      "categoria": "Aglomerantes",
+      "esOficial": true,
+      "precioSnapshot": 0.94
+    },
+    {
+      "syncId": "ins-arena-001",
+      "codigo": "M003",
+      "nombre": "Arena Común",
+      "unidad": "m3",
+      "tipoInsumo": "MATERIAL",
+      "categoria": "Agregados",
+      "esOficial": true,
+      "precioSnapshot": 120.75
+    },
+    {
+      "syncId": "ins-ladr-001",
+      "codigo": "M009",
+      "nombre": "Ladrillo 6H 24x15x11",
+      "unidad": "Pza",
+      "tipoInsumo": "MATERIAL",
+      "categoria": "Mampuestos",
+      "esOficial": true,
+      "precioSnapshot": 2.20
+    },
+    {
+      "syncId": "ins-fierro-001",
+      "codigo": "M002",
+      "nombre": "Fierro Corrugado",
+      "unidad": "Kg",
+      "tipoInsumo": "MATERIAL",
+      "categoria": "Aceros",
+      "esOficial": true,
+      "precioSnapshot": 7.80
+    },
+    {
+      "syncId": "ins-alambre-001",
+      "codigo": "M007",
+      "nombre": "Alambre de Amarre",
+      "unidad": "Kg",
+      "tipoInsumo": "MATERIAL",
+      "categoria": "Aceros",
+      "esOficial": true,
+      "precioSnapshot": 12.00
+    },
+    {
+      "syncId": "ins-alb-001",
+      "codigo": "O002",
+      "nombre": "Albañil",
+      "unidad": "Hr",
+      "tipoInsumo": "MANO_DE_OBRA",
+      "categoria": "Mano de obra calificada",
+      "esOficial": true,
+      "precioSnapshot": 20.50
+    },
+    {
+      "syncId": "ins-ayu-001",
+      "codigo": "O004",
+      "nombre": "Ayudante",
+      "unidad": "Hr",
+      "tipoInsumo": "MANO_DE_OBRA",
+      "categoria": "Mano de obra no calificada",
+      "esOficial": true,
+      "precioSnapshot": 15.00
+    },
+    {
+      "syncId": "ins-hm-001",
+      "codigo": "E003",
+      "nombre": "Herramientas Menores",
+      "unidad": "%",
+      "tipoInsumo": "HERRAMIENTA",
+      "categoria": "Herramientas",
+      "esOficial": true,
+      "precioSnapshot": 0.0
+    }
+  ],
+  "items": [
+    {
+      "syncId": "item-muro-001",
+      "codigo": "M050",
+      "nombre": "Muro de Ladrillo 6H",
+      "tipoCalculo": "POR_M2",
+      "inputPrincipalLabel": "Superficie",
+      "unidadResultado": "m2",
+      "categoria": "Muros",
+      "verificado": true,
+      "esDescargado": false,
+      "parametros": [
+        {
+          "nombre": "Espesor muro",
+          "valorDefault": 0.15,
+          "unidad": "m",
+          "visiblePorDefecto": false
+        },
+        {
+          "nombre": "Dosificación cemento",
+          "valorDefault": 6.0,
+          "unidad": "Kg/m2",
+          "visiblePorDefecto": false
+        }
+      ],
+      "rendimientos": [
+        { "insumoSyncId": "ins-cem-001",    "rendimiento": 6.0,    "tipoCalculo": "DIRECTO" },
+        { "insumoSyncId": "ins-arena-001",  "rendimiento": 0.025,  "tipoCalculo": "DIRECTO" },
+        { "insumoSyncId": "ins-ladr-001",   "rendimiento": 40.0,   "tipoCalculo": "DIRECTO" },
+        { "insumoSyncId": "ins-alb-001",    "rendimiento": 1.0,    "tipoCalculo": "DIRECTO" },
+        { "insumoSyncId": "ins-ayu-001",    "rendimiento": 1.0,    "tipoCalculo": "DIRECTO" },
+        { "insumoSyncId": "ins-hm-001",     "rendimiento": 5.0,    "tipoCalculo": "PORCENTAJE_MO" }
+      ]
+    }
+  ],
+  "proyectoItems": [
+    {
+      "syncId": "pi-001",
+      "itemSyncId": "item-muro-001",
+      "espacio": "TRAMO 1",
+      "inputPrincipal": 45.0,
+      "costoMateriales": 0.0,
+      "costoManoDeObra": 0.0,
+      "costoEquipo": 0.0,
+      "diaInicio": 1,
+      "duracionDias": 15
+    },
+    {
+      "syncId": "pi-002",
+      "itemSyncId": "item-muro-001",
+      "espacio": "TRAMO 2",
+      "inputPrincipal": 30.0,
+      "costoMateriales": 0.0,
+      "costoManoDeObra": 0.0,
+      "costoEquipo": 0.0,
+      "diaInicio": 10,
+      "duracionDias": 10
+    }
+  ]
+}
