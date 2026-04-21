@@ -1,0 +1,22 @@
+{
+  "version": "2026-04-20",
+  "fuente": "INE Bolivia / Cámara Boliviana de la Construcción",
+  "precios": [
+    { "nombre": "Cemento Portland",       "tipoInsumo": "MATERIAL",     "precio": 0.98,  "unidad": "Kg",  "nota": "Precio referencial INE abril 2026" },
+    { "nombre": "Arena Común",            "tipoInsumo": "MATERIAL",     "precio": 0.18,  "unidad": "Kg",  "nota": "" },
+    { "nombre": "Arena Fina",             "tipoInsumo": "MATERIAL",     "precio": 0.22,  "unidad": "Kg",  "nota": "" },
+    { "nombre": "Grava Común",            "tipoInsumo": "MATERIAL",     "precio": 0.16,  "unidad": "Kg",  "nota": "" },
+    { "nombre": "Fierro Corrugado",       "tipoInsumo": "MATERIAL",     "precio": 8.20,  "unidad": "Kg",  "nota": "Precio referencial C.B.C. abril 2026" },
+    { "nombre": "Alambre de Amarre",      "tipoInsumo": "MATERIAL",     "precio": 9.50,  "unidad": "Kg",  "nota": "" },
+    { "nombre": "Madera de Construcción", "tipoInsumo": "MATERIAL",     "precio": 3.80,  "unidad": "P2",  "nota": "" },
+    { "nombre": "Clavos",                 "tipoInsumo": "MATERIAL",     "precio": 8.90,  "unidad": "Kg",  "nota": "" },
+    { "nombre": "Ladrillo 6H 24x15x11",  "tipoInsumo": "MATERIAL",     "precio": 1.85,  "unidad": "Pza", "nota": "" },
+    { "nombre": "Encofrador",             "tipoInsumo": "MANO_DE_OBRA", "precio": 21.50, "unidad": "Hr",  "nota": "Tarifa sindical C.B.C. abril 2026" },
+    { "nombre": "Albañil",               "tipoInsumo": "MANO_DE_OBRA", "precio": 21.50, "unidad": "Hr",  "nota": "Tarifa sindical C.B.C. abril 2026" },
+    { "nombre": "Armador",               "tipoInsumo": "MANO_DE_OBRA", "precio": 21.50, "unidad": "Hr",  "nota": "Tarifa sindical C.B.C. abril 2026" },
+    { "nombre": "Ayudante",              "tipoInsumo": "MANO_DE_OBRA", "precio": 15.50, "unidad": "Hr",  "nota": "Tarifa sindical C.B.C. abril 2026" },
+    { "nombre": "Herramientas Menores",  "tipoInsumo": "HERRAMIENTA",  "precio": 0.50,  "unidad": "%",   "nota": "" },
+    { "nombre": "Mezcladora",            "tipoInsumo": "HERRAMIENTA",  "precio": 12.00, "unidad": "Hr",  "nota": "" },
+    { "nombre": "Vibradora",             "tipoInsumo": "HERRAMIENTA",  "precio": 10.00, "unidad": "Hr",  "nota": "" }
+  ]
+}
