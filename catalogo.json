@@ -166,7 +166,7 @@
       "codigo": "UH007",
       "nombre": "Columna de H°A°",
       "tipoCalculo": "VOLUMEN",
-      "inputPrincipalLabel": "Sección × Altura × Cantidad",
+      "inputPrincipalLabel": "Cantidad × Altura",
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
@@ -186,15 +186,16 @@
         { "nombre": "Vibradora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
       ],
       "parametros": [
-        { "nombre": "seccion", "valorDefault": 1, "unidad": "m2", "visiblePorDefecto": true },
-        { "nombre": "altura", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "cantidad", "valorDefault": 1, "unidad": "pza", "visiblePorDefecto": true }
+        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "profundidad", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "altura", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true }
       ],
       "presets": [
-        { "nombre": "25\u00d725", "valores": { "seccion": 0.0625 } },
-        { "nombre": "20\u00d730", "valores": { "seccion": 0.06 } },
-        { "nombre": "30\u00d730", "valores": { "seccion": 0.09 } },
-        { "nombre": "60\u00d730", "valores": { "seccion": 0.18 } }
+        { "nombre": "20\u00d720", "valores": { "ancho": 0.20, "profundidad": 0.20 } },
+        { "nombre": "25\u00d725", "valores": { "ancho": 0.25, "profundidad": 0.25 } },
+        { "nombre": "20\u00d730", "valores": { "ancho": 0.20, "profundidad": 0.30 } },
+        { "nombre": "30\u00d730", "valores": { "ancho": 0.30, "profundidad": 0.30 } },
+        { "nombre": "60\u00d730", "valores": { "ancho": 0.60, "profundidad": 0.30 } }
       ]
     },
     {

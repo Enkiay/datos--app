@@ -104,7 +104,7 @@
           "lee": ["longitud_total", "separacion_columnas", "altura_muro", "h_sobrecimiento"],
           "escribe": "vol_columnas",
           "catalogoCodigo": "UH007",
-          "presetNombre": "25\u00d725"
+          "presetNombre": "20\u00d720"
         },
         {
           "id": "viga_amarre",
