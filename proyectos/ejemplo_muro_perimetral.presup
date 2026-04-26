@@ -28,16 +28,7 @@
   "items": [
     {
       "syncId": "item-muro-001",
-      "codigo": "M050",
-      "nombre": "Muro de Ladrillo 6H",
-      "tipoCalculo": "AREA",
-      "inputPrincipalLabel": "Superficie",
-      "unidadResultado": "m2",
-      "categoria": "Mampostería",
-      "verificado": true,
-      "esDescargado": false,
-      "parametros": [],
-      "rendimientos": []
+      "codigo": "M050"
     }
   ],
   "proyectoItems": [
@@ -46,9 +37,6 @@
       "itemSyncId": "item-muro-001",
       "espacio": "TRAMO 1",
       "inputPrincipal": 45.0,
-      "costoMateriales": 0.0,
-      "costoManoDeObra": 0.0,
-      "costoEquipo": 0.0,
       "diaInicio": 1,
       "duracionDias": 15
     },
@@ -57,9 +45,6 @@
       "itemSyncId": "item-muro-001",
       "espacio": "TRAMO 2",
       "inputPrincipal": 30.0,
-      "costoMateriales": 0.0,
-      "costoManoDeObra": 0.0,
-      "costoEquipo": 0.0,
       "diaInicio": 10,
       "duracionDias": 10
     }
