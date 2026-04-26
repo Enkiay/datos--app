@@ -1,4 +1,219 @@
 {
   "version": "1.0",
-  "items": []
+  "items": [
+    {
+      "codigo": "UH001",
+      "nombre": "Replanteo",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "gl",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        { "nombre": "Madera de Construcción", "unidad": "P2", "tipoInsumo": "MATERIAL", "categoria": "Madera", "rendimiento": 10.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Clavos", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Ferretería", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Alambre de Amarre", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Albañil", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 8.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 8.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
+      ],
+      "parametros": [
+        { "nombre": "cantidad", "valorDefault": 1, "unidad": "gl", "visiblePorDefecto": true }
+      ]
+    },
+    {
+      "codigo": "UH002",
+      "nombre": "Excavación de zanjas",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Largo × Ancho × Profundidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 3.2, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
+      ],
+      "parametros": [
+        { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "profundidad", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true }
+      ]
+    },
+    {
+      "codigo": "UH003",
+      "nombre": "Capa de hormigón pobre",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Largo × Ancho × Espesor",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        { "nombre": "Cemento Portland", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Cemento y Cal", "rendimiento": 200.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Arena Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.45, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Grava Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.65, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Albañil", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 2.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 6.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Mezcladora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
+      ],
+      "parametros": [
+        { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "espesor", "valorDefault": 0.1, "unidad": "m", "visiblePorDefecto": true }
+      ]
+    },
+    {
+      "codigo": "UH004",
+      "nombre": "Cimiento corrido",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Largo × Ancho × Altura",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        { "nombre": "Cemento Portland", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Cemento y Cal", "rendimiento": 200.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Arena Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.40, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Grava Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.65, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Piedra Bruta", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.50, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Albañil", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 3.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 6.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Mezcladora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
+      ],
+      "parametros": [
+        { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "altura", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true }
+      ]
+    },
+    {
+      "codigo": "UH005",
+      "nombre": "Sobrecimiento",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Largo × Ancho × Altura",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        { "nombre": "Cemento Portland", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Cemento y Cal", "rendimiento": 250.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Arena Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.45, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Grava Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.65, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Piedra Bruta", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.40, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Madera de Construcción", "unidad": "P2", "tipoInsumo": "MATERIAL", "categoria": "Madera", "rendimiento": 15.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Clavos", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Ferretería", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Albañil", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 4.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Encofrador", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 2.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 8.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Mezcladora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
+      ],
+      "parametros": [
+        { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "altura", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true }
+      ]
+    },
+    {
+      "codigo": "UH006",
+      "nombre": "Zapata de H°A°",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Largo × Ancho × Espesor × Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        { "nombre": "Cemento Portland", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Cemento y Cal", "rendimiento": 350.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Arena Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.50, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Grava Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.70, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Fierro Corrugado", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 40.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Alambre de Amarre", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 1.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Madera de Construcción", "unidad": "P2", "tipoInsumo": "MATERIAL", "categoria": "Madera", "rendimiento": 10.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Clavos", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Ferretería", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Albañil", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 3.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Armador", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 3.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Encofrador", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 2.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 8.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Mezcladora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Vibradora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
+      ],
+      "parametros": [
+        { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "espesor", "valorDefault": 0.3, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "cantidad", "valorDefault": 1, "unidad": "pza", "visiblePorDefecto": true }
+      ]
+    },
+    {
+      "codigo": "UH007",
+      "nombre": "Columna de H°A°",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Sección × Altura × Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        { "nombre": "Cemento Portland", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Cemento y Cal", "rendimiento": 350.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Arena Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.50, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Grava Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.70, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Fierro Corrugado", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 80.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Alambre de Amarre", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 2.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Madera de Construcción", "unidad": "P2", "tipoInsumo": "MATERIAL", "categoria": "Madera", "rendimiento": 25.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Clavos", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Ferretería", "rendimiento": 1.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Albañil", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 4.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Armador", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 4.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Encofrador", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 4.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 10.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Mezcladora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Vibradora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
+      ],
+      "parametros": [
+        { "nombre": "seccion", "valorDefault": 0.25, "unidad": "m2", "visiblePorDefecto": true },
+        { "nombre": "altura", "valorDefault": 3, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "cantidad", "valorDefault": 1, "unidad": "pza", "visiblePorDefecto": true }
+      ]
+    },
+    {
+      "codigo": "UH008",
+      "nombre": "Viga de amarre superior",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Largo × Sección",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        { "nombre": "Cemento Portland", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Cemento y Cal", "rendimiento": 350.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Arena Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.50, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Grava Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.70, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Fierro Corrugado", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 60.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Alambre de Amarre", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 1.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Madera de Construcción", "unidad": "P2", "tipoInsumo": "MATERIAL", "categoria": "Madera", "rendimiento": 30.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Clavos", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Ferretería", "rendimiento": 1.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Albañil", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 3.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Armador", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 4.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Encofrador", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 5.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 10.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Mezcladora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Vibradora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
+      ],
+      "parametros": [
+        { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "seccion", "valorDefault": 0.2, "unidad": "m2", "visiblePorDefecto": true }
+      ]
+    },
+    {
+      "codigo": "UH009",
+      "nombre": "Muro de ladrillo 6H",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Largo × Altura",
+      "unidadResultado": "m2",
+      "categoria": "Mampostería",
+      "verificado": true,
+      "insumos": [
+        { "nombre": "Ladrillo 6H 24x15x11", "unidad": "Pza", "tipoInsumo": "MATERIAL", "categoria": "Ladrillos y Cerámicos", "rendimiento": 50.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Cemento Portland", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Cemento y Cal", "rendimiento": 12.0, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Arena Fina", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.03, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Albañil", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 1.2, "tipoCalculo": "DIRECTO", "baseCalculo": "" },
+        { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 1.2, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
+      ],
+      "parametros": [
+        { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "altura", "valorDefault": 2.5, "unidad": "m", "visiblePorDefecto": true }
+      ]
+    }
+  ]
 }
