@@ -4,22 +4,16 @@
     {
       "id": "cerramiento-perimetral",
       "nombre": "Cerramiento Perimetral",
-      "descripcion": "Columnas, vigas de encadenado, sobrecimiento y muro de ladrillo 6H (12 cm). Incluye zapatas y excavación.",
+      "descripcion": "Estructura completa: excavación, H° pobre, cimiento, sobrecimiento, zapatas, columnas, viga de amarre y muro de ladrillo 6H.",
       "inputsRequeridos": [
         {
-          "nombre": "largo",
-          "label": "Largo del terreno",
+          "nombre": "longitud_total",
+          "label": "Longitud total del muro",
           "unidad": "m",
-          "default": 20.0
+          "default": 0.0
         },
         {
-          "nombre": "ancho",
-          "label": "Ancho del terreno",
-          "unidad": "m",
-          "default": 10.0
-        },
-        {
-          "nombre": "altura",
+          "nombre": "altura_muro",
           "label": "Altura del muro",
           "unidad": "m",
           "default": 2.5
@@ -27,166 +21,191 @@
       ],
       "parametrosEditables": [
         {
-          "nombre": "sep_columnas",
+          "nombre": "separacion_columnas",
           "label": "Separación entre columnas",
           "unidad": "m",
-          "default": 3.0,
+          "default": 4.0,
           "min": 2.0,
-          "max": 5.0
+          "max": 6.0
         },
         {
           "nombre": "sec_columna",
-          "label": "Sección de columna",
+          "label": "Lado sección columna",
           "unidad": "m",
-          "default": 0.2,
+          "default": 0.20,
           "min": 0.15,
-          "max": 0.4
-        },
-        {
-          "nombre": "sec_viga",
-          "label": "Sección viga encadenado",
-          "unidad": "m",
-          "default": 0.2,
-          "min": 0.15,
-          "max": 0.3
-        },
-        {
-          "nombre": "h_viga",
-          "label": "Altura viga encadenado",
-          "unidad": "m",
-          "default": 0.2,
-          "min": 0.15,
-          "max": 0.4
-        },
-        {
-          "nombre": "prof_zapata",
-          "label": "Profundidad zapata",
-          "unidad": "m",
-          "default": 0.3,
-          "min": 0.2,
-          "max": 0.6
+          "max": 0.40
         },
         {
           "nombre": "ancho_zapata",
           "label": "Ancho zapata",
           "unidad": "m",
-          "default": 0.4,
-          "min": 0.3,
-          "max": 0.8
+          "default": 0.40,
+          "min": 0.30,
+          "max": 0.80
         },
         {
-          "nombre": "h_sobrecimiento",
-          "label": "Altura sobrecimiento",
+          "nombre": "espesor_zapata",
+          "label": "Espesor zapata",
           "unidad": "m",
-          "default": 0.3,
-          "min": 0.2,
-          "max": 0.6
+          "default": 0.30,
+          "min": 0.20,
+          "max": 0.60
+        },
+        {
+          "nombre": "prof_excavacion",
+          "label": "Profundidad excavación",
+          "unidad": "m",
+          "default": 0.60,
+          "min": 0.40,
+          "max": 1.00
+        },
+        {
+          "nombre": "ancho_cimiento",
+          "label": "Ancho cimiento corrido",
+          "unidad": "m",
+          "default": 0.40,
+          "min": 0.30,
+          "max": 0.60
+        },
+        {
+          "nombre": "h_cimiento",
+          "label": "Altura cimiento corrido",
+          "unidad": "m",
+          "default": 0.40,
+          "min": 0.30,
+          "max": 0.60
+        },
+        {
+          "nombre": "espesor_hp",
+          "label": "Espesor H° pobre",
+          "unidad": "m",
+          "default": 0.05,
+          "min": 0.03,
+          "max": 0.10
         },
         {
           "nombre": "ancho_sobrecimiento",
           "label": "Ancho sobrecimiento",
           "unidad": "m",
-          "default": 0.2,
+          "default": 0.20,
           "min": 0.15,
-          "max": 0.3
+          "max": 0.30
+        },
+        {
+          "nombre": "h_sobrecimiento",
+          "label": "Altura sobrecimiento",
+          "unidad": "m",
+          "default": 0.30,
+          "min": 0.20,
+          "max": 0.60
+        },
+        {
+          "nombre": "sec_viga",
+          "label": "Ancho viga de amarre",
+          "unidad": "m",
+          "default": 0.20,
+          "min": 0.15,
+          "max": 0.30
+        },
+        {
+          "nombre": "h_viga",
+          "label": "Altura viga de amarre",
+          "unidad": "m",
+          "default": 0.20,
+          "min": 0.15,
+          "max": 0.40
         }
       ],
       "items": [
         {
           "id": "excavacion",
-          "nombre": "Excavación para zapatas",
+          "nombre": "Excavación de zanjas",
           "unidad": "m3",
-          "formulaTexto": "n_columnas * ancho_zapata * ancho_zapata * prof_zapata",
-          "lee": [
-            "n_columnas",
-            "ancho_zapata",
-            "prof_zapata"
-          ],
+          "formulaTexto": "longitud_total * ancho_cimiento * prof_excavacion",
+          "lee": ["longitud_total", "ancho_cimiento", "prof_excavacion"],
           "escribe": "vol_excavacion",
-          "catalogoCodigo": "EX010"
+          "catalogoCodigo": "UH002"
         },
         {
-          "id": "zapatas",
-          "nombre": "Zapatas de H°A°",
+          "id": "hp_capa",
+          "nombre": "Capa de hormigón pobre",
           "unidad": "m3",
-          "formulaTexto": "n_columnas * ancho_zapata * ancho_zapata * prof_zapata",
-          "lee": [
-            "n_columnas",
-            "ancho_zapata",
-            "prof_zapata"
-          ],
-          "escribe": "vol_zapatas",
-          "catalogoCodigo": "Z010"
+          "formulaTexto": "longitud_total * ancho_cimiento * espesor_hp",
+          "lee": ["longitud_total", "ancho_cimiento", "espesor_hp"],
+          "escribe": "vol_hp",
+          "catalogoCodigo": "UH003"
         },
         {
-          "id": "columnas",
-          "nombre": "Columnas de H°A°",
+          "id": "cimiento",
+          "nombre": "Cimiento corrido",
           "unidad": "m3",
-          "formulaTexto": "n_columnas * sec_columna * sec_columna * altura",
-          "lee": [
-            "n_columnas",
-            "sec_columna",
-            "altura"
-          ],
-          "escribe": "vol_columnas",
-          "catalogoCodigo": "C100"
+          "formulaTexto": "longitud_total * ancho_cimiento * h_cimiento",
+          "lee": ["longitud_total", "ancho_cimiento", "h_cimiento"],
+          "escribe": "vol_cimiento",
+          "catalogoCodigo": "UH004"
         },
         {
           "id": "sobrecimiento",
-          "nombre": "Sobrecimiento de H°C°",
+          "nombre": "Sobrecimiento",
           "unidad": "m3",
-          "formulaTexto": "perimetro * ancho_sobrecimiento * h_sobrecimiento",
-          "lee": [
-            "perimetro",
-            "ancho_sobrecimiento",
-            "h_sobrecimiento"
-          ],
+          "formulaTexto": "longitud_total * ancho_sobrecimiento * h_sobrecimiento",
+          "lee": ["longitud_total", "ancho_sobrecimiento", "h_sobrecimiento"],
           "escribe": "vol_sobrecimiento",
-          "catalogoCodigo": "S010"
+          "catalogoCodigo": "UH005"
         },
         {
-          "id": "viga_enc",
-          "nombre": "Viga de Encadenado de H°A°",
+          "id": "zapatas",
+          "nombre": "Zapata de H°A°",
           "unidad": "m3",
-          "formulaTexto": "perimetro * sec_viga * h_viga",
-          "lee": [
-            "perimetro",
-            "sec_viga",
-            "h_viga"
-          ],
-          "escribe": "vol_viga_enc",
-          "catalogoCodigo": "V010"
+          "formulaTexto": "ceil(longitud_total / separacion_columnas) * ancho_zapata * ancho_zapata * espesor_zapata",
+          "lee": ["longitud_total", "separacion_columnas", "ancho_zapata", "espesor_zapata"],
+          "escribe": "vol_zapatas",
+          "catalogoCodigo": "UH006"
+        },
+        {
+          "id": "columnas",
+          "nombre": "Columna de H°A°",
+          "unidad": "m3",
+          "formulaTexto": "ceil(longitud_total / separacion_columnas) * sec_columna * sec_columna * (altura_muro + h_sobrecimiento)",
+          "lee": ["longitud_total", "separacion_columnas", "sec_columna", "altura_muro", "h_sobrecimiento"],
+          "escribe": "vol_columnas",
+          "catalogoCodigo": "UH007"
+        },
+        {
+          "id": "viga_amarre",
+          "nombre": "Viga de amarre superior",
+          "unidad": "m3",
+          "formulaTexto": "longitud_total * sec_viga * h_viga",
+          "lee": ["longitud_total", "sec_viga", "h_viga"],
+          "escribe": "vol_viga",
+          "catalogoCodigo": "UH008"
         },
         {
           "id": "muro",
-          "nombre": "Muro de Ladrillo 6H (12 cm)",
+          "nombre": "Muro de ladrillo 6H",
           "unidad": "m2",
-          "formulaTexto": "perimetro * altura - n_columnas * sec_columna * altura",
-          "lee": [
-            "perimetro",
-            "altura",
-            "n_columnas",
-            "sec_columna"
-          ],
+          "formulaTexto": "longitud_total * altura_muro - ceil(longitud_total / separacion_columnas) * sec_columna * altura_muro",
+          "lee": ["longitud_total", "altura_muro", "separacion_columnas", "sec_columna"],
           "escribe": "area_muro",
-          "catalogoCodigo": "M050"
+          "catalogoCodigo": "UH009"
         }
       ],
       "aceroConfig": {
         "diametroLongitudinal": 10.0,
         "diametroEstribo": 6.0,
         "barrasPorColumna": 4,
-        "separacionEstribos": 0.2,
+        "separacionEstribos": 0.20,
         "recubrimiento": 0.025,
-        "doblez": 0.2,
+        "doblez": 0.20,
         "ganchoEstribo": 0.06,
         "longitudBarraComercial": 6.0
       },
       "zapataAceroConfig": {
         "diametro": 10.0,
-        "separacion": 0.1,
+        "separacion": 0.10,
         "recubrimiento": 0.02,
-        "doblez": 0.2,
+        "doblez": 0.20,
         "longitudBarraComercial": 6.0
       }
     }
