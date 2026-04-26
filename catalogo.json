@@ -24,7 +24,7 @@
       "codigo": "UH002",
       "nombre": "Excavación de zanjas",
       "tipoCalculo": "VOLUMEN",
-      "inputPrincipalLabel": "Largo × Ancho × Profundidad",
+      "inputPrincipalLabel": "Metro Lineal",
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
@@ -33,15 +33,15 @@
       ],
       "parametros": [
         { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "profundidad", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true }
+        { "nombre": "ancho", "valorDefault": 0.6, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "profundidad", "valorDefault": 0.6, "unidad": "m", "visiblePorDefecto": true }
       ]
     },
     {
       "codigo": "UH003",
       "nombre": "Capa de hormigón pobre",
       "tipoCalculo": "VOLUMEN",
-      "inputPrincipalLabel": "Largo × Ancho × Espesor",
+      "inputPrincipalLabel": "Metro Lineal",
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
@@ -55,15 +55,15 @@
       ],
       "parametros": [
         { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "espesor", "valorDefault": 0.1, "unidad": "m", "visiblePorDefecto": true }
+        { "nombre": "ancho", "valorDefault": 0.6, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "espesor", "valorDefault": 0.10, "unidad": "m", "visiblePorDefecto": true }
       ]
     },
     {
       "codigo": "UH004",
       "nombre": "Cimiento corrido",
       "tipoCalculo": "VOLUMEN",
-      "inputPrincipalLabel": "Largo × Ancho × Altura",
+      "inputPrincipalLabel": "Metro Lineal",
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
@@ -78,15 +78,15 @@
       ],
       "parametros": [
         { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "altura", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true }
+        { "nombre": "ancho", "valorDefault": 0.6, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "altura", "valorDefault": 0.6, "unidad": "m", "visiblePorDefecto": true }
       ]
     },
     {
       "codigo": "UH005",
       "nombre": "Sobrecimiento",
       "tipoCalculo": "VOLUMEN",
-      "inputPrincipalLabel": "Largo × Ancho × Altura",
+      "inputPrincipalLabel": "Metro Lineal",
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
@@ -104,15 +104,15 @@
       ],
       "parametros": [
         { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "altura", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true }
+        { "nombre": "ancho", "valorDefault": 0.15, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "altura", "valorDefault": 0.25, "unidad": "m", "visiblePorDefecto": true }
       ]
     },
     {
       "codigo": "UH006",
       "nombre": "Zapata de H°A°",
       "tipoCalculo": "VOLUMEN",
-      "inputPrincipalLabel": "Largo × Ancho × Espesor × Cantidad",
+      "inputPrincipalLabel": "Cantidad",
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
@@ -132,10 +132,9 @@
         { "nombre": "Vibradora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.5, "tipoCalculo": "DIRECTO", "baseCalculo": "" }
       ],
       "parametros": [
-        { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "espesor", "valorDefault": 0.3, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "cantidad", "valorDefault": 1, "unidad": "pza", "visiblePorDefecto": true }
+        { "nombre": "largo", "valorDefault": 1.2, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "ancho", "valorDefault": 1.2, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "espesor", "valorDefault": 0.3, "unidad": "m", "visiblePorDefecto": true }
       ]
     },
     {
@@ -171,7 +170,7 @@
       "codigo": "UH008",
       "nombre": "Viga de amarre superior",
       "tipoCalculo": "VOLUMEN",
-      "inputPrincipalLabel": "Largo × Sección",
+      "inputPrincipalLabel": "Metro Lineal",
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
@@ -192,14 +191,15 @@
       ],
       "parametros": [
         { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "seccion", "valorDefault": 0.2, "unidad": "m2", "visiblePorDefecto": true }
+        { "nombre": "ancho", "valorDefault": 0.35, "unidad": "m", "visiblePorDefecto": true },
+        { "nombre": "altura", "valorDefault": 0.2, "unidad": "m", "visiblePorDefecto": true }
       ]
     },
     {
       "codigo": "UH009",
       "nombre": "Muro de ladrillo 6H",
       "tipoCalculo": "AREA",
-      "inputPrincipalLabel": "Largo × Altura",
+      "inputPrincipalLabel": "Metro Lineal",
       "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
@@ -212,7 +212,7 @@
       ],
       "parametros": [
         { "nombre": "largo", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true },
-        { "nombre": "altura", "valorDefault": 2.5, "unidad": "m", "visiblePorDefecto": true }
+        { "nombre": "ancho", "valorDefault": 1, "unidad": "m", "visiblePorDefecto": true }
       ]
     }
   ]
