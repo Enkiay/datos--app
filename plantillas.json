@@ -100,11 +100,10 @@
           "id": "columnas",
           "nombre": "Columna de H°A°",
           "unidad": "m3",
-          "formulaTexto": "ceil(longitud_total / separacion_columnas) * sec_columna * sec_columna * (altura_muro + h_sobrecimiento)",
-          "lee": ["longitud_total", "separacion_columnas", "sec_columna", "altura_muro", "h_sobrecimiento"],
+          "formulaTexto": "ceil(longitud_total / separacion_columnas) * (altura_muro + h_sobrecimiento)",
+          "lee": ["longitud_total", "separacion_columnas", "altura_muro", "h_sobrecimiento"],
           "escribe": "vol_columnas",
           "catalogoCodigo": "UH007",
-          "parametrosItem": {"seccion": 1, "altura": 1, "cantidad": 1},
           "presetNombre": "25\u00d725"
         },
         {
@@ -124,8 +123,7 @@
           "formulaTexto": "longitud_total * altura_muro - ceil(longitud_total / separacion_columnas) * sec_columna * altura_muro",
           "lee": ["longitud_total", "altura_muro", "separacion_columnas", "sec_columna"],
           "escribe": "area_muro",
-          "catalogoCodigo": "UH009",
-          "parametrosItem": {"largo": 1, "ancho": 1}
+          "catalogoCodigo": "UH009"
         }
       ],
       "aceroConfig": {
