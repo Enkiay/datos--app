@@ -1,548 +1,194 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
       "nombre": "Cerramiento Perimetral",
-      "descripcion": "Muro de cerramiento con columnas de H°A°, vigas de encadenado, sobrecimiento, zapatas y mampostería de ladrillo 6H. Incluye desglose de acero.",
+      "descripcion": "Columnas, vigas de encadenado, sobrecimiento y muro de ladrillo 6H (12 cm). Incluye zapatas y excavación.",
       "inputsRequeridos": [
-        { "nombre": "longitud_total",     "label": "Longitud total del perímetro", "unidad": "m",   "default": 40.0 },
-        { "nombre": "cantidad_columnas",  "label": "Cantidad de columnas",         "unidad": "Pza", "default": 12 }
+        {
+          "nombre": "largo",
+          "label": "Largo del terreno",
+          "unidad": "m",
+          "default": 20.0
+        },
+        {
+          "nombre": "ancho",
+          "label": "Ancho del terreno",
+          "unidad": "m",
+          "default": 10.0
+        },
+        {
+          "nombre": "altura",
+          "label": "Altura del muro",
+          "unidad": "m",
+          "default": 2.5
+        }
       ],
       "parametrosEditables": [
-        { "nombre": "altura_muro",          "label": "Altura visible del muro",       "unidad": "m", "default": 2.50, "min": 1.5, "max": 4.0 },
-        { "nombre": "ancho_columna",        "label": "Ancho de columna",              "unidad": "m", "default": 0.20, "min": 0.15, "max": 0.40 },
-        { "nombre": "largo_columna",        "label": "Largo de columna",              "unidad": "m", "default": 0.20, "min": 0.15, "max": 0.40 },
-        { "nombre": "profundidad_zapata",   "label": "Profundidad de zapata",         "unidad": "m", "default": 0.40, "min": 0.25, "max": 0.80 },
-        { "nombre": "ancho_zapata",         "label": "Ancho de zapata",               "unidad": "m", "default": 0.50, "min": 0.30, "max": 1.00 },
-        { "nombre": "largo_zapata",         "label": "Largo de zapata",               "unidad": "m", "default": 0.50, "min": 0.30, "max": 1.00 },
-        { "nombre": "ancho_viga",           "label": "Ancho viga de encadenado",      "unidad": "m", "default": 0.20, "min": 0.15, "max": 0.30 },
-        { "nombre": "alto_viga",            "label": "Alto viga de encadenado",       "unidad": "m", "default": 0.20, "min": 0.15, "max": 0.30 },
-        { "nombre": "ancho_sobrec",         "label": "Ancho sobrecimiento",           "unidad": "m", "default": 0.20, "min": 0.15, "max": 0.30 },
-        { "nombre": "alto_sobrec",          "label": "Alto sobrecimiento",            "unidad": "m", "default": 0.30, "min": 0.20, "max": 0.50 }
+        {
+          "nombre": "sep_columnas",
+          "label": "Separación entre columnas",
+          "unidad": "m",
+          "default": 3.0,
+          "min": 2.0,
+          "max": 5.0
+        },
+        {
+          "nombre": "sec_columna",
+          "label": "Sección de columna",
+          "unidad": "m",
+          "default": 0.2,
+          "min": 0.15,
+          "max": 0.4
+        },
+        {
+          "nombre": "sec_viga",
+          "label": "Sección viga encadenado",
+          "unidad": "m",
+          "default": 0.2,
+          "min": 0.15,
+          "max": 0.3
+        },
+        {
+          "nombre": "h_viga",
+          "label": "Altura viga encadenado",
+          "unidad": "m",
+          "default": 0.2,
+          "min": 0.15,
+          "max": 0.4
+        },
+        {
+          "nombre": "prof_zapata",
+          "label": "Profundidad zapata",
+          "unidad": "m",
+          "default": 0.3,
+          "min": 0.2,
+          "max": 0.6
+        },
+        {
+          "nombre": "ancho_zapata",
+          "label": "Ancho zapata",
+          "unidad": "m",
+          "default": 0.4,
+          "min": 0.3,
+          "max": 0.8
+        },
+        {
+          "nombre": "h_sobrecimiento",
+          "label": "Altura sobrecimiento",
+          "unidad": "m",
+          "default": 0.3,
+          "min": 0.2,
+          "max": 0.6
+        },
+        {
+          "nombre": "ancho_sobrecimiento",
+          "label": "Ancho sobrecimiento",
+          "unidad": "m",
+          "default": 0.2,
+          "min": 0.15,
+          "max": 0.3
+        }
       ],
       "items": [
         {
           "id": "excavacion",
           "nombre": "Excavación para zapatas",
           "unidad": "m3",
-          "formulaTexto": "cantidad_columnas * ancho_zapata * largo_zapata * (profundidad_zapata + 0.10)",
-          "lee": ["cantidad_columnas", "ancho_zapata", "largo_zapata", "profundidad_zapata"],
-          "escribe": "volumen_excavacion",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "EX010",
-            "nombre": "Excavación Manual",
-            "tipoCalculo": "VOLUMEN",
-            "inputPrincipalLabel": "Volumen (m3)",
-            "unidadResultado": "m3",
-            "categoria": "Obra Gruesa",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Ayudante",             "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 3.5,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",  "tipoInsumo": "HERRAMIENTA",  "categoria": "Herramientas",  "rendimiento": 5.0,  "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": []
-          }
+          "formulaTexto": "n_columnas * ancho_zapata * ancho_zapata * prof_zapata",
+          "lee": [
+            "n_columnas",
+            "ancho_zapata",
+            "prof_zapata"
+          ],
+          "escribe": "vol_excavacion",
+          "catalogoCodigo": "EX010"
         },
         {
           "id": "zapatas",
           "nombre": "Zapatas de H°A°",
           "unidad": "m3",
-          "formulaTexto": "cantidad_columnas * ancho_zapata * largo_zapata * profundidad_zapata",
-          "lee": ["cantidad_columnas", "ancho_zapata", "largo_zapata", "profundidad_zapata"],
-          "escribe": "cantidad_zapatas",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "Z010",
-            "nombre": "Zapata de H°A°",
-            "tipoCalculo": "VOLUMEN",
-            "inputPrincipalLabel": "Volumen (m3)",
-            "unidadResultado": "m3",
-            "categoria": "Obra Gruesa",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",  "rendimiento": 350.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Fierro Corrugado",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",  "rendimiento": 40.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.45,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Grava Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.92,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Madera de Construcción","unidad": "P2",  "tipoInsumo": "MATERIAL",    "categoria": "Madera",         "rendimiento": 25.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Clavos",               "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Ferretería",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Alambre de Amarre",    "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",  "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Encofrador",           "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 6.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Armador",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 8.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 18.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 18.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Mezcladora",           "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Vibradora",            "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": [
-              { "nombre": "Ancho", "valorDefault": 0.50, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Largo", "valorDefault": 0.50, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Alto",  "valorDefault": 0.40, "unidad": "m", "visiblePorDefecto": true }
-            ]
-          }
+          "formulaTexto": "n_columnas * ancho_zapata * ancho_zapata * prof_zapata",
+          "lee": [
+            "n_columnas",
+            "ancho_zapata",
+            "prof_zapata"
+          ],
+          "escribe": "vol_zapatas",
+          "catalogoCodigo": "Z010"
         },
         {
           "id": "columnas",
           "nombre": "Columnas de H°A°",
           "unidad": "m3",
-          "formulaTexto": "cantidad_columnas * ancho_columna * largo_columna * (altura_muro + profundidad_zapata)",
-          "lee": ["cantidad_columnas", "ancho_columna", "largo_columna", "altura_muro", "profundidad_zapata"],
-          "escribe": "volumen_columnas",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "C100",
-            "nombre": "Columna de H°A°",
-            "tipoCalculo": "VOLUMEN",
-            "inputPrincipalLabel": "Volumen (m3)",
-            "unidadResultado": "m3",
-            "categoria": "Obra Gruesa",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",  "rendimiento": 350.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Fierro Corrugado",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",  "rendimiento": 125.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.45,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Grava Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.92,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Madera de Construcción","unidad": "P2",  "tipoInsumo": "MATERIAL",    "categoria": "Madera",         "rendimiento": 80.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Clavos",               "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Ferretería",     "rendimiento": 2.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Alambre de Amarre",    "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",  "rendimiento": 2.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Encofrador",           "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 16.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Armador",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 10.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 10.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 20.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Mezcladora",           "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Vibradora",            "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": [
-              { "nombre": "Ancho", "valorDefault": 0.20, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Largo", "valorDefault": 0.20, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Alto",  "valorDefault": 2.50, "unidad": "m", "visiblePorDefecto": true }
-            ]
-          }
+          "formulaTexto": "n_columnas * sec_columna * sec_columna * altura",
+          "lee": [
+            "n_columnas",
+            "sec_columna",
+            "altura"
+          ],
+          "escribe": "vol_columnas",
+          "catalogoCodigo": "C100"
         },
         {
           "id": "sobrecimiento",
           "nombre": "Sobrecimiento de H°C°",
           "unidad": "m3",
-          "formulaTexto": "longitud_total * ancho_sobrec * alto_sobrec",
-          "lee": ["longitud_total", "ancho_sobrec", "alto_sobrec"],
-          "escribe": "volumen_sobrecimiento",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "S010",
-            "nombre": "Sobrecimiento de H°C°",
-            "tipoCalculo": "VOLUMEN",
-            "inputPrincipalLabel": "Volumen (m3)",
-            "unidadResultado": "m3",
-            "categoria": "Obra Gruesa",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",  "rendimiento": 250.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.50,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Grava Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.85,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Piedra Bruta",          "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.50,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Madera de Construcción","unidad": "P2",  "tipoInsumo": "MATERIAL",    "categoria": "Madera",         "rendimiento": 6.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Clavos",               "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Ferretería",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 6.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 6.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Mezcladora",           "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": [
-              { "nombre": "Ancho", "valorDefault": 0.20, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Alto",  "valorDefault": 0.30, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Largo", "valorDefault": 1.00, "unidad": "m", "visiblePorDefecto": true }
-            ]
-          }
+          "formulaTexto": "perimetro * ancho_sobrecimiento * h_sobrecimiento",
+          "lee": [
+            "perimetro",
+            "ancho_sobrecimiento",
+            "h_sobrecimiento"
+          ],
+          "escribe": "vol_sobrecimiento",
+          "catalogoCodigo": "S010"
         },
         {
           "id": "viga_enc",
           "nombre": "Viga de Encadenado de H°A°",
           "unidad": "m3",
-          "formulaTexto": "longitud_total * ancho_viga * alto_viga",
-          "lee": ["longitud_total", "ancho_viga", "alto_viga"],
-          "escribe": "volumen_viga_enc",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "V010",
-            "nombre": "Viga de Encadenado de H°A°",
-            "tipoCalculo": "VOLUMEN",
-            "inputPrincipalLabel": "Volumen (m3)",
-            "unidadResultado": "m3",
-            "categoria": "Obra Gruesa",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",  "rendimiento": 350.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Fierro Corrugado",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",  "rendimiento": 120.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.45,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Grava Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.92,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Madera de Construcción","unidad": "P2",  "tipoInsumo": "MATERIAL",    "categoria": "Madera",         "rendimiento": 25.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Clavos",               "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Ferretería",     "rendimiento": 1.5,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Alambre de Amarre",    "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",  "rendimiento": 1.75,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Encofrador",           "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 17.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Armador",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 10.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 10.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 15.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Mezcladora",           "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Vibradora",            "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": [
-              { "nombre": "Ancho", "valorDefault": 0.20, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Alto",  "valorDefault": 0.20, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Largo", "valorDefault": 1.00, "unidad": "m", "visiblePorDefecto": true }
-            ]
-          }
+          "formulaTexto": "perimetro * sec_viga * h_viga",
+          "lee": [
+            "perimetro",
+            "sec_viga",
+            "h_viga"
+          ],
+          "escribe": "vol_viga_enc",
+          "catalogoCodigo": "V010"
         },
         {
           "id": "muro",
           "nombre": "Muro de Ladrillo 6H (12 cm)",
           "unidad": "m2",
-          "formulaTexto": "longitud_total * (altura_muro - alto_viga - alto_sobrec)",
-          "lee": ["longitud_total", "altura_muro", "alto_viga", "alto_sobrec"],
+          "formulaTexto": "perimetro * altura - n_columnas * sec_columna * altura",
+          "lee": [
+            "perimetro",
+            "altura",
+            "n_columnas",
+            "sec_columna"
+          ],
           "escribe": "area_muro",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "M050",
-            "nombre": "Muro de Ladrillo 6H (12 cm)",
-            "tipoCalculo": "AREA",
-            "inputPrincipalLabel": "Área de muro (m2)",
-            "unidadResultado": "m2",
-            "categoria": "Mampostería",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",         "rendimiento": 11.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Fina",            "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",             "rendimiento": 0.05,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ladrillo 6H 24x15x11", "unidad": "Pza", "tipoInsumo": "MATERIAL",    "categoria": "Ladrillos y Cerámicos", "rendimiento": 30.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",            "rendimiento": 1.5,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",         "rendimiento": 1.75,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",          "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": []
-          }
+          "catalogoCodigo": "M050"
         }
       ],
       "aceroConfig": {
         "diametroLongitudinal": 10.0,
         "diametroEstribo": 6.0,
         "barrasPorColumna": 4,
-        "separacionEstribos": 0.20,
+        "separacionEstribos": 0.2,
         "recubrimiento": 0.025,
-        "doblez": 0.20,
+        "doblez": 0.2,
         "ganchoEstribo": 0.06,
         "longitudBarraComercial": 6.0
       },
       "zapataAceroConfig": {
         "diametro": 10.0,
-        "separacion": 0.10,
+        "separacion": 0.1,
         "recubrimiento": 0.02,
-        "doblez": 0.20,
+        "doblez": 0.2,
         "longitudBarraComercial": 6.0
       }
-    },
-    {
-      "id": "losa-entrepiso",
-      "nombre": "Losa + Vigas (Entrepiso)",
-      "descripcion": "Losa de H°A° con vigas principales. Calcula volúmenes de hormigón en función del área y dimensiones de las vigas.",
-      "inputsRequeridos": [
-        { "nombre": "area_losa",        "label": "Área de la losa",               "unidad": "m2", "default": 60.0 },
-        { "nombre": "longitud_vigas",   "label": "Longitud total de vigas principales", "unidad": "m",  "default": 24.0 }
-      ],
-      "parametrosEditables": [
-        { "nombre": "espesor_losa",  "label": "Espesor de losa",       "unidad": "m", "default": 0.15, "min": 0.10, "max": 0.25 },
-        { "nombre": "ancho_viga_p",  "label": "Ancho viga principal",  "unidad": "m", "default": 0.20, "min": 0.15, "max": 0.40 },
-        { "nombre": "alto_viga_p",   "label": "Alto viga principal",   "unidad": "m", "default": 0.40, "min": 0.25, "max": 0.60 }
-      ],
-      "items": [
-        {
-          "id": "losa",
-          "nombre": "Losa de H°A°",
-          "unidad": "m3",
-          "formulaTexto": "area_losa * espesor_losa",
-          "lee": ["area_losa", "espesor_losa"],
-          "escribe": "volumen_losa",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "L010",
-            "nombre": "Losa de H°A°",
-            "tipoCalculo": "VOLUMEN",
-            "inputPrincipalLabel": "Volumen (m3)",
-            "unidadResultado": "m3",
-            "categoria": "Obra Gruesa",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",  "rendimiento": 350.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Fierro Corrugado",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",  "rendimiento": 60.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.45,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Grava Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.92,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Madera de Construcción","unidad": "P2",  "tipoInsumo": "MATERIAL",    "categoria": "Madera",         "rendimiento": 50.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Clavos",               "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Ferretería",     "rendimiento": 2.5,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Alambre de Amarre",    "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",  "rendimiento": 1.5,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Encofrador",           "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 14.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Armador",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 8.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 8.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 16.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Mezcladora",           "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Vibradora",            "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": [
-              { "nombre": "Ancho",   "valorDefault": 1.00, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Largo",   "valorDefault": 1.00, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Espesor", "valorDefault": 0.15, "unidad": "m", "visiblePorDefecto": true }
-            ]
-          }
-        },
-        {
-          "id": "vigas_principales",
-          "nombre": "Vigas Principales de H°A°",
-          "unidad": "m3",
-          "formulaTexto": "longitud_vigas * ancho_viga_p * (alto_viga_p - espesor_losa)",
-          "lee": ["longitud_vigas", "ancho_viga_p", "alto_viga_p", "espesor_losa"],
-          "escribe": "volumen_vigas_p",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "V020",
-            "nombre": "Viga de H°A°",
-            "tipoCalculo": "VOLUMEN",
-            "inputPrincipalLabel": "Volumen (m3)",
-            "unidadResultado": "m3",
-            "categoria": "Obra Gruesa",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",  "rendimiento": 350.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Fierro Corrugado",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",  "rendimiento": 120.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.45,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Grava Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.92,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Madera de Construcción","unidad": "P2",  "tipoInsumo": "MATERIAL",    "categoria": "Madera",         "rendimiento": 70.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Clavos",               "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Ferretería",     "rendimiento": 2.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Alambre de Amarre",    "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",  "rendimiento": 2.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Encofrador",           "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 18.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Armador",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 10.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 10.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 20.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Mezcladora",           "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Vibradora",            "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": [
-              { "nombre": "Ancho", "valorDefault": 0.20, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Alto",  "valorDefault": 0.40, "unidad": "m", "visiblePorDefecto": true },
-              { "nombre": "Largo", "valorDefault": 1.00, "unidad": "m", "visiblePorDefecto": true }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "habitacion-basica",
-      "nombre": "Habitación Básica",
-      "descripcion": "Una habitación rectangular con cimiento, sobrecimiento, muros de ladrillo, revoque interior, contrapiso y pintura. Ingrese las dimensiones del ambiente.",
-      "inputsRequeridos": [
-        { "nombre": "ancho_hab",  "label": "Ancho de habitación",  "unidad": "m", "default": 4.0 },
-        { "nombre": "largo_hab",  "label": "Largo de habitación",  "unidad": "m", "default": 5.0 }
-      ],
-      "parametrosEditables": [
-        { "nombre": "alto_muro",       "label": "Altura de muro",         "unidad": "m", "default": 2.80, "min": 2.40, "max": 3.50 },
-        { "nombre": "ancho_cimiento",  "label": "Ancho cimiento",         "unidad": "m", "default": 0.40, "min": 0.30, "max": 0.60 },
-        { "nombre": "alto_cimiento",   "label": "Alto cimiento",          "unidad": "m", "default": 0.50, "min": 0.30, "max": 0.80 },
-        { "nombre": "ancho_sobrec",    "label": "Ancho sobrecimiento",    "unidad": "m", "default": 0.20, "min": 0.15, "max": 0.30 },
-        { "nombre": "alto_sobrec",     "label": "Alto sobrecimiento",     "unidad": "m", "default": 0.30, "min": 0.20, "max": 0.50 }
-      ],
-      "items": [
-        {
-          "id": "excav_hab",
-          "nombre": "Excavación cimiento",
-          "unidad": "m3",
-          "formulaTexto": "2 * (ancho_hab + largo_hab) * ancho_cimiento * (alto_cimiento + 0.10)",
-          "lee": ["ancho_hab", "largo_hab", "ancho_cimiento", "alto_cimiento"],
-          "escribe": "vol_excav_hab",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "EX010",
-            "nombre": "Excavación Manual",
-            "tipoCalculo": "VOLUMEN",
-            "inputPrincipalLabel": "Volumen (m3)",
-            "unidadResultado": "m3",
-            "categoria": "Obra Gruesa",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Ayudante",             "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 3.5,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",  "tipoInsumo": "HERRAMIENTA",  "categoria": "Herramientas",  "rendimiento": 5.0,  "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": []
-          }
-        },
-        {
-          "id": "cimiento_hab",
-          "nombre": "Cimiento de H°C°",
-          "unidad": "m3",
-          "formulaTexto": "2 * (ancho_hab + largo_hab) * ancho_cimiento * alto_cimiento",
-          "lee": ["ancho_hab", "largo_hab", "ancho_cimiento", "alto_cimiento"],
-          "escribe": "vol_cimiento_hab",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "CI010",
-            "nombre": "Cimiento de H°C°",
-            "tipoCalculo": "VOLUMEN",
-            "inputPrincipalLabel": "Volumen (m3)",
-            "unidadResultado": "m3",
-            "categoria": "Obra Gruesa",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",  "rendimiento": 200.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.45,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Grava Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.80,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Piedra Bruta",          "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.50,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 4.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 8.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Mezcladora",           "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": []
-          }
-        },
-        {
-          "id": "sobrec_hab",
-          "nombre": "Sobrecimiento de H°C°",
-          "unidad": "m3",
-          "formulaTexto": "2 * (ancho_hab + largo_hab) * ancho_sobrec * alto_sobrec",
-          "lee": ["ancho_hab", "largo_hab", "ancho_sobrec", "alto_sobrec"],
-          "escribe": "vol_sobrec_hab",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "S010",
-            "nombre": "Sobrecimiento de H°C°",
-            "tipoCalculo": "VOLUMEN",
-            "inputPrincipalLabel": "Volumen (m3)",
-            "unidadResultado": "m3",
-            "categoria": "Obra Gruesa",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",  "rendimiento": 250.0, "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.50,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Grava Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.85,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Piedra Bruta",          "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.50,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Madera de Construcción","unidad": "P2",  "tipoInsumo": "MATERIAL",    "categoria": "Madera",         "rendimiento": 6.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Clavos",               "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Ferretería",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 6.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 6.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Mezcladora",           "unidad": "Hr",  "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria",     "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": []
-          }
-        },
-        {
-          "id": "muros_hab",
-          "nombre": "Muros de Ladrillo 6H (12 cm)",
-          "unidad": "m2",
-          "formulaTexto": "2 * (ancho_hab + largo_hab) * (alto_muro - alto_sobrec)",
-          "lee": ["ancho_hab", "largo_hab", "alto_muro", "alto_sobrec"],
-          "escribe": "area_muros_hab",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "M050",
-            "nombre": "Muro de Ladrillo 6H (12 cm)",
-            "tipoCalculo": "AREA",
-            "inputPrincipalLabel": "Área de muro (m2)",
-            "unidadResultado": "m2",
-            "categoria": "Mampostería",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",         "rendimiento": 11.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Fina",            "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",             "rendimiento": 0.05,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ladrillo 6H 24x15x11", "unidad": "Pza", "tipoInsumo": "MATERIAL",    "categoria": "Ladrillos y Cerámicos", "rendimiento": 30.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",            "rendimiento": 1.5,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",         "rendimiento": 1.75,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",          "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": []
-          }
-        },
-        {
-          "id": "revoque_hab",
-          "nombre": "Revoque Interior",
-          "unidad": "m2",
-          "formulaTexto": "2 * (ancho_hab + largo_hab) * (alto_muro - alto_sobrec)",
-          "lee": ["ancho_hab", "largo_hab", "alto_muro", "alto_sobrec"],
-          "escribe": "area_revoque_hab",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "R010",
-            "nombre": "Revoque Interior (Cemento-Arena)",
-            "tipoCalculo": "AREA",
-            "inputPrincipalLabel": "Área a revocar (m2)",
-            "unidadResultado": "m2",
-            "categoria": "Acabados",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",  "rendimiento": 5.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Fina",            "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.02,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 0.8,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 0.4,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": []
-          }
-        },
-        {
-          "id": "contrapiso_hab",
-          "nombre": "Contrapiso de Cemento",
-          "unidad": "m2",
-          "formulaTexto": "ancho_hab * largo_hab",
-          "lee": ["ancho_hab", "largo_hab"],
-          "escribe": "area_contrapiso_hab",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "CP010",
-            "nombre": "Contrapiso de Cemento",
-            "tipoCalculo": "AREA",
-            "inputPrincipalLabel": "Área (m2)",
-            "unidadResultado": "m2",
-            "categoria": "Acabados",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",  "rendimiento": 15.0,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Arena Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.04,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Grava Común",           "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",      "rendimiento": 0.06,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Albañil",              "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 0.8,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 1.0,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": []
-          }
-        },
-        {
-          "id": "pintura_hab",
-          "nombre": "Pintura Interior (2 manos)",
-          "unidad": "m2",
-          "formulaTexto": "2 * (ancho_hab + largo_hab) * (alto_muro - alto_sobrec)",
-          "lee": ["ancho_hab", "largo_hab", "alto_muro", "alto_sobrec"],
-          "escribe": "area_pintura_hab",
-          "parametrosItem": {},
-          "item": {
-            "codigo": "PI010",
-            "nombre": "Pintura Latex Interior (2 manos)",
-            "tipoCalculo": "AREA",
-            "inputPrincipalLabel": "Área a pintar (m2)",
-            "unidadResultado": "m2",
-            "categoria": "Acabados",
-            "verificado": true,
-            "insumos": [
-              { "nombre": "Pintura Latex Interior","unidad": "Lt",  "tipoInsumo": "MATERIAL",    "categoria": "Pinturas",       "rendimiento": 0.25,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Lija para Pared",      "unidad": "Pza", "tipoInsumo": "MATERIAL",    "categoria": "Pinturas",       "rendimiento": 0.15,  "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Pintor",               "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "Calificada",     "rendimiento": 0.2,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Ayudante",             "unidad": "Hr",  "tipoInsumo": "MANO_DE_OBRA","categoria": "No Calificada",  "rendimiento": 0.1,   "tipoCalculo": "DIRECTO",    "baseCalculo": "" },
-              { "nombre": "Herramientas Menores", "unidad": "%",   "tipoInsumo": "HERRAMIENTA", "categoria": "Herramientas",   "rendimiento": 5.0,   "tipoCalculo": "PORCENTAJE", "baseCalculo": "MO" }
-            ],
-            "parametros": []
-          }
-        }
-      ]
     }
   ]
 }
