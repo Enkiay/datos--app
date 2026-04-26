@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "items": [
     {
       "codigo": "C100",
@@ -10,7 +10,7 @@
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
-        { "nombre": "Cemento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",         "rendimiento": 350.0,  "tipoCalculo": "DIRECTO",     "baseCalculo": "" },
+        { "nombre": "Cemqqqento Portland",      "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Cemento y Cal",         "rendimiento": 350.0,  "tipoCalculo": "DIRECTO",     "baseCalculo": "" },
         { "nombre": "Fierro Corrugado",       "unidad": "Kg",  "tipoInsumo": "MATERIAL",    "categoria": "Acero y Metal",         "rendimiento": 125.0,  "tipoCalculo": "DIRECTO",     "baseCalculo": "" },
         { "nombre": "Arena Común",            "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",             "rendimiento": 0.45,   "tipoCalculo": "DIRECTO",     "baseCalculo": "" },
         { "nombre": "Grava Común",            "unidad": "m3",  "tipoInsumo": "MATERIAL",    "categoria": "Agregados",             "rendimiento": 0.92,   "tipoCalculo": "DIRECTO",     "baseCalculo": "" },
