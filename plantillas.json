@@ -4,7 +4,7 @@
     {
       "id": "cerramiento-perimetral",
       "nombre": "Cerramiento Perimetral",
-      "descripcion": "Estructura completa: excavación, H° pobre, cimiento, sobrecimiento, zapatas, columnas, viga de amarre y muro de ladrillo 6H.",
+      "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Incluye excavación de zanjas (40×60 cm), capa de hormigón pobre (40×5 cm), cimiento corrido (40×40 cm), sobrecimiento (20×30 cm), zapatas de H°A° (40×40×30 cm), columnas de H°A° (20×20 cm) con viga de amarre superior (20×20 cm). La altura de columnas se calcula automáticamente sumando la altura del muro más el sobrecimiento. Separación entre columnas configurable (2 a 6 m, default 4 m). El número de esquinas descuenta el solapamiento en las intersecciones de elementos lineales (default 4 para perímetro rectangular).",
       "inputsRequeridos": [
         {
           "nombre": "longitud_total",
@@ -17,6 +17,13 @@
           "label": "Altura del muro",
           "unidad": "m",
           "default": 2.5
+        },
+        {
+          "nombre": "numero_esquinas",
+          "label": "Número de esquinas",
+          "unidad": "und",
+          "default": 4.0,
+          "min": 0.0
         }
       ],
       "parametrosEditables": [
@@ -27,14 +34,6 @@
           "default": 4.0,
           "min": 2.0,
           "max": 6.0
-        },
-        {
-          "nombre": "sec_columna",
-          "label": "Lado sección columna",
-          "unidad": "m",
-          "default": 0.20,
-          "min": 0.15,
-          "max": 0.40
         },
         {
           "nombre": "h_sobrecimiento",
@@ -54,7 +53,20 @@
           "lee": ["longitud_total"],
           "escribe": "ml_excavacion",
           "catalogoCodigo": "UH002",
-          "presetNombre": "40\u00d760"
+          "presetNombre": "40\u00d760",
+          "descuentos": [
+            { "nombre": "Esquinas", "cantidadFormula": "numero_esquinas", "inputFormula": "0.40" }
+          ]
+        },
+        {
+          "id": "exc_zapatas",
+          "nombre": "Excavación para zapatas",
+          "unidad": "m3",
+          "formulaTexto": "ceil(longitud_total / separacion_columnas)",
+          "lee": ["longitud_total", "separacion_columnas"],
+          "escribe": "cant_exc_zapatas",
+          "catalogoCodigo": "UH002",
+          "parametrosItem": { "largo": 0.40, "ancho": 0.40, "profundidad": 0.30 }
         },
         {
           "id": "hp_capa",
@@ -64,7 +76,10 @@
           "lee": ["longitud_total"],
           "escribe": "ml_hp",
           "catalogoCodigo": "UH003",
-          "presetNombre": "40\u00d75cm"
+          "presetNombre": "40\u00d75cm",
+          "descuentos": [
+            { "nombre": "Esquinas", "cantidadFormula": "numero_esquinas", "inputFormula": "0.40" }
+          ]
         },
         {
           "id": "cimiento",
@@ -74,7 +89,10 @@
           "lee": ["longitud_total"],
           "escribe": "ml_cimiento",
           "catalogoCodigo": "UH004",
-          "presetNombre": "40\u00d740"
+          "presetNombre": "40\u00d740",
+          "descuentos": [
+            { "nombre": "Esquinas", "cantidadFormula": "numero_esquinas", "inputFormula": "0.40" }
+          ]
         },
         {
           "id": "sobrecimiento",
@@ -84,7 +102,11 @@
           "lee": ["longitud_total"],
           "escribe": "ml_sobrecimiento",
           "catalogoCodigo": "UH005",
-          "presetNombre": "20\u00d730"
+          "presetNombre": "20\u00d730",
+          "presetFormulas": { "altura": "h_sobrecimiento" },
+          "descuentos": [
+            { "nombre": "Esquinas", "cantidadFormula": "numero_esquinas", "inputFormula": "0.20" }
+          ]
         },
         {
           "id": "zapatas",
@@ -100,11 +122,12 @@
           "id": "columnas",
           "nombre": "Columna de H°A°",
           "unidad": "m3",
-          "formulaTexto": "ceil(longitud_total / separacion_columnas) * (altura_muro + h_sobrecimiento)",
+          "formulaTexto": "ceil(longitud_total / separacion_columnas)",
           "lee": ["longitud_total", "separacion_columnas", "altura_muro", "h_sobrecimiento"],
           "escribe": "vol_columnas",
           "catalogoCodigo": "UH007",
-          "presetNombre": "20\u00d720"
+          "presetNombre": "20\u00d720",
+          "presetFormulas": { "altura": "altura_muro + h_sobrecimiento" }
         },
         {
           "id": "viga_amarre",
@@ -114,16 +137,22 @@
           "lee": ["longitud_total"],
           "escribe": "ml_viga",
           "catalogoCodigo": "UH008",
-          "presetNombre": "20\u00d720"
+          "presetNombre": "20\u00d720",
+          "descuentos": [
+            { "nombre": "Esquinas", "cantidadFormula": "numero_esquinas", "inputFormula": "0.20" }
+          ]
         },
         {
           "id": "muro",
           "nombre": "Muro de ladrillo 6H",
           "unidad": "m2",
-          "formulaTexto": "longitud_total * altura_muro - ceil(longitud_total / separacion_columnas) * sec_columna * altura_muro",
-          "lee": ["longitud_total", "altura_muro", "separacion_columnas", "sec_columna"],
+          "formulaTexto": "longitud_total * altura_muro",
+          "lee": ["longitud_total", "altura_muro"],
           "escribe": "area_muro",
-          "catalogoCodigo": "UH009"
+          "catalogoCodigo": "UH009",
+          "descuentos": [
+            { "nombre": "Columnas", "cantidadFormula": "ceil(longitud_total / separacion_columnas)", "inputFormula": "0.20 * altura_muro" }
+          ]
         }
       ],
       "aceroConfig": {
