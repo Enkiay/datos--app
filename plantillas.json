@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "3.0",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -39,46 +39,88 @@
           "nombre": "h_sobrecimiento",
           "label": "Altura sobrecimiento",
           "unidad": "m",
-          "default": 0.30,
-          "min": 0.20,
-          "max": 0.60
+          "default": 0.3,
+          "min": 0.2,
+          "max": 0.6
         }
       ],
       "items": [
+        {
+          "id": "columnas",
+          "nombre": "Columna de H°A°",
+          "unidad": "m3",
+          "formulaTexto": "ceil(longitud_total / separacion_columnas)",
+          "lee": [
+            "longitud_total",
+            "separacion_columnas",
+            "altura_muro",
+            "h_sobrecimiento"
+          ],
+          "escribe": "cantidad_columnas",
+          "catalogoCodigo": "UH007",
+          "presetNombre": "20×20",
+          "computedOverrides": {
+            "altura": "altura_muro + h_sobrecimiento"
+          }
+        },
         {
           "id": "excavacion",
           "nombre": "Excavación de zanjas",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
-          "lee": ["longitud_total"],
+          "lee": [
+            "longitud_total",
+            "numero_esquinas"
+          ],
           "escribe": "ml_excavacion",
           "catalogoCodigo": "UH002",
-          "presetNombre": "40\u00d760",
+          "presetNombre": "40×60",
           "descuentos": [
-            { "nombre": "Esquinas", "cantidadFormula": "numero_esquinas", "inputFormula": "0.40" }
+            {
+              "nombre": "Esquinas",
+              "factorFormula": "numero_esquinas",
+              "overrides": {
+                "largo": "0.40"
+              }
+            }
           ]
         },
         {
           "id": "exc_zapatas",
           "nombre": "Excavación para zapatas",
           "unidad": "m3",
-          "formulaTexto": "ceil(longitud_total / separacion_columnas)",
-          "lee": ["longitud_total", "separacion_columnas"],
+          "formulaTexto": "cantidad_columnas",
+          "lee": [
+            "cantidad_columnas"
+          ],
           "escribe": "cant_exc_zapatas",
           "catalogoCodigo": "UH002",
-          "parametrosItem": { "largo": 0.40, "ancho": 0.40, "profundidad": 0.30 }
+          "parametrosItem": {
+            "largo": 0.4,
+            "ancho": 0.4,
+            "profundidad": 0.3
+          }
         },
         {
           "id": "hp_capa",
           "nombre": "Capa de hormigón pobre",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
-          "lee": ["longitud_total"],
+          "lee": [
+            "longitud_total",
+            "numero_esquinas"
+          ],
           "escribe": "ml_hp",
           "catalogoCodigo": "UH003",
-          "presetNombre": "40\u00d75cm",
+          "presetNombre": "40×5cm",
           "descuentos": [
-            { "nombre": "Esquinas", "cantidadFormula": "numero_esquinas", "inputFormula": "0.40" }
+            {
+              "nombre": "Esquinas",
+              "factorFormula": "numero_esquinas",
+              "overrides": {
+                "largo": "0.40"
+              }
+            }
           ]
         },
         {
@@ -86,12 +128,21 @@
           "nombre": "Cimiento corrido",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
-          "lee": ["longitud_total"],
+          "lee": [
+            "longitud_total",
+            "numero_esquinas"
+          ],
           "escribe": "ml_cimiento",
           "catalogoCodigo": "UH004",
-          "presetNombre": "40\u00d740",
+          "presetNombre": "40×40",
           "descuentos": [
-            { "nombre": "Esquinas", "cantidadFormula": "numero_esquinas", "inputFormula": "0.40" }
+            {
+              "nombre": "Esquinas",
+              "factorFormula": "numero_esquinas",
+              "overrides": {
+                "largo": "0.40"
+              }
+            }
           ]
         },
         {
@@ -99,47 +150,58 @@
           "nombre": "Sobrecimiento",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
-          "lee": ["longitud_total"],
+          "lee": [
+            "longitud_total",
+            "numero_esquinas"
+          ],
           "escribe": "ml_sobrecimiento",
           "catalogoCodigo": "UH005",
-          "presetNombre": "20\u00d730",
-          "presetFormulas": { "altura": "h_sobrecimiento" },
+          "presetNombre": "20×30",
+          "computedOverrides": {
+            "altura": "h_sobrecimiento"
+          },
           "descuentos": [
-            { "nombre": "Esquinas", "cantidadFormula": "numero_esquinas", "inputFormula": "0.20" }
+            {
+              "nombre": "Esquinas",
+              "factorFormula": "numero_esquinas",
+              "overrides": {
+                "largo": "0.20"
+              }
+            }
           ]
         },
         {
           "id": "zapatas",
           "nombre": "Zapata de H°A°",
           "unidad": "m3",
-          "formulaTexto": "ceil(longitud_total / separacion_columnas)",
-          "lee": ["longitud_total", "separacion_columnas"],
-          "escribe": "cant_zapatas",
+          "formulaTexto": "cantidad_columnas",
+          "lee": [
+            "cantidad_columnas"
+          ],
+          "escribe": "cantidad_zapatas",
           "catalogoCodigo": "UH006",
-          "presetNombre": "40\u00d740\u00d730"
-        },
-        {
-          "id": "columnas",
-          "nombre": "Columna de H°A°",
-          "unidad": "m3",
-          "formulaTexto": "ceil(longitud_total / separacion_columnas)",
-          "lee": ["longitud_total", "separacion_columnas", "altura_muro", "h_sobrecimiento"],
-          "escribe": "vol_columnas",
-          "catalogoCodigo": "UH007",
-          "presetNombre": "20\u00d720",
-          "presetFormulas": { "altura": "altura_muro + h_sobrecimiento" }
+          "presetNombre": "40×40×30"
         },
         {
           "id": "viga_amarre",
           "nombre": "Viga de amarre superior",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
-          "lee": ["longitud_total"],
+          "lee": [
+            "longitud_total",
+            "numero_esquinas"
+          ],
           "escribe": "ml_viga",
           "catalogoCodigo": "UH008",
-          "presetNombre": "20\u00d720",
+          "presetNombre": "20×20",
           "descuentos": [
-            { "nombre": "Esquinas", "cantidadFormula": "numero_esquinas", "inputFormula": "0.20" }
+            {
+              "nombre": "Esquinas",
+              "factorFormula": "numero_esquinas",
+              "overrides": {
+                "largo": "0.20"
+              }
+            }
           ]
         },
         {
@@ -147,11 +209,22 @@
           "nombre": "Muro de ladrillo 6H",
           "unidad": "m2",
           "formulaTexto": "longitud_total * altura_muro",
-          "lee": ["longitud_total", "altura_muro"],
+          "lee": [
+            "longitud_total",
+            "altura_muro",
+            "cantidad_columnas"
+          ],
           "escribe": "area_muro",
           "catalogoCodigo": "UH009",
           "descuentos": [
-            { "nombre": "Columnas", "cantidadFormula": "ceil(longitud_total / separacion_columnas)", "inputFormula": "0.20 * altura_muro" }
+            {
+              "nombre": "Columnas",
+              "factorFormula": "cantidad_columnas",
+              "overrides": {
+                "largo": "0.20",
+                "ancho": "altura_muro"
+              }
+            }
           ]
         }
       ],
@@ -159,17 +232,17 @@
         "diametroLongitudinal": 10.0,
         "diametroEstribo": 6.0,
         "barrasPorColumna": 4,
-        "separacionEstribos": 0.20,
+        "separacionEstribos": 0.2,
         "recubrimiento": 0.025,
-        "doblez": 0.20,
+        "doblez": 0.2,
         "ganchoEstribo": 0.06,
         "longitudBarraComercial": 6.0
       },
       "zapataAceroConfig": {
         "diametro": 10.0,
-        "separacion": 0.10,
+        "separacion": 0.1,
         "recubrimiento": 0.02,
-        "doblez": 0.20,
+        "doblez": 0.2,
         "longitudBarraComercial": 6.0
       }
     }
