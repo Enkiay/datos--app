@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 1,
+  "minAppVersion": "1.0.0",
+  "resources": {
+    "catalogo": {
+      "version": "v1.0",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items.json"
+    },
+    "precios": {
+      "version": "v1.0",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales.json"
+    },
+    "plantillas": {
+      "version": "v1.0",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/plantillas/v1.0/index.json"
+    },
+    "proyectosCompartidos": {
+      "version": "v1.0",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/proyectos/v1.0/indice.json"
+    }
+  }
+}
