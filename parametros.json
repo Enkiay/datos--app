@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "paises": [
+    {
+      "codigo": "BO",
+      "nombre": "Bolivia",
+      "moneda": "Bs.",
+      "locale": "es-BO",
+      "porcentajeUtilidadDefault": 10.0,
+      "porcentajeImprevistosDefault": 5.0,
+      "porcentajeIVADefault": 14.94,
+      "porcentajeGastosGeneralesDefault": 7.0,
+      "porcentajeCargasSocialesDefault": 30.0,
+      "porcentajeImpTransaccionesDefault": 3.09,
+      "porcentajeHerramientasMenoresDefault": 5.0,
+      "cadenaCalculo": "SABS",
+      "configJson": ""
+    }
+  ],
+  "pdfs": [
+    {
+      "codigo": "SABS_BO",
+      "nombre": "SABS — Bolivia (B-1/B-2/A-8)",
+      "paisCodigo": "BO",
+      "tamanoPagina": "CARTA",
+      "orientacion": "PORTRAIT",
+      "marginTop": 57.0,
+      "marginBottom": 57.0,
+      "marginLeft": 71.0,
+      "marginRight": 57.0,
+      "configJson": "{\"formularios\":[\"B-1\",\"B-2\",\"A-8\"],\"moneda_simbolo\":\"Bs.\",\"decimales_total\":2,\"decimales_apu\":4,\"page_w\":612,\"page_h\":792,\"text_width\":484}"
+    }
+  ]
+}

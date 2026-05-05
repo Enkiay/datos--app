@@ -21,6 +21,10 @@
     "proyectosCompartidos": {
       "version": "v1.0",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/proyectos/v1.0/indice.json"
+    },
+    "parametros": {
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/parametros.json"
     }
   }
 }
