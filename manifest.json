@@ -6,6 +6,10 @@
       "version": "v1.0",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items.json"
     },
+    "catalogo_BO": {
+      "version": "v1.0",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_BO.json"
+    },
     "precios": {
       "version": "v1.0",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales.json"
