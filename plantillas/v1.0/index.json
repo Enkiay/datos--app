@@ -1,23 +1,29 @@
 {
-  "version": 3.3,
+  "version": 3.4,
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
       "premium": false,
       "nombre": "Cerramiento Perimetral",
-      "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Incluye excavación de zanjas (40×60 cm), capa de hormigón pobre (40×5 cm), cimiento corrido (40×40 cm), sobrecimiento (20×30 cm), zapatas de H°A° (40×40×30 cm) y columnas de H°A° (20×20 cm). Soporta aberturas para portones vehiculares y puertas peatonales: las aberturas descuentan automáticamente del muro y sobrecimiento; la fundación (excavación, H°P°, cimiento) continúa bajo las aberturas. Separación entre columnas configurable (2 a 6 m, default 4 m). El número de esquinas descuenta el solapamiento en las intersecciones de elementos lineales (default 4 para perímetro rectangular).",
+      "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Geometría rectangular ortogonal definida por perímetro total y lado mayor (el lado menor se calcula automáticamente). Incluye excavación de zanjas (40×60 cm), capa de hormigón pobre (40×5 cm), cimiento corrido (40×40 cm), sobrecimiento (20×30 cm) y columnas de H°A° (20×20 cm). Las aberturas (portones vehiculares y puertas peatonales) descuentan automáticamente del muro y sobrecimiento; la fundación (excavación, H°P°, cimiento) continúa bajo las aberturas. Las columnas se distribuyen respetando las 4 esquinas obligatorias y la separación configurable (default 4 m).",
       "inputsRequeridos": [
         {
           "nombre": "longitud_total",
-          "label": "Longitud total del muro",
+          "label": "Perímetro total (suma de lados)",
           "unidad": "m",
-          "default": 0.0
+          "default": 40.0
         },
         {
           "nombre": "altura_muro",
           "label": "Altura del muro",
           "unidad": "m",
           "default": 2.5
+        },
+        {
+          "nombre": "lado_mayor",
+          "label": "Lado mayor",
+          "unidad": "m",
+          "default": 10.0
         }
       ],
       "parametrosEditables": [
@@ -70,14 +76,6 @@
           "max": 2.5
         },
         {
-          "nombre": "numero_esquinas",
-          "label": "Número de esquinas",
-          "unidad": "und",
-          "default": 4.0,
-          "min": 0.0,
-          "max": 20.0
-        },
-        {
           "nombre": "separacion_columnas",
           "label": "Separación entre columnas",
           "unidad": "m",
@@ -101,8 +99,7 @@
           "unidad": "m3",
           "formulaTexto": "longitud_total",
           "lee": [
-            "longitud_total",
-            "numero_esquinas"
+            "longitud_total"
           ],
           "escribe": "ml_excavacion",
           "catalogoCodigo": "UH002",
@@ -110,28 +107,12 @@
           "descuentos": [
             {
               "nombre": "Esquinas",
-              "factorFormula": "numero_esquinas",
+              "factorFormula": "4",
               "overrides": {
                 "largo": "0.40"
               }
             }
           ]
-        },
-        {
-          "id": "exc_zapatas",
-          "nombre": "Excavación para zapatas",
-          "unidad": "m3",
-          "formulaTexto": "cantidad_columnas",
-          "lee": [
-            "cantidad_columnas"
-          ],
-          "escribe": "cant_exc_zapatas",
-          "catalogoCodigo": "UH002",
-          "parametrosItem": {
-            "largo": 0.4,
-            "ancho": 0.4,
-            "profundidad": 0.3
-          }
         },
         {
           "id": "hp_capa",
@@ -139,8 +120,7 @@
           "unidad": "m3",
           "formulaTexto": "longitud_total",
           "lee": [
-            "longitud_total",
-            "numero_esquinas"
+            "longitud_total"
           ],
           "escribe": "ml_hp",
           "catalogoCodigo": "UH003",
@@ -148,7 +128,7 @@
           "descuentos": [
             {
               "nombre": "Esquinas",
-              "factorFormula": "numero_esquinas",
+              "factorFormula": "4",
               "overrides": {
                 "largo": "0.40"
               }
@@ -156,25 +136,12 @@
           ]
         },
         {
-          "id": "zapatas",
-          "nombre": "Zapata de H°A°",
-          "unidad": "m3",
-          "formulaTexto": "cantidad_columnas",
-          "lee": [
-            "cantidad_columnas"
-          ],
-          "escribe": "cantidad_zapatas",
-          "catalogoCodigo": "UH006",
-          "presetNombre": "40×40×30"
-        },
-        {
           "id": "cimiento",
           "nombre": "Cimiento corrido",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
           "lee": [
-            "longitud_total",
-            "numero_esquinas"
+            "longitud_total"
           ],
           "escribe": "ml_cimiento",
           "catalogoCodigo": "UH004",
@@ -182,7 +149,7 @@
           "descuentos": [
             {
               "nombre": "Esquinas",
-              "factorFormula": "numero_esquinas",
+              "factorFormula": "4",
               "overrides": {
                 "largo": "0.40"
               }
@@ -193,9 +160,10 @@
           "id": "columnas",
           "nombre": "Columna de H°A°",
           "unidad": "m3",
-          "formulaTexto": "ceil(longitud_total / separacion_columnas)",
+          "formulaTexto": "2*ceil(lado_mayor/separacion_columnas) + 2*ceil((longitud_total/2 - lado_mayor)/separacion_columnas)",
           "lee": [
             "longitud_total",
+            "lado_mayor",
             "separacion_columnas",
             "altura_muro",
             "h_sobrecimiento"
@@ -214,7 +182,6 @@
           "formulaTexto": "longitud_total",
           "lee": [
             "longitud_total",
-            "numero_esquinas",
             "numero_portones",
             "ancho_porton",
             "numero_puertas",
@@ -229,7 +196,7 @@
           "descuentos": [
             {
               "nombre": "Esquinas",
-              "factorFormula": "numero_esquinas",
+              "factorFormula": "4",
               "overrides": {
                 "largo": "0.20"
               }
