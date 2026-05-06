@@ -1,5 +1,5 @@
 {
-  "version": 3.4,
+  "version": 3.5,
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -160,7 +160,7 @@
           "id": "columnas",
           "nombre": "Columna de H°A°",
           "unidad": "m3",
-          "formulaTexto": "2*ceil(lado_mayor/separacion_columnas) + 2*ceil((longitud_total/2 - lado_mayor)/separacion_columnas)",
+          "formulaTexto": "2*ceil(lado_mayor/(separacion_columnas*1.15)) + 2*ceil((longitud_total/2 - lado_mayor)/(separacion_columnas*1.15))",
           "lee": [
             "longitud_total",
             "lado_mayor",
