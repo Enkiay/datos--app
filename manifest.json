@@ -18,6 +18,10 @@
       "version": "v3.8",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/plantillas/v1.0/index.json"
     },
+    "plantillas_dev": {
+      "version": "v1.0-dev-cerramiento4modos",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/plantillas_dev/v1.0/index.json"
+    },
     "proyectosCompartidos": {
       "version": "v1.0",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/proyectos/v1.0/indice.json"

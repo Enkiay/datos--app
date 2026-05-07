@@ -1,0 +1,373 @@
+{
+  "version": "4.0",
+  "plantillas": [
+    {
+      "id": "cerramiento-perimetral",
+      "version": 4,
+      "premium": false,
+      "nombre": "Cerramiento Perimetral",
+      "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Soporta 4 geometrías: Lineal (un solo tramo), L (dos tramos), U (tres tramos), o Cerrado (perímetro completo de 4 lados). Las esquinas se calculan automáticamente según la forma elegida; agrega esquinas adicionales si tu geometría es más compleja. Incluye excavación, capa de H°P° (40×5 cm), cimiento corrido (40×40), sobrecimiento (20×30), zapatas H°A° (40×40×30) y columnas H°A° (20×20). Aberturas (portones, puertas) descuentan del muro y sobrecimiento; la fundación continúa bajo ellas.",
+      "diagrama": "  col 20×20    muro ladrillo 6H     col\n  ┌──┐┌──────────────────────────┐┌──┐\n  │  ││  ┌──────────────────┐   ││  │ ← altura_muro\n  │  ││  │   portón/puerta  │   ││  │\n  │  ││  │                  │   ││  │\n  ├──┤├──┴──────────────────┴───┤├──┤\n  │SC││    sobrecimiento 20×30  ││SC│ ← h_sobrecimiento\n  ├──┤├─────────────────────────┤├──┤\n  │  ││   cimiento 40×40        ││  │\n  ├──┤├─────────────────────────┤├──┤\n  │ZP││   H°P° 40×5cm           ││ZP│\n  └──┘└─────────────────────────┘└──┘\n  zap.     excavación 40×60      zap.\n  40×40                          40×40",
+      "inputsRequeridos": [
+        {
+          "nombre": "tipo_geometria",
+          "label": "Forma del cerco",
+          "unidad": "",
+          "default": 4.0,
+          "opciones": [
+            { "valor": 1.0, "label": "Lineal" },
+            { "valor": 2.0, "label": "L" },
+            { "valor": 3.0, "label": "U" },
+            { "valor": 4.0, "label": "Cerrado" }
+          ]
+        },
+        {
+          "nombre": "longitud_total",
+          "label": "Longitud total del muro",
+          "unidad": "m",
+          "default": 0.0
+        },
+        {
+          "nombre": "altura_muro",
+          "label": "Altura del muro",
+          "unidad": "m",
+          "default": 2.5
+        }
+      ],
+      "parametrosEditables": [
+        {
+          "nombre": "numero_portones",
+          "label": "Portones vehiculares",
+          "unidad": "und",
+          "default": 1.0,
+          "min": 0.0,
+          "max": 4.0
+        },
+        {
+          "nombre": "ancho_porton",
+          "label": "Ancho de portón",
+          "unidad": "m",
+          "default": 3.60,
+          "min": 2.0,
+          "max": 6.0
+        },
+        {
+          "nombre": "alto_porton",
+          "label": "Alto de portón",
+          "unidad": "m",
+          "default": 2.40,
+          "min": 1.80,
+          "max": 3.0
+        },
+        {
+          "nombre": "numero_puertas",
+          "label": "Puertas peatonales",
+          "unidad": "und",
+          "default": 1.0,
+          "min": 0.0,
+          "max": 6.0
+        },
+        {
+          "nombre": "ancho_puerta",
+          "label": "Ancho de puerta",
+          "unidad": "m",
+          "default": 1.0,
+          "min": 0.70,
+          "max": 1.20
+        },
+        {
+          "nombre": "alto_puerta",
+          "label": "Alto de puerta",
+          "unidad": "m",
+          "default": 2.10,
+          "min": 1.80,
+          "max": 2.50
+        },
+        {
+          "nombre": "esquinas_extra",
+          "label": "Esquinas adicionales",
+          "unidad": "und",
+          "default": 0.0,
+          "min": 0.0,
+          "max": 16.0
+        },
+        {
+          "nombre": "separacion_columnas",
+          "label": "Separación entre columnas",
+          "unidad": "m",
+          "default": 4.0,
+          "min": 2.0,
+          "max": 6.0
+        },
+        {
+          "nombre": "h_sobrecimiento",
+          "label": "Altura sobrecimiento",
+          "unidad": "m",
+          "default": 0.30,
+          "min": 0.20,
+          "max": 0.60
+        }
+      ],
+      "variablesCalculadas": {
+        "esquinas_implicitas": "if(tipo_geometria == 1, 0, if(tipo_geometria == 2, 1, if(tipo_geometria == 3, 2, 4)))",
+        "esquinas_efectivas": "esquinas_implicitas + esquinas_extra",
+        "extremos_abiertos": "if(tipo_geometria == 4, 0, 1)"
+      },
+      "items": [
+        {
+          "id": "excavacion",
+          "nombre": "Excavación de zanjas",
+          "unidad": "m3",
+          "formulaTexto": "longitud_total",
+          "lee": ["longitud_total", "esquinas_efectivas"],
+          "escribe": "ml_excavacion",
+          "catalogoCodigo": "UH002",
+          "presetNombre": "40×60",
+          "descuentos": [
+            { "nombre": "Esquinas", "factorFormula": "esquinas_efectivas", "overrides": { "largo": "0.40" } }
+          ]
+        },
+        {
+          "id": "exc_zapatas",
+          "nombre": "Excavación para zapatas",
+          "unidad": "m3",
+          "formulaTexto": "cantidad_columnas",
+          "lee": ["cantidad_columnas"],
+          "escribe": "cant_exc_zapatas",
+          "catalogoCodigo": "UH002",
+          "parametrosItem": { "largo": 0.40, "ancho": 0.40, "profundidad": 0.30 }
+        },
+        {
+          "id": "hp_capa",
+          "nombre": "Capa de hormigón pobre",
+          "unidad": "m3",
+          "formulaTexto": "longitud_total",
+          "lee": ["longitud_total", "esquinas_efectivas"],
+          "escribe": "ml_hp",
+          "catalogoCodigo": "UH003",
+          "presetNombre": "40×5cm",
+          "descuentos": [
+            { "nombre": "Esquinas", "factorFormula": "esquinas_efectivas", "overrides": { "largo": "0.40" } }
+          ]
+        },
+        {
+          "id": "zapatas",
+          "nombre": "Zapata de H°A°",
+          "unidad": "m3",
+          "formulaTexto": "cantidad_columnas",
+          "lee": ["cantidad_columnas"],
+          "escribe": "cantidad_zapatas",
+          "catalogoCodigo": "UH006",
+          "presetNombre": "40×40×30"
+        },
+        {
+          "id": "cimiento",
+          "nombre": "Cimiento corrido",
+          "unidad": "m3",
+          "formulaTexto": "longitud_total",
+          "lee": ["longitud_total", "esquinas_efectivas"],
+          "escribe": "ml_cimiento",
+          "catalogoCodigo": "UH004",
+          "presetNombre": "40×40",
+          "descuentos": [
+            { "nombre": "Esquinas", "factorFormula": "esquinas_efectivas", "overrides": { "largo": "0.40" } }
+          ]
+        },
+        {
+          "id": "columnas",
+          "nombre": "Columna de H°A°",
+          "unidad": "m3",
+          "formulaTexto": "ceil(longitud_total / separacion_columnas) + extremos_abiertos",
+          "lee": ["longitud_total", "separacion_columnas", "altura_muro", "h_sobrecimiento", "extremos_abiertos"],
+          "escribe": "cantidad_columnas",
+          "catalogoCodigo": "UH007",
+          "presetNombre": "20×20",
+          "computedOverrides": { "altura": "altura_muro + h_sobrecimiento" }
+        },
+        {
+          "id": "sobrecimiento",
+          "nombre": "Sobrecimiento",
+          "unidad": "m3",
+          "formulaTexto": "longitud_total",
+          "lee": ["longitud_total", "esquinas_efectivas", "numero_portones", "ancho_porton", "numero_puertas", "ancho_puerta"],
+          "escribe": "ml_sobrecimiento",
+          "catalogoCodigo": "UH005",
+          "presetNombre": "20×30",
+          "computedOverrides": { "altura": "h_sobrecimiento" },
+          "descuentos": [
+            { "nombre": "Esquinas", "factorFormula": "esquinas_efectivas", "overrides": { "largo": "0.20" } },
+            { "nombre": "Portones", "factorFormula": "numero_portones", "overrides": { "largo": "ancho_porton" } },
+            { "nombre": "Puertas", "factorFormula": "numero_puertas", "overrides": { "largo": "ancho_puerta" } }
+          ]
+        },
+        {
+          "id": "muro",
+          "nombre": "Muro de ladrillo 6H",
+          "unidad": "m2",
+          "formulaTexto": "longitud_total * altura_muro",
+          "lee": ["longitud_total", "altura_muro", "cantidad_columnas", "numero_portones", "ancho_porton", "alto_porton", "numero_puertas", "ancho_puerta", "alto_puerta"],
+          "escribe": "area_muro",
+          "catalogoCodigo": "UH009",
+          "descuentos": [
+            { "nombre": "Columnas", "factorFormula": "cantidad_columnas", "overrides": { "largo": "0.20", "ancho": "altura_muro" } },
+            { "nombre": "Portones", "factorFormula": "numero_portones", "overrides": { "largo": "ancho_porton", "ancho": "min(alto_porton, altura_muro)" } },
+            { "nombre": "Puertas", "factorFormula": "numero_puertas", "overrides": { "largo": "ancho_puerta", "ancho": "min(alto_puerta, altura_muro)" } }
+          ]
+        }
+      ],
+      "aceroConfig": {
+        "diametroLongitudinal": 10.0,
+        "diametroEstribo": 6.0,
+        "barrasPorColumna": 4,
+        "separacionEstribos": 0.20,
+        "recubrimiento": 0.025,
+        "doblez": 0.20,
+        "ganchoEstribo": 0.06,
+        "longitudBarraComercial": 6.0
+      },
+      "zapataAceroConfig": {
+        "diametro": 10.0,
+        "separacion": 0.10,
+        "recubrimiento": 0.02,
+        "doblez": 0.20,
+        "longitudBarraComercial": 6.0
+      }
+    },
+    {
+      "id": "losa-entrepiso",
+      "premium": false,
+      "nombre": "Losa Alivianada de Entrepiso",
+      "descripcion": "Losa alivianada de entrepiso con viguetas y carpeta de compresión de H°A° (e = 5 cm). Incluye encofrado inferior (apuntalamiento y tablones), losa alivianada por m² (viguetas + plastoformo/casetón + carpeta de compresión + armadura de reparto), y vigas perimetrales de H°A° con sección configurable (ancho y peralte). El área del entrepiso se define por largo y ancho. Se descuenta automáticamente el área ocupada por las vigas del cómputo de losa alivianada.",
+      "inputsRequeridos": [
+        {
+          "nombre": "largo_losa",
+          "label": "Largo del entrepiso",
+          "unidad": "m",
+          "default": 0.0
+        },
+        {
+          "nombre": "ancho_losa",
+          "label": "Ancho del entrepiso",
+          "unidad": "m",
+          "default": 0.0
+        }
+      ],
+      "parametrosEditables": [
+        {
+          "nombre": "ancho_viga",
+          "label": "Ancho de vigas",
+          "unidad": "m",
+          "default": 0.25,
+          "min": 0.15,
+          "max": 0.40
+        },
+        {
+          "nombre": "alto_viga",
+          "label": "Peralte de vigas",
+          "unidad": "m",
+          "default": 0.40,
+          "min": 0.25,
+          "max": 0.60
+        }
+      ],
+      "items": [
+        {
+          "id": "encofrado_losa",
+          "nombre": "Encofrado de Losa",
+          "unidad": "m2",
+          "formulaTexto": "largo_losa * ancho_losa",
+          "lee": ["largo_losa", "ancho_losa"],
+          "escribe": "area_encofrado",
+          "catalogoCodigo": "UH010",
+          "item": {
+            "codigo": "UH010",
+            "nombre": "Encofrado de Losa",
+            "tipoCalculo": "CANTIDAD",
+            "inputPrincipalLabel": "Área m²",
+            "unidadResultado": "m2",
+            "categoria": "Obra Gruesa",
+            "insumos": [
+              { "nombre": "Madera de Construcción", "unidad": "P2", "tipoInsumo": "MATERIAL", "categoria": "Madera", "rendimiento": 3.50, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Clavos", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Ferretería", "rendimiento": 0.15, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Encofrador", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 0.50, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 0.50, "tipoCalculo": "DIRECTO" }
+            ]
+          }
+        },
+        {
+          "id": "losa_alivianada",
+          "nombre": "Losa Alivianada H°A°",
+          "unidad": "m2",
+          "formulaTexto": "largo_losa * ancho_losa",
+          "lee": ["largo_losa", "ancho_losa", "ancho_viga"],
+          "escribe": "area_losa",
+          "catalogoCodigo": "UH011",
+          "descuentos": [
+            { "nombre": "Área vigas perimetrales", "factorFormula": "2 * (largo_losa + ancho_losa) * ancho_viga" }
+          ],
+          "item": {
+            "codigo": "UH011",
+            "nombre": "Losa Alivianada H°A°",
+            "tipoCalculo": "CANTIDAD",
+            "inputPrincipalLabel": "Área m²",
+            "unidadResultado": "m2",
+            "categoria": "Obra Gruesa",
+            "insumos": [
+              { "nombre": "Cemento Portland", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Cemento y Cal", "rendimiento": 17.50, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Arena Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.025, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Grava Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.030, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Fierro Corrugado", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 3.50, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Alambre de Amarre", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 0.15, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Albañil", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 0.60, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Armador", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 0.30, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 0.80, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Mezcladora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.15, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Vibradora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.10, "tipoCalculo": "DIRECTO" }
+            ]
+          }
+        },
+        {
+          "id": "vigas_perimetrales",
+          "nombre": "Viga Perimetral de H°A°",
+          "unidad": "m3",
+          "formulaTexto": "2 * (largo_losa + ancho_losa)",
+          "lee": ["largo_losa", "ancho_losa"],
+          "escribe": "ml_vigas",
+          "catalogoCodigo": "UH012",
+          "computedOverrides": { "Ancho": "ancho_viga", "Alto": "alto_viga" },
+          "item": {
+            "codigo": "UH012",
+            "nombre": "Viga Perimetral de H°A°",
+            "tipoCalculo": "AREA",
+            "inputPrincipalLabel": "Longitud m",
+            "unidadResultado": "m3",
+            "categoria": "Obra Gruesa",
+            "insumos": [
+              { "nombre": "Cemento Portland", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Cemento y Cal", "rendimiento": 350.00, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Arena Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.50, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Grava Común", "unidad": "m3", "tipoInsumo": "MATERIAL", "categoria": "Agregados", "rendimiento": 0.80, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Fierro Corrugado", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 90.00, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Alambre de Amarre", "unidad": "Kg", "tipoInsumo": "MATERIAL", "categoria": "Acero y Metal", "rendimiento": 3.00, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Albañil", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 8.00, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Armador", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "Calificada", "rendimiento": 4.00, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Ayudante", "unidad": "Hr", "tipoInsumo": "MANO_DE_OBRA", "categoria": "No Calificada", "rendimiento": 8.00, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Mezcladora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 1.00, "tipoCalculo": "DIRECTO" },
+              { "nombre": "Vibradora", "unidad": "Hr", "tipoInsumo": "HERRAMIENTA", "categoria": "Maquinaria", "rendimiento": 0.50, "tipoCalculo": "DIRECTO" }
+            ],
+            "parametros": [
+              { "nombre": "Ancho", "valorDefault": 0.25, "unidad": "m", "visiblePorDefecto": true },
+              { "nombre": "Alto", "valorDefault": 0.40, "unidad": "m", "visiblePorDefecto": true }
+            ],
+            "presets": [
+              { "nombre": "15×40", "valores": { "Ancho": 0.15, "Alto": 0.40 } },
+              { "nombre": "20×40", "valores": { "Ancho": 0.20, "Alto": 0.40 } },
+              { "nombre": "25×40", "valores": { "Ancho": 0.25, "Alto": 0.40 } },
+              { "nombre": "25×50", "valores": { "Ancho": 0.25, "Alto": 0.50 } },
+              { "nombre": "30×60", "valores": { "Ancho": 0.30, "Alto": 0.60 } }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
