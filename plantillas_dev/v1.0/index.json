@@ -3,11 +3,18 @@
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
-      "version": 4,
+      "version": 5,
       "premium": false,
       "nombre": "Cerramiento Perimetral",
-      "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Soporta 4 geometrías: Lineal (un solo tramo), L (dos tramos), U (tres tramos), o Cerrado (perímetro completo de 4 lados). Las esquinas se calculan automáticamente según la forma elegida; agrega esquinas adicionales si tu geometría es más compleja. Incluye excavación, capa de H°P° (40×5 cm), cimiento corrido (40×40), sobrecimiento (20×30), zapatas H°A° (40×40×30) y columnas H°A° (20×20). Aberturas (portones, puertas) descuentan del muro y sobrecimiento; la fundación continúa bajo ellas.",
-      "diagrama": "  col 20×20    muro ladrillo 6H     col\n  ┌──┐┌──────────────────────────┐┌──┐\n  │  ││  ┌──────────────────┐   ││  │ ← altura_muro\n  │  ││  │   portón/puerta  │   ││  │\n  │  ││  │                  │   ││  │\n  ├──┤├──┴──────────────────┴───┤├──┤\n  │SC││    sobrecimiento 20×30  ││SC│ ← h_sobrecimiento\n  ├──┤├─────────────────────────┤├──┤\n  │  ││   cimiento 40×40        ││  │\n  ├──┤├─────────────────────────┤├──┤\n  │ZP││   H°P° 40×5cm           ││ZP│\n  └──┘└─────────────────────────┘└──┘\n  zap.     excavación 40×60      zap.\n  40×40                          40×40",
+      "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Soporta 5 geometrías: Lineal (un solo tramo), L (dos tramos), U (tres tramos), Cerrado (perímetro rectangular) o Polígono libre (forma irregular con esquinas manuales). Las esquinas se calculan automáticamente según la forma; agrega esquinas adicionales si tu geometría tiene más quiebres. Incluye excavación, capa de H°P° (40×5 cm), cimiento corrido (40×40), sobrecimiento (20×30), zapatas H°A° (40×40×30) y columnas H°A° (20×20). Aberturas (portones, puertas) descuentan del muro y sobrecimiento; la fundación continúa bajo ellas.",
+      "diagrama": "Selecciona la forma del cerco arriba para ver su diagrama.",
+      "diagramas": {
+        "tipo_geometria=1": "Cerco LINEAL (un solo tramo)\n\n  col              col\n  ┌──┐──────────────────────────┌──┐\n  │  │ portón ─── puerta ───────│  │ ← altura_muro\n  │  │                          │  │\n  └──┘──────────────────────────└──┘\n  └────── longitud_total ──────────┘",
+        "tipo_geometria=2": "Cerco en L (dos tramos)\n\n  ┌──┐\n  │  │\n  │  │  lado_mayor (vertical)\n  │  │\n  ├──┤──────────────────────────┌──┐\n  │  │  ← portones / puertas →  │  │\n  └──┘──────────────────────────└──┘\n       longitud_total - lado_mayor",
+        "tipo_geometria=3": "Cerco en U (tres tramos)\n\n  ┌──┐                          ┌──┐\n  │  │                          │  │\n  │  │  (vertical = (LT-base)/2)│  │\n  │  │                          │  │\n  ├──┤──────────────────────────├──┤\n  │  │  ← portones / puertas →  │  │\n  └──┘──────────────────────────└──┘\n       base = lado_mayor",
+        "tipo_geometria=4": "Cerco CERRADO (rectángulo)\n\n  ┌──┐──────────────────────────┌──┐\n  │  │                          │  │\n  │  │   patio interior        │  │ ← lado_mayor\n  │  │                          │  │\n  ├──┤──────────────────────────├──┤\n  │  │  ← portones / puertas →  │  │\n  └──┘──────────────────────────└──┘\n   ← longitud_total / 2 - lado_mayor →",
+        "tipo_geometria=5": "Polígono libre (esquinas manuales)\n\n      ┌──────────┐\n     /            \\\n    /   patio      \\\n   │   irregular   │\n    \\              /\n     └────────────┘\n  Configurar esquinas en 'esquinas adicionales'\n  (1 por cada quiebre del cerco real)"
+      },
       "inputsRequeridos": [
         {
           "nombre": "tipo_geometria",
@@ -18,7 +25,8 @@
             { "valor": 1.0, "label": "Lineal" },
             { "valor": 2.0, "label": "L" },
             { "valor": 3.0, "label": "U" },
-            { "valor": 4.0, "label": "Cerrado" }
+            { "valor": 4.0, "label": "Cerrado" },
+            { "valor": 5.0, "label": "Polígono libre" }
           ]
         },
         {
@@ -35,10 +43,12 @@
         },
         {
           "nombre": "lado_mayor",
-          "label": "Lado mayor (L/U/Cerrado, 0=auto)",
+          "label": "Lado mayor",
           "unidad": "m",
           "default": 0.0,
-          "min": 0.0
+          "min": 0.0,
+          "visibleSi": "and(tipo_geometria != 1, tipo_geometria != 5)",
+          "defaultFormula": "if(tipo_geometria == 4, longitud_total / 4, if(or(tipo_geometria == 2, tipo_geometria == 3), longitud_total / 2, 0))"
         }
       ],
       "parametrosEditables": [
@@ -116,9 +126,9 @@
         }
       ],
       "variablesCalculadas": {
-        "esquinas_implicitas": "if(tipo_geometria == 1, 0, if(tipo_geometria == 2, 1, if(tipo_geometria == 3, 2, 4)))",
+        "esquinas_implicitas": "if(tipo_geometria == 1, 0, if(tipo_geometria == 2, 1, if(tipo_geometria == 3, 2, if(tipo_geometria == 4, 4, 0))))",
         "esquinas_efectivas": "esquinas_implicitas + esquinas_extra",
-        "extremos_abiertos": "if(tipo_geometria == 4, 0, 1)"
+        "extremos_abiertos": "if(or(tipo_geometria == 4, tipo_geometria == 5), 0, 1)"
       },
       "items": [
         {
