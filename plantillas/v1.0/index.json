@@ -1,5 +1,5 @@
 {
-  "version": 3.6,
+  "version": 3.7,
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -141,7 +141,8 @@
           "unidad": "m3",
           "formulaTexto": "longitud_total",
           "lee": [
-            "longitud_total"
+            "longitud_total",
+            "cantidad_columnas"
           ],
           "escribe": "ml_cimiento",
           "catalogoCodigo": "UH004",
@@ -152,6 +153,14 @@
               "factorFormula": "4",
               "overrides": {
                 "largo": "0.40"
+              }
+            },
+            {
+              "nombre": "Zapatas (intersección)",
+              "factorFormula": "cantidad_columnas",
+              "overrides": {
+                "largo": "0.40",
+                "altura": "0.30"
               }
             }
           ]
@@ -232,7 +241,7 @@
           "id": "muro",
           "nombre": "Muro de ladrillo 6H",
           "unidad": "m2",
-          "formulaTexto": "longitud_total * altura_muro",
+          "formulaTexto": "longitud_total * (altura_muro - h_sobrecimiento)",
           "lee": [
             "longitud_total",
             "altura_muro",
@@ -242,7 +251,8 @@
             "alto_porton",
             "numero_puertas",
             "ancho_puerta",
-            "alto_puerta"
+            "alto_puerta",
+            "h_sobrecimiento"
           ],
           "escribe": "area_muro",
           "catalogoCodigo": "UH009",
@@ -252,7 +262,7 @@
               "factorFormula": "cantidad_columnas",
               "overrides": {
                 "largo": "0.20",
-                "ancho": "altura_muro"
+                "ancho": "altura_muro - h_sobrecimiento"
               }
             },
             {
@@ -260,7 +270,7 @@
               "factorFormula": "numero_portones",
               "overrides": {
                 "largo": "ancho_porton",
-                "ancho": "min(alto_porton, altura_muro)"
+                "ancho": "min(alto_porton, altura_muro - h_sobrecimiento)"
               }
             },
             {
@@ -268,7 +278,7 @@
               "factorFormula": "numero_puertas",
               "overrides": {
                 "largo": "ancho_puerta",
-                "ancho": "min(alto_puerta, altura_muro)"
+                "ancho": "min(alto_puerta, altura_muro - h_sobrecimiento)"
               }
             }
           ]
