@@ -3,7 +3,7 @@
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
-      "version": 9,
+      "version": 10,
       "premium": false,
       "nombre": "Cerramiento Perimetral",
       "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Soporta 5 geometrías: Lineal (un solo tramo), L (dos tramos), U (tres tramos), Cerrado (perímetro rectangular completo) o Polígono libre (forma irregular con esquinas configuradas manualmente). Las esquinas se calculan automáticamente según la forma; agrega esquinas adicionales si tu geometría tiene más quiebres. Incluye excavación de zanjas, capa de hormigón pobre (40×5 cm), cimiento corrido (40×40 cm), sobrecimiento (20×30 cm), zapatas de H°A° (40×40×30 cm) y columnas de H°A° (20×20 cm). Las aberturas para portones vehiculares y puertas peatonales descuentan automáticamente del muro y sobrecimiento; la fundación (excavación, capa de H°P°, cimiento corrido) continúa bajo las aberturas.",
@@ -192,20 +192,21 @@
           "nombre": "Cimiento corrido",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
-          "lee": ["longitud_total", "esquinas_efectivas"],
+          "lee": ["longitud_total", "esquinas_efectivas", "cantidad_columnas", "h_zapata"],
           "escribe": "ml_cimiento",
           "catalogoCodigo": "UH004",
           "presetNombre": "40×40",
           "descuentos": [
-            { "nombre": "Esquinas", "factorFormula": "esquinas_efectivas", "overrides": { "largo": "0.40" } }
+            { "nombre": "Esquinas", "factorFormula": "esquinas_efectivas", "overrides": { "largo": "0.40" } },
+            { "nombre": "Zapatas (intersección)", "factorFormula": "cantidad_columnas", "overrides": { "largo": "0.40", "altura": "h_zapata" } }
           ]
         },
         {
           "id": "columnas",
           "nombre": "Columna de H°A°",
           "unidad": "m3",
-          "formulaTexto": "ceil(longitud_total / separacion_columnas) + extremos_abiertos",
-          "lee": ["longitud_total", "separacion_columnas", "altura_muro", "h_sobrecimiento", "h_zapata", "extremos_abiertos"],
+          "formulaTexto": "max(esquinas_efectivas, ceil(longitud_total / separacion_columnas)) + extremos_abiertos",
+          "lee": ["longitud_total", "separacion_columnas", "altura_muro", "h_sobrecimiento", "h_zapata", "extremos_abiertos", "esquinas_efectivas"],
           "escribe": "cantidad_columnas",
           "catalogoCodigo": "UH007",
           "presetNombre": "20×20",
