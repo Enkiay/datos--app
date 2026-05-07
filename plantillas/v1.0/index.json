@@ -1,5 +1,5 @@
 {
-  "version": 3.5,
+  "version": 3.6,
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -165,15 +165,26 @@
             "longitud_total",
             "lado_mayor",
             "separacion_columnas",
-            "altura_muro",
-            "h_sobrecimiento"
+            "altura_muro"
           ],
           "escribe": "cantidad_columnas",
           "catalogoCodigo": "UH007",
           "presetNombre": "20×20",
           "computedOverrides": {
-            "altura": "altura_muro + h_sobrecimiento"
+            "altura": "altura_muro + 0.10"
           }
+        },
+        {
+          "id": "zapatas",
+          "nombre": "Zapata de H°A°",
+          "unidad": "m3",
+          "formulaTexto": "cantidad_columnas",
+          "lee": [
+            "cantidad_columnas"
+          ],
+          "escribe": "cantidad_zapatas",
+          "catalogoCodigo": "UH006",
+          "presetNombre": "40×40×30"
         },
         {
           "id": "sobrecimiento",
