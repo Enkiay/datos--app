@@ -1,5 +1,5 @@
 {
-  "version": 3.7,
+  "version": 3.8,
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -262,7 +262,7 @@
               "factorFormula": "cantidad_columnas",
               "overrides": {
                 "largo": "0.20",
-                "ancho": "altura_muro - h_sobrecimiento"
+                "alto": "altura_muro - h_sobrecimiento"
               }
             },
             {
@@ -270,7 +270,7 @@
               "factorFormula": "numero_portones",
               "overrides": {
                 "largo": "ancho_porton",
-                "ancho": "min(alto_porton, altura_muro - h_sobrecimiento)"
+                "alto": "min(alto_porton, altura_muro - h_sobrecimiento)"
               }
             },
             {
@@ -278,7 +278,7 @@
               "factorFormula": "numero_puertas",
               "overrides": {
                 "largo": "ancho_puerta",
-                "ancho": "min(alto_puerta, altura_muro - h_sobrecimiento)"
+                "alto": "min(alto_puerta, altura_muro - h_sobrecimiento)"
               }
             }
           ]
