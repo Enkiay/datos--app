@@ -1556,7 +1556,8 @@
             "espesor": 0.3
           }
         }
-      ]
+      ],
+      "armaduraJson": "{\"tipo\":\"ZAPATA_PARRILLA\",\"diametro\":10.0,\"separacion\":0.15,\"recubrimiento\":0.05,\"doblez\":0.2,\"longitudBarraComercial\":12.0}"
     },
     {
       "codigo": "UH007",
@@ -1742,7 +1743,8 @@
             "profundidad": 0.3
           }
         }
-      ]
+      ],
+      "armaduraJson": "{\"tipo\":\"COLUMNA\",\"barrasPorColumna\":4,\"diametroLongitudinal\":10.0,\"diametroEstribo\":6.0,\"separacionEstribos\":0.2,\"recubrimiento\":0.025,\"ganchoEstribo\":0.1,\"doblezAnclaje\":0.2,\"longitudBarraComercial\":12.0}"
     },
     {
       "codigo": "UH008",
@@ -1914,7 +1916,8 @@
             "altura": 0.2
           }
         }
-      ]
+      ],
+      "armaduraJson": "{\"tipo\":\"VIGA\",\"barrasSuperiores\":2,\"diametroSuperior\":10.0,\"barrasInferiores\":2,\"diametroInferior\":10.0,\"diametroEstribo\":6.0,\"separacionEstribos\":0.2,\"recubrimiento\":0.025,\"ganchoEstribo\":0.1,\"longitudBarraComercial\":12.0}"
     },
     {
       "codigo": "UH009",
@@ -2164,7 +2167,8 @@
             "alto": 0.6
           }
         }
-      ]
+      ],
+      "armaduraJson": "{\"tipo\":\"VIGA\",\"barrasSuperiores\":2,\"diametroSuperior\":10.0,\"barrasInferiores\":3,\"diametroInferior\":12.0,\"diametroEstribo\":8.0,\"separacionEstribos\":0.2,\"recubrimiento\":0.025,\"ganchoEstribo\":0.1,\"longitudBarraComercial\":12.0}"
     },
     {
       "codigo": "UH011",
@@ -2536,7 +2540,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "armaduraJson": "{\"tipo\":\"ZAPATA_PARRILLA\",\"diametro\":10.0,\"separacion\":0.15,\"recubrimiento\":0.05,\"doblez\":0.2,\"longitudBarraComercial\":12.0}"
     },
     {
       "codigo": "UH021",
