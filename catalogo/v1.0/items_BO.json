@@ -1,5 +1,5 @@
 {
-  "version": "3.0",
+  "version": "3.1",
   "items": [
     {
       "codigo": "CA001",
@@ -962,7 +962,7 @@
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 3.2,
+          "rendimiento": 2.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
         }
@@ -1425,7 +1425,7 @@
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
-          "rendimiento": 40.0,
+          "rendimiento": 90.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
         },
@@ -1601,7 +1601,7 @@
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
-          "rendimiento": 80.0,
+          "rendimiento": 120.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
         },
@@ -1952,7 +1952,7 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
-          "rendimiento": 0.03,
+          "rendimiento": 0.045,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
         },
@@ -1961,7 +1961,7 @@
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
-          "rendimiento": 1.2,
+          "rendimiento": 0.9,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
         },
@@ -1970,7 +1970,7 @@
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 1.2,
+          "rendimiento": 0.9,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
         }
