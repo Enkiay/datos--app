@@ -1,11 +1,11 @@
 {
-  "version": "4.1",
+  "version": "4.2",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
       "nombre": "Cerramiento Perimetral",
       "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Soporta 5 geometrías: Lineal (un solo tramo), L (dos tramos), U (tres tramos), Cerrado (perímetro rectangular completo) o Polígono libre (forma irregular con esquinas configuradas manualmente). Las esquinas se calculan automáticamente según la forma; agrega esquinas adicionales si tu geometría tiene más quiebres. Incluye excavación de zanjas, capa de hormigón pobre (40×5 cm), cimiento corrido (40×40 cm), sobrecimiento (20×30 cm), zapatas de H°A° (40×40×30 cm) y columnas de H°A° (20×20 cm). Las aberturas para portones vehiculares y puertas peatonales descuentan automáticamente del muro y sobrecimiento; la fundación (excavación, capa de H°P°, cimiento corrido) continúa bajo las aberturas.",
-      "version": 15,
+      "version": 16,
       "inputsRequeridos": [
         {
           "nombre": "tipo_geometria",
@@ -267,7 +267,7 @@
               "factorFormula": "if(prof_zapata <= prof_zanja, cantidad_columnas, 0)",
               "overrides": {
                 "largo": "0.40",
-                "altura": "h_zapata"
+                "alto": "h_zapata"
               }
             }
           ]
@@ -290,7 +290,7 @@
           "escribe": "cantidad_columnas",
           "presetNombre": "20×20",
           "computedOverrides": {
-            "altura": "altura_muro + h_sobrecimiento + (prof_zapata - 0.05)"
+            "alto": "altura_muro + h_sobrecimiento + (prof_zapata - 0.05)"
           },
           "catalogoCodigo": "UH007"
         },
@@ -310,7 +310,7 @@
           "escribe": "ml_sobrecimiento",
           "presetNombre": "20×30",
           "computedOverrides": {
-            "altura": "h_sobrecimiento"
+            "alto": "h_sobrecimiento"
           },
           "catalogoCodigo": "UH005",
           "descuentos": [
@@ -394,11 +394,19 @@
         "_swap_lados": "if(and(or(tipo_geometria == 2, tipo_geometria == 4), _ax_pre > _ay_pre), 1, 0)",
         "layout_ancho_x": "if(_swap_lados == 1, _ay_pre, _ax_pre)",
         "layout_alto_y": "if(_swap_lados == 1, _ax_pre, _ay_pre)",
-        "layout_cols_bottom": "2 + if(layout_ancho_x > sep_max, ceil(layout_ancho_x / sep_max) - 1, 0)",
+        "layout_cols_bottom": "2 + jambas_aberturas + intermedios_bottom",
         "layout_cols_top": "if(or(tipo_geometria == 4, tipo_geometria == 5), ceil(layout_ancho_x / sep_max) + 1, 0)",
         "layout_inter_side": "if(layout_alto_y > sep_max, ceil(layout_alto_y / sep_max) - 1, 0)",
         "layout_lados_verticales": "if(tipo_geometria == 1, 0, if(tipo_geometria == 2, 1, 2))",
-        "cantidad_columnas_layout": "layout_cols_top + layout_cols_bottom + layout_lados_verticales * layout_inter_side"
+        "cantidad_columnas_layout": "layout_cols_top + layout_cols_bottom + layout_lados_verticales * layout_inter_side",
+        "n_puertas_efectivo": "if(layout_ancho_x >= 8, numero_puertas, 0)",
+        "espacio_aberturas": "numero_portones * ancho_porton + n_puertas_efectivo * ancho_puerta",
+        "n_tramos_libres": "if(and(numero_portones == 0, n_puertas_efectivo == 0), 1, if(n_puertas_efectivo == 0, 1, 2))",
+        "tramo_libre_total": "max(0, layout_ancho_x - espacio_aberturas)",
+        "tramo_libre_promedio": "tramo_libre_total / n_tramos_libres",
+        "intermedios_por_tramo": "if(tramo_libre_promedio > sep_max, ceil(tramo_libre_promedio / sep_max) - 1, 0)",
+        "intermedios_bottom": "n_tramos_libres * intermedios_por_tramo",
+        "jambas_aberturas": "if(numero_portones > 0, 1, 0) + 2 * n_puertas_efectivo"
       }
     },
     {
