@@ -354,10 +354,11 @@
           "id": "muro",
           "nombre": "Muro de ladrillo 6H",
           "unidad": "m2",
-          "formulaTexto": "longitud_total * altura_muro",
+          "formulaTexto": "longitud_total",
           "lee": [
             "longitud_total",
             "altura_muro",
+            "h_sobrecimiento",
             "cantidad_columnas",
             "numero_portones",
             "ancho_porton",
@@ -368,8 +369,8 @@
           ],
           "escribe": "area_muro",
           "computedOverrides": {
-            "largo": "longitud_total",
-            "alto": "altura_muro"
+            "largo": "1",
+            "alto": "altura_muro - h_sobrecimiento"
           },
           "catalogoCodigo": "UH009",
           "descuentos": [
@@ -378,7 +379,7 @@
               "factorFormula": "cantidad_columnas",
               "overrides": {
                 "largo": "0.20",
-                "alto": "altura_muro"
+                "alto": "altura_muro - h_sobrecimiento"
               }
             },
             {
@@ -386,7 +387,7 @@
               "factorFormula": "numero_portones",
               "overrides": {
                 "largo": "ancho_porton",
-                "alto": "min(alto_porton, altura_muro)"
+                "alto": "max(0, min(alto_porton - h_sobrecimiento, altura_muro - h_sobrecimiento))"
               }
             },
             {
@@ -394,7 +395,7 @@
               "factorFormula": "n_puertas_efectivo",
               "overrides": {
                 "largo": "ancho_puerta",
-                "alto": "min(alto_puerta, altura_muro)"
+                "alto": "max(0, min(alto_puerta - h_sobrecimiento, altura_muro - h_sobrecimiento))"
               }
             }
           ]
