@@ -129,7 +129,7 @@
       "codigo": "CA003",
       "nombre": "Baranda Metálica",
       "tipoCalculo": "LONGITUD",
-      "inputPrincipalLabel": "Metro Lineal",
+      "inputPrincipalLabel": "Cantidad",
       "unidadResultado": "ml",
       "categoria": "Carpintería",
       "verificado": true,
@@ -454,12 +454,6 @@
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "espesor",
-          "valorDefault": 0.02,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ]
     },
@@ -511,12 +505,6 @@
         {
           "nombre": "alto",
           "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "espesor",
-          "valorDefault": 0.015,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -1935,7 +1923,7 @@
       "codigo": "UH009",
       "nombre": "Muro de ladrillo 6H",
       "tipoCalculo": "AREA",
-      "inputPrincipalLabel": "Cantidad",
+      "inputPrincipalLabel": "Metro Lineal",
       "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
@@ -1997,12 +1985,6 @@
         {
           "nombre": "alto",
           "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "espesor",
-          "valorDefault": 0.15,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -2708,7 +2690,7 @@
       "codigo": "UH022",
       "nombre": "Pilote de H°A°",
       "tipoCalculo": "LONGITUD",
-      "inputPrincipalLabel": "Metro Lineal",
+      "inputPrincipalLabel": "Cantidad",
       "unidadResultado": "ml",
       "categoria": "Obra Gruesa",
       "verificado": true,
@@ -3339,7 +3321,7 @@
       "codigo": "UM010",
       "nombre": "Muro de ladrillo gambote",
       "tipoCalculo": "AREA",
-      "inputPrincipalLabel": "Cantidad",
+      "inputPrincipalLabel": "Metro Lineal",
       "unidadResultado": "m2",
       "categoria": "Mamposter��a",
       "verificado": true,
@@ -3392,12 +3374,6 @@
         {
           "nombre": "alto",
           "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "espesor",
-          "valorDefault": 0.18,
           "unidad": "m",
           "visiblePorDefecto": true
         }
