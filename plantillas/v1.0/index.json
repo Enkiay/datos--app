@@ -376,25 +376,25 @@
           "descuentos": [
             {
               "nombre": "Columnas",
-              "factorFormula": "1",
+              "factorFormula": "cantidad_columnas",
               "overrides": {
-                "largo": "cantidad_columnas * 0.20",
+                "largo": "0.20",
                 "alto": "altura_muro - h_sobrecimiento"
               }
             },
             {
               "nombre": "Portones",
-              "factorFormula": "1",
+              "factorFormula": "numero_portones",
               "overrides": {
-                "largo": "numero_portones * ancho_porton",
+                "largo": "ancho_porton",
                 "alto": "max(0, min(alto_porton - h_sobrecimiento, altura_muro - h_sobrecimiento))"
               }
             },
             {
               "nombre": "Puertas",
-              "factorFormula": "1",
+              "factorFormula": "n_puertas_efectivo",
               "overrides": {
-                "largo": "n_puertas_efectivo * ancho_puerta",
+                "largo": "ancho_puerta",
                 "alto": "max(0, min(alto_puerta - h_sobrecimiento, altura_muro - h_sobrecimiento))"
               }
             }
