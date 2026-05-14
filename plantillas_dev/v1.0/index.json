@@ -362,11 +362,15 @@
             "numero_portones",
             "ancho_porton",
             "alto_porton",
-            "numero_puertas",
+            "n_puertas_efectivo",
             "ancho_puerta",
             "alto_puerta"
           ],
           "escribe": "area_muro",
+          "computedOverrides": {
+            "largo": "longitud_total",
+            "alto": "altura_muro"
+          },
           "catalogoCodigo": "UH009",
           "descuentos": [
             {
@@ -374,7 +378,7 @@
               "factorFormula": "cantidad_columnas",
               "overrides": {
                 "largo": "0.20",
-                "ancho": "altura_muro"
+                "alto": "altura_muro"
               }
             },
             {
@@ -382,15 +386,15 @@
               "factorFormula": "numero_portones",
               "overrides": {
                 "largo": "ancho_porton",
-                "ancho": "min(alto_porton, altura_muro)"
+                "alto": "min(alto_porton, altura_muro)"
               }
             },
             {
               "nombre": "Puertas",
-              "factorFormula": "numero_puertas",
+              "factorFormula": "n_puertas_efectivo",
               "overrides": {
                 "largo": "ancho_puerta",
-                "ancho": "min(alto_puerta, altura_muro)"
+                "alto": "min(alto_puerta, altura_muro)"
               }
             }
           ]
