@@ -1,17 +1,44 @@
 {
-  "version": 3.8,
+  "version": "4.4",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
-      "premium": false,
       "nombre": "Cerramiento Perimetral",
-      "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Geometría rectangular ortogonal definida por perímetro total y lado mayor (el lado menor se calcula automáticamente). Incluye excavación de zanjas (40×60 cm), capa de hormigón pobre (40×5 cm), cimiento corrido (40×40 cm), sobrecimiento (20×30 cm) y columnas de H°A° (20×20 cm). Las aberturas (portones vehiculares y puertas peatonales) descuentan automáticamente del muro y sobrecimiento; la fundación (excavación, H°P°, cimiento) continúa bajo las aberturas. Las columnas se distribuyen respetando las 4 esquinas obligatorias y la separación configurable (default 4 m).",
+      "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Soporta 5 geometrías: Lineal (un solo tramo), L (dos tramos), U (tres tramos), Cerrado (perímetro rectangular completo) o Polígono libre (forma irregular con esquinas configuradas manualmente). Las esquinas se calculan automáticamente según la forma; agrega esquinas adicionales si tu geometría tiene más quiebres. Incluye excavación de zanjas, capa de hormigón pobre (40×5 cm), cimiento corrido (40×40 cm), sobrecimiento (20×30 cm), zapatas de H°A° (40×40×30 cm) y columnas de H°A° (20×20 cm). Las aberturas para portones vehiculares y puertas peatonales descuentan automáticamente del muro y sobrecimiento; la fundación (excavación, capa de H°P°, cimiento corrido) continúa bajo las aberturas.",
+      "version": 18,
       "inputsRequeridos": [
         {
+          "nombre": "tipo_geometria",
+          "label": "Forma del cerco",
+          "unidad": "",
+          "default": 4.0,
+          "opciones": [
+            {
+              "valor": 1.0,
+              "label": "Lineal"
+            },
+            {
+              "valor": 2.0,
+              "label": "L"
+            },
+            {
+              "valor": 3.0,
+              "label": "U"
+            },
+            {
+              "valor": 4.0,
+              "label": "Cerrado"
+            },
+            {
+              "valor": 5.0,
+              "label": "Polígono libre"
+            }
+          ]
+        },
+        {
           "nombre": "longitud_total",
-          "label": "Perímetro total (suma de lados)",
-          "unidad": "m",
-          "default": 40.0
+          "label": "Longitud total del muro",
+          "unidad": "m"
         },
         {
           "nombre": "altura_muro",
@@ -23,7 +50,9 @@
           "nombre": "lado_mayor",
           "label": "Lado mayor",
           "unidad": "m",
-          "default": 10.0
+          "min": 0.0,
+          "visibleSi": "and(tipo_geometria != 1, tipo_geometria != 5)",
+          "defaultFormula": "if(tipo_geometria == 4, longitud_total / 4, if(or(tipo_geometria == 2, tipo_geometria == 3), longitud_total / 2, 0))"
         }
       ],
       "parametrosEditables": [
@@ -31,9 +60,10 @@
           "nombre": "numero_portones",
           "label": "Portones vehiculares",
           "unidad": "und",
-          "default": 1.0,
+          "default": 0.0,
           "min": 0.0,
-          "max": 4.0
+          "max": 4.0,
+          "defaultFormula": "if(tipo_geometria == 4, 1, 0)"
         },
         {
           "nombre": "ancho_porton",
@@ -55,9 +85,10 @@
           "nombre": "numero_puertas",
           "label": "Puertas peatonales",
           "unidad": "und",
-          "default": 1.0,
+          "default": 0.0,
           "min": 0.0,
-          "max": 6.0
+          "max": 6.0,
+          "defaultFormula": "if(tipo_geometria == 4, 1, 0)"
         },
         {
           "nombre": "ancho_puerta",
@@ -76,6 +107,14 @@
           "max": 2.5
         },
         {
+          "nombre": "esquinas_extra",
+          "label": "Esquinas adicionales",
+          "unidad": "und",
+          "default": 0.0,
+          "min": 0.0,
+          "max": 16.0
+        },
+        {
           "nombre": "separacion_columnas",
           "label": "Separación entre columnas",
           "unidad": "m",
@@ -85,11 +124,45 @@
         },
         {
           "nombre": "h_sobrecimiento",
-          "label": "Altura sobrecimiento",
+          "label": "Espesor sobrecimiento",
           "unidad": "m",
           "default": 0.3,
           "min": 0.2,
           "max": 0.6
+        },
+        {
+          "nombre": "h_zapata",
+          "label": "Espesor zapata",
+          "unidad": "m",
+          "default": 0.3,
+          "min": 0.2,
+          "max": 0.5
+        },
+        {
+          "nombre": "prof_zanja",
+          "label": "Profundidad zanja cimiento",
+          "unidad": "m",
+          "default": 0.6,
+          "min": 0.4,
+          "max": 1.5
+        },
+        {
+          "nombre": "prof_zapata",
+          "label": "Profundidad fondo zapata (incl. HP)",
+          "unidad": "m",
+          "default": 0.85,
+          "min": 0.4,
+          "max": 1.8
+        },
+        {
+          "nombre": "columnas_en_extremos",
+          "label": "Columnas en extremos abiertos",
+          "unidad": "und",
+          "default": 2.0,
+          "min": 0.0,
+          "max": 2.0,
+          "visibleSi": "or(tipo_geometria == 1, tipo_geometria == 2, tipo_geometria == 3)",
+          "defaultFormula": "if(or(tipo_geometria == 4, tipo_geometria == 5), 0, 2)"
         }
       ],
       "items": [
@@ -99,20 +172,45 @@
           "unidad": "m3",
           "formulaTexto": "longitud_total",
           "lee": [
-            "longitud_total"
+            "longitud_total",
+            "esquinas_efectivas",
+            "prof_zanja"
           ],
           "escribe": "ml_excavacion",
+          "computedOverrides": {
+            "ancho": "0.40",
+            "profundidad": "prof_zanja"
+          },
           "catalogoCodigo": "UH002",
-          "presetNombre": "40×60",
           "descuentos": [
             {
               "nombre": "Esquinas",
-              "factorFormula": "4",
+              "factorFormula": "esquinas_efectivas",
               "overrides": {
-                "largo": "0.40"
+                "largo": "0.40",
+                "profundidad": "prof_zanja"
               }
             }
           ]
+        },
+        {
+          "id": "exc_zapatas",
+          "nombre": "Excavación adicional para zapatas",
+          "unidad": "m3",
+          "formulaTexto": "cantidad_columnas",
+          "lee": [
+            "cantidad_columnas",
+            "prof_zapata",
+            "prof_zanja"
+          ],
+          "escribe": "cant_exc_zapatas",
+          "computedOverrides": {
+            "largo": "0.40",
+            "ancho": "0.40",
+            "profundidad": "max(0, prof_zapata - prof_zanja)"
+          },
+          "catalogoCodigo": "UH002",
+          "condicionInclusion": "if(prof_zapata > prof_zanja, 1, 0)"
         },
         {
           "id": "hp_capa",
@@ -120,20 +218,37 @@
           "unidad": "m3",
           "formulaTexto": "longitud_total",
           "lee": [
-            "longitud_total"
+            "longitud_total",
+            "esquinas_efectivas"
           ],
           "escribe": "ml_hp",
-          "catalogoCodigo": "UH003",
           "presetNombre": "40×5cm",
+          "catalogoCodigo": "UH003",
           "descuentos": [
             {
               "nombre": "Esquinas",
-              "factorFormula": "4",
+              "factorFormula": "esquinas_efectivas",
               "overrides": {
                 "largo": "0.40"
               }
             }
           ]
+        },
+        {
+          "id": "zapatas",
+          "nombre": "Zapata de H°A°",
+          "unidad": "m3",
+          "formulaTexto": "cantidad_columnas",
+          "lee": [
+            "cantidad_columnas",
+            "h_zapata"
+          ],
+          "escribe": "cantidad_zapatas",
+          "presetNombre": "40×40×30",
+          "computedOverrides": {
+            "espesor": "h_zapata"
+          },
+          "catalogoCodigo": "UH006"
         },
         {
           "id": "cimiento",
@@ -142,25 +257,29 @@
           "formulaTexto": "longitud_total",
           "lee": [
             "longitud_total",
-            "cantidad_columnas"
+            "esquinas_efectivas",
+            "cantidad_columnas",
+            "h_zapata",
+            "prof_zapata",
+            "prof_zanja"
           ],
           "escribe": "ml_cimiento",
-          "catalogoCodigo": "UH004",
           "presetNombre": "40×40",
+          "catalogoCodigo": "UH004",
           "descuentos": [
             {
               "nombre": "Esquinas",
-              "factorFormula": "4",
+              "factorFormula": "esquinas_efectivas",
               "overrides": {
                 "largo": "0.40"
               }
             },
             {
               "nombre": "Zapatas (intersección)",
-              "factorFormula": "cantidad_columnas",
+              "factorFormula": "if(prof_zapata <= prof_zanja, cantidad_columnas, 0)",
               "overrides": {
                 "largo": "0.40",
-                "altura": "0.30"
+                "alto": "h_zapata"
               }
             }
           ]
@@ -169,31 +288,24 @@
           "id": "columnas",
           "nombre": "Columna de H°A°",
           "unidad": "m3",
-          "formulaTexto": "2*ceil(lado_mayor/(separacion_columnas*1.15)) + 2*ceil((longitud_total/2 - lado_mayor)/(separacion_columnas*1.15))",
+          "formulaTexto": "cantidad_columnas_layout",
           "lee": [
             "longitud_total",
-            "lado_mayor",
             "separacion_columnas",
-            "altura_muro"
+            "altura_muro",
+            "h_sobrecimiento",
+            "prof_zapata",
+            "tipo_geometria",
+            "lado_mayor",
+            "cantidad_columnas_layout",
+            "columnas_en_extremos"
           ],
           "escribe": "cantidad_columnas",
-          "catalogoCodigo": "UH007",
           "presetNombre": "20×20",
           "computedOverrides": {
-            "altura": "altura_muro + 0.10"
-          }
-        },
-        {
-          "id": "zapatas",
-          "nombre": "Zapata de H°A°",
-          "unidad": "m3",
-          "formulaTexto": "cantidad_columnas",
-          "lee": [
-            "cantidad_columnas"
-          ],
-          "escribe": "cantidad_zapatas",
-          "catalogoCodigo": "UH006",
-          "presetNombre": "40×40×30"
+            "alto": "altura_muro + h_sobrecimiento + (prof_zapata - 0.05)"
+          },
+          "catalogoCodigo": "UH007"
         },
         {
           "id": "sobrecimiento",
@@ -202,21 +314,22 @@
           "formulaTexto": "longitud_total",
           "lee": [
             "longitud_total",
+            "esquinas_efectivas",
             "numero_portones",
             "ancho_porton",
             "numero_puertas",
             "ancho_puerta"
           ],
           "escribe": "ml_sobrecimiento",
-          "catalogoCodigo": "UH005",
           "presetNombre": "20×30",
           "computedOverrides": {
-            "altura": "h_sobrecimiento"
+            "alto": "h_sobrecimiento"
           },
+          "catalogoCodigo": "UH005",
           "descuentos": [
             {
               "nombre": "Esquinas",
-              "factorFormula": "4",
+              "factorFormula": "esquinas_efectivas",
               "overrides": {
                 "largo": "0.20"
               }
@@ -241,7 +354,7 @@
           "id": "muro",
           "nombre": "Muro de ladrillo 6H",
           "unidad": "m2",
-          "formulaTexto": "longitud_total * (altura_muro - h_sobrecimiento)",
+          "formulaTexto": "longitud_total * altura_muro",
           "lee": [
             "longitud_total",
             "altura_muro",
@@ -249,12 +362,15 @@
             "numero_portones",
             "ancho_porton",
             "alto_porton",
-            "numero_puertas",
+            "n_puertas_efectivo",
             "ancho_puerta",
-            "alto_puerta",
-            "h_sobrecimiento"
+            "alto_puerta"
           ],
           "escribe": "area_muro",
+          "computedOverrides": {
+            "largo": "longitud_total",
+            "alto": "altura_muro"
+          },
           "catalogoCodigo": "UH009",
           "descuentos": [
             {
@@ -262,7 +378,7 @@
               "factorFormula": "cantidad_columnas",
               "overrides": {
                 "largo": "0.20",
-                "alto": "altura_muro - h_sobrecimiento"
+                "alto": "altura_muro"
               }
             },
             {
@@ -270,20 +386,46 @@
               "factorFormula": "numero_portones",
               "overrides": {
                 "largo": "ancho_porton",
-                "alto": "min(alto_porton, altura_muro - h_sobrecimiento)"
+                "alto": "min(alto_porton, altura_muro)"
               }
             },
             {
               "nombre": "Puertas",
-              "factorFormula": "numero_puertas",
+              "factorFormula": "n_puertas_efectivo",
               "overrides": {
                 "largo": "ancho_puerta",
-                "alto": "min(alto_puerta, altura_muro - h_sobrecimiento)"
+                "alto": "min(alto_puerta, altura_muro)"
               }
             }
           ]
         }
-      ]
+      ],
+      "variablesCalculadas": {
+        "esquinas_implicitas": "if(tipo_geometria == 1, 0, if(tipo_geometria == 2, 1, if(tipo_geometria == 3, 2, if(tipo_geometria == 4, 4, 0))))",
+        "esquinas_efectivas": "esquinas_implicitas + esquinas_extra",
+        "extremos_abiertos": "if(or(tipo_geometria == 4, tipo_geometria == 5), 0, 1)",
+        "sep_max": "separacion_columnas * 1.15",
+        "_ay_default_geom": "if(tipo_geometria == 1, 0, if(tipo_geometria == 2, longitud_total / 2, if(tipo_geometria == 3, longitud_total / 3, longitud_total / 4)))",
+        "_ay_pre": "if(lado_mayor > 0, lado_mayor, _ay_default_geom)",
+        "_ax_pre": "if(tipo_geometria == 1, longitud_total, if(tipo_geometria == 2, longitud_total - _ay_pre, if(tipo_geometria == 3, longitud_total - 2 * _ay_pre, if(tipo_geometria == 4, longitud_total / 2 - _ay_pre, longitud_total / 4))))",
+        "_swap_lados": "if(and(or(tipo_geometria == 2, tipo_geometria == 4), _ax_pre > _ay_pre), 1, 0)",
+        "layout_ancho_x": "if(_swap_lados == 1, _ay_pre, _ax_pre)",
+        "layout_alto_y": "if(_swap_lados == 1, _ax_pre, _ay_pre)",
+        "n_puertas_efectivo": "if(layout_ancho_x >= 8, numero_puertas, 0)",
+        "espacio_aberturas": "numero_portones * ancho_porton + n_puertas_efectivo * ancho_puerta",
+        "n_tramos_libres": "if(and(numero_portones == 0, n_puertas_efectivo == 0), 1, if(n_puertas_efectivo == 0, 1, 2))",
+        "tramo_libre_total": "max(0, layout_ancho_x - espacio_aberturas)",
+        "tramo_libre_promedio": "tramo_libre_total / n_tramos_libres",
+        "intermedios_por_tramo": "if(tramo_libre_promedio > sep_max, ceil(tramo_libre_promedio / sep_max) - 1, 0)",
+        "intermedios_bottom": "n_tramos_libres * intermedios_por_tramo",
+        "jambas_aberturas": "if(numero_portones > 0, 1, 0) + 2 * n_puertas_efectivo",
+        "columnas_extremos_quitar": "if(tipo_geometria == 1, max(0, 2 - columnas_en_extremos), if(tipo_geometria == 2, max(0, 1 - columnas_en_extremos), 0))",
+        "layout_cols_bottom": "2 + jambas_aberturas + intermedios_bottom",
+        "layout_cols_top": "if(or(tipo_geometria == 4, tipo_geometria == 5), ceil(layout_ancho_x / sep_max) + 1, 0)",
+        "layout_inter_side": "if(layout_alto_y > sep_max, ceil(layout_alto_y / sep_max) - 1, 0)",
+        "layout_lados_verticales": "if(tipo_geometria == 1, 0, if(tipo_geometria == 2, 1, 2))",
+        "cantidad_columnas_layout": "max(0, layout_cols_top + layout_cols_bottom + layout_lados_verticales * layout_inter_side - columnas_extremos_quitar)"
+      }
     }
   ]
 }
