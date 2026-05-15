@@ -279,7 +279,7 @@
               "factorFormula": "if(prof_zapata <= prof_zanja, cantidad_columnas, 0)",
               "overrides": {
                 "largo": "0.40",
-                "alto": "h_zapata"
+                "altura": "h_zapata"
               }
             }
           ]
@@ -303,7 +303,7 @@
           "escribe": "cantidad_columnas",
           "presetNombre": "20×20",
           "computedOverrides": {
-            "alto": "altura_muro + h_sobrecimiento + (prof_zapata - 0.05)"
+            "altura": "altura_muro + h_sobrecimiento + (prof_zapata - 0.05)"
           },
           "catalogoCodigo": "UH007"
         },
@@ -323,7 +323,7 @@
           "escribe": "ml_sobrecimiento",
           "presetNombre": "20×30",
           "computedOverrides": {
-            "alto": "h_sobrecimiento"
+            "altura": "h_sobrecimiento"
           },
           "catalogoCodigo": "UH005",
           "descuentos": [
