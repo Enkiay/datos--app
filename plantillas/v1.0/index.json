@@ -188,6 +188,7 @@
               "factorFormula": "esquinas_efectivas",
               "overrides": {
                 "largo": "0.40",
+                "ancho": "0.40",
                 "profundidad": "prof_zanja"
               }
             }
@@ -229,7 +230,9 @@
               "nombre": "Esquinas",
               "factorFormula": "esquinas_efectivas",
               "overrides": {
-                "largo": "0.40"
+                "largo": "0.40",
+                "ancho": "0.40",
+                "espesor": "0.05"
               }
             }
           ]
@@ -271,7 +274,9 @@
               "nombre": "Esquinas",
               "factorFormula": "esquinas_efectivas",
               "overrides": {
-                "largo": "0.40"
+                "largo": "0.40",
+                "ancho": "0.40",
+                "altura": "0.40"
               }
             },
             {
@@ -279,6 +284,7 @@
               "factorFormula": "if(prof_zapata <= prof_zanja, cantidad_columnas, 0)",
               "overrides": {
                 "largo": "0.40",
+                "ancho": "0.40",
                 "altura": "h_zapata"
               }
             }
@@ -331,21 +337,27 @@
               "nombre": "Esquinas",
               "factorFormula": "esquinas_efectivas",
               "overrides": {
-                "largo": "0.20"
+                "largo": "0.20",
+                "ancho": "0.20",
+                "altura": "h_sobrecimiento"
               }
             },
             {
               "nombre": "Portones",
               "factorFormula": "numero_portones",
               "overrides": {
-                "largo": "ancho_porton"
+                "largo": "ancho_porton",
+                "ancho": "0.20",
+                "altura": "h_sobrecimiento"
               }
             },
             {
               "nombre": "Puertas",
               "factorFormula": "numero_puertas",
               "overrides": {
-                "largo": "ancho_puerta"
+                "largo": "ancho_puerta",
+                "ancho": "0.20",
+                "altura": "h_sobrecimiento"
               }
             }
           ]
