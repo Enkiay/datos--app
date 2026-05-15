@@ -1,0 +1,338 @@
+{
+  "version": "v20260515-162522",
+  "perfiles": [
+    {
+      "id": "vectorworks_multicapa",
+      "nombre": "Vectorworks · Muros multi-capa",
+      "descripcion": "Mapeo típico de Vectorworks Architect: muros con capas revoque + ladrillo + revoque fino, más estructura básica (columnas, vigas, zapatas, losa, cimiento corrido).",
+      "reglas": [
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "revoque fino",
+          "catalogoCodigo": "UA002"
+        },
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "revoque",
+          "catalogoCodigo": "UA001"
+        },
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "ladrillo",
+          "catalogoCodigo": "UH009"
+        },
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "hormigon",
+          "catalogoCodigo": "UH002"
+        },
+        {
+          "tipoIfc": "COLUMN",
+          "catalogoCodigo": "UH007"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "filtroNombre": "sobrecimiento",
+          "catalogoCodigo": "UH024"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "filtroNombre": "riostra",
+          "catalogoCodigo": "UH024"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "filtroNombre": "encadenado",
+          "catalogoCodigo": "UH010"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "catalogoCodigo": "UH010"
+        },
+        {
+          "tipoIfc": "MEMBER",
+          "catalogoCodigo": "UH024"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "losa",
+          "filtroMaterial": "ceramica",
+          "catalogoCodigo": "UA003"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "losa",
+          "filtroMaterial": "cielo razo",
+          "catalogoCodigo": "AC009"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "losa",
+          "filtroMaterial": "cielo raso",
+          "catalogoCodigo": "AC009"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "losa",
+          "filtroMaterial": "losa alivianada",
+          "catalogoCodigo": "UH011"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "losa",
+          "catalogoCodigo": "UH011"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "contrapiso",
+          "filtroMaterial": "ceramica",
+          "catalogoCodigo": "UA003"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "contra piso",
+          "filtroMaterial": "ceramica",
+          "catalogoCodigo": "UA003"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "contrapiso",
+          "filtroMaterial": "piso",
+          "catalogoCodigo": "UH012"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "contrapiso",
+          "catalogoCodigo": "UH012"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "contra piso",
+          "catalogoCodigo": "UH012"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "catalogoCodigo": "UH011"
+        },
+        {
+          "tipoIfc": "FOOTING",
+          "filtroNombre": "cimiento",
+          "catalogoCodigo": "UH023"
+        },
+        {
+          "tipoIfc": "FOOTING",
+          "filtroNombre": "strip",
+          "catalogoCodigo": "UH023"
+        },
+        {
+          "tipoIfc": "FOOTING",
+          "catalogoCodigo": "UH006"
+        },
+        {
+          "tipoIfc": "ROOF",
+          "catalogoCodigo": "UC001"
+        },
+        {
+          "tipoIfc": "DOOR",
+          "catalogoCodigo": "CA001"
+        },
+        {
+          "tipoIfc": "WINDOW",
+          "catalogoCodigo": "CA002"
+        },
+        {
+          "tipoIfc": "STAIR",
+          "catalogoCodigo": "UH021"
+        }
+      ]
+    },
+    {
+      "id": "archicad_estandar",
+      "nombre": "ArchiCAD · Workflow estándar",
+      "descripcion": "Mapeo para ArchiCAD: composites multi-capa, cimientos como IfcFooting nativos, vigas con name semántico (riostra/sobrecimiento), cubiertas via Roof Tool.",
+      "reglas": [
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "revoque fino",
+          "catalogoCodigo": "UA002"
+        },
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "revoque",
+          "catalogoCodigo": "UA001"
+        },
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "ladrillo",
+          "catalogoCodigo": "UH009"
+        },
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "hormigon",
+          "catalogoCodigo": "UH002"
+        },
+        {
+          "tipoIfc": "COLUMN",
+          "catalogoCodigo": "UH007"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "filtroNombre": "sobrecimiento",
+          "catalogoCodigo": "UH024"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "filtroNombre": "riostra",
+          "catalogoCodigo": "UH024"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "filtroNombre": "encadenado",
+          "catalogoCodigo": "UH010"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "catalogoCodigo": "UH010"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "contrapiso",
+          "catalogoCodigo": "UH012"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "contra piso",
+          "catalogoCodigo": "UH012"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "catalogoCodigo": "UH011"
+        },
+        {
+          "tipoIfc": "FOOTING",
+          "filtroNombre": "cimiento",
+          "catalogoCodigo": "UH023"
+        },
+        {
+          "tipoIfc": "FOOTING",
+          "filtroNombre": "strip",
+          "catalogoCodigo": "UH023"
+        },
+        {
+          "tipoIfc": "FOOTING",
+          "catalogoCodigo": "UH006"
+        },
+        {
+          "tipoIfc": "ROOF",
+          "catalogoCodigo": "UC001"
+        },
+        {
+          "tipoIfc": "DOOR",
+          "catalogoCodigo": "CA001"
+        },
+        {
+          "tipoIfc": "WINDOW",
+          "catalogoCodigo": "CA002"
+        },
+        {
+          "tipoIfc": "STAIR",
+          "catalogoCodigo": "UH021"
+        }
+      ]
+    },
+    {
+      "id": "revit_estandar",
+      "nombre": "Revit · Workflow estándar",
+      "descripcion": "Mapeo para Autodesk Revit: Structural Foundation → IfcFooting, Structural Framing → IfcBeam (incluye sobrecimientos), Floor → IfcSlab. Multi-capa via Compound Walls.",
+      "reglas": [
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "revoque fino",
+          "catalogoCodigo": "UA002"
+        },
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "revoque",
+          "catalogoCodigo": "UA001"
+        },
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "ladrillo",
+          "catalogoCodigo": "UH009"
+        },
+        {
+          "tipoIfc": "WALL",
+          "filtroMaterial": "hormigon",
+          "catalogoCodigo": "UH002"
+        },
+        {
+          "tipoIfc": "COLUMN",
+          "catalogoCodigo": "UH007"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "filtroNombre": "sobrecimiento",
+          "catalogoCodigo": "UH024"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "filtroNombre": "riostra",
+          "catalogoCodigo": "UH024"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "filtroNombre": "encadenado",
+          "catalogoCodigo": "UH010"
+        },
+        {
+          "tipoIfc": "BEAM",
+          "catalogoCodigo": "UH010"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "contrapiso",
+          "catalogoCodigo": "UH012"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "filtroNombre": "contra piso",
+          "catalogoCodigo": "UH012"
+        },
+        {
+          "tipoIfc": "SLAB",
+          "catalogoCodigo": "UH011"
+        },
+        {
+          "tipoIfc": "FOOTING",
+          "filtroNombre": "cimiento",
+          "catalogoCodigo": "UH023"
+        },
+        {
+          "tipoIfc": "FOOTING",
+          "filtroNombre": "strip",
+          "catalogoCodigo": "UH023"
+        },
+        {
+          "tipoIfc": "FOOTING",
+          "catalogoCodigo": "UH006"
+        },
+        {
+          "tipoIfc": "ROOF",
+          "catalogoCodigo": "UC001"
+        },
+        {
+          "tipoIfc": "DOOR",
+          "catalogoCodigo": "CA001"
+        },
+        {
+          "tipoIfc": "WINDOW",
+          "catalogoCodigo": "CA002"
+        },
+        {
+          "tipoIfc": "STAIR",
+          "catalogoCodigo": "UH021"
+        }
+      ]
+    }
+  ]
+}
