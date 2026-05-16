@@ -2,6 +2,59 @@
   "version": "3.1",
   "items": [
     {
+      "codigo": "AC009",
+      "nombre": "Cielo Raso de Yeso",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": true,
+      "tipoIfc": "SLAB",
+      "insumos": [
+        {
+          "nombre": "Yeso",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 6.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.7,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.4,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
       "codigo": "CA001",
       "nombre": "Puerta",
       "tipoCalculo": "CANTIDAD",
