@@ -1,11 +1,11 @@
 {
-  "version": "4.4",
+  "version": "4.7",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
       "nombre": "Cerramiento Perimetral",
       "descripcion": "Muro perimetral de ladrillo de 6 huecos sobre cimiento corrido de H°C°. Soporta 5 geometrías: Lineal (un solo tramo), L (dos tramos), U (tres tramos), Cerrado (perímetro rectangular completo) o Polígono libre (forma irregular con esquinas configuradas manualmente). Las esquinas se calculan automáticamente según la forma; agrega esquinas adicionales si tu geometría tiene más quiebres. Incluye excavación de zanjas, capa de hormigón pobre (40×5 cm), cimiento corrido (40×40 cm), sobrecimiento (20×30 cm), zapatas de H°A° (40×40×30 cm) y columnas de H°A° (20×20 cm). Las aberturas para portones vehiculares y puertas peatonales descuentan automáticamente del muro y sobrecimiento; la fundación (excavación, capa de H°P°, cimiento corrido) continúa bajo las aberturas.",
-      "version": 18,
+      "version": 21,
       "inputsRequeridos": [
         {
           "nombre": "tipo_geometria",
@@ -13,26 +13,11 @@
           "unidad": "",
           "default": 4.0,
           "opciones": [
-            {
-              "valor": 1.0,
-              "label": "Lineal"
-            },
-            {
-              "valor": 2.0,
-              "label": "L"
-            },
-            {
-              "valor": 3.0,
-              "label": "U"
-            },
-            {
-              "valor": 4.0,
-              "label": "Cerrado"
-            },
-            {
-              "valor": 5.0,
-              "label": "Polígono libre"
-            }
+            { "valor": 1.0, "label": "Lineal" },
+            { "valor": 2.0, "label": "L" },
+            { "valor": 3.0, "label": "U" },
+            { "valor": 4.0, "label": "Cerrado" },
+            { "valor": 5.0, "label": "Polígono libre" }
           ]
         },
         {
@@ -171,11 +156,7 @@
           "nombre": "Excavación de zanjas",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
-          "lee": [
-            "longitud_total",
-            "esquinas_efectivas",
-            "prof_zanja"
-          ],
+          "lee": ["longitud_total", "esquinas_efectivas", "prof_zanja"],
           "escribe": "ml_excavacion",
           "computedOverrides": {
             "ancho": "0.40",
@@ -188,6 +169,7 @@
               "factorFormula": "esquinas_efectivas",
               "overrides": {
                 "largo": "0.40",
+                "ancho": "0.40",
                 "profundidad": "prof_zanja"
               }
             }
@@ -198,11 +180,7 @@
           "nombre": "Excavación adicional para zapatas",
           "unidad": "m3",
           "formulaTexto": "cantidad_columnas",
-          "lee": [
-            "cantidad_columnas",
-            "prof_zapata",
-            "prof_zanja"
-          ],
+          "lee": ["cantidad_columnas", "prof_zapata", "prof_zanja"],
           "escribe": "cant_exc_zapatas",
           "computedOverrides": {
             "largo": "0.40",
@@ -217,19 +195,22 @@
           "nombre": "Capa de hormigón pobre",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
-          "lee": [
-            "longitud_total",
-            "esquinas_efectivas"
-          ],
+          "lee": ["longitud_total", "esquinas_efectivas"],
           "escribe": "ml_hp",
           "presetNombre": "40×5cm",
+          "computedOverrides": {
+            "ancho": "0.40",
+            "espesor": "0.05"
+          },
           "catalogoCodigo": "UH003",
           "descuentos": [
             {
               "nombre": "Esquinas",
               "factorFormula": "esquinas_efectivas",
               "overrides": {
-                "largo": "0.40"
+                "largo": "0.40",
+                "ancho": "0.40",
+                "espesor": "0.05"
               }
             }
           ]
@@ -239,13 +220,12 @@
           "nombre": "Zapata de H°A°",
           "unidad": "m3",
           "formulaTexto": "cantidad_columnas",
-          "lee": [
-            "cantidad_columnas",
-            "h_zapata"
-          ],
+          "lee": ["cantidad_columnas", "h_zapata"],
           "escribe": "cantidad_zapatas",
           "presetNombre": "40×40×30",
           "computedOverrides": {
+            "largo": "0.40",
+            "ancho": "0.40",
             "espesor": "h_zapata"
           },
           "catalogoCodigo": "UH006"
@@ -265,13 +245,19 @@
           ],
           "escribe": "ml_cimiento",
           "presetNombre": "40×40",
+          "computedOverrides": {
+            "ancho": "0.40",
+            "altura": "prof_zanja - 0.05"
+          },
           "catalogoCodigo": "UH004",
           "descuentos": [
             {
               "nombre": "Esquinas",
               "factorFormula": "esquinas_efectivas",
               "overrides": {
-                "largo": "0.40"
+                "largo": "0.40",
+                "ancho": "0.40",
+                "altura": "prof_zanja - 0.05"
               }
             },
             {
@@ -279,7 +265,8 @@
               "factorFormula": "if(prof_zapata <= prof_zanja, cantidad_columnas, 0)",
               "overrides": {
                 "largo": "0.40",
-                "alto": "h_zapata"
+                "ancho": "0.40",
+                "altura": "h_zapata"
               }
             }
           ]
@@ -303,7 +290,9 @@
           "escribe": "cantidad_columnas",
           "presetNombre": "20×20",
           "computedOverrides": {
-            "alto": "altura_muro + h_sobrecimiento + (prof_zapata - 0.05)"
+            "ancho": "0.20",
+            "profundidad": "0.20",
+            "altura": "(prof_zapata - h_zapata) + h_sobrecimiento + altura_muro"
           },
           "catalogoCodigo": "UH007"
         },
@@ -323,7 +312,8 @@
           "escribe": "ml_sobrecimiento",
           "presetNombre": "20×30",
           "computedOverrides": {
-            "alto": "h_sobrecimiento"
+            "ancho": "0.20",
+            "altura": "h_sobrecimiento"
           },
           "catalogoCodigo": "UH005",
           "descuentos": [
@@ -331,21 +321,27 @@
               "nombre": "Esquinas",
               "factorFormula": "esquinas_efectivas",
               "overrides": {
-                "largo": "0.20"
+                "largo": "0.20",
+                "ancho": "0.20",
+                "altura": "h_sobrecimiento"
               }
             },
             {
               "nombre": "Portones",
               "factorFormula": "numero_portones",
               "overrides": {
-                "largo": "ancho_porton"
+                "largo": "ancho_porton",
+                "ancho": "0.20",
+                "altura": "h_sobrecimiento"
               }
             },
             {
               "nombre": "Puertas",
               "factorFormula": "numero_puertas",
               "overrides": {
-                "largo": "ancho_puerta"
+                "largo": "ancho_puerta",
+                "ancho": "0.20",
+                "altura": "h_sobrecimiento"
               }
             }
           ]
@@ -376,25 +372,25 @@
           "descuentos": [
             {
               "nombre": "Columnas",
-              "factorFormula": "1",
+              "factorFormula": "cantidad_columnas",
               "overrides": {
-                "largo": "cantidad_columnas * 0.20",
+                "largo": "0.20",
                 "alto": "altura_muro - h_sobrecimiento"
               }
             },
             {
               "nombre": "Portones",
-              "factorFormula": "1",
+              "factorFormula": "numero_portones",
               "overrides": {
-                "largo": "numero_portones * ancho_porton",
+                "largo": "ancho_porton",
                 "alto": "max(0, min(alto_porton - h_sobrecimiento, altura_muro - h_sobrecimiento))"
               }
             },
             {
               "nombre": "Puertas",
-              "factorFormula": "1",
+              "factorFormula": "n_puertas_efectivo",
               "overrides": {
-                "largo": "n_puertas_efectivo * ancho_puerta",
+                "largo": "ancho_puerta",
                 "alto": "max(0, min(alto_puerta - h_sobrecimiento, altura_muro - h_sobrecimiento))"
               }
             }
