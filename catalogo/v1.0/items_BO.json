@@ -1,5 +1,5 @@
 {
-  "version": "3.1",
+  "version": "v20260516-210121",
   "items": [
     {
       "codigo": "AC009",
@@ -3281,6 +3281,665 @@
           "visiblePorDefecto": true
         }
       ]
+    },
+    {
+      "codigo": "OT001",
+      "nombre": "Instalación de Faenas",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "glb",
+      "categoria": "Otros",
+      "verificado": true,
+      "tipoIfc": "",
+      "formulaResultado": "1",
+      "insumos": [
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "P2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 50.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Calamina Galvanizada",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cubiertas",
+          "rendimiento": 6.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 3.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Carpintero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 16.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 16.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": []
+    },
+    {
+      "codigo": "OT002",
+      "nombre": "Replanteo y Trazado",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Otros",
+      "verificado": true,
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Yeso",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.05,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "P2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 0.10,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.01,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.03,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.03,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "OT003",
+      "nombre": "Excavación Manual",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 1.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 3.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Profundidad",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "OT004",
+      "nombre": "Relleno y Compactado",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "OT005",
+      "nombre": "Limpieza del Terreno",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Otros",
+      "verificado": true,
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.10,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "OG027",
+      "nombre": "Viga de Fundación de H°A°",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "tipoIfc": "BEAM",
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 350.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Arena Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.50,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.70,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Fierro Corrugado",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 70.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 1.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "P2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 25.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 3.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Armador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 4.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Encofrador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 4.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 9.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Mezcladora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Vibradora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.4,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "OG028",
+      "nombre": "Acera de H°S°",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "tipoIfc": "SLAB",
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Arena Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.015,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.025,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Mezcladora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.1,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "AC008",
+      "nombre": "Contrazócalo de Cerámica",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "ml",
+      "categoria": "Acabados",
+      "verificado": true,
+      "tipoIfc": "WALL",
+      "insumos": [
+        {
+          "nombre": "Cerámica Esmaltada 30×30",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ladrillos y Cerámicos",
+          "rendimiento": 0.35,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Pegamento Cerámico",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Adhesivos",
+          "rendimiento": 1.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.30,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.15,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "IE003",
+      "nombre": "Tablero de Distribución",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "pza",
+      "categoria": "Inst. Eléctricas",
+      "verificado": true,
+      "tipoIfc": "",
+      "formulaResultado": "1",
+      "insumos": [
+        {
+          "nombre": "Tablero de Distribución 6 circuitos",
+          "unidad": "pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Eléctrico",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Cable THW 12 AWG",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Eléctrico",
+          "rendimiento": 6.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Electricista",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 4.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 2.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": []
+    },
+    {
+      "codigo": "IS003",
+      "nombre": "Cámara de Inspección",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "pza",
+      "categoria": "Inst. Sanitarias",
+      "verificado": true,
+      "tipoIfc": "",
+      "formulaResultado": "1",
+      "insumos": [
+        {
+          "nombre": "Ladrillo 6H 24x15x11",
+          "unidad": "pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ladrillos y Cerámicos",
+          "rendimiento": 80.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 25.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Arena Fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.05,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 6.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 4.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": ""
+        }
+      ],
+      "parametros": []
     }
   ]
 }
