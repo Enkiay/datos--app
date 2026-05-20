@@ -1,5 +1,5 @@
 {
-  "version": "v20260519-210259",
+  "version": "v20260519-213939",
   "schemaVersion": 1,
   "items": [
     {
@@ -1296,146 +1296,195 @@
       "codigo": "UH005",
       "nombre": "Sobrecimiento",
       "tipoCalculo": "VOLUMEN",
-      "inputPrincipalLabel": "Metro Lineal",
+      "inputPrincipalLabel": "Cantidad",
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "tipoIfc": "FOOTING",
+      "subcategoria": "Cimientos",
+      "aliases": [
+        "SOBRECIMIENTO DE Ho. Ao."
+      ],
+      "formulaResultado": "",
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
       "insumos": [
         {
           "nombre": "Cemento Portland",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
-          "rendimiento": 250.0,
+          "idCanonico": "cemento_portland_kg",
+          "rendimiento": 350.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "precio": 0.99
+        },
+        {
+          "nombre": "Fierro Corrugado",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "fierro_corrugado_kg",
+          "rendimiento": 60.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 10.8
         },
         {
           "nombre": "Arena Común",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
+          "idCanonico": "arena_comun_m3",
           "rendimiento": 0.45,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "precio": 120.75
         },
         {
           "nombre": "Grava Común",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
-          "rendimiento": 0.65,
+          "idCanonico": "grava_comun_m3",
+          "rendimiento": 0.92,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
-        },
-        {
-          "nombre": "Piedra Bruta",
-          "unidad": "m3",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Agregados",
-          "rendimiento": 0.4,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "precio": 120.75
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
-          "rendimiento": 15.0,
+          "idCanonico": "madera_de_construccion_p2",
+          "rendimiento": 25.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "precio": 9.0
         },
         {
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
-          "rendimiento": 0.5,
+          "categoria": "Acero y Metal",
+          "idCanonico": "clavos_kg",
+          "rendimiento": 0.6,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "precio": 12.5
         },
         {
-          "nombre": "Albañil",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
-          "rendimiento": 4.0,
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "alambre_de_amarre_kg",
+          "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "precio": 12.0
+        },
+        {
+          "nombre": "Sika 1 Impermeabilizante",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Impermeabilización",
+          "idCanonico": "sika_1_impermeabilizante_kg",
+          "rendimiento": 2.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 17.0
         },
         {
           "nombre": "Encofrador",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
-          "rendimiento": 2.0,
+          "idCanonico": "mo_encofrador",
+          "rendimiento": 8.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Armador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_armador",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_albanil",
+          "rendimiento": 12.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
         },
         {
           "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 8.0,
+          "idCanonico": "mo_ayudante",
+          "rendimiento": 16.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "precio": 15.0
         },
         {
           "nombre": "Mezcladora",
           "unidad": "Hr",
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
-          "rendimiento": 0.5,
+          "idCanonico": "eq_mezcladora",
+          "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "precio": 22.0
+        },
+        {
+          "nombre": "Vibradora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_vibradora",
+          "rendimiento": 0.8,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
         }
       ],
-      "parametros": [
-        {
-          "nombre": "largo",
-          "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "ancho",
-          "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "altura",
-          "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        }
-      ],
-      "presets": [
-        {
-          "nombre": "15×25",
-          "valores": {
-            "ancho": 0.15,
-            "altura": 0.25
-          }
-        },
-        {
-          "nombre": "15×30",
-          "valores": {
-            "ancho": 0.15,
-            "altura": 0.3
-          }
-        },
-        {
-          "nombre": "20×30",
-          "valores": {
-            "ancho": 0.2,
-            "altura": 0.3
-          }
-        }
-      ]
+      "presets": [],
+      "autorNombre": "",
+      "autorUid": ""
     },
     {
       "codigo": "UH008",
@@ -35128,6 +35177,1240 @@
       "aliases": [],
       "subcategoria": "Limpieza",
       "tags": []
+    },
+    {
+      "codigo": "UH006",
+      "nombre": "Zapata de H°A°",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "tipoIfc": "FOOTING",
+      "subcategoria": "Cimientos",
+      "aliases": [
+        "ZAPATA DE Ho. Ao."
+      ],
+      "formulaResultado": "",
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "idCanonico": "cemento_portland_kg",
+          "rendimiento": 350.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 0.99
+        },
+        {
+          "nombre": "Fierro Corrugado",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "fierro_corrugado_kg",
+          "rendimiento": 55.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 10.8
+        },
+        {
+          "nombre": "Arena Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "arena_comun_m3",
+          "rendimiento": 0.92,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "grava_comun_m3",
+          "rendimiento": 0.45,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "idCanonico": "madera_de_construccion_p2",
+          "rendimiento": 25.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 9.0
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "clavos_kg",
+          "rendimiento": 1.2,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.5
+        },
+        {
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "alambre_de_amarre_kg",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.0
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_albanil",
+          "rendimiento": 12.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "idCanonico": "mo_ayudante",
+          "rendimiento": 18.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        },
+        {
+          "nombre": "Encofrador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "idCanonico": "mo_encofrador",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Armador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_armador",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Mezcladora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_mezcladora",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 22.0
+        },
+        {
+          "nombre": "Vibradora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_vibradora",
+          "rendimiento": 0.8,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        }
+      ],
+      "presets": [],
+      "autorNombre": "",
+      "autorUid": ""
+    },
+    {
+      "codigo": "UH007",
+      "nombre": "Columna de H°A°",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "tipoIfc": "COLUMN",
+      "subcategoria": "Columnas",
+      "aliases": [
+        "COLUMNA DE Ho. Ao."
+      ],
+      "formulaResultado": "",
+      "parametros": [
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Profundidad",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "idCanonico": "cemento_portland_kg",
+          "rendimiento": 350.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 0.99
+        },
+        {
+          "nombre": "Fierro Corrugado",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "fierro_corrugado_kg",
+          "rendimiento": 125.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 10.8
+        },
+        {
+          "nombre": "Arena Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "arena_comun_m3",
+          "rendimiento": 0.45,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "grava_comun_m3",
+          "rendimiento": 0.92,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "idCanonico": "madera_de_construccion_p2",
+          "rendimiento": 80.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 9.0
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "clavos_kg",
+          "rendimiento": 2.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.5
+        },
+        {
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "alambre_de_amarre_kg",
+          "rendimiento": 2.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.0
+        },
+        {
+          "nombre": "Encofrador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "idCanonico": "mo_encofrador",
+          "rendimiento": 16.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Armador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_armador",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_albanil",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "idCanonico": "mo_ayudante",
+          "rendimiento": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        },
+        {
+          "nombre": "Mezcladora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_mezcladora",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 22.0
+        },
+        {
+          "nombre": "Vibradora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_vibradora",
+          "rendimiento": 0.8,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        }
+      ],
+      "presets": [
+        {
+          "nombre": "20×20",
+          "valores": {
+            "Ancho": 0.2,
+            "Profundidad": 0.2
+          }
+        },
+        {
+          "nombre": "25×25",
+          "valores": {
+            "Ancho": 0.25,
+            "Profundidad": 0.25
+          }
+        },
+        {
+          "nombre": "30×30",
+          "valores": {
+            "Ancho": 0.3,
+            "Profundidad": 0.3
+          }
+        },
+        {
+          "nombre": "20×30",
+          "valores": {
+            "Ancho": 0.2,
+            "Profundidad": 0.3
+          }
+        }
+      ],
+      "autorNombre": "",
+      "autorUid": ""
+    },
+    {
+      "codigo": "UH010",
+      "nombre": "Viga de H°A°",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Metro Lineal",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "tipoIfc": "BEAM",
+      "subcategoria": "Vigas",
+      "aliases": [
+        "VIGA DE Ho. Ao."
+      ],
+      "formulaResultado": "",
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "idCanonico": "cemento_portland_kg",
+          "rendimiento": 350.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 0.99
+        },
+        {
+          "nombre": "Fierro Corrugado",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "fierro_corrugado_kg",
+          "rendimiento": 120.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 10.8
+        },
+        {
+          "nombre": "Arena Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "arena_comun_m3",
+          "rendimiento": 0.45,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "grava_comun_m3",
+          "rendimiento": 0.92,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "idCanonico": "madera_de_construccion_p2",
+          "rendimiento": 85.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 9.0
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "clavos_kg",
+          "rendimiento": 2.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.5
+        },
+        {
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "alambre_de_amarre_kg",
+          "rendimiento": 2.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.0
+        },
+        {
+          "nombre": "Encofrador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "idCanonico": "mo_encofrador",
+          "rendimiento": 18.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Armador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_armador",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_albanil",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "idCanonico": "mo_ayudante",
+          "rendimiento": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        },
+        {
+          "nombre": "Mezcladora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_mezcladora",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 22.0
+        },
+        {
+          "nombre": "Vibradora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_vibradora",
+          "rendimiento": 0.8,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        }
+      ],
+      "presets": [
+        {
+          "nombre": "20×30",
+          "valores": {
+            "Ancho": 0.2,
+            "Alto": 0.3
+          }
+        },
+        {
+          "nombre": "20×40",
+          "valores": {
+            "Ancho": 0.2,
+            "Alto": 0.4
+          }
+        },
+        {
+          "nombre": "25×50",
+          "valores": {
+            "Ancho": 0.25,
+            "Alto": 0.5
+          }
+        },
+        {
+          "nombre": "30×60",
+          "valores": {
+            "Ancho": 0.3,
+            "Alto": 0.6
+          }
+        }
+      ],
+      "autorNombre": "",
+      "autorUid": ""
+    },
+    {
+      "codigo": "UH011",
+      "nombre": "Losa Alivianada de H°A°",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "tipoIfc": "SLAB",
+      "subcategoria": "Losas",
+      "aliases": [
+        "LOSA ALIVIANADA DE Ho. Ao."
+      ],
+      "formulaResultado": "",
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "idCanonico": "cemento_portland_kg",
+          "rendimiento": 40.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 0.99
+        },
+        {
+          "nombre": "Arena Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "arena_comun_m3",
+          "rendimiento": 0.06,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "grava_comun_m3",
+          "rendimiento": 0.1,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "idCanonico": "madera_de_construccion_p2",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 9.0
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "clavos_kg",
+          "rendimiento": 0.2,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.5
+        },
+        {
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "alambre_de_amarre_kg",
+          "rendimiento": 0.2,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.0
+        },
+        {
+          "nombre": "Plastoform 100X40X16 Cm",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "idCanonico": "plastoform_100x40x16_cm_pza",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.0
+        },
+        {
+          "nombre": "Plastiment H-E Plastificante",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "idCanonico": "plastiment_h_e_plastificante_kg",
+          "rendimiento": 0.16,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.0
+        },
+        {
+          "nombre": "Encofrador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "idCanonico": "mo_encofrador",
+          "rendimiento": 1.15,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Armador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_armador",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_albanil",
+          "rendimiento": 1.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "idCanonico": "mo_ayudante",
+          "rendimiento": 2.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        },
+        {
+          "nombre": "Mezcladora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_mezcladora",
+          "rendimiento": 0.05,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 22.0
+        },
+        {
+          "nombre": "Vibradora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_vibradora",
+          "rendimiento": 0.3,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        }
+      ],
+      "presets": [],
+      "autorNombre": "",
+      "autorUid": ""
+    },
+    {
+      "codigo": "UH023",
+      "nombre": "Cimiento de H°C°",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "tipoIfc": "FOOTING",
+      "subcategoria": "Cimientos",
+      "aliases": [
+        "CIMIENTO DE Ho. Co."
+      ],
+      "formulaResultado": "",
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "idCanonico": "cemento_portland_kg",
+          "rendimiento": 120.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 0.99
+        },
+        {
+          "nombre": "Arena Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "arena_comun_m3",
+          "rendimiento": 0.2,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "grava_comun_m3",
+          "rendimiento": 0.3,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Piedra para Cimiento",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "piedra_para_cimiento_m3",
+          "rendimiento": 0.8,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.0
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_albanil",
+          "rendimiento": 5.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "idCanonico": "mo_ayudante",
+          "rendimiento": 5.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        }
+      ],
+      "presets": [],
+      "autorNombre": "",
+      "autorUid": ""
+    },
+    {
+      "codigo": "UH024",
+      "nombre": "Sobrecimiento de H°C°",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "tipoIfc": "FOOTING",
+      "subcategoria": "Cimientos",
+      "aliases": [
+        "SOBRECIMIENTO DE Ho. Co."
+      ],
+      "formulaResultado": "",
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "idCanonico": "cemento_portland_kg",
+          "rendimiento": 120.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 0.99
+        },
+        {
+          "nombre": "Arena Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "arena_comun_m3",
+          "rendimiento": 0.25,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "grava_comun_m3",
+          "rendimiento": 0.35,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Piedra Manzana",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "piedra_manzana_m3",
+          "rendimiento": 0.8,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.0
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "idCanonico": "madera_de_construccion_p2",
+          "rendimiento": 25.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 9.0
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "clavos_kg",
+          "rendimiento": 0.6,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.5
+        },
+        {
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "alambre_de_amarre_kg",
+          "rendimiento": 0.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.0
+        },
+        {
+          "nombre": "Sika 1 Impermeabilizante",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Impermeabilización",
+          "idCanonico": "sika_1_impermeabilizante_kg",
+          "rendimiento": 2.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 17.0
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_albanil",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "idCanonico": "mo_ayudante",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        }
+      ],
+      "presets": [],
+      "autorNombre": "",
+      "autorUid": ""
+    },
+    {
+      "codigo": "OG027",
+      "nombre": "Viga de Fundación de H°A°",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "tipoIfc": "BEAM",
+      "subcategoria": "Cimientos",
+      "aliases": [
+        "VIGA DE FUNDACIÓN DE Ho. Ao."
+      ],
+      "formulaResultado": "",
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "idCanonico": "cemento_portland_kg",
+          "rendimiento": 350.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 0.99
+        },
+        {
+          "nombre": "Fierro Corrugado",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "fierro_corrugado_kg",
+          "rendimiento": 60.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 10.8
+        },
+        {
+          "nombre": "Arena Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "arena_comun_m3",
+          "rendimiento": 0.45,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "grava_comun_m3",
+          "rendimiento": 0.92,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "idCanonico": "madera_de_construccion_p2",
+          "rendimiento": 45.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 9.0
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "clavos_kg",
+          "rendimiento": 1.2,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.5
+        },
+        {
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "alambre_de_amarre_kg",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.0
+        },
+        {
+          "nombre": "Encofrador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "idCanonico": "mo_encofrador",
+          "rendimiento": 8.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Armador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_armador",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_albanil",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "idCanonico": "mo_ayudante",
+          "rendimiento": 16.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        },
+        {
+          "nombre": "Mezcladora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_mezcladora",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 22.0
+        },
+        {
+          "nombre": "Vibradora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_vibradora",
+          "rendimiento": 0.8,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        }
+      ],
+      "presets": [],
+      "autorNombre": "",
+      "autorUid": ""
     }
   ]
 }
