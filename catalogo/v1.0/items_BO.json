@@ -1,5 +1,5 @@
 {
-  "version": "v20260519-232530",
+  "version": "v20260527-002446",
   "schemaVersion": 1,
   "items": [
     {
@@ -60,14 +60,14 @@
       "nombre": "Puerta",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "pza",
+      "unidadResultado": "Pza",
       "categoria": "Carpintería",
       "verificado": true,
       "tipoIfc": "DOOR",
       "insumos": [
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 30.0,
@@ -122,14 +122,14 @@
       "nombre": "Ventana",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "pza",
+      "unidadResultado": "Pza",
       "categoria": "Carpintería",
       "verificado": true,
       "tipoIfc": "WINDOW",
       "insumos": [
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 15.0,
@@ -184,7 +184,7 @@
       "nombre": "Baranda Metálica",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "ml",
+      "unidadResultado": "m",
       "categoria": "Carpintería",
       "verificado": true,
       "tipoIfc": "RAILING",
@@ -200,7 +200,7 @@
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 2.0,
@@ -247,7 +247,7 @@
       "insumos": [
         {
           "nombre": "Cable THW 12 AWG",
-          "unidad": "ml",
+          "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 12.0,
@@ -305,7 +305,7 @@
       "insumos": [
         {
           "nombre": "Cable THW 12 AWG",
-          "unidad": "ml",
+          "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 10.0,
@@ -363,7 +363,7 @@
       "insumos": [
         {
           "nombre": "Tubería PVC 1/2\"",
-          "unidad": "ml",
+          "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
           "rendimiento": 6.0,
@@ -412,7 +412,7 @@
       "insumos": [
         {
           "nombre": "Tubería PVC 4\"",
-          "unidad": "ml",
+          "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
           "rendimiento": 4.0,
@@ -886,7 +886,7 @@
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 5.0,
@@ -941,14 +941,14 @@
       "nombre": "Replanteo",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "gl",
+      "unidadResultado": "Glb",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "tipoIfc": "",
       "insumos": [
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 10.0,
@@ -1349,7 +1349,7 @@
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 30.0,
@@ -1630,7 +1630,7 @@
       "nombre": "Pilote de H°A°",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "ml",
+      "unidadResultado": "m",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "tipoIfc": "PILE",
@@ -1682,7 +1682,7 @@
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 25.0,
@@ -1819,7 +1819,7 @@
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 8.0,
@@ -1962,7 +1962,7 @@
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 10.0,
@@ -2115,7 +2115,7 @@
       "nombre": "Instalación de Faenas",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "glb",
+      "unidadResultado": "Glb",
       "categoria": "Otros",
       "verificado": true,
       "tipoIfc": "",
@@ -2123,7 +2123,7 @@
       "insumos": [
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 50.0,
@@ -2190,7 +2190,7 @@
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 0.1,
@@ -2460,7 +2460,7 @@
       "nombre": "Contrazócalo de Cerámica",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "ml",
+      "unidadResultado": "m",
       "categoria": "Acabados",
       "verificado": true,
       "tipoIfc": "WALL",
@@ -2516,7 +2516,7 @@
       "nombre": "Tablero de Distribución",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "pza",
+      "unidadResultado": "Pza",
       "categoria": "Inst. Eléctricas",
       "verificado": true,
       "tipoIfc": "",
@@ -2524,7 +2524,7 @@
       "insumos": [
         {
           "nombre": "Tablero de Distribución 6 circuitos",
-          "unidad": "pza",
+          "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
@@ -2566,7 +2566,7 @@
       "nombre": "Cámara de Inspección",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "pza",
+      "unidadResultado": "Pza",
       "categoria": "Inst. Sanitarias",
       "verificado": true,
       "tipoIfc": "",
@@ -2574,7 +2574,7 @@
       "insumos": [
         {
           "nombre": "Ladrillo 6H 24x15x11",
-          "unidad": "pza",
+          "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 80.0,
@@ -2625,7 +2625,7 @@
       "nombre": "Demolición de Columnas, Vigas y Losas de H°A°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -2726,7 +2726,7 @@
       "nombre": "Demolición de Piso y Contrapiso",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -2773,7 +2773,7 @@
       "nombre": "Demolición H°C°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -2862,7 +2862,7 @@
       "nombre": "Demolición Hormigón Simple",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -2917,7 +2917,7 @@
       "nombre": "Demolición Mampostería de Piedra",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -2970,7 +2970,7 @@
       "nombre": "Demolición Muro de Ladrillo",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -3017,7 +3017,7 @@
       "nombre": "Desate de Cubierta de Calamina",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -3068,7 +3068,7 @@
       "nombre": "Desate de Gaviones",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3162,7 +3162,7 @@
       "nombre": "Desempiedre",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3207,7 +3207,7 @@
       "nombre": "Entibado y Apuntalado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3296,7 +3296,7 @@
       "nombre": "Letrero de Obra 3x2 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3431,7 +3431,7 @@
       "nombre": "Limpieza y Deshierbe",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3476,7 +3476,7 @@
       "nombre": "Picado de Revoque Interior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3523,7 +3523,7 @@
       "nombre": "Replanteo y Trazado Lineal",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3623,7 +3623,7 @@
       "nombre": "Retiro de Cielo Raso (Estuco bajo Losa)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3670,7 +3670,7 @@
       "nombre": "Transporte de Material Excedente",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3743,7 +3743,7 @@
       "nombre": "Excavación 0-1.5 M Terr. Blando",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3807,7 +3807,7 @@
       "nombre": "Excavación 0-1.5 M Terr. Semiduro",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3871,7 +3871,7 @@
       "nombre": "Excavación 0-1.5 M Terr. Duro",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -3935,7 +3935,7 @@
       "nombre": "Excavación con Agotamiento",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -4008,7 +4008,7 @@
       "nombre": "Excavación con Retroexcavadora",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -4092,7 +4092,7 @@
       "nombre": "Excavación en Roca",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -4231,7 +4231,7 @@
       "nombre": "Movimiento de Tierra con Topadora",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -4295,7 +4295,7 @@
       "nombre": "Relleno y Apisonado Manual de Tierra",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -4357,7 +4357,7 @@
       "nombre": "Relleno y Compactado con Máquina",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -4430,7 +4430,7 @@
       "nombre": "Relleno y Compactado con Máquina y Material Común",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -4514,7 +4514,7 @@
       "nombre": "Relleno y Compactado con Tierra Seleccionada",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -4587,7 +4587,7 @@
       "nombre": "Retiro y Transporte de Escombros con Carguío",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -4660,7 +4660,7 @@
       "nombre": "Carpeta H°P°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -4770,7 +4770,7 @@
       "nombre": "Losa de Cimentación H°A°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -4958,7 +4958,7 @@
       "nombre": "Losa Radier Hormigón Premezclado H-21",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -5110,7 +5110,7 @@
       "nombre": "Mampostería de Piedra Bruta",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -5227,7 +5227,7 @@
       "nombre": "Muro de Contención de H°C°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -5370,7 +5370,7 @@
       "nombre": "Muro de H°A° E=25 Cm",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -5557,7 +5557,7 @@
       "nombre": "Ábaco en Losas Hormigón Premezclado H-21",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -5787,7 +5787,7 @@
       "nombre": "Columna de Hormigón Premezclado H-21",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -5952,7 +5952,7 @@
       "nombre": "Columna de Hormigón Premezclado H-21 con Bomba",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -6117,7 +6117,7 @@
       "nombre": "Columna de Hormigón Premezclado H-25",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -6282,7 +6282,7 @@
       "nombre": "Escalera de H°A°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -6541,7 +6541,7 @@
       "nombre": "Losa Alivianada Vigueta Pretensada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -6749,7 +6749,7 @@
       "nombre": "Losa H=20 con Vigueta Hormigón Premezclado H-25",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -6925,7 +6925,7 @@
       "nombre": "Losa H=20 con Vigueta Hormigón Premezclado H-21",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -7101,7 +7101,7 @@
       "nombre": "Losa H=20 con Vigueta Hormigón Premezclado H-21 con Bomba Adicional",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -7277,7 +7277,7 @@
       "nombre": "Viga de Encadenado de H°A°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -7817,7 +7817,7 @@
       "nombre": "Muro Bloque de Hormigón 3H E=15 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -7914,7 +7914,7 @@
       "nombre": "Muro Bloque de Vidrio 20x20 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -8022,7 +8022,7 @@
       "nombre": "Muro Ladrillo 8 Cm 3H",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -8119,7 +8119,7 @@
       "nombre": "Muro Ladrillo 12 Cm 6H con Pega Ladrillo Fácil",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -8205,7 +8205,7 @@
       "nombre": "Muro Ladrillo 16 Cm 6H",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -8302,7 +8302,7 @@
       "nombre": "Muro Ladrillo 9.8 Cm 6H con Pegamento Valkure (Hz)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -8388,7 +8388,7 @@
       "nombre": "Muro Ladrillo Adobito 15 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -8485,7 +8485,7 @@
       "nombre": "Muro Ladrillo Gambote 12 Cm Visto",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -8582,7 +8582,7 @@
       "nombre": "Cubierta Calamina Galvanizado N° 28",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -8692,7 +8692,7 @@
       "nombre": "Cubierta Calamina Galvanizado N° 33",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -8802,7 +8802,7 @@
       "nombre": "Cubierta Calamina Ondulada de Policarbonato",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -8908,7 +8908,7 @@
       "nombre": "Cubierta Calamina Plástica PVC",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -9016,7 +9016,7 @@
       "nombre": "Cubierta Calamina Trapezoidal N°28 con Espuma de Poliuretano E=10 Mm con Estructura Metálica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -9190,7 +9190,7 @@
       "nombre": "Cubierta Steel Frame con Calamina Ondulada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -9331,7 +9331,7 @@
       "nombre": "Cubierta Placa Ondulada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -9426,7 +9426,7 @@
       "nombre": "Cubierta Steel Frame con Teja Colonial",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -9567,7 +9567,7 @@
       "nombre": "Cubierta Teja Colonial Cerámica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -9673,7 +9673,7 @@
       "nombre": "Cubierta Teja Española Cerámica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -9779,7 +9779,7 @@
       "nombre": "Cubierta Teja Española Duralit",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -9885,7 +9885,7 @@
       "nombre": "Cubierta Termoacústica Isolcruz - Densidad 13",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -9969,7 +9969,7 @@
       "nombre": "Cubierta Termoacústica Isolcruz E=30 Mm Densidad 40",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -10055,7 +10055,7 @@
       "nombre": "Cubierta Termoacústica Isolcruz E=50 Mm - Densidad 40",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -10503,7 +10503,7 @@
       "nombre": "Proyectado de Phono Spray Isolcruz E=45-60 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -10572,7 +10572,7 @@
       "nombre": "Proyectado de Termo Spray Isolcruz E=20-25 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -10641,7 +10641,7 @@
       "nombre": "Proyectado de Termo Spray Isolcruz E=10-15 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -10710,7 +10710,7 @@
       "nombre": "Proyectado de Termo Spray Isolcruz E=15-20 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -10779,7 +10779,7 @@
       "nombre": "Cielo Raso con Revestimiento Machihembre Palo María",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -10890,7 +10890,7 @@
       "nombre": "Revoque Cielo Falso",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -11001,7 +11001,7 @@
       "nombre": "Revoque Cielo Raso sobre Losa",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -11076,7 +11076,7 @@
       "nombre": "Alero",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -11462,7 +11462,7 @@
       "nombre": "Emboquillado de Cemento Blanco",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -11540,7 +11540,7 @@
       "nombre": "Enchape Cerámico Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -11720,7 +11720,7 @@
       "nombre": "Piruleado Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -11800,7 +11800,7 @@
       "nombre": "Revestimiento de Azulejo Color Nacional 22x34 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -11902,7 +11902,7 @@
       "nombre": "Revestimiento de Azulejo Importado 20x30 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -12004,7 +12004,7 @@
       "nombre": "Revestimiento de Piedra Pizarra Cortada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -12093,7 +12093,7 @@
       "nombre": "Revestimiento Madera Machihembre Cedro",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -12193,7 +12193,7 @@
       "nombre": "Revoque Exterior con Revoque Fino Fácil",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -12264,7 +12264,7 @@
       "nombre": "Revoque Exterior Cal-Cemento",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -12355,7 +12355,7 @@
       "nombre": "Revoque Interior de Yeso",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -12424,7 +12424,7 @@
       "nombre": "Revoque Interior Impermeable",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -12515,7 +12515,7 @@
       "nombre": "Cielo Falso Drywall Tipo Durlok 10 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -12595,7 +12595,7 @@
       "nombre": "Muro Drywall 1 Cara 12 Cm Placa 1.2x2.4 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -12747,7 +12747,7 @@
       "nombre": "Muro Drywall 2 Caras 12 Cm Placa 1.2x2.4 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -12899,7 +12899,7 @@
       "nombre": "Muro Drywall 1 Cara 92 Mm Durlock (0.90x2.40 M)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -13051,7 +13051,7 @@
       "nombre": "Muro Drywall 2 Caras 92 Mm Durlock (0.90x2.40 M)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -13775,7 +13775,7 @@
       "nombre": "Muro Placa Cementicia 1 Cara Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -13927,7 +13927,7 @@
       "nombre": "Muro Placa Cementicia 2 Caras Interior y Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -14080,7 +14080,7 @@
       "nombre": "Contrapiso de Cemento sobre Losa",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -14166,7 +14166,7 @@
       "nombre": "Contrapiso Ladrillo Adobito",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -14261,7 +14261,7 @@
       "nombre": "Empedrado y Contrapiso de Ho",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -14369,7 +14369,7 @@
       "nombre": "Piso de Baldosa Cerámica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -14469,7 +14469,7 @@
       "nombre": "Piso de Baldosa Granítico 40x40x0.50 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -14571,7 +14571,7 @@
       "nombre": "Piso de Cerámica Importado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -14671,7 +14671,7 @@
       "nombre": "Piso de Cerámica Nacional Cemento Cola",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -14760,7 +14760,7 @@
       "nombre": "Piso de Mármol Travertino Nacional",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -14860,7 +14860,7 @@
       "nombre": "Piso de Mosaico Marmolado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -14960,7 +14960,7 @@
       "nombre": "Piso de Porcelanato",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -15060,7 +15060,7 @@
       "nombre": "Piso de Porcelanato con Cemento Cola",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -15149,7 +15149,7 @@
       "nombre": "Piso de Vinil",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -15227,7 +15227,7 @@
       "nombre": "Piso Enlucido Fino",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -15316,7 +15316,7 @@
       "nombre": "Piso Entablonado E=1.9 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -15383,7 +15383,7 @@
       "nombre": "Piso Flotante",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -15450,7 +15450,7 @@
       "nombre": "Piso Machihembre Cedro con Envigado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -15558,7 +15558,7 @@
       "nombre": "Piso Parket Tajibo",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -15658,7 +15658,7 @@
       "nombre": "Piso Piedra Tarija",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -23169,7 +23169,7 @@
       "nombre": "Excavación de Zanja con Retroexcavadora",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Inst. Sanitarias",
       "verificado": true,
       "insumos": [
@@ -23242,7 +23242,7 @@
       "nombre": "Excavación Manual Zanja 0-2 M Terreno Semiduro",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Inst. Sanitarias",
       "verificado": true,
       "insumos": [
@@ -23909,7 +23909,7 @@
       "nombre": "Relleno y Compactación de Zanja con Compactadora",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Inst. Sanitarias",
       "verificado": true,
       "insumos": [
@@ -23982,7 +23982,7 @@
       "nombre": "Jabalina para Puesta a Tierra",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "Pto",
+      "unidadResultado": "pto",
       "categoria": "Inst. Eléctricas",
       "verificado": true,
       "insumos": [
@@ -24461,7 +24461,7 @@
       "nombre": "Provisión E Instalación de Timbre",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "Pto",
+      "unidadResultado": "pto",
       "categoria": "Inst. Eléctricas",
       "verificado": true,
       "insumos": [
@@ -24750,7 +24750,7 @@
       "nombre": "Provisión E Instalación Iluminación Incandescente 100W",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "Pto",
+      "unidadResultado": "pto",
       "categoria": "Inst. Eléctricas",
       "verificado": true,
       "insumos": [
@@ -25012,7 +25012,7 @@
       "nombre": "Provisión E Instalación Punto de Internet",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "Pto",
+      "unidadResultado": "pto",
       "categoria": "Inst. Eléctricas",
       "verificado": true,
       "insumos": [
@@ -25121,7 +25121,7 @@
       "nombre": "Provisión E Instalación Punto de Tv",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "Pto",
+      "unidadResultado": "pto",
       "categoria": "Inst. Eléctricas",
       "verificado": true,
       "insumos": [
@@ -25219,7 +25219,7 @@
       "nombre": "Provisión E Instalación Punto Tomacorriente",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "Pto",
+      "unidadResultado": "pto",
       "categoria": "Inst. Eléctricas",
       "verificado": true,
       "insumos": [
@@ -25317,7 +25317,7 @@
       "nombre": "Punto de Aire Acondicionado",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "Pto",
+      "unidadResultado": "pto",
       "categoria": "Inst. Eléctricas",
       "verificado": true,
       "insumos": [
@@ -25404,7 +25404,7 @@
       "nombre": "Punto de Teléfono",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "Pto",
+      "unidadResultado": "pto",
       "categoria": "Inst. Eléctricas",
       "verificado": true,
       "insumos": [
@@ -25513,7 +25513,7 @@
       "nombre": "Punto para Ducha Eléctrica",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "Pto",
+      "unidadResultado": "pto",
       "categoria": "Inst. Eléctricas",
       "verificado": true,
       "insumos": [
@@ -25665,7 +25665,7 @@
       "nombre": "Cubierta de Policarbonato (6 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -25817,7 +25817,7 @@
       "nombre": "Cubierta de Policarbonato (8 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -25969,7 +25969,7 @@
       "nombre": "Impermeabilización de Cubierta Teja Colonial",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -26042,7 +26042,7 @@
       "nombre": "Impermeabilización Lámina Asfáltica Sika con Aluminio",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -26120,7 +26120,7 @@
       "nombre": "Impermeabilización Membrana Geotextil 3.5 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -26189,7 +26189,7 @@
       "nombre": "Pintura Anticorrosiva para Cubierta",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -26273,7 +26273,7 @@
       "nombre": "Pintura Anticorrosiva para Reja",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -26351,7 +26351,7 @@
       "nombre": "Pintura de Aleros",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -26429,7 +26429,7 @@
       "nombre": "Pintura de Cubierta Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": true,
       "insumos": [
@@ -26504,7 +26504,7 @@
       "nombre": "Pintura de Puertas",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -26593,7 +26593,7 @@
       "nombre": "Pintura Hormigón Visto Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -26675,7 +26675,7 @@
       "nombre": "Pintura Interior Latex (Dos Manos)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -26777,7 +26777,7 @@
       "nombre": "Pintura Interior Latex Satinado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -26857,7 +26857,7 @@
       "nombre": "Pintura Óleo Interior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -26970,7 +26970,7 @@
       "nombre": "Barnizado de Madera",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -27113,7 +27113,7 @@
       "nombre": "Cepillado y Lustrado de Piso Madera",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -27598,7 +27598,7 @@
       "nombre": "Ventana Madera Cedro (Marco 2x3″)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -27700,7 +27700,7 @@
       "nombre": "División Interior Vidrio Templado (10 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -27804,7 +27804,7 @@
       "nombre": "Fachada Flotante Vidrio Reflectivo con Estructura de Aluminio",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -27893,7 +27893,7 @@
       "nombre": "Puerta Abatible de Vidrio Templado 10 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -27982,7 +27982,7 @@
       "nombre": "Puerta Plancha Metálica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -28137,7 +28137,7 @@
       "nombre": "Puerta Garaje de Plancha Metálica 3.0x2.4 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -28294,7 +28294,7 @@
       "nombre": "Reja Metálica para Ventana con Marco",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -28407,7 +28407,7 @@
       "nombre": "Ventana Corrediza de Aluminio 3 Hojas 2.40x1.20 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -28487,7 +28487,7 @@
       "nombre": "Ventana Metálica (Angular 1″x1/8″)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -28622,7 +28622,7 @@
       "nombre": "Colocado de Vidrio (6 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -28713,7 +28713,7 @@
       "nombre": "Colocado de Vidrio Catedral (3 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -28804,7 +28804,7 @@
       "nombre": "Colocado de Vidrio Doble (3 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -28895,7 +28895,7 @@
       "nombre": "Colocado de Vidrio Triple (4 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -28986,7 +28986,7 @@
       "nombre": "Mesón de H°A° con Revestimiento Azulejo Color",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -29134,7 +29134,7 @@
       "nombre": "Mesón de H°A° con Revestimiento de Mármol",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -29304,7 +29304,7 @@
       "nombre": "Piso Alfombrado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -29393,7 +29393,7 @@
       "nombre": "Piso Alfombrado Tapizón",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": true,
       "insumos": [
@@ -29482,7 +29482,7 @@
       "nombre": "Área Verde en Jardín con Tepe",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -29584,7 +29584,7 @@
       "nombre": "Área Verde en Jardines",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -29861,7 +29861,7 @@
       "nombre": "Malla Olímpica con Poste Hormigón Pretensado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -29943,7 +29943,7 @@
       "nombre": "Malla Olímpica con Tubo FG 2″ C/2.5 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -30034,7 +30034,7 @@
       "nombre": "Provisión E Instalación Césped Sintético Bicolor H=5 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -30147,7 +30147,7 @@
       "nombre": "Provisión E Instalación Césped Sintético Monofilamento H=6 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -30238,7 +30238,7 @@
       "nombre": "Puerta Metálica con Malla Olímpica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": true,
       "insumos": [
@@ -30371,7 +30371,7 @@
       "nombre": "Reja Metálica para Verja",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -30471,7 +30471,7 @@
       "nombre": "Acera de Hormigón con Empedrado E=4 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -30595,7 +30595,7 @@
       "nombre": "Adoquinado de Calle",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -30845,7 +30845,7 @@
       "nombre": "Compactación con Rodillo Pata de Cabra",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -30942,7 +30942,7 @@
       "nombre": "Carpeta Asfáltica E=5 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -31154,7 +31154,7 @@
       "nombre": "Carpeta de Hormigón para Pavimento Rígido E=17 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -31457,7 +31457,7 @@
       "nombre": "Cuneta de Mampostería",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -31609,7 +31609,7 @@
       "nombre": "Demolición de Carpeta Asfáltica",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -31673,7 +31673,7 @@
       "nombre": "Elaboración de Losetas Hexagonales",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -31817,7 +31817,7 @@
       "nombre": "Empedrado de Calzada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -31884,7 +31884,7 @@
       "nombre": "Enlosetado Calzada - Hexagonal",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -31973,7 +31973,7 @@
       "nombre": "Enlosetado de Calzada Ondulada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -32123,7 +32123,7 @@
       "nombre": "Provisión y Colocado Pavic Estándar de Cerámica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -32203,7 +32203,7 @@
       "nombre": "Relleno y Compactado con Rodillo Liso",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -32289,7 +32289,7 @@
       "nombre": "Remoción y Reposición de Empedrado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -32345,7 +32345,7 @@
       "nombre": "Gavión Colchoneta 4x2x0.30 M",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -32442,7 +32442,7 @@
       "nombre": "Mampostería de Piedra Cortada",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -32537,7 +32537,7 @@
       "nombre": "Muro de Contención con Gavión",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -32810,7 +32810,7 @@
       "nombre": "Excavación Común",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -32872,7 +32872,7 @@
       "nombre": "Hormigón Simple Tipo A (Estribos)",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -33077,7 +33077,7 @@
       "nombre": "Hormigón Simple Tipo A (Losa)",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -34860,7 +34860,7 @@
       "nombre": "Limpieza General de Superficies",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
-      "unidadResultado": "m²",
+      "unidadResultado": "m2",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -34916,7 +34916,7 @@
       "nombre": "Limpieza y Retiro de Escombros",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m³",
+      "unidadResultado": "m3",
       "categoria": "Otros",
       "verificado": true,
       "insumos": [
@@ -35092,7 +35092,7 @@
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 20.0,
@@ -35276,7 +35276,7 @@
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 25.0,
@@ -35396,7 +35396,7 @@
         },
         {
           "nombre": "Madera de Construcción",
-          "unidad": "P2",
+          "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 15.0,
