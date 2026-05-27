@@ -1,5 +1,5 @@
 {
-  "version": "v20260527-002446",
+  "version": "v20260527-005700",
   "schemaVersion": 1,
   "items": [
     {
@@ -25,7 +25,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.7,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -78,7 +78,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -87,7 +87,7 @@
           "nombre": "Carpintero",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -140,7 +140,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -149,7 +149,7 @@
           "nombre": "Carpintero",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -211,7 +211,7 @@
           "nombre": "Carpintero",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -276,7 +276,7 @@
           "nombre": "Electricista",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -334,7 +334,7 @@
           "nombre": "Electricista",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -481,7 +481,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.6,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -534,7 +534,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -596,7 +596,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -647,9 +647,9 @@
         },
         {
           "nombre": "Lija para Pared",
-          "unidad": "Pza",
+          "unidad": "Hoja",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Pinturas",
+          "categoria": "Ferretería",
           "rendimiento": 0.25,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -709,9 +709,9 @@
         },
         {
           "nombre": "Lija para Pared",
-          "unidad": "Pza",
+          "unidad": "Hoja",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Pinturas",
+          "categoria": "Ferretería",
           "rendimiento": 0.25,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -782,7 +782,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -835,7 +835,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -897,7 +897,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -906,7 +906,7 @@
           "nombre": "Carpintero",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -959,7 +959,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -977,7 +977,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 8.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1106,7 +1106,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1224,7 +1224,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1360,7 +1360,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1369,7 +1369,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1378,7 +1378,7 @@
           "nombre": "Armador",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1506,7 +1506,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 1.2,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1586,7 +1586,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.6,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1693,7 +1693,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1702,7 +1702,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1711,7 +1711,7 @@
           "nombre": "Armador",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1830,7 +1830,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1839,7 +1839,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1848,7 +1848,7 @@
           "nombre": "Armador",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1973,7 +1973,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1982,7 +1982,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -1991,7 +1991,7 @@
           "nombre": "Armador",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -2080,7 +2080,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -2152,7 +2152,7 @@
           "nombre": "Carpintero",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 16.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -2210,7 +2210,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.03,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -2254,7 +2254,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -2304,7 +2304,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -2416,7 +2416,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -2487,7 +2487,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -2544,7 +2544,7 @@
           "nombre": "Electricista",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -2603,7 +2603,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 6.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -31057,28 +31057,6 @@
           "precio": 15.0
         },
         {
-          "nombre": "Planta de Asfalto 60Ton/Hr",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Herramientas",
-          "idCanonico": "eq_planta_de_asfalto_60ton_hr",
-          "rendimiento": 0.0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "precio": 3600.0
-        },
-        {
-          "nombre": "Compactadora Neumática",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Herramientas",
-          "idCanonico": "eq_compactadora_neumatica",
-          "rendimiento": 0.0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "precio": 260.0
-        },
-        {
           "nombre": "Compactadora de Rodillo",
           "unidad": "Hr",
           "tipoInsumo": "HERRAMIENTA",
@@ -31088,28 +31066,6 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "precio": 285.0
-        },
-        {
-          "nombre": "Terminadora de Asfalto",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Herramientas",
-          "idCanonico": "eq_terminadora_de_asfalto",
-          "rendimiento": 0.0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "precio": 410.0
-        },
-        {
-          "nombre": "Cargador Frontal 150 Hp",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Maquinaria",
-          "idCanonico": "eq_cargador_frontal_150_hp",
-          "rendimiento": 0.0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "precio": 380.0
         },
         {
           "nombre": "Volqueta 6 m3",
@@ -32076,17 +32032,6 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "precio": 11.5
-        },
-        {
-          "nombre": "Arena Fina",
-          "unidad": "m3",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Agregados",
-          "idCanonico": "arena_fina_m3",
-          "rendimiento": 0.0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "precio": 136.5
         },
         {
           "nombre": "Ayudante",
@@ -34466,7 +34411,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Tubo Desague PVC Ø 4″",
+          "nombre": "Tubo Desagüe PVC Ø 4″",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
@@ -35103,7 +35048,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -35112,7 +35057,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -35121,7 +35066,7 @@
           "nombre": "Armador",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -35287,7 +35232,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -35296,7 +35241,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -35305,7 +35250,7 @@
           "nombre": "Armador",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -35407,7 +35352,7 @@
           "nombre": "Clavos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -35416,7 +35361,7 @@
           "nombre": "Albañil",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
