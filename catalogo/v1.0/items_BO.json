@@ -1,5 +1,5 @@
 {
-  "version": "v20260527-005700",
+  "version": "v20260527-013000",
   "schemaVersion": 1,
   "items": [
     {
@@ -658,7 +658,7 @@
           "nombre": "Pintor",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -720,7 +720,7 @@
           "nombre": "Pintor",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "rendimiento": 0.35,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": ""
@@ -3359,7 +3359,7 @@
           "nombre": "Electrodos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "idCanonico": "electrodos_kg",
           "rendimiento": 0.1,
           "tipoCalculo": "DIRECTO",
@@ -3575,7 +3575,7 @@
           "nombre": "Topógrafo",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "idCanonico": "mo_topografo",
           "rendimiento": 0.02,
           "tipoCalculo": "DIRECTO",
@@ -8601,7 +8601,7 @@
           "nombre": "Calamina Ondulada N° 28",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Cemento y Cal",
+          "categoria": "Cubiertas",
           "idCanonico": "calamina_ondulada_n_28_m2",
           "rendimiento": 1.18,
           "tipoCalculo": "DIRECTO",
@@ -9068,7 +9068,7 @@
           "nombre": "Electrodos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "idCanonico": "electrodos_kg",
           "rendimiento": 0.07,
           "tipoCalculo": "DIRECTO",
@@ -9198,7 +9198,7 @@
           "nombre": "Calamina Ondulada N° 28",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Cemento y Cal",
+          "categoria": "Cubiertas",
           "idCanonico": "calamina_ondulada_n_28_m2",
           "rendimiento": 1.15,
           "tipoCalculo": "DIRECTO",
@@ -21452,7 +21452,7 @@
           "nombre": "Topógrafo",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
+          "categoria": "Obras Civiles",
           "idCanonico": "mo_topografo",
           "rendimiento": 0.04,
           "tipoCalculo": "DIRECTO",
@@ -25728,7 +25728,7 @@
           "nombre": "Electrodos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "idCanonico": "electrodos_kg",
           "rendimiento": 0.8,
           "tipoCalculo": "DIRECTO",
@@ -25880,7 +25880,7 @@
           "nombre": "Electrodos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "idCanonico": "electrodos_kg",
           "rendimiento": 0.8,
           "tipoCalculo": "DIRECTO",
@@ -28324,7 +28324,7 @@
           "nombre": "Electrodos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "idCanonico": "electrodos_kg",
           "rendimiento": 0.2,
           "tipoCalculo": "DIRECTO",
@@ -28517,7 +28517,7 @@
           "nombre": "Electrodos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "idCanonico": "electrodos_kg",
           "rendimiento": 0.4,
           "tipoCalculo": "DIRECTO",
@@ -29490,7 +29490,7 @@
           "nombre": "Turba",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Agregados",
           "idCanonico": "turba_m3",
           "rendimiento": 0.02,
           "tipoCalculo": "DIRECTO",
@@ -29592,7 +29592,7 @@
           "nombre": "Turba",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Agregados",
           "idCanonico": "turba_m3",
           "rendimiento": 0.2,
           "tipoCalculo": "DIRECTO",
@@ -30290,7 +30290,7 @@
           "nombre": "Electrodos",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
+          "categoria": "Acero y Metal",
           "idCanonico": "electrodos_kg",
           "rendimiento": 0.7,
           "tipoCalculo": "DIRECTO",
@@ -35428,6 +35428,2036 @@
       "aliases": [],
       "subcategoria": "",
       "formulaResultado": ""
+    },
+    {
+      "codigo": "OT-039",
+      "nombre": "Instalación Faenas (Obra Mediana 500k-1M Bs)",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "Glb",
+      "categoria": "Otros",
+      "tipoIfc": "",
+      "formulaResultado": "1",
+      "insumos": [
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 100.0,
+          "precio": 5.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Calamina Ondulada N° 28",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cubiertas",
+          "rendimiento": 20.0,
+          "precio": 34.08,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Puerta Corriente",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Carpintería",
+          "rendimiento": 2.0,
+          "precio": 90.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 3.0,
+          "precio": 10.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 3.0,
+          "precio": 10.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ventana Común",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Carpintería",
+          "rendimiento": 1.0,
+          "precio": 150.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 15.0,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 33.0,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [],
+      "subcategoria": "Faenas",
+      "aliases": [
+        "INSTALACIÓN DE FAENAS (OBRAS MENORES) DE 500.000 A 1.000.000 DE BS."
+      ],
+      "tags": [
+        "faenas",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "verificado": true
+    },
+    {
+      "codigo": "OT-040",
+      "nombre": "Bioseguridad en Obra Mediana (Proyectos 500k-1M Bs)",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "Glb",
+      "categoria": "Otros",
+      "tipoIfc": "",
+      "formulaResultado": "1",
+      "insumos": [
+        {
+          "nombre": "Alcohol al 70%",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 10.0,
+          "precio": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Barbijo Bioseguridad KN95 5 Filtros",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 24.0,
+          "precio": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Basurero para Desechos Infecciosos",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 1.0,
+          "precio": 60.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Calamina Ondulada N° 28",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cubiertas",
+          "rendimiento": 10.0,
+          "precio": 34.08,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 2.0,
+          "precio": 10.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ducha Completa más Instalación",
+          "unidad": "Glb",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Plomería",
+          "rendimiento": 2.0,
+          "precio": 150.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Hipoclorito de Sodio",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 10.0,
+          "precio": 12.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Jabón Líquido",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 5.0,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 30.0,
+          "precio": 5.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Medidor de Temperatura Infrarrojo",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 1.0,
+          "precio": 450.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Pediluvio",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 1.0,
+          "precio": 80.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Señalética Acrílica con Adhesivo 40x30 Cm",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 10.0,
+          "precio": 40.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Profesional de Seguridad y Salud Ocupacional",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 40.0,
+          "precio": 30.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 15.0,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [],
+      "subcategoria": "Faenas",
+      "aliases": [
+        "BIOSEGURIDAD EN OBRA MEDIANA (PROYECTOS DE 500'000 BS. A 1'000'000 BS.)"
+      ],
+      "tags": [
+        "faenas",
+        "bioseguridad",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "verificado": true
+    },
+    {
+      "codigo": "OT-041",
+      "nombre": "Letrero de Obras (Lona PVC)",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "Pza",
+      "categoria": "Otros",
+      "tipoIfc": "",
+      "formulaResultado": "1",
+      "insumos": [
+        {
+          "nombre": "Estructura Metálica para Letrero",
+          "unidad": "Glb",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 1.0,
+          "precio": 400.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Lona de PVC con Impresión Digital",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 3.5,
+          "precio": 40.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Pintura Anticorrosiva",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 1.3247,
+          "precio": 44.91,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 2.0,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cerrajero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 4.0,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [],
+      "subcategoria": "Faenas",
+      "aliases": [
+        "LETRERO DE OBRAS (LONA PVC)"
+      ],
+      "tags": [
+        "faenas",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "verificado": true
+    },
+    {
+      "codigo": "OT-042",
+      "nombre": "Replanteo y Trazado de Superficie",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Otros",
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 0.07,
+          "precio": 5.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.01,
+          "precio": 10.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Yeso",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.07,
+          "precio": 0.8,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.02,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Topógrafo",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.02,
+          "precio": 22.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Faenas",
+      "aliases": [
+        "REPLANTEO Y TRAZADO DE SUPERFICIE"
+      ],
+      "tags": [
+        "replanteo",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "OT-044",
+      "nombre": "Lameado con Aprovisionamiento",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Volumen",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Lama",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 1.1,
+          "precio": 30.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.2,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Chofer",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Equipo",
+          "rendimiento": 0.05,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Operador de Equipo Pesado",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Equipo",
+          "rendimiento": 0.1,
+          "precio": 22.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Retroexcavadora 110 HP",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.1,
+          "precio": 250.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Volqueta 6 m3",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.05,
+          "precio": 110.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Paisajismo",
+      "aliases": [
+        "LAMEADO CON APROVISIONAMIENTO"
+      ],
+      "tags": [
+        "paisajismo",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "OT-045",
+      "nombre": "Provisión y Colocado de Kikuyo",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Otros",
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Turba",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.08,
+          "precio": 85.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Kikuyo",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 1.05,
+          "precio": 25.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Especialista",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.5,
+          "precio": 22.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.5,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Paisajismo",
+      "aliases": [
+        "PROVISIÓN Y COLOCADO DE KIKUYO"
+      ],
+      "tags": [
+        "paisajismo",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "OG-073",
+      "nombre": "Cordón de Acera 0.35x0.15x1.00 m (Vaciado In Situ)",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Longitud",
+      "unidadResultado": "m",
+      "categoria": "Obra Gruesa",
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.025,
+          "precio": 10.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Arena Lavada",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.029,
+          "precio": 120.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cemento",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 18.0,
+          "precio": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Grava Lavada",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.044,
+          "precio": 120.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.035,
+          "precio": 10.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 1.0,
+          "precio": 5.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.5,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.6,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Mezcladora de Hormigón 320 Litros",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.04,
+          "precio": 22.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Vibradora de 2 HP",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.009,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Cordón",
+      "aliases": [
+        "CORDON DE ACERA 0.35X0.15X1.00 M (VACIADO IN SITU)"
+      ],
+      "tags": [
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "OG-074",
+      "nombre": "Soladura de Piedra Manzana",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Obra Gruesa",
+      "tipoIfc": "SLAB",
+      "insumos": [
+        {
+          "nombre": "Piedra Manzana",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.15,
+          "precio": 100.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.15,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.15,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Soladura",
+      "aliases": [
+        "SOLADURA DE PIEDRA MANZANA"
+      ],
+      "tags": [
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "OG-075",
+      "nombre": "Contrapiso de Cemento Sin Piedra E=7cm - Aceras",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Obra Gruesa",
+      "tipoIfc": "SLAB",
+      "insumos": [
+        {
+          "nombre": "Agua Común",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 6.0,
+          "precio": 0.03,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Arena Lavada",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.02,
+          "precio": 120.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cemento",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 13.0,
+          "precio": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Grava Lavada",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.03,
+          "precio": 120.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.3,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.55,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Contrapiso",
+      "aliases": [
+        "CONTRAPISO DE CEMENTO SIN PIEDRA E= 7CM - ACERAS"
+      ],
+      "tags": [
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "OG-076",
+      "nombre": "Bordillo para Jardinera H°S° R=180 kg/cm² 0.10x0.30m",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Longitud",
+      "unidadResultado": "m",
+      "categoria": "Obra Gruesa",
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Arena Fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.01,
+          "precio": 125.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Arena Lavada",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.015,
+          "precio": 120.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cemento",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 10.5,
+          "precio": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.05,
+          "precio": 10.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Grava Lavada",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.03,
+          "precio": 120.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 3.33,
+          "precio": 5.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Plastoformo 5mm",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 0.03,
+          "precio": 8.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.5,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1.0,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Vibradora de 2 HP",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.02,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Mezcladora de Hormigón 320 Litros",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.05,
+          "precio": 22.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Bordillo",
+      "aliases": [
+        "BORDILLO PARA JARDINERIA HºSº R=180KG/CM2 0.10X0.30M"
+      ],
+      "tags": [
+        "H°S°",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "OG-081",
+      "nombre": "Corte de Pavimento Rígido",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Longitud",
+      "unidadResultado": "m",
+      "categoria": "Obra Gruesa",
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.15,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cortadora de Hormigón",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.15,
+          "precio": 100.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Pavimento",
+      "aliases": [
+        "CORTE DE PAVIMENTO RIGIDO"
+      ],
+      "tags": [
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "OG-082",
+      "nombre": "H°S° Cunetas R=210 kg/cm² B=0.30m",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Longitud",
+      "unidadResultado": "m",
+      "categoria": "Obra Gruesa",
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Cemento",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 10.5,
+          "precio": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Arena Fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.018,
+          "precio": 125.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Grava Lavada",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.024,
+          "precio": 120.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Agua Común",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 4.32,
+          "precio": 0.03,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.45,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.4,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Mezcladora de Hormigón 320 Litros",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.5,
+          "precio": 22.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Cuneta",
+      "aliases": [
+        "HºSº CUNETAS R=210KG/CM2 B= 0.30 M"
+      ],
+      "tags": [
+        "H°S°",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "CR-020",
+      "nombre": "Protector Metálico Tipo Hoja H=0.70m",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Longitud",
+      "unidadResultado": "m",
+      "categoria": "Carpintería",
+      "tipoIfc": "RAILING",
+      "insumos": [
+        {
+          "nombre": "Fierro Liso 3/8″ (10mm) L=12m",
+          "unidad": "Barra",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.7,
+          "precio": 70.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Fierro Liso 1/4″ (6mm)",
+          "unidad": "Barra",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.3,
+          "precio": 21.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Electrodos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.25,
+          "precio": 25.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Pintura Sintética Color Azul",
+          "unidad": "gal",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 0.075,
+          "precio": 131.67,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Especialista",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.2,
+          "precio": 22.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.4,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1.4,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Camión de Transporte",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.01,
+          "precio": 80.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Dobladora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.05,
+          "precio": 11.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Protector",
+      "aliases": [
+        "PROTECTOR METALICO TIPO HOJA H=0.70 M."
+      ],
+      "tags": [
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "CR-021",
+      "nombre": "Baranda Metálica F°G° 2″x1½″, H=0.90m",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Longitud",
+      "unidadResultado": "m",
+      "categoria": "Carpintería",
+      "tipoIfc": "RAILING",
+      "insumos": [
+        {
+          "nombre": "Cañería Galvanizada 2″ L=6.4m",
+          "unidad": "Barra",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Plomería",
+          "rendimiento": 0.18,
+          "precio": 331.3,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cañería Galvanizada 1½″ L=6.4m",
+          "unidad": "Barra",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Plomería",
+          "rendimiento": 0.25,
+          "precio": 130.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Platina 1/4″ x 4″ L=6m",
+          "unidad": "Barra",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.02,
+          "precio": 285.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Electrodos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.75,
+          "precio": 25.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Gasolina",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 0.15,
+          "precio": 3.74,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Pintura Anticorrosiva Acrílica",
+          "unidad": "gal",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 0.1,
+          "precio": 180.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Hormigón Ciclópeo Tipo BR 18 MPA 30% P/D",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.03,
+          "precio": 436.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 2.75,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cerrajero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 1.0,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Baranda",
+      "aliases": [
+        "BARANDA METÁLICA FºGº 2\", 1 ½\" H=0.90M."
+      ],
+      "tags": [
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "IE-023",
+      "nombre": "Luminaria Parque LED 80W Clase II + Poste Met FG H=5m + Base H°A° Subterránea",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "pto",
+      "categoria": "Inst. Eléctricas",
+      "tipoIfc": "",
+      "formulaResultado": "1",
+      "insumos": [
+        {
+          "nombre": "Luminaria Tipo Farola LED 80W Clase II",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Eléctrico",
+          "rendimiento": 1.0,
+          "precio": 3400.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cable Enchaquetado 2x6 mm²",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Eléctrico",
+          "rendimiento": 17.0,
+          "precio": 14.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cemento",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 40.0,
+          "precio": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Electrodos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 1.2,
+          "precio": 25.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Pintura al Aceite",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 0.1,
+          "precio": 40.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Arena Fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.1,
+          "precio": 125.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cañería FG 2½″ L=6m",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Plomería",
+          "rendimiento": 0.3333,
+          "precio": 550.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cañería FG 2″ L=6m",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Plomería",
+          "rendimiento": 0.2,
+          "precio": 370.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cañería FG 3″ L=6m",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Plomería",
+          "rendimiento": 0.3333,
+          "precio": 712.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "unidad": "Barra",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.25,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "unidad": "Barra",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.2,
+          "precio": 52.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.05,
+          "precio": 100.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ladrillo Gambote",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ladrillos y Cerámicos",
+          "rendimiento": 40.0,
+          "precio": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Politubo 3/4″",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Plomería",
+          "rendimiento": 18.0,
+          "precio": 4.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cable Enchaquetado 3x2.5 mm²",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Eléctrico",
+          "rendimiento": 7.0,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Perno 3/8″ x 4 con Arandela",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 4.0,
+          "precio": 3.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Plancha de Acero 5/16″ (8mm)",
+          "unidad": "Hoja",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.02,
+          "precio": 945.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Plancha Metálica 10mm",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.06,
+          "precio": 875.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Electricista",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 4.0,
+          "precio": 22.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 20.0,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Chofer",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Equipo",
+          "rendimiento": 2.0,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 4.0,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Cerrajero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 4.0,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Camión Grúa",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 2.0,
+          "precio": 350.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [],
+      "subcategoria": "Alumbrado Público",
+      "aliases": [
+        "LUMIN. PARQUE LED 80W CLASE 2 + POSTE MET FG H=5 M + BASE HºAº SUBTERR"
+      ],
+      "tags": [
+        "LED",
+        "exterior",
+        "alumbrado",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "verificado": true
+    },
+    {
+      "codigo": "AC-066",
+      "nombre": "Pintura Exterior Látex Tradicional (Dos Manos)",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Pintura Látex Tradicional",
+          "unidad": "gal",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 0.024,
+          "precio": 85.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Lija para Pared",
+          "unidad": "Hoja",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 0.2,
+          "precio": 4.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Sellador para Pared",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Adhesivos",
+          "rendimiento": 0.0908,
+          "precio": 5.28,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.2,
+          "precio": 20.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.3,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Pintura Exterior",
+      "aliases": [
+        "PINTURA EXTERIOR LATEX TRADICIONAL (DOS MANOS)"
+      ],
+      "tags": [
+        "exterior",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
+    },
+    {
+      "codigo": "AC-067",
+      "nombre": "Pintura Exterior Super Látex",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Pintura Super Látex",
+          "unidad": "gal",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 0.04,
+          "precio": 115.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Sellador para Pared",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Adhesivos",
+          "rendimiento": 0.1514,
+          "precio": 5.28,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Pintor",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.35,
+          "precio": 16.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.35,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "subcategoria": "Pintura Exterior",
+      "aliases": [
+        "PINTURA EXTERIOR SUPER LATEX"
+      ],
+      "tags": [
+        "exterior",
+        "GAMC"
+      ],
+      "armaduraJson": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "presets": [],
+      "formulaResultado": "",
+      "verificado": true
     }
   ]
 }

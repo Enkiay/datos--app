@@ -3,11 +3,11 @@
   "minAppVersion": "1.0.0",
   "resources": {
     "catalogo": {
-      "version": "v20260527-005700",
+      "version": "v20260527-013000",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items.json"
     },
     "catalogo_BO": {
-      "version": "v20260527-005700",
+      "version": "v20260527-013000",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_BO.json"
     },
     "precios": {
