@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-034620",
+  "version": "v20260529-035035",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -457,7 +457,7 @@
       "id": "vivienda-haa-2niveles",
       "nombre": "Vivienda H°A° (1 o 2 niveles)",
       "descripcion": "Vivienda unifamiliar de H°A° con losa alivianada. Permite 1 o 2 plantas. Los muros, columnas, revoques y pinturas se ajustan automáticamente al cambiar la altura libre, el espesor de viga o de losa — propagación basada en niveles constructivos (Stories + Levels).",
-      "version": 2,
+      "version": 3,
       "inputsRequeridos": [
         {
           "nombre": "num_pisos",
@@ -501,7 +501,7 @@
           "nombre": "altura_libre_pa",
           "label": "Altura libre Planta Alta",
           "unidad": "m",
-          "default": 2.5,
+          "default": 2.4,
           "min": 2,
           "visibleSi": "num_pisos - 1"
         },
@@ -584,7 +584,7 @@
           "nombre": "alto_ventana",
           "label": "Alto de ventana",
           "unidad": "m",
-          "default": 1.1
+          "default": 1.2
         }
       ],
       "variablesCalculadas": {
