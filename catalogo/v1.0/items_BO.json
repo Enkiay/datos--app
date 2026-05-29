@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-020823",
+  "version": "v20260529-022436",
   "schemaVersion": 1,
   "items": [
     {
@@ -102,20 +102,7 @@
           "baseCalculo": ""
         }
       ],
-      "parametros": [
-        {
-          "nombre": "Ancho",
-          "valorDefault": 0.9,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 2.1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        }
-      ]
+      "parametros": []
     },
     {
       "codigo": "CA002",
@@ -164,20 +151,7 @@
           "baseCalculo": ""
         }
       ],
-      "parametros": [
-        {
-          "nombre": "Ancho",
-          "valorDefault": 1.2,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 1.1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        }
-      ]
+      "parametros": []
     },
     {
       "codigo": "CA003",
@@ -3036,12 +3010,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -6719,12 +6687,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -6889,12 +6851,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -7070,12 +7026,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -7241,12 +7191,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -7529,24 +7473,6 @@
         {
           "nombre": "Largo",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 0.2,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Profundidad",
-          "valorDefault": 0.2,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 3.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -8613,12 +8539,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -8718,12 +8638,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -8833,12 +8747,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -8934,12 +8842,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -9113,12 +9015,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -9254,12 +9150,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -9346,12 +9236,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -9490,12 +9374,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -9593,12 +9471,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -9704,12 +9576,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -9810,12 +9676,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -9894,12 +9754,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -9973,12 +9827,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -10064,12 +9912,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -10146,18 +9988,6 @@
         {
           "nombre": "Largo",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 4.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.05,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -10243,18 +10073,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 4.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.05,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -10338,18 +10156,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 0.8,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 0.3,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -10422,18 +10228,6 @@
         {
           "nombre": "Largo",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 0.8,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 0.3,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -10994,12 +10788,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -13129,9 +12917,9 @@
     {
       "codigo": "MP-016",
       "nombre": "Muro Interior Termoacústico Construpanel E=60 Mm (sin Revoque)",
-      "tipoCalculo": "LONGITUD",
-      "inputPrincipalLabel": "Longitud",
-      "unidadResultado": "m",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -13243,12 +13031,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Alto",
           "valorDefault": 2.8,
           "unidad": "m",
@@ -13272,9 +13054,9 @@
     {
       "codigo": "MP-017",
       "nombre": "Muro Interior Termoacústico Construpanel E=75 Mm (sin Revoque)",
-      "tipoCalculo": "LONGITUD",
-      "inputPrincipalLabel": "Longitud",
-      "unidadResultado": "m",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -13386,12 +13168,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Alto",
           "valorDefault": 2.8,
           "unidad": "m",
@@ -13415,9 +13191,9 @@
     {
       "codigo": "MP-018",
       "nombre": "Muro Exterior Autoportante Termoacústico Construpanel E=100 Mm (sin Revoque)",
-      "tipoCalculo": "LONGITUD",
-      "inputPrincipalLabel": "Longitud",
-      "unidadResultado": "m",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -13529,12 +13305,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Alto",
           "valorDefault": 2.8,
           "unidad": "m",
@@ -13558,9 +13328,9 @@
     {
       "codigo": "MP-019",
       "nombre": "Muro Exterior Autoportante Termoacústico Construpanel E=120 Mm (sin Revoque)",
-      "tipoCalculo": "LONGITUD",
-      "inputPrincipalLabel": "Longitud",
-      "unidadResultado": "m",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": true,
       "insumos": [
@@ -13668,12 +13438,6 @@
         {
           "nombre": "Largo",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
           "unidad": "m",
           "visiblePorDefecto": true
         },
@@ -14053,12 +13817,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -14145,12 +13903,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -14251,12 +14003,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -15445,12 +15191,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 0.2,
           "unidad": "m",
@@ -16289,18 +16029,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 4.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.05,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -16469,18 +16197,6 @@
         {
           "nombre": "Largo",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 4.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.05,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -25704,12 +25420,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -25856,12 +25566,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -25926,12 +25630,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -26162,12 +25860,6 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
           "nombre": "Ancho",
           "valorDefault": 4.0,
           "unidad": "m",
@@ -26386,12 +26078,6 @@
       "parametros": [
         {
           "nombre": "Largo",
-          "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -33477,18 +33163,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 0.2,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 0.3,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -33707,18 +33381,6 @@
         {
           "nombre": "Largo",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 0.2,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 0.3,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -33941,18 +33603,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 0.2,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 0.3,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -34171,18 +33821,6 @@
         {
           "nombre": "Largo",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 0.2,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 0.3,
           "unidad": "m",
           "visiblePorDefecto": true
         }
