@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-130529",
+  "version": "v20260529-131948",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -456,8 +456,8 @@
     {
       "id": "vivienda-haa-2niveles",
       "nombre": "Vivienda H°A° (1 o 2 niveles)",
-      "descripcion": "Vivienda unifamiliar de H°A° con losa alivianada. Permite 1 o 2 plantas. Modelo BIM-light con Stories y Niveles Constructivos. Distingue alturas reales por capa: muro de ladrillo llega al fondo de viga; revoque interior cubre hasta la cara inferior de la losa; revoque exterior se extiende por toda la fachada hasta el inicio del piso superior. Cambios en altura libre, viga o losa propagan automáticamente a todas las áreas.",
-      "version": 7,
+      "descripcion": "Vivienda unifamiliar de H°A° con losa alivianada estándar boliviano. Permite 1 o 2 plantas. Modelo BIM-light con Stories y Niveles Constructivos. Distingue alturas reales por capa: muro de ladrillo llega al fondo de viga; revoque interior cubre hasta cara inferior de losa; revoque exterior se extiende por toda la fachada. Estándares incorporados: viga 0.20 m de ancho, sobrecimiento 0.15 m, losa alivianada 0.25 m (0.05 nivelación + 0.05 compresión + 0.15 viguetas), parapeto ≥ 0.90 m por norma de seguridad.",
+      "version": 8,
       "inputsRequeridos": [
         {
           "nombre": "num_pisos",
@@ -505,9 +505,9 @@
           "nombre": "espesor_losa",
           "label": "Espesor de losa",
           "unidad": "m",
-          "default": 0.2,
-          "min": 0.15,
-          "max": 0.3
+          "default": 0.25,
+          "min": 0.2,
+          "max": 0.35
         },
         {
           "nombre": "altura_sobrecim",
@@ -527,9 +527,8 @@
           "nombre": "altura_parapeto",
           "label": "Altura de parapeto",
           "unidad": "m",
-          "default": 0.4,
-          "min": 0.2,
-          "max": 1.2
+          "default": 1.0,
+          "min": 0.9
         },
         {
           "nombre": "altura_piso_terreno",
@@ -560,7 +559,7 @@
         "num_ventanas_pb": "6",
         "num_puertas_pa": "4",
         "num_ventanas_pa": "6",
-        "ancho_viga": "0.25",
+        "ancho_viga": "0.20",
         "lado_columna": "0.25",
         "prof_cimiento": "0.80",
         "ancho_cimiento": "0.40",
@@ -572,7 +571,8 @@
         "area_puertas_pb": "num_puertas_pb * ancho_puerta * alto_puerta",
         "area_ventanas_pb": "num_ventanas_pb * ancho_ventana * alto_ventana",
         "area_puertas_pa": "num_puertas_pa * ancho_puerta * alto_puerta",
-        "area_ventanas_pa": "num_ventanas_pa * ancho_ventana * alto_ventana"
+        "area_ventanas_pa": "num_ventanas_pa * ancho_ventana * alto_ventana",
+        "ancho_sobrecim": "0.15"
       },
       "stories": [
         {
@@ -652,15 +652,15 @@
               "nombre": "Sobrecimiento de H°C°",
               "unidad": "m3",
               "catalogoCodigo": "UH005",
-              "formulaTexto": "perimetro * (tope_sobrecimiento - tope_cimiento) * ancho_cimiento",
+              "formulaTexto": "perimetro * (tope_sobrecimiento - tope_cimiento) * ancho_sobrecim",
               "lee": [
                 "perimetro",
-                "ancho_cimiento"
+                "ancho_sobrecim"
               ],
               "escribe": "vol",
               "computedOverrides": {
                 "largo": "perimetro",
-                "ancho": "ancho_cimiento",
+                "ancho": "ancho_sobrecim",
                 "alto": "tope_sobrecimiento - tope_cimiento"
               }
             }
