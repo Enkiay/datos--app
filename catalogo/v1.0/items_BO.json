@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-022436",
+  "version": "v20260529-022919",
   "schemaVersion": 1,
   "items": [
     {
@@ -102,7 +102,21 @@
           "baseCalculo": ""
         }
       ],
-      "parametros": []
+      "parametros": [
+        {
+          "nombre": "Ancho",
+          "valorDefault": 0.9,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 2.1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "formulaResultado": "1"
     },
     {
       "codigo": "CA002",
@@ -151,7 +165,21 @@
           "baseCalculo": ""
         }
       ],
-      "parametros": []
+      "parametros": [
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.2,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1.1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "formulaResultado": "1"
     },
     {
       "codigo": "CA003",
