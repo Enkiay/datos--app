@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-134251",
+  "version": "v20260529-141137",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -457,7 +457,7 @@
       "id": "vivienda-haa-2niveles",
       "nombre": "Vivienda H°A° (1 o 2 niveles)",
       "descripcion": "Vivienda unifamiliar de H°A° con estructura por módulos constructivos: Obras Preliminares, Cimientos, Planta Baja, Planta Alta (opcional) y Cubierta. Modelo BIM-light con Stories + Niveles Constructivos. Cubierta seleccionable (calamina galvanizada N°28 o losa alivianada). No incluye acabados — se cargan aparte (revoques, pinturas, cerámica) si el proyecto los necesita. Estándares incorporados: viga 0.20 m, sobrecim 0.15 m de ancho, losa 0.25 m (0.05+0.05+0.15), parapeto ≥ 0.90 m por norma.",
-      "version": 9,
+      "version": 10,
       "inputsRequeridos": [
         {
           "nombre": "num_pisos",
@@ -534,6 +534,14 @@
           "min": 0.2
         },
         {
+          "nombre": "prof_excavacion",
+          "label": "Profundidad de excavación (piso → fondo zapata)",
+          "unidad": "m",
+          "default": 1.3,
+          "min": 1.0,
+          "max": 2.5
+        },
+        {
           "nombre": "alto_zapata",
           "label": "Alto de zapata",
           "unidad": "m",
@@ -578,7 +586,6 @@
         "num_ventanas_pa": "6",
         "ancho_viga": "0.20",
         "lado_columna": "0.25",
-        "prof_cimiento": "0.80",
         "ancho_cimiento": "0.40",
         "ancho_sobrecim": "0.15",
         "lado_zapata": "0.80",
@@ -635,27 +642,47 @@
             "piso_terminado": "0",
             "tope_sobrecimiento": "0",
             "tope_cimiento": "-altura_sobrecim",
-            "tope_zapata": "-altura_sobrecim - (prof_cimiento - altura_sobrecim)",
-            "fondo_excavacion": "tope_zapata - alto_zapata",
+            "fondo_excavacion": "-prof_excavacion",
+            "tope_zapata": "fondo_excavacion + alto_zapata",
             "nivel_terreno": "-altura_piso_terreno",
-            "altura_columna_cim": "tope_cimiento - tope_zapata"
+            "altura_columna_cim": "tope_cimiento - tope_zapata",
+            "altura_zanja": "tope_sobrecimiento - tope_zapata"
           },
           "items": [
             {
-              "id": "excavacion",
-              "nombre": "Excavación de zanjas",
+              "id": "excavacion_zanjas",
+              "nombre": "Excavación de zanjas (cimiento corrido)",
               "unidad": "m3",
               "catalogoCodigo": "UH002",
-              "formulaTexto": "perimetro * (tope_sobrecimiento - fondo_excavacion) * ancho_cimiento",
+              "formulaTexto": "perimetro * ancho_cimiento * altura_zanja",
               "lee": [
                 "perimetro",
-                "ancho_cimiento"
+                "ancho_cimiento",
+                "altura_zanja"
               ],
-              "escribe": "vol",
+              "escribe": "vol_zanjas",
               "computedOverrides": {
                 "largo": "perimetro",
                 "ancho": "ancho_cimiento",
-                "profundidad": "tope_sobrecimiento - fondo_excavacion"
+                "profundidad": "altura_zanja"
+              }
+            },
+            {
+              "id": "excavacion_zapatas",
+              "nombre": "Excavación de hoyos para zapatas",
+              "unidad": "m3",
+              "catalogoCodigo": "UH002",
+              "formulaTexto": "num_columnas * lado_zapata * lado_zapata * alto_zapata",
+              "lee": [
+                "num_columnas",
+                "lado_zapata",
+                "alto_zapata"
+              ],
+              "escribe": "vol_hoyos",
+              "computedOverrides": {
+                "largo": "lado_zapata",
+                "ancho": "lado_zapata",
+                "profundidad": "alto_zapata"
               }
             },
             {
