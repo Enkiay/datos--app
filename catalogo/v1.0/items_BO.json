@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-022919",
+  "version": "v20260529-023329",
   "schemaVersion": 1,
   "items": [
     {
@@ -15226,7 +15226,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "BEAM",
+      "tipoIfc": "SLAB",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
