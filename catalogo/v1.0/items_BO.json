@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-023329",
+  "version": "v20260529-025240",
   "schemaVersion": 1,
   "items": [
     {
@@ -235,7 +235,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "duplicadoDe": "CR-021"
     },
     {
       "codigo": "IE001",
@@ -351,7 +352,8 @@
           "baseCalculo": ""
         }
       ],
-      "parametros": []
+      "parametros": [],
+      "duplicadoDe": "IE-017"
     },
     {
       "codigo": "IS001",
@@ -626,7 +628,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "duplicadoDe": "AC-026"
     },
     {
       "codigo": "UA004",
@@ -688,7 +691,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "duplicadoDe": "AC-051"
     },
     {
       "codigo": "UA005",
@@ -750,7 +754,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "duplicadoDe": "AC-066"
     },
     {
       "codigo": "UA006",
@@ -936,7 +941,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "duplicadoDe": "CU-006"
     },
     {
       "codigo": "UH001",
@@ -1536,7 +1542,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "duplicadoDe": "MP-004"
     },
     {
       "codigo": "UH012",
@@ -2110,7 +2117,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "duplicadoDe": "MP-011"
     },
     {
       "codigo": "OT001",
@@ -2169,7 +2177,8 @@
           "baseCalculo": ""
         }
       ],
-      "parametros": []
+      "parametros": [],
+      "duplicadoDe": "OT-039"
     },
     {
       "codigo": "OT002",
@@ -2240,7 +2249,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "duplicadoDe": "OT-013"
     },
     {
       "codigo": "OT003",
@@ -2290,7 +2300,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "duplicadoDe": "IS-075"
     },
     {
       "codigo": "OT004",
@@ -2340,7 +2351,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "duplicadoDe": "OT-024"
     },
     {
       "codigo": "OT005",
@@ -2620,7 +2632,8 @@
           "baseCalculo": ""
         }
       ],
-      "parametros": []
+      "parametros": [],
+      "duplicadoDe": "IS-031"
     },
     {
       "codigo": "OT-001",
@@ -13861,7 +13874,8 @@
       "subcategoria": "",
       "tags": [
         "estructural"
-      ]
+      ],
+      "duplicadoDe": "UH012"
     },
     {
       "codigo": "AC-020",
@@ -13950,7 +13964,8 @@
       "formulaResultado": "",
       "aliases": [],
       "subcategoria": "",
-      "tags": []
+      "tags": [],
+      "duplicadoDe": "UH012"
     },
     {
       "codigo": "AC-021",
