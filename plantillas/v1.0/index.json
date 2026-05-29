@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-145527",
+  "version": "v20260529-151009",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -456,8 +456,8 @@
     {
       "id": "vivienda-haa-2niveles",
       "nombre": "Vivienda H°A° (1 o 2 niveles)",
-      "descripcion": "Vivienda unifamiliar de H°A° con estructura por módulos constructivos (Obras Preliminares, Cimientos, PB, PA opcional, Cubierta). Modelo BIM-light con Stories + Niveles. La plantilla genera el esqueleto del proyecto con TODOS los factores de cálculo en CERO (largo, ancho, cantidad de columnas/ puertas/ventanas). El usuario edita estos parámetros desde la pantalla Estructura del proyecto según su vivienda real; los volúmenes y áreas se recalculan automáticamente. Las alturas estructurales (viga, losa, sobrecim, zapata, parapeto) llevan defaults estándar bolivianos como punto de partida.",
-      "version": 14,
+      "descripcion": "Vivienda unifamiliar de H°A° con estructura por módulos constructivos. Modelo BIM-light: cada ítem usa parámetros unitarios (L=1) y el factor (inputPrincipal) lleva el cómputo del proyecto (perímetro, área o conteo). Esto evita doble-cuenta al recalcular y permite que los valores persistidos se editen sin invalidar el cómputo. Factores arrancan en 0 — el usuario los completa desde Estructura del proyecto.",
+      "version": 15,
       "inputsRequeridos": [
         {
           "nombre": "num_pisos",
@@ -697,7 +697,7 @@
               "nombre": "Excavación de zanjas (cimiento corrido)",
               "unidad": "m3",
               "catalogoCodigo": "UH002",
-              "formulaTexto": "perimetro * ancho_cimiento * altura_zanja",
+              "formulaTexto": "perimetro",
               "lee": [
                 "perimetro",
                 "ancho_cimiento",
@@ -705,7 +705,7 @@
               ],
               "escribe": "vol_zanjas",
               "computedOverrides": {
-                "largo": "perimetro",
+                "largo": "1",
                 "ancho": "ancho_cimiento",
                 "profundidad": "altura_zanja"
               }
@@ -715,7 +715,7 @@
               "nombre": "Excavación de hoyos para zapatas",
               "unidad": "m3",
               "catalogoCodigo": "UH002",
-              "formulaTexto": "num_columnas * ancho_zapata * largo_zapata * alto_zapata",
+              "formulaTexto": "num_columnas",
               "lee": [
                 "num_columnas",
                 "ancho_zapata",
@@ -734,7 +734,7 @@
               "nombre": "Capa de hormigón pobre",
               "unidad": "m3",
               "catalogoCodigo": "UH003",
-              "formulaTexto": "perimetro * ancho_cimiento * espesor_hormigon_pobre",
+              "formulaTexto": "perimetro",
               "lee": [
                 "perimetro",
                 "ancho_cimiento",
@@ -742,7 +742,7 @@
               ],
               "escribe": "vol",
               "computedOverrides": {
-                "largo": "perimetro",
+                "largo": "1",
                 "ancho": "ancho_cimiento",
                 "altura": "espesor_hormigon_pobre"
               }
@@ -752,7 +752,7 @@
               "nombre": "Zapatas de H°A°",
               "unidad": "m3",
               "catalogoCodigo": "UH006",
-              "formulaTexto": "num_columnas * ancho_zapata * largo_zapata * alto_zapata",
+              "formulaTexto": "num_columnas",
               "lee": [
                 "num_columnas",
                 "ancho_zapata",
@@ -771,7 +771,7 @@
               "nombre": "Cimiento corrido H°C°",
               "unidad": "m3",
               "catalogoCodigo": "UH004",
-              "formulaTexto": "perimetro * altura_cimiento_corrido * ancho_cimiento",
+              "formulaTexto": "perimetro",
               "lee": [
                 "perimetro",
                 "altura_cimiento_corrido",
@@ -779,7 +779,7 @@
               ],
               "escribe": "vol",
               "computedOverrides": {
-                "largo": "perimetro",
+                "largo": "1",
                 "ancho": "ancho_cimiento",
                 "alto": "altura_cimiento_corrido"
               }
@@ -789,7 +789,7 @@
               "nombre": "Columnas H°A° (tramo cimientos)",
               "unidad": "m3",
               "catalogoCodigo": "UH007",
-              "formulaTexto": "num_columnas * lado_columna * lado_columna * altura_columna_cim",
+              "formulaTexto": "num_columnas",
               "lee": [
                 "num_columnas",
                 "lado_columna",
@@ -822,7 +822,7 @@
               "nombre": "Columnas H°A° (PB)",
               "unidad": "m3",
               "catalogoCodigo": "UH007",
-              "formulaTexto": "num_columnas * lado_columna * lado_columna * altura_columna",
+              "formulaTexto": "num_columnas",
               "lee": [
                 "num_columnas",
                 "lado_columna",
@@ -840,7 +840,7 @@
               "nombre": "Sobrecimiento de H°C°",
               "unidad": "m3",
               "catalogoCodigo": "UH005",
-              "formulaTexto": "perimetro * altura_sobrecim * ancho_sobrecim",
+              "formulaTexto": "perimetro",
               "lee": [
                 "perimetro",
                 "altura_sobrecim",
@@ -848,7 +848,7 @@
               ],
               "escribe": "vol",
               "computedOverrides": {
-                "largo": "perimetro",
+                "largo": "1",
                 "ancho": "ancho_sobrecim",
                 "alto": "altura_sobrecim"
               }
@@ -864,8 +864,8 @@
               ],
               "escribe": "area",
               "computedOverrides": {
-                "largo": "perimetro",
-                "alto": "altura_muro"
+                "largo": "1",
+                "alto": "1"
               },
               "descuentos": [
                 {
@@ -895,7 +895,11 @@
               "lee": [
                 "area_planta"
               ],
-              "escribe": "area"
+              "escribe": "area",
+              "computedOverrides": {
+                "largo": "1",
+                "ancho": "1"
+              }
             },
             {
               "id": "carpeta_nivelacion",
@@ -906,14 +910,18 @@
               "lee": [
                 "area_planta"
               ],
-              "escribe": "area"
+              "escribe": "area",
+              "computedOverrides": {
+                "largo": "1",
+                "ancho": "1"
+              }
             },
             {
               "id": "vigas",
               "nombre": "Vigas de amarre / encadenada (PB)",
               "unidad": "m3",
               "catalogoCodigo": "UH008",
-              "formulaTexto": "perimetro * ancho_viga * altura_viga",
+              "formulaTexto": "perimetro",
               "lee": [
                 "perimetro",
                 "ancho_viga",
@@ -921,7 +929,7 @@
               ],
               "escribe": "vol",
               "computedOverrides": {
-                "largo": "perimetro",
+                "largo": "1",
                 "ancho": "ancho_viga",
                 "altura": "altura_viga"
               }
@@ -936,7 +944,11 @@
                 "area_planta"
               ],
               "escribe": "area",
-              "condicionInclusion": "num_pisos - 1"
+              "condicionInclusion": "num_pisos - 1",
+              "computedOverrides": {
+                "largo": "1",
+                "ancho": "1"
+              }
             },
             {
               "id": "puertas",
@@ -981,7 +993,7 @@
               "nombre": "Columnas H°A° (PA)",
               "unidad": "m3",
               "catalogoCodigo": "UH007",
-              "formulaTexto": "num_columnas * lado_columna * lado_columna * altura_columna",
+              "formulaTexto": "num_columnas",
               "lee": [
                 "num_columnas",
                 "lado_columna",
@@ -1003,7 +1015,11 @@
               "lee": [
                 "area_planta"
               ],
-              "escribe": "area"
+              "escribe": "area",
+              "computedOverrides": {
+                "largo": "1",
+                "ancho": "1"
+              }
             },
             {
               "id": "muros",
@@ -1016,8 +1032,8 @@
               ],
               "escribe": "area",
               "computedOverrides": {
-                "largo": "perimetro",
-                "alto": "altura_muro"
+                "largo": "1",
+                "alto": "1"
               },
               "descuentos": [
                 {
@@ -1043,13 +1059,18 @@
               "nombre": "Vigas de amarre / encadenada (PA)",
               "unidad": "m3",
               "catalogoCodigo": "UH008",
-              "formulaTexto": "perimetro * ancho_viga * altura_viga",
+              "formulaTexto": "perimetro",
               "lee": [
                 "perimetro",
                 "ancho_viga",
                 "altura_viga"
               ],
-              "escribe": "vol"
+              "escribe": "vol",
+              "computedOverrides": {
+                "largo": "1",
+                "ancho": "ancho_viga",
+                "altura": "altura_viga"
+              }
             },
             {
               "id": "puertas",
@@ -1094,7 +1115,11 @@
                 "area_planta"
               ],
               "escribe": "area",
-              "condicionInclusion": "2 - tipo_cubierta"
+              "condicionInclusion": "2 - tipo_cubierta",
+              "computedOverrides": {
+                "largo": "1",
+                "ancho": "1"
+              }
             },
             {
               "id": "losa_cubierta",
@@ -1106,7 +1131,11 @@
                 "area_planta"
               ],
               "escribe": "area",
-              "condicionInclusion": "tipo_cubierta - 1"
+              "condicionInclusion": "tipo_cubierta - 1",
+              "computedOverrides": {
+                "largo": "1",
+                "ancho": "1"
+              }
             },
             {
               "id": "parapeto",
@@ -1120,8 +1149,8 @@
               ],
               "escribe": "area",
               "computedOverrides": {
-                "largo": "perimetro",
-                "alto": "altura_parapeto_eff"
+                "largo": "1",
+                "alto": "1"
               }
             }
           ]
