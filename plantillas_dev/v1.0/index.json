@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-040317",
+  "version": "v20260529-042031",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -456,8 +456,8 @@
     {
       "id": "vivienda-haa-2niveles",
       "nombre": "Vivienda H°A° (1 o 2 niveles)",
-      "descripcion": "Vivienda unifamiliar de H°A° con losa alivianada. Permite 1 o 2 plantas. Los muros, columnas, revoques y pinturas se ajustan automáticamente al cambiar la altura libre, el espesor de viga o de losa — propagación basada en niveles constructivos (Stories + Levels). DSL con stories declarativas (Fase 2A).",
-      "version": 5,
+      "descripcion": "Vivienda unifamiliar de H°A° con losa alivianada. Permite 1 o 2 plantas. Modelo BIM-light con Stories y Niveles Constructivos: el usuario solo edita las alturas estructurales (libre, viga, losa, sobrecim, parapeto, piso/terreno). Muros, columnas, revoques, pinturas y parapeto se recalculan automáticamente al cambiar cualquier nivel.",
+      "version": 6,
       "inputsRequeridos": [
         {
           "nombre": "num_pisos",
@@ -524,6 +524,22 @@
           "min": 0.2
         },
         {
+          "nombre": "altura_parapeto",
+          "label": "Altura de parapeto",
+          "unidad": "m",
+          "default": 0.4,
+          "min": 0.2,
+          "max": 1.2
+        },
+        {
+          "nombre": "altura_piso_terreno",
+          "label": "Altura piso terminado vs terreno",
+          "unidad": "m",
+          "default": 0.15,
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
           "nombre": "alto_puerta",
           "label": "Alto de puerta",
           "unidad": "m",
@@ -562,6 +578,13 @@
         {
           "id": "cim",
           "nombre": "Cimientos",
+          "levels": {
+            "piso_terminado": "0",
+            "tope_sobrecimiento": "0",
+            "tope_cimiento": "-altura_sobrecim",
+            "fondo_excavacion": "-prof_cimiento - alto_zapata",
+            "nivel_terreno": "-altura_piso_terreno"
+          },
           "items": [
             {
               "id": "replanteo",
@@ -577,17 +600,16 @@
               "nombre": "Excavación de zanjas",
               "unidad": "m3",
               "catalogoCodigo": "UH002",
-              "formulaTexto": "perimetro * prof_cimiento * ancho_cimiento",
+              "formulaTexto": "perimetro * (tope_sobrecimiento - fondo_excavacion - alto_zapata) * ancho_cimiento",
               "lee": [
                 "perimetro",
-                "prof_cimiento",
                 "ancho_cimiento"
               ],
               "escribe": "vol",
               "computedOverrides": {
                 "largo": "perimetro",
                 "ancho": "ancho_cimiento",
-                "profundidad": "prof_cimiento"
+                "profundidad": "tope_sobrecimiento - fondo_excavacion - alto_zapata"
               }
             },
             {
@@ -613,18 +635,16 @@
               "nombre": "Cimiento corrido de H°C°",
               "unidad": "m3",
               "catalogoCodigo": "UH004",
-              "formulaTexto": "perimetro * (prof_cimiento - altura_sobrecim) * ancho_cimiento",
+              "formulaTexto": "perimetro * (tope_cimiento - (fondo_excavacion + alto_zapata)) * ancho_cimiento",
               "lee": [
                 "perimetro",
-                "prof_cimiento",
-                "altura_sobrecim",
                 "ancho_cimiento"
               ],
               "escribe": "vol",
               "computedOverrides": {
                 "largo": "perimetro",
                 "ancho": "ancho_cimiento",
-                "alto": "prof_cimiento - altura_sobrecim"
+                "alto": "tope_cimiento - (fondo_excavacion + alto_zapata)"
               }
             },
             {
@@ -632,17 +652,16 @@
               "nombre": "Sobrecimiento de H°C°",
               "unidad": "m3",
               "catalogoCodigo": "UH005",
-              "formulaTexto": "perimetro * altura_sobrecim * ancho_cimiento",
+              "formulaTexto": "perimetro * (tope_sobrecimiento - tope_cimiento) * ancho_cimiento",
               "lee": [
                 "perimetro",
-                "altura_sobrecim",
                 "ancho_cimiento"
               ],
               "escribe": "vol",
               "computedOverrides": {
                 "largo": "perimetro",
                 "ancho": "ancho_cimiento",
-                "alto": "altura_sobrecim"
+                "alto": "tope_sobrecimiento - tope_cimiento"
               }
             }
           ]
@@ -651,12 +670,12 @@
           "id": "pb",
           "nombre": "Planta Baja",
           "levels": {
-            "NPA": "0",
-            "VIGA_INF": "altura_libre_pb",
-            "VIGA_SUP": "VIGA_INF + altura_viga",
-            "LOSA_SUP": "VIGA_SUP + espesor_losa",
-            "altura_muro": "VIGA_INF - NPA",
-            "altura_columna": "LOSA_SUP - NPA",
+            "piso_terminado": "0",
+            "fondo_viga": "altura_libre_pb",
+            "tope_viga": "fondo_viga + altura_viga",
+            "tope_losa": "tope_viga + espesor_losa",
+            "altura_muro": "fondo_viga - piso_terminado",
+            "altura_columna": "tope_losa - piso_terminado",
             "area_muros": "perimetro * altura_muro"
           },
           "items": [
@@ -833,12 +852,12 @@
           "nombre": "Planta Alta",
           "condicionInclusion": "num_pisos - 1",
           "levels": {
-            "NPA": "pb.LOSA_SUP",
-            "VIGA_INF": "NPA + altura_libre_pa",
-            "VIGA_SUP": "VIGA_INF + altura_viga",
-            "LOSA_SUP": "VIGA_SUP + espesor_losa",
-            "altura_muro": "VIGA_INF - NPA",
-            "altura_columna": "LOSA_SUP - NPA",
+            "piso_terminado": "pb.tope_losa",
+            "fondo_viga": "piso_terminado + altura_libre_pa",
+            "tope_viga": "fondo_viga + altura_viga",
+            "tope_losa": "tope_viga + espesor_losa",
+            "altura_muro": "fondo_viga - piso_terminado",
+            "altura_columna": "tope_losa - piso_terminado",
             "area_muros": "perimetro * altura_muro"
           },
           "items": [
@@ -996,6 +1015,11 @@
         {
           "id": "cub",
           "nombre": "Cubierta",
+          "levels": {
+            "tope_cubierta": "if(num_pisos - 1, pa.tope_losa, pb.tope_losa)",
+            "tope_parapeto": "tope_cubierta + altura_parapeto",
+            "altura_parapeto_eff": "tope_parapeto - tope_cubierta"
+          },
           "items": [
             {
               "id": "losa_cubierta",
@@ -1006,10 +1030,26 @@
               "lee": [
                 "area_planta"
               ],
-              "escribe": "area",
+              "escribe": "area_cub",
               "computedOverrides": {
                 "largo": "largo",
                 "ancho": "ancho"
+              }
+            },
+            {
+              "id": "parapeto",
+              "nombre": "Parapeto perimetral (ladrillo 6H 12 cm)",
+              "unidad": "m2",
+              "catalogoCodigo": "MP-006",
+              "formulaTexto": "perimetro * altura_parapeto_eff",
+              "lee": [
+                "perimetro",
+                "altura_parapeto_eff"
+              ],
+              "escribe": "area_parapeto",
+              "computedOverrides": {
+                "largo": "perimetro",
+                "alto": "altura_parapeto_eff"
               }
             }
           ]
