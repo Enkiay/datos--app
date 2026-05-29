@@ -1,5 +1,5 @@
 {
-  "version": "v20260527-013000",
+  "version": "v20260529-020823",
   "schemaVersion": 1,
   "items": [
     {
@@ -7889,12 +7889,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -7997,12 +7991,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -8094,12 +8082,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -8178,12 +8160,6 @@
         {
           "nombre": "Alto",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -8277,12 +8253,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -8361,12 +8331,6 @@
         {
           "nombre": "Alto",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -8460,12 +8424,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -8555,12 +8513,6 @@
         {
           "nombre": "Alto",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -12722,12 +12674,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -12872,12 +12818,6 @@
         {
           "nombre": "Alto",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -13026,12 +12966,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -13176,12 +13110,6 @@
         {
           "nombre": "Alto",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -13902,12 +13830,6 @@
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
-          "unidad": "m",
-          "visiblePorDefecto": true
         }
       ],
       "presets": [],
@@ -14052,12 +13974,6 @@
         {
           "nombre": "Alto",
           "valorDefault": 1.0,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Espesor",
-          "valorDefault": 0.15,
           "unidad": "m",
           "visiblePorDefecto": true
         }
