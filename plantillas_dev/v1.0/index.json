@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-042031",
+  "version": "v20260529-130529",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -456,8 +456,8 @@
     {
       "id": "vivienda-haa-2niveles",
       "nombre": "Vivienda H°A° (1 o 2 niveles)",
-      "descripcion": "Vivienda unifamiliar de H°A° con losa alivianada. Permite 1 o 2 plantas. Modelo BIM-light con Stories y Niveles Constructivos: el usuario solo edita las alturas estructurales (libre, viga, losa, sobrecim, parapeto, piso/terreno). Muros, columnas, revoques, pinturas y parapeto se recalculan automáticamente al cambiar cualquier nivel.",
-      "version": 6,
+      "descripcion": "Vivienda unifamiliar de H°A° con losa alivianada. Permite 1 o 2 plantas. Modelo BIM-light con Stories y Niveles Constructivos. Distingue alturas reales por capa: muro de ladrillo llega al fondo de viga; revoque interior cubre hasta la cara inferior de la losa; revoque exterior se extiende por toda la fachada hasta el inicio del piso superior. Cambios en altura libre, viga o losa propagan automáticamente a todas las áreas.",
+      "version": 7,
       "inputsRequeridos": [
         {
           "nombre": "num_pisos",
@@ -676,7 +676,11 @@
             "tope_losa": "tope_viga + espesor_losa",
             "altura_muro": "fondo_viga - piso_terminado",
             "altura_columna": "tope_losa - piso_terminado",
-            "area_muros": "perimetro * altura_muro"
+            "area_muros": "perimetro * altura_muro",
+            "altura_revoque_int": "tope_viga - piso_terminado",
+            "altura_revoque_ext": "tope_losa - piso_terminado",
+            "area_revoque_int": "perimetro * altura_revoque_int",
+            "area_revoque_ext": "perimetro * altura_revoque_ext"
           },
           "items": [
             {
@@ -765,35 +769,43 @@
               "nombre": "Revoque exterior",
               "unidad": "m2",
               "catalogoCodigo": "UA001",
-              "formulaTexto": "area_muros - area_puertas_pb - area_ventanas_pb",
+              "formulaTexto": "area_revoque_ext - area_puertas_pb - area_ventanas_pb",
               "lee": [
-                "area_muros",
+                "area_revoque_ext",
                 "area_puertas_pb",
                 "area_ventanas_pb"
               ],
-              "escribe": "area"
+              "escribe": "area",
+              "computedOverrides": {
+                "largo": "perimetro",
+                "alto": "altura_revoque_ext"
+              }
             },
             {
               "id": "enlucido_int",
               "nombre": "Enlucido de yeso interior",
               "unidad": "m2",
               "catalogoCodigo": "UA002",
-              "formulaTexto": "area_muros - area_puertas_pb - area_ventanas_pb",
+              "formulaTexto": "area_revoque_int - area_puertas_pb - area_ventanas_pb",
               "lee": [
-                "area_muros",
+                "area_revoque_int",
                 "area_puertas_pb",
                 "area_ventanas_pb"
               ],
-              "escribe": "area"
+              "escribe": "area",
+              "computedOverrides": {
+                "largo": "perimetro",
+                "alto": "altura_revoque_int"
+              }
             },
             {
               "id": "pintura_int",
               "nombre": "Pintura interior látex",
               "unidad": "m2",
               "catalogoCodigo": "UA004",
-              "formulaTexto": "area_muros - area_puertas_pb - area_ventanas_pb",
+              "formulaTexto": "area_revoque_int - area_puertas_pb - area_ventanas_pb",
               "lee": [
-                "area_muros",
+                "area_revoque_int",
                 "area_puertas_pb",
                 "area_ventanas_pb"
               ],
@@ -804,9 +816,9 @@
               "nombre": "Pintura exterior látex",
               "unidad": "m2",
               "catalogoCodigo": "UA005",
-              "formulaTexto": "area_muros - area_puertas_pb - area_ventanas_pb",
+              "formulaTexto": "area_revoque_ext - area_puertas_pb - area_ventanas_pb",
               "lee": [
-                "area_muros",
+                "area_revoque_ext",
                 "area_puertas_pb",
                 "area_ventanas_pb"
               ],
@@ -858,7 +870,11 @@
             "tope_losa": "tope_viga + espesor_losa",
             "altura_muro": "fondo_viga - piso_terminado",
             "altura_columna": "tope_losa - piso_terminado",
-            "area_muros": "perimetro * altura_muro"
+            "area_muros": "perimetro * altura_muro",
+            "altura_revoque_int": "tope_viga - piso_terminado",
+            "altura_revoque_ext": "tope_losa - piso_terminado",
+            "area_revoque_int": "perimetro * altura_revoque_int",
+            "area_revoque_ext": "perimetro * altura_revoque_ext"
           },
           "items": [
             {
@@ -930,35 +946,43 @@
               "nombre": "Revoque exterior",
               "unidad": "m2",
               "catalogoCodigo": "UA001",
-              "formulaTexto": "area_muros - area_puertas_pa - area_ventanas_pa",
+              "formulaTexto": "area_revoque_ext - area_puertas_pa - area_ventanas_pa",
               "lee": [
-                "area_muros",
+                "area_revoque_ext",
                 "area_puertas_pa",
                 "area_ventanas_pa"
               ],
-              "escribe": "area"
+              "escribe": "area",
+              "computedOverrides": {
+                "largo": "perimetro",
+                "alto": "altura_revoque_ext"
+              }
             },
             {
               "id": "enlucido_int",
               "nombre": "Enlucido de yeso interior",
               "unidad": "m2",
               "catalogoCodigo": "UA002",
-              "formulaTexto": "area_muros - area_puertas_pa - area_ventanas_pa",
+              "formulaTexto": "area_revoque_int - area_puertas_pa - area_ventanas_pa",
               "lee": [
-                "area_muros",
+                "area_revoque_int",
                 "area_puertas_pa",
                 "area_ventanas_pa"
               ],
-              "escribe": "area"
+              "escribe": "area",
+              "computedOverrides": {
+                "largo": "perimetro",
+                "alto": "altura_revoque_int"
+              }
             },
             {
               "id": "pintura_int",
               "nombre": "Pintura interior látex",
               "unidad": "m2",
               "catalogoCodigo": "UA004",
-              "formulaTexto": "area_muros - area_puertas_pa - area_ventanas_pa",
+              "formulaTexto": "area_revoque_int - area_puertas_pa - area_ventanas_pa",
               "lee": [
-                "area_muros",
+                "area_revoque_int",
                 "area_puertas_pa",
                 "area_ventanas_pa"
               ],
@@ -969,9 +993,9 @@
               "nombre": "Pintura exterior látex",
               "unidad": "m2",
               "catalogoCodigo": "UA005",
-              "formulaTexto": "area_muros - area_puertas_pa - area_ventanas_pa",
+              "formulaTexto": "area_revoque_ext - area_puertas_pa - area_ventanas_pa",
               "lee": [
-                "area_muros",
+                "area_revoque_ext",
                 "area_puertas_pa",
                 "area_ventanas_pa"
               ],
