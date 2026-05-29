@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-142457",
+  "version": "v20260529-143619",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -457,7 +457,7 @@
       "id": "vivienda-haa-2niveles",
       "nombre": "Vivienda H°A° (1 o 2 niveles)",
       "descripcion": "Vivienda unifamiliar de H°A° con estructura por módulos constructivos: Obras Preliminares, Cimientos, Planta Baja, Planta Alta (opcional) y Cubierta. Modelo BIM-light con Stories + Niveles Constructivos. Cubierta seleccionable (calamina galvanizada N°28 o losa alivianada). No incluye acabados — se cargan aparte (revoques, pinturas, cerámica) si el proyecto los necesita. Estándares incorporados: viga 0.20 m, sobrecim 0.15 m de ancho, losa 0.25 m (0.05+0.05+0.15), parapeto ≥ 0.90 m por norma.",
-      "version": 11,
+      "version": 12,
       "inputsRequeridos": [
         {
           "nombre": "num_pisos",
@@ -477,18 +477,18 @@
           ]
         },
         {
-          "nombre": "altura_libre_pb",
-          "label": "Altura libre Planta Baja",
+          "nombre": "altura_piso_a_piso_pb",
+          "label": "Altura piso a piso Planta Baja (NPA → NPA superior)",
           "unidad": "m",
-          "default": 2.6,
-          "min": 2
+          "default": 3.25,
+          "min": 2.8
         },
         {
-          "nombre": "altura_libre_pa",
-          "label": "Altura libre Planta Alta",
+          "nombre": "altura_piso_a_piso_pa",
+          "label": "Altura piso a piso Planta Alta",
           "unidad": "m",
-          "default": 2.4,
-          "min": 2,
+          "default": 3.05,
+          "min": 2.8,
           "visibleSi": "num_pisos - 1"
         },
         {
@@ -647,7 +647,7 @@
             "fondo_excavacion": "tope_zapata - alto_zapata",
             "nivel_terreno": "-altura_piso_terreno",
             "altura_columna_cim": "piso_terminado - tope_zapata",
-            "altura_zanja": "tope_sobrecimiento - tope_zapata"
+            "altura_zanja": "altura_cimiento_corrido"
           },
           "items": [
             {
@@ -767,9 +767,9 @@
           "nombre": "Planta Baja",
           "levels": {
             "piso_terminado": "0",
-            "fondo_viga": "altura_libre_pb",
-            "tope_viga": "fondo_viga + altura_viga",
-            "tope_losa": "tope_viga + espesor_losa",
+            "tope_losa": "altura_piso_a_piso_pb",
+            "tope_viga": "tope_losa - espesor_losa",
+            "fondo_viga": "tope_viga - altura_viga",
             "altura_muro": "fondo_viga - piso_terminado",
             "altura_columna": "fondo_viga - piso_terminado",
             "area_muros": "perimetro * altura_muro"
@@ -926,9 +926,9 @@
           "condicionInclusion": "num_pisos - 1",
           "levels": {
             "piso_terminado": "pb.tope_losa",
-            "fondo_viga": "piso_terminado + altura_libre_pa",
-            "tope_viga": "fondo_viga + altura_viga",
-            "tope_losa": "tope_viga + espesor_losa",
+            "tope_losa": "piso_terminado + altura_piso_a_piso_pa",
+            "tope_viga": "tope_losa - espesor_losa",
+            "fondo_viga": "tope_viga - altura_viga",
             "altura_muro": "fondo_viga - piso_terminado",
             "altura_columna": "fondo_viga - piso_terminado",
             "area_muros": "perimetro * altura_muro"
