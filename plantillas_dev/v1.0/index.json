@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-143619",
+  "version": "v20260529-144718",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -456,8 +456,8 @@
     {
       "id": "vivienda-haa-2niveles",
       "nombre": "Vivienda H°A° (1 o 2 niveles)",
-      "descripcion": "Vivienda unifamiliar de H°A° con estructura por módulos constructivos: Obras Preliminares, Cimientos, Planta Baja, Planta Alta (opcional) y Cubierta. Modelo BIM-light con Stories + Niveles Constructivos. Cubierta seleccionable (calamina galvanizada N°28 o losa alivianada). No incluye acabados — se cargan aparte (revoques, pinturas, cerámica) si el proyecto los necesita. Estándares incorporados: viga 0.20 m, sobrecim 0.15 m de ancho, losa 0.25 m (0.05+0.05+0.15), parapeto ≥ 0.90 m por norma.",
-      "version": 12,
+      "descripcion": "Vivienda unifamiliar de H°A° con estructura por módulos constructivos (Obras Preliminares, Cimientos, PB, PA opcional, Cubierta). Modelo BIM-light con Stories + Niveles. La plantilla genera el esqueleto del proyecto con factores de cantidad (num_columnas, num_puertas, num_ventanas) en CERO. El usuario los edita desde la pantalla Estructura del proyecto según su vivienda real, y todos los volúmenes y áreas se recalculan automáticamente. Dimensiones de elementos (lado de columna, ancho de zapata, etc.) llevan estándares constructivos bolivianos.",
+      "version": 13,
       "inputsRequeridos": [
         {
           "nombre": "num_pisos",
@@ -510,6 +510,55 @@
         }
       ],
       "parametrosEditables": [
+        {
+          "nombre": "largo",
+          "label": "Largo de la vivienda",
+          "unidad": "m",
+          "default": 10,
+          "min": 3
+        },
+        {
+          "nombre": "ancho",
+          "label": "Ancho de la vivienda",
+          "unidad": "m",
+          "default": 8,
+          "min": 3
+        },
+        {
+          "nombre": "num_columnas",
+          "label": "Cantidad de columnas",
+          "unidad": "u",
+          "default": 0,
+          "min": 0
+        },
+        {
+          "nombre": "num_puertas_pb",
+          "label": "Puertas en Planta Baja",
+          "unidad": "u",
+          "default": 0,
+          "min": 0
+        },
+        {
+          "nombre": "num_ventanas_pb",
+          "label": "Ventanas en Planta Baja",
+          "unidad": "u",
+          "default": 0,
+          "min": 0
+        },
+        {
+          "nombre": "num_puertas_pa",
+          "label": "Puertas en Planta Alta",
+          "unidad": "u",
+          "default": 0,
+          "min": 0
+        },
+        {
+          "nombre": "num_ventanas_pa",
+          "label": "Ventanas en Planta Alta",
+          "unidad": "u",
+          "default": 0,
+          "min": 0
+        },
         {
           "nombre": "altura_viga",
           "label": "Altura de viga",
@@ -577,13 +626,6 @@
         }
       ],
       "variablesCalculadas": {
-        "largo": "10",
-        "ancho": "8",
-        "num_columnas": "8",
-        "num_puertas_pb": "5",
-        "num_ventanas_pb": "6",
-        "num_puertas_pa": "4",
-        "num_ventanas_pa": "6",
         "ancho_viga": "0.20",
         "lado_columna": "0.25",
         "ancho_cimiento": "0.40",

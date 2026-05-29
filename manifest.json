@@ -15,11 +15,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales.json"
     },
     "plantillas": {
-      "version": "v20260529-143619",
+      "version": "v20260529-144718",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/plantillas/v1.0/index.json"
     },
     "plantillas_dev": {
-      "version": "v20260529-143619",
+      "version": "v20260529-144718",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/plantillas_dev/v1.0/index.json"
     },
     "proyectosCompartidos": {
