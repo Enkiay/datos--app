@@ -1,5 +1,5 @@
 {
-  "version": "4.7",
+  "version": "v20260529-033849",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -13,11 +13,26 @@
           "unidad": "",
           "default": 4.0,
           "opciones": [
-            { "valor": 1.0, "label": "Lineal" },
-            { "valor": 2.0, "label": "L" },
-            { "valor": 3.0, "label": "U" },
-            { "valor": 4.0, "label": "Cerrado" },
-            { "valor": 5.0, "label": "Polígono libre" }
+            {
+              "valor": 1.0,
+              "label": "Lineal"
+            },
+            {
+              "valor": 2.0,
+              "label": "L"
+            },
+            {
+              "valor": 3.0,
+              "label": "U"
+            },
+            {
+              "valor": 4.0,
+              "label": "Cerrado"
+            },
+            {
+              "valor": 5.0,
+              "label": "Polígono libre"
+            }
           ]
         },
         {
@@ -156,7 +171,11 @@
           "nombre": "Excavación de zanjas",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
-          "lee": ["longitud_total", "esquinas_efectivas", "prof_zanja"],
+          "lee": [
+            "longitud_total",
+            "esquinas_efectivas",
+            "prof_zanja"
+          ],
           "escribe": "ml_excavacion",
           "computedOverrides": {
             "ancho": "0.40",
@@ -180,7 +199,11 @@
           "nombre": "Excavación adicional para zapatas",
           "unidad": "m3",
           "formulaTexto": "cantidad_columnas",
-          "lee": ["cantidad_columnas", "prof_zapata", "prof_zanja"],
+          "lee": [
+            "cantidad_columnas",
+            "prof_zapata",
+            "prof_zanja"
+          ],
           "escribe": "cant_exc_zapatas",
           "computedOverrides": {
             "largo": "0.40",
@@ -195,7 +218,10 @@
           "nombre": "Capa de hormigón pobre",
           "unidad": "m3",
           "formulaTexto": "longitud_total",
-          "lee": ["longitud_total", "esquinas_efectivas"],
+          "lee": [
+            "longitud_total",
+            "esquinas_efectivas"
+          ],
           "escribe": "ml_hp",
           "presetNombre": "40×5cm",
           "computedOverrides": {
@@ -220,7 +246,10 @@
           "nombre": "Zapata de H°A°",
           "unidad": "m3",
           "formulaTexto": "cantidad_columnas",
-          "lee": ["cantidad_columnas", "h_zapata"],
+          "lee": [
+            "cantidad_columnas",
+            "h_zapata"
+          ],
           "escribe": "cantidad_zapatas",
           "presetNombre": "40×40×30",
           "computedOverrides": {
@@ -423,6 +452,671 @@
         "layout_lados_verticales": "if(tipo_geometria == 1, 0, if(tipo_geometria == 2, 1, 2))",
         "cantidad_columnas_layout": "max(0, layout_cols_top + layout_cols_bottom + layout_lados_verticales * layout_inter_side - columnas_extremos_quitar)"
       }
+    },
+    {
+      "id": "vivienda-haa-2niveles",
+      "nombre": "Vivienda H°A° (1 o 2 niveles)",
+      "descripcion": "Vivienda unifamiliar de H°A° con losa alivianada. Permite 1 o 2 plantas. Los muros, columnas, revoques y pinturas se ajustan automáticamente al cambiar la altura libre, el espesor de viga o de losa — propagación basada en niveles constructivos (Stories + Levels).",
+      "version": 1,
+      "inputsRequeridos": [
+        {
+          "nombre": "num_pisos",
+          "label": "Número de pisos",
+          "unidad": "",
+          "default": 1,
+          "min": 1,
+          "opciones": [
+            {
+              "valor": 1,
+              "label": "1 piso (planta baja)"
+            },
+            {
+              "valor": 2,
+              "label": "2 pisos (PB + PA)"
+            }
+          ]
+        },
+        {
+          "nombre": "largo",
+          "label": "Largo de la vivienda",
+          "unidad": "m",
+          "default": 10,
+          "min": 3
+        },
+        {
+          "nombre": "ancho",
+          "label": "Ancho de la vivienda",
+          "unidad": "m",
+          "default": 8,
+          "min": 3
+        },
+        {
+          "nombre": "altura_libre_pb",
+          "label": "Altura libre Planta Baja",
+          "unidad": "m",
+          "default": 2.6,
+          "min": 2
+        },
+        {
+          "nombre": "altura_libre_pa",
+          "label": "Altura libre Planta Alta",
+          "unidad": "m",
+          "default": 2.5,
+          "min": 2,
+          "visibleSi": "num_pisos - 1"
+        },
+        {
+          "nombre": "num_columnas",
+          "label": "Cantidad de columnas",
+          "unidad": "u",
+          "default": 8,
+          "min": 4
+        },
+        {
+          "nombre": "num_puertas_pb",
+          "label": "Puertas en Planta Baja",
+          "unidad": "u",
+          "default": 5,
+          "min": 1
+        },
+        {
+          "nombre": "num_ventanas_pb",
+          "label": "Ventanas en Planta Baja",
+          "unidad": "u",
+          "default": 6,
+          "min": 0
+        },
+        {
+          "nombre": "num_puertas_pa",
+          "label": "Puertas en Planta Alta",
+          "unidad": "u",
+          "default": 4,
+          "min": 0,
+          "visibleSi": "num_pisos - 1"
+        },
+        {
+          "nombre": "num_ventanas_pa",
+          "label": "Ventanas en Planta Alta",
+          "unidad": "u",
+          "default": 6,
+          "min": 0,
+          "visibleSi": "num_pisos - 1"
+        }
+      ],
+      "parametrosEditables": [
+        {
+          "nombre": "altura_viga",
+          "label": "Altura de viga",
+          "unidad": "m",
+          "default": 0.4,
+          "min": 0.2,
+          "max": 0.8
+        },
+        {
+          "nombre": "ancho_viga",
+          "label": "Ancho de viga",
+          "unidad": "m",
+          "default": 0.25,
+          "min": 0.15,
+          "max": 0.4
+        },
+        {
+          "nombre": "espesor_losa",
+          "label": "Espesor de losa",
+          "unidad": "m",
+          "default": 0.2,
+          "min": 0.15,
+          "max": 0.3
+        },
+        {
+          "nombre": "lado_columna",
+          "label": "Lado de columna",
+          "unidad": "m",
+          "default": 0.25,
+          "min": 0.2,
+          "max": 0.4
+        },
+        {
+          "nombre": "prof_cimiento",
+          "label": "Profundidad cimiento",
+          "unidad": "m",
+          "default": 0.8,
+          "min": 0.5
+        },
+        {
+          "nombre": "ancho_cimiento",
+          "label": "Ancho cimiento corrido",
+          "unidad": "m",
+          "default": 0.4,
+          "min": 0.3
+        },
+        {
+          "nombre": "altura_sobrecim",
+          "label": "Altura de sobrecimiento",
+          "unidad": "m",
+          "default": 0.3,
+          "min": 0.2
+        },
+        {
+          "nombre": "lado_zapata",
+          "label": "Lado de zapata",
+          "unidad": "m",
+          "default": 0.8,
+          "min": 0.5
+        },
+        {
+          "nombre": "alto_zapata",
+          "label": "Alto de zapata",
+          "unidad": "m",
+          "default": 0.3,
+          "min": 0.2
+        },
+        {
+          "nombre": "ancho_puerta",
+          "label": "Ancho de puerta",
+          "unidad": "m",
+          "default": 0.9
+        },
+        {
+          "nombre": "alto_puerta",
+          "label": "Alto de puerta",
+          "unidad": "m",
+          "default": 2.1
+        },
+        {
+          "nombre": "ancho_ventana",
+          "label": "Ancho de ventana",
+          "unidad": "m",
+          "default": 1.2
+        },
+        {
+          "nombre": "alto_ventana",
+          "label": "Alto de ventana",
+          "unidad": "m",
+          "default": 1.1
+        }
+      ],
+      "variablesCalculadas": {
+        "perimetro": "2 * (largo + ancho)",
+        "area_planta": "largo * ancho",
+        "NPA_PB": "0",
+        "VIGA_INF_PB": "altura_libre_pb",
+        "VIGA_SUP_PB": "VIGA_INF_PB + altura_viga",
+        "LOSA_SUP_PB": "VIGA_SUP_PB + espesor_losa",
+        "NPA_PA": "LOSA_SUP_PB",
+        "VIGA_INF_PA": "NPA_PA + altura_libre_pa",
+        "VIGA_SUP_PA": "VIGA_INF_PA + altura_viga",
+        "LOSA_SUP_PA": "VIGA_SUP_PA + espesor_losa",
+        "altura_muro_pb": "VIGA_INF_PB - NPA_PB",
+        "altura_muro_pa": "VIGA_INF_PA - NPA_PA",
+        "altura_columna_pb": "LOSA_SUP_PB",
+        "altura_columna_pa": "LOSA_SUP_PA - NPA_PA",
+        "area_muros_pb": "perimetro * altura_muro_pb",
+        "area_muros_pa": "perimetro * altura_muro_pa",
+        "area_puertas_pb": "num_puertas_pb * ancho_puerta * alto_puerta",
+        "area_ventanas_pb": "num_ventanas_pb * ancho_ventana * alto_ventana",
+        "area_puertas_pa": "num_puertas_pa * ancho_puerta * alto_puerta",
+        "area_ventanas_pa": "num_ventanas_pa * ancho_ventana * alto_ventana"
+      },
+      "items": [
+        {
+          "id": "replanteo",
+          "nombre": "Replanteo y trazado",
+          "unidad": "Glb",
+          "espacio": "Cimientos",
+          "catalogoCodigo": "UH001",
+          "formulaTexto": "1",
+          "lee": [],
+          "escribe": "qty_replanteo"
+        },
+        {
+          "id": "excavacion",
+          "nombre": "Excavación de zanjas",
+          "unidad": "m3",
+          "espacio": "Cimientos",
+          "catalogoCodigo": "UH002",
+          "formulaTexto": "perimetro * prof_cimiento * ancho_cimiento",
+          "lee": [
+            "perimetro",
+            "prof_cimiento",
+            "ancho_cimiento"
+          ],
+          "escribe": "vol_excavacion",
+          "computedOverrides": {
+            "largo": "perimetro",
+            "ancho": "ancho_cimiento",
+            "profundidad": "prof_cimiento"
+          }
+        },
+        {
+          "id": "exc_zapatas",
+          "nombre": "Excavación adicional para zapatas",
+          "unidad": "m3",
+          "espacio": "Cimientos",
+          "catalogoCodigo": "UH002",
+          "formulaTexto": "num_columnas * lado_zapata * lado_zapata * max(0, alto_zapata - prof_cimiento + alto_zapata)",
+          "lee": [
+            "num_columnas",
+            "lado_zapata",
+            "alto_zapata",
+            "prof_cimiento"
+          ],
+          "escribe": "vol_exc_zapatas",
+          "condicionInclusion": "if(alto_zapata > 0, 1, 0)"
+        },
+        {
+          "id": "zapatas",
+          "nombre": "Zapatas de H°A°",
+          "unidad": "m3",
+          "espacio": "Cimientos",
+          "catalogoCodigo": "UH006",
+          "formulaTexto": "num_columnas * lado_zapata * lado_zapata * alto_zapata",
+          "lee": [
+            "num_columnas",
+            "lado_zapata",
+            "alto_zapata"
+          ],
+          "escribe": "vol_zapatas",
+          "computedOverrides": {
+            "largo": "lado_zapata",
+            "ancho": "lado_zapata",
+            "alto": "alto_zapata"
+          }
+        },
+        {
+          "id": "cimiento_corrido",
+          "nombre": "Cimiento corrido de H°C°",
+          "unidad": "m3",
+          "espacio": "Cimientos",
+          "catalogoCodigo": "UH004",
+          "formulaTexto": "perimetro * (prof_cimiento - alto_sobrecim_calc) * ancho_cimiento",
+          "lee": [
+            "perimetro",
+            "prof_cimiento",
+            "ancho_cimiento"
+          ],
+          "escribe": "vol_cimiento",
+          "computedOverrides": {
+            "largo": "perimetro",
+            "ancho": "ancho_cimiento",
+            "alto": "prof_cimiento"
+          }
+        },
+        {
+          "id": "sobrecimiento",
+          "nombre": "Sobrecimiento de H°C°",
+          "unidad": "m3",
+          "espacio": "Cimientos",
+          "catalogoCodigo": "UH005",
+          "formulaTexto": "perimetro * altura_sobrecim * ancho_cimiento",
+          "lee": [
+            "perimetro",
+            "altura_sobrecim",
+            "ancho_cimiento"
+          ],
+          "escribe": "vol_sobrecim",
+          "computedOverrides": {
+            "largo": "perimetro",
+            "ancho": "ancho_cimiento",
+            "alto": "altura_sobrecim"
+          }
+        },
+        {
+          "id": "columnas_pb",
+          "nombre": "Columnas H°A° (Planta Baja)",
+          "unidad": "m3",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "UH007",
+          "formulaTexto": "num_columnas * lado_columna * lado_columna * altura_columna_pb",
+          "lee": [
+            "num_columnas",
+            "lado_columna",
+            "altura_columna_pb"
+          ],
+          "escribe": "vol_columnas_pb",
+          "computedOverrides": {
+            "ancho": "lado_columna",
+            "profundidad": "lado_columna",
+            "alto": "altura_columna_pb"
+          }
+        },
+        {
+          "id": "vigas_pb",
+          "nombre": "Vigas de H°A° (Planta Baja)",
+          "unidad": "m3",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "UH008",
+          "formulaTexto": "perimetro * ancho_viga * altura_viga",
+          "lee": [
+            "perimetro",
+            "ancho_viga",
+            "altura_viga"
+          ],
+          "escribe": "vol_vigas_pb",
+          "computedOverrides": {
+            "largo": "perimetro",
+            "ancho": "ancho_viga",
+            "altura": "altura_viga"
+          }
+        },
+        {
+          "id": "losa_pb",
+          "nombre": "Losa alivianada (entrepiso PB → PA)",
+          "unidad": "m2",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "OG-021",
+          "formulaTexto": "if(num_pisos >= 2, area_planta, 0)",
+          "lee": [
+            "area_planta",
+            "num_pisos"
+          ],
+          "escribe": "area_losa_pb",
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "muros_pb",
+          "nombre": "Muros de ladrillo 6H 12cm (Planta Baja)",
+          "unidad": "m2",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "MP-006",
+          "formulaTexto": "area_muros_pb",
+          "lee": [
+            "area_muros_pb"
+          ],
+          "escribe": "area_muros_pb_final",
+          "computedOverrides": {
+            "largo": "perimetro",
+            "alto": "altura_muro_pb"
+          },
+          "descuentos": [
+            {
+              "nombre": "Puertas PB",
+              "factorFormula": "num_puertas_pb",
+              "overrides": {
+                "largo": "ancho_puerta",
+                "alto": "alto_puerta"
+              }
+            },
+            {
+              "nombre": "Ventanas PB",
+              "factorFormula": "num_ventanas_pb",
+              "overrides": {
+                "largo": "ancho_ventana",
+                "alto": "alto_ventana"
+              }
+            }
+          ]
+        },
+        {
+          "id": "revoque_ext_pb",
+          "nombre": "Revoque exterior (Planta Baja)",
+          "unidad": "m2",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "UA001",
+          "formulaTexto": "area_muros_pb - area_puertas_pb - area_ventanas_pb",
+          "lee": [
+            "area_muros_pb",
+            "area_puertas_pb",
+            "area_ventanas_pb"
+          ],
+          "escribe": "area_revoque_ext_pb"
+        },
+        {
+          "id": "enlucido_int_pb",
+          "nombre": "Enlucido de yeso interior (Planta Baja)",
+          "unidad": "m2",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "UA002",
+          "formulaTexto": "area_muros_pb - area_puertas_pb - area_ventanas_pb",
+          "lee": [
+            "area_muros_pb",
+            "area_puertas_pb",
+            "area_ventanas_pb"
+          ],
+          "escribe": "area_enlucido_pb"
+        },
+        {
+          "id": "pintura_int_pb",
+          "nombre": "Pintura interior látex (Planta Baja)",
+          "unidad": "m2",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "UA004",
+          "formulaTexto": "area_enlucido_pb",
+          "lee": [
+            "area_enlucido_pb"
+          ],
+          "escribe": "area_pintura_int_pb"
+        },
+        {
+          "id": "pintura_ext_pb",
+          "nombre": "Pintura exterior látex (Planta Baja)",
+          "unidad": "m2",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "UA005",
+          "formulaTexto": "area_revoque_ext_pb",
+          "lee": [
+            "area_revoque_ext_pb"
+          ],
+          "escribe": "area_pintura_ext_pb"
+        },
+        {
+          "id": "piso_pb",
+          "nombre": "Piso cerámico (Planta Baja)",
+          "unidad": "m2",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "UA003",
+          "formulaTexto": "area_planta",
+          "lee": [
+            "area_planta"
+          ],
+          "escribe": "area_piso_pb"
+        },
+        {
+          "id": "puertas_pb",
+          "nombre": "Puertas (Planta Baja)",
+          "unidad": "Pza",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "CA001",
+          "formulaTexto": "num_puertas_pb",
+          "lee": [
+            "num_puertas_pb"
+          ],
+          "escribe": "qty_puertas_pb"
+        },
+        {
+          "id": "ventanas_pb",
+          "nombre": "Ventanas (Planta Baja)",
+          "unidad": "Pza",
+          "espacio": "Planta Baja",
+          "catalogoCodigo": "CA002",
+          "formulaTexto": "num_ventanas_pb",
+          "lee": [
+            "num_ventanas_pb"
+          ],
+          "escribe": "qty_ventanas_pb"
+        },
+        {
+          "id": "columnas_pa",
+          "nombre": "Columnas H°A° (Planta Alta)",
+          "unidad": "m3",
+          "espacio": "Planta Alta",
+          "catalogoCodigo": "UH007",
+          "formulaTexto": "num_columnas * lado_columna * lado_columna * altura_columna_pa",
+          "lee": [
+            "num_columnas",
+            "lado_columna",
+            "altura_columna_pa"
+          ],
+          "escribe": "vol_columnas_pa",
+          "computedOverrides": {
+            "ancho": "lado_columna",
+            "profundidad": "lado_columna",
+            "alto": "altura_columna_pa"
+          },
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "vigas_pa",
+          "nombre": "Vigas de H°A° (Planta Alta)",
+          "unidad": "m3",
+          "espacio": "Planta Alta",
+          "catalogoCodigo": "UH008",
+          "formulaTexto": "perimetro * ancho_viga * altura_viga",
+          "lee": [
+            "perimetro",
+            "ancho_viga",
+            "altura_viga"
+          ],
+          "escribe": "vol_vigas_pa",
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "muros_pa",
+          "nombre": "Muros de ladrillo 6H 12cm (Planta Alta)",
+          "unidad": "m2",
+          "espacio": "Planta Alta",
+          "catalogoCodigo": "MP-006",
+          "formulaTexto": "area_muros_pa",
+          "lee": [
+            "area_muros_pa"
+          ],
+          "escribe": "area_muros_pa_final",
+          "computedOverrides": {
+            "largo": "perimetro",
+            "alto": "altura_muro_pa"
+          },
+          "descuentos": [
+            {
+              "nombre": "Puertas PA",
+              "factorFormula": "num_puertas_pa",
+              "overrides": {
+                "largo": "ancho_puerta",
+                "alto": "alto_puerta"
+              }
+            },
+            {
+              "nombre": "Ventanas PA",
+              "factorFormula": "num_ventanas_pa",
+              "overrides": {
+                "largo": "ancho_ventana",
+                "alto": "alto_ventana"
+              }
+            }
+          ],
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "revoque_ext_pa",
+          "nombre": "Revoque exterior (Planta Alta)",
+          "unidad": "m2",
+          "espacio": "Planta Alta",
+          "catalogoCodigo": "UA001",
+          "formulaTexto": "area_muros_pa - area_puertas_pa - area_ventanas_pa",
+          "lee": [
+            "area_muros_pa",
+            "area_puertas_pa",
+            "area_ventanas_pa"
+          ],
+          "escribe": "area_revoque_ext_pa",
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "enlucido_int_pa",
+          "nombre": "Enlucido de yeso interior (Planta Alta)",
+          "unidad": "m2",
+          "espacio": "Planta Alta",
+          "catalogoCodigo": "UA002",
+          "formulaTexto": "area_muros_pa - area_puertas_pa - area_ventanas_pa",
+          "lee": [
+            "area_muros_pa",
+            "area_puertas_pa",
+            "area_ventanas_pa"
+          ],
+          "escribe": "area_enlucido_pa",
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "pintura_int_pa",
+          "nombre": "Pintura interior látex (Planta Alta)",
+          "unidad": "m2",
+          "espacio": "Planta Alta",
+          "catalogoCodigo": "UA004",
+          "formulaTexto": "area_enlucido_pa",
+          "lee": [
+            "area_enlucido_pa"
+          ],
+          "escribe": "area_pintura_int_pa",
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "pintura_ext_pa",
+          "nombre": "Pintura exterior látex (Planta Alta)",
+          "unidad": "m2",
+          "espacio": "Planta Alta",
+          "catalogoCodigo": "UA005",
+          "formulaTexto": "area_revoque_ext_pa",
+          "lee": [
+            "area_revoque_ext_pa"
+          ],
+          "escribe": "area_pintura_ext_pa",
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "piso_pa",
+          "nombre": "Piso cerámico (Planta Alta)",
+          "unidad": "m2",
+          "espacio": "Planta Alta",
+          "catalogoCodigo": "UA003",
+          "formulaTexto": "area_planta",
+          "lee": [
+            "area_planta"
+          ],
+          "escribe": "area_piso_pa",
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "puertas_pa",
+          "nombre": "Puertas (Planta Alta)",
+          "unidad": "Pza",
+          "espacio": "Planta Alta",
+          "catalogoCodigo": "CA001",
+          "formulaTexto": "num_puertas_pa",
+          "lee": [
+            "num_puertas_pa"
+          ],
+          "escribe": "qty_puertas_pa",
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "ventanas_pa",
+          "nombre": "Ventanas (Planta Alta)",
+          "unidad": "Pza",
+          "espacio": "Planta Alta",
+          "catalogoCodigo": "CA002",
+          "formulaTexto": "num_ventanas_pa",
+          "lee": [
+            "num_ventanas_pa"
+          ],
+          "escribe": "qty_ventanas_pa",
+          "condicionInclusion": "num_pisos - 1"
+        },
+        {
+          "id": "losa_cubierta",
+          "nombre": "Losa de cubierta de H°A°",
+          "unidad": "m2",
+          "espacio": "Cubierta",
+          "catalogoCodigo": "UH025",
+          "formulaTexto": "area_planta",
+          "lee": [
+            "area_planta"
+          ],
+          "escribe": "area_losa_cubierta",
+          "computedOverrides": {
+            "largo": "largo",
+            "ancho": "ancho"
+          }
+        }
+      ]
     }
   ]
 }
