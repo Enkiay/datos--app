@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-131948",
+  "version": "v20260529-134251",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -456,8 +456,8 @@
     {
       "id": "vivienda-haa-2niveles",
       "nombre": "Vivienda H°A° (1 o 2 niveles)",
-      "descripcion": "Vivienda unifamiliar de H°A° con losa alivianada estándar boliviano. Permite 1 o 2 plantas. Modelo BIM-light con Stories y Niveles Constructivos. Distingue alturas reales por capa: muro de ladrillo llega al fondo de viga; revoque interior cubre hasta cara inferior de losa; revoque exterior se extiende por toda la fachada. Estándares incorporados: viga 0.20 m de ancho, sobrecimiento 0.15 m, losa alivianada 0.25 m (0.05 nivelación + 0.05 compresión + 0.15 viguetas), parapeto ≥ 0.90 m por norma de seguridad.",
-      "version": 8,
+      "descripcion": "Vivienda unifamiliar de H°A° con estructura por módulos constructivos: Obras Preliminares, Cimientos, Planta Baja, Planta Alta (opcional) y Cubierta. Modelo BIM-light con Stories + Niveles Constructivos. Cubierta seleccionable (calamina galvanizada N°28 o losa alivianada). No incluye acabados — se cargan aparte (revoques, pinturas, cerámica) si el proyecto los necesita. Estándares incorporados: viga 0.20 m, sobrecim 0.15 m de ancho, losa 0.25 m (0.05+0.05+0.15), parapeto ≥ 0.90 m por norma.",
+      "version": 9,
       "inputsRequeridos": [
         {
           "nombre": "num_pisos",
@@ -490,6 +490,23 @@
           "default": 2.4,
           "min": 2,
           "visibleSi": "num_pisos - 1"
+        },
+        {
+          "nombre": "tipo_cubierta",
+          "label": "Tipo de cubierta",
+          "unidad": "",
+          "default": 1,
+          "min": 1,
+          "opciones": [
+            {
+              "valor": 1,
+              "label": "Calamina galvanizada N°28"
+            },
+            {
+              "valor": 2,
+              "label": "Losa alivianada"
+            }
+          ]
         }
       ],
       "parametrosEditables": [
@@ -563,7 +580,9 @@
         "lado_columna": "0.25",
         "prof_cimiento": "0.80",
         "ancho_cimiento": "0.40",
+        "ancho_sobrecim": "0.15",
         "lado_zapata": "0.80",
+        "espesor_hormigon_pobre": "0.05",
         "ancho_puerta": "0.90",
         "ancho_ventana": "1.20",
         "perimetro": "2 * (largo + ancho)",
@@ -571,21 +590,33 @@
         "area_puertas_pb": "num_puertas_pb * ancho_puerta * alto_puerta",
         "area_ventanas_pb": "num_ventanas_pb * ancho_ventana * alto_ventana",
         "area_puertas_pa": "num_puertas_pa * ancho_puerta * alto_puerta",
-        "area_ventanas_pa": "num_ventanas_pa * ancho_ventana * alto_ventana",
-        "ancho_sobrecim": "0.15"
+        "area_ventanas_pa": "num_ventanas_pa * ancho_ventana * alto_ventana"
       },
       "stories": [
         {
-          "id": "cim",
-          "nombre": "Cimientos",
-          "levels": {
-            "piso_terminado": "0",
-            "tope_sobrecimiento": "0",
-            "tope_cimiento": "-altura_sobrecim",
-            "fondo_excavacion": "-prof_cimiento - alto_zapata",
-            "nivel_terreno": "-altura_piso_terreno"
-          },
+          "id": "prelim",
+          "nombre": "Obras Preliminares",
           "items": [
+            {
+              "id": "instalacion_faenas",
+              "nombre": "Instalación de faenas",
+              "unidad": "Glb",
+              "catalogoCodigo": "OT001",
+              "formulaTexto": "1",
+              "lee": [],
+              "escribe": "qty"
+            },
+            {
+              "id": "limpieza_terreno",
+              "nombre": "Limpieza del terreno",
+              "unidad": "m2",
+              "catalogoCodigo": "OT005",
+              "formulaTexto": "area_planta",
+              "lee": [
+                "area_planta"
+              ],
+              "escribe": "area"
+            },
             {
               "id": "replanteo",
               "nombre": "Replanteo y trazado",
@@ -594,13 +625,28 @@
               "formulaTexto": "1",
               "lee": [],
               "escribe": "qty"
-            },
+            }
+          ]
+        },
+        {
+          "id": "cim",
+          "nombre": "Cimientos",
+          "levels": {
+            "piso_terminado": "0",
+            "tope_sobrecimiento": "0",
+            "tope_cimiento": "-altura_sobrecim",
+            "tope_zapata": "-altura_sobrecim - (prof_cimiento - altura_sobrecim)",
+            "fondo_excavacion": "tope_zapata - alto_zapata",
+            "nivel_terreno": "-altura_piso_terreno",
+            "altura_columna_cim": "tope_cimiento - tope_zapata"
+          },
+          "items": [
             {
               "id": "excavacion",
               "nombre": "Excavación de zanjas",
               "unidad": "m3",
               "catalogoCodigo": "UH002",
-              "formulaTexto": "perimetro * (tope_sobrecimiento - fondo_excavacion - alto_zapata) * ancho_cimiento",
+              "formulaTexto": "perimetro * (tope_sobrecimiento - fondo_excavacion) * ancho_cimiento",
               "lee": [
                 "perimetro",
                 "ancho_cimiento"
@@ -609,7 +655,25 @@
               "computedOverrides": {
                 "largo": "perimetro",
                 "ancho": "ancho_cimiento",
-                "profundidad": "tope_sobrecimiento - fondo_excavacion - alto_zapata"
+                "profundidad": "tope_sobrecimiento - fondo_excavacion"
+              }
+            },
+            {
+              "id": "hormigon_pobre",
+              "nombre": "Capa de hormigón pobre",
+              "unidad": "m3",
+              "catalogoCodigo": "UH003",
+              "formulaTexto": "perimetro * ancho_cimiento * espesor_hormigon_pobre",
+              "lee": [
+                "perimetro",
+                "ancho_cimiento",
+                "espesor_hormigon_pobre"
+              ],
+              "escribe": "vol",
+              "computedOverrides": {
+                "largo": "perimetro",
+                "ancho": "ancho_cimiento",
+                "altura": "espesor_hormigon_pobre"
               }
             },
             {
@@ -631,11 +695,11 @@
               }
             },
             {
-              "id": "cimiento",
-              "nombre": "Cimiento corrido de H°C°",
+              "id": "cimiento_corrido",
+              "nombre": "Cimiento corrido H°C°",
               "unidad": "m3",
               "catalogoCodigo": "UH004",
-              "formulaTexto": "perimetro * (tope_cimiento - (fondo_excavacion + alto_zapata)) * ancho_cimiento",
+              "formulaTexto": "perimetro * (tope_cimiento - tope_zapata) * ancho_cimiento",
               "lee": [
                 "perimetro",
                 "ancho_cimiento"
@@ -644,24 +708,25 @@
               "computedOverrides": {
                 "largo": "perimetro",
                 "ancho": "ancho_cimiento",
-                "alto": "tope_cimiento - (fondo_excavacion + alto_zapata)"
+                "alto": "tope_cimiento - tope_zapata"
               }
             },
             {
-              "id": "sobrecim",
-              "nombre": "Sobrecimiento de H°C°",
+              "id": "columnas_cim",
+              "nombre": "Columnas H°A° (tramo cimientos)",
               "unidad": "m3",
-              "catalogoCodigo": "UH005",
-              "formulaTexto": "perimetro * (tope_sobrecimiento - tope_cimiento) * ancho_sobrecim",
+              "catalogoCodigo": "UH007",
+              "formulaTexto": "num_columnas * lado_columna * lado_columna * altura_columna_cim",
               "lee": [
-                "perimetro",
-                "ancho_sobrecim"
+                "num_columnas",
+                "lado_columna",
+                "altura_columna_cim"
               ],
               "escribe": "vol",
               "computedOverrides": {
-                "largo": "perimetro",
-                "ancho": "ancho_sobrecim",
-                "alto": "tope_sobrecimiento - tope_cimiento"
+                "ancho": "lado_columna",
+                "profundidad": "lado_columna",
+                "alto": "altura_columna_cim"
               }
             }
           ]
@@ -676,16 +741,12 @@
             "tope_losa": "tope_viga + espesor_losa",
             "altura_muro": "fondo_viga - piso_terminado",
             "altura_columna": "tope_losa - piso_terminado",
-            "area_muros": "perimetro * altura_muro",
-            "altura_revoque_int": "tope_viga - piso_terminado",
-            "altura_revoque_ext": "tope_losa - piso_terminado",
-            "area_revoque_int": "perimetro * altura_revoque_int",
-            "area_revoque_ext": "perimetro * altura_revoque_ext"
+            "area_muros": "perimetro * altura_muro"
           },
           "items": [
             {
               "id": "columnas",
-              "nombre": "Columnas H°A°",
+              "nombre": "Columnas H°A° (PB)",
               "unidad": "m3",
               "catalogoCodigo": "UH007",
               "formulaTexto": "num_columnas * lado_columna * lado_columna * altura_columna",
@@ -702,34 +763,22 @@
               }
             },
             {
-              "id": "vigas",
-              "nombre": "Vigas de H°A°",
+              "id": "sobrecim",
+              "nombre": "Sobrecimiento de H°C°",
               "unidad": "m3",
-              "catalogoCodigo": "UH008",
-              "formulaTexto": "perimetro * ancho_viga * altura_viga",
+              "catalogoCodigo": "UH005",
+              "formulaTexto": "perimetro * altura_sobrecim * ancho_sobrecim",
               "lee": [
                 "perimetro",
-                "ancho_viga",
-                "altura_viga"
+                "altura_sobrecim",
+                "ancho_sobrecim"
               ],
               "escribe": "vol",
               "computedOverrides": {
                 "largo": "perimetro",
-                "ancho": "ancho_viga",
-                "altura": "altura_viga"
+                "ancho": "ancho_sobrecim",
+                "alto": "altura_sobrecim"
               }
-            },
-            {
-              "id": "losa_entrepiso",
-              "nombre": "Losa alivianada (entrepiso)",
-              "unidad": "m2",
-              "catalogoCodigo": "OG-021",
-              "formulaTexto": "area_planta",
-              "lee": [
-                "area_planta"
-              ],
-              "escribe": "area",
-              "condicionInclusion": "num_pisos - 1"
             },
             {
               "id": "muros",
@@ -765,75 +814,56 @@
               ]
             },
             {
-              "id": "revoque_ext",
-              "nombre": "Revoque exterior",
+              "id": "contrapiso",
+              "nombre": "Contrapiso de cemento",
               "unidad": "m2",
-              "catalogoCodigo": "UA001",
-              "formulaTexto": "area_revoque_ext - area_puertas_pb - area_ventanas_pb",
-              "lee": [
-                "area_revoque_ext",
-                "area_puertas_pb",
-                "area_ventanas_pb"
-              ],
-              "escribe": "area",
-              "computedOverrides": {
-                "largo": "perimetro",
-                "alto": "altura_revoque_ext"
-              }
-            },
-            {
-              "id": "enlucido_int",
-              "nombre": "Enlucido de yeso interior",
-              "unidad": "m2",
-              "catalogoCodigo": "UA002",
-              "formulaTexto": "area_revoque_int - area_puertas_pb - area_ventanas_pb",
-              "lee": [
-                "area_revoque_int",
-                "area_puertas_pb",
-                "area_ventanas_pb"
-              ],
-              "escribe": "area",
-              "computedOverrides": {
-                "largo": "perimetro",
-                "alto": "altura_revoque_int"
-              }
-            },
-            {
-              "id": "pintura_int",
-              "nombre": "Pintura interior látex",
-              "unidad": "m2",
-              "catalogoCodigo": "UA004",
-              "formulaTexto": "area_revoque_int - area_puertas_pb - area_ventanas_pb",
-              "lee": [
-                "area_revoque_int",
-                "area_puertas_pb",
-                "area_ventanas_pb"
-              ],
-              "escribe": "area"
-            },
-            {
-              "id": "pintura_ext",
-              "nombre": "Pintura exterior látex",
-              "unidad": "m2",
-              "catalogoCodigo": "UA005",
-              "formulaTexto": "area_revoque_ext - area_puertas_pb - area_ventanas_pb",
-              "lee": [
-                "area_revoque_ext",
-                "area_puertas_pb",
-                "area_ventanas_pb"
-              ],
-              "escribe": "area"
-            },
-            {
-              "id": "piso",
-              "nombre": "Piso cerámico",
-              "unidad": "m2",
-              "catalogoCodigo": "UA003",
+              "catalogoCodigo": "AC-019",
               "formulaTexto": "area_planta",
               "lee": [
                 "area_planta"
               ],
               "escribe": "area"
+            },
+            {
+              "id": "carpeta_nivelacion",
+              "nombre": "Carpeta de nivelación",
+              "unidad": "m2",
+              "catalogoCodigo": "UA006",
+              "formulaTexto": "area_planta",
+              "lee": [
+                "area_planta"
+              ],
+              "escribe": "area"
+            },
+            {
+              "id": "vigas",
+              "nombre": "Vigas de amarre / encadenada (PB)",
+              "unidad": "m3",
+              "catalogoCodigo": "UH008",
+              "formulaTexto": "perimetro * ancho_viga * altura_viga",
+              "lee": [
+                "perimetro",
+                "ancho_viga",
+                "altura_viga"
+              ],
+              "escribe": "vol",
+              "computedOverrides": {
+                "largo": "perimetro",
+                "ancho": "ancho_viga",
+                "altura": "altura_viga"
+              }
+            },
+            {
+              "id": "losa_entrepiso",
+              "nombre": "Losa alivianada (entrepiso)",
+              "unidad": "m2",
+              "catalogoCodigo": "OG-021",
+              "formulaTexto": "area_planta",
+              "lee": [
+                "area_planta"
+              ],
+              "escribe": "area",
+              "condicionInclusion": "num_pisos - 1"
             },
             {
               "id": "puertas",
@@ -870,16 +900,12 @@
             "tope_losa": "tope_viga + espesor_losa",
             "altura_muro": "fondo_viga - piso_terminado",
             "altura_columna": "tope_losa - piso_terminado",
-            "area_muros": "perimetro * altura_muro",
-            "altura_revoque_int": "tope_viga - piso_terminado",
-            "altura_revoque_ext": "tope_losa - piso_terminado",
-            "area_revoque_int": "perimetro * altura_revoque_int",
-            "area_revoque_ext": "perimetro * altura_revoque_ext"
+            "area_muros": "perimetro * altura_muro"
           },
           "items": [
             {
               "id": "columnas",
-              "nombre": "Columnas H°A°",
+              "nombre": "Columnas H°A° (PA)",
               "unidad": "m3",
               "catalogoCodigo": "UH007",
               "formulaTexto": "num_columnas * lado_columna * lado_columna * altura_columna",
@@ -896,17 +922,15 @@
               }
             },
             {
-              "id": "vigas",
-              "nombre": "Vigas de H°A°",
-              "unidad": "m3",
-              "catalogoCodigo": "UH008",
-              "formulaTexto": "perimetro * ancho_viga * altura_viga",
+              "id": "carpeta_nivelacion",
+              "nombre": "Carpeta de nivelación",
+              "unidad": "m2",
+              "catalogoCodigo": "UA006",
+              "formulaTexto": "area_planta",
               "lee": [
-                "perimetro",
-                "ancho_viga",
-                "altura_viga"
+                "area_planta"
               ],
-              "escribe": "vol"
+              "escribe": "area"
             },
             {
               "id": "muros",
@@ -942,75 +966,17 @@
               ]
             },
             {
-              "id": "revoque_ext",
-              "nombre": "Revoque exterior",
-              "unidad": "m2",
-              "catalogoCodigo": "UA001",
-              "formulaTexto": "area_revoque_ext - area_puertas_pa - area_ventanas_pa",
+              "id": "vigas",
+              "nombre": "Vigas de amarre / encadenada (PA)",
+              "unidad": "m3",
+              "catalogoCodigo": "UH008",
+              "formulaTexto": "perimetro * ancho_viga * altura_viga",
               "lee": [
-                "area_revoque_ext",
-                "area_puertas_pa",
-                "area_ventanas_pa"
+                "perimetro",
+                "ancho_viga",
+                "altura_viga"
               ],
-              "escribe": "area",
-              "computedOverrides": {
-                "largo": "perimetro",
-                "alto": "altura_revoque_ext"
-              }
-            },
-            {
-              "id": "enlucido_int",
-              "nombre": "Enlucido de yeso interior",
-              "unidad": "m2",
-              "catalogoCodigo": "UA002",
-              "formulaTexto": "area_revoque_int - area_puertas_pa - area_ventanas_pa",
-              "lee": [
-                "area_revoque_int",
-                "area_puertas_pa",
-                "area_ventanas_pa"
-              ],
-              "escribe": "area",
-              "computedOverrides": {
-                "largo": "perimetro",
-                "alto": "altura_revoque_int"
-              }
-            },
-            {
-              "id": "pintura_int",
-              "nombre": "Pintura interior látex",
-              "unidad": "m2",
-              "catalogoCodigo": "UA004",
-              "formulaTexto": "area_revoque_int - area_puertas_pa - area_ventanas_pa",
-              "lee": [
-                "area_revoque_int",
-                "area_puertas_pa",
-                "area_ventanas_pa"
-              ],
-              "escribe": "area"
-            },
-            {
-              "id": "pintura_ext",
-              "nombre": "Pintura exterior látex",
-              "unidad": "m2",
-              "catalogoCodigo": "UA005",
-              "formulaTexto": "area_revoque_ext - area_puertas_pa - area_ventanas_pa",
-              "lee": [
-                "area_revoque_ext",
-                "area_puertas_pa",
-                "area_ventanas_pa"
-              ],
-              "escribe": "area"
-            },
-            {
-              "id": "piso",
-              "nombre": "Piso cerámico",
-              "unidad": "m2",
-              "catalogoCodigo": "UA003",
-              "formulaTexto": "area_planta",
-              "lee": [
-                "area_planta"
-              ],
-              "escribe": "area"
+              "escribe": "vol"
             },
             {
               "id": "puertas",
@@ -1046,19 +1012,28 @@
           },
           "items": [
             {
-              "id": "losa_cubierta",
-              "nombre": "Losa de cubierta de H°A°",
+              "id": "cubierta_calamina",
+              "nombre": "Cubierta calamina galvanizada N°28",
               "unidad": "m2",
-              "catalogoCodigo": "UH025",
+              "catalogoCodigo": "CU-002",
               "formulaTexto": "area_planta",
               "lee": [
                 "area_planta"
               ],
-              "escribe": "area_cub",
-              "computedOverrides": {
-                "largo": "largo",
-                "ancho": "ancho"
-              }
+              "escribe": "area",
+              "condicionInclusion": "2 - tipo_cubierta"
+            },
+            {
+              "id": "losa_cubierta",
+              "nombre": "Losa alivianada (cubierta)",
+              "unidad": "m2",
+              "catalogoCodigo": "OG-021",
+              "formulaTexto": "area_planta",
+              "lee": [
+                "area_planta"
+              ],
+              "escribe": "area",
+              "condicionInclusion": "tipo_cubierta - 1"
             },
             {
               "id": "parapeto",
@@ -1070,7 +1045,7 @@
                 "perimetro",
                 "altura_parapeto_eff"
               ],
-              "escribe": "area_parapeto",
+              "escribe": "area",
               "computedOverrides": {
                 "largo": "perimetro",
                 "alto": "altura_parapeto_eff"
