@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-033849",
+  "version": "v20260529-034620",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -457,7 +457,7 @@
       "id": "vivienda-haa-2niveles",
       "nombre": "Vivienda H°A° (1 o 2 niveles)",
       "descripcion": "Vivienda unifamiliar de H°A° con losa alivianada. Permite 1 o 2 plantas. Los muros, columnas, revoques y pinturas se ajustan automáticamente al cambiar la altura libre, el espesor de viga o de losa — propagación basada en niveles constructivos (Stories + Levels).",
-      "version": 1,
+      "version": 2,
       "inputsRequeridos": [
         {
           "nombre": "num_pisos",
@@ -553,42 +553,12 @@
           "max": 0.8
         },
         {
-          "nombre": "ancho_viga",
-          "label": "Ancho de viga",
-          "unidad": "m",
-          "default": 0.25,
-          "min": 0.15,
-          "max": 0.4
-        },
-        {
           "nombre": "espesor_losa",
           "label": "Espesor de losa",
           "unidad": "m",
           "default": 0.2,
           "min": 0.15,
           "max": 0.3
-        },
-        {
-          "nombre": "lado_columna",
-          "label": "Lado de columna",
-          "unidad": "m",
-          "default": 0.25,
-          "min": 0.2,
-          "max": 0.4
-        },
-        {
-          "nombre": "prof_cimiento",
-          "label": "Profundidad cimiento",
-          "unidad": "m",
-          "default": 0.8,
-          "min": 0.5
-        },
-        {
-          "nombre": "ancho_cimiento",
-          "label": "Ancho cimiento corrido",
-          "unidad": "m",
-          "default": 0.4,
-          "min": 0.3
         },
         {
           "nombre": "altura_sobrecim",
@@ -598,13 +568,6 @@
           "min": 0.2
         },
         {
-          "nombre": "lado_zapata",
-          "label": "Lado de zapata",
-          "unidad": "m",
-          "default": 0.8,
-          "min": 0.5
-        },
-        {
           "nombre": "alto_zapata",
           "label": "Alto de zapata",
           "unidad": "m",
@@ -612,22 +575,10 @@
           "min": 0.2
         },
         {
-          "nombre": "ancho_puerta",
-          "label": "Ancho de puerta",
-          "unidad": "m",
-          "default": 0.9
-        },
-        {
           "nombre": "alto_puerta",
           "label": "Alto de puerta",
           "unidad": "m",
           "default": 2.1
-        },
-        {
-          "nombre": "ancho_ventana",
-          "label": "Ancho de ventana",
-          "unidad": "m",
-          "default": 1.2
         },
         {
           "nombre": "alto_ventana",
@@ -637,6 +588,13 @@
         }
       ],
       "variablesCalculadas": {
+        "ancho_viga": "0.25",
+        "lado_columna": "0.25",
+        "prof_cimiento": "0.80",
+        "ancho_cimiento": "0.40",
+        "lado_zapata": "0.80",
+        "ancho_puerta": "0.90",
+        "ancho_ventana": "1.20",
         "perimetro": "2 * (largo + ancho)",
         "area_planta": "largo * ancho",
         "NPA_PB": "0",
