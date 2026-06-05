@@ -48,7 +48,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "alto",
+          "nombre": "ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -936,7 +936,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "alto",
+          "nombre": "ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -1627,7 +1627,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "alto",
+          "nombre": "ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -4941,7 +4941,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
+          "nombre": "Espesor",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -5096,7 +5096,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
+          "nombre": "Espesor",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -5706,7 +5706,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
+          "nombre": "Espesor",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -7512,7 +7512,7 @@
       ],
       "parametros": [
         {
-          "nombre": "Largo",
+          "nombre": "Alto",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -32851,7 +32851,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Alto",
+          "nombre": "Espesor",
           "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
