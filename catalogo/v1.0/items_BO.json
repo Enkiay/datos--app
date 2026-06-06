@@ -42,13 +42,13 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "ancho",
+          "nombre": "Ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -502,13 +502,13 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "alto",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -555,13 +555,13 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "alto",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -930,13 +930,13 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "ancho",
+          "nombre": "Ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -1002,7 +1002,7 @@
       ],
       "parametros": [
         {
-          "nombre": "cantidad",
+          "nombre": "Cantidad",
           "valorDefault": 1,
           "unidad": "gl",
           "visiblePorDefecto": true
@@ -1031,19 +1031,19 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "ancho",
+          "nombre": "Ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "profundidad",
+          "nombre": "Profundidad",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -1140,19 +1140,19 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "ancho",
+          "nombre": "Ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "espesor",
+          "nombre": "Espesor",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -1258,19 +1258,19 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "ancho",
+          "nombre": "Ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "altura",
+          "nombre": "Altura",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -1430,19 +1430,19 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "ancho",
+          "nombre": "Ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "altura",
+          "nombre": "Altura",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -1531,13 +1531,13 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "alto",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -1621,13 +1621,13 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "ancho",
+          "nombre": "Ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -2106,13 +2106,13 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "alto",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -33888,7 +33888,7 @@
       "nombre": "Apoyos de Neopreno Compuesto",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "dm3",
+      "unidadResultado": "Pza",
       "categoria": "Obra Gruesa",
       "verificado": true,
       "insumos": [
@@ -34993,19 +34993,19 @@
       ],
       "parametros": [
         {
-          "nombre": "largo",
+          "nombre": "Largo",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "ancho",
+          "nombre": "Ancho",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
-          "nombre": "altura",
+          "nombre": "Altura",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true

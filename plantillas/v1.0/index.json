@@ -178,8 +178,8 @@
           ],
           "escribe": "ml_excavacion",
           "computedOverrides": {
-            "ancho": "0.40",
-            "profundidad": "prof_zanja"
+            "Ancho": "0.40",
+            "Profundidad": "prof_zanja"
           },
           "catalogoCodigo": "UH002",
           "descuentos": [
@@ -206,9 +206,9 @@
           ],
           "escribe": "cant_exc_zapatas",
           "computedOverrides": {
-            "largo": "0.40",
-            "ancho": "0.40",
-            "profundidad": "max(0, prof_zapata - prof_zanja)"
+            "Largo": "0.40",
+            "Ancho": "0.40",
+            "Profundidad": "max(0, prof_zapata - prof_zanja)"
           },
           "catalogoCodigo": "UH002",
           "condicionInclusion": "if(prof_zapata > prof_zanja, 1, 0)"
@@ -225,8 +225,8 @@
           "escribe": "ml_hp",
           "presetNombre": "40×5cm",
           "computedOverrides": {
-            "ancho": "0.40",
-            "espesor": "0.05"
+            "Ancho": "0.40",
+            "Espesor": "0.05"
           },
           "catalogoCodigo": "UH003",
           "descuentos": [
@@ -275,8 +275,8 @@
           "escribe": "ml_cimiento",
           "presetNombre": "40×40",
           "computedOverrides": {
-            "ancho": "0.40",
-            "altura": "prof_zanja - 0.05"
+            "Ancho": "0.40",
+            "Altura": "prof_zanja - 0.05"
           },
           "catalogoCodigo": "UH004",
           "descuentos": [
@@ -341,8 +341,8 @@
           "escribe": "ml_sobrecimiento",
           "presetNombre": "20×30",
           "computedOverrides": {
-            "ancho": "0.20",
-            "altura": "h_sobrecimiento"
+            "Ancho": "0.20",
+            "Altura": "h_sobrecimiento"
           },
           "catalogoCodigo": "UH005",
           "descuentos": [
@@ -394,8 +394,8 @@
           ],
           "escribe": "area_muro",
           "computedOverrides": {
-            "largo": "1",
-            "alto": "altura_muro - h_sobrecimiento"
+            "Largo": "1",
+            "Alto": "altura_muro - h_sobrecimiento"
           },
           "catalogoCodigo": "UH009",
           "descuentos": [
@@ -705,9 +705,9 @@
               ],
               "escribe": "vol_zanjas",
               "computedOverrides": {
-                "largo": "1",
-                "ancho": "ancho_cimiento",
-                "profundidad": "altura_zanja"
+                "Largo": "1",
+                "Ancho": "ancho_cimiento",
+                "Profundidad": "altura_zanja"
               }
             },
             {
@@ -724,9 +724,9 @@
               ],
               "escribe": "vol_hoyos",
               "computedOverrides": {
-                "largo": "largo_zapata",
-                "ancho": "ancho_zapata",
-                "profundidad": "alto_zapata"
+                "Largo": "largo_zapata",
+                "Ancho": "ancho_zapata",
+                "Profundidad": "alto_zapata"
               }
             },
             {
@@ -742,9 +742,9 @@
               ],
               "escribe": "vol",
               "computedOverrides": {
-                "largo": "1",
-                "ancho": "ancho_cimiento",
-                "altura": "espesor_hormigon_pobre"
+                "Largo": "1",
+                "Ancho": "ancho_cimiento",
+                "Altura": "espesor_hormigon_pobre"
               }
             },
             {
@@ -779,9 +779,9 @@
               ],
               "escribe": "vol",
               "computedOverrides": {
-                "largo": "1",
-                "ancho": "ancho_cimiento",
-                "alto": "altura_cimiento_corrido"
+                "Largo": "1",
+                "Ancho": "ancho_cimiento",
+                "Alto": "altura_cimiento_corrido"
               }
             },
             {
@@ -848,9 +848,9 @@
               ],
               "escribe": "vol",
               "computedOverrides": {
-                "largo": "1",
-                "ancho": "ancho_sobrecim",
-                "alto": "altura_sobrecim"
+                "Largo": "1",
+                "Ancho": "ancho_sobrecim",
+                "Alto": "altura_sobrecim"
               }
             },
             {
@@ -929,9 +929,9 @@
               ],
               "escribe": "vol",
               "computedOverrides": {
-                "largo": "1",
-                "ancho": "ancho_viga",
-                "altura": "altura_viga"
+                "Largo": "1",
+                "Ancho": "ancho_viga",
+                "Altura": "altura_viga"
               }
             },
             {
@@ -1067,9 +1067,9 @@
               ],
               "escribe": "vol",
               "computedOverrides": {
-                "largo": "1",
-                "ancho": "ancho_viga",
-                "altura": "altura_viga"
+                "Largo": "1",
+                "Ancho": "ancho_viga",
+                "Altura": "altura_viga"
               }
             },
             {
