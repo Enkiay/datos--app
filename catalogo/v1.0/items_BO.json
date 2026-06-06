@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-025240-dedup",
+  "version": "v20260606-020000-decolision",
   "schemaVersion": 1,
   "items": [
     {
@@ -2623,7 +2623,7 @@
       "parametros": []
     },
     {
-      "codigo": "OT-001",
+      "codigo": "OT-046",
       "nombre": "Demolición de Columnas, Vigas y Losas de H°A°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -2724,7 +2724,7 @@
       ]
     },
     {
-      "codigo": "OT-002",
+      "codigo": "OT-047",
       "nombre": "Demolición de Piso y Contrapiso",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -2771,7 +2771,7 @@
       ]
     },
     {
-      "codigo": "OT-003",
+      "codigo": "OT-048",
       "nombre": "Demolición H°C°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -2860,7 +2860,7 @@
       ]
     },
     {
-      "codigo": "OT-004",
+      "codigo": "OT-049",
       "nombre": "Demolición Hormigón Simple",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -2915,7 +2915,7 @@
       ]
     },
     {
-      "codigo": "OT-005",
+      "codigo": "OT-050",
       "nombre": "Demolición Mampostería de Piedra",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -6274,13 +6274,232 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "STAIR",
+      "tipoIfc": "",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
       "formulaResultado": "",
       "aliases": [
         "ESCALERA DE Ho. Ao."
+      ],
+      "subcategoria": "Escaleras",
+      "tags": [
+        "H°A°"
+      ]
+    },
+    {
+      "codigo": "UH021",
+      "nombre": "Escalera de Hormigón Armado",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "idCanonico": "cemento_portland_kg",
+          "rendimiento": 350.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 0.99
+        },
+        {
+          "nombre": "Fierro Corrugado",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "fierro_corrugado_kg",
+          "rendimiento": 110.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 10.8
+        },
+        {
+          "nombre": "Arena Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "arena_comun_m3",
+          "rendimiento": 0.45,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Grava Común",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "idCanonico": "grava_comun_m3",
+          "rendimiento": 0.92,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 120.75
+        },
+        {
+          "nombre": "Madera de Construcción",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "idCanonico": "madera_de_construccion_p2",
+          "rendimiento": 60.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 9.0
+        },
+        {
+          "nombre": "Clavos",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "clavos_kg",
+          "rendimiento": 2.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.5
+        },
+        {
+          "nombre": "Alambre de Amarre",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "idCanonico": "alambre_de_amarre_kg",
+          "rendimiento": 2.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 12.0
+        },
+        {
+          "nombre": "Encofrador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "idCanonico": "mo_encofrador",
+          "rendimiento": 18.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Armador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_armador",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Albañil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "idCanonico": "mo_albanil",
+          "rendimiento": 10.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 20.5
+        },
+        {
+          "nombre": "Ayudante",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "idCanonico": "mo_ayudante",
+          "rendimiento": 18.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        },
+        {
+          "nombre": "Mezcladora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_mezcladora",
+          "rendimiento": 1.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 22.0
+        },
+        {
+          "nombre": "Vibradora",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "idCanonico": "eq_vibradora",
+          "rendimiento": 0.8,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "precio": 15.0
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1.0,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Huella",
+          "valorDefault": 0.28,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Contrahuella",
+          "valorDefault": 0.175,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Peldaños",
+          "valorDefault": 16.0,
+          "unidad": "u",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Espesor",
+          "valorDefault": 0.15,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Descansos",
+          "valorDefault": 0.0,
+          "unidad": "u",
+          "visiblePorDefecto": false
+        },
+        {
+          "nombre": "DescansoLargo",
+          "valorDefault": 0.0,
+          "unidad": "m",
+          "visiblePorDefecto": false
+        },
+        {
+          "nombre": "DescansoAncho",
+          "valorDefault": 0.0,
+          "unidad": "m",
+          "visiblePorDefecto": false
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "STAIR",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "Ancho * (Peldaños * sqrt(Huella^2 + Contrahuella^2) * Espesor + Peldaños * Huella * Contrahuella / 2) + Descansos * DescansoLargo * DescansoAncho * Espesor",
+      "aliases": [
+        "Escalera",
+        "Stair",
+        "Escalera de Hormigón Armado"
       ],
       "subcategoria": "Escaleras",
       "tags": [
@@ -7347,7 +7566,7 @@
       ]
     },
     {
-      "codigo": "OG-028",
+      "codigo": "OG-083",
       "nombre": "Dintel de H°A°",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -10781,7 +11000,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-008",
+      "codigo": "AC-068",
       "nombre": "Enchape Cerámico Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -10872,7 +11091,7 @@
       ]
     },
     {
-      "codigo": "AC-009",
+      "codigo": "AC-069",
       "nombre": "Marco Madera 2″x4″ Palo María",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -15628,7 +15847,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-001",
+      "codigo": "IS-086",
       "nombre": "Bidé",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -15739,7 +15958,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-002",
+      "codigo": "IS-087",
       "nombre": "Ducha",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -15870,7 +16089,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-003",
+      "codigo": "IS-088",
       "nombre": "Inodoro (Artefacto)",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -22838,7 +23057,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-001",
+      "codigo": "IE-024",
       "nombre": "Jabalina para Puesta a Tierra",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -22916,7 +23135,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-002",
+      "codigo": "IE-025",
       "nombre": "Lámpara Exterior Tortuga 18W",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -22972,7 +23191,7 @@
       ]
     },
     {
-      "codigo": "IE-003",
+      "codigo": "IE-026",
       "nombre": "Luminaria Panel LED 24 de Sobreponer",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
