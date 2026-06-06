@@ -1,5 +1,5 @@
 {
-  "version": "v20260606-020000-decolision",
+  "version": "v20260606-180000-nodash",
   "schemaVersion": 1,
   "items": [
     {
@@ -2623,7 +2623,7 @@
       "parametros": []
     },
     {
-      "codigo": "OT-046",
+      "codigo": "OT046",
       "nombre": "Demolición de Columnas, Vigas y Losas de H°A°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -2724,7 +2724,7 @@
       ]
     },
     {
-      "codigo": "OT-047",
+      "codigo": "OT047",
       "nombre": "Demolición de Piso y Contrapiso",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -2771,7 +2771,7 @@
       ]
     },
     {
-      "codigo": "OT-048",
+      "codigo": "OT048",
       "nombre": "Demolición H°C°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -2860,7 +2860,7 @@
       ]
     },
     {
-      "codigo": "OT-049",
+      "codigo": "OT049",
       "nombre": "Demolición Hormigón Simple",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -2915,7 +2915,7 @@
       ]
     },
     {
-      "codigo": "OT-050",
+      "codigo": "OT050",
       "nombre": "Demolición Mampostería de Piedra",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -2968,7 +2968,7 @@
       ]
     },
     {
-      "codigo": "MP-001",
+      "codigo": "MP001",
       "nombre": "Demolición Muro de Ladrillo",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -3015,7 +3015,7 @@
       ]
     },
     {
-      "codigo": "CU-001",
+      "codigo": "CU001",
       "nombre": "Desate de Cubierta de Calamina",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -3060,7 +3060,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-006",
+      "codigo": "OT006",
       "nombre": "Desate de Gaviones",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -3111,7 +3111,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-001",
+      "codigo": "CR001",
       "nombre": "Desate de Puerta - Ventana",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -3154,7 +3154,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-007",
+      "codigo": "OT007",
       "nombre": "Desempiedre",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -3199,7 +3199,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-008",
+      "codigo": "OT008",
       "nombre": "Entibado y Apuntalado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -3288,7 +3288,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-009",
+      "codigo": "OT009",
       "nombre": "Letrero de Obra 3x2 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -3423,7 +3423,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-010",
+      "codigo": "OT010",
       "nombre": "Limpieza y Deshierbe",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -3468,7 +3468,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-011",
+      "codigo": "OT011",
       "nombre": "Picado de Revoque Interior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -3515,7 +3515,7 @@
       ]
     },
     {
-      "codigo": "OT-014",
+      "codigo": "OT014",
       "nombre": "Retiro de Cielo Raso (Estuco bajo Losa)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -3562,7 +3562,7 @@
       ]
     },
     {
-      "codigo": "OT-015",
+      "codigo": "OT015",
       "nombre": "Transporte de Material Excedente",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -3635,7 +3635,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-016",
+      "codigo": "OT016",
       "nombre": "Excavación 0-1.5 M Terr. Blando",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -3699,7 +3699,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-017",
+      "codigo": "OT017",
       "nombre": "Excavación 0-1.5 M Terr. Semiduro",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -3763,7 +3763,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-018",
+      "codigo": "OT018",
       "nombre": "Excavación 0-1.5 M Terr. Duro",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -3827,7 +3827,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-019",
+      "codigo": "OT019",
       "nombre": "Excavación con Agotamiento",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -3900,7 +3900,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-020",
+      "codigo": "OT020",
       "nombre": "Excavación con Retroexcavadora",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -3984,7 +3984,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-021",
+      "codigo": "OT021",
       "nombre": "Excavación en Roca",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -4123,7 +4123,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-022",
+      "codigo": "OT022",
       "nombre": "Movimiento de Tierra con Topadora",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -4187,7 +4187,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-023",
+      "codigo": "OT023",
       "nombre": "Relleno y Apisonado Manual de Tierra",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -4249,7 +4249,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-025",
+      "codigo": "OT025",
       "nombre": "Relleno y Compactado con Máquina y Material Común",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -4333,7 +4333,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-026",
+      "codigo": "OT026",
       "nombre": "Relleno y Compactado con Tierra Seleccionada",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -4406,7 +4406,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-027",
+      "codigo": "OT027",
       "nombre": "Retiro y Transporte de Escombros con Carguío",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -4479,7 +4479,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-001",
+      "codigo": "OG001",
       "nombre": "Carpeta H°P°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -4589,7 +4589,7 @@
       ]
     },
     {
-      "codigo": "OG-003",
+      "codigo": "OG003",
       "nombre": "Losa de Cimentación H°A°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -4777,7 +4777,7 @@
       ]
     },
     {
-      "codigo": "OG-004",
+      "codigo": "OG004",
       "nombre": "Losa Radier Hormigón Premezclado H-21",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -4929,7 +4929,7 @@
       ]
     },
     {
-      "codigo": "OG-005",
+      "codigo": "OG005",
       "nombre": "Mampostería de Piedra Bruta",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -5046,7 +5046,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-006",
+      "codigo": "OG006",
       "nombre": "Muro de Contención de H°C°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -5189,7 +5189,7 @@
       ]
     },
     {
-      "codigo": "OG-007",
+      "codigo": "OG007",
       "nombre": "Muro de H°A° E=25 Cm",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -5376,7 +5376,7 @@
       ]
     },
     {
-      "codigo": "OG-012",
+      "codigo": "OG012",
       "nombre": "Ábaco en Losas Hormigón Premezclado H-21",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -5541,7 +5541,7 @@
       ]
     },
     {
-      "codigo": "OG-013",
+      "codigo": "OG013",
       "nombre": "Acero de Refuerzo",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -5606,7 +5606,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-015",
+      "codigo": "OG015",
       "nombre": "Columna de Hormigón Premezclado H-21",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -5771,7 +5771,7 @@
       ]
     },
     {
-      "codigo": "OG-016",
+      "codigo": "OG016",
       "nombre": "Columna de Hormigón Premezclado H-21 con Bomba",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -5936,7 +5936,7 @@
       ]
     },
     {
-      "codigo": "OG-017",
+      "codigo": "OG017",
       "nombre": "Columna de Hormigón Premezclado H-25",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -6101,7 +6101,7 @@
       ]
     },
     {
-      "codigo": "OG-018",
+      "codigo": "OG018",
       "nombre": "Escalera de H°A°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -6507,7 +6507,7 @@
       ]
     },
     {
-      "codigo": "OG-019",
+      "codigo": "OG019",
       "nombre": "Juntas de Dilatación",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -6579,7 +6579,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-021",
+      "codigo": "OG021",
       "nombre": "Losa Alivianada Vigueta Pretensada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -6781,7 +6781,7 @@
       ]
     },
     {
-      "codigo": "OG-022",
+      "codigo": "OG022",
       "nombre": "Losa H=20 con Vigueta Hormigón Premezclado H-25",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -6951,7 +6951,7 @@
       ]
     },
     {
-      "codigo": "OG-023",
+      "codigo": "OG023",
       "nombre": "Losa H=20 con Vigueta Hormigón Premezclado H-21",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -7121,7 +7121,7 @@
       ]
     },
     {
-      "codigo": "OG-024",
+      "codigo": "OG024",
       "nombre": "Losa H=20 con Vigueta Hormigón Premezclado H-21 con Bomba Adicional",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -7291,7 +7291,7 @@
       ]
     },
     {
-      "codigo": "OG-025",
+      "codigo": "OG025",
       "nombre": "Viga de Encadenado de H°A°",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -7479,7 +7479,7 @@
       ]
     },
     {
-      "codigo": "OG-027",
+      "codigo": "OG027",
       "nombre": "Columna de Ladrillo Gambote 25x25 Cm",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -7566,7 +7566,7 @@
       ]
     },
     {
-      "codigo": "OG-083",
+      "codigo": "OG083",
       "nombre": "Dintel de H°A°",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -7719,7 +7719,7 @@
       ]
     },
     {
-      "codigo": "OG-029",
+      "codigo": "OG029",
       "nombre": "Dintel de Madera",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -7813,7 +7813,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-002",
+      "codigo": "MP002",
       "nombre": "Muro Bloque de Hormigón 3H E=15 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -7904,7 +7904,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-003",
+      "codigo": "MP003",
       "nombre": "Muro Bloque de Vidrio 20x20 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8006,7 +8006,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-006",
+      "codigo": "MP006",
       "nombre": "Muro Ladrillo 12 Cm 6H con Pega Ladrillo Fácil",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8086,7 +8086,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-007",
+      "codigo": "MP007",
       "nombre": "Muro Ladrillo 16 Cm 6H",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8177,7 +8177,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-008",
+      "codigo": "MP008",
       "nombre": "Muro Ladrillo 9.8 Cm 6H con Pegamento Valkure (Hz)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8257,7 +8257,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-009",
+      "codigo": "MP009",
       "nombre": "Muro Ladrillo Adobito 15 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8348,7 +8348,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-002",
+      "codigo": "CU002",
       "nombre": "Cubierta Calamina Galvanizado N° 28",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8452,7 +8452,7 @@
       ]
     },
     {
-      "codigo": "CU-003",
+      "codigo": "CU003",
       "nombre": "Cubierta Calamina Galvanizado N° 33",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8556,7 +8556,7 @@
       ]
     },
     {
-      "codigo": "CU-004",
+      "codigo": "CU004",
       "nombre": "Cubierta Calamina Ondulada de Policarbonato",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8656,7 +8656,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-005",
+      "codigo": "CU005",
       "nombre": "Cubierta Calamina Plástica PVC",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8758,7 +8758,7 @@
       ]
     },
     {
-      "codigo": "CU-008",
+      "codigo": "CU008",
       "nombre": "Cubierta Steel Frame con Calamina Ondulada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8893,7 +8893,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-009",
+      "codigo": "CU009",
       "nombre": "Cubierta Placa Ondulada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -8982,7 +8982,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-010",
+      "codigo": "CU010",
       "nombre": "Cubierta Steel Frame con Teja Colonial",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -9117,7 +9117,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-011",
+      "codigo": "CU011",
       "nombre": "Cubierta Teja Colonial Cerámica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -9217,7 +9217,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-012",
+      "codigo": "CU012",
       "nombre": "Cubierta Teja Española Cerámica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -9317,7 +9317,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-013",
+      "codigo": "CU013",
       "nombre": "Cubierta Teja Española Duralit",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -9417,7 +9417,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-014",
+      "codigo": "CU014",
       "nombre": "Cubierta Termoacústica Isolcruz - Densidad 13",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -9495,7 +9495,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-015",
+      "codigo": "CU015",
       "nombre": "Cubierta Termoacústica Isolcruz E=30 Mm Densidad 40",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -9575,7 +9575,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-016",
+      "codigo": "CU016",
       "nombre": "Cubierta Termoacústica Isolcruz E=50 Mm - Densidad 40",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -9655,7 +9655,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-017",
+      "codigo": "CU017",
       "nombre": "Cumbrera Calamina Plana",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -9727,7 +9727,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-018",
+      "codigo": "CU018",
       "nombre": "Cumbrera Teja Colonial",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -9810,7 +9810,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-030",
+      "codigo": "OG030",
       "nombre": "Imperm. de Sobrecimiento H=30 Cm",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -9895,7 +9895,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-031",
+      "codigo": "OG031",
       "nombre": "Imperm. de Sobrecimiento H=30 Cm con Asfaltex",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -9969,7 +9969,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-032",
+      "codigo": "OG032",
       "nombre": "Proyectado de Phono Spray Isolcruz E=45-60 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -10038,7 +10038,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-033",
+      "codigo": "OG033",
       "nombre": "Proyectado de Termo Spray Isolcruz E=20-25 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -10107,7 +10107,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-034",
+      "codigo": "OG034",
       "nombre": "Proyectado de Termo Spray Isolcruz E=10-15 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -10176,7 +10176,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-035",
+      "codigo": "OG035",
       "nombre": "Proyectado de Termo Spray Isolcruz E=15-20 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -10245,7 +10245,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-001",
+      "codigo": "AC001",
       "nombre": "Cielo Raso con Revestimiento Machihembre Palo María",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -10356,7 +10356,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-019",
+      "codigo": "CU019",
       "nombre": "Revoque Cielo Falso",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -10467,7 +10467,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-002",
+      "codigo": "AC002",
       "nombre": "Revoque Cielo Raso sobre Losa",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -10536,7 +10536,7 @@
       ]
     },
     {
-      "codigo": "AC-003",
+      "codigo": "AC003",
       "nombre": "Alero",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -10647,7 +10647,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-004",
+      "codigo": "AC004",
       "nombre": "Botaguas de H°A° 30x10 Cm",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -10767,7 +10767,7 @@
       ]
     },
     {
-      "codigo": "AC-005",
+      "codigo": "AC005",
       "nombre": "Botaguas de Ladrillo Gambote",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -10850,7 +10850,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-006",
+      "codigo": "AC006",
       "nombre": "Buña o Goterón de Mortero",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -10922,7 +10922,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-007",
+      "codigo": "AC007",
       "nombre": "Emboquillado de Cemento Blanco",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11000,7 +11000,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-068",
+      "codigo": "AC068",
       "nombre": "Enchape Cerámico Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11091,7 +11091,7 @@
       ]
     },
     {
-      "codigo": "AC-069",
+      "codigo": "AC069",
       "nombre": "Marco Madera 2″x4″ Palo María",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -11180,7 +11180,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-010",
+      "codigo": "AC010",
       "nombre": "Piruleado Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11260,7 +11260,7 @@
       ]
     },
     {
-      "codigo": "AC-011",
+      "codigo": "AC011",
       "nombre": "Revestimiento de Azulejo Color Nacional 22x34 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11362,7 +11362,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-012",
+      "codigo": "AC012",
       "nombre": "Revestimiento de Azulejo Importado 20x30 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11464,7 +11464,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-013",
+      "codigo": "AC013",
       "nombre": "Revestimiento de Piedra Pizarra Cortada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11553,7 +11553,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-014",
+      "codigo": "AC014",
       "nombre": "Revestimiento Madera Machihembre Cedro",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11653,7 +11653,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-015",
+      "codigo": "AC015",
       "nombre": "Revoque Exterior con Revoque Fino Fácil",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11724,7 +11724,7 @@
       ]
     },
     {
-      "codigo": "AC-016",
+      "codigo": "AC016",
       "nombre": "Revoque Exterior Cal-Cemento",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11815,7 +11815,7 @@
       ]
     },
     {
-      "codigo": "AC-017",
+      "codigo": "AC017",
       "nombre": "Revoque Interior de Yeso",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11884,7 +11884,7 @@
       ]
     },
     {
-      "codigo": "AC-018",
+      "codigo": "AC018",
       "nombre": "Revoque Interior Impermeable",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -11975,7 +11975,7 @@
       ]
     },
     {
-      "codigo": "CU-020",
+      "codigo": "CU020",
       "nombre": "Cielo Falso Drywall Tipo Durlok 10 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -12055,7 +12055,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-012",
+      "codigo": "MP012",
       "nombre": "Muro Drywall 1 Cara 12 Cm Placa 1.2x2.4 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -12201,7 +12201,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-013",
+      "codigo": "MP013",
       "nombre": "Muro Drywall 2 Caras 12 Cm Placa 1.2x2.4 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -12347,7 +12347,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-014",
+      "codigo": "MP014",
       "nombre": "Muro Drywall 1 Cara 92 Mm Durlock (0.90x2.40 M)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -12493,7 +12493,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-015",
+      "codigo": "MP015",
       "nombre": "Muro Drywall 2 Caras 92 Mm Durlock (0.90x2.40 M)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -12639,7 +12639,7 @@
       "tags": []
     },
     {
-      "codigo": "MP-016",
+      "codigo": "MP016",
       "nombre": "Muro Interior Termoacústico Construpanel E=60 Mm (sin Revoque)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -12776,7 +12776,7 @@
       ]
     },
     {
-      "codigo": "MP-017",
+      "codigo": "MP017",
       "nombre": "Muro Interior Termoacústico Construpanel E=75 Mm (sin Revoque)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -12913,7 +12913,7 @@
       ]
     },
     {
-      "codigo": "MP-018",
+      "codigo": "MP018",
       "nombre": "Muro Exterior Autoportante Termoacústico Construpanel E=100 Mm (sin Revoque)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -13050,7 +13050,7 @@
       ]
     },
     {
-      "codigo": "MP-019",
+      "codigo": "MP019",
       "nombre": "Muro Exterior Autoportante Termoacústico Construpanel E=120 Mm (sin Revoque)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -13187,7 +13187,7 @@
       ]
     },
     {
-      "codigo": "MP-020",
+      "codigo": "MP020",
       "nombre": "Muro Placa Cementicia 1 Cara Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -13333,7 +13333,7 @@
       ]
     },
     {
-      "codigo": "MP-021",
+      "codigo": "MP021",
       "nombre": "Muro Placa Cementicia 2 Caras Interior y Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -13480,7 +13480,7 @@
       ]
     },
     {
-      "codigo": "AC-019",
+      "codigo": "AC019",
       "nombre": "Contrapiso de Cemento sobre Losa",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -13560,7 +13560,7 @@
       ]
     },
     {
-      "codigo": "AC-020",
+      "codigo": "AC020",
       "nombre": "Contrapiso Ladrillo Adobito",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -13649,7 +13649,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-021",
+      "codigo": "AC021",
       "nombre": "Empedrado y Contrapiso de Ho",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -13751,7 +13751,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-022",
+      "codigo": "AC022",
       "nombre": "Piso de Baldosa Cerámica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -13851,7 +13851,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-023",
+      "codigo": "AC023",
       "nombre": "Piso de Baldosa Granítico 40x40x0.50 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -13953,7 +13953,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-024",
+      "codigo": "AC024",
       "nombre": "Piso de Cerámica Importado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14053,7 +14053,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-027",
+      "codigo": "AC027",
       "nombre": "Piso de Mármol Travertino Nacional",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14153,7 +14153,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-028",
+      "codigo": "AC028",
       "nombre": "Piso de Mosaico Marmolado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14253,7 +14253,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-029",
+      "codigo": "AC029",
       "nombre": "Piso de Porcelanato",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14353,7 +14353,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-030",
+      "codigo": "AC030",
       "nombre": "Piso de Porcelanato con Cemento Cola",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14442,7 +14442,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-031",
+      "codigo": "AC031",
       "nombre": "Piso de Vinil",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14520,7 +14520,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-032",
+      "codigo": "AC032",
       "nombre": "Piso Enlucido Fino",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14609,7 +14609,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-033",
+      "codigo": "AC033",
       "nombre": "Piso Entablonado E=1.9 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14676,7 +14676,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-034",
+      "codigo": "AC034",
       "nombre": "Piso Flotante",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14743,7 +14743,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-035",
+      "codigo": "AC035",
       "nombre": "Piso Machihembre Cedro con Envigado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14845,7 +14845,7 @@
       ]
     },
     {
-      "codigo": "AC-036",
+      "codigo": "AC036",
       "nombre": "Piso Parket Tajibo",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -14945,7 +14945,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-037",
+      "codigo": "AC037",
       "nombre": "Piso Piedra Tarija",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -15034,7 +15034,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-038",
+      "codigo": "AC038",
       "nombre": "Rejilla de Piso Bronce 20x20 Cm",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -15101,7 +15101,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-039",
+      "codigo": "AC039",
       "nombre": "Rejilla Sifonada Pluvial 6″",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -15179,7 +15179,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-040",
+      "codigo": "AC040",
       "nombre": "Zócalo de Cemento",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -15251,7 +15251,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-041",
+      "codigo": "AC041",
       "nombre": "Zócalo de Cerámica",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -15345,7 +15345,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-042",
+      "codigo": "AC042",
       "nombre": "Zócalo de Madera Cedro",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -15428,7 +15428,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-043",
+      "codigo": "AC043",
       "nombre": "Zócalo de Mosaico Granítico",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -15522,7 +15522,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-044",
+      "codigo": "AC044",
       "nombre": "Zócalo Enlucido",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -15605,7 +15605,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-021",
+      "codigo": "CU021",
       "nombre": "Bajante Calamina Plana N° 28",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -15677,7 +15677,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-045",
+      "codigo": "AC045",
       "nombre": "Bajante Tubo Desagüe PVC 4″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -15764,7 +15764,7 @@
       ]
     },
     {
-      "codigo": "CU-022",
+      "codigo": "CU022",
       "nombre": "Canaleta de Calamina N° 28 Corte 50 Cm",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -15847,7 +15847,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-086",
+      "codigo": "IS086",
       "nombre": "Bidé",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -15958,7 +15958,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-087",
+      "codigo": "IS087",
       "nombre": "Ducha",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16089,7 +16089,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-088",
+      "codigo": "IS088",
       "nombre": "Inodoro (Artefacto)",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16154,7 +16154,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-004",
+      "codigo": "IS004",
       "nombre": "Lavadero de Fierro Enlosado",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16287,7 +16287,7 @@
       ]
     },
     {
-      "codigo": "IS-005",
+      "codigo": "IS005",
       "nombre": "Lavamanos (Artefacto)",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16385,7 +16385,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-006",
+      "codigo": "IS006",
       "nombre": "Lavaplatos 1 Depósito 1 Fregadero",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16461,7 +16461,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-007",
+      "codigo": "IS007",
       "nombre": "Lavaplatos 2 Depósitos 1 Fregadero",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16537,7 +16537,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-008",
+      "codigo": "IS008",
       "nombre": "Lavaplatos 2 Depósitos 2 Fregaderos",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16613,7 +16613,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-009",
+      "codigo": "IS009",
       "nombre": "Lavarropa de Cemento 1 Depósito",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16733,7 +16733,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-010",
+      "codigo": "IS010",
       "nombre": "Lavarropa de Cemento 2 Depósitos",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16864,7 +16864,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-011",
+      "codigo": "IS011",
       "nombre": "Provisión y Colocado de Accesorios Baño",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16918,7 +16918,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-012",
+      "codigo": "IS012",
       "nombre": "Tina",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -16983,7 +16983,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-013",
+      "codigo": "IS013",
       "nombre": "Urinario (Artefacto)",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -17048,7 +17048,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-014",
+      "codigo": "IS014",
       "nombre": "Acometida de Agua Potable",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -17135,7 +17135,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-015",
+      "codigo": "IS015",
       "nombre": "Provisión y Colocado de Llave de Paso 1/2″",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -17202,7 +17202,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-016",
+      "codigo": "IS016",
       "nombre": "Provisión y Colocado de Llave de Paso 3/4″",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -17269,7 +17269,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-017",
+      "codigo": "IS017",
       "nombre": "Provisión y Colocado de Llave de Paso 1″ Control Ingreso",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -17358,7 +17358,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-018",
+      "codigo": "IS018",
       "nombre": "Provisión y Colocado Tubería Galvanizada 1/2″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -17445,7 +17445,7 @@
       ]
     },
     {
-      "codigo": "IS-019",
+      "codigo": "IS019",
       "nombre": "Provisión y Colocado Tubería Galvanizada 3/4″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -17532,7 +17532,7 @@
       ]
     },
     {
-      "codigo": "IS-020",
+      "codigo": "IS020",
       "nombre": "Provisión y Colocado Tubería Galvanizada 2″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -17619,7 +17619,7 @@
       ]
     },
     {
-      "codigo": "IS-021",
+      "codigo": "IS021",
       "nombre": "Provisión y Colocado Tubería Hidro 1/2″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -17704,7 +17704,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-022",
+      "codigo": "IS022",
       "nombre": "Provisión y Colocado Tubería Hidro 3/4″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -17789,7 +17789,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-023",
+      "codigo": "IS023",
       "nombre": "Provisión y Colocado Tubería Rosca PVC 1/2″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -17876,7 +17876,7 @@
       ]
     },
     {
-      "codigo": "IS-024",
+      "codigo": "IS024",
       "nombre": "Provisión y Colocado Tubería Rosca PVC 3/4″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -17963,7 +17963,7 @@
       ]
     },
     {
-      "codigo": "IS-025",
+      "codigo": "IS025",
       "nombre": "Provisión y Colocado Tubería Rosca PVC E-40 1″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -18061,7 +18061,7 @@
       ]
     },
     {
-      "codigo": "IS-026",
+      "codigo": "IS026",
       "nombre": "Caja de Registro Hormigón 40x40 Cm",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -18172,7 +18172,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-027",
+      "codigo": "IS027",
       "nombre": "Caja Interceptora de Cemento",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -18248,7 +18248,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-028",
+      "codigo": "IS028",
       "nombre": "Caja Interceptora de PVC 6″ X 30 Cm",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -18317,7 +18317,7 @@
       ]
     },
     {
-      "codigo": "IS-029",
+      "codigo": "IS029",
       "nombre": "Caja Interceptora de PVC 4° con Sifón",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -18384,7 +18384,7 @@
       ]
     },
     {
-      "codigo": "IS-030",
+      "codigo": "IS030",
       "nombre": "Caja Receptora Pluvial PVC 8″ X 40 Cm",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -18464,7 +18464,7 @@
       ]
     },
     {
-      "codigo": "IS-032",
+      "codigo": "IS032",
       "nombre": "Cámara de Inspección de Polietileno Ø 60 Cm Sanear",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -18553,7 +18553,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-033",
+      "codigo": "IS033",
       "nombre": "Cámara de Inspección Ladrillo Gambote",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -18651,7 +18651,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-034",
+      "codigo": "IS034",
       "nombre": "Cámara Desgrasadora de Polietileno 25x35x35 Cm",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -18729,7 +18729,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-035",
+      "codigo": "IS035",
       "nombre": "Cámara Desgrasadora Ladrillo 30x50 Cm",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -18829,7 +18829,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-036",
+      "codigo": "IS036",
       "nombre": "Bomba de Agua de 1.5 Hp",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -18971,7 +18971,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-037",
+      "codigo": "IS037",
       "nombre": "Bomba de Agua de 2 Hp",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -19113,7 +19113,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-038",
+      "codigo": "IS038",
       "nombre": "Tanque bajo con Bomba de Agua - Instalación",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -19268,7 +19268,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-039",
+      "codigo": "IS039",
       "nombre": "Tanque Elevado de Agua - Instalación",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -19399,7 +19399,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-040",
+      "codigo": "IS040",
       "nombre": "Tanque Plástico de Agua 600 L. con Accesorio",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -19477,7 +19477,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-041",
+      "codigo": "IS041",
       "nombre": "Tanque Plástico de Agua 1200 L. con Accesorio",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -19555,7 +19555,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-042",
+      "codigo": "IS042",
       "nombre": "Tanque Plástico de Agua 2300 L. con Accesorio",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -19633,7 +19633,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-043",
+      "codigo": "IS043",
       "nombre": "Tanque Plástico de Agua 5000 L. con Accesorio",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -19711,7 +19711,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-044",
+      "codigo": "IS044",
       "nombre": "Tanque Plástico de Agua 10 000 L. con Accesorio",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -19789,7 +19789,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-045",
+      "codigo": "IS045",
       "nombre": "Cámara Séptica Plástica 1.200 L",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -19911,7 +19911,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-046",
+      "codigo": "IS046",
       "nombre": "Cámara Séptica Plástica 2.300 L",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -20033,7 +20033,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-047",
+      "codigo": "IS047",
       "nombre": "Fosa Séptica 1.100 L. Sanear",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -20131,7 +20131,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-048",
+      "codigo": "IS048",
       "nombre": "Fosa Séptica 2.500 L. Sanear",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -20229,7 +20229,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-049",
+      "codigo": "IS049",
       "nombre": "Pozo Absorbente H°C° Ø 2 M",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -20371,7 +20371,7 @@
       ]
     },
     {
-      "codigo": "IS-050",
+      "codigo": "IS050",
       "nombre": "Pozo Absorbente Ladrillo Gambote Ø 2 M",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -20489,7 +20489,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-051",
+      "codigo": "IS051",
       "nombre": "Prueba Hidráulica",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -20561,7 +20561,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-052",
+      "codigo": "IS052",
       "nombre": "Replanteo y Trazado de Tuberías",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -20644,7 +20644,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-053",
+      "codigo": "IS053",
       "nombre": "Provisión y Colocado Tubería PVC Clase 9 (3″) con Junta",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -20720,7 +20720,7 @@
       ]
     },
     {
-      "codigo": "IS-054",
+      "codigo": "IS054",
       "nombre": "Provisión y Colocado Tubería PVC Clase 9 (4″) con Junta",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -20796,7 +20796,7 @@
       ]
     },
     {
-      "codigo": "IS-055",
+      "codigo": "IS055",
       "nombre": "Provisión y Colocado Tubería PVC E-40 (2″) con Junta",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -20872,7 +20872,7 @@
       ]
     },
     {
-      "codigo": "IS-056",
+      "codigo": "IS056",
       "nombre": "Provisión y Colocado Tubería PVC E-40 (3″) con Junta",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -20948,7 +20948,7 @@
       ]
     },
     {
-      "codigo": "IS-057",
+      "codigo": "IS057",
       "nombre": "Provisión y Colocado Tubería PVC E-40 (4″) con Junta",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21024,7 +21024,7 @@
       ]
     },
     {
-      "codigo": "IS-058",
+      "codigo": "IS058",
       "nombre": "Provisión E Instalación Tubería HDPE de 20 Mm (1/2″) SDR9 PN20",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21098,7 +21098,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-059",
+      "codigo": "IS059",
       "nombre": "Provisión E Instalación Tubería HDPE de 25 Mm (3/4″) SDR11 PN16",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21172,7 +21172,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-060",
+      "codigo": "IS060",
       "nombre": "Provisión E Instalación Tubería HDPE de 32 Mm (1″) Sdr 13.6 PN12.5",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21246,7 +21246,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-061",
+      "codigo": "IS061",
       "nombre": "Provisión E Instalación Tubería HDPE de 40 Mm (1 1/4″) SDR17 PN10",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21320,7 +21320,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-062",
+      "codigo": "IS062",
       "nombre": "Provisión E Instalación Tubería HDPE de 50 Mm (1 1/2″) SDR17 PN8",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21394,7 +21394,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-063",
+      "codigo": "IS063",
       "nombre": "Provisión E Instalación Tubería HDPE de 63 Mm (2″) SDR21 PN6",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21468,7 +21468,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-064",
+      "codigo": "IS064",
       "nombre": "Provisión E Instalación Tubería HDPE de 75 Mm (2 1/2″) SDR21 PN8",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21542,7 +21542,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-065",
+      "codigo": "IS065",
       "nombre": "Provisión E Instalación Tubería HDPE de 90 Mm (3″)",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21616,7 +21616,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-066",
+      "codigo": "IS066",
       "nombre": "Provisión E Instalación Tubería HDPE de 110 Mm (4″)",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21690,7 +21690,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-067",
+      "codigo": "IS067",
       "nombre": "Provisión y Termofusión Tubería HDPE de 125 Mm (5″) SDR21 PN6",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21764,7 +21764,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-068",
+      "codigo": "IS068",
       "nombre": "Provisión y Termofusión Tubería HDPE de 160 Mm (6″) SDR26 PN6",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21838,7 +21838,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-069",
+      "codigo": "IS069",
       "nombre": "Provisión y Termofusión Tubería HDPE de 200 Mm (8″) SDR26 PN6",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21912,7 +21912,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-070",
+      "codigo": "IS070",
       "nombre": "Provisión y Termofusión Tubería HDPE de 250 Mm (10″) SDR26 PN6",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -21986,7 +21986,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-071",
+      "codigo": "IS071",
       "nombre": "Cama de Asiento para Tubería (E=5 Cm)",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -22038,7 +22038,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-072",
+      "codigo": "IS072",
       "nombre": "Cámara de Inspección de H°C° H=1 M Ø 1.2 M",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -22173,7 +22173,7 @@
       ]
     },
     {
-      "codigo": "IS-073",
+      "codigo": "IS073",
       "nombre": "Cámara de Inspección de H°C° H=2 M Ø 1.2 M",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -22308,7 +22308,7 @@
       ]
     },
     {
-      "codigo": "IS-074",
+      "codigo": "IS074",
       "nombre": "Excavación de Zanja con Retroexcavadora",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -22381,7 +22381,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-076",
+      "codigo": "IS076",
       "nombre": "Provisión y Colocado de Tubo de Hormigón D/10″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -22466,7 +22466,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-077",
+      "codigo": "IS077",
       "nombre": "Provisión y Colocado de Tubo de Hormigón D/12″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -22551,7 +22551,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-078",
+      "codigo": "IS078",
       "nombre": "Provisión y Colocado de Tubo de Hormigón D/16″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -22636,7 +22636,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-079",
+      "codigo": "IS079",
       "nombre": "Provisión y Colocado Tubería Desagüe PVC C-9 3″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -22723,7 +22723,7 @@
       ]
     },
     {
-      "codigo": "IS-080",
+      "codigo": "IS080",
       "nombre": "Provisión y Colocado Tubería Desagüe PVC C-9 4″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -22810,7 +22810,7 @@
       ]
     },
     {
-      "codigo": "IS-081",
+      "codigo": "IS081",
       "nombre": "Provisión y Colocado Tubería Desagüe PVC Sdr 4″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -22897,7 +22897,7 @@
       ]
     },
     {
-      "codigo": "IS-082",
+      "codigo": "IS082",
       "nombre": "Provisión y Colocado Tubería Desagüe PVC Sdr 6″",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -22984,7 +22984,7 @@
       ]
     },
     {
-      "codigo": "IS-083",
+      "codigo": "IS083",
       "nombre": "Relleno y Compactación de Zanja con Compactadora",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -23057,7 +23057,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-024",
+      "codigo": "IE024",
       "nombre": "Jabalina para Puesta a Tierra",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -23135,7 +23135,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-025",
+      "codigo": "IE025",
       "nombre": "Lámpara Exterior Tortuga 18W",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -23191,7 +23191,7 @@
       ]
     },
     {
-      "codigo": "IE-026",
+      "codigo": "IE026",
       "nombre": "Luminaria Panel LED 24 de Sobreponer",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -23245,7 +23245,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-004",
+      "codigo": "IE004",
       "nombre": "Luminaria Tipo Pantalla 2X20W LED",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -23299,7 +23299,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-005",
+      "codigo": "IE005",
       "nombre": "Luminaria Tipo Spot Embutir 16W LED",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -23353,7 +23353,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-006",
+      "codigo": "IE006",
       "nombre": "Provisión E Instalación Alambre Cu Awg N° 1x8",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -23414,7 +23414,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-007",
+      "codigo": "IE007",
       "nombre": "Provisión E Instalación Alambre Cu Awg N° 1x10",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -23475,7 +23475,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-008",
+      "codigo": "IE008",
       "nombre": "Provisión E Instalación Alambre Cu Awg N° 1x12",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -23536,7 +23536,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-009",
+      "codigo": "IE009",
       "nombre": "Provisión E Instalación de Timbre",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -23634,7 +23634,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-010",
+      "codigo": "IE010",
       "nombre": "Provisión E Instalación Electroducto Flexible Corrugado 20 Mm",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -23697,7 +23697,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-011",
+      "codigo": "IE011",
       "nombre": "Provisión E Instalación Electroducto Flexible Corrugado 32 Mm",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -23760,7 +23760,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-012",
+      "codigo": "IE012",
       "nombre": "Provisión E Instalación Equipo Aire Acondicionado (9.000 Btu)",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -23825,7 +23825,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-013",
+      "codigo": "IE013",
       "nombre": "Provisión E Instalación Iluminación Incandescente 100W",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -23956,7 +23956,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-014",
+      "codigo": "IE014",
       "nombre": "Provisión E Instalación Iluminación LED 14W",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -24087,7 +24087,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-015",
+      "codigo": "IE015",
       "nombre": "Provisión E Instalación Punto de Internet",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -24196,7 +24196,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-016",
+      "codigo": "IE016",
       "nombre": "Provisión E Instalación Punto de Tv",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -24294,7 +24294,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-018",
+      "codigo": "IE018",
       "nombre": "Punto de Aire Acondicionado",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -24381,7 +24381,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-019",
+      "codigo": "IE019",
       "nombre": "Punto de Teléfono",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -24490,7 +24490,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-020",
+      "codigo": "IE020",
       "nombre": "Punto para Ducha Eléctrica",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -24588,7 +24588,7 @@
       "tags": []
     },
     {
-      "codigo": "IE-022",
+      "codigo": "IE022",
       "nombre": "Transformador 150 KVA",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -24642,7 +24642,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-023",
+      "codigo": "CU023",
       "nombre": "Cubierta de Policarbonato (6 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -24788,7 +24788,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-024",
+      "codigo": "CU024",
       "nombre": "Cubierta de Policarbonato (8 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -24934,7 +24934,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-025",
+      "codigo": "CU025",
       "nombre": "Impermeabilización de Cubierta Teja Colonial",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25001,7 +25001,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-046",
+      "codigo": "AC046",
       "nombre": "Impermeabilización Lámina Asfáltica Sika con Aluminio",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25079,7 +25079,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-047",
+      "codigo": "AC047",
       "nombre": "Impermeabilización Membrana Geotextil 3.5 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25148,7 +25148,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-026",
+      "codigo": "CU026",
       "nombre": "Pintura Anticorrosiva para Cubierta",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25226,7 +25226,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-048",
+      "codigo": "AC048",
       "nombre": "Pintura Anticorrosiva para Reja",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25304,7 +25304,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-049",
+      "codigo": "AC049",
       "nombre": "Pintura de Aleros",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25382,7 +25382,7 @@
       "tags": []
     },
     {
-      "codigo": "CU-027",
+      "codigo": "CU027",
       "nombre": "Pintura de Cubierta Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25451,7 +25451,7 @@
       ]
     },
     {
-      "codigo": "CR-002",
+      "codigo": "CR002",
       "nombre": "Pintura de Puertas",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25540,7 +25540,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-050",
+      "codigo": "AC050",
       "nombre": "Pintura Hormigón Visto Exterior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25622,7 +25622,7 @@
       ]
     },
     {
-      "codigo": "AC-052",
+      "codigo": "AC052",
       "nombre": "Pintura Interior Latex Satinado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25702,7 +25702,7 @@
       ]
     },
     {
-      "codigo": "AC-054",
+      "codigo": "AC054",
       "nombre": "Pintura Óleo Interior",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25815,7 +25815,7 @@
       ]
     },
     {
-      "codigo": "AC-055",
+      "codigo": "AC055",
       "nombre": "Barnizado de Madera",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -25904,7 +25904,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-003",
+      "codigo": "CR003",
       "nombre": "Brazo Hidráulico para Puerta de Baño",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -25958,7 +25958,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-056",
+      "codigo": "AC056",
       "nombre": "Cepillado y Lustrado de Piso Madera",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -26047,7 +26047,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-004",
+      "codigo": "CR004",
       "nombre": "Puerta de Madera Tipo Tablero 0.80x2.10 M",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -26145,7 +26145,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-005",
+      "codigo": "CR005",
       "nombre": "Puerta de Madera Tipo Tablero 1.00x2.10 M",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -26243,7 +26243,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-006",
+      "codigo": "CR006",
       "nombre": "Puerta Exterior Moldeada 1.00x2.10 M",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -26343,7 +26343,7 @@
       ]
     },
     {
-      "codigo": "CR-007",
+      "codigo": "CR007",
       "nombre": "Puerta Interior Moldeada 0.90 X 2.10 M",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -26443,7 +26443,7 @@
       ]
     },
     {
-      "codigo": "CR-008",
+      "codigo": "CR008",
       "nombre": "Ventana Madera Cedro (Marco 2x3″)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -26545,7 +26545,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-057",
+      "codigo": "AC057",
       "nombre": "División Interior Vidrio Templado (10 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -26649,7 +26649,7 @@
       ]
     },
     {
-      "codigo": "AC-058",
+      "codigo": "AC058",
       "nombre": "Fachada Flotante Vidrio Reflectivo con Estructura de Aluminio",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -26738,7 +26738,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-010",
+      "codigo": "CR010",
       "nombre": "Puerta Abatible de Vidrio Templado 10 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -26827,7 +26827,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-011",
+      "codigo": "CR011",
       "nombre": "Puerta Plancha Metálica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -26982,7 +26982,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-012",
+      "codigo": "CR012",
       "nombre": "Puerta Garaje de Plancha Metálica 3.0x2.4 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -27139,7 +27139,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-013",
+      "codigo": "CR013",
       "nombre": "Reja Metálica para Ventana con Marco",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -27252,7 +27252,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-014",
+      "codigo": "CR014",
       "nombre": "Ventana Corrediza de Aluminio 3 Hojas 2.40x1.20 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -27332,7 +27332,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-015",
+      "codigo": "CR015",
       "nombre": "Ventana Metálica (Angular 1″x1/8″)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -27467,7 +27467,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-059",
+      "codigo": "AC059",
       "nombre": "Colocado de Vidrio (6 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -27558,7 +27558,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-060",
+      "codigo": "AC060",
       "nombre": "Colocado de Vidrio Catedral (3 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -27649,7 +27649,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-061",
+      "codigo": "AC061",
       "nombre": "Colocado de Vidrio Doble (3 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -27740,7 +27740,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-062",
+      "codigo": "AC062",
       "nombre": "Colocado de Vidrio Triple (4 Mm)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -27831,7 +27831,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-016",
+      "codigo": "CR016",
       "nombre": "Mesón de H°A° con Revestimiento Azulejo Color",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -27979,7 +27979,7 @@
       ]
     },
     {
-      "codigo": "CR-017",
+      "codigo": "CR017",
       "nombre": "Mesón de H°A° con Revestimiento de Mármol",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -28149,7 +28149,7 @@
       ]
     },
     {
-      "codigo": "AC-063",
+      "codigo": "AC063",
       "nombre": "Piso Alfombrado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -28238,7 +28238,7 @@
       "tags": []
     },
     {
-      "codigo": "AC-064",
+      "codigo": "AC064",
       "nombre": "Piso Alfombrado Tapizón",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -28327,7 +28327,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-028",
+      "codigo": "OT028",
       "nombre": "Área Verde en Jardín con Tepe",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -28429,7 +28429,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-029",
+      "codigo": "OT029",
       "nombre": "Área Verde en Jardines",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -28529,7 +28529,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-030",
+      "codigo": "OT030",
       "nombre": "Bordillo Ornamental Ladrillo Gambote",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -28623,7 +28623,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-031",
+      "codigo": "OT031",
       "nombre": "Cerco de Alambre de Púas con Callapos",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -28706,7 +28706,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-032",
+      "codigo": "OT032",
       "nombre": "Malla Olímpica con Poste Hormigón Pretensado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -28788,7 +28788,7 @@
       ]
     },
     {
-      "codigo": "OT-033",
+      "codigo": "OT033",
       "nombre": "Malla Olímpica con Tubo FG 2″ C/2.5 M",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -28879,7 +28879,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-034",
+      "codigo": "OT034",
       "nombre": "Provisión E Instalación Césped Sintético Bicolor H=5 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -28992,7 +28992,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-035",
+      "codigo": "OT035",
       "nombre": "Provisión E Instalación Césped Sintético Monofilamento H=6 Mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -29083,7 +29083,7 @@
       "tags": []
     },
     {
-      "codigo": "CR-018",
+      "codigo": "CR018",
       "nombre": "Puerta Metálica con Malla Olímpica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -29216,7 +29216,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-036",
+      "codigo": "OT036",
       "nombre": "Reja Metálica para Verja",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -29316,7 +29316,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-036",
+      "codigo": "OG036",
       "nombre": "Acera de Hormigón con Empedrado E=4 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -29440,7 +29440,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-037",
+      "codigo": "OG037",
       "nombre": "Adoquinado de Calle",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -29529,7 +29529,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-038",
+      "codigo": "OG038",
       "nombre": "Alcantarilla Chapa Metálica Corrugado Ø 1 M",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -29603,7 +29603,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-039",
+      "codigo": "OG039",
       "nombre": "Alcantarilla Tubo H°A° Ø 1 M",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -29690,7 +29690,7 @@
       ]
     },
     {
-      "codigo": "OG-040",
+      "codigo": "OG040",
       "nombre": "Compactación con Rodillo Pata de Cabra",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -29787,7 +29787,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-041",
+      "codigo": "OG041",
       "nombre": "Carpeta Asfáltica E=5 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -29955,7 +29955,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-042",
+      "codigo": "OG042",
       "nombre": "Carpeta de Hormigón para Pavimento Rígido E=17 Cm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -30112,7 +30112,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-043",
+      "codigo": "OG043",
       "nombre": "Cordón para Acera de Hormigón 20x40 Cm",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -30219,7 +30219,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-044",
+      "codigo": "OG044",
       "nombre": "Cortado de Carpeta Asfáltica",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -30258,7 +30258,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-045",
+      "codigo": "OG045",
       "nombre": "Cuneta de Mampostería",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -30369,7 +30369,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-046",
+      "codigo": "OG046",
       "nombre": "Demolición Cordón de Acera",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -30410,7 +30410,7 @@
       ]
     },
     {
-      "codigo": "OG-047",
+      "codigo": "OG047",
       "nombre": "Demolición de Carpeta Asfáltica",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -30474,7 +30474,7 @@
       ]
     },
     {
-      "codigo": "OG-048",
+      "codigo": "OG048",
       "nombre": "Elaboración de Losetas Hexagonales",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -30618,7 +30618,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-049",
+      "codigo": "OG049",
       "nombre": "Empedrado de Calzada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -30685,7 +30685,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-050",
+      "codigo": "OG050",
       "nombre": "Enlosetado Calzada - Hexagonal",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -30774,7 +30774,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-051",
+      "codigo": "OG051",
       "nombre": "Enlosetado de Calzada Ondulada",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -30863,7 +30863,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-052",
+      "codigo": "OG052",
       "nombre": "Juntas de Dilatación con Alquitrán y Arena",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -30913,7 +30913,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-053",
+      "codigo": "OG053",
       "nombre": "Provisión y Colocado Pavic Estándar de Cerámica",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -30993,7 +30993,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-054",
+      "codigo": "OG054",
       "nombre": "Relleno y Compactado con Rodillo Liso",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -31079,7 +31079,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-055",
+      "codigo": "OG055",
       "nombre": "Remoción y Reposición de Empedrado",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -31135,7 +31135,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-056",
+      "codigo": "OG056",
       "nombre": "Gavión Colchoneta 4x2x0.30 M",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -31232,7 +31232,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-057",
+      "codigo": "OG057",
       "nombre": "Mampostería de Piedra Cortada",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -31327,7 +31327,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-058",
+      "codigo": "OG058",
       "nombre": "Muro de Contención con Gavión",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -31422,7 +31422,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-059",
+      "codigo": "OG059",
       "nombre": "Provisión y Colocado Sillares Tipo A 60x40x30 Cm",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -31511,7 +31511,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-060",
+      "codigo": "OG060",
       "nombre": "Provisión y Colocado Sillares Tipo B 40x40x30 Cm",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -31600,7 +31600,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-061",
+      "codigo": "OG061",
       "nombre": "Excavación Común",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -31662,7 +31662,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-062",
+      "codigo": "OG062",
       "nombre": "Hormigón Simple Tipo A (Estribos)",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -31867,7 +31867,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-063",
+      "codigo": "OG063",
       "nombre": "Hormigón Simple Tipo A (Losa)",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -32074,7 +32074,7 @@
       ]
     },
     {
-      "codigo": "OG-064",
+      "codigo": "OG064",
       "nombre": "Acero Estructural P/Hormigón Simple Tipo A (Estribos)",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -32141,7 +32141,7 @@
       ]
     },
     {
-      "codigo": "OG-065",
+      "codigo": "OG065",
       "nombre": "Acero Estructural P/Hormigón Simple Tipo A (Losa)",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -32208,7 +32208,7 @@
       ]
     },
     {
-      "codigo": "OG-066",
+      "codigo": "OG066",
       "nombre": "Viga Prefabricada H°P° (f'c=350 Kg/cm2) L=20,60 M",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -32428,7 +32428,7 @@
       ]
     },
     {
-      "codigo": "OG-067",
+      "codigo": "OG067",
       "nombre": "Viga Prefabricada H°P° (f'c=350 Kg/cm2) L=25,60 M",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -32648,7 +32648,7 @@
       ]
     },
     {
-      "codigo": "OG-068",
+      "codigo": "OG068",
       "nombre": "Viga Prefabricada H°P° (f'c=350 Kg/cm2) L=35,60 M",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -32868,7 +32868,7 @@
       ]
     },
     {
-      "codigo": "OG-069",
+      "codigo": "OG069",
       "nombre": "Viga Prefabricada H°P° (f'c=350 Kg/cm2) L=45,60 M",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -33088,7 +33088,7 @@
       ]
     },
     {
-      "codigo": "OG-070",
+      "codigo": "OG070",
       "nombre": "Apoyos de Neopreno Compuesto",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -33131,7 +33131,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-071",
+      "codigo": "OG071",
       "nombre": "Junta de Dilatación",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -33203,7 +33203,7 @@
       "tags": []
     },
     {
-      "codigo": "OG-072",
+      "codigo": "OG072",
       "nombre": "Tubos de Drenaje PVC (Ø = 4″)",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -33268,7 +33268,7 @@
       ]
     },
     {
-      "codigo": "CR-019",
+      "codigo": "CR019",
       "nombre": "Barandado Tipo P-3",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -33450,7 +33450,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-084",
+      "codigo": "IS084",
       "nombre": "Calefón A Gas Tiro Natural Q=11 L/Min",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -33526,7 +33526,7 @@
       "tags": []
     },
     {
-      "codigo": "IS-085",
+      "codigo": "IS085",
       "nombre": "Calefón A Gas Tiro Natural Q=14 L/Min",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -33602,7 +33602,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-037",
+      "codigo": "OT037",
       "nombre": "Limpieza General de Superficies",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -33658,7 +33658,7 @@
       "tags": []
     },
     {
-      "codigo": "OT-038",
+      "codigo": "OT038",
       "nombre": "Limpieza y Retiro de Escombros",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -34231,7 +34231,7 @@
       "formulaResultado": ""
     },
     {
-      "codigo": "OT-040",
+      "codigo": "OT040",
       "nombre": "Bioseguridad en Obra Mediana (Proyectos 500k-1M Bs)",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -34412,7 +34412,7 @@
       "verificado": true
     },
     {
-      "codigo": "OT-041",
+      "codigo": "OT041",
       "nombre": "Letrero de Obras (Lona PVC)",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -34493,7 +34493,7 @@
       "verificado": true
     },
     {
-      "codigo": "OT-042",
+      "codigo": "OT042",
       "nombre": "Replanteo y Trazado de Superficie",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -34587,7 +34587,7 @@
       "verificado": true
     },
     {
-      "codigo": "OT-044",
+      "codigo": "OT044",
       "nombre": "Lameado con Aprovisionamiento",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
@@ -34698,7 +34698,7 @@
       "verificado": true
     },
     {
-      "codigo": "OT-045",
+      "codigo": "OT045",
       "nombre": "Provisión y Colocado de Kikuyo",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -34781,7 +34781,7 @@
       "verificado": true
     },
     {
-      "codigo": "OG-073",
+      "codigo": "OG073",
       "nombre": "Cordón de Acera 0.35x0.15x1.00 m (Vaciado In Situ)",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -34923,7 +34923,7 @@
       "verificado": true
     },
     {
-      "codigo": "OG-074",
+      "codigo": "OG074",
       "nombre": "Soladura de Piedra Manzana",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -34994,7 +34994,7 @@
       "verificado": true
     },
     {
-      "codigo": "OG-075",
+      "codigo": "OG075",
       "nombre": "Contrapiso de Cemento Sin Piedra E=7cm - Aceras",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
@@ -35098,7 +35098,7 @@
       "verificado": true
     },
     {
-      "codigo": "OG-076",
+      "codigo": "OG076",
       "nombre": "Bordillo para Jardinera H°S° R=180 kg/cm² 0.10x0.30m",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -35252,7 +35252,7 @@
       "verificado": true
     },
     {
-      "codigo": "OG-081",
+      "codigo": "OG081",
       "nombre": "Corte de Pavimento Rígido",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -35306,7 +35306,7 @@
       "verificado": true
     },
     {
-      "codigo": "OG-082",
+      "codigo": "OG082",
       "nombre": "H°S° Cunetas R=210 kg/cm² B=0.30m",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -35416,7 +35416,7 @@
       "verificado": true
     },
     {
-      "codigo": "CR-020",
+      "codigo": "CR020",
       "nombre": "Protector Metálico Tipo Hoja H=0.70m",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
@@ -35547,7 +35547,7 @@
       "verificado": true
     },
     {
-      "codigo": "IE-023",
+      "codigo": "IE023",
       "nombre": "Luminaria Parque LED 80W Clase II + Poste Met FG H=5m + Base H°A° Subterránea",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -35839,7 +35839,7 @@
       "verificado": true
     },
     {
-      "codigo": "AC-067",
+      "codigo": "AC067",
       "nombre": "Pintura Exterior Super Látex",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
