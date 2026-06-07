@@ -1,0 +1,18 @@
+{
+  "recursos": [
+    {
+      "nombre": "ArqOn1.ifc",
+      "tipo": "ifc",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn1.ifc",
+      "descripcion": "Modelo IFC de ejemplo",
+      "tamano": "3.2 MB"
+    },
+    {
+      "nombre": "ArqOn1.zip",
+      "tipo": "zip",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn1.zip",
+      "descripcion": "Archivos comprimidos del proyecto ArqOn1",
+      "tamano": "475 KB"
+    }
+  ]
+}
