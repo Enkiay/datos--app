@@ -1,21 +1,4 @@
 {
-  "version": "v20260611-123237",
-  "empresas": [
-    {
-      "id": "ladrillera-de-prueba-cochabamba",
-      "nombre": "Ladrillera de prueba",
-      "ciudad": "Cochabamba",
-      "pais": "BO",
-      "tipo": "FABRICANTE",
-      "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-06",
-      "fechaUltimaColaboracion": "2026-06",
-      "telefono": "60348854",
-      "descripcion": "Empresa para probar la funcionalidad - arqon",
-      "tags": [
-        "ladrillo gambote",
-        "labrillos"
-      ]
-    }
-  ]
+  "version": "v20260611-123939",
+  "empresas": []
 }
