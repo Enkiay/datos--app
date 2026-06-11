@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-100000-formulas",
+  "version": "v20260611-174035-insumos",
   "schemaVersion": 1,
   "items": [
     {
@@ -19,7 +19,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 6.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "yeso_kg"
         },
         {
           "nombre": "Albañil",
@@ -28,7 +29,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.7,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -37,7 +39,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.4,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -72,7 +75,8 @@
           "categoria": "Madera",
           "rendimiento": 30.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -81,7 +85,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Carpintero",
@@ -90,7 +95,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_carpintero"
         },
         {
           "nombre": "Ayudante",
@@ -99,7 +105,8 @@
           "categoria": "No Calificada",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -135,7 +142,8 @@
           "categoria": "Madera",
           "rendimiento": 15.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -144,7 +152,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Carpintero",
@@ -153,7 +162,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_carpintero"
         },
         {
           "nombre": "Ayudante",
@@ -162,7 +172,8 @@
           "categoria": "No Calificada",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -198,7 +209,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 5.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "fierro_corrugado_kg"
         },
         {
           "nombre": "Madera de Construcción",
@@ -207,7 +219,8 @@
           "categoria": "Madera",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Carpintero",
@@ -216,7 +229,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_carpintero"
         },
         {
           "nombre": "Ayudante",
@@ -225,7 +239,8 @@
           "categoria": "No Calificada",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -254,7 +269,8 @@
           "categoria": "Eléctrico",
           "rendimiento": 12.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cable_thw_12_awg_m"
         },
         {
           "nombre": "Caja de Registro Eléctrica",
@@ -263,7 +279,8 @@
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "caja_de_registro_electrica_pza"
         },
         {
           "nombre": "Interruptor Simple",
@@ -272,7 +289,8 @@
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "interruptor_simple_pza"
         },
         {
           "nombre": "Electricista",
@@ -281,7 +299,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_electricista"
         },
         {
           "nombre": "Ayudante",
@@ -290,7 +309,8 @@
           "categoria": "No Calificada",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": []
@@ -312,7 +332,8 @@
           "categoria": "Eléctrico",
           "rendimiento": 10.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cable_thw_12_awg_m"
         },
         {
           "nombre": "Caja de Registro Eléctrica",
@@ -321,7 +342,8 @@
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "caja_de_registro_electrica_pza"
         },
         {
           "nombre": "Tomacorriente Doble",
@@ -330,7 +352,8 @@
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "tomacorriente_doble_pza"
         },
         {
           "nombre": "Electricista",
@@ -339,7 +362,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_electricista"
         },
         {
           "nombre": "Ayudante",
@@ -348,7 +372,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.8,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": []
@@ -370,7 +395,8 @@
           "categoria": "Plomería",
           "rendimiento": 6.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "tuberia_pvc_1_2_m"
         },
         {
           "nombre": "Accesorios PVC (codos, tees)",
@@ -379,7 +405,8 @@
           "categoria": "Plomería",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "accesorios_pvc_codos_tees_glb"
         },
         {
           "nombre": "Plomero",
@@ -388,7 +415,8 @@
           "categoria": "Calificada",
           "rendimiento": 2.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_plomero"
         },
         {
           "nombre": "Ayudante",
@@ -397,7 +425,8 @@
           "categoria": "No Calificada",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": []
@@ -419,7 +448,8 @@
           "categoria": "Plomería",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "tuberia_pvc_4_m"
         },
         {
           "nombre": "Accesorios PVC (codos, tees)",
@@ -428,7 +458,8 @@
           "categoria": "Plomería",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "accesorios_pvc_codos_tees_glb"
         },
         {
           "nombre": "Plomero",
@@ -437,7 +468,8 @@
           "categoria": "Calificada",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_plomero"
         },
         {
           "nombre": "Ayudante",
@@ -446,7 +478,8 @@
           "categoria": "No Calificada",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": []
@@ -468,7 +501,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 8.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Fina",
@@ -477,7 +511,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.015,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_fina_m3"
         },
         {
           "nombre": "Albañil",
@@ -486,7 +521,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.6,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -495,7 +531,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.6,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -530,7 +567,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 5.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "yeso_kg"
         },
         {
           "nombre": "Albañil",
@@ -539,7 +577,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -548,7 +587,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -583,7 +623,8 @@
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 1.05,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "ceramica_esmaltada_30_30_m2"
         },
         {
           "nombre": "Pegamento Cerámico",
@@ -592,7 +633,8 @@
           "categoria": "Adhesivos",
           "rendimiento": 5.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "pegamento_ceramico_kg"
         },
         {
           "nombre": "Albañil",
@@ -601,7 +643,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.8,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -610,7 +653,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.4,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -645,7 +689,8 @@
           "categoria": "Pinturas",
           "rendimiento": 0.35,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "pintura_latex_interior_lt"
         },
         {
           "nombre": "Lija para Pared",
@@ -654,7 +699,8 @@
           "categoria": "Ferretería",
           "rendimiento": 0.25,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "lija_para_pared_hoja"
         },
         {
           "nombre": "Pintor",
@@ -663,7 +709,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_pintor"
         },
         {
           "nombre": "Ayudante",
@@ -672,7 +719,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.15,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -707,7 +755,8 @@
           "categoria": "Pinturas",
           "rendimiento": 0.4,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "pintura_latex_exterior_lt"
         },
         {
           "nombre": "Lija para Pared",
@@ -716,7 +765,8 @@
           "categoria": "Ferretería",
           "rendimiento": 0.25,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "lija_para_pared_hoja"
         },
         {
           "nombre": "Pintor",
@@ -725,7 +775,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.35,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_pintor"
         },
         {
           "nombre": "Ayudante",
@@ -734,7 +785,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.18,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -769,7 +821,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 12.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Fina",
@@ -778,7 +831,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.015,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_fina_m3"
         },
         {
           "nombre": "Albañil",
@@ -787,7 +841,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -796,7 +851,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -831,7 +887,8 @@
           "categoria": "Impermeabilización",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "impermeabilizante_asfaltico_kg"
         },
         {
           "nombre": "Albañil",
@@ -840,7 +897,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -849,7 +907,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.2,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -884,7 +943,8 @@
           "categoria": "Cubiertas",
           "rendimiento": 1.1,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "calamina_galvanizada_m2"
         },
         {
           "nombre": "Madera de Construcción",
@@ -893,7 +953,8 @@
           "categoria": "Madera",
           "rendimiento": 5.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -902,7 +963,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Carpintero",
@@ -911,7 +973,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_carpintero"
         },
         {
           "nombre": "Ayudante",
@@ -920,7 +983,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -955,7 +1019,8 @@
           "categoria": "Madera",
           "rendimiento": 10.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -964,7 +1029,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Alambre de Amarre",
@@ -973,7 +1039,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "alambre_de_amarre_kg"
         },
         {
           "nombre": "Albañil",
@@ -982,7 +1049,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 8.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -991,7 +1059,8 @@
           "categoria": "No Calificada",
           "rendimiento": 8.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -1020,7 +1089,8 @@
           "categoria": "No Calificada",
           "rendimiento": 3.2,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -1084,7 +1154,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 200.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -1093,7 +1164,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.45,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -1102,7 +1174,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.65,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Albañil",
@@ -1111,7 +1184,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -1120,7 +1194,8 @@
           "categoria": "No Calificada",
           "rendimiento": 6.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -1129,7 +1204,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         }
       ],
       "parametros": [
@@ -1193,7 +1269,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 200.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -1202,7 +1279,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.4,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -1211,7 +1289,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.65,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Piedra Bruta",
@@ -1220,7 +1299,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "piedra_bruta_m3"
         },
         {
           "nombre": "Albañil",
@@ -1229,7 +1309,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -1238,7 +1319,8 @@
           "categoria": "No Calificada",
           "rendimiento": 6.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -1247,7 +1329,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         }
       ],
       "parametros": [
@@ -1311,7 +1394,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 350.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -1320,7 +1404,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -1329,7 +1414,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.7,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -1338,7 +1424,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 60.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "fierro_corrugado_kg"
         },
         {
           "nombre": "Alambre de Amarre",
@@ -1347,7 +1434,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "alambre_de_amarre_kg"
         },
         {
           "nombre": "Madera de Construcción",
@@ -1356,7 +1444,8 @@
           "categoria": "Madera",
           "rendimiento": 30.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -1365,7 +1454,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Albañil",
@@ -1374,7 +1464,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Armador",
@@ -1383,7 +1474,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_armador"
         },
         {
           "nombre": "Encofrador",
@@ -1392,7 +1484,8 @@
           "categoria": "Calificada",
           "rendimiento": 5.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_encofrador"
         },
         {
           "nombre": "Ayudante",
@@ -1401,7 +1494,8 @@
           "categoria": "No Calificada",
           "rendimiento": 10.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -1410,7 +1504,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         },
         {
           "nombre": "Vibradora",
@@ -1419,7 +1514,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_vibradora"
         }
       ],
       "parametros": [
@@ -1484,7 +1580,8 @@
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 50.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "ladrillo_6h_24x15x11_pza"
         },
         {
           "nombre": "Cemento Portland",
@@ -1493,7 +1590,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 12.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Fina",
@@ -1502,7 +1600,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.03,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_fina_m3"
         },
         {
           "nombre": "Albañil",
@@ -1511,7 +1610,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 1.2,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -1520,7 +1620,8 @@
           "categoria": "No Calificada",
           "rendimiento": 1.2,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -1555,7 +1656,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.1,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "piedra_bruta_m3"
         },
         {
           "nombre": "Cemento Portland",
@@ -1564,7 +1666,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 10.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -1573,7 +1676,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.015,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -1582,7 +1686,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.02,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Albañil",
@@ -1591,7 +1696,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.6,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -1600,7 +1706,8 @@
           "categoria": "No Calificada",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -1609,7 +1716,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.1,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         }
       ],
       "parametros": [
@@ -1644,7 +1752,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 350.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -1653,7 +1762,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -1662,7 +1772,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.7,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -1671,7 +1782,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 80.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "fierro_corrugado_kg"
         },
         {
           "nombre": "Alambre de Amarre",
@@ -1680,7 +1792,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "alambre_de_amarre_kg"
         },
         {
           "nombre": "Madera de Construcción",
@@ -1689,7 +1802,8 @@
           "categoria": "Madera",
           "rendimiento": 25.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -1698,7 +1812,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Albañil",
@@ -1707,7 +1822,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Armador",
@@ -1716,7 +1832,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_armador"
         },
         {
           "nombre": "Encofrador",
@@ -1725,7 +1842,8 @@
           "categoria": "Calificada",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_encofrador"
         },
         {
           "nombre": "Ayudante",
@@ -1734,7 +1852,8 @@
           "categoria": "No Calificada",
           "rendimiento": 10.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -1743,7 +1862,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         },
         {
           "nombre": "Vibradora",
@@ -1752,7 +1872,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_vibradora"
         }
       ],
       "parametros": [
@@ -1781,7 +1902,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 25.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -1790,7 +1912,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.02,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -1799,7 +1922,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.03,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -1808,7 +1932,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 10.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "fierro_corrugado_kg"
         },
         {
           "nombre": "Alambre de Amarre",
@@ -1817,7 +1942,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "alambre_de_amarre_kg"
         },
         {
           "nombre": "Madera de Construcción",
@@ -1826,7 +1952,8 @@
           "categoria": "Madera",
           "rendimiento": 8.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -1835,7 +1962,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Albañil",
@@ -1844,7 +1972,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Armador",
@@ -1853,7 +1982,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.8,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_armador"
         },
         {
           "nombre": "Encofrador",
@@ -1862,7 +1992,8 @@
           "categoria": "Calificada",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_encofrador"
         },
         {
           "nombre": "Ayudante",
@@ -1871,7 +2002,8 @@
           "categoria": "No Calificada",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -1880,7 +2012,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         },
         {
           "nombre": "Vibradora",
@@ -1889,7 +2022,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.2,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_vibradora"
         }
       ],
       "parametros": [
@@ -1924,7 +2058,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 30.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -1933,7 +2068,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.03,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -1942,7 +2078,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.04,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -1951,7 +2088,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 8.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "fierro_corrugado_kg"
         },
         {
           "nombre": "Alambre de Amarre",
@@ -1960,7 +2098,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.2,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "alambre_de_amarre_kg"
         },
         {
           "nombre": "Madera de Construcción",
@@ -1969,7 +2108,8 @@
           "categoria": "Madera",
           "rendimiento": 10.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -1978,7 +2118,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Albañil",
@@ -1987,7 +2128,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Armador",
@@ -1996,7 +2138,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_armador"
         },
         {
           "nombre": "Encofrador",
@@ -2005,7 +2148,8 @@
           "categoria": "Calificada",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_encofrador"
         },
         {
           "nombre": "Ayudante",
@@ -2014,7 +2158,8 @@
           "categoria": "No Calificada",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -2023,7 +2168,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         },
         {
           "nombre": "Vibradora",
@@ -2032,7 +2178,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.2,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_vibradora"
         }
       ],
       "parametros": [
@@ -2067,7 +2214,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 10.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Fina",
@@ -2076,7 +2224,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.025,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_fina_m3"
         },
         {
           "nombre": "Albañil",
@@ -2085,7 +2234,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -2094,7 +2244,8 @@
           "categoria": "No Calificada",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -2130,7 +2281,8 @@
           "categoria": "Madera",
           "rendimiento": 50.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Calamina Galvanizada",
@@ -2139,7 +2291,8 @@
           "categoria": "Cubiertas",
           "rendimiento": 6.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "calamina_galvanizada_m2"
         },
         {
           "nombre": "Clavos",
@@ -2148,7 +2301,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Carpintero",
@@ -2157,7 +2311,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 16.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_carpintero"
         },
         {
           "nombre": "Ayudante",
@@ -2166,7 +2321,8 @@
           "categoria": "No Calificada",
           "rendimiento": 16.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": []
@@ -2188,7 +2344,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 0.05,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "yeso_kg"
         },
         {
           "nombre": "Madera de Construcción",
@@ -2197,7 +2354,8 @@
           "categoria": "Madera",
           "rendimiento": 0.1,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -2206,7 +2364,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.01,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Albañil",
@@ -2215,7 +2374,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.03,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -2224,7 +2384,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.03,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -2259,7 +2420,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -2268,7 +2430,8 @@
           "categoria": "No Calificada",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -2309,7 +2472,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -2318,7 +2482,8 @@
           "categoria": "No Calificada",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -2359,7 +2524,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.1,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -2394,7 +2560,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 15.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -2403,7 +2570,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.015,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -2412,7 +2580,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.025,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Albañil",
@@ -2421,7 +2590,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -2430,7 +2600,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -2439,7 +2610,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.1,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         }
       ],
       "parametros": [
@@ -2474,7 +2646,8 @@
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 0.35,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "ceramica_esmaltada_30_30_m2"
         },
         {
           "nombre": "Pegamento Cerámico",
@@ -2483,7 +2656,8 @@
           "categoria": "Adhesivos",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "pegamento_ceramico_kg"
         },
         {
           "nombre": "Albañil",
@@ -2492,7 +2666,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -2501,7 +2676,8 @@
           "categoria": "No Calificada",
           "rendimiento": 0.15,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -2531,7 +2707,8 @@
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "tablero_de_distribucion_6_circuitos_pza"
         },
         {
           "nombre": "Cable THW 12 AWG",
@@ -2540,7 +2717,8 @@
           "categoria": "Eléctrico",
           "rendimiento": 6.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cable_thw_12_awg_m"
         },
         {
           "nombre": "Electricista",
@@ -2549,7 +2727,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_electricista"
         },
         {
           "nombre": "Ayudante",
@@ -2558,7 +2737,8 @@
           "categoria": "No Calificada",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": []
@@ -2581,7 +2761,8 @@
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 80.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "ladrillo_6h_24x15x11_pza"
         },
         {
           "nombre": "Cemento Portland",
@@ -2590,7 +2771,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 25.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Fina",
@@ -2599,7 +2781,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.05,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_fina_m3"
         },
         {
           "nombre": "Albañil",
@@ -2608,7 +2791,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 6.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -2617,7 +2801,8 @@
           "categoria": "No Calificada",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": []
@@ -2640,7 +2825,7 @@
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 12.5
+          "precio": 15.0
         },
         {
           "nombre": "Operador de Perforadora Neumática",
@@ -2877,7 +3062,7 @@
           "rendimiento": 13.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 12.5
+          "precio": 15.0
         }
       ],
       "parametros": [
@@ -2932,7 +3117,7 @@
           "rendimiento": 11.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 12.5
+          "precio": 15.0
         }
       ],
       "parametros": [
@@ -2985,7 +3170,7 @@
           "rendimiento": 2.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 12.5
+          "precio": 15.0
         }
       ],
       "parametros": [
@@ -3360,7 +3545,7 @@
           "rendimiento": 0.1,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 13.5
+          "precio": 19.5
         },
         {
           "nombre": "Especialista Cerrajero",
@@ -3928,7 +4113,7 @@
           "rendimiento": 0.07,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 23.0
+          "precio": 15.0
         },
         {
           "nombre": "Retroexcavadora",
@@ -11752,7 +11937,7 @@
           "rendimiento": 0.05,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 136.5
+          "precio": 120.75
         },
         {
           "nombre": "Cal",
@@ -12105,7 +12290,7 @@
           "rendimiento": 5.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 0.1
+          "precio": 0.2
         },
         {
           "nombre": "Tornillo T2",
@@ -13204,7 +13389,7 @@
           "rendimiento": 0.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 12.0
+          "precio": 8.5
         },
         {
           "nombre": "Perfil Montante de 0.70X2.40 M",
@@ -16663,7 +16848,7 @@
           "rendimiento": 0.25,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 12.7
+          "precio": 78.0
         },
         {
           "nombre": "Ladrillo 6H 24X15X11 Cm",
@@ -16761,7 +16946,7 @@
           "rendimiento": 0.2,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 40.0
+          "precio": 136.5
         },
         {
           "nombre": "Sifón de PVC",
@@ -18525,7 +18710,7 @@
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 12.2
+          "precio": 12.0
         },
         {
           "nombre": "Albañil",
@@ -20290,7 +20475,7 @@
           "rendimiento": 7.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 10.8
+          "precio": 9.0
         },
         {
           "nombre": "Fierro Corrugado",
@@ -20301,7 +20486,7 @@
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 12.0
+          "precio": 10.8
         },
         {
           "nombre": "Alambre de Amarre",
@@ -20312,7 +20497,7 @@
           "rendimiento": 0.6,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 12.5
+          "precio": 12.0
         },
         {
           "nombre": "Clavos",
@@ -20600,7 +20785,7 @@
           "rendimiento": 0.04,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 26.0
+          "precio": 22.5
         },
         {
           "nombre": "Ayudante",
@@ -25332,7 +25517,7 @@
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 5.0
+          "precio": 3.0
         },
         {
           "nombre": "Especialista",
@@ -25752,7 +25937,7 @@
           "rendimiento": 0.07,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 19.5
+          "precio": 5.28
         },
         {
           "nombre": "Masilla",
@@ -26293,7 +26478,7 @@
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 10.5
+          "precio": 13.0
         },
         {
           "nombre": "Barniz para Madera",
@@ -28940,7 +29125,7 @@
           "rendimiento": 0.05,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 60.0
+          "precio": 16.0
         },
         {
           "nombre": "Especialista Calificado",
@@ -33798,7 +33983,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 350.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -33807,7 +33993,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -33816,7 +34003,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.7,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -33825,7 +34013,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 60.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "fierro_corrugado_kg"
         },
         {
           "nombre": "Alambre de Amarre",
@@ -33834,7 +34023,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 1.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "alambre_de_amarre_kg"
         },
         {
           "nombre": "Madera de Construcción",
@@ -33843,7 +34033,8 @@
           "categoria": "Madera",
           "rendimiento": 20.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -33852,7 +34043,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Albañil",
@@ -33861,7 +34053,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Armador",
@@ -33870,7 +34063,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_armador"
         },
         {
           "nombre": "Encofrador",
@@ -33879,7 +34073,8 @@
           "categoria": "Calificada",
           "rendimiento": 3.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_encofrador"
         },
         {
           "nombre": "Ayudante",
@@ -33888,7 +34083,8 @@
           "categoria": "No Calificada",
           "rendimiento": 8.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -33897,7 +34093,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.4,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         },
         {
           "nombre": "Vibradora",
@@ -33906,7 +34103,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.4,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_vibradora"
         }
       ]
     },
@@ -33982,7 +34180,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 350.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -33991,7 +34190,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -34000,7 +34200,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.7,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -34009,7 +34210,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 80.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "fierro_corrugado_kg"
         },
         {
           "nombre": "Alambre de Amarre",
@@ -34018,7 +34220,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "alambre_de_amarre_kg"
         },
         {
           "nombre": "Madera de Construcción",
@@ -34027,7 +34230,8 @@
           "categoria": "Madera",
           "rendimiento": 25.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -34036,7 +34240,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 1.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Albañil",
@@ -34045,7 +34250,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Armador",
@@ -34054,7 +34260,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_armador"
         },
         {
           "nombre": "Encofrador",
@@ -34063,7 +34270,8 @@
           "categoria": "Calificada",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_encofrador"
         },
         {
           "nombre": "Ayudante",
@@ -34072,7 +34280,8 @@
           "categoria": "No Calificada",
           "rendimiento": 10.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -34081,7 +34290,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         },
         {
           "nombre": "Vibradora",
@@ -34090,7 +34300,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_vibradora"
         }
       ]
     },
@@ -34111,7 +34322,8 @@
           "categoria": "Cemento y Cal",
           "rendimiento": 250.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "cemento_portland_kg"
         },
         {
           "nombre": "Arena Común",
@@ -34120,7 +34332,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.45,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "arena_comun_m3"
         },
         {
           "nombre": "Grava Común",
@@ -34129,7 +34342,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.65,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Piedra Bruta",
@@ -34138,7 +34352,8 @@
           "categoria": "Agregados",
           "rendimiento": 0.4,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "piedra_bruta_m3"
         },
         {
           "nombre": "Madera de Construcción",
@@ -34147,7 +34362,8 @@
           "categoria": "Madera",
           "rendimiento": 15.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -34156,7 +34372,8 @@
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Albañil",
@@ -34165,7 +34382,8 @@
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Encofrador",
@@ -34174,7 +34392,8 @@
           "categoria": "Calificada",
           "rendimiento": 2.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_encofrador"
         },
         {
           "nombre": "Ayudante",
@@ -34183,7 +34402,8 @@
           "categoria": "No Calificada",
           "rendimiento": 8.0,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora",
@@ -34192,7 +34412,8 @@
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
           "tipoCalculo": "DIRECTO",
-          "baseCalculo": ""
+          "baseCalculo": "",
+          "idCanonico": "eq_mezcladora"
         }
       ],
       "parametros": [
@@ -34249,7 +34470,7 @@
           "precio": 10.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "alcohol_al_70_l"
         },
         {
           "nombre": "Barbijo Bioseguridad KN95 5 Filtros",
@@ -34260,7 +34481,7 @@
           "precio": 10.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "barbijo_bioseguridad_kn95_5_filtros_pza"
         },
         {
           "nombre": "Basurero para Desechos Infecciosos",
@@ -34271,7 +34492,7 @@
           "precio": 60.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "basurero_para_desechos_infecciosos_pza"
         },
         {
           "nombre": "Calamina Ondulada N° 28",
@@ -34279,10 +34500,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cubiertas",
           "rendimiento": 10.0,
-          "precio": 34.08,
+          "precio": 59.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "calamina_ondulada_n_28_m2"
         },
         {
           "nombre": "Clavos",
@@ -34290,10 +34511,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 2.0,
-          "precio": 10.5,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Ducha Completa más Instalación",
@@ -34304,7 +34525,7 @@
           "precio": 150.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "ducha_completa_mas_instalacion_glb"
         },
         {
           "nombre": "Hipoclorito de Sodio",
@@ -34315,7 +34536,7 @@
           "precio": 12.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "hipoclorito_de_sodio_l"
         },
         {
           "nombre": "Jabón Líquido",
@@ -34326,7 +34547,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "jabon_liquido_l"
         },
         {
           "nombre": "Madera de Construcción",
@@ -34334,10 +34555,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 30.0,
-          "precio": 5.5,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Medidor de Temperatura Infrarrojo",
@@ -34348,7 +34569,7 @@
           "precio": 450.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "medidor_de_temperatura_infrarrojo_pza"
         },
         {
           "nombre": "Pediluvio",
@@ -34359,7 +34580,7 @@
           "precio": 80.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "pediluvio_pza"
         },
         {
           "nombre": "Señalética Acrílica con Adhesivo 40x30 Cm",
@@ -34370,7 +34591,7 @@
           "precio": 40.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "senaletica_acrilica_con_adhesivo_40x30_cm_pza"
         },
         {
           "nombre": "Profesional de Seguridad y Salud Ocupacional",
@@ -34381,7 +34602,7 @@
           "precio": 30.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_profesional_de_seguridad_y_salud_ocupacional"
         },
         {
           "nombre": "Ayudante",
@@ -34392,7 +34613,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [],
@@ -34430,7 +34651,7 @@
           "precio": 400.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "estructura_metalica_para_letrero_glb"
         },
         {
           "nombre": "Lona de PVC con Impresión Digital",
@@ -34441,7 +34662,7 @@
           "precio": 40.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "lona_de_pvc_con_impresion_digital_m2"
         },
         {
           "nombre": "Pintura Anticorrosiva",
@@ -34449,10 +34670,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
           "rendimiento": 1.3247,
-          "precio": 44.91,
+          "precio": 57.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "pintura_anticorrosiva_l"
         },
         {
           "nombre": "Ayudante",
@@ -34463,7 +34684,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Cerrajero",
@@ -34474,7 +34695,7 @@
           "precio": 20.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_cerrajero"
         }
       ],
       "parametros": [],
@@ -34507,10 +34728,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 0.07,
-          "precio": 5.5,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Clavos",
@@ -34518,10 +34739,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.01,
-          "precio": 10.5,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Yeso",
@@ -34532,7 +34753,7 @@
           "precio": 0.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "yeso_kg"
         },
         {
           "nombre": "Ayudante",
@@ -34543,7 +34764,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Topógrafo",
@@ -34554,7 +34775,7 @@
           "precio": 22.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_topografo"
         }
       ],
       "parametros": [
@@ -34604,7 +34825,7 @@
           "precio": 30.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "lama_m3"
         },
         {
           "nombre": "Ayudante",
@@ -34615,7 +34836,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Chofer",
@@ -34626,7 +34847,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_chofer"
         },
         {
           "nombre": "Operador de Equipo Pesado",
@@ -34634,10 +34855,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Equipo",
           "rendimiento": 0.1,
-          "precio": 22.5,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_operador_de_equipo_pesado"
         },
         {
           "nombre": "Retroexcavadora 110 HP",
@@ -34648,7 +34869,7 @@
           "precio": 250.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "retroexcavadora_110_hp_hr"
         },
         {
           "nombre": "Volqueta 6 m3",
@@ -34659,7 +34880,7 @@
           "precio": 110.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "eq_volqueta_6_m3"
         }
       ],
       "parametros": [
@@ -34712,10 +34933,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.08,
-          "precio": 85.0,
+          "precio": 94.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "turba_m3"
         },
         {
           "nombre": "Kikuyo",
@@ -34726,7 +34947,7 @@
           "precio": 25.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "kikuyo_m2"
         },
         {
           "nombre": "Especialista",
@@ -34734,10 +34955,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 0.5,
-          "precio": 22.5,
+          "precio": 21.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_especialista"
         },
         {
           "nombre": "Ayudante",
@@ -34748,7 +34969,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -34795,10 +35016,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.025,
-          "precio": 10.5,
+          "precio": 12.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "alambre_de_amarre_kg"
         },
         {
           "nombre": "Arena Lavada",
@@ -34809,7 +35030,7 @@
           "precio": 120.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "arena_lavada_m3"
         },
         {
           "nombre": "Cemento",
@@ -34820,7 +35041,7 @@
           "precio": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "cemento_kg"
         },
         {
           "nombre": "Grava Lavada",
@@ -34831,7 +35052,7 @@
           "precio": 120.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "grava_lavada_m3"
         },
         {
           "nombre": "Clavos",
@@ -34839,10 +35060,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.035,
-          "precio": 10.5,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Madera de Construcción",
@@ -34850,10 +35071,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 1.0,
-          "precio": 5.5,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Albañil",
@@ -34861,10 +35082,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
-          "precio": 20.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -34875,7 +35096,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora de Hormigón 320 Litros",
@@ -34886,7 +35107,7 @@
           "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mezcladora_de_hormigon_320_litros_hr"
         },
         {
           "nombre": "Vibradora de 2 HP",
@@ -34897,7 +35118,7 @@
           "precio": 20.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "vibradora_de_2_hp_hr"
         }
       ],
       "parametros": [
@@ -34937,10 +35158,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.15,
-          "precio": 100.0,
+          "precio": 120.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "piedra_manzana_m3"
         },
         {
           "nombre": "Albañil",
@@ -34948,10 +35169,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.15,
-          "precio": 20.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -34962,7 +35183,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -35011,7 +35232,7 @@
           "precio": 0.03,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "agua_comun_l"
         },
         {
           "nombre": "Arena Lavada",
@@ -35022,7 +35243,7 @@
           "precio": 120.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "arena_lavada_m3"
         },
         {
           "nombre": "Cemento",
@@ -35033,7 +35254,7 @@
           "precio": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "cemento_kg"
         },
         {
           "nombre": "Grava Lavada",
@@ -35044,7 +35265,7 @@
           "precio": 120.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "grava_lavada_m3"
         },
         {
           "nombre": "Albañil",
@@ -35052,10 +35273,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.3,
-          "precio": 20.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -35066,7 +35287,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
@@ -35112,10 +35333,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.01,
-          "precio": 125.0,
+          "precio": 136.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "arena_fina_m3"
         },
         {
           "nombre": "Arena Lavada",
@@ -35126,7 +35347,7 @@
           "precio": 120.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "arena_lavada_m3"
         },
         {
           "nombre": "Cemento",
@@ -35137,7 +35358,7 @@
           "precio": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "cemento_kg"
         },
         {
           "nombre": "Clavos",
@@ -35145,10 +35366,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.05,
-          "precio": 10.5,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "clavos_kg"
         },
         {
           "nombre": "Grava Lavada",
@@ -35159,7 +35380,7 @@
           "precio": 120.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "grava_lavada_m3"
         },
         {
           "nombre": "Madera de Construcción",
@@ -35167,10 +35388,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 3.33,
-          "precio": 5.5,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "madera_de_construccion_p2"
         },
         {
           "nombre": "Plastoformo 5mm",
@@ -35181,7 +35402,7 @@
           "precio": 8.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "plastoformo_5mm_pza"
         },
         {
           "nombre": "Albañil",
@@ -35189,10 +35410,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
-          "precio": 20.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -35203,7 +35424,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Vibradora de 2 HP",
@@ -35214,7 +35435,7 @@
           "precio": 20.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "vibradora_de_2_hp_hr"
         },
         {
           "nombre": "Mezcladora de Hormigón 320 Litros",
@@ -35225,7 +35446,7 @@
           "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mezcladora_de_hormigon_320_litros_hr"
         }
       ],
       "parametros": [
@@ -35269,7 +35490,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Cortadora de Hormigón",
@@ -35280,7 +35501,7 @@
           "precio": 100.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "cortadora_de_hormigon_hr"
         }
       ],
       "parametros": [
@@ -35323,7 +35544,7 @@
           "precio": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "cemento_kg"
         },
         {
           "nombre": "Arena Fina",
@@ -35331,10 +35552,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.018,
-          "precio": 125.0,
+          "precio": 136.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "arena_fina_m3"
         },
         {
           "nombre": "Grava Lavada",
@@ -35345,7 +35566,7 @@
           "precio": 120.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "grava_lavada_m3"
         },
         {
           "nombre": "Agua Común",
@@ -35356,7 +35577,7 @@
           "precio": 0.03,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "agua_comun_l"
         },
         {
           "nombre": "Albañil",
@@ -35364,10 +35585,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.45,
-          "precio": 20.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -35378,7 +35599,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Mezcladora de Hormigón 320 Litros",
@@ -35389,7 +35610,7 @@
           "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mezcladora_de_hormigon_320_litros_hr"
         }
       ],
       "parametros": [
@@ -35433,7 +35654,7 @@
           "precio": 70.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "fierro_liso_3_8_10mm_l_12m_barra"
         },
         {
           "nombre": "Fierro Liso 1/4″ (6mm)",
@@ -35444,7 +35665,7 @@
           "precio": 21.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "fierro_liso_1_4_6mm_barra"
         },
         {
           "nombre": "Electrodos",
@@ -35452,10 +35673,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.25,
-          "precio": 25.0,
+          "precio": 19.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "electrodos_kg"
         },
         {
           "nombre": "Pintura Sintética Color Azul",
@@ -35466,7 +35687,7 @@
           "precio": 131.67,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "pintura_sintetica_color_azul_gal"
         },
         {
           "nombre": "Especialista",
@@ -35474,10 +35695,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 0.2,
-          "precio": 22.5,
+          "precio": 21.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_especialista"
         },
         {
           "nombre": "Albañil",
@@ -35485,10 +35706,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.4,
-          "precio": 20.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Ayudante",
@@ -35499,7 +35720,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Camión de Transporte",
@@ -35510,7 +35731,7 @@
           "precio": 80.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "camion_de_transporte_hr"
         },
         {
           "nombre": "Dobladora",
@@ -35521,7 +35742,7 @@
           "precio": 11.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "dobladora_hr"
         }
       ],
       "parametros": [
@@ -35565,7 +35786,7 @@
           "precio": 3400.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "luminaria_tipo_farola_led_80w_clase_ii_pza"
         },
         {
           "nombre": "Cable Enchaquetado 2x6 mm²",
@@ -35576,7 +35797,7 @@
           "precio": 14.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "cable_enchaquetado_2x6_mm_m"
         },
         {
           "nombre": "Cemento",
@@ -35587,7 +35808,7 @@
           "precio": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "cemento_kg"
         },
         {
           "nombre": "Electrodos",
@@ -35595,10 +35816,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 1.2,
-          "precio": 25.0,
+          "precio": 19.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "electrodos_kg"
         },
         {
           "nombre": "Pintura al Aceite",
@@ -35609,7 +35830,7 @@
           "precio": 40.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "pintura_al_aceite_l"
         },
         {
           "nombre": "Arena Fina",
@@ -35617,10 +35838,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.1,
-          "precio": 125.0,
+          "precio": 136.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "arena_fina_m3"
         },
         {
           "nombre": "Cañería FG 2½″ L=6m",
@@ -35631,7 +35852,7 @@
           "precio": 550.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "caneria_fg_2_1_2_l_6m_pza"
         },
         {
           "nombre": "Cañería FG 2″ L=6m",
@@ -35642,7 +35863,7 @@
           "precio": 370.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "caneria_fg_2_l_6m_pza"
         },
         {
           "nombre": "Cañería FG 3″ L=6m",
@@ -35653,7 +35874,7 @@
           "precio": 712.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "caneria_fg_3_l_6m_pza"
         },
         {
           "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
@@ -35664,7 +35885,7 @@
           "precio": 20.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "fierro_corrugado_1_4_6mm_l_12m_barra"
         },
         {
           "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
@@ -35675,7 +35896,7 @@
           "precio": 52.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "fierro_corrugado_3_8_10mm_l_12m_barra"
         },
         {
           "nombre": "Grava Común",
@@ -35683,10 +35904,10 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.05,
-          "precio": 100.0,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "grava_comun_m3"
         },
         {
           "nombre": "Ladrillo Gambote",
@@ -35697,7 +35918,7 @@
           "precio": 1.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "ladrillo_gambote_pza"
         },
         {
           "nombre": "Politubo 3/4″",
@@ -35708,7 +35929,7 @@
           "precio": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "politubo_3_4_m"
         },
         {
           "nombre": "Cable Enchaquetado 3x2.5 mm²",
@@ -35719,7 +35940,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "cable_enchaquetado_3x2_5_mm_m"
         },
         {
           "nombre": "Perno 3/8″ x 4 con Arandela",
@@ -35730,7 +35951,7 @@
           "precio": 3.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "perno_3_8_x_4_con_arandela_pza"
         },
         {
           "nombre": "Plancha de Acero 5/16″ (8mm)",
@@ -35741,7 +35962,7 @@
           "precio": 945.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "plancha_de_acero_5_16_8mm_hoja"
         },
         {
           "nombre": "Plancha Metálica 10mm",
@@ -35752,7 +35973,7 @@
           "precio": 875.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "plancha_metalica_10mm_m2"
         },
         {
           "nombre": "Electricista",
@@ -35760,10 +35981,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
-          "precio": 22.5,
+          "precio": 22.25,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_electricista"
         },
         {
           "nombre": "Ayudante",
@@ -35774,7 +35995,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         },
         {
           "nombre": "Chofer",
@@ -35785,7 +36006,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_chofer"
         },
         {
           "nombre": "Albañil",
@@ -35793,10 +36014,10 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
-          "precio": 20.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_albanil"
         },
         {
           "nombre": "Cerrajero",
@@ -35807,7 +36028,7 @@
           "precio": 20.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_cerrajero"
         },
         {
           "nombre": "Camión Grúa",
@@ -35818,7 +36039,7 @@
           "precio": 350.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "camion_grua_hr"
         }
       ],
       "parametros": [],
@@ -35856,7 +36077,7 @@
           "precio": 115.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "pintura_super_latex_gal"
         },
         {
           "nombre": "Sellador para Pared",
@@ -35867,7 +36088,7 @@
           "precio": 5.28,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "sellador_para_pared_l"
         },
         {
           "nombre": "Pintor",
@@ -35878,7 +36099,7 @@
           "precio": 16.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_pintor"
         },
         {
           "nombre": "Ayudante",
@@ -35889,7 +36110,7 @@
           "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": ""
+          "idCanonico": "mo_ayudante"
         }
       ],
       "parametros": [
