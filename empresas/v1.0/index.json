@@ -1,27 +1,17 @@
 {
-  "version": "v20260529-203000",
+  "version": "v20260611-121657",
   "empresas": [
     {
-      "id": "ferreteria-demo-central-cbba",
-      "nombre": "Ferretería Demo Central",
+      "id": "ladrillera-de-prueba-cochabamba",
+      "nombre": "Ladrillera de prueba",
       "ciudad": "Cochabamba",
-      "tipo": "FERRETERIA",
+      "pais": "BO",
+      "tipo": "FABRICANTE",
       "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-03",
-      "fechaUltimaColaboracion": "2026-05",
-      "telefono": "70712345",
-      "descripcion": "Empresa de ejemplo. Colabora con listas de precios de materiales de construcción para Cochabamba y áreas cercanas."
-    },
-    {
-      "id": "distribuidora-andina-demo-lpb",
-      "nombre": "Distribuidora Andina Demo",
-      "ciudad": "La Paz",
-      "tipo": "DISTRIBUIDOR",
-      "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-02",
-      "fechaUltimaColaboracion": "2026-04",
-      "telefono": null,
-      "descripcion": "Empresa de ejemplo. Distribuidor mayorista de acero, cemento y materiales eléctricos para el eje troncal."
+      "fechaPrimeraColaboracion": "2026-06",
+      "fechaUltimaColaboracion": "2026-06",
+      "telefono": "60348854",
+      "descripcion": "Empresa para probar la funcionalidad - arqon"
     }
   ]
 }
