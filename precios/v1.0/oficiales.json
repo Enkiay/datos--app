@@ -64,7 +64,7 @@
           "nombre": "Accesorios PVC (codos, tees)",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 35,
           "unidad": "Glb",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "accesorios_pvc_codos_tees_glb"
@@ -667,7 +667,7 @@
           "nombre": "Cable THW 12 AWG",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 4,
           "unidad": "m",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "cable_thw_12_awg_m"
@@ -694,7 +694,7 @@
           "nombre": "Caja de Registro Eléctrica",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 8.5,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "caja_de_registro_electrica_pza"
@@ -784,7 +784,7 @@
           "nombre": "Calamina Galvanizada",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 45,
           "unidad": "m2",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "calamina_galvanizada_m2"
@@ -1027,7 +1027,7 @@
           "nombre": "Cerámica Esmaltada 30×30",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 55,
           "unidad": "m2",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "ceramica_esmaltada_30_30_m2"
@@ -1648,7 +1648,7 @@
           "nombre": "Impermeabilizante Asfáltico",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 15,
           "unidad": "Kg",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "impermeabilizante_asfaltico_kg"
@@ -1666,7 +1666,7 @@
           "nombre": "Interruptor Simple",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 15,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "interruptor_simple_pza"
@@ -2431,7 +2431,7 @@
           "nombre": "Pegamento Cerámico",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 2.5,
           "unidad": "Kg",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pegamento_ceramico_kg"
@@ -2737,7 +2737,7 @@
           "nombre": "Pintura Latex Exterior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 42,
           "unidad": "Lt",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pintura_latex_exterior_lt"
@@ -2746,7 +2746,7 @@
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 35,
           "unidad": "Lt",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pintura_latex_interior_lt"
@@ -3376,7 +3376,7 @@
           "nombre": "Tablero de Distribución 6 circuitos",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 180,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tablero_de_distribucion_6_circuitos_pza"
@@ -3610,7 +3610,7 @@
           "nombre": "Tomacorriente Doble",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 18,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tomacorriente_doble_pza"
@@ -4330,7 +4330,7 @@
           "nombre": "Plomero",
           "codigo": "",
           "tipoInsumo": "MANO_DE_OBRA",
-          "precio": 0,
+          "precio": 25.5,
           "unidad": "Hr",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "mo_plomero"
@@ -4749,7 +4749,7 @@
           "nombre": "Accesorios PVC (codos, tees)",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 35,
           "unidad": "Glb",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "accesorios_pvc_codos_tees_glb"
@@ -5352,7 +5352,7 @@
           "nombre": "Cable THW 12 AWG",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 4,
           "unidad": "m",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "cable_thw_12_awg_m"
@@ -5379,7 +5379,7 @@
           "nombre": "Caja de Registro Eléctrica",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 8.5,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "caja_de_registro_electrica_pza"
@@ -5469,7 +5469,7 @@
           "nombre": "Calamina Galvanizada",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 45,
           "unidad": "m2",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "calamina_galvanizada_m2"
@@ -5712,7 +5712,7 @@
           "nombre": "Cerámica Esmaltada 30×30",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 55,
           "unidad": "m2",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "ceramica_esmaltada_30_30_m2"
@@ -6333,7 +6333,7 @@
           "nombre": "Impermeabilizante Asfáltico",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 15,
           "unidad": "Kg",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "impermeabilizante_asfaltico_kg"
@@ -6351,7 +6351,7 @@
           "nombre": "Interruptor Simple",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 15,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "interruptor_simple_pza"
@@ -7116,7 +7116,7 @@
           "nombre": "Pegamento Cerámico",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 2.5,
           "unidad": "Kg",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pegamento_ceramico_kg"
@@ -7422,7 +7422,7 @@
           "nombre": "Pintura Latex Exterior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 42,
           "unidad": "Lt",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pintura_latex_exterior_lt"
@@ -7431,7 +7431,7 @@
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 35,
           "unidad": "Lt",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pintura_latex_interior_lt"
@@ -8061,7 +8061,7 @@
           "nombre": "Tablero de Distribución 6 circuitos",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 180,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tablero_de_distribucion_6_circuitos_pza"
@@ -8295,7 +8295,7 @@
           "nombre": "Tomacorriente Doble",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 18,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tomacorriente_doble_pza"
@@ -9015,7 +9015,7 @@
           "nombre": "Plomero",
           "codigo": "",
           "tipoInsumo": "MANO_DE_OBRA",
-          "precio": 0,
+          "precio": 25.5,
           "unidad": "Hr",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "mo_plomero"
@@ -9434,7 +9434,7 @@
           "nombre": "Accesorios PVC (codos, tees)",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 35,
           "unidad": "Glb",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "accesorios_pvc_codos_tees_glb"
@@ -10037,7 +10037,7 @@
           "nombre": "Cable THW 12 AWG",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 4,
           "unidad": "m",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "cable_thw_12_awg_m"
@@ -10064,7 +10064,7 @@
           "nombre": "Caja de Registro Eléctrica",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 8.5,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "caja_de_registro_electrica_pza"
@@ -10154,7 +10154,7 @@
           "nombre": "Calamina Galvanizada",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 45,
           "unidad": "m2",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "calamina_galvanizada_m2"
@@ -10397,7 +10397,7 @@
           "nombre": "Cerámica Esmaltada 30×30",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 55,
           "unidad": "m2",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "ceramica_esmaltada_30_30_m2"
@@ -11018,7 +11018,7 @@
           "nombre": "Impermeabilizante Asfáltico",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 15,
           "unidad": "Kg",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "impermeabilizante_asfaltico_kg"
@@ -11036,7 +11036,7 @@
           "nombre": "Interruptor Simple",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 15,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "interruptor_simple_pza"
@@ -11801,7 +11801,7 @@
           "nombre": "Pegamento Cerámico",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 2.5,
           "unidad": "Kg",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pegamento_ceramico_kg"
@@ -12107,7 +12107,7 @@
           "nombre": "Pintura Latex Exterior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 42,
           "unidad": "Lt",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pintura_latex_exterior_lt"
@@ -12116,7 +12116,7 @@
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 35,
           "unidad": "Lt",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pintura_latex_interior_lt"
@@ -12746,7 +12746,7 @@
           "nombre": "Tablero de Distribución 6 circuitos",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 180,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tablero_de_distribucion_6_circuitos_pza"
@@ -12980,7 +12980,7 @@
           "nombre": "Tomacorriente Doble",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 0,
+          "precio": 18,
           "unidad": "Pza",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tomacorriente_doble_pza"
@@ -13700,7 +13700,7 @@
           "nombre": "Plomero",
           "codigo": "",
           "tipoInsumo": "MANO_DE_OBRA",
-          "precio": 0,
+          "precio": 25.5,
           "unidad": "Hr",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "mo_plomero"

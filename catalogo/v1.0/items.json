@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-precios-decididos",
+  "version": "v20260611-precios-completos",
   "schemaVersion": 1,
   "items": [
     {
@@ -18,6 +18,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 6.0,
+          "precio": 0.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "yeso_kg"
@@ -28,6 +29,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.7,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -38,6 +40,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.4,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -75,6 +78,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 30.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -85,6 +89,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -95,6 +100,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
+          "precio": 21.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_carpintero"
@@ -105,6 +111,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 2.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -142,6 +149,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 15.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -152,6 +160,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.3,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -162,6 +171,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 3.0,
+          "precio": 21.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_carpintero"
@@ -172,6 +182,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 1.5,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -208,6 +219,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 5.0,
+          "precio": 10.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "fierro_corrugado_kg"
@@ -218,6 +230,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 2.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -228,6 +241,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 2.0,
+          "precio": 21.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_carpintero"
@@ -238,6 +252,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 1.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -268,6 +283,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 12.0,
+          "precio": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cable_thw_12_awg_m"
@@ -278,6 +294,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
+          "precio": 8.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "caja_de_registro_electrica_pza"
@@ -288,6 +305,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "interruptor_simple_pza"
@@ -298,6 +316,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 2.0,
+          "precio": 22.25,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_electricista"
@@ -308,6 +327,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 1.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -331,6 +351,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 10.0,
+          "precio": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cable_thw_12_awg_m"
@@ -341,6 +362,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
+          "precio": 8.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "caja_de_registro_electrica_pza"
@@ -351,6 +373,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
+          "precio": 18.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "tomacorriente_doble_pza"
@@ -361,6 +384,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 1.5,
+          "precio": 22.25,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_electricista"
@@ -371,6 +395,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.8,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -405,6 +430,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
           "rendimiento": 1.0,
+          "precio": 35.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "accesorios_pvc_codos_tees_glb"
@@ -415,6 +441,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 2.5,
+          "precio": 25.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_plomero"
@@ -425,6 +452,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 1.5,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -459,6 +487,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
           "rendimiento": 1.0,
+          "precio": 35.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "accesorios_pvc_codos_tees_glb"
@@ -469,6 +498,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 3.0,
+          "precio": 25.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_plomero"
@@ -479,6 +509,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 2.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -502,6 +533,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 8.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -512,6 +544,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.015,
+          "precio": 136.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_fina_m3"
@@ -522,6 +555,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.6,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -532,6 +566,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.6,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -568,6 +603,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 5.0,
+          "precio": 0.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "yeso_kg"
@@ -578,6 +614,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -588,6 +625,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.3,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -624,6 +662,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 1.05,
+          "precio": 55.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ceramica_esmaltada_30_30_m2"
@@ -634,6 +673,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Adhesivos",
           "rendimiento": 5.0,
+          "precio": 2.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "pegamento_ceramico_kg"
@@ -644,6 +684,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.8,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -654,6 +695,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.4,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -690,6 +732,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
           "rendimiento": 0.35,
+          "precio": 35.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "pintura_latex_interior_lt"
@@ -700,6 +743,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Ferretería",
           "rendimiento": 0.25,
+          "precio": 3.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "lija_para_pared_hoja"
@@ -710,6 +754,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.3,
+          "precio": 16.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_pintor"
@@ -720,6 +765,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.15,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -756,6 +802,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
           "rendimiento": 0.4,
+          "precio": 42.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "pintura_latex_exterior_lt"
@@ -766,6 +813,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Ferretería",
           "rendimiento": 0.25,
+          "precio": 3.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "lija_para_pared_hoja"
@@ -776,6 +824,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.35,
+          "precio": 16.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_pintor"
@@ -786,6 +835,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.18,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -822,6 +872,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 12.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -832,6 +883,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.015,
+          "precio": 136.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_fina_m3"
@@ -842,6 +894,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -852,6 +905,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.5,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -888,6 +942,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Impermeabilización",
           "rendimiento": 1.5,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "impermeabilizante_asfaltico_kg"
@@ -898,6 +953,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.3,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -908,6 +964,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.2,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -944,6 +1001,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cubiertas",
           "rendimiento": 1.1,
+          "precio": 45.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "calamina_galvanizada_m2"
@@ -954,6 +1012,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 5.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -964,6 +1023,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.3,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -974,6 +1034,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
+          "precio": 21.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_carpintero"
@@ -984,6 +1045,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.5,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -1020,6 +1082,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 10.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -1030,6 +1093,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -1040,6 +1104,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
+          "precio": 12.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "alambre_de_amarre_kg"
@@ -1050,6 +1115,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 8.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -1060,6 +1126,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 8.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -1090,6 +1157,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 3.2,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -1155,6 +1223,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 200.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -1165,6 +1234,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.45,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -1175,6 +1245,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.65,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -1185,6 +1256,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 2.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -1195,6 +1267,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 6.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -1205,6 +1278,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
@@ -1270,6 +1344,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 200.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -1280,6 +1355,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.4,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -1290,6 +1366,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.65,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -1300,6 +1377,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.5,
+          "precio": 115.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "piedra_bruta_m3"
@@ -1310,6 +1388,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 3.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -1320,6 +1399,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 6.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -1330,6 +1410,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
@@ -1395,6 +1476,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 350.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -1405,6 +1487,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.5,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -1415,6 +1498,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.7,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -1425,6 +1509,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 60.0,
+          "precio": 10.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "fierro_corrugado_kg"
@@ -1435,6 +1520,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 1.5,
+          "precio": 12.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "alambre_de_amarre_kg"
@@ -1445,6 +1531,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 30.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -1455,6 +1542,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 1.5,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -1465,6 +1553,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 3.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -1475,6 +1564,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_armador"
@@ -1485,6 +1575,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 5.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_encofrador"
@@ -1495,6 +1586,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 10.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -1505,6 +1597,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
@@ -1515,6 +1608,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_vibradora"
@@ -1581,6 +1675,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 50.0,
+          "precio": 2.2,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_6h_24x15x11_pza"
@@ -1591,6 +1686,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 12.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -1601,6 +1697,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.03,
+          "precio": 136.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_fina_m3"
@@ -1611,6 +1708,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 1.2,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -1621,6 +1719,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 1.2,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -1657,6 +1756,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.1,
+          "precio": 115.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "piedra_bruta_m3"
@@ -1667,6 +1767,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 10.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -1677,6 +1778,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.015,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -1687,6 +1789,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.02,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -1697,6 +1800,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.6,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -1707,6 +1811,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 1.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -1717,6 +1822,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.1,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
@@ -1753,6 +1859,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 350.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -1763,6 +1870,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.5,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -1773,6 +1881,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.7,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -1783,6 +1892,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 80.0,
+          "precio": 10.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "fierro_corrugado_kg"
@@ -1793,6 +1903,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 2.0,
+          "precio": 12.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "alambre_de_amarre_kg"
@@ -1803,6 +1914,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 25.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -1813,6 +1925,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 1.0,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -1823,6 +1936,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -1833,6 +1947,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_armador"
@@ -1843,6 +1958,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 4.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_encofrador"
@@ -1853,6 +1969,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 10.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -1863,6 +1980,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
@@ -1873,6 +1991,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_vibradora"
@@ -1903,6 +2022,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 25.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -1913,6 +2033,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.02,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -1923,6 +2044,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.03,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -1933,6 +2055,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 10.0,
+          "precio": 10.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "fierro_corrugado_kg"
@@ -1943,6 +2066,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.3,
+          "precio": 12.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "alambre_de_amarre_kg"
@@ -1953,6 +2077,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 8.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -1963,6 +2088,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -1973,6 +2099,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 1.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -1983,6 +2110,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.8,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_armador"
@@ -1993,6 +2121,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 1.5,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_encofrador"
@@ -2003,6 +2132,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 3.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2013,6 +2143,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.3,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
@@ -2023,6 +2154,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.2,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_vibradora"
@@ -2059,6 +2191,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 30.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -2069,6 +2202,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.03,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -2079,6 +2213,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.04,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -2089,6 +2224,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 8.0,
+          "precio": 10.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "fierro_corrugado_kg"
@@ -2099,6 +2235,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.2,
+          "precio": 12.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "alambre_de_amarre_kg"
@@ -2109,6 +2246,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 10.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -2119,6 +2257,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -2129,6 +2268,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 1.5,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -2139,6 +2279,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 1.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_armador"
@@ -2149,6 +2290,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 2.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_encofrador"
@@ -2159,6 +2301,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 4.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2169,6 +2312,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.3,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
@@ -2179,6 +2323,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.2,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_vibradora"
@@ -2215,6 +2360,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 10.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -2225,6 +2371,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.025,
+          "precio": 136.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_fina_m3"
@@ -2235,6 +2382,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 1.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -2245,6 +2393,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 1.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2282,6 +2431,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 50.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -2292,6 +2442,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cubiertas",
           "rendimiento": 6.0,
+          "precio": 45.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "calamina_galvanizada_m2"
@@ -2302,6 +2453,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 3.0,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -2312,6 +2464,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 16.0,
+          "precio": 21.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_carpintero"
@@ -2322,6 +2475,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 16.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2345,6 +2499,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 0.05,
+          "precio": 0.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "yeso_kg"
@@ -2355,6 +2510,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 0.1,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -2365,6 +2521,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.01,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -2375,6 +2532,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.03,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -2385,6 +2543,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.03,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2421,6 +2580,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 1.5,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -2431,6 +2591,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 3.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2473,6 +2634,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -2483,6 +2645,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 1.5,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2525,6 +2688,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.1,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2561,6 +2725,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 15.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -2571,6 +2736,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.015,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -2581,6 +2747,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.025,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -2591,6 +2758,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.5,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -2601,6 +2769,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.5,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2611,6 +2780,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.1,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
@@ -2647,6 +2817,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 0.35,
+          "precio": 55.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ceramica_esmaltada_30_30_m2"
@@ -2657,6 +2828,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Adhesivos",
           "rendimiento": 1.5,
+          "precio": 2.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "pegamento_ceramico_kg"
@@ -2667,6 +2839,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.3,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -2677,6 +2850,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 0.15,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2708,6 +2882,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 1.0,
+          "precio": 180.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "tablero_de_distribucion_6_circuitos_pza"
@@ -2718,6 +2893,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 6.0,
+          "precio": 4.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cable_thw_12_awg_m"
@@ -2728,6 +2904,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
+          "precio": 22.25,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_electricista"
@@ -2738,6 +2915,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 2.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -2762,6 +2940,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 80.0,
+          "precio": 2.2,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_6h_24x15x11_pza"
@@ -2772,6 +2951,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 25.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -2782,6 +2962,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.05,
+          "precio": 136.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_fina_m3"
@@ -2792,6 +2973,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 6.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -2802,6 +2984,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 4.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -34135,6 +34318,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 350.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -34145,6 +34329,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.5,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -34155,6 +34340,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.7,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -34165,6 +34351,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 60.0,
+          "precio": 10.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "fierro_corrugado_kg"
@@ -34175,6 +34362,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 1.5,
+          "precio": 12.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "alambre_de_amarre_kg"
@@ -34185,6 +34373,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 20.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -34195,6 +34384,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 1.0,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -34205,6 +34395,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 3.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -34215,6 +34406,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 3.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_armador"
@@ -34225,6 +34417,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 3.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_encofrador"
@@ -34235,6 +34428,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 8.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -34245,6 +34439,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.4,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
@@ -34255,6 +34450,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.4,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_vibradora"
@@ -34332,6 +34528,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 350.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -34342,6 +34539,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.5,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -34352,6 +34550,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.7,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -34362,6 +34561,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 80.0,
+          "precio": 10.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "fierro_corrugado_kg"
@@ -34372,6 +34572,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 2.0,
+          "precio": 12.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "alambre_de_amarre_kg"
@@ -34382,6 +34583,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 25.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -34392,6 +34594,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 1.0,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -34402,6 +34605,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -34412,6 +34616,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_armador"
@@ -34422,6 +34627,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 4.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_encofrador"
@@ -34432,6 +34638,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 10.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -34442,6 +34649,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
@@ -34452,6 +34660,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_vibradora"
@@ -34474,6 +34683,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 250.0,
+          "precio": 0.99,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg"
@@ -34484,6 +34694,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.45,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "arena_comun_m3"
@@ -34494,6 +34705,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.65,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "grava_comun_m3"
@@ -34504,6 +34716,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 0.4,
+          "precio": 115.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "piedra_bruta_m3"
@@ -34514,6 +34727,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
           "rendimiento": 15.0,
+          "precio": 9.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "madera_de_construccion_p2"
@@ -34524,6 +34738,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 0.5,
+          "precio": 12.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_kg"
@@ -34534,6 +34749,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 4.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_albanil"
@@ -34544,6 +34760,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
           "rendimiento": 2.0,
+          "precio": 20.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_encofrador"
@@ -34554,6 +34771,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
           "rendimiento": 8.0,
+          "precio": 15.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante"
@@ -34564,6 +34782,7 @@
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
           "rendimiento": 0.5,
+          "precio": 22.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "eq_mezcladora"
