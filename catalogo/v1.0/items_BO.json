@@ -105,13 +105,13 @@
       "parametros": [
         {
           "nombre": "Ancho",
-          "valorDefault": 0.9,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
           "nombre": "Alto",
-          "valorDefault": 2.1,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -168,13 +168,13 @@
       "parametros": [
         {
           "nombre": "Ancho",
-          "valorDefault": 1.2,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         },
         {
           "nombre": "Alto",
-          "valorDefault": 1.1,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
