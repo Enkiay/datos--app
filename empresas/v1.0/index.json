@@ -1,23 +1,24 @@
 {
-  "version": "v20260611-124734",
+  "version": "v20260611-133241",
   "empresas": [
     {
-      "id": "ladrillera-de-prueba-cochabamba",
-      "nombre": "Ladrillera de prueba",
+      "id": "empresa-de-prueba-1-cochabamba",
+      "nombre": "Empresa de Prueba 1",
       "ciudad": "Cochabamba",
       "pais": "BO",
-      "tipo": "FABRICANTE",
+      "tipo": "FERRETERIA",
       "estado": "ACTIVA",
       "fechaPrimeraColaboracion": "2026-06",
       "fechaUltimaColaboracion": "2026-06",
-      "telefono": "60348854",
-      "descripcion": "Empresa para probar la funcionalidad - arqon",
-      "rubro": "Labrillos",
-      "email": "superenkiay2@gmail.com",
-      "sitioWeb": null,
+      "telefono": "4534523",
+      "descripcion": "empresa de prueba, ladrillo , cemento",
+      "rubro": "cemento ladrillo pvc",
+      "email": "superenkiay4@gmail.com",
+      "sitioWeb": "www.prueba.com",
       "tags": [
-        "ladrillo gambote",
-        "labrillos"
+        "cemento",
+        "accesorios galvanizado ø 1″",
+        "cemento ladrillo pvc"
       ]
     }
   ]
