@@ -1,5 +1,5 @@
 {
-  "version": "2026-06-11",
+  "version": "2026-06-11.1",
   "fuente": "Catálogo ArqOn + aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -2449,7 +2449,7 @@
           "nombre": "Pegamento para Césped Sintético",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 16,
+          "precio": 60,
           "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pegamento_para_cesped_sintetico_l"
@@ -2575,7 +2575,7 @@
           "nombre": "Perfil Solera de 0.70X3.00 M",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 8.5,
+          "precio": 12,
           "unidad": "m",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "perfil_solera_de_0_70x3_00_m_m"
@@ -3133,7 +3133,7 @@
           "nombre": "Sellador para Pared",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 5.28,
+          "precio": 19.5,
           "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "sellador_para_pared_l"
@@ -3686,24 +3686,6 @@
           "unidad": "m",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tuberia_galvanizada_fg_2_m"
-        },
-        {
-          "nombre": "Tubería PVC 1/2\\",
-          "codigo": "",
-          "tipoInsumo": "MATERIAL",
-          "precio": 0,
-          "unidad": "m",
-          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "tuberia_pvc_1_2_m"
-        },
-        {
-          "nombre": "Tubería PVC 4\\",
-          "codigo": "",
-          "tipoInsumo": "MATERIAL",
-          "precio": 0,
-          "unidad": "m",
-          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "tuberia_pvc_4_m"
         },
         {
           "nombre": "Tubería PVC Clase 9 Ø 3″ con Junta",
@@ -4402,7 +4384,7 @@
           "nombre": "Topógrafo",
           "codigo": "",
           "tipoInsumo": "MANO_DE_OBRA",
-          "precio": 22.5,
+          "precio": 26,
           "unidad": "Hr",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "mo_topografo"
@@ -4682,18 +4664,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "unidad": "m",
-          "nota": "PENDIENTE: el catálogo no trae precio para este insumo — definir",
+          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tuberia_pvc_1_2_m",
-          "precio": 0
+          "precio": 5
         },
         {
           "nombre": "Tubería PVC 4\"",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "unidad": "m",
-          "nota": "PENDIENTE: el catálogo no trae precio para este insumo — definir",
+          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tuberia_pvc_4_m",
-          "precio": 0
+          "precio": 25
         },
         {
           "nombre": "Cañería FG 2″ L=6m",
@@ -7152,7 +7134,7 @@
           "nombre": "Pegamento para Césped Sintético",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 16,
+          "precio": 60,
           "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pegamento_para_cesped_sintetico_l"
@@ -7278,7 +7260,7 @@
           "nombre": "Perfil Solera de 0.70X3.00 M",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 8.5,
+          "precio": 12,
           "unidad": "m",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "perfil_solera_de_0_70x3_00_m_m"
@@ -7836,7 +7818,7 @@
           "nombre": "Sellador para Pared",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 5.28,
+          "precio": 19.5,
           "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "sellador_para_pared_l"
@@ -8389,24 +8371,6 @@
           "unidad": "m",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tuberia_galvanizada_fg_2_m"
-        },
-        {
-          "nombre": "Tubería PVC 1/2\\",
-          "codigo": "",
-          "tipoInsumo": "MATERIAL",
-          "precio": 0,
-          "unidad": "m",
-          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "tuberia_pvc_1_2_m"
-        },
-        {
-          "nombre": "Tubería PVC 4\\",
-          "codigo": "",
-          "tipoInsumo": "MATERIAL",
-          "precio": 0,
-          "unidad": "m",
-          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "tuberia_pvc_4_m"
         },
         {
           "nombre": "Tubería PVC Clase 9 Ø 3″ con Junta",
@@ -9105,7 +9069,7 @@
           "nombre": "Topógrafo",
           "codigo": "",
           "tipoInsumo": "MANO_DE_OBRA",
-          "precio": 22.5,
+          "precio": 26,
           "unidad": "Hr",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "mo_topografo"
@@ -9385,18 +9349,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "unidad": "m",
-          "nota": "PENDIENTE: el catálogo no trae precio para este insumo — definir",
+          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tuberia_pvc_1_2_m",
-          "precio": 0
+          "precio": 5
         },
         {
           "nombre": "Tubería PVC 4\"",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "unidad": "m",
-          "nota": "PENDIENTE: el catálogo no trae precio para este insumo — definir",
+          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tuberia_pvc_4_m",
-          "precio": 0
+          "precio": 25
         },
         {
           "nombre": "Cañería FG 2″ L=6m",
@@ -11855,7 +11819,7 @@
           "nombre": "Pegamento para Césped Sintético",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 16,
+          "precio": 60,
           "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "pegamento_para_cesped_sintetico_l"
@@ -11981,7 +11945,7 @@
           "nombre": "Perfil Solera de 0.70X3.00 M",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 8.5,
+          "precio": 12,
           "unidad": "m",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "perfil_solera_de_0_70x3_00_m_m"
@@ -12539,7 +12503,7 @@
           "nombre": "Sellador para Pared",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 5.28,
+          "precio": 19.5,
           "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "sellador_para_pared_l"
@@ -13092,24 +13056,6 @@
           "unidad": "m",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tuberia_galvanizada_fg_2_m"
-        },
-        {
-          "nombre": "Tubería PVC 1/2\\",
-          "codigo": "",
-          "tipoInsumo": "MATERIAL",
-          "precio": 0,
-          "unidad": "m",
-          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "tuberia_pvc_1_2_m"
-        },
-        {
-          "nombre": "Tubería PVC 4\\",
-          "codigo": "",
-          "tipoInsumo": "MATERIAL",
-          "precio": 0,
-          "unidad": "m",
-          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "tuberia_pvc_4_m"
         },
         {
           "nombre": "Tubería PVC Clase 9 Ø 3″ con Junta",
@@ -13808,7 +13754,7 @@
           "nombre": "Topógrafo",
           "codigo": "",
           "tipoInsumo": "MANO_DE_OBRA",
-          "precio": 22.5,
+          "precio": 26,
           "unidad": "Hr",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "mo_topografo"
@@ -14088,18 +14034,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "unidad": "m",
-          "nota": "PENDIENTE: el catálogo no trae precio para este insumo — definir",
+          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tuberia_pvc_1_2_m",
-          "precio": 0
+          "precio": 5
         },
         {
           "nombre": "Tubería PVC 4\"",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "unidad": "m",
-          "nota": "PENDIENTE: el catálogo no trae precio para este insumo — definir",
+          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "tuberia_pvc_4_m",
-          "precio": 0
+          "precio": 25
         },
         {
           "nombre": "Cañería FG 2″ L=6m",

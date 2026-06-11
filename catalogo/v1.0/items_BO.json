@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-174035-insumos",
+  "version": "v20260611-precios-decididos",
   "schemaVersion": 1,
   "items": [
     {
@@ -394,6 +394,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
           "rendimiento": 6.0,
+          "precio": 5.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "tuberia_pvc_1_2_m"
@@ -447,6 +448,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
           "rendimiento": 4.0,
+          "precio": 25.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "tuberia_pvc_4_m"
@@ -13389,7 +13391,7 @@
           "rendimiento": 0.8,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 8.5
+          "precio": 12.0
         },
         {
           "nombre": "Perfil Montante de 0.70X2.40 M",
@@ -13535,7 +13537,7 @@
           "rendimiento": 1.88,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 8.5
+          "precio": 12.0
         },
         {
           "nombre": "Perfil Montante de 0.70X2.40 M",
@@ -20785,7 +20787,7 @@
           "rendimiento": 0.04,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 22.5
+          "precio": 26.0
         },
         {
           "nombre": "Ayudante",
@@ -25937,7 +25939,7 @@
           "rendimiento": 0.07,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 5.28
+          "precio": 19.5
         },
         {
           "nombre": "Masilla",
@@ -29125,7 +29127,7 @@
           "rendimiento": 0.05,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 16.0
+          "precio": 60.0
         },
         {
           "nombre": "Especialista Calificado",
@@ -29216,7 +29218,7 @@
           "rendimiento": 0.3,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "precio": 16.0
+          "precio": 60.0
         },
         {
           "nombre": "Especialista Calificado",
@@ -34772,7 +34774,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
           "rendimiento": 0.02,
-          "precio": 22.5,
+          "precio": 26.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_topografo"
@@ -36085,7 +36087,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Adhesivos",
           "rendimiento": 0.1514,
-          "precio": 5.28,
+          "precio": 19.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "sellador_para_pared_l"
