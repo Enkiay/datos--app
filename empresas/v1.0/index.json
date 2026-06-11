@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-121657",
+  "version": "v20260611-123237",
   "empresas": [
     {
       "id": "ladrillera-de-prueba-cochabamba",
@@ -11,7 +11,11 @@
       "fechaPrimeraColaboracion": "2026-06",
       "fechaUltimaColaboracion": "2026-06",
       "telefono": "60348854",
-      "descripcion": "Empresa para probar la funcionalidad - arqon"
+      "descripcion": "Empresa para probar la funcionalidad - arqon",
+      "tags": [
+        "ladrillo gambote",
+        "labrillos"
+      ]
     }
   ]
 }
