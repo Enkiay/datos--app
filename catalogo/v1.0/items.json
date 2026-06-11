@@ -1,5 +1,5 @@
 {
-  "version": "v20260606-180000-nodash",
+  "version": "v20260611-100000-formulas",
   "schemaVersion": 1,
   "items": [
     {
@@ -64,6 +64,7 @@
       "categoria": "Carpintería",
       "verificado": true,
       "tipoIfc": "DOOR",
+      "formulaResultado": "1",
       "insumos": [
         {
           "nombre": "Madera de Construcción",
@@ -126,6 +127,7 @@
       "categoria": "Carpintería",
       "verificado": true,
       "tipoIfc": "WINDOW",
+      "formulaResultado": "1",
       "insumos": [
         {
           "nombre": "Madera de Construcción",
@@ -3048,7 +3050,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -3058,7 +3060,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "Calamina",
       "tags": []
@@ -6772,7 +6774,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -6782,7 +6784,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "Losas",
       "tags": [
@@ -6947,7 +6949,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -6957,7 +6959,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "LOSA H=20 C/VIGUETA Ho. PREMEZCLADO H-25"
       ],
@@ -7123,7 +7125,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -7133,7 +7135,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "LOSA H=20 C/VIGUETA Ho. PREMEZCLADO H-21"
       ],
@@ -7299,7 +7301,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -7309,7 +7311,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "LOSA H=20 C/VIGUETA Ho. PREMEZCLADO H-21 C/BOMBA ADICIONAL"
       ],
@@ -7592,7 +7594,7 @@
         },
         {
           "nombre": "Alto",
-          "valorDefault": 3.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -7602,7 +7604,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Alto",
       "aliases": [
         "COLUMNA DE LADRILLO GAMBOTE 25x25 cm."
       ],
@@ -7948,7 +7950,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [
         "MURO BLOQUE DE Ho. 3H E=15cm."
       ],
@@ -8056,7 +8058,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [
         "MURO BLOQUE DE VIDRIO 20x20 cm."
       ],
@@ -8142,7 +8144,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [
         "MURO LADRILLO 12 cm. 6H C/PEGA LADRILLO FÁCIL"
       ],
@@ -8239,7 +8241,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [
         "MURO LADRILLO 16 cm. 6H"
       ],
@@ -8325,7 +8327,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [
         "MURO LADRILLO 9.8 cm. 6H C/PEGAMENTO VALKURE (Hz)"
       ],
@@ -8422,7 +8424,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [
         "MURO LADRILLO ADOBITO 15 cm."
       ],
@@ -8520,7 +8522,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -8530,7 +8532,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "CUBIERTA CALAMINA GALV. N° 28"
       ],
@@ -8630,7 +8632,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -8640,7 +8642,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "CUBIERTA CALAMINA GALV. N° 33"
       ],
@@ -8740,7 +8742,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -8750,7 +8752,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "Calamina",
       "tags": []
@@ -8846,7 +8848,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -8856,7 +8858,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "Calamina",
       "tags": [
@@ -8987,7 +8989,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -8997,7 +8999,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "CUBIERTA STEEL FRAME C/CALAMINA OND."
       ],
@@ -9084,7 +9086,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -9094,7 +9096,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "",
       "tags": []
@@ -9223,7 +9225,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -9233,7 +9235,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "CUBIERTA STEEL FRAME C/TEJA COLONIAL"
       ],
@@ -9331,7 +9333,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -9341,7 +9343,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "Teja Cerámica",
       "tags": []
@@ -9437,7 +9439,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -9447,7 +9449,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "Teja Cerámica",
       "tags": []
@@ -9543,7 +9545,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -9553,7 +9555,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "Teja Cerámica",
       "tags": []
@@ -9627,7 +9629,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -9637,7 +9639,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "",
       "tags": []
@@ -9711,7 +9713,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -9721,7 +9723,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "CUBIERTA TERMOACÚSTICA ISOLCRUZ E=30mm DENSIDAD 40"
       ],
@@ -9797,7 +9799,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -9807,7 +9809,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "CUBIERTA TERMOACÚSTICA ISOLCRUZ E=50mm - DENSIDAD 40"
       ],
@@ -9893,7 +9895,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [],
       "subcategoria": "Calamina",
       "tags": []
@@ -9988,7 +9990,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [],
       "subcategoria": "Teja Cerámica",
       "tags": []
@@ -10083,7 +10085,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [
         "IMPERM. DE SOBRECIMIENTO H=30 cm."
       ],
@@ -10169,7 +10171,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [
         "IMPERM. DE SOBRECIMIENTO H=30 cm. CON ASFALTEX"
       ],
@@ -10732,7 +10734,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -10742,7 +10744,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "Revoque",
       "tags": [
@@ -12413,7 +12415,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [
         "MURO DRYWALL 1 CARA 12 cm. PLACA 1.2x2.4m"
       ],
@@ -12565,7 +12567,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [
         "MURO DRYWALL 2 CARAS 12 cm. PLACA 1.2x2.4m"
       ],
@@ -12717,7 +12719,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [
         "MURO DRYWALL 1 CARA 92 mm. DURLOCK (0.90x2.40m)"
       ],
@@ -12869,7 +12871,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [
         "MURO DRYWALL 2 CARAS 92 mm. DURLOCK (0.90x2.40m)"
       ],
@@ -13010,7 +13012,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [
         "MURO INTERIOR TERMOACÚSTICO CONSTRUPANEL E=60mm (SIN REVOQUE)"
       ],
@@ -13153,7 +13155,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [
         "MURO INTERIOR TERMOACÚSTICO CONSTRUPANEL E=75mm (SIN REVOQUE)"
       ],
@@ -13296,7 +13298,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [
         "MURO EXTERIOR AUTOPORTANTE TERMOACÚSTICO CONSTRUPANEL E=100mm (SIN REVOQUE)"
       ],
@@ -13439,7 +13441,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [
         "MURO EXTERIOR AUTOPORTANTE TERMOACÚSTICO CONSTRUPANEL E=120mm (SIN REVOQUE)"
       ],
@@ -13593,7 +13595,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [],
       "subcategoria": "",
       "tags": [
@@ -13745,7 +13747,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Alto",
       "aliases": [],
       "subcategoria": "",
       "tags": [
@@ -13822,7 +13824,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -13832,7 +13834,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "",
       "tags": [
@@ -13919,7 +13921,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -13929,7 +13931,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "",
       "tags": []
@@ -14025,7 +14027,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -14035,7 +14037,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "EMPEDRADO Y CONTRAPISO DE Ho."
       ],
@@ -15125,7 +15127,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 0.2,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -15135,7 +15137,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "",
       "tags": [
@@ -15981,7 +15983,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [],
       "subcategoria": "Calamina",
       "tags": []
@@ -16163,7 +16165,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [],
       "subcategoria": "Calamina",
       "tags": []
@@ -25098,7 +25100,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -25108,7 +25110,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "CUBIERTA DE POLICARBONATO (6mm)"
       ],
@@ -25250,7 +25252,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -25260,7 +25262,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [
         "CUBIERTA DE POLICARBONATO (8mm)"
       ],
@@ -25325,7 +25327,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -25335,7 +25337,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "Teja Cerámica",
       "tags": []
@@ -25556,7 +25558,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -25566,7 +25568,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "",
       "tags": []
@@ -25785,7 +25787,7 @@
         },
         {
           "nombre": "Ancho",
-          "valorDefault": 4.0,
+          "valorDefault": 1.0,
           "unidad": "m",
           "visiblePorDefecto": true
         }
@@ -25795,7 +25797,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "",
       "tags": [
@@ -32781,7 +32783,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [
         "VIGA PREFABRICADA Ho.Po. (f'c=350 kg/cm2) L=20,60m"
       ],
@@ -33013,7 +33015,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [
         "VIGA PREFABRICADA Ho.Po. (f'c=350 kg/cm2) L=25,60m"
       ],
@@ -33245,7 +33247,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [
         "VIGA PREFABRICADA Ho.Po. (f'c=350 kg/cm2) L=35,60m"
       ],
@@ -33477,7 +33479,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "",
+      "formulaResultado": "Largo",
       "aliases": [
         "VIGA PREFABRICADA Ho.Po. (f'c=350 kg/cm2) L=45,60m"
       ],
