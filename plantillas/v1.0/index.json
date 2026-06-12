@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-vivienda-codigos",
+  "version": "v20260611-vivienda-alturas",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -810,10 +810,10 @@
           "levels": {
             "piso_terminado": "0",
             "tope_losa": "altura_piso_a_piso_pb",
-            "tope_viga": "tope_losa - espesor_losa",
+            "tope_viga": "tope_losa",
             "fondo_viga": "tope_viga - altura_viga",
             "altura_muro": "fondo_viga - piso_terminado",
-            "altura_columna": "fondo_viga - piso_terminado",
+            "altura_columna": "tope_losa - piso_terminado",
             "area_muros": "perimetro * altura_muro"
           },
           "items": [
@@ -981,10 +981,10 @@
           "levels": {
             "piso_terminado": "pb.tope_losa",
             "tope_losa": "piso_terminado + altura_piso_a_piso_pa",
-            "tope_viga": "tope_losa - espesor_losa",
+            "tope_viga": "tope_losa",
             "fondo_viga": "tope_viga - altura_viga",
             "altura_muro": "fondo_viga - piso_terminado",
-            "altura_columna": "fondo_viga - piso_terminado",
+            "altura_columna": "tope_losa - piso_terminado",
             "area_muros": "perimetro * altura_muro"
           },
           "items": [
