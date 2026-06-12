@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-vivienda-fix",
+  "version": "v20260611-vivienda-codigos",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -857,7 +857,7 @@
               "id": "muros",
               "nombre": "Muros de ladrillo 6H 12 cm",
               "unidad": "m2",
-              "catalogoCodigo": "MP006",
+              "catalogoCodigo": "UH009",
               "formulaTexto": "area_muros",
               "lee": [
                 "area_muros"
@@ -905,7 +905,7 @@
               "id": "carpeta_nivelacion",
               "nombre": "Carpeta de nivelación",
               "unidad": "m2",
-              "catalogoCodigo": "UA006",
+              "catalogoCodigo": "AC019",
               "formulaTexto": "area_planta",
               "lee": [
                 "area_planta"
@@ -920,7 +920,7 @@
               "id": "vigas",
               "nombre": "Vigas de amarre / encadenada (PB)",
               "unidad": "m3",
-              "catalogoCodigo": "UH008",
+              "catalogoCodigo": "OG025",
               "formulaTexto": "perimetro",
               "lee": [
                 "perimetro",
@@ -1010,7 +1010,7 @@
               "id": "carpeta_nivelacion",
               "nombre": "Carpeta de nivelación",
               "unidad": "m2",
-              "catalogoCodigo": "UA006",
+              "catalogoCodigo": "AC019",
               "formulaTexto": "area_planta",
               "lee": [
                 "area_planta"
@@ -1025,7 +1025,7 @@
               "id": "muros",
               "nombre": "Muros de ladrillo 6H 12 cm",
               "unidad": "m2",
-              "catalogoCodigo": "MP006",
+              "catalogoCodigo": "UH009",
               "formulaTexto": "area_muros",
               "lee": [
                 "area_muros"
@@ -1058,7 +1058,7 @@
               "id": "vigas",
               "nombre": "Vigas de amarre / encadenada (PA)",
               "unidad": "m3",
-              "catalogoCodigo": "UH008",
+              "catalogoCodigo": "OG025",
               "formulaTexto": "perimetro",
               "lee": [
                 "perimetro",
@@ -1141,7 +1141,7 @@
               "id": "parapeto",
               "nombre": "Parapeto perimetral (ladrillo 6H 12 cm)",
               "unidad": "m2",
-              "catalogoCodigo": "MP006",
+              "catalogoCodigo": "UH009",
               "formulaTexto": "perimetro * altura_parapeto_eff",
               "lee": [
                 "perimetro",
