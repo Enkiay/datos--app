@@ -1,25 +1,6 @@
 {
-  "version": "v20260612-091512",
+  "version": "v20260612-111617",
   "empresas": [
-    {
-      "id": "comentara-prueba-2-santa-cruz",
-      "nombre": "Comentará prueba 2",
-      "ciudad": "Santa Cruz",
-      "pais": "BO",
-      "tipo": "FABRICANTE",
-      "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-06",
-      "fechaUltimaColaboracion": "2026-06",
-      "telefono": "0000000",
-      "descripcion": "Cemento y otros",
-      "rubro": "Cemento y cal",
-      "email": "superenkiay2@gmail.com",
-      "sitioWeb": "www ejemplo222.com",
-      "tags": [
-        "grava común",
-        "cemento y cal"
-      ]
-    },
     {
       "id": "empresa-de-prueba-1-cochabamba",
       "nombre": "Empresa de Prueba 1",
