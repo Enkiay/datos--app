@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-vivienda-alturas",
+  "version": "v20260611-cimiento-input",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -11,26 +11,26 @@
           "nombre": "tipo_geometria",
           "label": "Forma del cerco",
           "unidad": "",
-          "default": 4.0,
+          "default": 4,
           "opciones": [
             {
-              "valor": 1.0,
+              "valor": 1,
               "label": "Lineal"
             },
             {
-              "valor": 2.0,
+              "valor": 2,
               "label": "L"
             },
             {
-              "valor": 3.0,
+              "valor": 3,
               "label": "U"
             },
             {
-              "valor": 4.0,
+              "valor": 4,
               "label": "Cerrado"
             },
             {
-              "valor": 5.0,
+              "valor": 5,
               "label": "Polígono libre"
             }
           ]
@@ -50,7 +50,7 @@
           "nombre": "lado_mayor",
           "label": "Lado mayor",
           "unidad": "m",
-          "min": 0.0,
+          "min": 0,
           "visibleSi": "and(tipo_geometria != 1, tipo_geometria != 5)",
           "defaultFormula": "if(tipo_geometria == 4, longitud_total / 4, if(or(tipo_geometria == 2, tipo_geometria == 3), longitud_total / 2, 0))"
         }
@@ -60,9 +60,9 @@
           "nombre": "numero_portones",
           "label": "Portones vehiculares",
           "unidad": "und",
-          "default": 0.0,
-          "min": 0.0,
-          "max": 4.0,
+          "default": 0,
+          "min": 0,
+          "max": 4,
           "defaultFormula": "if(tipo_geometria == 4, 1, 0)"
         },
         {
@@ -70,8 +70,8 @@
           "label": "Ancho de portón",
           "unidad": "m",
           "default": 3.6,
-          "min": 2.0,
-          "max": 6.0
+          "min": 2,
+          "max": 6
         },
         {
           "nombre": "alto_porton",
@@ -79,22 +79,22 @@
           "unidad": "m",
           "default": 2.4,
           "min": 1.8,
-          "max": 3.0
+          "max": 3
         },
         {
           "nombre": "numero_puertas",
           "label": "Puertas peatonales",
           "unidad": "und",
-          "default": 0.0,
-          "min": 0.0,
-          "max": 6.0,
+          "default": 0,
+          "min": 0,
+          "max": 6,
           "defaultFormula": "if(tipo_geometria == 4, 1, 0)"
         },
         {
           "nombre": "ancho_puerta",
           "label": "Ancho de puerta",
           "unidad": "m",
-          "default": 1.0,
+          "default": 1,
           "min": 0.7,
           "max": 1.2
         },
@@ -110,17 +110,17 @@
           "nombre": "esquinas_extra",
           "label": "Esquinas adicionales",
           "unidad": "und",
-          "default": 0.0,
-          "min": 0.0,
-          "max": 16.0
+          "default": 0,
+          "min": 0,
+          "max": 16
         },
         {
           "nombre": "separacion_columnas",
           "label": "Separación entre columnas",
           "unidad": "m",
-          "default": 4.0,
-          "min": 2.0,
-          "max": 6.0
+          "default": 4,
+          "min": 2,
+          "max": 6
         },
         {
           "nombre": "h_sobrecimiento",
@@ -158,9 +158,9 @@
           "nombre": "columnas_en_extremos",
           "label": "Columnas en extremos abiertos",
           "unidad": "und",
-          "default": 2.0,
-          "min": 0.0,
-          "max": 2.0,
+          "default": 2,
+          "min": 0,
+          "max": 2,
           "visibleSi": "or(tipo_geometria == 1, tipo_geometria == 2, tipo_geometria == 3)",
           "defaultFormula": "if(or(tipo_geometria == 4, tipo_geometria == 5), 0, 2)"
         }
@@ -507,6 +507,13 @@
               "label": "Losa alivianada"
             }
           ]
+        },
+        {
+          "nombre": "altura_cimiento_corrido",
+          "label": "Altura del cimiento (módulo de cimientos)",
+          "unidad": "m",
+          "default": 1.2,
+          "min": 0.3
         }
       ],
       "parametrosEditables": [
@@ -583,14 +590,6 @@
           "min": 0.2
         },
         {
-          "nombre": "altura_cimiento_corrido",
-          "label": "Altura de cimiento corrido",
-          "unidad": "m",
-          "default": 0.5,
-          "min": 0.3,
-          "max": 0.8
-        },
-        {
           "nombre": "alto_zapata",
           "label": "Alto de zapata",
           "unidad": "m",
@@ -601,7 +600,7 @@
           "nombre": "altura_parapeto",
           "label": "Altura de parapeto",
           "unidad": "m",
-          "default": 1.0,
+          "default": 1,
           "min": 0.9
         },
         {
@@ -609,8 +608,8 @@
           "label": "Altura piso terminado vs terreno",
           "unidad": "m",
           "default": 0.15,
-          "min": 0.0,
-          "max": 1.0
+          "min": 0,
+          "max": 1
         },
         {
           "nombre": "alto_puerta",
