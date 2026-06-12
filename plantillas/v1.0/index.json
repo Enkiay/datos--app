@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-cubierta-input",
+  "version": "v20260611-inputs-avanzados",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -513,14 +513,16 @@
           "label": "Altura de cimientos (profundidad de la columna)",
           "unidad": "m",
           "default": 1.2,
-          "min": 0.3
+          "min": 0.3,
+          "avanzado": true
         },
         {
           "nombre": "altura_cubierta",
           "label": "Altura del muro de cubierta (parapeto)",
           "unidad": "m",
           "default": 1,
-          "min": 0
+          "min": 0,
+          "avanzado": true
         }
       ],
       "parametrosEditables": [
