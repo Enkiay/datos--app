@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-vivienda-correcciones",
+  "version": "v20260611-cubierta-input",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -514,6 +514,13 @@
           "unidad": "m",
           "default": 1.2,
           "min": 0.3
+        },
+        {
+          "nombre": "altura_cubierta",
+          "label": "Altura del muro de cubierta (parapeto)",
+          "unidad": "m",
+          "default": 1,
+          "min": 0
         }
       ],
       "parametrosEditables": [
@@ -595,13 +602,6 @@
           "unidad": "m",
           "default": 0.3,
           "min": 0.2
-        },
-        {
-          "nombre": "altura_parapeto",
-          "label": "Altura de parapeto",
-          "unidad": "m",
-          "default": 1,
-          "min": 0.9
         },
         {
           "nombre": "altura_piso_terreno",
@@ -1088,8 +1088,8 @@
           "nombre": "Cubierta",
           "levels": {
             "tope_cubierta": "if(num_pisos - 1, pa.tope_losa, pb.tope_losa)",
-            "tope_parapeto": "tope_cubierta + altura_parapeto",
-            "altura_parapeto_eff": "tope_parapeto - tope_cubierta"
+            "tope_parapeto": "tope_cubierta + altura_cubierta",
+            "altura_parapeto_eff": "altura_cubierta"
           },
           "items": [
             {
