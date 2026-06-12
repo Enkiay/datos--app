@@ -1,44 +1,4 @@
 {
-  "version": "v20260612-120122",
-  "empresas": [
-    {
-      "id": "comentara-prueba-2-santa-cruz",
-      "nombre": "Comentará prueba 2",
-      "ciudad": "Santa Cruz",
-      "pais": "BO",
-      "tipo": "FABRICANTE",
-      "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-06",
-      "fechaUltimaColaboracion": "2026-06",
-      "telefono": "0000000",
-      "descripcion": "Cemento y otros",
-      "rubro": "Cemento y cal",
-      "email": "superenkiay2@gmail.com",
-      "sitioWeb": "www ejemplo222.com",
-      "tags": [
-        "grava común",
-        "cemento y cal"
-      ]
-    },
-    {
-      "id": "empresa-de-prueba-1-cochabamba",
-      "nombre": "Empresa de Prueba 1",
-      "ciudad": "Cochabamba",
-      "pais": "BO",
-      "tipo": "FERRETERIA",
-      "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-06",
-      "fechaUltimaColaboracion": "2026-06",
-      "telefono": "4534523",
-      "descripcion": "empresa de prueba, ladrillo , cemento",
-      "rubro": "cemento ladrillo pvc",
-      "email": "superenkiay4@gmail.com",
-      "sitioWeb": "www.prueba.com",
-      "tags": [
-        "cemento",
-        "accesorios galvanizado ø 1″",
-        "cemento ladrillo pvc"
-      ]
-    }
-  ]
+  "version": "v20260612-120708",
+  "empresas": []
 }
