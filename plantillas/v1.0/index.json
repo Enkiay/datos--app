@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-cimiento-input",
+  "version": "v20260611-vivienda-correcciones",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -509,8 +509,8 @@
           ]
         },
         {
-          "nombre": "altura_cimiento_corrido",
-          "label": "Altura del cimiento (módulo de cimientos)",
+          "nombre": "altura_cimientos",
+          "label": "Altura de cimientos (profundidad de la columna)",
           "unidad": "m",
           "default": 1.2,
           "min": 0.3
@@ -639,7 +639,8 @@
         "area_puertas_pb": "num_puertas_pb * ancho_puerta * alto_puerta",
         "area_ventanas_pb": "num_ventanas_pb * ancho_ventana * alto_ventana",
         "area_puertas_pa": "num_puertas_pa * ancho_puerta * alto_puerta",
-        "area_ventanas_pa": "num_ventanas_pa * ancho_ventana * alto_ventana"
+        "area_ventanas_pa": "num_ventanas_pa * ancho_ventana * alto_ventana",
+        "altura_cimiento_corrido": "0.5"
       },
       "stories": [
         {
@@ -684,10 +685,10 @@
             "piso_terminado": "0",
             "tope_sobrecimiento": "0",
             "tope_cimiento": "-altura_sobrecim",
-            "tope_zapata": "tope_cimiento - altura_cimiento_corrido",
+            "tope_zapata": "-altura_cimientos",
             "fondo_excavacion": "tope_zapata - alto_zapata",
             "nivel_terreno": "-altura_piso_terreno",
-            "altura_columna_cim": "piso_terminado - tope_zapata",
+            "altura_columna_cim": "altura_cimientos",
             "altura_zanja": "altura_cimiento_corrido"
           },
           "items": [
@@ -857,14 +858,15 @@
               "nombre": "Muros de ladrillo 6H 12 cm",
               "unidad": "m2",
               "catalogoCodigo": "UH009",
-              "formulaTexto": "area_muros",
+              "formulaTexto": "perimetro",
               "lee": [
-                "area_muros"
+                "perimetro",
+                "altura_muro"
               ],
               "escribe": "area",
               "computedOverrides": {
                 "largo": "1",
-                "alto": "1"
+                "alto": "altura_muro"
               },
               "descuentos": [
                 {
@@ -888,21 +890,6 @@
             {
               "id": "contrapiso",
               "nombre": "Contrapiso de cemento",
-              "unidad": "m2",
-              "catalogoCodigo": "AC019",
-              "formulaTexto": "area_planta",
-              "lee": [
-                "area_planta"
-              ],
-              "escribe": "area",
-              "computedOverrides": {
-                "largo": "1",
-                "ancho": "1"
-              }
-            },
-            {
-              "id": "carpeta_nivelacion",
-              "nombre": "Carpeta de nivelación",
               "unidad": "m2",
               "catalogoCodigo": "AC019",
               "formulaTexto": "area_planta",
@@ -1025,14 +1012,15 @@
               "nombre": "Muros de ladrillo 6H 12 cm",
               "unidad": "m2",
               "catalogoCodigo": "UH009",
-              "formulaTexto": "area_muros",
+              "formulaTexto": "perimetro",
               "lee": [
-                "area_muros"
+                "perimetro",
+                "altura_muro"
               ],
               "escribe": "area",
               "computedOverrides": {
                 "largo": "1",
-                "alto": "1"
+                "alto": "altura_muro"
               },
               "descuentos": [
                 {
@@ -1141,7 +1129,7 @@
               "nombre": "Parapeto perimetral (ladrillo 6H 12 cm)",
               "unidad": "m2",
               "catalogoCodigo": "UH009",
-              "formulaTexto": "perimetro * altura_parapeto_eff",
+              "formulaTexto": "perimetro",
               "lee": [
                 "perimetro",
                 "altura_parapeto_eff"
@@ -1149,7 +1137,7 @@
               "escribe": "area",
               "computedOverrides": {
                 "largo": "1",
-                "alto": "1"
+                "alto": "altura_parapeto_eff"
               }
             }
           ]
