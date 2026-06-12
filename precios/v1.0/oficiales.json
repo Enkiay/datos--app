@@ -1,6 +1,6 @@
 {
-  "version": "2026-06-11.3",
-  "fuente": "Catálogo ArqOn + aportes de proveedores y datos de mercado",
+  "version": "v20260612-150608",
+  "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
     {
@@ -28,9 +28,9 @@
           "nombre": "Accesorios Galvanizado Ø 1″",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 17.5,
+          "precio": 12,
           "unidad": "Pza",
-          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
+          "nota": "Actualizado por aportes (1)",
           "idCanonico": "accesorios_galvanizado_1_pza"
         },
         {
@@ -397,9 +397,9 @@
           "nombre": "Arena Fina",
           "codigo": "M008",
           "tipoInsumo": "MATERIAL",
-          "precio": 136.5,
+          "precio": 120,
           "unidad": "m3",
-          "nota": "",
+          "nota": "Actualizado por aportes (1)",
           "idCanonico": "arena_fina_m3"
         },
         {
@@ -964,9 +964,9 @@
           "nombre": "Cemento",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
-          "precio": 1,
+          "precio": 80,
           "unidad": "Kg",
-          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
+          "nota": "Actualizado por aportes (1)",
           "idCanonico": "cemento_kg"
         },
         {
@@ -1002,7 +1002,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 0.94,
           "unidad": "Kg",
-          "nota": "Precio referencial INE abril 2026",
+          "nota": "",
           "idCanonico": "cemento_portland_kg"
         },
         {
@@ -1380,7 +1380,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 7.8,
           "unidad": "Kg",
-          "nota": "Precio referencial C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "fierro_corrugado_kg"
         },
         {
@@ -4080,7 +4080,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 20.5,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_albanil"
         },
         {
@@ -4089,7 +4089,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 20.5,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_armador"
         },
         {
@@ -4098,7 +4098,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 15,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_ayudante"
         },
         {
@@ -4179,7 +4179,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 20.5,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_encofrador"
         },
         {
@@ -5687,7 +5687,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 1.05,
           "unidad": "Kg",
-          "nota": "Precio referencial INE abril 2026",
+          "nota": "",
           "idCanonico": "cemento_portland_kg"
         },
         {
@@ -6065,7 +6065,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 8.5,
           "unidad": "Kg",
-          "nota": "Precio referencial C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "fierro_corrugado_kg"
         },
         {
@@ -8765,7 +8765,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 22,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_albanil"
         },
         {
@@ -8774,7 +8774,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 22,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_armador"
         },
         {
@@ -8783,7 +8783,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 16.5,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_ayudante"
         },
         {
@@ -8864,7 +8864,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 22,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_encofrador"
         },
         {
@@ -10372,7 +10372,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 0.98,
           "unidad": "Kg",
-          "nota": "Precio referencial INE abril 2026",
+          "nota": "",
           "idCanonico": "cemento_portland_kg"
         },
         {
@@ -10750,7 +10750,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 7.5,
           "unidad": "Kg",
-          "nota": "Precio referencial C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "fierro_corrugado_kg"
         },
         {
@@ -13450,7 +13450,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 25,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_albanil"
         },
         {
@@ -13459,7 +13459,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 25,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_armador"
         },
         {
@@ -13468,7 +13468,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 18,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_ayudante"
         },
         {
@@ -13549,7 +13549,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "precio": 25,
           "unidad": "Hr",
-          "nota": "Tarifa sindical C.B.C. abril 2026",
+          "nota": "",
           "idCanonico": "mo_encofrador"
         },
         {
