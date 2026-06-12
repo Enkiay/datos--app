@@ -1,5 +1,5 @@
 {
-  "version": "v20260529-151009",
+  "version": "v20260611-vivienda-fix",
   "plantillas": [
     {
       "id": "cerramiento-perimetral",
@@ -857,7 +857,7 @@
               "id": "muros",
               "nombre": "Muros de ladrillo 6H 12 cm",
               "unidad": "m2",
-              "catalogoCodigo": "MP-006",
+              "catalogoCodigo": "MP006",
               "formulaTexto": "area_muros",
               "lee": [
                 "area_muros"
@@ -890,7 +890,7 @@
               "id": "contrapiso",
               "nombre": "Contrapiso de cemento",
               "unidad": "m2",
-              "catalogoCodigo": "AC-019",
+              "catalogoCodigo": "AC019",
               "formulaTexto": "area_planta",
               "lee": [
                 "area_planta"
@@ -938,7 +938,7 @@
               "id": "losa_entrepiso",
               "nombre": "Losa alivianada (entrepiso)",
               "unidad": "m2",
-              "catalogoCodigo": "OG-021",
+              "catalogoCodigo": "OG021",
               "formulaTexto": "area_planta",
               "lee": [
                 "area_planta"
@@ -1025,7 +1025,7 @@
               "id": "muros",
               "nombre": "Muros de ladrillo 6H 12 cm",
               "unidad": "m2",
-              "catalogoCodigo": "MP-006",
+              "catalogoCodigo": "MP006",
               "formulaTexto": "area_muros",
               "lee": [
                 "area_muros"
@@ -1109,7 +1109,7 @@
               "id": "cubierta_calamina",
               "nombre": "Cubierta calamina galvanizada N°28",
               "unidad": "m2",
-              "catalogoCodigo": "CU-002",
+              "catalogoCodigo": "CU002",
               "formulaTexto": "area_planta",
               "lee": [
                 "area_planta"
@@ -1125,7 +1125,7 @@
               "id": "losa_cubierta",
               "nombre": "Losa alivianada (cubierta)",
               "unidad": "m2",
-              "catalogoCodigo": "OG-021",
+              "catalogoCodigo": "OG021",
               "formulaTexto": "area_planta",
               "lee": [
                 "area_planta"
@@ -1141,7 +1141,7 @@
               "id": "parapeto",
               "nombre": "Parapeto perimetral (ladrillo 6H 12 cm)",
               "unidad": "m2",
-              "catalogoCodigo": "MP-006",
+              "catalogoCodigo": "MP006",
               "formulaTexto": "perimetro * altura_parapeto_eff",
               "lee": [
                 "perimetro",
