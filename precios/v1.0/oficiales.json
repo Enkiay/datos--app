@@ -1,5 +1,5 @@
 {
-  "version": "2026-06-11.2",
+  "version": "2026-06-11.3",
   "fuente": "Catálogo ArqOn + aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -2738,18 +2738,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 42,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "pintura_latex_exterior_lt"
+          "idCanonico": "pintura_latex_exterior_l"
         },
         {
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 35,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "pintura_latex_interior_lt"
+          "idCanonico": "pintura_latex_interior_l"
         },
         {
           "nombre": "Pintura Latex Satinado",
@@ -7423,18 +7423,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 42,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "pintura_latex_exterior_lt"
+          "idCanonico": "pintura_latex_exterior_l"
         },
         {
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 35,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "pintura_latex_interior_lt"
+          "idCanonico": "pintura_latex_interior_l"
         },
         {
           "nombre": "Pintura Latex Satinado",
@@ -12108,18 +12108,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 42,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "pintura_latex_exterior_lt"
+          "idCanonico": "pintura_latex_exterior_l"
         },
         {
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 35,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
-          "idCanonico": "pintura_latex_interior_lt"
+          "idCanonico": "pintura_latex_interior_l"
         },
         {
           "nombre": "Pintura Latex Satinado",
@@ -16793,18 +16793,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 42,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de La Paz — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_exterior_lt"
+          "idCanonico": "pintura_latex_exterior_l"
         },
         {
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 35,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de La Paz — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_interior_lt"
+          "idCanonico": "pintura_latex_interior_l"
         },
         {
           "nombre": "Pintura Latex Satinado",
@@ -21478,18 +21478,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 42,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de La Paz — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_exterior_lt"
+          "idCanonico": "pintura_latex_exterior_l"
         },
         {
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 35,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de La Paz — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_interior_lt"
+          "idCanonico": "pintura_latex_interior_l"
         },
         {
           "nombre": "Pintura Latex Satinado",
@@ -26163,18 +26163,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 42,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de Cochabamba — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_exterior_lt"
+          "idCanonico": "pintura_latex_exterior_l"
         },
         {
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 35,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de Cochabamba — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_interior_lt"
+          "idCanonico": "pintura_latex_interior_l"
         },
         {
           "nombre": "Pintura Latex Satinado",
@@ -30848,18 +30848,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 42,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de Santa Cruz — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_exterior_lt"
+          "idCanonico": "pintura_latex_exterior_l"
         },
         {
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 35,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de Santa Cruz — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_interior_lt"
+          "idCanonico": "pintura_latex_interior_l"
         },
         {
           "nombre": "Pintura Latex Satinado",
@@ -35533,18 +35533,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 42,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de Santa Cruz — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_exterior_lt"
+          "idCanonico": "pintura_latex_exterior_l"
         },
         {
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 35,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de Santa Cruz — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_interior_lt"
+          "idCanonico": "pintura_latex_interior_l"
         },
         {
           "nombre": "Pintura Latex Satinado",
@@ -40218,18 +40218,18 @@
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 42,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de Santa Cruz — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_exterior_lt"
+          "idCanonico": "pintura_latex_exterior_l"
         },
         {
           "nombre": "Pintura Latex Interior",
           "codigo": "",
           "tipoInsumo": "MATERIAL",
           "precio": 35,
-          "unidad": "Lt",
+          "unidad": "L",
           "nota": "Semilla: copiado de Santa Cruz — ajustar con aportes de la ciudad",
-          "idCanonico": "pintura_latex_interior_lt"
+          "idCanonico": "pintura_latex_interior_l"
         },
         {
           "nombre": "Pintura Latex Satinado",

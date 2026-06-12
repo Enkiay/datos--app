@@ -35,6 +35,29 @@ const codsBO = new Set(itemsBO.items.map((i) => i.codigo));
 for (const c of cods) if (!codsBO.has(c)) err(`ESPEJO: ${c} está en items.json pero falta en items_BO.json`);
 for (const c of codsBO) if (!cods.has(c)) err(`ESPEJO: ${c} está en items_BO.json pero falta en items.json`);
 
+// Unidades que la APK NORMALIZA a otra forma (UnidadCanonica.MAPA): si el
+// catálogo trae la variante (ej. "Lt"), la app la guarda canonizada ("L") y
+// luego "Verificar insumos" la marca como diferente para siempre (loop). El
+// catálogo DEBE traer ya la forma canónica. clave lowercase → forma canónica.
+const NORM_UNIDAD = {
+  kg: "Kg", kgs: "Kg", kilogramo: "Kg", gramo: "gr", g: "gr",
+  ton: "Ton", tonelada: "Ton", tn: "Ton", t: "Ton",
+  l: "L", lt: "L", lts: "L", litro: "L", cc: "cm3", "dm³": "dm3",
+  "m³": "m3", "metro cubico": "m3", "m²": "m2", "metro cuadrado": "m2", "cm²": "cm2",
+  metro: "m", mts: "m", pie2: "p2", "p²": "p2",
+  hr: "Hr", h: "Hr", hora: "Hr", horas: "Hr", "día": "día", d: "día",
+  pieza: "Pza", piezas: "Pza", und: "u", unidad: "u",
+  punto: "pto", puntos: "pto", pnt: "pto",
+  global: "Glb", gbl: "Glb", gl: "Glb", hojas: "Hoja", tubos: "Tubo",
+  rollos: "Rollo", bolsas: "Bolsa", sacos: "Saco", barras: "Barra",
+  cajas: "Caja", juegos: "Juego", jgo: "Juego", pares: "Par",
+  pct: "%", porcentaje: "%",
+};
+const unidadCanonica = (u) => {
+  const k = (u || "").trim().toLowerCase();
+  return NORM_UNIDAD[k] || (u || "").trim();
+};
+
 // 2-3. Insumos embebidos coherentes (sobre ambos archivos)
 const porId = new Map(); // id → { precio, nombre, unidad, tipo, ref }
 for (const [tag, cat] of [["items", items], ["items_BO", itemsBO]]) {
@@ -44,6 +67,11 @@ for (const [tag, cat] of [["items", items], ["items_BO", itemsBO]]) {
       const id = (ins.idCanonico || "").trim();
       if (!id) { err(`INSUMO sin idCanonico: "${ins.nombre}" en ${ref}`); continue; }
       if (!(ins.precio > 0)) err(`INSUMO sin precio (>0): "${ins.nombre}" [${id}] en ${ref}`);
+      // Unidad debe estar ya canonizada (sino la APK la "corregiría" en loop).
+      const canon = unidadCanonica(ins.unidad);
+      if (ins.unidad && ins.unidad.trim() !== canon) {
+        err(`UNIDAD no canónica [${id}]: "${ins.unidad}" debería ser "${canon}" (${ref})`);
+      }
       const prev = porId.get(id);
       if (!prev) { porId.set(id, { precio: ins.precio, nombre: ins.nombre, unidad: ins.unidad, tipo: ins.tipoInsumo, ref }); continue; }
       if (ins.precio !== prev.precio) err(`PRECIO divergente [${id}]: ${prev.precio} (${prev.ref}) vs ${ins.precio} (${ref})`);

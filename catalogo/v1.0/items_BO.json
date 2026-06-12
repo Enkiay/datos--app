@@ -1,5 +1,5 @@
 {
-  "version": "v20260611-precios-completos",
+  "version": "v20260611-unidades-pintura",
   "schemaVersion": 1,
   "items": [
     {
@@ -728,14 +728,14 @@
       "insumos": [
         {
           "nombre": "Pintura Latex Interior",
-          "unidad": "Lt",
+          "unidad": "L",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
           "rendimiento": 0.35,
           "precio": 35.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "pintura_latex_interior_lt"
+          "idCanonico": "pintura_latex_interior_l"
         },
         {
           "nombre": "Lija para Pared",
@@ -798,14 +798,14 @@
       "insumos": [
         {
           "nombre": "Pintura Latex Exterior",
-          "unidad": "Lt",
+          "unidad": "L",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
           "rendimiento": 0.4,
           "precio": 42.0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "pintura_latex_exterior_lt"
+          "idCanonico": "pintura_latex_exterior_l"
         },
         {
           "nombre": "Lija para Pared",
