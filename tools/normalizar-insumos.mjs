@@ -4,7 +4,7 @@
  * Saneo de la BD compartida (la consumen APK, web y PC). Estampa en CADA insumo,
  * en TODOS los archivos, dos cosas consistentes:
  *   - `categoria`: categoría canónica (las 18 de PREFIJOS_CATEGORIA).
- *   - `codigo`: esquema único `{M/O/E}{2 letras categoría}{NNN}` (oficial, sin "U").
+ *   - `codigo`: esquema único `{2 letras categoría}{NNN}` (sin letra de tipo ni "U").
  *
  * Antes la BD tenía categoría ausente (oficiales.json) o degradada al cajón
  * "Ferretería" (items.json), y códigos en 3 formatos viejos mezclados
@@ -41,7 +41,6 @@ const PREFIJOS_CATEGORIA = {
   Calificada: "CA", "No Calificada": "NC", "Obras Civiles": "OC", Pintura: "PI", Equipo: "EQ",
   Maquinaria: "MQ", Herramientas: "HE", General: "GN",
 };
-const letraTipo = (t) => (t === "MANO_DE_OBRA" ? "O" : t === "HERRAMIENTA" ? "E" : "M");
 const letrasCat = (cat) => PREFIJOS_CATEGORIA[cat] || "GN";
 
 // Reglas keyword → categoría canónica (idénticas a arqon-pc/src/core/categorias-insumo.ts).
@@ -112,7 +111,7 @@ for (const [k, v] of universo) canon.set(k, { categoria: resolverCategoria(v.nom
 // ── Asignar código uniforme por bucket (tipo+categoría), ordenado por idCanonico ─
 const buckets = new Map(); // prefijo → [idCanonico(norm)...]
 for (const [k, v] of canon) {
-  const pref = letraTipo(v.tipo) + letrasCat(v.categoria);
+  const pref = letrasCat(v.categoria); // esquema único: 2 letras categoría + NNN
   if (!buckets.has(pref)) buckets.set(pref, []);
   buckets.get(pref).push(k);
 }
@@ -139,7 +138,7 @@ for (const src of [items, itemsBO]) for (const it of src.items || []) for (const
 
 // ── Verificaciones ───────────────────────────────────────────────────────────
 const erroresPrecio = preciosAntes.filter((v, i) => v !== preciosDespues[i]).length;
-const sinCat = [], codInvalido = [], REGEX = /^[MOE][A-Z]{2}\d{3}$/;
+const sinCat = [], codInvalido = [], REGEX = /^[A-Z]{2}\d{3}$/;
 const codePorId = new Map(), inconsistencias = [];
 for (const c of ofi.ciudades || []) for (const p of c.precios || []) {
   if (!p.categoria || !String(p.categoria).trim()) sinCat.push(p.nombre);
