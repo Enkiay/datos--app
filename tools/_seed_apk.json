@@ -1,0 +1,345 @@
+[
+  {
+    "nombre": "Cemento Portland",
+    "codigo": "M001",
+    "unidad": "Kg",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Cemento y Cal"
+  },
+  {
+    "nombre": "Fierro Corrugado",
+    "codigo": "M002",
+    "unidad": "Kg",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Acero y Metal"
+  },
+  {
+    "nombre": "Arena Común",
+    "codigo": "M003",
+    "unidad": "m3",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Agregados"
+  },
+  {
+    "nombre": "Grava Común",
+    "codigo": "M004",
+    "unidad": "m3",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Agregados"
+  },
+  {
+    "nombre": "Madera de Construcción",
+    "codigo": "M005",
+    "unidad": "P2",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Madera"
+  },
+  {
+    "nombre": "Clavos",
+    "codigo": "M006",
+    "unidad": "Kg",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Ferretería"
+  },
+  {
+    "nombre": "Alambre de Amarre",
+    "codigo": "M007",
+    "unidad": "Kg",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Acero y Metal"
+  },
+  {
+    "nombre": "Arena Fina",
+    "codigo": "M008",
+    "unidad": "m3",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Agregados"
+  },
+  {
+    "nombre": "Ladrillo 6H 24x15x11",
+    "codigo": "M009",
+    "unidad": "Pza",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Ladrillos y Cerámicos"
+  },
+  {
+    "nombre": "Piedra Bruta",
+    "codigo": "M010",
+    "unidad": "m3",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Agregados"
+  },
+  {
+    "nombre": "Cal Viva",
+    "codigo": "M011",
+    "unidad": "Kg",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Cemento y Cal"
+  },
+  {
+    "nombre": "Cerámica Esmaltada 30×30",
+    "codigo": "M012",
+    "unidad": "m2",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Ladrillos y Cerámicos"
+  },
+  {
+    "nombre": "Pintura Latex Interior",
+    "codigo": "M013",
+    "unidad": "Lt",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Pinturas"
+  },
+  {
+    "nombre": "Pintura Latex Exterior",
+    "codigo": "M014",
+    "unidad": "Lt",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Pinturas"
+  },
+  {
+    "nombre": "Yeso",
+    "codigo": "M015",
+    "unidad": "Kg",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Cemento y Cal"
+  },
+  {
+    "nombre": "Tubería PVC 1/2\"",
+    "codigo": "M016",
+    "unidad": "ml",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Plomería"
+  },
+  {
+    "nombre": "Tubería PVC 4\"",
+    "codigo": "M017",
+    "unidad": "ml",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Plomería"
+  },
+  {
+    "nombre": "Cable THW 12 AWG",
+    "codigo": "M018",
+    "unidad": "ml",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Eléctrico"
+  },
+  {
+    "nombre": "Caja de Registro Eléctrica",
+    "codigo": "M019",
+    "unidad": "Pza",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Eléctrico"
+  },
+  {
+    "nombre": "Tomacorriente Doble",
+    "codigo": "M020",
+    "unidad": "Pza",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Eléctrico"
+  },
+  {
+    "nombre": "Impermeabilizante Asfáltico",
+    "codigo": "M021",
+    "unidad": "Kg",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Impermeabilización"
+  },
+  {
+    "nombre": "Pegamento Cerámico",
+    "codigo": "M022",
+    "unidad": "Kg",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Adhesivos"
+  },
+  {
+    "nombre": "Calamina Galvanizada",
+    "codigo": "M023",
+    "unidad": "m2",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Cubiertas"
+  },
+  {
+    "nombre": "Accesorios PVC (codos, tees)",
+    "codigo": "M024",
+    "unidad": "Glb",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Plomería"
+  },
+  {
+    "nombre": "Interruptor Simple",
+    "codigo": "M025",
+    "unidad": "Pza",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Eléctrico"
+  },
+  {
+    "nombre": "Lija para Pared",
+    "codigo": "M026",
+    "unidad": "Pza",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Pinturas"
+  },
+  {
+    "nombre": "Tablero de Distribución 6 circuitos",
+    "codigo": "M027",
+    "unidad": "Pza",
+    "tipoInsumo": "MATERIAL",
+    "categoria": "Eléctrico"
+  },
+  {
+    "nombre": "Encofrador",
+    "codigo": "O001",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Calificada"
+  },
+  {
+    "nombre": "Albañil",
+    "codigo": "O002",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Calificada"
+  },
+  {
+    "nombre": "Armador",
+    "codigo": "O003",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Calificada"
+  },
+  {
+    "nombre": "Ayudante",
+    "codigo": "O004",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "No Calificada"
+  },
+  {
+    "nombre": "Plomero",
+    "codigo": "O005",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Calificada"
+  },
+  {
+    "nombre": "Electricista",
+    "codigo": "O006",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Calificada"
+  },
+  {
+    "nombre": "Pintor",
+    "codigo": "O007",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Calificada"
+  },
+  {
+    "nombre": "Carpintero",
+    "codigo": "O008",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Calificada"
+  },
+  {
+    "nombre": "Mezcladora",
+    "codigo": "E001",
+    "unidad": "Hr",
+    "tipoInsumo": "HERRAMIENTA",
+    "categoria": "Maquinaria"
+  },
+  {
+    "nombre": "Vibradora",
+    "codigo": "E002",
+    "unidad": "Hr",
+    "tipoInsumo": "HERRAMIENTA",
+    "categoria": "Maquinaria"
+  },
+  {
+    "nombre": "Herramientas Menores",
+    "codigo": "E003",
+    "unidad": "%",
+    "tipoInsumo": "HERRAMIENTA",
+    "categoria": "Herramientas"
+  },
+  {
+    "nombre": "Albañil obra gruesa (2da)",
+    "codigo": "MO001",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Obras Civiles"
+  },
+  {
+    "nombre": "Albañil obra fina (1ra)",
+    "codigo": "MO002",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Obras Civiles"
+  },
+  {
+    "nombre": "Ayudante (Jornal)",
+    "codigo": "MO003",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Obras Civiles"
+  },
+  {
+    "nombre": "Ayudante 2da (peón)",
+    "codigo": "MO004",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Obras Civiles"
+  },
+  {
+    "nombre": "Capataz",
+    "codigo": "MO005",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Obras Civiles"
+  },
+  {
+    "nombre": "Encofrador (Jornal)",
+    "codigo": "MO006",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Obras Civiles"
+  },
+  {
+    "nombre": "Especialista",
+    "codigo": "MO007",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Obras Civiles"
+  },
+  {
+    "nombre": "Pintor especialista",
+    "codigo": "MO020",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Pintura"
+  },
+  {
+    "nombre": "Ayudante de pintor",
+    "codigo": "MO021",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Pintura"
+  },
+  {
+    "nombre": "Operador Retroexcavadora",
+    "codigo": "MO040",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Equipo"
+  },
+  {
+    "nombre": "Chofer de Camión",
+    "codigo": "MO041",
+    "unidad": "Hr",
+    "tipoInsumo": "MANO_DE_OBRA",
+    "categoria": "Equipo"
+  }
+]
