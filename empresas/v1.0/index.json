@@ -1,25 +1,6 @@
 {
-  "version": "v20260613-211820",
+  "version": "v20260613-212938",
   "empresas": [
-    {
-      "id": "22-empresa-el-alto",
-      "nombre": "22 empresa",
-      "ciudad": "El Alto",
-      "pais": "BO",
-      "tipo": "FERRETERIA",
-      "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-06",
-      "fechaUltimaColaboracion": "2026-06",
-      "telefono": "74949",
-      "descripcion": "Proban versión 3.0.0",
-      "rubro": "Madera",
-      "email": "superenkiay3@gmail.com",
-      "sitioWeb": "www.youtube.com",
-      "tags": [
-        "cemento",
-        "madera"
-      ]
-    },
     {
       "id": "coboc-prueba-1-santa-cruz",
       "nombre": "Coboc Prueba 1",
