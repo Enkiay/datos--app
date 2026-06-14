@@ -23,8 +23,11 @@
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 
-const DIR = "C:/Users/Equipo/_datos_app_work/";
+// Raíz del repo, derivada de la ubicación del script (tools/). Funciona tanto en
+// la máquina local como en GitHub Actions (CI) — sin rutas hardcodeadas.
+const DIR = fileURLToPath(new URL("../", import.meta.url));
 const F_OFI = DIR + "precios/v1.0/oficiales.json";
 const F_ITEMS = DIR + "catalogo/v1.0/items.json";
 const F_ITEMS_BO = DIR + "catalogo/v1.0/items_BO.json";

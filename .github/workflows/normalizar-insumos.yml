@@ -1,0 +1,48 @@
+name: Normalizar insumos (categoría · código · unidad)
+
+# Saneo automático y publisher-agnóstico de la BD compartida (la consumen APK,
+# web y PC). Cualquier publicación (portal web, edición manual, futuras
+# herramientas) que toque precios/catálogo dispara este workflow, que re-aplica
+# la forma canónica (categoría, código {2 letras}{NNN}, unidad estándar) con
+# tools/normalizar-insumos.mjs. Así la normalización NO depende de cada publicador.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "precios/**"
+      - "catalogo/**"
+      - "tools/normalizar-insumos.mjs"
+      - "tools/_seed_apk.json"
+
+permissions:
+  contents: write
+
+# Evita carreras si llegan varios push seguidos.
+concurrency:
+  group: normalizar-insumos
+  cancel-in-progress: false
+
+jobs:
+  normalizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Aplicar forma canónica
+        run: node tools/normalizar-insumos.mjs --apply
+
+      - name: Commit si la BD no estaba canónica
+        run: |
+          if git diff --quiet -- precios catalogo; then
+            echo "BD ya canónica — sin cambios."
+          else
+            git config user.name "arqon-normalizador[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add precios catalogo
+            git commit -m "ci: normaliza insumos a la forma canónica (categoría/código/unidad)"
+            git push
+          fi
