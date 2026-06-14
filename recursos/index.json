@@ -1,3 +1,11 @@
 {
-  "recursos": []
+  "recursos": [
+    {
+      "nombre": "ArqOn_Video_Tutorial.ifc",
+      "tipo": "ifc",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn_Video_Tutorial.ifc",
+      "descripcion": "2",
+      "tamano": "1.8 MB"
+    }
+  ]
 }
