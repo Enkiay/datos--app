@@ -1,0 +1,13 @@
+#!/bin/sh
+# Hook de pre-commit: normaliza la BD a la forma canónica (categoría, código
+# {2 letras}{NNN}, unidad estándar) ANTES de cada commit. Así, aunque subas los
+# precios/ítems a mano, nunca se pierde el saneo. Idempotente: si ya está canónico,
+# no cambia nada. Billing-independiente (corre local, no necesita GitHub Actions).
+#
+# Activar una sola vez en tu clon:  git config core.hooksPath tools/githooks
+
+node tools/normalizar-insumos.mjs --apply || {
+  echo "pre-commit: el normalizador falló — commit abortado." >&2
+  exit 1
+}
+git add precios catalogo
