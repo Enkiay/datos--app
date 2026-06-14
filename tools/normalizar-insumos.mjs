@@ -43,6 +43,29 @@ const PREFIJOS_CATEGORIA = {
 };
 const letrasCat = (cat) => PREFIJOS_CATEGORIA[cat] || "GN";
 
+// Unidades canónicas (= UnidadCanonica.kt / unidades.ts). Normaliza a la forma única.
+const MAPA_UNID = {
+  kg:"Kg",kgs:"Kg",kilogramo:"Kg",kilogramos:"Kg", gr:"gr",gramo:"gr",g:"gr", ton:"Ton",tonelada:"Ton",tn:"Ton",t:"Ton",
+  l:"L",lt:"L",lts:"L",litro:"L",litros:"L", ml:"ml", cm3:"cm3",cc:"cm3", dm3:"dm3","dm³":"dm3", m3:"m3","m³":"m3","metro cubico":"m3","metro cúbico":"m3",
+  m2:"m2","m²":"m2","metro cuadrado":"m2", cm2:"cm2","cm²":"cm2",
+  m:"m",metro:"m",mts:"m", cm:"cm", mm:"mm", p2:"p2",pie2:"p2","p²":"p2", pie:"pie",pulg:"pulg",'"':"pulg",yd:"yd",
+  hr:"Hr",h:"Hr",hora:"Hr",horas:"Hr", dia:"día","día":"día",d:"día",mes:"mes",
+  pza:"Pza",pieza:"Pza",piezas:"Pza", u:"u",und:"u",unidad:"u", pto:"pto",punto:"pto",puntos:"pto",pnt:"pto",
+  gal:"Gal",galon:"Gal","galón":"Gal",galones:"Gal",
+  glb:"Glb",global:"Glb",gbl:"Glb", hoja:"Hoja",hojas:"Hoja", tubo:"Tubo",tubos:"Tubo", rollo:"Rollo",rollos:"Rollo",
+  bolsa:"Bolsa",bolsas:"Bolsa", saco:"Saco",sacos:"Saco", barra:"Barra",barras:"Barra", caja:"Caja",cajas:"Caja",
+  juego:"Juego",juegos:"Juego",jgo:"Juego", par:"Par",pares:"Par", "%":"%",pct:"%",porcentaje:"%",
+};
+const normUnid = (u) => MAPA_UNID[(u || "").trim().toLowerCase()] ?? (u || "").trim();
+const GAL_A_L = 3.785411784; // 1 galón US = 3.785411784 L
+const esGalon = (u) => ["gal", "galon", "galón", "galones"].includes((u || "").trim().toLowerCase());
+const r2 = (n) => Math.round(n * 100) / 100;
+/** Normaliza la unidad y, si era galón, la pasa a L convirtiendo el precio (÷3.785). */
+function normalizarUnidadPrecio(unidad, precio) {
+  if (esGalon(unidad)) return { unidad: "L", precio: r2((Number(precio) || 0) / GAL_A_L), convertido: true };
+  return { unidad: normUnid(unidad), precio, convertido: false };
+}
+
 // Reglas keyword → categoría canónica (idénticas a arqon-pc/src/core/categorias-insumo.ts).
 const REGLAS_MATERIAL = [
   [/pegamento|pegaladrillo|cemento cola|adhesiv|cola fresca|masa flex|panel fix|parketek|sikaflex/, "Adhesivos"],
@@ -121,28 +144,50 @@ for (const [pref, ks] of buckets) {
 }
 
 // ── Aplicar a los archivos (mutar en sitio, preservar todo lo demás) ──────────
-let tocadosOfi = 0, tocadosItems = 0;
-const preciosAntes = [];
+let tocadosOfi = 0, tocadosItems = 0, galConvertidos = 0, unidadesNormalizadas = 0;
+const preciosAntes = [];     // precio original
+const preciosEsperados = []; // precio que debería quedar (igual, salvo galón→L)
 for (const c of ofi.ciudades || []) for (const p of c.precios || []) {
   preciosAntes.push(p.precio);
   const cc = canon.get(norm(p.idCanonico));
   if (cc) { p.codigo = cc.codigo; p.categoria = cc.categoria; tocadosOfi++; }
+  // Unidad canónica (+ galón→L convirtiendo el precio).
+  const nu = normalizarUnidadPrecio(p.unidad, p.precio);
+  if (nu.unidad !== p.unidad) unidadesNormalizadas++;
+  if (nu.convertido) galConvertidos++;
+  p.unidad = nu.unidad;
+  preciosEsperados.push(nu.precio);
+  p.precio = nu.precio;
 }
 const preciosDespues = [];
 for (const c of ofi.ciudades || []) for (const p of c.precios || []) preciosDespues.push(p.precio);
 
-for (const src of [items, itemsBO]) for (const it of src.items || []) for (const ins of it.insumos || []) {
-  const cc = canon.get(norm(ins.idCanonico));
-  if (cc) { ins.categoria = cc.categoria; ins.codigo = cc.codigo; tocadosItems++; }
+for (const src of [items, itemsBO]) for (const it of src.items || []) {
+  it.unidadResultado = normUnid(it.unidadResultado); // los items no llevan precio en gal
+  for (const ins of it.insumos || []) {
+    const cc = canon.get(norm(ins.idCanonico));
+    if (cc) { ins.categoria = cc.categoria; ins.codigo = cc.codigo; tocadosItems++; }
+    const nu = normalizarUnidadPrecio(ins.unidad, ins.precio);
+    if (nu.unidad !== ins.unidad) unidadesNormalizadas++;
+    if (nu.convertido) galConvertidos++;
+    ins.unidad = nu.unidad;
+    ins.precio = nu.precio;
+  }
 }
 
 // ── Verificaciones ───────────────────────────────────────────────────────────
-const erroresPrecio = preciosAntes.filter((v, i) => v !== preciosDespues[i]).length;
+// Precio: debe quedar EXACTO al esperado (= original, salvo galón→L). Los cambios
+// no-galón deben ser 0; los galón deben ser exactamente original/3.785 redondeado.
+const erroresPrecio = preciosDespues.filter((v, i) => v !== preciosEsperados[i]).length;
+const cambiosNoGalon = preciosAntes.filter((v, i) => v !== preciosDespues[i] && v === preciosEsperados[i]).length;
+const CANON_UNID = new Set(Object.values(MAPA_UNID));
+const unidadNoCanon = new Set();
 const sinCat = [], codInvalido = [], REGEX = /^[A-Z]{2}\d{3}$/;
 const codePorId = new Map(), inconsistencias = [];
 for (const c of ofi.ciudades || []) for (const p of c.precios || []) {
   if (!p.categoria || !String(p.categoria).trim()) sinCat.push(p.nombre);
   if (!REGEX.test(p.codigo)) codInvalido.push(p.codigo + " " + p.nombre);
+  if (!CANON_UNID.has(p.unidad)) unidadNoCanon.add(p.unidad);
   const k = norm(p.idCanonico), prev = codePorId.get(k);
   if (prev && prev !== p.codigo) inconsistencias.push(k);
   codePorId.set(k, p.codigo);
@@ -153,10 +198,13 @@ for (const [, v] of canon) dist[v.categoria] = (dist[v.categoria] || 0) + 1;
 console.log("=== NORMALIZACIÓN CANÓNICA ===");
 console.log("insumos únicos (idCanonico):", canon.size);
 console.log("precios oficiales tocados:", tocadosOfi, "| insumos embebidos en items tocados:", tocadosItems);
-console.log("VERIF precios alterados:", erroresPrecio, "(debe ser 0)");
+console.log("VERIF precio != esperado:", erroresPrecio, "(debe ser 0)");
+console.log("VERIF precios cambiados que NO son galón:", cambiosNoGalon, "(debe ser 0)");
 console.log("VERIF sin categoría:", sinCat.length, "(debe ser 0)", sinCat.slice(0, 5));
 console.log("VERIF código inválido:", codInvalido.length, "(debe ser 0)", codInvalido.slice(0, 5));
 console.log("VERIF idCanonico con código inconsistente entre ciudades:", inconsistencias.length, "(debe ser 0)");
+console.log("VERIF unidades no canónicas restantes:", [...unidadNoCanon], "(debe ser [])");
+console.log("UNIDADES normalizadas:", unidadesNormalizadas, "| galón→L convertidos:", galConvertidos);
 console.log("DISTRIB categorías:", Object.entries(dist).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k}=${v}`).join("  "));
 console.log("BUCKETS de código:", [...buckets.keys()].sort().map((p) => `${p}=${buckets.get(p).length}`).join("  "));
 

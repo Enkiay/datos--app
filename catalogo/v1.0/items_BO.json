@@ -772,7 +772,7 @@
       "insumos": [
         {
           "nombre": "Pintura Latex Interior",
-          "unidad": "Lt",
+          "unidad": "L",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
           "rendimiento": 0.35,
@@ -846,7 +846,7 @@
       "insumos": [
         {
           "nombre": "Pintura Latex Exterior",
-          "unidad": "Lt",
+          "unidad": "L",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
           "rendimiento": 0.4,
@@ -38084,11 +38084,11 @@
         },
         {
           "nombre": "Pintura Sintética Color Azul",
-          "unidad": "gal",
+          "unidad": "L",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
           "rendimiento": 0.075,
-          "precio": 131.67,
+          "precio": 34.78,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "pintura_sintetica_color_azul_gal",
@@ -38504,11 +38504,11 @@
       "insumos": [
         {
           "nombre": "Pintura Super Látex",
-          "unidad": "gal",
+          "unidad": "L",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
           "rendimiento": 0.04,
-          "precio": 115,
+          "precio": 30.38,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "pintura_super_latex_gal",
