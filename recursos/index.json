@@ -6,6 +6,13 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn_Video_Tutorial.ifc",
       "descripcion": "2",
       "tamano": "1.8 MB"
+    },
+    {
+      "nombre": "ArqOn_VectorWorks2022.zip",
+      "tipo": "zip",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn_VectorWorks2022.zip",
+      "descripcion": "Plantilla de exportación IFC para VectorWorks 2022.",
+      "tamano": "4.2 MB"
     }
   ]
 }
