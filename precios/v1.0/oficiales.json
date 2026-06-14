@@ -1,5 +1,5 @@
 {
-  "version": "v20260612-150608",
+  "version": "v20260613-213648",
   "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -1070,7 +1070,7 @@
           "nombre": "Cemento",
           "codigo": "CM013",
           "tipoInsumo": "MATERIAL",
-          "precio": 80,
+          "precio": 1.3,
           "unidad": "Kg",
           "nota": "Actualizado por aportes (1)",
           "idCanonico": "cemento_kg",
