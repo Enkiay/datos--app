@@ -1,5 +1,5 @@
 {
-  "version": "v20260613-210720",
+  "version": "v20260613-211820",
   "empresas": [
     {
       "id": "22-empresa-el-alto",
@@ -21,8 +21,8 @@
       ]
     },
     {
-      "id": "comentara-prueba-2-santa-cruz",
-      "nombre": "Comentará prueba 2",
+      "id": "coboc-prueba-1-santa-cruz",
+      "nombre": "Coboc Prueba 1",
       "ciudad": "Santa Cruz",
       "pais": "BO",
       "tipo": "FABRICANTE",
@@ -30,7 +30,7 @@
       "fechaPrimeraColaboracion": "2026-06",
       "fechaUltimaColaboracion": "2026-06",
       "telefono": "0000000",
-      "descripcion": "Cemento y otros",
+      "descripcion": "Descripción Disponible Para tus insumos",
       "rubro": "Cemento y cal",
       "email": "superenkiay2@gmail.com",
       "sitioWeb": "www ejemplo222.com",
