@@ -38505,15 +38505,6 @@
       "presets": [],
       "formulaResultado": "",
       "verificado": true
-    },
-    {
-      "codigo": "",
-      "nombre": "columna",
-      "tipoCalculo": "AREA",
-      "inputPrincipalLabel": "Cantidad",
-      "unidadResultado": "m2",
-      "categoria": "",
-      "insumos": []
     }
   ]
 }
