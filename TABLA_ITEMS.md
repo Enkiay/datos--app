@@ -380,4 +380,3 @@ Fórmula "—" = vacía → la app multiplica input × TODOS los parámetros (le
 | 373 | UH022 | Pilote de H°A° | m | LONGITUD | PILE | — | Largo=1 m |
 | 374 | UH025 | Losa Maciza de H°A° | m2 | AREA | SLAB | — | Largo=1 m · Ancho=1 m |
 | 375 | UH026 | Muro de H°A° | m2 | AREA | WALL | — | Largo=1 m · Alto=1 m |
-| 376 | UM010 | Muro de ladrillo gambote | m2 | AREA | WALL | — | Largo=1 m · Alto=1 m |
