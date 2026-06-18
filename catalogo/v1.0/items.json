@@ -22,7 +22,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "yeso_kg",
-          "codigo": "CM031"
+          "codigo": "CM033"
         },
         {
           "nombre": "Albañil",
@@ -570,7 +570,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -644,7 +644,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "yeso_kg",
-          "codigo": "CM031"
+          "codigo": "CM033"
         },
         {
           "nombre": "Albañil",
@@ -928,7 +928,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -1297,7 +1297,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -1424,7 +1424,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -1563,7 +1563,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -1787,7 +1787,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -1873,7 +1873,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -1971,7 +1971,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -2147,7 +2147,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -2329,7 +2329,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -2585,7 +2585,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "yeso_kg",
-          "codigo": "CM031"
+          "codigo": "CM033"
         },
         {
           "nombre": "Madera de Construcción",
@@ -2821,7 +2821,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -3062,7 +3062,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -4546,7 +4546,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "nitrato_kg",
-          "codigo": "CM024"
+          "codigo": "CM026"
         },
         {
           "nombre": "Guía",
@@ -5052,7 +5052,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -5168,7 +5168,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -5363,7 +5363,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "hormigon_premezclado_h_21_m3",
-          "codigo": "CM017"
+          "codigo": "CM019"
         },
         {
           "nombre": "Madera de Construcción",
@@ -5519,7 +5519,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Piedra Bruta",
@@ -5643,7 +5643,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Piedra Bruta",
@@ -5795,7 +5795,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -6234,7 +6234,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "hormigon_premezclado_h_21_m3",
-          "codigo": "CM017"
+          "codigo": "CM019"
         },
         {
           "nombre": "Madera de Construcción",
@@ -6586,7 +6586,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "hormigon_premezclado_h_25_m3",
-          "codigo": "CM018"
+          "codigo": "CM020"
         },
         {
           "nombre": "Madera de Construcción",
@@ -6762,7 +6762,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -6962,7 +6962,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -7282,7 +7282,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -7559,7 +7559,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "hormigon_premezclado_h_25_m3",
-          "codigo": "CM018"
+          "codigo": "CM020"
         },
         {
           "nombre": "Encofrador",
@@ -7741,7 +7741,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "hormigon_premezclado_h_21_m3",
-          "codigo": "CM017"
+          "codigo": "CM019"
         },
         {
           "nombre": "Encofrador",
@@ -8033,7 +8033,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -8246,7 +8246,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -8344,7 +8344,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -8532,7 +8532,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "estuco_kg",
-          "codigo": "CM016"
+          "codigo": "CM018"
         },
         {
           "nombre": "Clavos",
@@ -8608,7 +8608,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -8716,7 +8716,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -8896,7 +8896,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -9076,7 +9076,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -9208,7 +9208,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_para_calamina_kg",
-          "codigo": "CM015"
+          "codigo": "CM017"
         },
         {
           "nombre": "Albañil",
@@ -9318,7 +9318,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_para_calamina_kg",
-          "codigo": "CM015"
+          "codigo": "CM017"
         },
         {
           "nombre": "Albañil",
@@ -10568,7 +10568,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "clavos_para_calamina_kg",
-          "codigo": "CM015"
+          "codigo": "CM017"
         },
         {
           "nombre": "Albañil",
@@ -11366,7 +11366,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "estuco_kg",
-          "codigo": "CM016"
+          "codigo": "CM018"
         },
         {
           "nombre": "Clavos",
@@ -11460,7 +11460,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "estuco_kg",
-          "codigo": "CM016"
+          "codigo": "CM018"
         },
         {
           "nombre": "Albañil",
@@ -11556,7 +11556,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "estuco_kg",
-          "codigo": "CM016"
+          "codigo": "CM018"
         },
         {
           "nombre": "Clavos",
@@ -11650,7 +11650,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -11778,7 +11778,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -11878,7 +11878,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Albañil",
@@ -12036,7 +12036,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -12144,7 +12144,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -12215,7 +12215,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -12299,7 +12299,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Azulejo Nacional Color 22X34 Cm",
@@ -12407,7 +12407,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Azulejo Bras. 20X30 Cm",
@@ -12515,7 +12515,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Piedra Pizarra Cortada 15X30 Cm",
@@ -12715,7 +12715,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "revoque_fino_facil_kg",
-          "codigo": "CM029"
+          "codigo": "CM031"
         },
         {
           "nombre": "Albañil",
@@ -12789,7 +12789,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -12885,7 +12885,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "estuco_kg",
-          "codigo": "CM016"
+          "codigo": "CM018"
         },
         {
           "nombre": "Albañil",
@@ -12957,7 +12957,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -13137,7 +13137,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "placa_de_yeso_12_5_mm_1_2x2_4_m_pza",
-          "codigo": "CM026"
+          "codigo": "CM028"
         },
         {
           "nombre": "Perfil Canal de 92 Mm L=4 M",
@@ -13209,7 +13209,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "masilla_kg",
-          "codigo": "CM023"
+          "codigo": "CM025"
         },
         {
           "nombre": "Cold Rolled Channel",
@@ -13293,7 +13293,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "placa_de_yeso_12_5_mm_1_2x2_4_m_pza",
-          "codigo": "CM026"
+          "codigo": "CM028"
         },
         {
           "nombre": "Perfil Canal de 92 Mm L=4 M",
@@ -13365,7 +13365,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "masilla_kg",
-          "codigo": "CM023"
+          "codigo": "CM025"
         },
         {
           "nombre": "Cold Rolled Channel",
@@ -13521,7 +13521,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "masilla_kg",
-          "codigo": "CM023"
+          "codigo": "CM025"
         },
         {
           "nombre": "Cold Rolled Channel",
@@ -13677,7 +13677,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "masilla_kg",
-          "codigo": "CM023"
+          "codigo": "CM025"
         },
         {
           "nombre": "Cold Rolled Channel",
@@ -14417,7 +14417,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "masilla_etercoart_l",
-          "codigo": "CM021"
+          "codigo": "CM023"
         },
         {
           "nombre": "Masilla Eterglass",
@@ -14429,7 +14429,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "masilla_eterglass_l",
-          "codigo": "CM022"
+          "codigo": "CM024"
         },
         {
           "nombre": "Especialista",
@@ -14573,7 +14573,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "masilla_etercoart_l",
-          "codigo": "CM021"
+          "codigo": "CM023"
         },
         {
           "nombre": "Masilla Eterglass",
@@ -14585,7 +14585,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "masilla_eterglass_l",
-          "codigo": "CM022"
+          "codigo": "CM024"
         },
         {
           "nombre": "Especialista",
@@ -14658,7 +14658,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -14742,7 +14742,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -14836,7 +14836,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -14944,7 +14944,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -15050,7 +15050,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -15158,7 +15158,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -15264,7 +15264,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -15370,7 +15370,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -15500,7 +15500,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Cemento Blanco",
@@ -15758,7 +15758,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -15782,7 +15782,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ocre_importado_kg",
-          "codigo": "CM025"
+          "codigo": "CM027"
         },
         {
           "nombre": "Albañil",
@@ -16004,7 +16004,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "estuco_kg",
-          "codigo": "CM016"
+          "codigo": "CM018"
         },
         {
           "nombre": "Machihembre Cedro",
@@ -16212,7 +16212,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -16318,7 +16318,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Especialista Plomero",
@@ -16460,7 +16460,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -16536,7 +16536,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -16560,7 +16560,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "zocalo_de_ceramica_m",
-          "codigo": "CM033"
+          "codigo": "CM035"
         },
         {
           "nombre": "Cemento Blanco",
@@ -16636,7 +16636,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "zocalo_cedro_3_m",
-          "codigo": "CM032"
+          "codigo": "CM034"
         },
         {
           "nombre": "Tornillo para Madera",
@@ -16724,7 +16724,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -16748,7 +16748,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "zocalo_granitico_de_25x10_cm_m",
-          "codigo": "CM034"
+          "codigo": "CM036"
         },
         {
           "nombre": "Cemento Blanco",
@@ -16824,7 +16824,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -16848,7 +16848,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ocre_importado_kg",
-          "codigo": "CM025"
+          "codigo": "CM027"
         },
         {
           "nombre": "Albañil",
@@ -16924,7 +16924,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "soldadura_para_calamina_kg",
-          "codigo": "CM030"
+          "codigo": "CM032"
         },
         {
           "nombre": "Especialista",
@@ -17104,7 +17104,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "soldadura_para_calamina_kg",
-          "codigo": "CM030"
+          "codigo": "CM032"
         },
         {
           "nombre": "Pletina 3/4″ - 1/8″",
@@ -17383,7 +17383,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -17593,7 +17593,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Especialista Plomero",
@@ -18024,7 +18024,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "lavarropa_de_cemento_pza",
-          "codigo": "CM020"
+          "codigo": "CM022"
         },
         {
           "nombre": "Sifón de PVC",
@@ -18072,7 +18072,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Especialista Plomero",
@@ -18141,7 +18141,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "lavarropa_de_cemento_2_depositos_pza",
-          "codigo": "CM019"
+          "codigo": "CM021"
         },
         {
           "nombre": "Arena Fina",
@@ -18213,7 +18213,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Especialista Plomero",
@@ -19551,7 +19551,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -19682,7 +19682,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -19992,7 +19992,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -20075,7 +20075,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Ladrillo Gambote 18H 25X12X6.5 Cm",
@@ -20192,7 +20192,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -20263,7 +20263,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Ladrillo Gambote 18H 25X12X6.5 Cm",
@@ -21435,7 +21435,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -21566,7 +21566,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -21673,7 +21673,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -21778,7 +21778,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -21871,7 +21871,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -22023,7 +22023,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -22225,7 +22225,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "estuco_kg",
-          "codigo": "CM016"
+          "codigo": "CM018"
         },
         {
           "nombre": "Estacas de Madera",
@@ -23781,7 +23781,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Madera de Construcción",
@@ -23926,7 +23926,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Madera de Construcción",
@@ -24159,7 +24159,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -24249,7 +24249,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -24339,7 +24339,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -27714,7 +27714,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "masilla_kg",
-          "codigo": "CM023"
+          "codigo": "CM025"
         },
         {
           "nombre": "Especialista",
@@ -28779,7 +28779,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "quincalleria_y_accesorios_p_puerta_glb",
-          "codigo": "CM028"
+          "codigo": "CM030"
         },
         {
           "nombre": "Perfil u de Aluminio",
@@ -29927,7 +29927,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -30085,7 +30085,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Fierro Corrugado",
@@ -30681,7 +30681,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -30869,7 +30869,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "poste_de_hormigon_pretensado_m",
-          "codigo": "CM027"
+          "codigo": "CM029"
         },
         {
           "nombre": "Albañil",
@@ -31503,7 +31503,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -32205,7 +32205,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "hormigon_premezclado_h_25_m3",
-          "codigo": "CM018"
+          "codigo": "CM020"
         },
         {
           "nombre": "Madera de Construcción",
@@ -32349,7 +32349,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Piedra Manzana",
@@ -32503,7 +32503,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -32729,7 +32729,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Fina",
@@ -33527,7 +33527,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Piedra Cortada 20X20X20 Cm",
@@ -33739,7 +33739,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -33834,7 +33834,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -33981,7 +33981,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -34201,7 +34201,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -34559,7 +34559,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Clasificada",
@@ -34808,7 +34808,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Clasificada",
@@ -35057,7 +35057,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Clasificada",
@@ -35306,7 +35306,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Clasificada",
@@ -35744,7 +35744,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -36288,7 +36288,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -36511,7 +36511,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -36679,7 +36679,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cemento_portland_kg",
-          "codigo": "CM014"
+          "codigo": "CM016"
         },
         {
           "nombre": "Arena Común",
@@ -37149,7 +37149,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "yeso_kg",
-          "codigo": "CM031"
+          "codigo": "CM033"
         },
         {
           "nombre": "Ayudante",
@@ -38327,7 +38327,7 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "caneria_fg_2_l_6m_pza",
-          "codigo": "PL024"
+          "codigo": "PL025"
         },
         {
           "nombre": "Cañería FG 3″ L=6m",

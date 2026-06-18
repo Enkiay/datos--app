@@ -1108,7 +1108,7 @@
         },
         {
           "nombre": "Cemento Portland",
-          "codigo": "CM014",
+          "codigo": "CM016",
           "tipoInsumo": "MATERIAL",
           "precio": 0.94,
           "unidad": "Kg",
@@ -1268,7 +1268,7 @@
         },
         {
           "nombre": "Clavos para Calamina",
-          "codigo": "CM015",
+          "codigo": "CM017",
           "tipoInsumo": "MATERIAL",
           "precio": 16,
           "unidad": "Kg",
@@ -1508,7 +1508,7 @@
         },
         {
           "nombre": "Estuco",
-          "codigo": "CM016",
+          "codigo": "CM018",
           "tipoInsumo": "MATERIAL",
           "precio": 0.68,
           "unidad": "Kg",
@@ -1788,7 +1788,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-21",
-          "codigo": "CM017",
+          "codigo": "CM019",
           "tipoInsumo": "MATERIAL",
           "precio": 765,
           "unidad": "m3",
@@ -1808,7 +1808,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-25",
-          "codigo": "CM018",
+          "codigo": "CM020",
           "tipoInsumo": "MATERIAL",
           "precio": 830,
           "unidad": "m3",
@@ -2068,7 +2068,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento",
-          "codigo": "CM020",
+          "codigo": "CM022",
           "tipoInsumo": "MATERIAL",
           "precio": 320,
           "unidad": "Pza",
@@ -2078,7 +2078,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento 2 Depósitos",
-          "codigo": "CM019",
+          "codigo": "CM021",
           "tipoInsumo": "MATERIAL",
           "precio": 465,
           "unidad": "Pza",
@@ -2388,7 +2388,7 @@
         },
         {
           "nombre": "Masilla",
-          "codigo": "CM023",
+          "codigo": "CM025",
           "tipoInsumo": "MATERIAL",
           "precio": 12,
           "unidad": "Kg",
@@ -2398,7 +2398,7 @@
         },
         {
           "nombre": "Masilla Etercoart",
-          "codigo": "CM021",
+          "codigo": "CM023",
           "tipoInsumo": "MATERIAL",
           "precio": 25,
           "unidad": "L",
@@ -2408,7 +2408,7 @@
         },
         {
           "nombre": "Masilla Eterglass",
-          "codigo": "CM022",
+          "codigo": "CM024",
           "tipoInsumo": "MATERIAL",
           "precio": 27,
           "unidad": "L",
@@ -2598,7 +2598,7 @@
         },
         {
           "nombre": "Nitrato",
-          "codigo": "CM024",
+          "codigo": "CM026",
           "tipoInsumo": "MATERIAL",
           "precio": 6.6,
           "unidad": "Kg",
@@ -2608,7 +2608,7 @@
         },
         {
           "nombre": "Ocre Importado",
-          "codigo": "CM025",
+          "codigo": "CM027",
           "tipoInsumo": "MATERIAL",
           "precio": 19,
           "unidad": "Kg",
@@ -3118,7 +3118,7 @@
         },
         {
           "nombre": "Placa de Yeso 12.5 Mm 1.2X2.4 M",
-          "codigo": "CM026",
+          "codigo": "CM028",
           "tipoInsumo": "MATERIAL",
           "precio": 93.5,
           "unidad": "Pza",
@@ -3348,7 +3348,7 @@
         },
         {
           "nombre": "Poste de Hormigón Pretensado",
-          "codigo": "CM027",
+          "codigo": "CM029",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "m",
@@ -3398,7 +3398,7 @@
         },
         {
           "nombre": "Quincallería y Accesorios P/Puerta",
-          "codigo": "CM028",
+          "codigo": "CM030",
           "tipoInsumo": "MATERIAL",
           "precio": 210,
           "unidad": "Glb",
@@ -3458,7 +3458,7 @@
         },
         {
           "nombre": "Revoque Fino Fácil",
-          "codigo": "CM029",
+          "codigo": "CM031",
           "tipoInsumo": "MATERIAL",
           "precio": 13.5,
           "unidad": "Kg",
@@ -3588,7 +3588,7 @@
         },
         {
           "nombre": "Soldadura para Calamina",
-          "codigo": "CM030",
+          "codigo": "CM032",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "Kg",
@@ -4488,7 +4488,7 @@
         },
         {
           "nombre": "Yeso",
-          "codigo": "CM031",
+          "codigo": "CM033",
           "tipoInsumo": "MATERIAL",
           "precio": 0.8,
           "unidad": "Kg",
@@ -4498,7 +4498,7 @@
         },
         {
           "nombre": "Zócalo Cedro 3″",
-          "codigo": "CM032",
+          "codigo": "CM034",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
           "unidad": "m",
@@ -4508,7 +4508,7 @@
         },
         {
           "nombre": "Zócalo de Cerámica",
-          "codigo": "CM033",
+          "codigo": "CM035",
           "tipoInsumo": "MATERIAL",
           "precio": 12.5,
           "unidad": "m",
@@ -4518,7 +4518,7 @@
         },
         {
           "nombre": "Zócalo Granítico de 25X10 Cm",
-          "codigo": "CM034",
+          "codigo": "CM036",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "m",
@@ -5205,6 +5205,26 @@
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "caneria_fg_2_l_6m_pza",
           "categoria": "Plomería"
+        },
+        {
+          "nombre": "Cemento Portland IP-30",
+          "codigo": "CM014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip30_kg",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cemento Portland IP-40",
+          "codigo": "CM015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.3,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip40_kg",
+          "categoria": "Cemento y Cal"
         }
       ]
     },
@@ -6313,7 +6333,7 @@
         },
         {
           "nombre": "Cemento Portland",
-          "codigo": "CM014",
+          "codigo": "CM016",
           "tipoInsumo": "MATERIAL",
           "precio": 1.05,
           "unidad": "Kg",
@@ -6473,7 +6493,7 @@
         },
         {
           "nombre": "Clavos para Calamina",
-          "codigo": "CM015",
+          "codigo": "CM017",
           "tipoInsumo": "MATERIAL",
           "precio": 16,
           "unidad": "Kg",
@@ -6713,7 +6733,7 @@
         },
         {
           "nombre": "Estuco",
-          "codigo": "CM016",
+          "codigo": "CM018",
           "tipoInsumo": "MATERIAL",
           "precio": 0.68,
           "unidad": "Kg",
@@ -6993,7 +7013,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-21",
-          "codigo": "CM017",
+          "codigo": "CM019",
           "tipoInsumo": "MATERIAL",
           "precio": 765,
           "unidad": "m3",
@@ -7013,7 +7033,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-25",
-          "codigo": "CM018",
+          "codigo": "CM020",
           "tipoInsumo": "MATERIAL",
           "precio": 830,
           "unidad": "m3",
@@ -7273,7 +7293,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento",
-          "codigo": "CM020",
+          "codigo": "CM022",
           "tipoInsumo": "MATERIAL",
           "precio": 320,
           "unidad": "Pza",
@@ -7283,7 +7303,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento 2 Depósitos",
-          "codigo": "CM019",
+          "codigo": "CM021",
           "tipoInsumo": "MATERIAL",
           "precio": 465,
           "unidad": "Pza",
@@ -7593,7 +7613,7 @@
         },
         {
           "nombre": "Masilla",
-          "codigo": "CM023",
+          "codigo": "CM025",
           "tipoInsumo": "MATERIAL",
           "precio": 12,
           "unidad": "Kg",
@@ -7603,7 +7623,7 @@
         },
         {
           "nombre": "Masilla Etercoart",
-          "codigo": "CM021",
+          "codigo": "CM023",
           "tipoInsumo": "MATERIAL",
           "precio": 25,
           "unidad": "L",
@@ -7613,7 +7633,7 @@
         },
         {
           "nombre": "Masilla Eterglass",
-          "codigo": "CM022",
+          "codigo": "CM024",
           "tipoInsumo": "MATERIAL",
           "precio": 27,
           "unidad": "L",
@@ -7803,7 +7823,7 @@
         },
         {
           "nombre": "Nitrato",
-          "codigo": "CM024",
+          "codigo": "CM026",
           "tipoInsumo": "MATERIAL",
           "precio": 6.6,
           "unidad": "Kg",
@@ -7813,7 +7833,7 @@
         },
         {
           "nombre": "Ocre Importado",
-          "codigo": "CM025",
+          "codigo": "CM027",
           "tipoInsumo": "MATERIAL",
           "precio": 19,
           "unidad": "Kg",
@@ -8323,7 +8343,7 @@
         },
         {
           "nombre": "Placa de Yeso 12.5 Mm 1.2X2.4 M",
-          "codigo": "CM026",
+          "codigo": "CM028",
           "tipoInsumo": "MATERIAL",
           "precio": 93.5,
           "unidad": "Pza",
@@ -8553,7 +8573,7 @@
         },
         {
           "nombre": "Poste de Hormigón Pretensado",
-          "codigo": "CM027",
+          "codigo": "CM029",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "m",
@@ -8603,7 +8623,7 @@
         },
         {
           "nombre": "Quincallería y Accesorios P/Puerta",
-          "codigo": "CM028",
+          "codigo": "CM030",
           "tipoInsumo": "MATERIAL",
           "precio": 210,
           "unidad": "Glb",
@@ -8663,7 +8683,7 @@
         },
         {
           "nombre": "Revoque Fino Fácil",
-          "codigo": "CM029",
+          "codigo": "CM031",
           "tipoInsumo": "MATERIAL",
           "precio": 13.5,
           "unidad": "Kg",
@@ -8793,7 +8813,7 @@
         },
         {
           "nombre": "Soldadura para Calamina",
-          "codigo": "CM030",
+          "codigo": "CM032",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "Kg",
@@ -9693,7 +9713,7 @@
         },
         {
           "nombre": "Yeso",
-          "codigo": "CM031",
+          "codigo": "CM033",
           "tipoInsumo": "MATERIAL",
           "precio": 0.8,
           "unidad": "Kg",
@@ -9703,7 +9723,7 @@
         },
         {
           "nombre": "Zócalo Cedro 3″",
-          "codigo": "CM032",
+          "codigo": "CM034",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
           "unidad": "m",
@@ -9713,7 +9733,7 @@
         },
         {
           "nombre": "Zócalo de Cerámica",
-          "codigo": "CM033",
+          "codigo": "CM035",
           "tipoInsumo": "MATERIAL",
           "precio": 12.5,
           "unidad": "m",
@@ -9723,7 +9743,7 @@
         },
         {
           "nombre": "Zócalo Granítico de 25X10 Cm",
-          "codigo": "CM034",
+          "codigo": "CM036",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "m",
@@ -10410,6 +10430,26 @@
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "caneria_fg_2_l_6m_pza",
           "categoria": "Plomería"
+        },
+        {
+          "nombre": "Cemento Portland IP-30",
+          "codigo": "CM014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip30_kg",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cemento Portland IP-40",
+          "codigo": "CM015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.3,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip40_kg",
+          "categoria": "Cemento y Cal"
         }
       ]
     },
@@ -11518,7 +11558,7 @@
         },
         {
           "nombre": "Cemento Portland",
-          "codigo": "CM014",
+          "codigo": "CM016",
           "tipoInsumo": "MATERIAL",
           "precio": 0.98,
           "unidad": "Kg",
@@ -11678,7 +11718,7 @@
         },
         {
           "nombre": "Clavos para Calamina",
-          "codigo": "CM015",
+          "codigo": "CM017",
           "tipoInsumo": "MATERIAL",
           "precio": 16,
           "unidad": "Kg",
@@ -11918,7 +11958,7 @@
         },
         {
           "nombre": "Estuco",
-          "codigo": "CM016",
+          "codigo": "CM018",
           "tipoInsumo": "MATERIAL",
           "precio": 0.68,
           "unidad": "Kg",
@@ -12198,7 +12238,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-21",
-          "codigo": "CM017",
+          "codigo": "CM019",
           "tipoInsumo": "MATERIAL",
           "precio": 765,
           "unidad": "m3",
@@ -12218,7 +12258,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-25",
-          "codigo": "CM018",
+          "codigo": "CM020",
           "tipoInsumo": "MATERIAL",
           "precio": 830,
           "unidad": "m3",
@@ -12478,7 +12518,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento",
-          "codigo": "CM020",
+          "codigo": "CM022",
           "tipoInsumo": "MATERIAL",
           "precio": 320,
           "unidad": "Pza",
@@ -12488,7 +12528,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento 2 Depósitos",
-          "codigo": "CM019",
+          "codigo": "CM021",
           "tipoInsumo": "MATERIAL",
           "precio": 465,
           "unidad": "Pza",
@@ -12798,7 +12838,7 @@
         },
         {
           "nombre": "Masilla",
-          "codigo": "CM023",
+          "codigo": "CM025",
           "tipoInsumo": "MATERIAL",
           "precio": 12,
           "unidad": "Kg",
@@ -12808,7 +12848,7 @@
         },
         {
           "nombre": "Masilla Etercoart",
-          "codigo": "CM021",
+          "codigo": "CM023",
           "tipoInsumo": "MATERIAL",
           "precio": 25,
           "unidad": "L",
@@ -12818,7 +12858,7 @@
         },
         {
           "nombre": "Masilla Eterglass",
-          "codigo": "CM022",
+          "codigo": "CM024",
           "tipoInsumo": "MATERIAL",
           "precio": 27,
           "unidad": "L",
@@ -13008,7 +13048,7 @@
         },
         {
           "nombre": "Nitrato",
-          "codigo": "CM024",
+          "codigo": "CM026",
           "tipoInsumo": "MATERIAL",
           "precio": 6.6,
           "unidad": "Kg",
@@ -13018,7 +13058,7 @@
         },
         {
           "nombre": "Ocre Importado",
-          "codigo": "CM025",
+          "codigo": "CM027",
           "tipoInsumo": "MATERIAL",
           "precio": 19,
           "unidad": "Kg",
@@ -13528,7 +13568,7 @@
         },
         {
           "nombre": "Placa de Yeso 12.5 Mm 1.2X2.4 M",
-          "codigo": "CM026",
+          "codigo": "CM028",
           "tipoInsumo": "MATERIAL",
           "precio": 93.5,
           "unidad": "Pza",
@@ -13758,7 +13798,7 @@
         },
         {
           "nombre": "Poste de Hormigón Pretensado",
-          "codigo": "CM027",
+          "codigo": "CM029",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "m",
@@ -13808,7 +13848,7 @@
         },
         {
           "nombre": "Quincallería y Accesorios P/Puerta",
-          "codigo": "CM028",
+          "codigo": "CM030",
           "tipoInsumo": "MATERIAL",
           "precio": 210,
           "unidad": "Glb",
@@ -13868,7 +13908,7 @@
         },
         {
           "nombre": "Revoque Fino Fácil",
-          "codigo": "CM029",
+          "codigo": "CM031",
           "tipoInsumo": "MATERIAL",
           "precio": 13.5,
           "unidad": "Kg",
@@ -13998,7 +14038,7 @@
         },
         {
           "nombre": "Soldadura para Calamina",
-          "codigo": "CM030",
+          "codigo": "CM032",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "Kg",
@@ -14898,7 +14938,7 @@
         },
         {
           "nombre": "Yeso",
-          "codigo": "CM031",
+          "codigo": "CM033",
           "tipoInsumo": "MATERIAL",
           "precio": 0.8,
           "unidad": "Kg",
@@ -14908,7 +14948,7 @@
         },
         {
           "nombre": "Zócalo Cedro 3″",
-          "codigo": "CM032",
+          "codigo": "CM034",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
           "unidad": "m",
@@ -14918,7 +14958,7 @@
         },
         {
           "nombre": "Zócalo de Cerámica",
-          "codigo": "CM033",
+          "codigo": "CM035",
           "tipoInsumo": "MATERIAL",
           "precio": 12.5,
           "unidad": "m",
@@ -14928,7 +14968,7 @@
         },
         {
           "nombre": "Zócalo Granítico de 25X10 Cm",
-          "codigo": "CM034",
+          "codigo": "CM036",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "m",
@@ -15615,6 +15655,26 @@
           "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "caneria_fg_2_l_6m_pza",
           "categoria": "Plomería"
+        },
+        {
+          "nombre": "Cemento Portland IP-30",
+          "codigo": "CM014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip30_kg",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cemento Portland IP-40",
+          "codigo": "CM015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.3,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip40_kg",
+          "categoria": "Cemento y Cal"
         }
       ]
     },
@@ -16723,7 +16783,7 @@
         },
         {
           "nombre": "Cemento Portland",
-          "codigo": "CM014",
+          "codigo": "CM016",
           "tipoInsumo": "MATERIAL",
           "precio": 1.05,
           "unidad": "Kg",
@@ -16883,7 +16943,7 @@
         },
         {
           "nombre": "Clavos para Calamina",
-          "codigo": "CM015",
+          "codigo": "CM017",
           "tipoInsumo": "MATERIAL",
           "precio": 16,
           "unidad": "Kg",
@@ -17123,7 +17183,7 @@
         },
         {
           "nombre": "Estuco",
-          "codigo": "CM016",
+          "codigo": "CM018",
           "tipoInsumo": "MATERIAL",
           "precio": 0.68,
           "unidad": "Kg",
@@ -17403,7 +17463,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-21",
-          "codigo": "CM017",
+          "codigo": "CM019",
           "tipoInsumo": "MATERIAL",
           "precio": 765,
           "unidad": "m3",
@@ -17423,7 +17483,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-25",
-          "codigo": "CM018",
+          "codigo": "CM020",
           "tipoInsumo": "MATERIAL",
           "precio": 830,
           "unidad": "m3",
@@ -17683,7 +17743,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento",
-          "codigo": "CM020",
+          "codigo": "CM022",
           "tipoInsumo": "MATERIAL",
           "precio": 320,
           "unidad": "Pza",
@@ -17693,7 +17753,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento 2 Depósitos",
-          "codigo": "CM019",
+          "codigo": "CM021",
           "tipoInsumo": "MATERIAL",
           "precio": 465,
           "unidad": "Pza",
@@ -18003,7 +18063,7 @@
         },
         {
           "nombre": "Masilla",
-          "codigo": "CM023",
+          "codigo": "CM025",
           "tipoInsumo": "MATERIAL",
           "precio": 12,
           "unidad": "Kg",
@@ -18013,7 +18073,7 @@
         },
         {
           "nombre": "Masilla Etercoart",
-          "codigo": "CM021",
+          "codigo": "CM023",
           "tipoInsumo": "MATERIAL",
           "precio": 25,
           "unidad": "L",
@@ -18023,7 +18083,7 @@
         },
         {
           "nombre": "Masilla Eterglass",
-          "codigo": "CM022",
+          "codigo": "CM024",
           "tipoInsumo": "MATERIAL",
           "precio": 27,
           "unidad": "L",
@@ -18213,7 +18273,7 @@
         },
         {
           "nombre": "Nitrato",
-          "codigo": "CM024",
+          "codigo": "CM026",
           "tipoInsumo": "MATERIAL",
           "precio": 6.6,
           "unidad": "Kg",
@@ -18223,7 +18283,7 @@
         },
         {
           "nombre": "Ocre Importado",
-          "codigo": "CM025",
+          "codigo": "CM027",
           "tipoInsumo": "MATERIAL",
           "precio": 19,
           "unidad": "Kg",
@@ -18733,7 +18793,7 @@
         },
         {
           "nombre": "Placa de Yeso 12.5 Mm 1.2X2.4 M",
-          "codigo": "CM026",
+          "codigo": "CM028",
           "tipoInsumo": "MATERIAL",
           "precio": 93.5,
           "unidad": "Pza",
@@ -18963,7 +19023,7 @@
         },
         {
           "nombre": "Poste de Hormigón Pretensado",
-          "codigo": "CM027",
+          "codigo": "CM029",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "m",
@@ -19013,7 +19073,7 @@
         },
         {
           "nombre": "Quincallería y Accesorios P/Puerta",
-          "codigo": "CM028",
+          "codigo": "CM030",
           "tipoInsumo": "MATERIAL",
           "precio": 210,
           "unidad": "Glb",
@@ -19073,7 +19133,7 @@
         },
         {
           "nombre": "Revoque Fino Fácil",
-          "codigo": "CM029",
+          "codigo": "CM031",
           "tipoInsumo": "MATERIAL",
           "precio": 13.5,
           "unidad": "Kg",
@@ -19203,7 +19263,7 @@
         },
         {
           "nombre": "Soldadura para Calamina",
-          "codigo": "CM030",
+          "codigo": "CM032",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "Kg",
@@ -20103,7 +20163,7 @@
         },
         {
           "nombre": "Yeso",
-          "codigo": "CM031",
+          "codigo": "CM033",
           "tipoInsumo": "MATERIAL",
           "precio": 0.8,
           "unidad": "Kg",
@@ -20113,7 +20173,7 @@
         },
         {
           "nombre": "Zócalo Cedro 3″",
-          "codigo": "CM032",
+          "codigo": "CM034",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
           "unidad": "m",
@@ -20123,7 +20183,7 @@
         },
         {
           "nombre": "Zócalo de Cerámica",
-          "codigo": "CM033",
+          "codigo": "CM035",
           "tipoInsumo": "MATERIAL",
           "precio": 12.5,
           "unidad": "m",
@@ -20133,7 +20193,7 @@
         },
         {
           "nombre": "Zócalo Granítico de 25X10 Cm",
-          "codigo": "CM034",
+          "codigo": "CM036",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "m",
@@ -20820,6 +20880,26 @@
           "nota": "Semilla: copiado de La Paz — ajustar con aportes de la ciudad",
           "idCanonico": "caneria_fg_2_l_6m_pza",
           "categoria": "Plomería"
+        },
+        {
+          "nombre": "Cemento Portland IP-30",
+          "codigo": "CM014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip30_kg",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cemento Portland IP-40",
+          "codigo": "CM015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.3,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip40_kg",
+          "categoria": "Cemento y Cal"
         }
       ]
     },
@@ -21928,7 +22008,7 @@
         },
         {
           "nombre": "Cemento Portland",
-          "codigo": "CM014",
+          "codigo": "CM016",
           "tipoInsumo": "MATERIAL",
           "precio": 1.05,
           "unidad": "Kg",
@@ -22088,7 +22168,7 @@
         },
         {
           "nombre": "Clavos para Calamina",
-          "codigo": "CM015",
+          "codigo": "CM017",
           "tipoInsumo": "MATERIAL",
           "precio": 16,
           "unidad": "Kg",
@@ -22328,7 +22408,7 @@
         },
         {
           "nombre": "Estuco",
-          "codigo": "CM016",
+          "codigo": "CM018",
           "tipoInsumo": "MATERIAL",
           "precio": 0.68,
           "unidad": "Kg",
@@ -22608,7 +22688,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-21",
-          "codigo": "CM017",
+          "codigo": "CM019",
           "tipoInsumo": "MATERIAL",
           "precio": 765,
           "unidad": "m3",
@@ -22628,7 +22708,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-25",
-          "codigo": "CM018",
+          "codigo": "CM020",
           "tipoInsumo": "MATERIAL",
           "precio": 830,
           "unidad": "m3",
@@ -22888,7 +22968,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento",
-          "codigo": "CM020",
+          "codigo": "CM022",
           "tipoInsumo": "MATERIAL",
           "precio": 320,
           "unidad": "Pza",
@@ -22898,7 +22978,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento 2 Depósitos",
-          "codigo": "CM019",
+          "codigo": "CM021",
           "tipoInsumo": "MATERIAL",
           "precio": 465,
           "unidad": "Pza",
@@ -23208,7 +23288,7 @@
         },
         {
           "nombre": "Masilla",
-          "codigo": "CM023",
+          "codigo": "CM025",
           "tipoInsumo": "MATERIAL",
           "precio": 12,
           "unidad": "Kg",
@@ -23218,7 +23298,7 @@
         },
         {
           "nombre": "Masilla Etercoart",
-          "codigo": "CM021",
+          "codigo": "CM023",
           "tipoInsumo": "MATERIAL",
           "precio": 25,
           "unidad": "L",
@@ -23228,7 +23308,7 @@
         },
         {
           "nombre": "Masilla Eterglass",
-          "codigo": "CM022",
+          "codigo": "CM024",
           "tipoInsumo": "MATERIAL",
           "precio": 27,
           "unidad": "L",
@@ -23418,7 +23498,7 @@
         },
         {
           "nombre": "Nitrato",
-          "codigo": "CM024",
+          "codigo": "CM026",
           "tipoInsumo": "MATERIAL",
           "precio": 6.6,
           "unidad": "Kg",
@@ -23428,7 +23508,7 @@
         },
         {
           "nombre": "Ocre Importado",
-          "codigo": "CM025",
+          "codigo": "CM027",
           "tipoInsumo": "MATERIAL",
           "precio": 19,
           "unidad": "Kg",
@@ -23938,7 +24018,7 @@
         },
         {
           "nombre": "Placa de Yeso 12.5 Mm 1.2X2.4 M",
-          "codigo": "CM026",
+          "codigo": "CM028",
           "tipoInsumo": "MATERIAL",
           "precio": 93.5,
           "unidad": "Pza",
@@ -24168,7 +24248,7 @@
         },
         {
           "nombre": "Poste de Hormigón Pretensado",
-          "codigo": "CM027",
+          "codigo": "CM029",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "m",
@@ -24218,7 +24298,7 @@
         },
         {
           "nombre": "Quincallería y Accesorios P/Puerta",
-          "codigo": "CM028",
+          "codigo": "CM030",
           "tipoInsumo": "MATERIAL",
           "precio": 210,
           "unidad": "Glb",
@@ -24278,7 +24358,7 @@
         },
         {
           "nombre": "Revoque Fino Fácil",
-          "codigo": "CM029",
+          "codigo": "CM031",
           "tipoInsumo": "MATERIAL",
           "precio": 13.5,
           "unidad": "Kg",
@@ -24408,7 +24488,7 @@
         },
         {
           "nombre": "Soldadura para Calamina",
-          "codigo": "CM030",
+          "codigo": "CM032",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "Kg",
@@ -25308,7 +25388,7 @@
         },
         {
           "nombre": "Yeso",
-          "codigo": "CM031",
+          "codigo": "CM033",
           "tipoInsumo": "MATERIAL",
           "precio": 0.8,
           "unidad": "Kg",
@@ -25318,7 +25398,7 @@
         },
         {
           "nombre": "Zócalo Cedro 3″",
-          "codigo": "CM032",
+          "codigo": "CM034",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
           "unidad": "m",
@@ -25328,7 +25408,7 @@
         },
         {
           "nombre": "Zócalo de Cerámica",
-          "codigo": "CM033",
+          "codigo": "CM035",
           "tipoInsumo": "MATERIAL",
           "precio": 12.5,
           "unidad": "m",
@@ -25338,7 +25418,7 @@
         },
         {
           "nombre": "Zócalo Granítico de 25X10 Cm",
-          "codigo": "CM034",
+          "codigo": "CM036",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "m",
@@ -26025,6 +26105,26 @@
           "nota": "Semilla: copiado de La Paz — ajustar con aportes de la ciudad",
           "idCanonico": "caneria_fg_2_l_6m_pza",
           "categoria": "Plomería"
+        },
+        {
+          "nombre": "Cemento Portland IP-30",
+          "codigo": "CM014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip30_kg",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cemento Portland IP-40",
+          "codigo": "CM015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.3,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip40_kg",
+          "categoria": "Cemento y Cal"
         }
       ]
     },
@@ -27133,7 +27233,7 @@
         },
         {
           "nombre": "Cemento Portland",
-          "codigo": "CM014",
+          "codigo": "CM016",
           "tipoInsumo": "MATERIAL",
           "precio": 0.94,
           "unidad": "Kg",
@@ -27293,7 +27393,7 @@
         },
         {
           "nombre": "Clavos para Calamina",
-          "codigo": "CM015",
+          "codigo": "CM017",
           "tipoInsumo": "MATERIAL",
           "precio": 16,
           "unidad": "Kg",
@@ -27533,7 +27633,7 @@
         },
         {
           "nombre": "Estuco",
-          "codigo": "CM016",
+          "codigo": "CM018",
           "tipoInsumo": "MATERIAL",
           "precio": 0.68,
           "unidad": "Kg",
@@ -27813,7 +27913,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-21",
-          "codigo": "CM017",
+          "codigo": "CM019",
           "tipoInsumo": "MATERIAL",
           "precio": 765,
           "unidad": "m3",
@@ -27833,7 +27933,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-25",
-          "codigo": "CM018",
+          "codigo": "CM020",
           "tipoInsumo": "MATERIAL",
           "precio": 830,
           "unidad": "m3",
@@ -28093,7 +28193,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento",
-          "codigo": "CM020",
+          "codigo": "CM022",
           "tipoInsumo": "MATERIAL",
           "precio": 320,
           "unidad": "Pza",
@@ -28103,7 +28203,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento 2 Depósitos",
-          "codigo": "CM019",
+          "codigo": "CM021",
           "tipoInsumo": "MATERIAL",
           "precio": 465,
           "unidad": "Pza",
@@ -28413,7 +28513,7 @@
         },
         {
           "nombre": "Masilla",
-          "codigo": "CM023",
+          "codigo": "CM025",
           "tipoInsumo": "MATERIAL",
           "precio": 12,
           "unidad": "Kg",
@@ -28423,7 +28523,7 @@
         },
         {
           "nombre": "Masilla Etercoart",
-          "codigo": "CM021",
+          "codigo": "CM023",
           "tipoInsumo": "MATERIAL",
           "precio": 25,
           "unidad": "L",
@@ -28433,7 +28533,7 @@
         },
         {
           "nombre": "Masilla Eterglass",
-          "codigo": "CM022",
+          "codigo": "CM024",
           "tipoInsumo": "MATERIAL",
           "precio": 27,
           "unidad": "L",
@@ -28623,7 +28723,7 @@
         },
         {
           "nombre": "Nitrato",
-          "codigo": "CM024",
+          "codigo": "CM026",
           "tipoInsumo": "MATERIAL",
           "precio": 6.6,
           "unidad": "Kg",
@@ -28633,7 +28733,7 @@
         },
         {
           "nombre": "Ocre Importado",
-          "codigo": "CM025",
+          "codigo": "CM027",
           "tipoInsumo": "MATERIAL",
           "precio": 19,
           "unidad": "Kg",
@@ -29143,7 +29243,7 @@
         },
         {
           "nombre": "Placa de Yeso 12.5 Mm 1.2X2.4 M",
-          "codigo": "CM026",
+          "codigo": "CM028",
           "tipoInsumo": "MATERIAL",
           "precio": 93.5,
           "unidad": "Pza",
@@ -29373,7 +29473,7 @@
         },
         {
           "nombre": "Poste de Hormigón Pretensado",
-          "codigo": "CM027",
+          "codigo": "CM029",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "m",
@@ -29423,7 +29523,7 @@
         },
         {
           "nombre": "Quincallería y Accesorios P/Puerta",
-          "codigo": "CM028",
+          "codigo": "CM030",
           "tipoInsumo": "MATERIAL",
           "precio": 210,
           "unidad": "Glb",
@@ -29483,7 +29583,7 @@
         },
         {
           "nombre": "Revoque Fino Fácil",
-          "codigo": "CM029",
+          "codigo": "CM031",
           "tipoInsumo": "MATERIAL",
           "precio": 13.5,
           "unidad": "Kg",
@@ -29613,7 +29713,7 @@
         },
         {
           "nombre": "Soldadura para Calamina",
-          "codigo": "CM030",
+          "codigo": "CM032",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "Kg",
@@ -30513,7 +30613,7 @@
         },
         {
           "nombre": "Yeso",
-          "codigo": "CM031",
+          "codigo": "CM033",
           "tipoInsumo": "MATERIAL",
           "precio": 0.8,
           "unidad": "Kg",
@@ -30523,7 +30623,7 @@
         },
         {
           "nombre": "Zócalo Cedro 3″",
-          "codigo": "CM032",
+          "codigo": "CM034",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
           "unidad": "m",
@@ -30533,7 +30633,7 @@
         },
         {
           "nombre": "Zócalo de Cerámica",
-          "codigo": "CM033",
+          "codigo": "CM035",
           "tipoInsumo": "MATERIAL",
           "precio": 12.5,
           "unidad": "m",
@@ -30543,7 +30643,7 @@
         },
         {
           "nombre": "Zócalo Granítico de 25X10 Cm",
-          "codigo": "CM034",
+          "codigo": "CM036",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "m",
@@ -31230,6 +31330,26 @@
           "nota": "Semilla: copiado de Cochabamba — ajustar con aportes de la ciudad",
           "idCanonico": "caneria_fg_2_l_6m_pza",
           "categoria": "Plomería"
+        },
+        {
+          "nombre": "Cemento Portland IP-30",
+          "codigo": "CM014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip30_kg",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cemento Portland IP-40",
+          "codigo": "CM015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.3,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip40_kg",
+          "categoria": "Cemento y Cal"
         }
       ]
     },
@@ -32338,7 +32458,7 @@
         },
         {
           "nombre": "Cemento Portland",
-          "codigo": "CM014",
+          "codigo": "CM016",
           "tipoInsumo": "MATERIAL",
           "precio": 0.98,
           "unidad": "Kg",
@@ -32498,7 +32618,7 @@
         },
         {
           "nombre": "Clavos para Calamina",
-          "codigo": "CM015",
+          "codigo": "CM017",
           "tipoInsumo": "MATERIAL",
           "precio": 16,
           "unidad": "Kg",
@@ -32738,7 +32858,7 @@
         },
         {
           "nombre": "Estuco",
-          "codigo": "CM016",
+          "codigo": "CM018",
           "tipoInsumo": "MATERIAL",
           "precio": 0.68,
           "unidad": "Kg",
@@ -33018,7 +33138,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-21",
-          "codigo": "CM017",
+          "codigo": "CM019",
           "tipoInsumo": "MATERIAL",
           "precio": 765,
           "unidad": "m3",
@@ -33038,7 +33158,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-25",
-          "codigo": "CM018",
+          "codigo": "CM020",
           "tipoInsumo": "MATERIAL",
           "precio": 830,
           "unidad": "m3",
@@ -33298,7 +33418,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento",
-          "codigo": "CM020",
+          "codigo": "CM022",
           "tipoInsumo": "MATERIAL",
           "precio": 320,
           "unidad": "Pza",
@@ -33308,7 +33428,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento 2 Depósitos",
-          "codigo": "CM019",
+          "codigo": "CM021",
           "tipoInsumo": "MATERIAL",
           "precio": 465,
           "unidad": "Pza",
@@ -33618,7 +33738,7 @@
         },
         {
           "nombre": "Masilla",
-          "codigo": "CM023",
+          "codigo": "CM025",
           "tipoInsumo": "MATERIAL",
           "precio": 12,
           "unidad": "Kg",
@@ -33628,7 +33748,7 @@
         },
         {
           "nombre": "Masilla Etercoart",
-          "codigo": "CM021",
+          "codigo": "CM023",
           "tipoInsumo": "MATERIAL",
           "precio": 25,
           "unidad": "L",
@@ -33638,7 +33758,7 @@
         },
         {
           "nombre": "Masilla Eterglass",
-          "codigo": "CM022",
+          "codigo": "CM024",
           "tipoInsumo": "MATERIAL",
           "precio": 27,
           "unidad": "L",
@@ -33828,7 +33948,7 @@
         },
         {
           "nombre": "Nitrato",
-          "codigo": "CM024",
+          "codigo": "CM026",
           "tipoInsumo": "MATERIAL",
           "precio": 6.6,
           "unidad": "Kg",
@@ -33838,7 +33958,7 @@
         },
         {
           "nombre": "Ocre Importado",
-          "codigo": "CM025",
+          "codigo": "CM027",
           "tipoInsumo": "MATERIAL",
           "precio": 19,
           "unidad": "Kg",
@@ -34348,7 +34468,7 @@
         },
         {
           "nombre": "Placa de Yeso 12.5 Mm 1.2X2.4 M",
-          "codigo": "CM026",
+          "codigo": "CM028",
           "tipoInsumo": "MATERIAL",
           "precio": 93.5,
           "unidad": "Pza",
@@ -34578,7 +34698,7 @@
         },
         {
           "nombre": "Poste de Hormigón Pretensado",
-          "codigo": "CM027",
+          "codigo": "CM029",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "m",
@@ -34628,7 +34748,7 @@
         },
         {
           "nombre": "Quincallería y Accesorios P/Puerta",
-          "codigo": "CM028",
+          "codigo": "CM030",
           "tipoInsumo": "MATERIAL",
           "precio": 210,
           "unidad": "Glb",
@@ -34688,7 +34808,7 @@
         },
         {
           "nombre": "Revoque Fino Fácil",
-          "codigo": "CM029",
+          "codigo": "CM031",
           "tipoInsumo": "MATERIAL",
           "precio": 13.5,
           "unidad": "Kg",
@@ -34818,7 +34938,7 @@
         },
         {
           "nombre": "Soldadura para Calamina",
-          "codigo": "CM030",
+          "codigo": "CM032",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "Kg",
@@ -35718,7 +35838,7 @@
         },
         {
           "nombre": "Yeso",
-          "codigo": "CM031",
+          "codigo": "CM033",
           "tipoInsumo": "MATERIAL",
           "precio": 0.8,
           "unidad": "Kg",
@@ -35728,7 +35848,7 @@
         },
         {
           "nombre": "Zócalo Cedro 3″",
-          "codigo": "CM032",
+          "codigo": "CM034",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
           "unidad": "m",
@@ -35738,7 +35858,7 @@
         },
         {
           "nombre": "Zócalo de Cerámica",
-          "codigo": "CM033",
+          "codigo": "CM035",
           "tipoInsumo": "MATERIAL",
           "precio": 12.5,
           "unidad": "m",
@@ -35748,7 +35868,7 @@
         },
         {
           "nombre": "Zócalo Granítico de 25X10 Cm",
-          "codigo": "CM034",
+          "codigo": "CM036",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "m",
@@ -36435,6 +36555,26 @@
           "nota": "Semilla: copiado de Santa Cruz — ajustar con aportes de la ciudad",
           "idCanonico": "caneria_fg_2_l_6m_pza",
           "categoria": "Plomería"
+        },
+        {
+          "nombre": "Cemento Portland IP-30",
+          "codigo": "CM014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip30_kg",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cemento Portland IP-40",
+          "codigo": "CM015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.3,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip40_kg",
+          "categoria": "Cemento y Cal"
         }
       ]
     },
@@ -37543,7 +37683,7 @@
         },
         {
           "nombre": "Cemento Portland",
-          "codigo": "CM014",
+          "codigo": "CM016",
           "tipoInsumo": "MATERIAL",
           "precio": 0.98,
           "unidad": "Kg",
@@ -37703,7 +37843,7 @@
         },
         {
           "nombre": "Clavos para Calamina",
-          "codigo": "CM015",
+          "codigo": "CM017",
           "tipoInsumo": "MATERIAL",
           "precio": 16,
           "unidad": "Kg",
@@ -37943,7 +38083,7 @@
         },
         {
           "nombre": "Estuco",
-          "codigo": "CM016",
+          "codigo": "CM018",
           "tipoInsumo": "MATERIAL",
           "precio": 0.68,
           "unidad": "Kg",
@@ -38223,7 +38363,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-21",
-          "codigo": "CM017",
+          "codigo": "CM019",
           "tipoInsumo": "MATERIAL",
           "precio": 765,
           "unidad": "m3",
@@ -38243,7 +38383,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-25",
-          "codigo": "CM018",
+          "codigo": "CM020",
           "tipoInsumo": "MATERIAL",
           "precio": 830,
           "unidad": "m3",
@@ -38503,7 +38643,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento",
-          "codigo": "CM020",
+          "codigo": "CM022",
           "tipoInsumo": "MATERIAL",
           "precio": 320,
           "unidad": "Pza",
@@ -38513,7 +38653,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento 2 Depósitos",
-          "codigo": "CM019",
+          "codigo": "CM021",
           "tipoInsumo": "MATERIAL",
           "precio": 465,
           "unidad": "Pza",
@@ -38823,7 +38963,7 @@
         },
         {
           "nombre": "Masilla",
-          "codigo": "CM023",
+          "codigo": "CM025",
           "tipoInsumo": "MATERIAL",
           "precio": 12,
           "unidad": "Kg",
@@ -38833,7 +38973,7 @@
         },
         {
           "nombre": "Masilla Etercoart",
-          "codigo": "CM021",
+          "codigo": "CM023",
           "tipoInsumo": "MATERIAL",
           "precio": 25,
           "unidad": "L",
@@ -38843,7 +38983,7 @@
         },
         {
           "nombre": "Masilla Eterglass",
-          "codigo": "CM022",
+          "codigo": "CM024",
           "tipoInsumo": "MATERIAL",
           "precio": 27,
           "unidad": "L",
@@ -39033,7 +39173,7 @@
         },
         {
           "nombre": "Nitrato",
-          "codigo": "CM024",
+          "codigo": "CM026",
           "tipoInsumo": "MATERIAL",
           "precio": 6.6,
           "unidad": "Kg",
@@ -39043,7 +39183,7 @@
         },
         {
           "nombre": "Ocre Importado",
-          "codigo": "CM025",
+          "codigo": "CM027",
           "tipoInsumo": "MATERIAL",
           "precio": 19,
           "unidad": "Kg",
@@ -39553,7 +39693,7 @@
         },
         {
           "nombre": "Placa de Yeso 12.5 Mm 1.2X2.4 M",
-          "codigo": "CM026",
+          "codigo": "CM028",
           "tipoInsumo": "MATERIAL",
           "precio": 93.5,
           "unidad": "Pza",
@@ -39783,7 +39923,7 @@
         },
         {
           "nombre": "Poste de Hormigón Pretensado",
-          "codigo": "CM027",
+          "codigo": "CM029",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "m",
@@ -39833,7 +39973,7 @@
         },
         {
           "nombre": "Quincallería y Accesorios P/Puerta",
-          "codigo": "CM028",
+          "codigo": "CM030",
           "tipoInsumo": "MATERIAL",
           "precio": 210,
           "unidad": "Glb",
@@ -39893,7 +40033,7 @@
         },
         {
           "nombre": "Revoque Fino Fácil",
-          "codigo": "CM029",
+          "codigo": "CM031",
           "tipoInsumo": "MATERIAL",
           "precio": 13.5,
           "unidad": "Kg",
@@ -40023,7 +40163,7 @@
         },
         {
           "nombre": "Soldadura para Calamina",
-          "codigo": "CM030",
+          "codigo": "CM032",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "Kg",
@@ -40923,7 +41063,7 @@
         },
         {
           "nombre": "Yeso",
-          "codigo": "CM031",
+          "codigo": "CM033",
           "tipoInsumo": "MATERIAL",
           "precio": 0.8,
           "unidad": "Kg",
@@ -40933,7 +41073,7 @@
         },
         {
           "nombre": "Zócalo Cedro 3″",
-          "codigo": "CM032",
+          "codigo": "CM034",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
           "unidad": "m",
@@ -40943,7 +41083,7 @@
         },
         {
           "nombre": "Zócalo de Cerámica",
-          "codigo": "CM033",
+          "codigo": "CM035",
           "tipoInsumo": "MATERIAL",
           "precio": 12.5,
           "unidad": "m",
@@ -40953,7 +41093,7 @@
         },
         {
           "nombre": "Zócalo Granítico de 25X10 Cm",
-          "codigo": "CM034",
+          "codigo": "CM036",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "m",
@@ -41640,6 +41780,26 @@
           "nota": "Semilla: copiado de Santa Cruz — ajustar con aportes de la ciudad",
           "idCanonico": "caneria_fg_2_l_6m_pza",
           "categoria": "Plomería"
+        },
+        {
+          "nombre": "Cemento Portland IP-30",
+          "codigo": "CM014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip30_kg",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cemento Portland IP-40",
+          "codigo": "CM015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.3,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip40_kg",
+          "categoria": "Cemento y Cal"
         }
       ]
     },
@@ -42748,7 +42908,7 @@
         },
         {
           "nombre": "Cemento Portland",
-          "codigo": "CM014",
+          "codigo": "CM016",
           "tipoInsumo": "MATERIAL",
           "precio": 0.98,
           "unidad": "Kg",
@@ -42908,7 +43068,7 @@
         },
         {
           "nombre": "Clavos para Calamina",
-          "codigo": "CM015",
+          "codigo": "CM017",
           "tipoInsumo": "MATERIAL",
           "precio": 16,
           "unidad": "Kg",
@@ -43148,7 +43308,7 @@
         },
         {
           "nombre": "Estuco",
-          "codigo": "CM016",
+          "codigo": "CM018",
           "tipoInsumo": "MATERIAL",
           "precio": 0.68,
           "unidad": "Kg",
@@ -43428,7 +43588,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-21",
-          "codigo": "CM017",
+          "codigo": "CM019",
           "tipoInsumo": "MATERIAL",
           "precio": 765,
           "unidad": "m3",
@@ -43448,7 +43608,7 @@
         },
         {
           "nombre": "Hormigón Premezclado H-25",
-          "codigo": "CM018",
+          "codigo": "CM020",
           "tipoInsumo": "MATERIAL",
           "precio": 830,
           "unidad": "m3",
@@ -43708,7 +43868,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento",
-          "codigo": "CM020",
+          "codigo": "CM022",
           "tipoInsumo": "MATERIAL",
           "precio": 320,
           "unidad": "Pza",
@@ -43718,7 +43878,7 @@
         },
         {
           "nombre": "Lavarropa de Cemento 2 Depósitos",
-          "codigo": "CM019",
+          "codigo": "CM021",
           "tipoInsumo": "MATERIAL",
           "precio": 465,
           "unidad": "Pza",
@@ -44028,7 +44188,7 @@
         },
         {
           "nombre": "Masilla",
-          "codigo": "CM023",
+          "codigo": "CM025",
           "tipoInsumo": "MATERIAL",
           "precio": 12,
           "unidad": "Kg",
@@ -44038,7 +44198,7 @@
         },
         {
           "nombre": "Masilla Etercoart",
-          "codigo": "CM021",
+          "codigo": "CM023",
           "tipoInsumo": "MATERIAL",
           "precio": 25,
           "unidad": "L",
@@ -44048,7 +44208,7 @@
         },
         {
           "nombre": "Masilla Eterglass",
-          "codigo": "CM022",
+          "codigo": "CM024",
           "tipoInsumo": "MATERIAL",
           "precio": 27,
           "unidad": "L",
@@ -44238,7 +44398,7 @@
         },
         {
           "nombre": "Nitrato",
-          "codigo": "CM024",
+          "codigo": "CM026",
           "tipoInsumo": "MATERIAL",
           "precio": 6.6,
           "unidad": "Kg",
@@ -44248,7 +44408,7 @@
         },
         {
           "nombre": "Ocre Importado",
-          "codigo": "CM025",
+          "codigo": "CM027",
           "tipoInsumo": "MATERIAL",
           "precio": 19,
           "unidad": "Kg",
@@ -44758,7 +44918,7 @@
         },
         {
           "nombre": "Placa de Yeso 12.5 Mm 1.2X2.4 M",
-          "codigo": "CM026",
+          "codigo": "CM028",
           "tipoInsumo": "MATERIAL",
           "precio": 93.5,
           "unidad": "Pza",
@@ -44988,7 +45148,7 @@
         },
         {
           "nombre": "Poste de Hormigón Pretensado",
-          "codigo": "CM027",
+          "codigo": "CM029",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "m",
@@ -45038,7 +45198,7 @@
         },
         {
           "nombre": "Quincallería y Accesorios P/Puerta",
-          "codigo": "CM028",
+          "codigo": "CM030",
           "tipoInsumo": "MATERIAL",
           "precio": 210,
           "unidad": "Glb",
@@ -45098,7 +45258,7 @@
         },
         {
           "nombre": "Revoque Fino Fácil",
-          "codigo": "CM029",
+          "codigo": "CM031",
           "tipoInsumo": "MATERIAL",
           "precio": 13.5,
           "unidad": "Kg",
@@ -45228,7 +45388,7 @@
         },
         {
           "nombre": "Soldadura para Calamina",
-          "codigo": "CM030",
+          "codigo": "CM032",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "Kg",
@@ -46128,7 +46288,7 @@
         },
         {
           "nombre": "Yeso",
-          "codigo": "CM031",
+          "codigo": "CM033",
           "tipoInsumo": "MATERIAL",
           "precio": 0.8,
           "unidad": "Kg",
@@ -46138,7 +46298,7 @@
         },
         {
           "nombre": "Zócalo Cedro 3″",
-          "codigo": "CM032",
+          "codigo": "CM034",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
           "unidad": "m",
@@ -46148,7 +46308,7 @@
         },
         {
           "nombre": "Zócalo de Cerámica",
-          "codigo": "CM033",
+          "codigo": "CM035",
           "tipoInsumo": "MATERIAL",
           "precio": 12.5,
           "unidad": "m",
@@ -46158,7 +46318,7 @@
         },
         {
           "nombre": "Zócalo Granítico de 25X10 Cm",
-          "codigo": "CM034",
+          "codigo": "CM036",
           "tipoInsumo": "MATERIAL",
           "precio": 15,
           "unidad": "m",
@@ -46845,6 +47005,26 @@
           "nota": "Semilla: copiado de Santa Cruz — ajustar con aportes de la ciudad",
           "idCanonico": "caneria_fg_2_l_6m_pza",
           "categoria": "Plomería"
+        },
+        {
+          "nombre": "Cemento Portland IP-30",
+          "codigo": "CM014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip30_kg",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cemento Portland IP-40",
+          "codigo": "CM015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.3,
+          "unidad": "Kg",
+          "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
+          "idCanonico": "cemento_portland_ip40_kg",
+          "categoria": "Cemento y Cal"
         }
       ]
     }
