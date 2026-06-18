@@ -6948,7 +6948,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "STAIR",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -8476,7 +8476,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "BEAM",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -8580,7 +8580,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "BEAM",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -34457,7 +34457,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
