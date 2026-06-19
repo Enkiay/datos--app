@@ -1,5 +1,5 @@
 {
-  "version": "v20260619-152420",
+  "version": "v20260619-153645",
   "schemaVersion": 1,
   "items": [
     {
@@ -1775,7 +1775,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_6h_24x15x11_cm_pza",
-          "codigo": "LC011"
+          "codigo": "LC011",
+          "largoCm": 24,
+          "anchoCm": 15,
+          "altoCm": 11
         },
         {
           "nombre": "Cemento Portland",
@@ -3050,7 +3053,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_6h_24x15x11_cm_pza",
-          "codigo": "LC011"
+          "codigo": "LC011",
+          "largoCm": 24,
+          "anchoCm": 15,
+          "altoCm": 11
         },
         {
           "nombre": "Cemento Portland",
@@ -8234,7 +8240,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_gambote_18h_25x12x6_5_cm_pza",
-          "codigo": "LC015"
+          "codigo": "LC015",
+          "largoCm": 25,
+          "anchoCm": 12,
+          "altoCm": 6.5
         },
         {
           "nombre": "Cemento Portland",
@@ -8632,7 +8641,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "bloque_de_hormigon_3h_e_15_cm_pza",
-          "codigo": "LC007"
+          "codigo": "LC007",
+          "largoCm": 40,
+          "anchoCm": 15,
+          "altoCm": 20
         },
         {
           "nombre": "Albañil",
@@ -8704,7 +8716,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "bloque_de_vidrio_20_x_20_cm_pza",
-          "codigo": "LC008"
+          "codigo": "LC008",
+          "largoCm": 20,
+          "anchoCm": 20,
+          "altoCm": 8
         },
         {
           "nombre": "Cemento Portland",
@@ -8824,7 +8839,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_6h_24x15x11_cm_pza",
-          "codigo": "LC011"
+          "codigo": "LC011",
+          "largoCm": 24,
+          "anchoCm": 15,
+          "altoCm": 11
         },
         {
           "nombre": "Albañil",
@@ -8920,7 +8938,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_6h_24x15x11_cm_pza",
-          "codigo": "LC011"
+          "codigo": "LC011",
+          "largoCm": 24,
+          "anchoCm": 15,
+          "altoCm": 11
         },
         {
           "nombre": "Albañil",
@@ -8992,7 +9013,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_6h_24x15x9_8_cm_rayado_pza",
-          "codigo": "LC013"
+          "codigo": "LC013",
+          "largoCm": 24,
+          "anchoCm": 15,
+          "altoCm": 9.8
         },
         {
           "nombre": "Pegamento para Ladrillo Valkure Kg",
@@ -9100,7 +9124,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_adobito_de_1ra_pza",
-          "codigo": "LC014"
+          "codigo": "LC014",
+          "largoCm": 24,
+          "anchoCm": 11,
+          "altoCm": 5.5
         },
         {
           "nombre": "Albañil",
@@ -11802,7 +11829,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_gambote_18h_25x12x6_5_cm_pza",
-          "codigo": "LC015"
+          "codigo": "LC015",
+          "largoCm": 25,
+          "anchoCm": 12,
+          "altoCm": 6.5
         },
         {
           "nombre": "Albañil",
@@ -14766,7 +14796,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_adobito_de_1ra_pza",
-          "codigo": "LC014"
+          "codigo": "LC014",
+          "largoCm": 24,
+          "anchoCm": 11,
+          "altoCm": 5.5
         },
         {
           "nombre": "Albañil",
@@ -17569,7 +17602,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_6h_24x15x11_cm_pza",
-          "codigo": "LC011"
+          "codigo": "LC011",
+          "largoCm": 24,
+          "anchoCm": 15,
+          "altoCm": 11
         },
         {
           "nombre": "Arena Fina",
@@ -18060,7 +18096,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_6h_24x15x11_cm_pza",
-          "codigo": "LC011"
+          "codigo": "LC011",
+          "largoCm": 24,
+          "anchoCm": 15,
+          "altoCm": 11
         },
         {
           "nombre": "Cemento Portland",
@@ -18201,7 +18240,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_6h_24x15x11_cm_pza",
-          "codigo": "LC011"
+          "codigo": "LC011",
+          "largoCm": 24,
+          "anchoCm": 15,
+          "altoCm": 11
         },
         {
           "nombre": "Cemento Portland",
@@ -20087,7 +20129,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_gambote_18h_25x12x6_5_cm_pza",
-          "codigo": "LC015"
+          "codigo": "LC015",
+          "largoCm": 25,
+          "anchoCm": 12,
+          "altoCm": 6.5
         },
         {
           "nombre": "Arena Común",
@@ -20275,7 +20320,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_gambote_18h_25x12x6_5_cm_pza",
-          "codigo": "LC015"
+          "codigo": "LC015",
+          "largoCm": 25,
+          "anchoCm": 12,
+          "altoCm": 6.5
         },
         {
           "nombre": "Arena Fina",
@@ -22059,7 +22107,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_gambote_18h_25x12x6_5_cm_pza",
-          "codigo": "LC015"
+          "codigo": "LC015",
+          "largoCm": 25,
+          "anchoCm": 12,
+          "altoCm": 6.5
         },
         {
           "nombre": "Madera de Construcción",
@@ -29999,7 +30050,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_gambote_18h_25x12x6_5_cm_pza",
-          "codigo": "LC015"
+          "codigo": "LC015",
+          "largoCm": 25,
+          "anchoCm": 12,
+          "altoCm": 6.5
         },
         {
           "nombre": "Azulejo Color Nal. 22X34 Cm",
@@ -30157,7 +30211,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_gambote_18h_25x12x6_5_cm_pza",
-          "codigo": "LC015"
+          "codigo": "LC015",
+          "largoCm": 25,
+          "anchoCm": 12,
+          "altoCm": 6.5
         },
         {
           "nombre": "Mármol Travertino Nacional",
@@ -30669,7 +30726,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_gambote_18h_25x12x6_5_cm_pza",
-          "codigo": "LC015"
+          "codigo": "LC015",
+          "largoCm": 25,
+          "anchoCm": 12,
+          "altoCm": 6.5
         },
         {
           "nombre": "Cemento Portland",
@@ -31635,7 +31695,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "adoquin_comanche_pza",
-          "codigo": "LC001"
+          "codigo": "LC001",
+          "largoCm": 20,
+          "anchoCm": 10,
+          "altoCm": 6
         },
         {
           "nombre": "Arena Común",
@@ -33193,7 +33256,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "pavic_estandar_ceramico_20x10x6_5_cm_pza",
-          "codigo": "LC022"
+          "codigo": "LC022",
+          "largoCm": 20,
+          "anchoCm": 10,
+          "altoCm": 6.5
         },
         {
           "nombre": "Arena Fina",
@@ -33727,7 +33793,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "sillar_tipo_a_60x40x30_cm_pza",
-          "codigo": "LC028"
+          "codigo": "LC028",
+          "largoCm": 60,
+          "anchoCm": 40,
+          "altoCm": 30
         },
         {
           "nombre": "Cemento Portland",
@@ -33822,7 +33891,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "sillar_tipo_b_40x30x30_cm_pza",
-          "codigo": "LC029"
+          "codigo": "LC029",
+          "largoCm": 40,
+          "anchoCm": 30,
+          "altoCm": 30
         },
         {
           "nombre": "Cemento Portland",
@@ -38387,7 +38459,10 @@
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "ladrillo_gambote_pza",
-          "codigo": "LC016"
+          "codigo": "LC016",
+          "largoCm": 24,
+          "anchoCm": 12,
+          "altoCm": 6
         },
         {
           "nombre": "Politubo 3/4″",
