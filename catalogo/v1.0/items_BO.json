@@ -1766,16 +1766,16 @@
       "tipoIfc": "WALL",
       "insumos": [
         {
-          "nombre": "Ladrillo 6H 24x15x11",
+          "nombre": "Ladrillo 6H 24X15X11 Cm",
           "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 50,
-          "precio": 2.2,
+          "precio": 1.2,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "ladrillo_6h_24x15x11_pza",
-          "codigo": "LC012"
+          "idCanonico": "ladrillo_6h_24x15x11_cm_pza",
+          "codigo": "LC011"
         },
         {
           "nombre": "Cemento Portland",
@@ -3041,16 +3041,16 @@
       "formulaResultado": "1",
       "insumos": [
         {
-          "nombre": "Ladrillo 6H 24x15x11",
+          "nombre": "Ladrillo 6H 24X15X11 Cm",
           "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 80,
-          "precio": 2.2,
+          "precio": 1.2,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "ladrillo_6h_24x15x11_pza",
-          "codigo": "LC012"
+          "idCanonico": "ladrillo_6h_24x15x11_cm_pza",
+          "codigo": "LC011"
         },
         {
           "nombre": "Cemento Portland",
@@ -24786,7 +24786,7 @@
           "codigo": "AC005"
         },
         {
-          "nombre": "Politubo de 3/4″",
+          "nombre": "Politubo 3/4″",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
@@ -24794,8 +24794,8 @@
           "precio": 2.4,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "politubo_de_3_4_m",
-          "codigo": "PL062"
+          "idCanonico": "politubo_3_4_m",
+          "codigo": "PL061"
         },
         {
           "nombre": "Jabalina de Cobre 80 Cm",
@@ -38275,7 +38275,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
           "rendimiento": 18,
-          "precio": 4,
+          "precio": 2.4,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "politubo_3_4_m",
