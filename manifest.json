@@ -3,15 +3,15 @@
   "minAppVersion": "1.0.0",
   "resources": {
     "catalogo": {
-      "version": "v20260620-precios-fix",
+      "version": "v20260620-precios-fix2",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items.json"
     },
     "catalogo_BO": {
-      "version": "v20260620-precios-fix",
+      "version": "v20260620-precios-fix2",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_BO.json"
     },
     "precios": {
-      "version": "v20260620-precios-fix",
+      "version": "v20260620-precios-fix2",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales.json"
     },
     "plantillas": {

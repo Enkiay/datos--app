@@ -1,5 +1,5 @@
 {
-  "version": "v20260620-precios-fix",
+  "version": "v20260620-precios-fix2",
   "schemaVersion": 1,
   "items": [
     {
@@ -505,7 +505,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
           "rendimiento": 4,
-          "precio": 12.0,
+          "precio": 25,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "tuberia_pvc_4_m",
@@ -25715,7 +25715,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
           "rendimiento": 1,
-          "precio": 5.0,
+          "precio": 16,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "foco_100_w_pza",
@@ -30773,7 +30773,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
           "rendimiento": 4,
-          "precio": 0.9,
+          "precio": 3,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "alambre_con_puas_galvanizado_simple_m",
@@ -33188,7 +33188,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 12,
-          "precio": 1.8,
+          "precio": 8.3,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "pavic_estandar_ceramico_20x10x6_5_cm_pza",
