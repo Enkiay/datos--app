@@ -3,11 +3,11 @@
   "minAppVersion": "1.0.0",
   "resources": {
     "catalogo": {
-      "version": "v20260619-153645",
+      "version": "v20260619-stair-preset",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items.json"
     },
     "catalogo_BO": {
-      "version": "v20260619-153645",
+      "version": "v20260619-stair-preset",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_BO.json"
     },
     "precios": {
@@ -15,7 +15,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales.json"
     },
     "plantillas": {
-      "version": "v20260611-inputs-avanzados",
+      "version": "v20260619-escalera",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/plantillas/v1.0/index.json"
     },
     "plantillas_dev": {

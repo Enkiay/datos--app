@@ -1,5 +1,5 @@
 {
-  "version": "v20260619-153645",
+  "version": "v20260619-stair-preset",
   "schemaVersion": 1,
   "items": [
     {
@@ -7165,7 +7165,21 @@
           "visiblePorDefecto": false
         }
       ],
-      "presets": [],
+      "presets": [
+        {
+          "nombre": "Con descanso (16 peldaños)",
+          "valores": {
+            "Ancho": 1.1,
+            "Huella": 0.3,
+            "Contrahuella": 0.17,
+            "Peldaños": 16,
+            "Espesor": 0.15,
+            "Descansos": 2,
+            "DescansoLargo": 1.1,
+            "DescansoAncho": 1.1
+          }
+        }
+      ],
       "tipoIfc": "STAIR",
       "autorNombre": "",
       "autorUid": "",

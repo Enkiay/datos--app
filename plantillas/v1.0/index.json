@@ -1145,6 +1145,166 @@
           ]
         }
       ]
+    },
+    {
+      "id": "escalera-tramo",
+      "nombre": "Escalera de H°A°",
+      "descripcion": "Escalera de hormigón armado (losa inclinada) generada a partir de la altura a salvar, la huella y la contrahuella. Calcula automáticamente el N° de peldaños (round(altura/contrahuella)), el largo desarrollado y el volumen de H°A° — incluyendo los descansos. Genera además, opcionalmente, el cielo raso bajo la escalera, el revestimiento de los peldaños y la baranda. Ajustá huella/contrahuella dentro de los rangos cómodos (huella 0,25–0,32 m; contrahuella 0,15–0,19 m).",
+      "version": 1,
+      "inputsRequeridos": [
+        {
+          "nombre": "altura",
+          "label": "Altura a salvar (piso a piso)",
+          "unidad": "m",
+          "default": 2.8
+        },
+        {
+          "nombre": "ancho",
+          "label": "Ancho útil de la escalera",
+          "unidad": "m",
+          "default": 1.1
+        }
+      ],
+      "parametrosEditables": [
+        {
+          "nombre": "huella",
+          "label": "Huella (pisada)",
+          "unidad": "m",
+          "default": 0.3,
+          "min": 0.25,
+          "max": 0.32
+        },
+        {
+          "nombre": "contrahuella",
+          "label": "Contrahuella",
+          "unidad": "m",
+          "default": 0.17,
+          "min": 0.15,
+          "max": 0.19
+        },
+        {
+          "nombre": "espesor_losa",
+          "label": "Espesor de losa (garganta)",
+          "unidad": "m",
+          "default": 0.15,
+          "min": 0.1,
+          "max": 0.2
+        },
+        {
+          "nombre": "num_descansos",
+          "label": "N° de descansos",
+          "unidad": "u",
+          "default": 2,
+          "min": 1,
+          "max": 4
+        },
+        {
+          "nombre": "num_tramos",
+          "label": "N° de tramos iguales",
+          "unidad": "u",
+          "default": 1,
+          "min": 1,
+          "max": 6
+        },
+        {
+          "nombre": "incluir_cielo_raso",
+          "label": "Incluir cielo raso bajo escalera",
+          "unidad": "",
+          "default": 1,
+          "min": 0,
+          "max": 1
+        },
+        {
+          "nombre": "incluir_revestimiento",
+          "label": "Incluir revestimiento de peldaños",
+          "unidad": "",
+          "default": 1,
+          "min": 0,
+          "max": 1
+        },
+        {
+          "nombre": "incluir_baranda",
+          "label": "Incluir baranda",
+          "unidad": "",
+          "default": 1,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "variablesCalculadas": {
+        "peldanos": "round(altura / contrahuella)",
+        "largo_proy": "peldanos * huella",
+        "largo_incl": "sqrt(largo_proy * largo_proy + altura * altura)",
+        "area_descansos": "num_descansos * ancho * ancho",
+        "area_cielo": "largo_incl * ancho + area_descansos",
+        "area_revest": "peldanos * (huella + contrahuella) * ancho + area_descansos",
+        "long_baranda": "largo_incl + num_descansos * ancho"
+      },
+      "items": [
+        {
+          "id": "escalera_ha",
+          "nombre": "Escalera de H°A°",
+          "unidad": "m3",
+          "formulaTexto": "num_tramos",
+          "lee": [
+            "num_tramos",
+            "ancho",
+            "huella",
+            "contrahuella",
+            "peldanos",
+            "espesor_losa",
+            "num_descansos"
+          ],
+          "escribe": "cant_escalera",
+          "computedOverrides": {
+            "Ancho": "ancho",
+            "Huella": "huella",
+            "Contrahuella": "contrahuella",
+            "Peldaños": "peldanos",
+            "Espesor": "espesor_losa",
+            "Descansos": "num_descansos",
+            "DescansoLargo": "ancho",
+            "DescansoAncho": "ancho"
+          },
+          "catalogoCodigo": "UH021"
+        },
+        {
+          "id": "cielo_raso",
+          "nombre": "Cielo raso bajo escalera",
+          "unidad": "m2",
+          "formulaTexto": "area_cielo",
+          "lee": [
+            "area_cielo"
+          ],
+          "escribe": "area_cielo_raso",
+          "condicionInclusion": "incluir_cielo_raso",
+          "catalogoCodigo": "AC002"
+        },
+        {
+          "id": "revestimiento",
+          "nombre": "Revestimiento de peldaños",
+          "unidad": "m2",
+          "formulaTexto": "area_revest",
+          "lee": [
+            "area_revest"
+          ],
+          "escribe": "area_revestimiento",
+          "condicionInclusion": "incluir_revestimiento",
+          "catalogoCodigo": "AC011"
+        },
+        {
+          "id": "baranda",
+          "nombre": "Baranda de escalera",
+          "unidad": "m",
+          "formulaTexto": "long_baranda",
+          "lee": [
+            "long_baranda"
+          ],
+          "escribe": "long_baranda_item",
+          "condicionInclusion": "incluir_baranda",
+          "catalogoCodigo": "CA003"
+        }
+      ]
     }
   ]
 }
