@@ -1,5 +1,5 @@
 {
-  "version": "v20260620-precios-update",
+  "version": "v20260620-precios-fix",
   "schemaVersion": 1,
   "items": [
     {
@@ -12707,7 +12707,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 1.4,
-          "precio": 1.4,
+          "precio": 13.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "revoque_fino_facil_kg",
@@ -12805,7 +12805,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
           "rendimiento": 5,
-          "precio": 2.9,
+          "precio": 13.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "cal_kg",
@@ -33042,7 +33042,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Ladrillos y Cerámicos",
           "rendimiento": 1.05,
-          "precio": 3.85,
+          "precio": 121,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "loseta_ondulada_10_cm_m2",
@@ -33537,7 +33537,7 @@
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
           "rendimiento": 6,
-          "precio": 9.5,
+          "precio": 120.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "piedra_cortada_20x20x20_cm_m3",
