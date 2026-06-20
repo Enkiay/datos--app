@@ -1,5 +1,5 @@
 {
-  "version": "v20260620-precios-fix2",
+  "version": "v20260620-alta-insumos",
   "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -5225,6 +5225,466 @@
           "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
           "idCanonico": "cemento_portland_ip40_kg",
           "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "AGUA Potable",
+          "codigo": "OC009",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.06,
+          "unidad": "L",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "agua_potable_l",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Azulejo Decorado BRAS. 20x30cm",
+          "codigo": "LC032",
+          "tipoInsumo": "MATERIAL",
+          "precio": 76.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "azulejo_decorado_bras_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Baranda de Acero Inoxidable H=0,90 M",
+          "codigo": "AC055",
+          "tipoInsumo": "MATERIAL",
+          "precio": 489.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "baranda_de_acero_inoxidable_h_0_90_m_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Bentonita Ultragel",
+          "codigo": "OC010",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "bentonita_ultragel_kg",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CAJA de Hormigón 30x30x30",
+          "codigo": "OC011",
+          "tipoInsumo": "MATERIAL",
+          "precio": 250.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "caja_de_hormigon_30x30x30_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 3/4\"",
+          "codigo": "EL039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_3_4_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 5/8\"",
+          "codigo": "EL040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_5_8_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Cable de 50 mm2",
+          "codigo": "EL041",
+          "tipoInsumo": "MATERIAL",
+          "precio": 126.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cable_de_50_mm2_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Calamina Trapezoidal N° 28 PRE Pintada",
+          "codigo": "CB016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 75.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "calamina_trapezoidal_n_28_pre_pintada_m2",
+          "categoria": "Cubiertas"
+        },
+        {
+          "nombre": "Cemento Conductivo Illapa",
+          "codigo": "CM037",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cemento_consductivo_illapa_bolsa",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cerámica Esmaltada NAL. 20x30cm",
+          "codigo": "LC033",
+          "tipoInsumo": "MATERIAL",
+          "precio": 68.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ceramica_esmaltada_nal_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Costanera 80x40x15 2 Mm",
+          "codigo": "OC012",
+          "tipoInsumo": "MATERIAL",
+          "precio": 52.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "costanera_80x40x15_2_mm_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Cámara de Inspección HO 40x40x40 Cm",
+          "codigo": "OC013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 280.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "camara_de_inspeccion_ho_40x40x40_cm_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Disco de Corte",
+          "codigo": "FE081",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "disco_de_corte_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Espuma de Poliuretano E=10mm",
+          "codigo": "OC014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "espuma_de_poliuretano_e_10mm_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ganchos J de 80mm",
+          "codigo": "FE082",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.7,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ganchos_j_de_80mm_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Gavión 2x1x0.5m C/DIAFRAGMA",
+          "codigo": "OC015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 285.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x0_5m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Gavión 2x1x1m C/DIAFRAGMA",
+          "codigo": "OC016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 415.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x1m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Jabalina de Acero 5/8\" Bañada de Cobre",
+          "codigo": "AC056",
+          "tipoInsumo": "MATERIAL",
+          "precio": 85.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "jabalina_de_acero_5_8_banada_de_cobre_pza",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "KIT Electrodo GS-15 (ECOGEL + TERRAFLUX)",
+          "codigo": "EL042",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6329.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "kit_electrodo_gs_15_ecogel_terraflux_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Ladrillo 3H 24x15x8 Cm",
+          "codigo": "LC034",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.9,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ladrillo_3h_24x15x8_cm_pza",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Membrana Asfáltica Aluminio 4 Mm",
+          "codigo": "IM013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 91.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "membrana_asfaltica_aluminio_4_mm_m2",
+          "categoria": "Impermeabilización"
+        },
+        {
+          "nombre": "Misceláneos",
+          "codigo": "OC017",
+          "tipoInsumo": "MATERIAL",
+          "precio": 100.0,
+          "unidad": "Glb",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "miscelaneos_glb",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de BAÑO con Cajonería BAJA",
+          "codigo": "OC018",
+          "tipoInsumo": "MATERIAL",
+          "precio": 448.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_bano_con_cajoneria_baja_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de Cocina, ALTO y BAJO Cajonería",
+          "codigo": "OC019",
+          "tipoInsumo": "MATERIAL",
+          "precio": 916.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_cocina_alto_y_bajo_cajoneria_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Perno 1 1/2\" Autoperforante",
+          "codigo": "FE083",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "perno_1_1_2_autoperforante_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Piedra para Cimiento",
+          "codigo": "AG029",
+          "tipoInsumo": "MATERIAL",
+          "precio": 132.0,
+          "unidad": "m3",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "piedra_para_cimiento_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Plastiment H-E Plastificante",
+          "codigo": "OC020",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.7,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "plastiment_h_e_plastificante_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ropero Empotrado Moldeado",
+          "codigo": "OC021",
+          "tipoInsumo": "MATERIAL",
+          "precio": 531.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ropero_empotrado_moldeado_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Soldadura Exotermica 90grs",
+          "codigo": "OC022",
+          "tipoInsumo": "MATERIAL",
+          "precio": 150.0,
+          "unidad": "gr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "soldadura_exotermica_90grs_grs",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TAPA de Inspección",
+          "codigo": "OC023",
+          "tipoInsumo": "MATERIAL",
+          "precio": 330.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tapa_de_inspeccion_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TUBO Cuadrado 40x40x1.2mm",
+          "codigo": "AC057",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tubo_cuadrado_40x40x1_2mm_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Tablero Equipotencial",
+          "codigo": "EL043",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_equipotencial_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tablero Medidor 8 Espacios",
+          "codigo": "EL044",
+          "tipoInsumo": "MATERIAL",
+          "precio": 308.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_medidor_8_espacios_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tierra Tratada Terranova",
+          "codigo": "OC024",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tierra_tratada_terranova_bolsa",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Tubo Conduit PVC 1\"",
+          "codigo": "EL045",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ttubo_conduit_pvc_1_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Válvula de Retención Bronce 3/4\"",
+          "codigo": "PL120",
+          "tipoInsumo": "MATERIAL",
+          "precio": 110.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "valvula_de_retencion_bronce_3_4_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "YUTE",
+          "codigo": "OC025",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "yute_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Alarife",
+          "codigo": "CA016",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_alarife",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Ayudante Especializado",
+          "codigo": "NC004",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_ayudante_especializado",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Cargador Frontal 150HP",
+          "codigo": "MQ019",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 380.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cargador_frontal_150hp",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Compactadora Neumática",
+          "codigo": "MQ020",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 260.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_compactadora_neumatica",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Cortadora de Asfalto",
+          "codigo": "MQ021",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 35.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cortadora_de_asfalto",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Equipo Especializado",
+          "codigo": "MQ022",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 16.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_equipo_especializado",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Planta de Asfalto 60Ton/Hr",
+          "codigo": "MQ023",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 3600.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_planta_de_asfalto_60ton_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Terminadora de Asfalto",
+          "codigo": "MQ024",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 390.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_terminadora_de_asfalto",
+          "categoria": "Maquinaria"
         }
       ]
     },
@@ -10450,6 +10910,466 @@
           "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
           "idCanonico": "cemento_portland_ip40_kg",
           "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "AGUA Potable",
+          "codigo": "OC009",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.06,
+          "unidad": "L",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "agua_potable_l",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Azulejo Decorado BRAS. 20x30cm",
+          "codigo": "LC032",
+          "tipoInsumo": "MATERIAL",
+          "precio": 76.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "azulejo_decorado_bras_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Baranda de Acero Inoxidable H=0,90 M",
+          "codigo": "AC055",
+          "tipoInsumo": "MATERIAL",
+          "precio": 489.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "baranda_de_acero_inoxidable_h_0_90_m_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Bentonita Ultragel",
+          "codigo": "OC010",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "bentonita_ultragel_kg",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CAJA de Hormigón 30x30x30",
+          "codigo": "OC011",
+          "tipoInsumo": "MATERIAL",
+          "precio": 250.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "caja_de_hormigon_30x30x30_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 3/4\"",
+          "codigo": "EL039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_3_4_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 5/8\"",
+          "codigo": "EL040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_5_8_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Cable de 50 mm2",
+          "codigo": "EL041",
+          "tipoInsumo": "MATERIAL",
+          "precio": 126.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cable_de_50_mm2_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Calamina Trapezoidal N° 28 PRE Pintada",
+          "codigo": "CB016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 75.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "calamina_trapezoidal_n_28_pre_pintada_m2",
+          "categoria": "Cubiertas"
+        },
+        {
+          "nombre": "Cemento Conductivo Illapa",
+          "codigo": "CM037",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cemento_consductivo_illapa_bolsa",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cerámica Esmaltada NAL. 20x30cm",
+          "codigo": "LC033",
+          "tipoInsumo": "MATERIAL",
+          "precio": 68.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ceramica_esmaltada_nal_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Costanera 80x40x15 2 Mm",
+          "codigo": "OC012",
+          "tipoInsumo": "MATERIAL",
+          "precio": 52.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "costanera_80x40x15_2_mm_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Cámara de Inspección HO 40x40x40 Cm",
+          "codigo": "OC013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 280.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "camara_de_inspeccion_ho_40x40x40_cm_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Disco de Corte",
+          "codigo": "FE081",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "disco_de_corte_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Espuma de Poliuretano E=10mm",
+          "codigo": "OC014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "espuma_de_poliuretano_e_10mm_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ganchos J de 80mm",
+          "codigo": "FE082",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.7,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ganchos_j_de_80mm_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Gavión 2x1x0.5m C/DIAFRAGMA",
+          "codigo": "OC015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 285.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x0_5m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Gavión 2x1x1m C/DIAFRAGMA",
+          "codigo": "OC016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 415.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x1m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Jabalina de Acero 5/8\" Bañada de Cobre",
+          "codigo": "AC056",
+          "tipoInsumo": "MATERIAL",
+          "precio": 85.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "jabalina_de_acero_5_8_banada_de_cobre_pza",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "KIT Electrodo GS-15 (ECOGEL + TERRAFLUX)",
+          "codigo": "EL042",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6329.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "kit_electrodo_gs_15_ecogel_terraflux_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Ladrillo 3H 24x15x8 Cm",
+          "codigo": "LC034",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.9,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ladrillo_3h_24x15x8_cm_pza",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Membrana Asfáltica Aluminio 4 Mm",
+          "codigo": "IM013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 91.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "membrana_asfaltica_aluminio_4_mm_m2",
+          "categoria": "Impermeabilización"
+        },
+        {
+          "nombre": "Misceláneos",
+          "codigo": "OC017",
+          "tipoInsumo": "MATERIAL",
+          "precio": 100.0,
+          "unidad": "Glb",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "miscelaneos_glb",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de BAÑO con Cajonería BAJA",
+          "codigo": "OC018",
+          "tipoInsumo": "MATERIAL",
+          "precio": 448.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_bano_con_cajoneria_baja_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de Cocina, ALTO y BAJO Cajonería",
+          "codigo": "OC019",
+          "tipoInsumo": "MATERIAL",
+          "precio": 916.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_cocina_alto_y_bajo_cajoneria_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Perno 1 1/2\" Autoperforante",
+          "codigo": "FE083",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "perno_1_1_2_autoperforante_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Piedra para Cimiento",
+          "codigo": "AG029",
+          "tipoInsumo": "MATERIAL",
+          "precio": 132.0,
+          "unidad": "m3",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "piedra_para_cimiento_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Plastiment H-E Plastificante",
+          "codigo": "OC020",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.7,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "plastiment_h_e_plastificante_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ropero Empotrado Moldeado",
+          "codigo": "OC021",
+          "tipoInsumo": "MATERIAL",
+          "precio": 531.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ropero_empotrado_moldeado_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Soldadura Exotermica 90grs",
+          "codigo": "OC022",
+          "tipoInsumo": "MATERIAL",
+          "precio": 150.0,
+          "unidad": "gr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "soldadura_exotermica_90grs_grs",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TAPA de Inspección",
+          "codigo": "OC023",
+          "tipoInsumo": "MATERIAL",
+          "precio": 330.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tapa_de_inspeccion_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TUBO Cuadrado 40x40x1.2mm",
+          "codigo": "AC057",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tubo_cuadrado_40x40x1_2mm_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Tablero Equipotencial",
+          "codigo": "EL043",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_equipotencial_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tablero Medidor 8 Espacios",
+          "codigo": "EL044",
+          "tipoInsumo": "MATERIAL",
+          "precio": 308.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_medidor_8_espacios_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tierra Tratada Terranova",
+          "codigo": "OC024",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tierra_tratada_terranova_bolsa",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Tubo Conduit PVC 1\"",
+          "codigo": "EL045",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ttubo_conduit_pvc_1_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Válvula de Retención Bronce 3/4\"",
+          "codigo": "PL120",
+          "tipoInsumo": "MATERIAL",
+          "precio": 110.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "valvula_de_retencion_bronce_3_4_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "YUTE",
+          "codigo": "OC025",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "yute_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Alarife",
+          "codigo": "CA016",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_alarife",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Ayudante Especializado",
+          "codigo": "NC004",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_ayudante_especializado",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Cargador Frontal 150HP",
+          "codigo": "MQ019",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 380.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cargador_frontal_150hp",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Compactadora Neumática",
+          "codigo": "MQ020",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 260.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_compactadora_neumatica",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Cortadora de Asfalto",
+          "codigo": "MQ021",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 35.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cortadora_de_asfalto",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Equipo Especializado",
+          "codigo": "MQ022",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 16.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_equipo_especializado",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Planta de Asfalto 60Ton/Hr",
+          "codigo": "MQ023",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 3600.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_planta_de_asfalto_60ton_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Terminadora de Asfalto",
+          "codigo": "MQ024",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 390.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_terminadora_de_asfalto",
+          "categoria": "Maquinaria"
         }
       ]
     },
@@ -15675,6 +16595,466 @@
           "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
           "idCanonico": "cemento_portland_ip40_kg",
           "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "AGUA Potable",
+          "codigo": "OC009",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.06,
+          "unidad": "L",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "agua_potable_l",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Azulejo Decorado BRAS. 20x30cm",
+          "codigo": "LC032",
+          "tipoInsumo": "MATERIAL",
+          "precio": 76.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "azulejo_decorado_bras_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Baranda de Acero Inoxidable H=0,90 M",
+          "codigo": "AC055",
+          "tipoInsumo": "MATERIAL",
+          "precio": 489.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "baranda_de_acero_inoxidable_h_0_90_m_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Bentonita Ultragel",
+          "codigo": "OC010",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "bentonita_ultragel_kg",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CAJA de Hormigón 30x30x30",
+          "codigo": "OC011",
+          "tipoInsumo": "MATERIAL",
+          "precio": 250.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "caja_de_hormigon_30x30x30_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 3/4\"",
+          "codigo": "EL039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_3_4_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 5/8\"",
+          "codigo": "EL040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_5_8_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Cable de 50 mm2",
+          "codigo": "EL041",
+          "tipoInsumo": "MATERIAL",
+          "precio": 126.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cable_de_50_mm2_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Calamina Trapezoidal N° 28 PRE Pintada",
+          "codigo": "CB016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 75.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "calamina_trapezoidal_n_28_pre_pintada_m2",
+          "categoria": "Cubiertas"
+        },
+        {
+          "nombre": "Cemento Conductivo Illapa",
+          "codigo": "CM037",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cemento_consductivo_illapa_bolsa",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cerámica Esmaltada NAL. 20x30cm",
+          "codigo": "LC033",
+          "tipoInsumo": "MATERIAL",
+          "precio": 68.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ceramica_esmaltada_nal_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Costanera 80x40x15 2 Mm",
+          "codigo": "OC012",
+          "tipoInsumo": "MATERIAL",
+          "precio": 52.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "costanera_80x40x15_2_mm_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Cámara de Inspección HO 40x40x40 Cm",
+          "codigo": "OC013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 280.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "camara_de_inspeccion_ho_40x40x40_cm_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Disco de Corte",
+          "codigo": "FE081",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "disco_de_corte_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Espuma de Poliuretano E=10mm",
+          "codigo": "OC014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "espuma_de_poliuretano_e_10mm_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ganchos J de 80mm",
+          "codigo": "FE082",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.7,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ganchos_j_de_80mm_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Gavión 2x1x0.5m C/DIAFRAGMA",
+          "codigo": "OC015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 285.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x0_5m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Gavión 2x1x1m C/DIAFRAGMA",
+          "codigo": "OC016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 415.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x1m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Jabalina de Acero 5/8\" Bañada de Cobre",
+          "codigo": "AC056",
+          "tipoInsumo": "MATERIAL",
+          "precio": 85.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "jabalina_de_acero_5_8_banada_de_cobre_pza",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "KIT Electrodo GS-15 (ECOGEL + TERRAFLUX)",
+          "codigo": "EL042",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6329.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "kit_electrodo_gs_15_ecogel_terraflux_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Ladrillo 3H 24x15x8 Cm",
+          "codigo": "LC034",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.9,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ladrillo_3h_24x15x8_cm_pza",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Membrana Asfáltica Aluminio 4 Mm",
+          "codigo": "IM013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 91.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "membrana_asfaltica_aluminio_4_mm_m2",
+          "categoria": "Impermeabilización"
+        },
+        {
+          "nombre": "Misceláneos",
+          "codigo": "OC017",
+          "tipoInsumo": "MATERIAL",
+          "precio": 100.0,
+          "unidad": "Glb",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "miscelaneos_glb",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de BAÑO con Cajonería BAJA",
+          "codigo": "OC018",
+          "tipoInsumo": "MATERIAL",
+          "precio": 448.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_bano_con_cajoneria_baja_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de Cocina, ALTO y BAJO Cajonería",
+          "codigo": "OC019",
+          "tipoInsumo": "MATERIAL",
+          "precio": 916.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_cocina_alto_y_bajo_cajoneria_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Perno 1 1/2\" Autoperforante",
+          "codigo": "FE083",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "perno_1_1_2_autoperforante_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Piedra para Cimiento",
+          "codigo": "AG029",
+          "tipoInsumo": "MATERIAL",
+          "precio": 132.0,
+          "unidad": "m3",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "piedra_para_cimiento_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Plastiment H-E Plastificante",
+          "codigo": "OC020",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.7,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "plastiment_h_e_plastificante_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ropero Empotrado Moldeado",
+          "codigo": "OC021",
+          "tipoInsumo": "MATERIAL",
+          "precio": 531.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ropero_empotrado_moldeado_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Soldadura Exotermica 90grs",
+          "codigo": "OC022",
+          "tipoInsumo": "MATERIAL",
+          "precio": 150.0,
+          "unidad": "gr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "soldadura_exotermica_90grs_grs",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TAPA de Inspección",
+          "codigo": "OC023",
+          "tipoInsumo": "MATERIAL",
+          "precio": 330.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tapa_de_inspeccion_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TUBO Cuadrado 40x40x1.2mm",
+          "codigo": "AC057",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tubo_cuadrado_40x40x1_2mm_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Tablero Equipotencial",
+          "codigo": "EL043",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_equipotencial_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tablero Medidor 8 Espacios",
+          "codigo": "EL044",
+          "tipoInsumo": "MATERIAL",
+          "precio": 308.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_medidor_8_espacios_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tierra Tratada Terranova",
+          "codigo": "OC024",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tierra_tratada_terranova_bolsa",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Tubo Conduit PVC 1\"",
+          "codigo": "EL045",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ttubo_conduit_pvc_1_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Válvula de Retención Bronce 3/4\"",
+          "codigo": "PL120",
+          "tipoInsumo": "MATERIAL",
+          "precio": 110.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "valvula_de_retencion_bronce_3_4_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "YUTE",
+          "codigo": "OC025",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "yute_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Alarife",
+          "codigo": "CA016",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_alarife",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Ayudante Especializado",
+          "codigo": "NC004",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_ayudante_especializado",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Cargador Frontal 150HP",
+          "codigo": "MQ019",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 380.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cargador_frontal_150hp",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Compactadora Neumática",
+          "codigo": "MQ020",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 260.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_compactadora_neumatica",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Cortadora de Asfalto",
+          "codigo": "MQ021",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 35.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cortadora_de_asfalto",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Equipo Especializado",
+          "codigo": "MQ022",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 16.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_equipo_especializado",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Planta de Asfalto 60Ton/Hr",
+          "codigo": "MQ023",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 3600.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_planta_de_asfalto_60ton_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Terminadora de Asfalto",
+          "codigo": "MQ024",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 390.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_terminadora_de_asfalto",
+          "categoria": "Maquinaria"
         }
       ]
     },
@@ -20900,6 +22280,466 @@
           "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
           "idCanonico": "cemento_portland_ip40_kg",
           "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "AGUA Potable",
+          "codigo": "OC009",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.06,
+          "unidad": "L",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "agua_potable_l",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Azulejo Decorado BRAS. 20x30cm",
+          "codigo": "LC032",
+          "tipoInsumo": "MATERIAL",
+          "precio": 76.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "azulejo_decorado_bras_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Baranda de Acero Inoxidable H=0,90 M",
+          "codigo": "AC055",
+          "tipoInsumo": "MATERIAL",
+          "precio": 489.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "baranda_de_acero_inoxidable_h_0_90_m_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Bentonita Ultragel",
+          "codigo": "OC010",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "bentonita_ultragel_kg",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CAJA de Hormigón 30x30x30",
+          "codigo": "OC011",
+          "tipoInsumo": "MATERIAL",
+          "precio": 250.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "caja_de_hormigon_30x30x30_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 3/4\"",
+          "codigo": "EL039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_3_4_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 5/8\"",
+          "codigo": "EL040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_5_8_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Cable de 50 mm2",
+          "codigo": "EL041",
+          "tipoInsumo": "MATERIAL",
+          "precio": 126.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cable_de_50_mm2_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Calamina Trapezoidal N° 28 PRE Pintada",
+          "codigo": "CB016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 75.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "calamina_trapezoidal_n_28_pre_pintada_m2",
+          "categoria": "Cubiertas"
+        },
+        {
+          "nombre": "Cemento Conductivo Illapa",
+          "codigo": "CM037",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cemento_consductivo_illapa_bolsa",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cerámica Esmaltada NAL. 20x30cm",
+          "codigo": "LC033",
+          "tipoInsumo": "MATERIAL",
+          "precio": 68.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ceramica_esmaltada_nal_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Costanera 80x40x15 2 Mm",
+          "codigo": "OC012",
+          "tipoInsumo": "MATERIAL",
+          "precio": 52.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "costanera_80x40x15_2_mm_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Cámara de Inspección HO 40x40x40 Cm",
+          "codigo": "OC013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 280.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "camara_de_inspeccion_ho_40x40x40_cm_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Disco de Corte",
+          "codigo": "FE081",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "disco_de_corte_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Espuma de Poliuretano E=10mm",
+          "codigo": "OC014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "espuma_de_poliuretano_e_10mm_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ganchos J de 80mm",
+          "codigo": "FE082",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.7,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ganchos_j_de_80mm_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Gavión 2x1x0.5m C/DIAFRAGMA",
+          "codigo": "OC015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 285.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x0_5m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Gavión 2x1x1m C/DIAFRAGMA",
+          "codigo": "OC016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 415.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x1m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Jabalina de Acero 5/8\" Bañada de Cobre",
+          "codigo": "AC056",
+          "tipoInsumo": "MATERIAL",
+          "precio": 85.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "jabalina_de_acero_5_8_banada_de_cobre_pza",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "KIT Electrodo GS-15 (ECOGEL + TERRAFLUX)",
+          "codigo": "EL042",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6329.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "kit_electrodo_gs_15_ecogel_terraflux_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Ladrillo 3H 24x15x8 Cm",
+          "codigo": "LC034",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.9,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ladrillo_3h_24x15x8_cm_pza",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Membrana Asfáltica Aluminio 4 Mm",
+          "codigo": "IM013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 91.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "membrana_asfaltica_aluminio_4_mm_m2",
+          "categoria": "Impermeabilización"
+        },
+        {
+          "nombre": "Misceláneos",
+          "codigo": "OC017",
+          "tipoInsumo": "MATERIAL",
+          "precio": 100.0,
+          "unidad": "Glb",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "miscelaneos_glb",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de BAÑO con Cajonería BAJA",
+          "codigo": "OC018",
+          "tipoInsumo": "MATERIAL",
+          "precio": 448.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_bano_con_cajoneria_baja_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de Cocina, ALTO y BAJO Cajonería",
+          "codigo": "OC019",
+          "tipoInsumo": "MATERIAL",
+          "precio": 916.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_cocina_alto_y_bajo_cajoneria_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Perno 1 1/2\" Autoperforante",
+          "codigo": "FE083",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "perno_1_1_2_autoperforante_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Piedra para Cimiento",
+          "codigo": "AG029",
+          "tipoInsumo": "MATERIAL",
+          "precio": 132.0,
+          "unidad": "m3",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "piedra_para_cimiento_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Plastiment H-E Plastificante",
+          "codigo": "OC020",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.7,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "plastiment_h_e_plastificante_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ropero Empotrado Moldeado",
+          "codigo": "OC021",
+          "tipoInsumo": "MATERIAL",
+          "precio": 531.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ropero_empotrado_moldeado_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Soldadura Exotermica 90grs",
+          "codigo": "OC022",
+          "tipoInsumo": "MATERIAL",
+          "precio": 150.0,
+          "unidad": "gr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "soldadura_exotermica_90grs_grs",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TAPA de Inspección",
+          "codigo": "OC023",
+          "tipoInsumo": "MATERIAL",
+          "precio": 330.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tapa_de_inspeccion_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TUBO Cuadrado 40x40x1.2mm",
+          "codigo": "AC057",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tubo_cuadrado_40x40x1_2mm_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Tablero Equipotencial",
+          "codigo": "EL043",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_equipotencial_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tablero Medidor 8 Espacios",
+          "codigo": "EL044",
+          "tipoInsumo": "MATERIAL",
+          "precio": 308.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_medidor_8_espacios_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tierra Tratada Terranova",
+          "codigo": "OC024",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tierra_tratada_terranova_bolsa",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Tubo Conduit PVC 1\"",
+          "codigo": "EL045",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ttubo_conduit_pvc_1_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Válvula de Retención Bronce 3/4\"",
+          "codigo": "PL120",
+          "tipoInsumo": "MATERIAL",
+          "precio": 110.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "valvula_de_retencion_bronce_3_4_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "YUTE",
+          "codigo": "OC025",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "yute_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Alarife",
+          "codigo": "CA016",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_alarife",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Ayudante Especializado",
+          "codigo": "NC004",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_ayudante_especializado",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Cargador Frontal 150HP",
+          "codigo": "MQ019",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 380.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cargador_frontal_150hp",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Compactadora Neumática",
+          "codigo": "MQ020",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 260.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_compactadora_neumatica",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Cortadora de Asfalto",
+          "codigo": "MQ021",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 35.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cortadora_de_asfalto",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Equipo Especializado",
+          "codigo": "MQ022",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 16.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_equipo_especializado",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Planta de Asfalto 60Ton/Hr",
+          "codigo": "MQ023",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 3600.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_planta_de_asfalto_60ton_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Terminadora de Asfalto",
+          "codigo": "MQ024",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 390.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_terminadora_de_asfalto",
+          "categoria": "Maquinaria"
         }
       ]
     },
@@ -26125,6 +27965,466 @@
           "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
           "idCanonico": "cemento_portland_ip40_kg",
           "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "AGUA Potable",
+          "codigo": "OC009",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.06,
+          "unidad": "L",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "agua_potable_l",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Azulejo Decorado BRAS. 20x30cm",
+          "codigo": "LC032",
+          "tipoInsumo": "MATERIAL",
+          "precio": 76.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "azulejo_decorado_bras_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Baranda de Acero Inoxidable H=0,90 M",
+          "codigo": "AC055",
+          "tipoInsumo": "MATERIAL",
+          "precio": 489.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "baranda_de_acero_inoxidable_h_0_90_m_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Bentonita Ultragel",
+          "codigo": "OC010",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "bentonita_ultragel_kg",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CAJA de Hormigón 30x30x30",
+          "codigo": "OC011",
+          "tipoInsumo": "MATERIAL",
+          "precio": 250.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "caja_de_hormigon_30x30x30_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 3/4\"",
+          "codigo": "EL039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_3_4_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 5/8\"",
+          "codigo": "EL040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_5_8_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Cable de 50 mm2",
+          "codigo": "EL041",
+          "tipoInsumo": "MATERIAL",
+          "precio": 126.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cable_de_50_mm2_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Calamina Trapezoidal N° 28 PRE Pintada",
+          "codigo": "CB016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 75.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "calamina_trapezoidal_n_28_pre_pintada_m2",
+          "categoria": "Cubiertas"
+        },
+        {
+          "nombre": "Cemento Conductivo Illapa",
+          "codigo": "CM037",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cemento_consductivo_illapa_bolsa",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cerámica Esmaltada NAL. 20x30cm",
+          "codigo": "LC033",
+          "tipoInsumo": "MATERIAL",
+          "precio": 68.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ceramica_esmaltada_nal_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Costanera 80x40x15 2 Mm",
+          "codigo": "OC012",
+          "tipoInsumo": "MATERIAL",
+          "precio": 52.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "costanera_80x40x15_2_mm_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Cámara de Inspección HO 40x40x40 Cm",
+          "codigo": "OC013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 280.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "camara_de_inspeccion_ho_40x40x40_cm_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Disco de Corte",
+          "codigo": "FE081",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "disco_de_corte_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Espuma de Poliuretano E=10mm",
+          "codigo": "OC014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "espuma_de_poliuretano_e_10mm_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ganchos J de 80mm",
+          "codigo": "FE082",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.7,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ganchos_j_de_80mm_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Gavión 2x1x0.5m C/DIAFRAGMA",
+          "codigo": "OC015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 285.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x0_5m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Gavión 2x1x1m C/DIAFRAGMA",
+          "codigo": "OC016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 415.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x1m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Jabalina de Acero 5/8\" Bañada de Cobre",
+          "codigo": "AC056",
+          "tipoInsumo": "MATERIAL",
+          "precio": 85.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "jabalina_de_acero_5_8_banada_de_cobre_pza",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "KIT Electrodo GS-15 (ECOGEL + TERRAFLUX)",
+          "codigo": "EL042",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6329.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "kit_electrodo_gs_15_ecogel_terraflux_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Ladrillo 3H 24x15x8 Cm",
+          "codigo": "LC034",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.9,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ladrillo_3h_24x15x8_cm_pza",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Membrana Asfáltica Aluminio 4 Mm",
+          "codigo": "IM013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 91.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "membrana_asfaltica_aluminio_4_mm_m2",
+          "categoria": "Impermeabilización"
+        },
+        {
+          "nombre": "Misceláneos",
+          "codigo": "OC017",
+          "tipoInsumo": "MATERIAL",
+          "precio": 100.0,
+          "unidad": "Glb",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "miscelaneos_glb",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de BAÑO con Cajonería BAJA",
+          "codigo": "OC018",
+          "tipoInsumo": "MATERIAL",
+          "precio": 448.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_bano_con_cajoneria_baja_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de Cocina, ALTO y BAJO Cajonería",
+          "codigo": "OC019",
+          "tipoInsumo": "MATERIAL",
+          "precio": 916.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_cocina_alto_y_bajo_cajoneria_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Perno 1 1/2\" Autoperforante",
+          "codigo": "FE083",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "perno_1_1_2_autoperforante_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Piedra para Cimiento",
+          "codigo": "AG029",
+          "tipoInsumo": "MATERIAL",
+          "precio": 132.0,
+          "unidad": "m3",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "piedra_para_cimiento_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Plastiment H-E Plastificante",
+          "codigo": "OC020",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.7,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "plastiment_h_e_plastificante_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ropero Empotrado Moldeado",
+          "codigo": "OC021",
+          "tipoInsumo": "MATERIAL",
+          "precio": 531.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ropero_empotrado_moldeado_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Soldadura Exotermica 90grs",
+          "codigo": "OC022",
+          "tipoInsumo": "MATERIAL",
+          "precio": 150.0,
+          "unidad": "gr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "soldadura_exotermica_90grs_grs",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TAPA de Inspección",
+          "codigo": "OC023",
+          "tipoInsumo": "MATERIAL",
+          "precio": 330.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tapa_de_inspeccion_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TUBO Cuadrado 40x40x1.2mm",
+          "codigo": "AC057",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tubo_cuadrado_40x40x1_2mm_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Tablero Equipotencial",
+          "codigo": "EL043",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_equipotencial_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tablero Medidor 8 Espacios",
+          "codigo": "EL044",
+          "tipoInsumo": "MATERIAL",
+          "precio": 308.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_medidor_8_espacios_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tierra Tratada Terranova",
+          "codigo": "OC024",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tierra_tratada_terranova_bolsa",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Tubo Conduit PVC 1\"",
+          "codigo": "EL045",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ttubo_conduit_pvc_1_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Válvula de Retención Bronce 3/4\"",
+          "codigo": "PL120",
+          "tipoInsumo": "MATERIAL",
+          "precio": 110.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "valvula_de_retencion_bronce_3_4_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "YUTE",
+          "codigo": "OC025",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "yute_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Alarife",
+          "codigo": "CA016",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_alarife",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Ayudante Especializado",
+          "codigo": "NC004",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_ayudante_especializado",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Cargador Frontal 150HP",
+          "codigo": "MQ019",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 380.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cargador_frontal_150hp",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Compactadora Neumática",
+          "codigo": "MQ020",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 260.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_compactadora_neumatica",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Cortadora de Asfalto",
+          "codigo": "MQ021",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 35.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cortadora_de_asfalto",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Equipo Especializado",
+          "codigo": "MQ022",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 16.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_equipo_especializado",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Planta de Asfalto 60Ton/Hr",
+          "codigo": "MQ023",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 3600.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_planta_de_asfalto_60ton_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Terminadora de Asfalto",
+          "codigo": "MQ024",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 390.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_terminadora_de_asfalto",
+          "categoria": "Maquinaria"
         }
       ]
     },
@@ -31350,6 +33650,466 @@
           "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
           "idCanonico": "cemento_portland_ip40_kg",
           "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "AGUA Potable",
+          "codigo": "OC009",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.06,
+          "unidad": "L",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "agua_potable_l",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Azulejo Decorado BRAS. 20x30cm",
+          "codigo": "LC032",
+          "tipoInsumo": "MATERIAL",
+          "precio": 76.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "azulejo_decorado_bras_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Baranda de Acero Inoxidable H=0,90 M",
+          "codigo": "AC055",
+          "tipoInsumo": "MATERIAL",
+          "precio": 489.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "baranda_de_acero_inoxidable_h_0_90_m_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Bentonita Ultragel",
+          "codigo": "OC010",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "bentonita_ultragel_kg",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CAJA de Hormigón 30x30x30",
+          "codigo": "OC011",
+          "tipoInsumo": "MATERIAL",
+          "precio": 250.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "caja_de_hormigon_30x30x30_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 3/4\"",
+          "codigo": "EL039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_3_4_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 5/8\"",
+          "codigo": "EL040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_5_8_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Cable de 50 mm2",
+          "codigo": "EL041",
+          "tipoInsumo": "MATERIAL",
+          "precio": 126.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cable_de_50_mm2_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Calamina Trapezoidal N° 28 PRE Pintada",
+          "codigo": "CB016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 75.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "calamina_trapezoidal_n_28_pre_pintada_m2",
+          "categoria": "Cubiertas"
+        },
+        {
+          "nombre": "Cemento Conductivo Illapa",
+          "codigo": "CM037",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cemento_consductivo_illapa_bolsa",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cerámica Esmaltada NAL. 20x30cm",
+          "codigo": "LC033",
+          "tipoInsumo": "MATERIAL",
+          "precio": 68.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ceramica_esmaltada_nal_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Costanera 80x40x15 2 Mm",
+          "codigo": "OC012",
+          "tipoInsumo": "MATERIAL",
+          "precio": 52.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "costanera_80x40x15_2_mm_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Cámara de Inspección HO 40x40x40 Cm",
+          "codigo": "OC013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 280.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "camara_de_inspeccion_ho_40x40x40_cm_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Disco de Corte",
+          "codigo": "FE081",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "disco_de_corte_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Espuma de Poliuretano E=10mm",
+          "codigo": "OC014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "espuma_de_poliuretano_e_10mm_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ganchos J de 80mm",
+          "codigo": "FE082",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.7,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ganchos_j_de_80mm_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Gavión 2x1x0.5m C/DIAFRAGMA",
+          "codigo": "OC015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 285.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x0_5m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Gavión 2x1x1m C/DIAFRAGMA",
+          "codigo": "OC016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 415.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x1m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Jabalina de Acero 5/8\" Bañada de Cobre",
+          "codigo": "AC056",
+          "tipoInsumo": "MATERIAL",
+          "precio": 85.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "jabalina_de_acero_5_8_banada_de_cobre_pza",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "KIT Electrodo GS-15 (ECOGEL + TERRAFLUX)",
+          "codigo": "EL042",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6329.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "kit_electrodo_gs_15_ecogel_terraflux_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Ladrillo 3H 24x15x8 Cm",
+          "codigo": "LC034",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.9,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ladrillo_3h_24x15x8_cm_pza",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Membrana Asfáltica Aluminio 4 Mm",
+          "codigo": "IM013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 91.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "membrana_asfaltica_aluminio_4_mm_m2",
+          "categoria": "Impermeabilización"
+        },
+        {
+          "nombre": "Misceláneos",
+          "codigo": "OC017",
+          "tipoInsumo": "MATERIAL",
+          "precio": 100.0,
+          "unidad": "Glb",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "miscelaneos_glb",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de BAÑO con Cajonería BAJA",
+          "codigo": "OC018",
+          "tipoInsumo": "MATERIAL",
+          "precio": 448.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_bano_con_cajoneria_baja_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de Cocina, ALTO y BAJO Cajonería",
+          "codigo": "OC019",
+          "tipoInsumo": "MATERIAL",
+          "precio": 916.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_cocina_alto_y_bajo_cajoneria_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Perno 1 1/2\" Autoperforante",
+          "codigo": "FE083",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "perno_1_1_2_autoperforante_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Piedra para Cimiento",
+          "codigo": "AG029",
+          "tipoInsumo": "MATERIAL",
+          "precio": 132.0,
+          "unidad": "m3",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "piedra_para_cimiento_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Plastiment H-E Plastificante",
+          "codigo": "OC020",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.7,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "plastiment_h_e_plastificante_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ropero Empotrado Moldeado",
+          "codigo": "OC021",
+          "tipoInsumo": "MATERIAL",
+          "precio": 531.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ropero_empotrado_moldeado_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Soldadura Exotermica 90grs",
+          "codigo": "OC022",
+          "tipoInsumo": "MATERIAL",
+          "precio": 150.0,
+          "unidad": "gr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "soldadura_exotermica_90grs_grs",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TAPA de Inspección",
+          "codigo": "OC023",
+          "tipoInsumo": "MATERIAL",
+          "precio": 330.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tapa_de_inspeccion_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TUBO Cuadrado 40x40x1.2mm",
+          "codigo": "AC057",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tubo_cuadrado_40x40x1_2mm_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Tablero Equipotencial",
+          "codigo": "EL043",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_equipotencial_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tablero Medidor 8 Espacios",
+          "codigo": "EL044",
+          "tipoInsumo": "MATERIAL",
+          "precio": 308.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_medidor_8_espacios_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tierra Tratada Terranova",
+          "codigo": "OC024",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tierra_tratada_terranova_bolsa",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Tubo Conduit PVC 1\"",
+          "codigo": "EL045",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ttubo_conduit_pvc_1_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Válvula de Retención Bronce 3/4\"",
+          "codigo": "PL120",
+          "tipoInsumo": "MATERIAL",
+          "precio": 110.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "valvula_de_retencion_bronce_3_4_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "YUTE",
+          "codigo": "OC025",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "yute_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Alarife",
+          "codigo": "CA016",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_alarife",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Ayudante Especializado",
+          "codigo": "NC004",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_ayudante_especializado",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Cargador Frontal 150HP",
+          "codigo": "MQ019",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 380.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cargador_frontal_150hp",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Compactadora Neumática",
+          "codigo": "MQ020",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 260.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_compactadora_neumatica",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Cortadora de Asfalto",
+          "codigo": "MQ021",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 35.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cortadora_de_asfalto",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Equipo Especializado",
+          "codigo": "MQ022",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 16.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_equipo_especializado",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Planta de Asfalto 60Ton/Hr",
+          "codigo": "MQ023",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 3600.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_planta_de_asfalto_60ton_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Terminadora de Asfalto",
+          "codigo": "MQ024",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 390.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_terminadora_de_asfalto",
+          "categoria": "Maquinaria"
         }
       ]
     },
@@ -36575,6 +39335,466 @@
           "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
           "idCanonico": "cemento_portland_ip40_kg",
           "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "AGUA Potable",
+          "codigo": "OC009",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.06,
+          "unidad": "L",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "agua_potable_l",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Azulejo Decorado BRAS. 20x30cm",
+          "codigo": "LC032",
+          "tipoInsumo": "MATERIAL",
+          "precio": 76.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "azulejo_decorado_bras_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Baranda de Acero Inoxidable H=0,90 M",
+          "codigo": "AC055",
+          "tipoInsumo": "MATERIAL",
+          "precio": 489.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "baranda_de_acero_inoxidable_h_0_90_m_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Bentonita Ultragel",
+          "codigo": "OC010",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "bentonita_ultragel_kg",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CAJA de Hormigón 30x30x30",
+          "codigo": "OC011",
+          "tipoInsumo": "MATERIAL",
+          "precio": 250.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "caja_de_hormigon_30x30x30_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 3/4\"",
+          "codigo": "EL039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_3_4_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 5/8\"",
+          "codigo": "EL040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_5_8_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Cable de 50 mm2",
+          "codigo": "EL041",
+          "tipoInsumo": "MATERIAL",
+          "precio": 126.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cable_de_50_mm2_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Calamina Trapezoidal N° 28 PRE Pintada",
+          "codigo": "CB016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 75.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "calamina_trapezoidal_n_28_pre_pintada_m2",
+          "categoria": "Cubiertas"
+        },
+        {
+          "nombre": "Cemento Conductivo Illapa",
+          "codigo": "CM037",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cemento_consductivo_illapa_bolsa",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cerámica Esmaltada NAL. 20x30cm",
+          "codigo": "LC033",
+          "tipoInsumo": "MATERIAL",
+          "precio": 68.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ceramica_esmaltada_nal_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Costanera 80x40x15 2 Mm",
+          "codigo": "OC012",
+          "tipoInsumo": "MATERIAL",
+          "precio": 52.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "costanera_80x40x15_2_mm_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Cámara de Inspección HO 40x40x40 Cm",
+          "codigo": "OC013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 280.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "camara_de_inspeccion_ho_40x40x40_cm_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Disco de Corte",
+          "codigo": "FE081",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "disco_de_corte_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Espuma de Poliuretano E=10mm",
+          "codigo": "OC014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "espuma_de_poliuretano_e_10mm_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ganchos J de 80mm",
+          "codigo": "FE082",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.7,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ganchos_j_de_80mm_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Gavión 2x1x0.5m C/DIAFRAGMA",
+          "codigo": "OC015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 285.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x0_5m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Gavión 2x1x1m C/DIAFRAGMA",
+          "codigo": "OC016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 415.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x1m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Jabalina de Acero 5/8\" Bañada de Cobre",
+          "codigo": "AC056",
+          "tipoInsumo": "MATERIAL",
+          "precio": 85.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "jabalina_de_acero_5_8_banada_de_cobre_pza",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "KIT Electrodo GS-15 (ECOGEL + TERRAFLUX)",
+          "codigo": "EL042",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6329.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "kit_electrodo_gs_15_ecogel_terraflux_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Ladrillo 3H 24x15x8 Cm",
+          "codigo": "LC034",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.9,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ladrillo_3h_24x15x8_cm_pza",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Membrana Asfáltica Aluminio 4 Mm",
+          "codigo": "IM013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 91.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "membrana_asfaltica_aluminio_4_mm_m2",
+          "categoria": "Impermeabilización"
+        },
+        {
+          "nombre": "Misceláneos",
+          "codigo": "OC017",
+          "tipoInsumo": "MATERIAL",
+          "precio": 100.0,
+          "unidad": "Glb",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "miscelaneos_glb",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de BAÑO con Cajonería BAJA",
+          "codigo": "OC018",
+          "tipoInsumo": "MATERIAL",
+          "precio": 448.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_bano_con_cajoneria_baja_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de Cocina, ALTO y BAJO Cajonería",
+          "codigo": "OC019",
+          "tipoInsumo": "MATERIAL",
+          "precio": 916.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_cocina_alto_y_bajo_cajoneria_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Perno 1 1/2\" Autoperforante",
+          "codigo": "FE083",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "perno_1_1_2_autoperforante_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Piedra para Cimiento",
+          "codigo": "AG029",
+          "tipoInsumo": "MATERIAL",
+          "precio": 132.0,
+          "unidad": "m3",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "piedra_para_cimiento_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Plastiment H-E Plastificante",
+          "codigo": "OC020",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.7,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "plastiment_h_e_plastificante_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ropero Empotrado Moldeado",
+          "codigo": "OC021",
+          "tipoInsumo": "MATERIAL",
+          "precio": 531.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ropero_empotrado_moldeado_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Soldadura Exotermica 90grs",
+          "codigo": "OC022",
+          "tipoInsumo": "MATERIAL",
+          "precio": 150.0,
+          "unidad": "gr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "soldadura_exotermica_90grs_grs",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TAPA de Inspección",
+          "codigo": "OC023",
+          "tipoInsumo": "MATERIAL",
+          "precio": 330.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tapa_de_inspeccion_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TUBO Cuadrado 40x40x1.2mm",
+          "codigo": "AC057",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tubo_cuadrado_40x40x1_2mm_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Tablero Equipotencial",
+          "codigo": "EL043",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_equipotencial_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tablero Medidor 8 Espacios",
+          "codigo": "EL044",
+          "tipoInsumo": "MATERIAL",
+          "precio": 308.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_medidor_8_espacios_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tierra Tratada Terranova",
+          "codigo": "OC024",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tierra_tratada_terranova_bolsa",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Tubo Conduit PVC 1\"",
+          "codigo": "EL045",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ttubo_conduit_pvc_1_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Válvula de Retención Bronce 3/4\"",
+          "codigo": "PL120",
+          "tipoInsumo": "MATERIAL",
+          "precio": 110.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "valvula_de_retencion_bronce_3_4_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "YUTE",
+          "codigo": "OC025",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "yute_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Alarife",
+          "codigo": "CA016",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_alarife",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Ayudante Especializado",
+          "codigo": "NC004",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_ayudante_especializado",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Cargador Frontal 150HP",
+          "codigo": "MQ019",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 380.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cargador_frontal_150hp",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Compactadora Neumática",
+          "codigo": "MQ020",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 260.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_compactadora_neumatica",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Cortadora de Asfalto",
+          "codigo": "MQ021",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 35.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cortadora_de_asfalto",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Equipo Especializado",
+          "codigo": "MQ022",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 16.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_equipo_especializado",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Planta de Asfalto 60Ton/Hr",
+          "codigo": "MQ023",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 3600.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_planta_de_asfalto_60ton_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Terminadora de Asfalto",
+          "codigo": "MQ024",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 390.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_terminadora_de_asfalto",
+          "categoria": "Maquinaria"
         }
       ]
     },
@@ -41800,6 +45020,466 @@
           "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
           "idCanonico": "cemento_portland_ip40_kg",
           "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "AGUA Potable",
+          "codigo": "OC009",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.06,
+          "unidad": "L",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "agua_potable_l",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Azulejo Decorado BRAS. 20x30cm",
+          "codigo": "LC032",
+          "tipoInsumo": "MATERIAL",
+          "precio": 76.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "azulejo_decorado_bras_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Baranda de Acero Inoxidable H=0,90 M",
+          "codigo": "AC055",
+          "tipoInsumo": "MATERIAL",
+          "precio": 489.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "baranda_de_acero_inoxidable_h_0_90_m_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Bentonita Ultragel",
+          "codigo": "OC010",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "bentonita_ultragel_kg",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CAJA de Hormigón 30x30x30",
+          "codigo": "OC011",
+          "tipoInsumo": "MATERIAL",
+          "precio": 250.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "caja_de_hormigon_30x30x30_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 3/4\"",
+          "codigo": "EL039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_3_4_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 5/8\"",
+          "codigo": "EL040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_5_8_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Cable de 50 mm2",
+          "codigo": "EL041",
+          "tipoInsumo": "MATERIAL",
+          "precio": 126.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cable_de_50_mm2_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Calamina Trapezoidal N° 28 PRE Pintada",
+          "codigo": "CB016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 75.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "calamina_trapezoidal_n_28_pre_pintada_m2",
+          "categoria": "Cubiertas"
+        },
+        {
+          "nombre": "Cemento Conductivo Illapa",
+          "codigo": "CM037",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cemento_consductivo_illapa_bolsa",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cerámica Esmaltada NAL. 20x30cm",
+          "codigo": "LC033",
+          "tipoInsumo": "MATERIAL",
+          "precio": 68.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ceramica_esmaltada_nal_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Costanera 80x40x15 2 Mm",
+          "codigo": "OC012",
+          "tipoInsumo": "MATERIAL",
+          "precio": 52.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "costanera_80x40x15_2_mm_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Cámara de Inspección HO 40x40x40 Cm",
+          "codigo": "OC013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 280.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "camara_de_inspeccion_ho_40x40x40_cm_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Disco de Corte",
+          "codigo": "FE081",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "disco_de_corte_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Espuma de Poliuretano E=10mm",
+          "codigo": "OC014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "espuma_de_poliuretano_e_10mm_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ganchos J de 80mm",
+          "codigo": "FE082",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.7,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ganchos_j_de_80mm_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Gavión 2x1x0.5m C/DIAFRAGMA",
+          "codigo": "OC015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 285.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x0_5m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Gavión 2x1x1m C/DIAFRAGMA",
+          "codigo": "OC016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 415.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x1m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Jabalina de Acero 5/8\" Bañada de Cobre",
+          "codigo": "AC056",
+          "tipoInsumo": "MATERIAL",
+          "precio": 85.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "jabalina_de_acero_5_8_banada_de_cobre_pza",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "KIT Electrodo GS-15 (ECOGEL + TERRAFLUX)",
+          "codigo": "EL042",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6329.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "kit_electrodo_gs_15_ecogel_terraflux_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Ladrillo 3H 24x15x8 Cm",
+          "codigo": "LC034",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.9,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ladrillo_3h_24x15x8_cm_pza",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Membrana Asfáltica Aluminio 4 Mm",
+          "codigo": "IM013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 91.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "membrana_asfaltica_aluminio_4_mm_m2",
+          "categoria": "Impermeabilización"
+        },
+        {
+          "nombre": "Misceláneos",
+          "codigo": "OC017",
+          "tipoInsumo": "MATERIAL",
+          "precio": 100.0,
+          "unidad": "Glb",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "miscelaneos_glb",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de BAÑO con Cajonería BAJA",
+          "codigo": "OC018",
+          "tipoInsumo": "MATERIAL",
+          "precio": 448.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_bano_con_cajoneria_baja_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de Cocina, ALTO y BAJO Cajonería",
+          "codigo": "OC019",
+          "tipoInsumo": "MATERIAL",
+          "precio": 916.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_cocina_alto_y_bajo_cajoneria_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Perno 1 1/2\" Autoperforante",
+          "codigo": "FE083",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "perno_1_1_2_autoperforante_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Piedra para Cimiento",
+          "codigo": "AG029",
+          "tipoInsumo": "MATERIAL",
+          "precio": 132.0,
+          "unidad": "m3",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "piedra_para_cimiento_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Plastiment H-E Plastificante",
+          "codigo": "OC020",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.7,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "plastiment_h_e_plastificante_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ropero Empotrado Moldeado",
+          "codigo": "OC021",
+          "tipoInsumo": "MATERIAL",
+          "precio": 531.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ropero_empotrado_moldeado_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Soldadura Exotermica 90grs",
+          "codigo": "OC022",
+          "tipoInsumo": "MATERIAL",
+          "precio": 150.0,
+          "unidad": "gr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "soldadura_exotermica_90grs_grs",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TAPA de Inspección",
+          "codigo": "OC023",
+          "tipoInsumo": "MATERIAL",
+          "precio": 330.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tapa_de_inspeccion_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TUBO Cuadrado 40x40x1.2mm",
+          "codigo": "AC057",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tubo_cuadrado_40x40x1_2mm_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Tablero Equipotencial",
+          "codigo": "EL043",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_equipotencial_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tablero Medidor 8 Espacios",
+          "codigo": "EL044",
+          "tipoInsumo": "MATERIAL",
+          "precio": 308.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_medidor_8_espacios_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tierra Tratada Terranova",
+          "codigo": "OC024",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tierra_tratada_terranova_bolsa",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Tubo Conduit PVC 1\"",
+          "codigo": "EL045",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ttubo_conduit_pvc_1_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Válvula de Retención Bronce 3/4\"",
+          "codigo": "PL120",
+          "tipoInsumo": "MATERIAL",
+          "precio": 110.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "valvula_de_retencion_bronce_3_4_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "YUTE",
+          "codigo": "OC025",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "yute_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Alarife",
+          "codigo": "CA016",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_alarife",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Ayudante Especializado",
+          "codigo": "NC004",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_ayudante_especializado",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Cargador Frontal 150HP",
+          "codigo": "MQ019",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 380.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cargador_frontal_150hp",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Compactadora Neumática",
+          "codigo": "MQ020",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 260.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_compactadora_neumatica",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Cortadora de Asfalto",
+          "codigo": "MQ021",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 35.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cortadora_de_asfalto",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Equipo Especializado",
+          "codigo": "MQ022",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 16.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_equipo_especializado",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Planta de Asfalto 60Ton/Hr",
+          "codigo": "MQ023",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 3600.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_planta_de_asfalto_60ton_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Terminadora de Asfalto",
+          "codigo": "MQ024",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 390.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_terminadora_de_asfalto",
+          "categoria": "Maquinaria"
         }
       ]
     },
@@ -47025,6 +50705,466 @@
           "nota": "Semilla: precio referencial — ajustar por ciudad con aportes",
           "idCanonico": "cemento_portland_ip40_kg",
           "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "AGUA Potable",
+          "codigo": "OC009",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.06,
+          "unidad": "L",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "agua_potable_l",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Azulejo Decorado BRAS. 20x30cm",
+          "codigo": "LC032",
+          "tipoInsumo": "MATERIAL",
+          "precio": 76.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "azulejo_decorado_bras_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Baranda de Acero Inoxidable H=0,90 M",
+          "codigo": "AC055",
+          "tipoInsumo": "MATERIAL",
+          "precio": 489.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "baranda_de_acero_inoxidable_h_0_90_m_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Bentonita Ultragel",
+          "codigo": "OC010",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "bentonita_ultragel_kg",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CAJA de Hormigón 30x30x30",
+          "codigo": "OC011",
+          "tipoInsumo": "MATERIAL",
+          "precio": 250.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "caja_de_hormigon_30x30x30_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 3/4\"",
+          "codigo": "EL039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.2,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_3_4_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "CODO para Conduit Ø 5/8\"",
+          "codigo": "EL040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "codo_para_conduit_5_8_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Cable de 50 mm2",
+          "codigo": "EL041",
+          "tipoInsumo": "MATERIAL",
+          "precio": 126.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cable_de_50_mm2_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Calamina Trapezoidal N° 28 PRE Pintada",
+          "codigo": "CB016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 75.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "calamina_trapezoidal_n_28_pre_pintada_m2",
+          "categoria": "Cubiertas"
+        },
+        {
+          "nombre": "Cemento Conductivo Illapa",
+          "codigo": "CM037",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "cemento_consductivo_illapa_bolsa",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cerámica Esmaltada NAL. 20x30cm",
+          "codigo": "LC033",
+          "tipoInsumo": "MATERIAL",
+          "precio": 68.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ceramica_esmaltada_nal_20x30cm_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Costanera 80x40x15 2 Mm",
+          "codigo": "OC012",
+          "tipoInsumo": "MATERIAL",
+          "precio": 52.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "costanera_80x40x15_2_mm_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Cámara de Inspección HO 40x40x40 Cm",
+          "codigo": "OC013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 280.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "camara_de_inspeccion_ho_40x40x40_cm_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Disco de Corte",
+          "codigo": "FE081",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "disco_de_corte_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Espuma de Poliuretano E=10mm",
+          "codigo": "OC014",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "espuma_de_poliuretano_e_10mm_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ganchos J de 80mm",
+          "codigo": "FE082",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.7,
+          "unidad": "Kg",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ganchos_j_de_80mm_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Gavión 2x1x0.5m C/DIAFRAGMA",
+          "codigo": "OC015",
+          "tipoInsumo": "MATERIAL",
+          "precio": 285.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x0_5m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Gavión 2x1x1m C/DIAFRAGMA",
+          "codigo": "OC016",
+          "tipoInsumo": "MATERIAL",
+          "precio": 415.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "gavion_2x1x1m_c_diafragma_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Jabalina de Acero 5/8\" Bañada de Cobre",
+          "codigo": "AC056",
+          "tipoInsumo": "MATERIAL",
+          "precio": 85.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "jabalina_de_acero_5_8_banada_de_cobre_pza",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "KIT Electrodo GS-15 (ECOGEL + TERRAFLUX)",
+          "codigo": "EL042",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6329.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "kit_electrodo_gs_15_ecogel_terraflux_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Ladrillo 3H 24x15x8 Cm",
+          "codigo": "LC034",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.9,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ladrillo_3h_24x15x8_cm_pza",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Membrana Asfáltica Aluminio 4 Mm",
+          "codigo": "IM013",
+          "tipoInsumo": "MATERIAL",
+          "precio": 91.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "membrana_asfaltica_aluminio_4_mm_m2",
+          "categoria": "Impermeabilización"
+        },
+        {
+          "nombre": "Misceláneos",
+          "codigo": "OC017",
+          "tipoInsumo": "MATERIAL",
+          "precio": 100.0,
+          "unidad": "Glb",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "miscelaneos_glb",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de BAÑO con Cajonería BAJA",
+          "codigo": "OC018",
+          "tipoInsumo": "MATERIAL",
+          "precio": 448.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_bano_con_cajoneria_baja_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Mueble de Cocina, ALTO y BAJO Cajonería",
+          "codigo": "OC019",
+          "tipoInsumo": "MATERIAL",
+          "precio": 916.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mueble_de_cocina_alto_y_bajo_cajoneria_m",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Perno 1 1/2\" Autoperforante",
+          "codigo": "FE083",
+          "tipoInsumo": "MATERIAL",
+          "precio": 1.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "perno_1_1_2_autoperforante_pza",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Piedra para Cimiento",
+          "codigo": "AG029",
+          "tipoInsumo": "MATERIAL",
+          "precio": 132.0,
+          "unidad": "m3",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "piedra_para_cimiento_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Plastiment H-E Plastificante",
+          "codigo": "OC020",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.7,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "plastiment_h_e_plastificante_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Ropero Empotrado Moldeado",
+          "codigo": "OC021",
+          "tipoInsumo": "MATERIAL",
+          "precio": 531.0,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ropero_empotrado_moldeado_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Soldadura Exotermica 90grs",
+          "codigo": "OC022",
+          "tipoInsumo": "MATERIAL",
+          "precio": 150.0,
+          "unidad": "gr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "soldadura_exotermica_90grs_grs",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TAPA de Inspección",
+          "codigo": "OC023",
+          "tipoInsumo": "MATERIAL",
+          "precio": 330.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tapa_de_inspeccion_pza",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "TUBO Cuadrado 40x40x1.2mm",
+          "codigo": "AC057",
+          "tipoInsumo": "MATERIAL",
+          "precio": 30.0,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tubo_cuadrado_40x40x1_2mm_m",
+          "categoria": "Acero y Metal"
+        },
+        {
+          "nombre": "Tablero Equipotencial",
+          "codigo": "EL043",
+          "tipoInsumo": "MATERIAL",
+          "precio": 350.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_equipotencial_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tablero Medidor 8 Espacios",
+          "codigo": "EL044",
+          "tipoInsumo": "MATERIAL",
+          "precio": 308.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tablero_medidor_8_espacios_pza",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Tierra Tratada Terranova",
+          "codigo": "OC024",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "Bolsa",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "tierra_tratada_terranova_bolsa",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Tubo Conduit PVC 1\"",
+          "codigo": "EL045",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "ttubo_conduit_pvc_1_m",
+          "categoria": "Eléctrico"
+        },
+        {
+          "nombre": "Válvula de Retención Bronce 3/4\"",
+          "codigo": "PL120",
+          "tipoInsumo": "MATERIAL",
+          "precio": 110.0,
+          "unidad": "Pza",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "valvula_de_retencion_bronce_3_4_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "YUTE",
+          "codigo": "OC025",
+          "tipoInsumo": "MATERIAL",
+          "precio": 5.5,
+          "unidad": "m2",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "yute_m2",
+          "categoria": "Obras Civiles"
+        },
+        {
+          "nombre": "Alarife",
+          "codigo": "CA016",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_alarife",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Ayudante Especializado",
+          "codigo": "NC004",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "mo_ayudante_especializado",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Cargador Frontal 150HP",
+          "codigo": "MQ019",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 380.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cargador_frontal_150hp",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Compactadora Neumática",
+          "codigo": "MQ020",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 260.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_compactadora_neumatica",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Cortadora de Asfalto",
+          "codigo": "MQ021",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 35.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_cortadora_de_asfalto",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Equipo Especializado",
+          "codigo": "MQ022",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 16.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_equipo_especializado",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Planta de Asfalto 60Ton/Hr",
+          "codigo": "MQ023",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 3600.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_planta_de_asfalto_60ton_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Terminadora de Asfalto",
+          "codigo": "MQ024",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 390.0,
+          "unidad": "Hr",
+          "nota": "Alta 2026 desde catalogo de referencia",
+          "idCanonico": "eq_terminadora_de_asfalto",
+          "categoria": "Maquinaria"
         }
       ]
     }
