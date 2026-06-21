@@ -1,27 +1,23 @@
 {
-  "version": "v20260614-212319",
+  "version": "v20260620-212506",
   "empresas": [
     {
-      "id": "coboc-prueba-1-santa-cruz",
-      "nombre": "Coboc Prueba 1",
-      "ciudad": "Santa Cruz",
-      "pais": "BO",
-      "tipo": "FABRICANTE",
+      "id": "xxxx",
+      "nombre": "xxxx",
+      "ciudad": "",
+      "pais": "",
+      "tipo": "OTRO",
       "estado": "ACTIVA",
       "fechaPrimeraColaboracion": "2026-06",
       "fechaUltimaColaboracion": "2026-06",
-      "telefono": "0000000",
-      "descripcion": "Descripción Disponible Para tus insumos",
-      "rubro": "Cemento y cal",
-      "email": "superenkiay2@gmail.com",
-      "sitioWeb": "www ejemplo222.com",
+      "telefono": null,
+      "descripcion": "",
+      "rubro": "",
+      "email": "enkiay67@gmail.com",
+      "sitioWeb": null,
       "tags": [
-        "grava común",
-        "cemento y cal"
-      ],
-      "destacada": true,
-      "destacadaHasta": "2026-07-14",
-      "prioridad": 1
+        "accesorios galvanizado ø 1/2″"
+      ]
     }
   ]
 }
