@@ -1,23 +1,4 @@
 {
-  "version": "v20260620-212506",
-  "empresas": [
-    {
-      "id": "xxxx",
-      "nombre": "xxxx",
-      "ciudad": "",
-      "pais": "",
-      "tipo": "OTRO",
-      "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-06",
-      "fechaUltimaColaboracion": "2026-06",
-      "telefono": null,
-      "descripcion": "",
-      "rubro": "",
-      "email": "enkiay67@gmail.com",
-      "sitioWeb": null,
-      "tags": [
-        "accesorios galvanizado ø 1/2″"
-      ]
-    }
-  ]
+  "version": "v20260624-195353",
+  "empresas": []
 }
