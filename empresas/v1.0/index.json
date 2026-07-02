@@ -1,4 +1,27 @@
 {
-  "version": "v20260624-195353",
-  "empresas": []
+  "version": "v20260702-174648",
+  "empresas": [
+    {
+      "id": "proyeso-srl-cochabamba",
+      "nombre": "PROYESO SRL",
+      "ciudad": "Cochabamba",
+      "pais": "BO",
+      "tipo": "FABRICANTE",
+      "estado": "ACTIVA",
+      "fechaPrimeraColaboracion": "2026-07",
+      "fechaUltimaColaboracion": "2026-07",
+      "telefono": "76996519",
+      "descripcion": "Somos fabricantes y también llevamos hasta tu obra los materiales de: Yeso, cemento cola, pastinas.",
+      "rubro": "Cemento y cal",
+      "email": "bren875espinoz@gmail.com",
+      "sitioWeb": null,
+      "tags": [
+        "yeso",
+        "cemento cola",
+        "pastina blanca",
+        "pastina de color",
+        "cemento y cal"
+      ]
+    }
+  ]
 }
