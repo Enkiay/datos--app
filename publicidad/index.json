@@ -5,7 +5,7 @@
       "titulo": "PATROCINADOR",
       "imagenUrl": "https://firebasestorage.googleapis.com/v0/b/arqon-68191.firebasestorage.app/o/publicidad%2Fpub_1783035182_2025_11_14_06_52_04_IMG_1889.JPG?alt=media&token=df678691-b88b-4adf-bd51-d82c2839b70c",
       "whatsapp": "59760348854",
-      "activo": true,
+      "activo": false,
       "hasta": "2026-07-3",
       "storagePath": "publicidad/pub_1783035182_2025_11_14_06_52_04_IMG_1889.JPG",
       "creadoAt": "2026-07-02"
