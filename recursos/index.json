@@ -13,6 +13,390 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn_VectorWorks2022.zip",
       "descripcion": "Plantilla de exportación IFC para VectorWorks 2022.",
       "tamano": "4.2 MB"
+    },
+    {
+      "nombre": "Regularización arquitectónico hasta 4 plantas",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-arquitectonico-hasta-4-plantas.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "390 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion arquitectonico",
+        "obra nueva"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización arquitectónico remodelación/ampliación hasta 4 plantas",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-arquitectonico-remodelacion-ampliacion-hasta-4-plantas.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "390 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion arquitectonico",
+        "remodelacion ampliacion"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización arquitectónico mayor a 4 plantas",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-arquitectonico-mayor-4-plantas.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "337 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion arquitectonico",
+        "obra nueva mayor 4 plantas"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización arquitectónico remodelación/ampliación mayor a 4 plantas",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-arquitectonico-remodelacion-ampliacion-mayor-4-plantas.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "337 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion arquitectonico",
+        "remodelacion ampliacion mayor 4 plantas"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización Propiedad Horizontal ampliación/remodelación",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-propiedad-horizontal-ampliacion-remodelacion.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "337 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion propiedad horizontal",
+        "ampliacion remodelacion"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización Propiedad Horizontal remodelación de unidades privadas",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-propiedad-horizontal-remodelacion-unidades-privadas.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "327 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion propiedad horizontal",
+        "remodelacion unidades privadas"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote con aprobación previa (con croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-con-aprobacion-previa-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "316 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "estandar"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote con aprobación previa (sin croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-con-aprobacion-previa-sin-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "334 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "estandar"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote con aprobación previa, dos rasantes (con croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-con-aprobacion-previa-dos-rasantes-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "474 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "dos rasantes"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote con aprobación previa, dos rasantes (sin croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-con-aprobacion-previa-dos-rasantes-sin-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "462 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "dos rasantes"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote sin aprobación previa (sello Secretaría y QR)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-sin-aprobacion-previa-sello-secretaria.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "407 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "sello secretaria qr"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote sin aprobación previa (simple, sin croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-sin-aprobacion-previa-simple-sin-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "314 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "estandar"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote sin aprobación previa, esquina (con croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-sin-aprobacion-previa-esquina-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "474 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "esquina"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote sin aprobación previa, esquina (sin croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-sin-aprobacion-previa-esquina-sin-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "461 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "esquina"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote sin aprobación previa, sup. librada al servicio público (con croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-sin-aprobacion-previa-sup-librada-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "323 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "sup librada"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote sin aprobación previa, sup. librada al servicio público (sin croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-sin-aprobacion-previa-sup-librada-sin-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "316 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "sup librada"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote sin aprobación previa, sup. no librada al servicio público (con croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-sin-aprobacion-previa-sup-no-librada-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "323 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "sup no librada"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Regularización de lote sin aprobación previa, sup. no librada al servicio público (sin croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-lote-sin-aprobacion-previa-sup-no-librada-sin-croquis.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "313 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "regularizacion lote",
+        "sup no librada"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Anexión de lote (con croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gam-anexion-lote-croquis.pdf",
+      "descripcion": "Carimbo GAM None · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "325 KB",
+      "tags": [
+        "carimbo",
+        "GAM",
+        "anexion lote",
+        "estandar"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Anexión de lote (sin croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gam-anexion-lote-sin-croquis.pdf",
+      "descripcion": "Carimbo GAM None · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "315 KB",
+      "tags": [
+        "carimbo",
+        "GAM",
+        "anexion lote",
+        "estandar"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Subdivisión de lote (con croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gam-subdivision-lote-croquis.pdf",
+      "descripcion": "Carimbo GAM None · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "335 KB",
+      "tags": [
+        "carimbo",
+        "GAM",
+        "subdivision lote",
+        "sello colegio arquitectos"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Subdivisión de lote (sin croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gam-subdivision-lote-sin-croquis.pdf",
+      "descripcion": "Carimbo GAM None · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "312 KB",
+      "tags": [
+        "carimbo",
+        "GAM",
+        "subdivision lote",
+        "sello colegio arquitectos"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Lote atípico (con croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gam-lote-atipico-croquis.pdf",
+      "descripcion": "Carimbo GAM None · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "322 KB",
+      "tags": [
+        "carimbo",
+        "GAM",
+        "regularizacion lote atipico",
+        "estandar"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Lote atípico (sin croquis)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gam-lote-atipico-sin-croquis.pdf",
+      "descripcion": "Carimbo GAM None · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "312 KB",
+      "tags": [
+        "carimbo",
+        "GAM",
+        "regularizacion lote atipico",
+        "estandar"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Aprobación de vivienda (2014)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/sacaba-vivienda-2014.pdf",
+      "descripcion": "Carimbo GAM Sacaba Sacaba",
+      "tamano": "409 KB",
+      "tags": [
+        "carimbo",
+        "Sacaba",
+        "GAM Sacaba",
+        "aprobacion vivienda",
+        "estandar"
+      ],
+      "departamento": "Cochabamba"
+    },
+    {
+      "nombre": "Plantilla con medidas del carimbo (acotada)",
+      "tipo": "pdf",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-plantilla-medidas-carimbo.pdf",
+      "descripcion": "Carimbo GAMC Cochabamba · Ley Municipal Nº 0204/2017 - Ley Modificatoria 0255/2017",
+      "tamano": "179 KB",
+      "tags": [
+        "carimbo",
+        "Cochabamba",
+        "GAMC",
+        "plantilla medidas",
+        "estandar"
+      ],
+      "departamento": "Cochabamba"
     }
   ]
 }
