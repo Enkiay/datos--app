@@ -9,6 +9,17 @@
       "hasta": "2026-07-04",
       "storagePath": "publicidad/pub_1783035310_2025_11_20_08_43_59_IMG_2009.JPG",
       "creadoAt": "2026-07-02"
+    },
+    {
+      "id": "pub_1783043166",
+      "titulo": "DEMO — Tu publicidad aquí",
+      "imagenUrl": "https://firebasestorage.googleapis.com/v0/b/arqon-68191.firebasestorage.app/o/publicidad%2Fpub_1783043166_demo_anuncio_arqon.jpg?alt=media&token=c7a0fc53-7a2e-46fe-8d93-64011e4c8c47",
+      "whatsapp": "59170000000",
+      "activo": true,
+      "desde": "",
+      "hasta": "",
+      "storagePath": "publicidad/pub_1783043166_demo_anuncio_arqon.jpg",
+      "creadoAt": "2026-07-02"
     }
   ]
 }
