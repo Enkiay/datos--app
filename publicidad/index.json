@@ -5,7 +5,7 @@
       "titulo": "SADASD",
       "imagenUrl": "https://firebasestorage.googleapis.com/v0/b/arqon-68191.firebasestorage.app/o/publicidad%2Fpub_1783035310_2025_11_20_08_43_59_IMG_2009.JPG?alt=media&token=207b31ac-2219-409c-a423-3c26c6c06aea",
       "whatsapp": "59160348854",
-      "activo": false,
+      "activo": true,
       "hasta": "2026-07-04",
       "storagePath": "publicidad/pub_1783035310_2025_11_20_08_43_59_IMG_2009.JPG",
       "creadoAt": "2026-07-02"
