@@ -20,6 +20,19 @@
       "hasta": "",
       "storagePath": "publicidad/pub_1783043166_demo_anuncio_arqon.jpg",
       "creadoAt": "2026-07-02"
+    },
+    {
+      "id": "pub_1783052506",
+      "titulo": "DEMO segmentado CBBA",
+      "imagenUrl": "https://firebasestorage.googleapis.com/v0/b/arqon-68191.firebasestorage.app/o/publicidad%2Fpub_1783052506_demo_seg.jpg?alt=media&token=5ae21100-46dc-458c-bb03-8c0acae7b3ff",
+      "whatsapp": "60348854",
+      "activo": true,
+      "desde": "",
+      "hasta": "",
+      "pais": "BO",
+      "ciudad": "Cochabamba",
+      "storagePath": "publicidad/pub_1783052506_demo_seg.jpg",
+      "creadoAt": "2026-07-03"
     }
   ]
 }
