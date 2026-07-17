@@ -8,7 +8,7 @@
     },
     "catalogo_BO": {
       "version": "v20260620-madera-obragruesa",
-      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_BO.json"
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items.json"
     },
     "precios": {
       "version": "v20260620-alta-insumos",
