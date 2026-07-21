@@ -1,5 +1,5 @@
 {
-  "version": "v20260620-madera-obragruesa",
+  "version": "v20260721-escalera-uh021",
   "schemaVersion": 1,
   "items": [
     {
@@ -7123,6 +7123,12 @@
           "visiblePorDefecto": true
         },
         {
+          "nombre": "Altura",
+          "valorDefault": 2.72,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
           "nombre": "Huella",
           "valorDefault": 0.28,
           "unidad": "m",
@@ -7138,7 +7144,7 @@
           "nombre": "Peldaños",
           "valorDefault": 16,
           "unidad": "u",
-          "visiblePorDefecto": true
+          "visiblePorDefecto": false
         },
         {
           "nombre": "Espesor",
@@ -7167,7 +7173,7 @@
       ],
       "presets": [
         {
-          "nombre": "Con descanso (16 peldaños)",
+          "nombre": "Con descanso (alt 2,72 m)",
           "valores": {
             "Ancho": 1.1,
             "Huella": 0.3,
@@ -7176,7 +7182,8 @@
             "Espesor": 0.15,
             "Descansos": 2,
             "DescansoLargo": 1.1,
-            "DescansoAncho": 1.1
+            "DescansoAncho": 1.1,
+            "Altura": 2.72
           }
         }
       ],
@@ -7184,7 +7191,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "Ancho * (Peldaños * sqrt(Huella^2 + Contrahuella^2) * Espesor + Peldaños * Huella * Contrahuella / 2) + Descansos * DescansoLargo * DescansoAncho * Espesor",
+      "formulaResultado": "Ancho * (round(Altura/Contrahuella) * sqrt(Huella^2 + Contrahuella^2) * Espesor + round(Altura/Contrahuella) * Huella * Contrahuella / 2) + Descansos * DescansoLargo * DescansoAncho * Espesor",
       "aliases": [
         "Escalera",
         "Stair",
