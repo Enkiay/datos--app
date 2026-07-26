@@ -1,0 +1,25 @@
+{
+  "actualizado": "2026-07-25",
+  "planes": {
+    "perpetua": {
+      "bs": 2000,
+      "descuentoPct": 50,
+      "hasta": "2026-09-29"
+    },
+    "mensual": {
+      "bs": 60,
+      "descuentoPct": 50,
+      "hasta": "2026-09-29"
+    },
+    "anual": {
+      "bs": 200,
+      "descuentoPct": 50,
+      "hasta": "2026-09-29"
+    },
+    "educativa": {
+      "bs": 30,
+      "descuentoPct": 50,
+      "hasta": "2026-09-29"
+    }
+  }
+}
