@@ -1,5 +1,5 @@
 {
-  "version": "v20260726-0924-items",
+  "version": "v20260726-2107-items",
   "schemaVersion": 1,
   "items": [
     {
@@ -1753,7 +1753,8 @@
           }
         }
       ],
-      "armaduraJson": "{\"tipo\":\"VIGA\",\"barrasSuperiores\":2,\"diametroSuperior\":10.0,\"barrasInferiores\":2,\"diametroInferior\":10.0,\"diametroEstribo\":6.0,\"separacionEstribos\":0.2,\"recubrimiento\":0.025,\"ganchoEstribo\":0.1,\"longitudBarraComercial\":12.0}"
+      "armaduraJson": "{\"tipo\":\"VIGA\",\"barrasSuperiores\":2,\"diametroSuperior\":10.0,\"barrasInferiores\":2,\"diametroInferior\":10.0,\"diametroEstribo\":6.0,\"separacionEstribos\":0.2,\"recubrimiento\":0.025,\"ganchoEstribo\":0.1,\"longitudBarraComercial\":12.0}",
+      "presetsJson": "{\"v\":1,\"data\":[{\"nombre\":\"0,15×0,20\",\"valores\":{\"ancho\":0.15,\"altura\":0.2}},{\"nombre\":\"0,15×0,25\",\"valores\":{\"ancho\":0.15,\"altura\":0.25}},{\"nombre\":\"0,15×0,30\",\"valores\":{\"ancho\":0.15,\"altura\":0.3}},{\"nombre\":\"0,20×0,25\",\"valores\":{\"ancho\":0.2,\"altura\":0.25}},{\"nombre\":\"0,20×0,30\",\"valores\":{\"ancho\":0.2,\"altura\":0.3}},{\"nombre\":\"0,20×0,35\",\"valores\":{\"ancho\":0.2,\"altura\":0.35}},{\"nombre\":\"0,20×0,40\",\"valores\":{\"ancho\":0.2,\"altura\":0.4}},{\"nombre\":\"0,20×0,45\",\"valores\":{\"ancho\":0.2,\"altura\":0.45}},{\"nombre\":\"0,20×0,50\",\"valores\":{\"ancho\":0.2,\"altura\":0.5}}]}"
     },
     {
       "codigo": "UH009",
@@ -7218,7 +7219,8 @@
       "subcategoria": "Escaleras",
       "tags": [
         "H°A°"
-      ]
+      ],
+      "presetsJson": "{\"v\":1,\"data\":[{\"nombre\":\"U (2 descansos)\",\"valores\":{\"Ancho\":1.2,\"Altura\":3.4,\"Huella\":0.3,\"Contrahuella\":0.17,\"Peldaños\":20,\"Espesor\":0.15,\"Descansos\":2,\"DescansoLargo\":1.2,\"DescansoAncho\":1.2}}]}"
     },
     {
       "codigo": "OG019",
@@ -8258,7 +8260,8 @@
       "tags": [
         "H°A°",
         "estructural"
-      ]
+      ],
+      "presetsJson": "{\"v\":1,\"data\":[{\"nombre\":\"0,15×0,20\",\"valores\":{\"Ancho\":0.15,\"Alto\":0.2}},{\"nombre\":\"0,15×0,25\",\"valores\":{\"Ancho\":0.15,\"Alto\":0.25}},{\"nombre\":\"0,15×0,30\",\"valores\":{\"Ancho\":0.15,\"Alto\":0.3}},{\"nombre\":\"0,20×0,25\",\"valores\":{\"Ancho\":0.2,\"Alto\":0.25}},{\"nombre\":\"0,20×0,30\",\"valores\":{\"Ancho\":0.2,\"Alto\":0.3}},{\"nombre\":\"0,20×0,35\",\"valores\":{\"Ancho\":0.2,\"Alto\":0.35}},{\"nombre\":\"0,20×0,40\",\"valores\":{\"Ancho\":0.2,\"Alto\":0.4}},{\"nombre\":\"0,20×0,45\",\"valores\":{\"Ancho\":0.2,\"Alto\":0.45}},{\"nombre\":\"0,20×0,50\",\"valores\":{\"Ancho\":0.2,\"Alto\":0.5}}]}"
     },
     {
       "codigo": "OG027",
@@ -36551,7 +36554,8 @@
           "idCanonico": "eq_vibradora",
           "codigo": "MQ013"
         }
-      ]
+      ],
+      "presetsJson": "{\"v\":1,\"data\":[{\"nombre\":\"0,60×0,60×0,20\",\"valores\":{\"Largo\":0.6,\"Ancho\":0.6,\"Alto\":0.2}},{\"nombre\":\"0,70×0,70×0,20\",\"valores\":{\"Largo\":0.7,\"Ancho\":0.7,\"Alto\":0.2}},{\"nombre\":\"0,80×0,80×0,25\",\"valores\":{\"Largo\":0.8,\"Ancho\":0.8,\"Alto\":0.25}},{\"nombre\":\"0,90×0,90×0,25\",\"valores\":{\"Largo\":0.9,\"Ancho\":0.9,\"Alto\":0.25}},{\"nombre\":\"1,00×1,00×0,30\",\"valores\":{\"Largo\":1,\"Ancho\":1,\"Alto\":0.3}},{\"nombre\":\"1,10×1,10×0,30\",\"valores\":{\"Largo\":1.1,\"Ancho\":1.1,\"Alto\":0.3}},{\"nombre\":\"1,20×1,20×0,30\",\"valores\":{\"Largo\":1.2,\"Ancho\":1.2,\"Alto\":0.3}},{\"nombre\":\"1,30×1,30×0,35\",\"valores\":{\"Largo\":1.3,\"Ancho\":1.3,\"Alto\":0.35}},{\"nombre\":\"1,40×1,40×0,35\",\"valores\":{\"Largo\":1.4,\"Ancho\":1.4,\"Alto\":0.35}}]}"
     },
     {
       "codigo": "UH007",
@@ -36774,7 +36778,8 @@
           "idCanonico": "eq_vibradora",
           "codigo": "MQ013"
         }
-      ]
+      ],
+      "presetsJson": "{\"v\":1,\"data\":[{\"nombre\":\"0,15×0,15\",\"valores\":{\"Ancho\":0.15,\"Profundidad\":0.15}},{\"nombre\":\"0,20×0,20\",\"valores\":{\"Ancho\":0.2,\"Profundidad\":0.2}},{\"nombre\":\"0,20×0,25\",\"valores\":{\"Ancho\":0.2,\"Profundidad\":0.25}},{\"nombre\":\"0,20×0,30\",\"valores\":{\"Ancho\":0.2,\"Profundidad\":0.3}},{\"nombre\":\"0,20×0,35\",\"valores\":{\"Ancho\":0.2,\"Profundidad\":0.35}},{\"nombre\":\"0,20×0,40\",\"valores\":{\"Ancho\":0.2,\"Profundidad\":0.4}},{\"nombre\":\"0,25×0,25\",\"valores\":{\"Ancho\":0.25,\"Profundidad\":0.25}},{\"nombre\":\"0,25×0,30\",\"valores\":{\"Ancho\":0.25,\"Profundidad\":0.3}}]}"
     },
     {
       "codigo": "UH005",
@@ -36940,7 +36945,8 @@
       "autorUid": "",
       "aliases": [],
       "subcategoria": "",
-      "formulaResultado": ""
+      "formulaResultado": "",
+      "presetsJson": "{\"v\":1,\"data\":[{\"nombre\":\"0,15×0,20\",\"valores\":{\"ancho\":0.15,\"altura\":0.2}},{\"nombre\":\"0,20×0,20\",\"valores\":{\"ancho\":0.2,\"altura\":0.2}},{\"nombre\":\"0,20×0,25\",\"valores\":{\"ancho\":0.2,\"altura\":0.25}},{\"nombre\":\"0,20×0,30\",\"valores\":{\"ancho\":0.2,\"altura\":0.3}}]}"
     },
     {
       "codigo": "OT040",
