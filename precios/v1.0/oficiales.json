@@ -1530,7 +1530,7 @@
           "nombre": "Fierro Corrugado",
           "codigo": "AC018",
           "tipoInsumo": "MATERIAL",
-          "precio": 16.7,
+          "precio": 12.6,
           "unidad": "Kg",
           "nota": "",
           "idCanonico": "fierro_corrugado_kg",
