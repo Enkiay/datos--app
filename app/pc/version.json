@@ -1,7 +1,8 @@
 {
-  "version": "1.5.4",
-  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v1.5.4/ArqOn-Desktop-1.5.4-setup.exe",
-  "notas": "• Cronograma: al colgar una tarea de otra que habías movido a mano, la nueva se dibujaba al principio del plan —antes de que su predecesora empiece—. Ahora arranca donde la predecesora termina de verdad, y el corrimiento se propaga por toda la cadena.\n• Cronograma: con ruta crítica marcada a mano, las no críticas podían quedar encima de sus predecesoras. Se respetan las precedencias; si algo no entra en el plazo se muestra excediéndolo, en vez de acomodarlo mal.\n• Agregar ítem: atajo Ctrl+I y el cursor arranca en el buscador. El módulo destino ya no se bifurca —«Obra fina» y «OBRA FINA» son el mismo— y un módulo nuevo queda declarado.\n• Insumos: la plantilla de Excel ya no pide código (ArqOn lo asigna) y antes de importar se revisan los choques uno por uno. Antes una fila repetida desaparecía sin avisar.\n• Botón para abrir la carpeta de ArqOn, planes vigentes en Cuenta, y los ítems que importás de un proyecto van a una base con el nombre de ese proyecto.",
-  "publicado": "2026-07-30",
-  "sha256": "FAC61140569EC9F17CA76C4BC9767D1E82E0D65CA2B51EEA181900FFABDAF286"
+  "version": "1.5.5",
+  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v1.5.5/ArqOn-Desktop-1.5.5-setup.exe",
+  "notas": "• Excel del presupuesto: el COSTO TOTAL en literal no coincidía con el numeral (decía 56/100 donde el número decía ,58). El libro recalculaba con precios y tolerancias que no eran los de la app; ahora numeral y literal dicen lo mismo, al centavo.\n• «Reporte B completo (Excel enlazado)» salía convertido a PDF cuando estaba activo «Entregar como PDF fiel», y con eso se perdían las fórmulas vivas. Ahora sale siempre en Excel; los formularios A siguen respetando el ajuste y el botón avisa cuál de los dos formatos va a salir.\n• Presupuesto (B-1) y Reporte completo: nueva opción «Precios en literal», que agrega la columna del precio unitario escrito en palabras, como el formulario oficial.\n• Los importes en literal ahora dicen la moneda abreviada («… 58/100 Bs» en vez de «BOLIVIANOS»), igual en todos los reportes.\n• Test visual de reportes: los que salen en Excel se distinguen a simple vista.\n• Actualizaciones: esta versión se actualiza sola. Al haber una nueva, se descarga, se VERIFICA su firma y se instala en silencio; ArqOn se cierra y vuelve a abrirse ya actualizada.",
+  "publicado": "2026-07-31",
+  "sha256": "973bf7b1b14d2bf0d141d54ea830a5c90b2ffedebe1687b0330573a62e762f3f",
+  "firma": "2WhwOuZo9dk92OhCeyUJC4s85YUu6RhDTd7hEhiCIpolcV3OaQTTBWx4NnKeWh1VLOUzpf+PqTfFJKeLb3lpAg=="
 }
