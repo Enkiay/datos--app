@@ -1,6 +1,6 @@
 {
   "version": "1.5.5",
-  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v1.5.5/ArqOn-Desktop-1.5.5-setup.exe",
+  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v1.5.5/ArqOn.Desktop_1.5.5_x64-setup.exe",
   "notas": "• Excel del presupuesto: el COSTO TOTAL en literal no coincidía con el numeral (decía 56/100 donde el número decía ,58). El libro recalculaba con precios y tolerancias que no eran los de la app; ahora numeral y literal dicen lo mismo, al centavo.\n• «Reporte B completo (Excel enlazado)» salía convertido a PDF cuando estaba activo «Entregar como PDF fiel», y con eso se perdían las fórmulas vivas. Ahora sale siempre en Excel; los formularios A siguen respetando el ajuste y el botón avisa cuál de los dos formatos va a salir.\n• Presupuesto (B-1) y Reporte completo: nueva opción «Precios en literal», que agrega la columna del precio unitario escrito en palabras, como el formulario oficial.\n• Los importes en literal ahora dicen la moneda abreviada («… 58/100 Bs» en vez de «BOLIVIANOS»), igual en todos los reportes.\n• Test visual de reportes: los que salen en Excel se distinguen a simple vista.\n• Actualizaciones: esta versión se actualiza sola. Al haber una nueva, se descarga, se VERIFICA su firma y se instala en silencio; ArqOn se cierra y vuelve a abrirse ya actualizada.",
   "publicado": "2026-07-31",
   "sha256": "973bf7b1b14d2bf0d141d54ea830a5c90b2ffedebe1687b0330573a62e762f3f",
