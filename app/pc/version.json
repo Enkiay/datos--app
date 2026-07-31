@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v1.2.0/ArqOn-Desktop-1.2.0-setup.exe",
-  "notas": "• Acero: reparto correcto del fierro en el APU, derivación por medición (igual que la planilla), columnas por m³ ya no subestiman, y zapatas/losas/muros por m³ ahora despiezan.\n• «Armado específico» en el presupuesto: todo el armado donde se usa, con combos y regla de los 5 cm; el ítem solo señala si lleva acero.\n• Planilla de aceros: reemplazo global de diámetro (viaja en el proyecto), resumen por partida con medidas y cuantías, y el reporte declara lo que queda fuera del despiece.\n• Filtros minimalistas en los directorios, «Mi ficha» en el Directorio de profesionales, y Aranceles y Laboratorio de mampostería en 3 columnas.",
-  "publicado": "2026-07-27"
+  "version": "1.5.4",
+  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v1.5.4/ArqOn-Desktop-1.5.4-setup.exe",
+  "notas": "• Cronograma: al colgar una tarea de otra que habías movido a mano, la nueva se dibujaba al principio del plan —antes de que su predecesora empiece—. Ahora arranca donde la predecesora termina de verdad, y el corrimiento se propaga por toda la cadena.\n• Cronograma: con ruta crítica marcada a mano, las no críticas podían quedar encima de sus predecesoras. Se respetan las precedencias; si algo no entra en el plazo se muestra excediéndolo, en vez de acomodarlo mal.\n• Agregar ítem: atajo Ctrl+I y el cursor arranca en el buscador. El módulo destino ya no se bifurca —«Obra fina» y «OBRA FINA» son el mismo— y un módulo nuevo queda declarado.\n• Insumos: la plantilla de Excel ya no pide código (ArqOn lo asigna) y antes de importar se revisan los choques uno por uno. Antes una fila repetida desaparecía sin avisar.\n• Botón para abrir la carpeta de ArqOn, planes vigentes en Cuenta, y los ítems que importás de un proyecto van a una base con el nombre de ese proyecto.",
+  "publicado": "2026-07-30"
 }
