@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-30",
+  "actualizado": "2026-08-03",
   "planes": {
     "perpetua": {
       "bs": 2000,
@@ -12,17 +12,12 @@
       "hasta": "2026-09-29"
     },
     "semestral": {
-      "bs": 220,
+      "bs": 250,
       "descuentoPct": 50,
       "hasta": "2026-09-29"
     },
     "trimestral": {
-      "bs": 120,
-      "descuentoPct": 50,
-      "hasta": "2026-09-29"
-    },
-    "mensual": {
-      "bs": 60,
+      "bs": 150,
       "descuentoPct": 50,
       "hasta": "2026-09-29"
     },
