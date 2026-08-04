@@ -1,25 +1,6 @@
 {
-  "version": "v20260726-183812",
+  "version": "v20260803-204442",
   "empresas": [
-    {
-      "id": "arqon-prueba-santa-cruz-de-la-sierra",
-      "nombre": "ArqOn prueba",
-      "ciudad": "Santa Cruz de la Sierra",
-      "pais": "BO",
-      "tipo": "FERRETERIA",
-      "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-07",
-      "fechaUltimaColaboracion": "2026-07",
-      "telefono": "591 60348854",
-      "descripcion": "probando funciones",
-      "rubro": "Cemento y Cal",
-      "email": "enkiay67@gmail.com",
-      "sitioWeb": "https://www.google.com",
-      "tags": [
-        "cemento",
-        "cemento y cal"
-      ]
-    },
     {
       "id": "proyeso-srl-cochabamba",
       "nombre": "PROYESO SRL",
@@ -39,6 +20,25 @@
         "cemento cola",
         "pastina blanca",
         "pastina de color",
+        "cemento y cal"
+      ]
+    },
+    {
+      "id": "todocemento-santa-cruz-de-la-sierra",
+      "nombre": "TodoCemento",
+      "ciudad": "Santa Cruz de la Sierra",
+      "pais": "BO",
+      "tipo": "FERRETERIA",
+      "estado": "ACTIVA",
+      "fechaPrimeraColaboracion": "2026-08",
+      "fechaUltimaColaboracion": "2026-08",
+      "telefono": "591 60348854",
+      "descripcion": "probando funciones",
+      "rubro": "Cemento y Cal",
+      "email": "enkiay67@gmail.com",
+      "sitioWeb": "https://www.google.com",
+      "tags": [
+        "cemento",
         "cemento y cal"
       ]
     }
