@@ -1,4 +1,0 @@
-{
-  "_comentario": "Catálogo de tutoriales de ArqOn PC. Lo lee la ventana «Tutoriales» al abrirla; la app NO se recompila al agregar videos. Formato: temas[] → { tema, videos[] → { titulo, url, duracion?, desc? } }. La url debe ser de YouTube (youtu.be/…, watch?v=…, /embed/… o /shorts/…): la app valida el ID y descarta lo que no lo sea.",
-  "temas": []
-}

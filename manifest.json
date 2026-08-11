@@ -37,10 +37,6 @@
     "empresas_colaboradoras": {
       "version": "v20260803-204442",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/empresas/v1.0/index.json"
-    },
-    "tutoriales": {
-      "version": "v20260811-1630-tutoriales",
-      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/tutoriales/v1.0/tutoriales.json"
     }
   }
 }
