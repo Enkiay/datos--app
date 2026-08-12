@@ -1,5 +1,5 @@
 {
-  "version": "v20260803-204442",
+  "version": "v20260812-121813",
   "empresas": [
     {
       "id": "proyeso-srl-cochabamba",
@@ -39,6 +39,8 @@
       "sitioWeb": "https://www.google.com",
       "tags": [
         "cemento",
+        "yeso",
+        "ladrillo 3 huecos",
         "cemento y cal"
       ]
     }
