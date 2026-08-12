@@ -1,5 +1,5 @@
 {
-  "version": "v20260812-121813",
+  "version": "v20260812-123242",
   "empresas": [
     {
       "id": "proyeso-srl-cochabamba",
@@ -21,28 +21,9 @@
         "pastina blanca",
         "pastina de color",
         "cemento y cal"
-      ]
-    },
-    {
-      "id": "todocemento-santa-cruz-de-la-sierra",
-      "nombre": "TodoCemento",
-      "ciudad": "Santa Cruz de la Sierra",
-      "pais": "BO",
-      "tipo": "FERRETERIA",
-      "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-08",
-      "fechaUltimaColaboracion": "2026-08",
-      "telefono": "591 60348854",
-      "descripcion": "probando funciones",
-      "rubro": "Cemento y Cal",
-      "email": "enkiay67@gmail.com",
-      "sitioWeb": "https://www.google.com",
-      "tags": [
-        "cemento",
-        "yeso",
-        "ladrillo 3 huecos",
-        "cemento y cal"
-      ]
+      ],
+      "destacada": false,
+      "destacadaHasta": null
     }
   ]
 }
