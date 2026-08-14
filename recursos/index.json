@@ -22,6 +22,20 @@
       ]
     },
     {
+      "nombre": "ArqOn_Asignador_Vectorworks.zip",
+      "tipo": "zip",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn_Asignador_Vectorworks.zip",
+      "descripcion": "Complemento para Vectorworks 2022+: comando de menu «ArqOn - Asignar item» — seleccionas objetos, buscas el item del catalogo en una lista con filtro y les asigna la clase con codigo (busqueda ? = auditar). INSTALAR: Herramientas → Complementos → Instalar → elegir este zip → REINICIAR Vectorworks → Herramientas → Espacios de Trabajo → Editar → arrastrar el comando a un menu.",
+      "tamano": "17 KB",
+      "tags": [
+        "vectorworks",
+        "complemento",
+        "asignador",
+        "clasificacion",
+        "plugin"
+      ]
+    },
+    {
       "nombre": "Regularización arquitectónico hasta 4 plantas",
       "tipo": "pdf",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-arquitectonico-hasta-4-plantas.pdf",
