@@ -8,6 +8,20 @@
       "tamano": "4.2 MB"
     },
     {
+      "nombre": "ArqOn_ArchiCAD24.pln",
+      "tipo": "pln",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn_ArchiCAD24.pln",
+      "descripcion": "Plantilla ArchiCAD 24 con el traductor IFC «ArqOn» (explota compuestos en capas y exporta clasificaciones) y la clasificación ArqOn importada. Usala como proyecto base, o traé el traductor a tu proyecto: Archivo → Interoperabilidad → IFC → Traductores IFC → Importar → elegí este archivo.",
+      "tamano": "13.9 MB",
+      "tags": [
+        "archicad",
+        "traductor",
+        "ifc",
+        "plantilla",
+        "clasificacion"
+      ]
+    },
+    {
       "nombre": "Regularización arquitectónico hasta 4 plantas",
       "tipo": "pdf",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/carimbos/gamc-arquitectonico-hasta-4-plantas.pdf",
