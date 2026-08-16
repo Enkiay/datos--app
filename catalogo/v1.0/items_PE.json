@@ -1,8 +1,8 @@
 {
- "version": "v20260816-acus-ramos",
+ "version": "v20260817-parametros-presets",
  "schemaVersion": 1,
  "pais": "PE",
- "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario).",
+ "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Parámetros de medición y presets por familia completados (17-ago).",
  "items": [
   {
    "codigo": "OG0001",
@@ -101,6 +101,52 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_mezcladora_9p3_hm"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Zapata 1.00×1.00×0.50",
+     "valores": {
+      "Largo": 1.0,
+      "Ancho": 1.0,
+      "Alto": 0.5
+     }
+    },
+    {
+     "nombre": "Zapata 1.20×1.20×0.60",
+     "valores": {
+      "Largo": 1.2,
+      "Ancho": 1.2,
+      "Alto": 0.6
+     }
+    },
+    {
+     "nombre": "Zapata 1.50×1.50×0.60",
+     "valores": {
+      "Largo": 1.5,
+      "Ancho": 1.5,
+      "Alto": 0.6
+     }
     }
    ]
   },
@@ -202,6 +248,49 @@
      "baseCalculo": "",
      "idCanonico": "pe_mezcladora_9p3_hm"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Columna 25×25",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.25
+     }
+    },
+    {
+     "nombre": "Columna 25×40",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.4
+     }
+    },
+    {
+     "nombre": "Columna 30×60",
+     "valores": {
+      "Largo": 0.3,
+      "Ancho": 0.6
+     }
+    }
    ]
   },
   {
@@ -269,7 +358,9 @@
      "baseCalculo": "",
      "idCanonico": "pe_mo_oficial_hh"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "OG0004",
@@ -347,7 +438,51 @@
      "baseCalculo": "",
      "idCanonico": "pe_mo_oficial_hh"
     }
-   ]
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Columna 25×25",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.25
+     }
+    },
+    {
+     "nombre": "Columna 25×40",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.4
+     }
+    },
+    {
+     "nombre": "Columna 30×60",
+     "valores": {
+      "Largo": 0.3,
+      "Ancho": 0.6
+     }
+    }
+   ],
+   "formulaResultado": "2*(Largo+Ancho)*Alto"
   },
   {
    "codigo": "MP0001",
@@ -435,6 +570,40 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_mo_peon_hh"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
     }
    ]
   },
@@ -525,6 +694,20 @@
      "baseCalculo": "",
      "idCanonico": "pe_mo_peon_hh"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -614,6 +797,20 @@
      "baseCalculo": "",
      "idCanonico": "pe_mezcladora_9p3_hm"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -691,6 +888,20 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_mo_peon_hh"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -770,6 +981,20 @@
      "baseCalculo": "",
      "idCanonico": "pe_mo_peon_hh"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -848,6 +1073,20 @@
      "baseCalculo": "",
      "idCanonico": "pe_mo_peon_hh"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -902,6 +1141,26 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Profundidad",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -1002,6 +1261,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -1012,7 +1285,6 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
    "insumos": [
     {
      "nombre": "Capataz",
@@ -1047,6 +1319,49 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Profundidad",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Zanja 40 cm",
+     "valores": {
+      "Ancho": 0.4,
+      "Profundidad": 1.0
+     }
+    },
+    {
+     "nombre": "Zanja 50 cm",
+     "valores": {
+      "Ancho": 0.5,
+      "Profundidad": 1.0
+     }
+    },
+    {
+     "nombre": "Zanja 60 cm",
+     "valores": {
+      "Ancho": 0.6,
+      "Profundidad": 1.0
+     }
+    }
    ]
   },
   {
@@ -1057,7 +1372,6 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
    "insumos": [
     {
      "nombre": "Capataz",
@@ -1092,6 +1406,49 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Profundidad",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Zanja 40 cm",
+     "valores": {
+      "Ancho": 0.4,
+      "Profundidad": 1.4
+     }
+    },
+    {
+     "nombre": "Zanja 50 cm",
+     "valores": {
+      "Ancho": 0.5,
+      "Profundidad": 1.4
+     }
+    },
+    {
+     "nombre": "Zanja 60 cm",
+     "valores": {
+      "Ancho": 0.6,
+      "Profundidad": 1.4
+     }
+    }
    ]
   },
   {
@@ -1102,7 +1459,6 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
    "insumos": [
     {
      "nombre": "Capataz",
@@ -1137,6 +1493,49 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Profundidad",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Zanja 40 cm",
+     "valores": {
+      "Ancho": 0.4,
+      "Profundidad": 1.7
+     }
+    },
+    {
+     "nombre": "Zanja 50 cm",
+     "valores": {
+      "Ancho": 0.5,
+      "Profundidad": 1.7
+     }
+    },
+    {
+     "nombre": "Zanja 60 cm",
+     "valores": {
+      "Ancho": 0.6,
+      "Profundidad": 1.7
+     }
+    }
    ]
   },
   {
@@ -1147,7 +1546,6 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
    "insumos": [
     {
      "nombre": "Capataz",
@@ -1181,6 +1579,52 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Profundidad",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Zapata 1.00×1.00",
+     "valores": {
+      "Largo": 1.0,
+      "Ancho": 1.0,
+      "Profundidad": 1.5
+     }
+    },
+    {
+     "nombre": "Zapata 1.20×1.20",
+     "valores": {
+      "Largo": 1.2,
+      "Ancho": 1.2,
+      "Profundidad": 1.5
+     }
+    },
+    {
+     "nombre": "Zapata 1.50×1.50",
+     "valores": {
+      "Largo": 1.5,
+      "Ancho": 1.5,
+      "Profundidad": 1.7
+     }
     }
    ]
   },
@@ -1226,6 +1670,26 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -1270,6 +1734,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -1313,6 +1791,34 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Capa de 20 cm",
+     "valores": {
+      "Espesor": 0.2
+     }
     }
    ]
   },
@@ -1391,6 +1897,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -1514,6 +2034,42 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Cimiento 0.40×0.60",
+     "valores": {
+      "Ancho": 0.4,
+      "Alto": 0.6
+     }
+    },
+    {
+     "nombre": "Cimiento 0.50×0.80",
+     "valores": {
+      "Ancho": 0.5,
+      "Alto": 0.8
+     }
+    }
    ]
   },
   {
@@ -1635,6 +2191,35 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Sobrecimiento 0.25×0.30",
+     "valores": {
+      "Ancho": 0.25,
+      "Alto": 0.3
+     }
     }
    ]
   },
@@ -1758,6 +2343,35 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Sobrecimiento 0.15×0.30",
+     "valores": {
+      "Ancho": 0.15,
+      "Alto": 0.3
+     }
+    }
    ]
   },
   {
@@ -1880,6 +2494,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -1890,7 +2518,6 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
    "insumos": [
     {
      "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -2002,6 +2629,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -2012,7 +2653,6 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
    "insumos": [
     {
      "nombre": "Madera tornillo",
@@ -2102,6 +2742,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -2112,7 +2766,6 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
    "insumos": [
     {
      "nombre": "Madera tornillo",
@@ -2190,6 +2843,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -2289,6 +2956,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -2390,6 +3071,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -2478,7 +3173,22 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "formulaResultado": "2*Largo*Alto"
   },
   {
    "codigo": "OG0025",
@@ -2576,6 +3286,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -2675,6 +3399,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -2776,7 +3514,51 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Columna 25×25",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.25
+     }
+    },
+    {
+     "nombre": "Columna 25×40",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.4
+     }
+    },
+    {
+     "nombre": "Columna 30×60",
+     "valores": {
+      "Largo": 0.3,
+      "Ancho": 0.6
+     }
+    }
+   ],
+   "formulaResultado": "2*(Largo+Ancho)*Alto"
   },
   {
    "codigo": "OG0028",
@@ -2909,7 +3691,51 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Columna 25×25",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.25
+     }
+    },
+    {
+     "nombre": "Columna 25×40",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.4
+     }
+    },
+    {
+     "nombre": "Columna 30×60",
+     "valores": {
+      "Largo": 0.3,
+      "Ancho": 0.6
+     }
+    }
+   ],
+   "formulaResultado": "2*(Largo+Ancho)*Alto"
   },
   {
    "codigo": "OG0029",
@@ -3009,7 +3835,51 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Viga 25×40",
+     "valores": {
+      "Ancho": 0.25,
+      "Alto": 0.4
+     }
+    },
+    {
+     "nombre": "Viga 25×50",
+     "valores": {
+      "Ancho": 0.25,
+      "Alto": 0.5
+     }
+    },
+    {
+     "nombre": "Viga 30×60",
+     "valores": {
+      "Ancho": 0.3,
+      "Alto": 0.6
+     }
+    }
+   ],
+   "formulaResultado": "(Ancho+2*Alto)*Largo"
   },
   {
    "codigo": "OG0030",
@@ -3142,7 +4012,51 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Columna 25×25",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.25
+     }
+    },
+    {
+     "nombre": "Columna 25×40",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.4
+     }
+    },
+    {
+     "nombre": "Columna 30×60",
+     "valores": {
+      "Largo": 0.3,
+      "Ancho": 0.6
+     }
+    }
+   ],
+   "formulaResultado": "2*(Largo+Ancho)*Alto"
   },
   {
    "codigo": "OG0031",
@@ -3241,6 +4155,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -3342,6 +4270,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -3431,6 +4373,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -3441,7 +4397,6 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "STAIR",
    "insumos": [
     {
      "nombre": "Madera tornillo",
@@ -3531,6 +4486,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -3541,7 +4510,6 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "COLUMN",
    "insumos": [
     {
      "nombre": "Madera tornillo",
@@ -3631,7 +4599,28 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "formulaResultado": "2*(Largo+Ancho)*Alto"
   },
   {
    "codigo": "OG0036",
@@ -3729,6 +4718,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -3863,6 +4866,52 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Zapata 1.00×1.00×0.50",
+     "valores": {
+      "Largo": 1.0,
+      "Ancho": 1.0,
+      "Alto": 0.5
+     }
+    },
+    {
+     "nombre": "Zapata 1.20×1.20×0.60",
+     "valores": {
+      "Largo": 1.2,
+      "Ancho": 1.2,
+      "Alto": 0.6
+     }
+    },
+    {
+     "nombre": "Zapata 1.50×1.50×0.60",
+     "valores": {
+      "Largo": 1.5,
+      "Ancho": 1.5,
+      "Alto": 0.6
+     }
+    }
    ]
   },
   {
@@ -3995,6 +5044,52 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Zapata 1.00×1.00×0.50",
+     "valores": {
+      "Largo": 1.0,
+      "Ancho": 1.0,
+      "Alto": 0.5
+     }
+    },
+    {
+     "nombre": "Zapata 1.20×1.20×0.60",
+     "valores": {
+      "Largo": 1.2,
+      "Ancho": 1.2,
+      "Alto": 0.6
+     }
+    },
+    {
+     "nombre": "Zapata 1.50×1.50×0.60",
+     "valores": {
+      "Largo": 1.5,
+      "Ancho": 1.5,
+      "Alto": 0.6
+     }
     }
    ]
   },
@@ -4140,6 +5235,42 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "VC 0.30×0.60",
+     "valores": {
+      "Ancho": 0.3,
+      "Alto": 0.6
+     }
+    },
+    {
+     "nombre": "VC 0.40×0.80",
+     "valores": {
+      "Ancho": 0.4,
+      "Alto": 0.8
+     }
+    }
    ]
   },
   {
@@ -4283,6 +5414,42 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "VC 0.30×0.60",
+     "valores": {
+      "Ancho": 0.3,
+      "Alto": 0.6
+     }
+    },
+    {
+     "nombre": "VC 0.40×0.80",
+     "valores": {
+      "Ancho": 0.4,
+      "Alto": 0.8
+     }
     }
    ]
   },
@@ -4428,6 +5595,46 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "e=0.40",
+     "valores": {
+      "Alto": 0.4
+     }
+    },
+    {
+     "nombre": "e=0.50",
+     "valores": {
+      "Alto": 0.5
+     }
+    },
+    {
+     "nombre": "e=0.60",
+     "valores": {
+      "Alto": 0.6
+     }
+    }
    ]
   },
   {
@@ -4571,6 +5778,46 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "e=0.40",
+     "valores": {
+      "Alto": 0.4
+     }
+    },
+    {
+     "nombre": "e=0.50",
+     "valores": {
+      "Alto": 0.5
+     }
+    },
+    {
+     "nombre": "e=0.60",
+     "valores": {
+      "Alto": 0.6
+     }
     }
    ]
   },
@@ -4716,6 +5963,46 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "e=0.15",
+     "valores": {
+      "Espesor": 0.15
+     }
+    },
+    {
+     "nombre": "e=0.20",
+     "valores": {
+      "Espesor": 0.2
+     }
+    },
+    {
+     "nombre": "e=0.25",
+     "valores": {
+      "Espesor": 0.25
+     }
+    }
    ]
   },
   {
@@ -4859,6 +6146,46 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "e=0.15",
+     "valores": {
+      "Espesor": 0.15
+     }
+    },
+    {
+     "nombre": "e=0.20",
+     "valores": {
+      "Espesor": 0.2
+     }
+    },
+    {
+     "nombre": "e=0.25",
+     "valores": {
+      "Espesor": 0.25
+     }
     }
    ]
   },
@@ -5004,6 +6331,40 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "e=0.10",
+     "valores": {
+      "Espesor": 0.1
+     }
+    },
+    {
+     "nombre": "e=0.15",
+     "valores": {
+      "Espesor": 0.15
+     }
+    }
    ]
   },
   {
@@ -5147,6 +6508,40 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "e=0.10",
+     "valores": {
+      "Espesor": 0.1
+     }
+    },
+    {
+     "nombre": "e=0.15",
+     "valores": {
+      "Espesor": 0.15
+     }
     }
    ]
   },
@@ -5292,6 +6687,49 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Columna 25×25",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.25
+     }
+    },
+    {
+     "nombre": "Columna 25×40",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.4
+     }
+    },
+    {
+     "nombre": "Columna 30×60",
+     "valores": {
+      "Largo": 0.3,
+      "Ancho": 0.6
+     }
+    }
    ]
   },
   {
@@ -5435,6 +6873,49 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Columna 25×25",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.25
+     }
+    },
+    {
+     "nombre": "Columna 25×40",
+     "valores": {
+      "Largo": 0.25,
+      "Ancho": 0.4
+     }
+    },
+    {
+     "nombre": "Columna 30×60",
+     "valores": {
+      "Largo": 0.3,
+      "Ancho": 0.6
+     }
     }
    ]
   },
@@ -5580,6 +7061,49 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Viga 25×40",
+     "valores": {
+      "Ancho": 0.25,
+      "Alto": 0.4
+     }
+    },
+    {
+     "nombre": "Viga 25×50",
+     "valores": {
+      "Ancho": 0.25,
+      "Alto": 0.5
+     }
+    },
+    {
+     "nombre": "Viga 30×60",
+     "valores": {
+      "Ancho": 0.3,
+      "Alto": 0.6
+     }
+    }
    ]
   },
   {
@@ -5723,6 +7247,49 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Viga 25×40",
+     "valores": {
+      "Ancho": 0.25,
+      "Alto": 0.4
+     }
+    },
+    {
+     "nombre": "Viga 25×50",
+     "valores": {
+      "Ancho": 0.25,
+      "Alto": 0.5
+     }
+    },
+    {
+     "nombre": "Viga 30×60",
+     "valores": {
+      "Ancho": 0.3,
+      "Alto": 0.6
+     }
     }
    ]
   },
@@ -5868,6 +7435,46 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Maciza e=0.15",
+     "valores": {
+      "Espesor": 0.15
+     }
+    },
+    {
+     "nombre": "Maciza e=0.17",
+     "valores": {
+      "Espesor": 0.17
+     }
+    },
+    {
+     "nombre": "Maciza e=0.20",
+     "valores": {
+      "Espesor": 0.2
+     }
+    }
    ]
   },
   {
@@ -6011,6 +7618,46 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Maciza e=0.15",
+     "valores": {
+      "Espesor": 0.15
+     }
+    },
+    {
+     "nombre": "Maciza e=0.17",
+     "valores": {
+      "Espesor": 0.17
+     }
+    },
+    {
+     "nombre": "Maciza e=0.20",
+     "valores": {
+      "Espesor": 0.2
+     }
     }
    ]
   },
@@ -6156,6 +7803,46 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Maciza e=0.15",
+     "valores": {
+      "Espesor": 0.15
+     }
+    },
+    {
+     "nombre": "Maciza e=0.17",
+     "valores": {
+      "Espesor": 0.17
+     }
+    },
+    {
+     "nombre": "Maciza e=0.20",
+     "valores": {
+      "Espesor": 0.2
+     }
+    }
    ]
   },
   {
@@ -6299,6 +7986,46 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Aligerado e=0.17",
+     "valores": {
+      "Espesor": 0.17
+     }
+    },
+    {
+     "nombre": "Aligerado e=0.20",
+     "valores": {
+      "Espesor": 0.2
+     }
+    },
+    {
+     "nombre": "Aligerado e=0.25",
+     "valores": {
+      "Espesor": 0.25
+     }
     }
    ]
   },
@@ -6444,6 +8171,46 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Aligerado e=0.17",
+     "valores": {
+      "Espesor": 0.17
+     }
+    },
+    {
+     "nombre": "Aligerado e=0.20",
+     "valores": {
+      "Espesor": 0.2
+     }
+    },
+    {
+     "nombre": "Aligerado e=0.25",
+     "valores": {
+      "Espesor": 0.25
+     }
+    }
    ]
   },
   {
@@ -6587,6 +8354,46 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Aligerado e=0.17",
+     "valores": {
+      "Espesor": 0.17
+     }
+    },
+    {
+     "nombre": "Aligerado e=0.20",
+     "valores": {
+      "Espesor": 0.2
+     }
+    },
+    {
+     "nombre": "Aligerado e=0.25",
+     "valores": {
+      "Espesor": 0.25
+     }
     }
    ]
   },
@@ -6732,6 +8539,26 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -6875,6 +8702,26 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -7020,6 +8867,26 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -7163,6 +9030,26 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -7308,6 +9195,26 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -7439,6 +9346,26 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -7583,6 +9510,26 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -7671,6 +9618,49 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Viga 25×40",
+     "valores": {
+      "Ancho": 0.25,
+      "Alto": 0.4
+     }
+    },
+    {
+     "nombre": "Viga 25×50",
+     "valores": {
+      "Ancho": 0.25,
+      "Alto": 0.5
+     }
+    },
+    {
+     "nombre": "Viga 30×60",
+     "valores": {
+      "Ancho": 0.3,
+      "Alto": 0.6
+     }
     }
    ]
   },
@@ -7761,6 +9751,46 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "e=0.15",
+     "valores": {
+      "Espesor": 0.15
+     }
+    },
+    {
+     "nombre": "e=0.20",
+     "valores": {
+      "Espesor": 0.2
+     }
+    },
+    {
+     "nombre": "e=0.25",
+     "valores": {
+      "Espesor": 0.25
+     }
+    }
    ]
   },
   {
@@ -7838,7 +9868,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "MP0003",
@@ -7915,7 +9947,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "MP0004",
@@ -7992,7 +10026,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "MP0005",
@@ -8102,6 +10138,40 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
     }
    ]
   },
@@ -8214,6 +10284,40 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
+    }
    ]
   },
   {
@@ -8324,6 +10428,40 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
     }
    ]
   },
@@ -8436,6 +10574,40 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
+    }
    ]
   },
   {
@@ -8546,6 +10718,40 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
     }
    ]
   },
@@ -8658,6 +10864,40 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
+    }
    ]
   },
   {
@@ -8768,6 +11008,40 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
     }
    ]
   },
@@ -8880,6 +11154,40 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
+    }
    ]
   },
   {
@@ -8991,6 +11299,40 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
+    }
    ]
   },
   {
@@ -9101,6 +11443,40 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
     }
    ]
   },
@@ -9224,6 +11600,40 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
+    }
    ]
   },
   {
@@ -9346,6 +11756,40 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
+    }
    ]
   },
   {
@@ -9456,6 +11900,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -9568,7 +12026,28 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "formulaResultado": "2*(Largo+Ancho)*Alto"
   },
   {
    "codigo": "AC0008",
@@ -9578,7 +12057,6 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "COLUMN",
    "insumos": [
     {
      "nombre": "Capataz",
@@ -9612,6 +12090,20 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_mo_peon_hh"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -9724,7 +12216,28 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "formulaResultado": "(Ancho+2*Alto)*Largo"
   },
   {
    "codigo": "AC0010",
@@ -9734,7 +12247,6 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "BEAM",
    "insumos": [
     {
      "nombre": "Capataz",
@@ -9768,6 +12280,20 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_mo_peon_hh"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -9880,6 +12406,14 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -9934,6 +12468,14 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -10035,6 +12577,40 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Paño h=2.40",
+     "valores": {
+      "Alto": 2.4
+     }
+    },
+    {
+     "nombre": "Paño h=2.60",
+     "valores": {
+      "Alto": 2.6
+     }
+    },
+    {
+     "nombre": "Paño h=3.00",
+     "valores": {
+      "Alto": 3.0
+     }
+    }
    ]
   },
   {
@@ -10124,6 +12700,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -10212,6 +12802,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -10324,6 +12928,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -10334,7 +12952,6 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "STAIR",
    "insumos": [
     {
      "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -10434,6 +13051,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -10546,6 +13177,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -10646,6 +13291,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -10745,6 +13404,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -10857,6 +13530,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -10934,6 +13621,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -11034,6 +13735,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -11178,6 +13893,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -11334,6 +14063,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -11478,6 +14221,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -11587,6 +14344,14 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -11698,6 +14463,14 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -11785,6 +14558,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -11940,6 +14727,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -12093,6 +14894,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -12292,6 +15107,20 @@
      "baseCalculo": "",
      "idCanonico": "pe_eq_volquete_6_8_m3"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -12490,6 +15319,20 @@
      "baseCalculo": "",
      "idCanonico": "pe_eq_volquete_6_8_m3"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -12579,6 +15422,14 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -12656,6 +15507,14 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -12735,6 +15594,14 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -12813,6 +15680,14 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -12890,6 +15765,14 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -12980,6 +15863,14 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -13068,6 +15959,14 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -13169,6 +16068,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -13269,6 +16182,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -13279,7 +16206,6 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "STAIR",
    "insumos": [
     {
      "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -13358,6 +16284,14 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -13368,7 +16302,6 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "STAIR",
    "insumos": [
     {
      "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -13458,6 +16391,14 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -13468,7 +16409,6 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "STAIR",
    "insumos": [
     {
      "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -13547,6 +16487,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -13557,7 +16511,6 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "STAIR",
    "insumos": [
     {
      "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -13646,6 +16599,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -13746,6 +16713,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -13858,6 +16839,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -13947,6 +16942,20 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -14014,6 +17023,14 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -14058,7 +17075,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "AC0045",
@@ -14102,6 +17121,20 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_mo_operario_hh"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -14147,6 +17180,20 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_mo_operario_hh"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -14204,6 +17251,14 @@
      "baseCalculo": "",
      "idCanonico": "pe_mo_peon_hh"
     }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
    ]
   },
   {
@@ -14259,7 +17314,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "IS0002",
@@ -14325,7 +17382,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "AC0048",
@@ -14402,6 +17461,20 @@
      "tipoCalculo": "PORCENTAJE",
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ]
   },
@@ -14513,7 +17586,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "IS0004",
@@ -14612,7 +17687,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "IS0005",
@@ -14700,7 +17777,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "IE0001",
@@ -14799,7 +17878,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "IE0002",
@@ -14898,7 +17979,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "IE0003",
@@ -15008,7 +18091,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "IE0004",
@@ -15107,7 +18192,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "IE0005",
@@ -15217,7 +18304,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   },
   {
    "codigo": "IE0006",
@@ -15327,7 +18416,9 @@
      "baseCalculo": "MO",
      "idCanonico": "pe_herramientas_manuales_pct"
     }
-   ]
+   ],
+   "parametros": [],
+   "formulaResultado": "1"
   }
  ]
 }
