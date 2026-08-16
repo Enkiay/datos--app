@@ -48,7 +48,8 @@
         "regularizacion arquitectonico",
         "obra nueva"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización arquitectónico remodelación/ampliación hasta 4 plantas",
@@ -63,7 +64,8 @@
         "regularizacion arquitectonico",
         "remodelacion ampliacion"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización arquitectónico mayor a 4 plantas",
@@ -78,7 +80,8 @@
         "regularizacion arquitectonico",
         "obra nueva mayor 4 plantas"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización arquitectónico remodelación/ampliación mayor a 4 plantas",
@@ -93,7 +96,8 @@
         "regularizacion arquitectonico",
         "remodelacion ampliacion mayor 4 plantas"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización Propiedad Horizontal ampliación/remodelación",
@@ -108,7 +112,8 @@
         "regularizacion propiedad horizontal",
         "ampliacion remodelacion"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización Propiedad Horizontal remodelación de unidades privadas",
@@ -123,7 +128,8 @@
         "regularizacion propiedad horizontal",
         "remodelacion unidades privadas"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote con aprobación previa (con croquis)",
@@ -138,7 +144,8 @@
         "regularizacion lote",
         "estandar"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote con aprobación previa (sin croquis)",
@@ -153,7 +160,8 @@
         "regularizacion lote",
         "estandar"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote con aprobación previa, dos rasantes (con croquis)",
@@ -168,7 +176,8 @@
         "regularizacion lote",
         "dos rasantes"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote con aprobación previa, dos rasantes (sin croquis)",
@@ -183,7 +192,8 @@
         "regularizacion lote",
         "dos rasantes"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote sin aprobación previa (sello Secretaría y QR)",
@@ -198,7 +208,8 @@
         "regularizacion lote",
         "sello secretaria qr"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote sin aprobación previa (simple, sin croquis)",
@@ -213,7 +224,8 @@
         "regularizacion lote",
         "estandar"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote sin aprobación previa, esquina (con croquis)",
@@ -228,7 +240,8 @@
         "regularizacion lote",
         "esquina"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote sin aprobación previa, esquina (sin croquis)",
@@ -243,7 +256,8 @@
         "regularizacion lote",
         "esquina"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote sin aprobación previa, sup. librada al servicio público (con croquis)",
@@ -258,7 +272,8 @@
         "regularizacion lote",
         "sup librada"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote sin aprobación previa, sup. librada al servicio público (sin croquis)",
@@ -273,7 +288,8 @@
         "regularizacion lote",
         "sup librada"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote sin aprobación previa, sup. no librada al servicio público (con croquis)",
@@ -288,7 +304,8 @@
         "regularizacion lote",
         "sup no librada"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Regularización de lote sin aprobación previa, sup. no librada al servicio público (sin croquis)",
@@ -303,7 +320,8 @@
         "regularizacion lote",
         "sup no librada"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Anexión de lote (con croquis)",
@@ -317,7 +335,8 @@
         "anexion lote",
         "estandar"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Anexión de lote (sin croquis)",
@@ -331,7 +350,8 @@
         "anexion lote",
         "estandar"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Subdivisión de lote (con croquis)",
@@ -345,7 +365,8 @@
         "subdivision lote",
         "sello colegio arquitectos"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Subdivisión de lote (sin croquis)",
@@ -359,7 +380,8 @@
         "subdivision lote",
         "sello colegio arquitectos"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Lote atípico (con croquis)",
@@ -373,7 +395,8 @@
         "regularizacion lote atipico",
         "estandar"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Lote atípico (sin croquis)",
@@ -387,7 +410,8 @@
         "regularizacion lote atipico",
         "estandar"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Aprobación de vivienda (2014)",
@@ -402,7 +426,8 @@
         "aprobacion vivienda",
         "estandar"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "Plantilla con medidas del carimbo (acotada)",
@@ -417,7 +442,8 @@
         "plantilla medidas",
         "estandar"
       ],
-      "departamento": "Cochabamba"
+      "departamento": "Cochabamba",
+      "pais": "BO"
     },
     {
       "nombre": "ejemplo1",
