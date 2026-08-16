@@ -39,11 +39,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/empresas/v1.0/index.json"
     },
     "catalogo_PE": {
-      "version": "v20260815-semilla-pe",
+      "version": "v20260816-semilla-pe-25c",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_PE.json"
     },
     "precios_PE": {
-      "version": "v20260815-semilla-pe",
+      "version": "v20260816-semilla-pe-25c",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PE.json"
     }
   }

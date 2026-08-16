@@ -1,11 +1,216 @@
 {
-  "version": "v20260815-semilla-pe",
+  "version": "v20260816-semilla-pe-25c",
   "fuente": "Semilla de referencia de mercado peruano — pendiente de aportes locales",
   "pais": "PE",
   "precios": [],
   "ciudades": [
     {
       "nombre": "Lima (LIM)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Callao (CAL)",
       "precios": [
         {
           "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -620,7 +825,4107 @@
       ]
     },
     {
+      "nombre": "Chiclayo (CHI)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Piura (PIU)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
       "nombre": "Cusco (CUS)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Iquitos (IQT)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Huancayo (HYO)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Tacna (TCN)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Pucallpa (PCL)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Cajamarca (CAJ)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Ica (ICA)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Ayacucho (AYA)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Puno (PUN)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Huaraz (HRZ)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Huánuco (HCO)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Tumbes (TUM)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Moquegua (MOQ)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Moyobamba (MOY)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Abancay (ABA)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Chachapoyas (CHA)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Huancavelica (HVA)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Cerro de Pasco (CRP)",
+      "precios": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 26.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 55.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_gruesa_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Arena fina",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 60.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_arena_fina_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 65.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_piedra_chancada_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Hormigón",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 50.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_hormigon_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 8.0,
+          "unidad": "m3",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_agua_m3",
+          "categoria": "Varios"
+        },
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.2,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_acero_corrugado_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.5,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_alambre_negro_16_kg",
+          "categoria": "Fierro"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 4.8,
+          "unidad": "kg",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_clavos_2_kg",
+          "categoria": "Ferretería"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 6.5,
+          "unidad": "p2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_madera_tornillo_p2",
+          "categoria": "Madera"
+        },
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 0.95,
+          "unidad": "und",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ladrillo_kk_18h_und",
+          "categoria": "Mampostería"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 9.5,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_yeso_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 12.0,
+          "unidad": "bls",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_cal_hidratada_bls",
+          "categoria": "Cemento y Cal"
+        },
+        {
+          "nombre": "Pintura látex",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 45.0,
+          "unidad": "gln",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_pintura_latex_gln",
+          "categoria": "Pinturas"
+        },
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "codigo": "",
+          "tipoInsumo": "MATERIAL",
+          "precio": 28.0,
+          "unidad": "m2",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_ceramico_piso_m2",
+          "categoria": "Acabados"
+        },
+        {
+          "nombre": "Capataz",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 27.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_capataz_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Operario",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 23.0,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_operario_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Oficial",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 18.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_oficial_hh",
+          "categoria": "Calificada"
+        },
+        {
+          "nombre": "Peón",
+          "codigo": "",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 16.5,
+          "unidad": "hh",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mo_peon_hh",
+          "categoria": "No calificada"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "codigo": "",
+          "tipoInsumo": "EQUIPO",
+          "precio": 15.0,
+          "unidad": "hm",
+          "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
+          "idCanonico": "pe_mezcladora_9p3_hm",
+          "categoria": "Maquinaria"
+        }
+      ]
+    },
+    {
+      "nombre": "Puerto Maldonado (PEM)",
       "precios": [
         {
           "nombre": "Cemento Portland Tipo I (42.5 kg)",
