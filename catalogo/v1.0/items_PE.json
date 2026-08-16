@@ -1,8 +1,8 @@
 {
- "version": "v20260817-armadura",
+ "version": "v20260817-simple",
  "schemaVersion": 1,
  "pais": "PE",
- "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Parámetros de medición y presets por familia completados (17-ago). Armadura auto por elemento en el concreto armado (17-ago).",
+ "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Medición SIMPLE por dimensiones (sin fórmulas) + presets por familia (17-ago). Armadura auto por elemento en el concreto armado (17-ago).",
  "items": [
   {
    "codigo": "OG0001",
@@ -372,7 +372,6 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "COLUMN",
    "insumos": [
     {
      "nombre": "Madera tornillo para encofrado",
@@ -449,42 +448,12 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
      "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ],
-   "presets": [
-    {
-     "nombre": "Columna 25×25",
-     "valores": {
-      "Largo": 0.25,
-      "Ancho": 0.25
-     }
-    },
-    {
-     "nombre": "Columna 25×40",
-     "valores": {
-      "Largo": 0.25,
-      "Ancho": 0.4
-     }
-    },
-    {
-     "nombre": "Columna 30×60",
-     "valores": {
-      "Largo": 0.3,
-      "Ancho": 0.6
-     }
-    }
-   ],
-   "formulaResultado": "2*(Largo+Ancho)*Alto"
+   ]
   },
   {
    "codigo": "MP0001",
@@ -3189,8 +3158,7 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ],
-   "formulaResultado": "2*Largo*Alto"
+   ]
   },
   {
    "codigo": "OG0025",
@@ -3426,7 +3394,6 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "COLUMN",
    "insumos": [
     {
      "nombre": "Madera tornillo",
@@ -3525,42 +3492,12 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
      "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ],
-   "presets": [
-    {
-     "nombre": "Columna 25×25",
-     "valores": {
-      "Largo": 0.25,
-      "Ancho": 0.25
-     }
-    },
-    {
-     "nombre": "Columna 25×40",
-     "valores": {
-      "Largo": 0.25,
-      "Ancho": 0.4
-     }
-    },
-    {
-     "nombre": "Columna 30×60",
-     "valores": {
-      "Largo": 0.3,
-      "Ancho": 0.6
-     }
-    }
-   ],
-   "formulaResultado": "2*(Largo+Ancho)*Alto"
+   ]
   },
   {
    "codigo": "OG0028",
@@ -3570,7 +3507,6 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "COLUMN",
    "insumos": [
     {
      "nombre": "Madera tornillo",
@@ -3702,42 +3638,12 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
      "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ],
-   "presets": [
-    {
-     "nombre": "Columna 25×25",
-     "valores": {
-      "Largo": 0.25,
-      "Ancho": 0.25
-     }
-    },
-    {
-     "nombre": "Columna 25×40",
-     "valores": {
-      "Largo": 0.25,
-      "Ancho": 0.4
-     }
-    },
-    {
-     "nombre": "Columna 30×60",
-     "valores": {
-      "Largo": 0.3,
-      "Ancho": 0.6
-     }
-    }
-   ],
-   "formulaResultado": "2*(Largo+Ancho)*Alto"
+   ]
   },
   {
    "codigo": "OG0029",
@@ -3747,7 +3653,6 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "BEAM",
    "insumos": [
     {
      "nombre": "Madera tornillo",
@@ -3840,48 +3745,18 @@
    ],
    "parametros": [
     {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
      "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
-    }
-   ],
-   "presets": [
-    {
-     "nombre": "Viga 25×40",
-     "valores": {
-      "Ancho": 0.25,
-      "Alto": 0.4
-     }
     },
     {
-     "nombre": "Viga 25×50",
-     "valores": {
-      "Ancho": 0.25,
-      "Alto": 0.5
-     }
-    },
-    {
-     "nombre": "Viga 30×60",
-     "valores": {
-      "Ancho": 0.3,
-      "Alto": 0.6
-     }
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
-   ],
-   "formulaResultado": "(Ancho+2*Alto)*Largo"
+   ]
   },
   {
    "codigo": "OG0030",
@@ -3891,7 +3766,6 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "COLUMN",
    "insumos": [
     {
      "nombre": "Madera tornillo",
@@ -4023,42 +3897,12 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
      "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ],
-   "presets": [
-    {
-     "nombre": "Columna 25×25",
-     "valores": {
-      "Largo": 0.25,
-      "Ancho": 0.25
-     }
-    },
-    {
-     "nombre": "Columna 25×40",
-     "valores": {
-      "Largo": 0.25,
-      "Ancho": 0.4
-     }
-    },
-    {
-     "nombre": "Columna 30×60",
-     "valores": {
-      "Largo": 0.3,
-      "Ancho": 0.6
-     }
-    }
-   ],
-   "formulaResultado": "2*(Largo+Ancho)*Alto"
+   ]
   },
   {
    "codigo": "OG0031",
@@ -4610,19 +4454,12 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
      "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ],
-   "formulaResultado": "2*(Largo+Ancho)*Alto"
+   ]
   },
   {
    "codigo": "OG0036",
@@ -11951,7 +11788,6 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "COLUMN",
    "insumos": [
     {
      "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -12061,19 +11897,12 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
      "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ],
-   "formulaResultado": "2*(Largo+Ancho)*Alto"
+   ]
   },
   {
    "codigo": "AC0008",
@@ -12141,7 +11970,6 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "BEAM",
    "insumos": [
     {
      "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -12245,25 +12073,18 @@
    ],
    "parametros": [
     {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
      "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
-   ],
-   "formulaResultado": "(Ancho+2*Alto)*Largo"
+   ]
   },
   {
    "codigo": "AC0010",
