@@ -1,0 +1,854 @@
+{
+  "version": "v20260815-semilla-pe",
+  "schemaVersion": 1,
+  "pais": "PE",
+  "nota": "SEMILLA del catálogo peruano (10 ítems, 20 insumos). Rendimientos y precios REFERENCIALES: verificar contra un expediente técnico real antes de usarlos en una licitación.",
+  "items": [
+    {
+      "codigo": "PE-EST-001",
+      "nombre": "Concreto f'c=210 kg/cm2 en zapatas",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": false,
+      "tipoIfc": "FOOTING",
+      "insumos": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "unidad": "bls",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 9.73,
+          "precio": 26.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.52,
+          "precio": 55.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_arena_gruesa_m3"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.53,
+          "precio": 65.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_piedra_chancada_m3"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Varios",
+          "rendimiento": 0.186,
+          "precio": 8.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_agua_m3"
+        },
+        {
+          "nombre": "Capataz",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.53,
+          "precio": 27.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_capataz_hh"
+        },
+        {
+          "nombre": "Operario",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 1.6,
+          "precio": 23.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_operario_hh"
+        },
+        {
+          "nombre": "Peón",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No calificada",
+          "rendimiento": 8.0,
+          "precio": 16.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_peon_hh"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "unidad": "hm",
+          "tipoInsumo": "EQUIPO",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.53,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mezcladora_9p3_hm"
+        }
+      ]
+    },
+    {
+      "codigo": "PE-EST-002",
+      "nombre": "Concreto f'c=210 kg/cm2 en columnas",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": false,
+      "tipoIfc": "COLUMN",
+      "insumos": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "unidad": "bls",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 9.73,
+          "precio": 26.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.52,
+          "precio": 55.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_arena_gruesa_m3"
+        },
+        {
+          "nombre": "Piedra chancada 1/2\"",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.53,
+          "precio": 65.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_piedra_chancada_m3"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Varios",
+          "rendimiento": 0.186,
+          "precio": 8.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_agua_m3"
+        },
+        {
+          "nombre": "Capataz",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.8,
+          "precio": 27.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_capataz_hh"
+        },
+        {
+          "nombre": "Operario",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 3.2,
+          "precio": 23.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_operario_hh"
+        },
+        {
+          "nombre": "Peón",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No calificada",
+          "rendimiento": 9.6,
+          "precio": 16.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_peon_hh"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "unidad": "hm",
+          "tipoInsumo": "EQUIPO",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.8,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mezcladora_9p3_hm"
+        }
+      ]
+    },
+    {
+      "codigo": "PE-EST-003",
+      "nombre": "Acero fy=4200 kg/cm2 en columnas",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "kg",
+      "categoria": "Obra Gruesa",
+      "verificado": false,
+      "tipoIfc": "REINFORCING_BAR",
+      "insumos": [
+        {
+          "nombre": "Acero corrugado fy=4200 kg/cm2",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Fierro",
+          "rendimiento": 1.05,
+          "precio": 4.2,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_acero_corrugado_kg"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Fierro",
+          "rendimiento": 0.06,
+          "precio": 4.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_alambre_negro_16_kg"
+        },
+        {
+          "nombre": "Capataz",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.0032,
+          "precio": 27.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_capataz_hh"
+        },
+        {
+          "nombre": "Operario",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.032,
+          "precio": 23.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_operario_hh"
+        },
+        {
+          "nombre": "Oficial",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.032,
+          "precio": 18.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_oficial_hh"
+        }
+      ]
+    },
+    {
+      "codigo": "PE-EST-004",
+      "nombre": "Encofrado y desencofrado normal en columnas",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Obra Gruesa",
+      "verificado": false,
+      "tipoIfc": "COLUMN",
+      "insumos": [
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 4.87,
+          "precio": 6.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_madera_tornillo_p2"
+        },
+        {
+          "nombre": "Clavos para madera 2\"",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 0.17,
+          "precio": 4.8,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_clavos_2_kg"
+        },
+        {
+          "nombre": "Alambre negro N°16",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Fierro",
+          "rendimiento": 0.2,
+          "precio": 4.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_alambre_negro_16_kg"
+        },
+        {
+          "nombre": "Capataz",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.16,
+          "precio": 27.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_capataz_hh"
+        },
+        {
+          "nombre": "Operario",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 1.6,
+          "precio": 23.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_operario_hh"
+        },
+        {
+          "nombre": "Oficial",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 1.6,
+          "precio": 18.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_oficial_hh"
+        }
+      ]
+    },
+    {
+      "codigo": "PE-ARQ-001",
+      "nombre": "Muro de ladrillo King Kong de soga",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Mampostería",
+      "verificado": false,
+      "tipoIfc": "WALL",
+      "insumos": [
+        {
+          "nombre": "Ladrillo King Kong 18 huecos",
+          "unidad": "und",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Mampostería",
+          "rendimiento": 39.0,
+          "precio": 0.95,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_ladrillo_kk_18h_und"
+        },
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "unidad": "bls",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.22,
+          "precio": 26.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.03,
+          "precio": 55.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_arena_gruesa_m3"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Varios",
+          "rendimiento": 0.011,
+          "precio": 8.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_agua_m3"
+        },
+        {
+          "nombre": "Capataz",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.09,
+          "precio": 27.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_capataz_hh"
+        },
+        {
+          "nombre": "Operario",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.94,
+          "precio": 23.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_operario_hh"
+        },
+        {
+          "nombre": "Peón",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No calificada",
+          "rendimiento": 0.47,
+          "precio": 16.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_peon_hh"
+        }
+      ]
+    },
+    {
+      "codigo": "PE-ARQ-002",
+      "nombre": "Tarrajeo de muros interiores",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": false,
+      "tipoIfc": "WALL",
+      "insumos": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "unidad": "bls",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.117,
+          "precio": 26.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls"
+        },
+        {
+          "nombre": "Arena fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.021,
+          "precio": 60.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_arena_fina_m3"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Varios",
+          "rendimiento": 0.006,
+          "precio": 8.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_agua_m3"
+        },
+        {
+          "nombre": "Madera tornillo para encofrado",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 0.02,
+          "precio": 6.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_madera_tornillo_p2"
+        },
+        {
+          "nombre": "Capataz",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.053,
+          "precio": 27.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_capataz_hh"
+        },
+        {
+          "nombre": "Operario",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.533,
+          "precio": 23.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_operario_hh"
+        },
+        {
+          "nombre": "Peón",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No calificada",
+          "rendimiento": 0.267,
+          "precio": 16.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_peon_hh"
+        }
+      ]
+    },
+    {
+      "codigo": "PE-ARQ-003",
+      "nombre": "Falso piso de concreto e=4\"",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": false,
+      "tipoIfc": "SLAB",
+      "insumos": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "unidad": "bls",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.79,
+          "precio": 26.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls"
+        },
+        {
+          "nombre": "Hormigón",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.13,
+          "precio": 50.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_hormigon_m3"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Varios",
+          "rendimiento": 0.018,
+          "precio": 8.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_agua_m3"
+        },
+        {
+          "nombre": "Capataz",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.032,
+          "precio": 27.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_capataz_hh"
+        },
+        {
+          "nombre": "Operario",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.16,
+          "precio": 23.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_operario_hh"
+        },
+        {
+          "nombre": "Peón",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No calificada",
+          "rendimiento": 0.64,
+          "precio": 16.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_peon_hh"
+        },
+        {
+          "nombre": "Mezcladora de concreto 9 p3",
+          "unidad": "hm",
+          "tipoInsumo": "EQUIPO",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.08,
+          "precio": 15.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mezcladora_9p3_hm"
+        }
+      ]
+    },
+    {
+      "codigo": "PE-ARQ-004",
+      "nombre": "Contrapiso de 48 mm",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": false,
+      "tipoIfc": "SLAB",
+      "insumos": [
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "unidad": "bls",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.4,
+          "precio": 26.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.05,
+          "precio": 55.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_arena_gruesa_m3"
+        },
+        {
+          "nombre": "Agua para la obra",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Varios",
+          "rendimiento": 0.009,
+          "precio": 8.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_agua_m3"
+        },
+        {
+          "nombre": "Capataz",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.027,
+          "precio": 27.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_capataz_hh"
+        },
+        {
+          "nombre": "Operario",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.267,
+          "precio": 23.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_operario_hh"
+        },
+        {
+          "nombre": "Peón",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No calificada",
+          "rendimiento": 0.267,
+          "precio": 16.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_peon_hh"
+        }
+      ]
+    },
+    {
+      "codigo": "PE-ARQ-005",
+      "nombre": "Piso cerámico 45x45",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": false,
+      "tipoIfc": "COVERING",
+      "insumos": [
+        {
+          "nombre": "Cerámico para piso 45x45",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acabados",
+          "rendimiento": 1.05,
+          "precio": 28.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_ceramico_piso_m2"
+        },
+        {
+          "nombre": "Cemento Portland Tipo I (42.5 kg)",
+          "unidad": "bls",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.2,
+          "precio": 26.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_cemento_portland_tipo_i_bls"
+        },
+        {
+          "nombre": "Arena fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.02,
+          "precio": 60.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_arena_fina_m3"
+        },
+        {
+          "nombre": "Capataz",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.04,
+          "precio": 27.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_capataz_hh"
+        },
+        {
+          "nombre": "Operario",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.4,
+          "precio": 23.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_operario_hh"
+        },
+        {
+          "nombre": "Peón",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No calificada",
+          "rendimiento": 0.2,
+          "precio": 16.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_peon_hh"
+        }
+      ]
+    },
+    {
+      "codigo": "PE-ARQ-006",
+      "nombre": "Pintura látex en muros interiores (2 manos)",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": false,
+      "tipoIfc": "WALL",
+      "insumos": [
+        {
+          "nombre": "Pintura látex",
+          "unidad": "gln",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 0.05,
+          "precio": 45.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_pintura_latex_gln"
+        },
+        {
+          "nombre": "Yeso en bolsa (25 kg)",
+          "unidad": "bls",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.06,
+          "precio": 9.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_yeso_bls"
+        },
+        {
+          "nombre": "Cal hidratada",
+          "unidad": "bls",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.02,
+          "precio": 12.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_cal_hidratada_bls"
+        },
+        {
+          "nombre": "Capataz",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.02,
+          "precio": 27.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_capataz_hh"
+        },
+        {
+          "nombre": "Operario",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.2,
+          "precio": 23.0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_operario_hh"
+        },
+        {
+          "nombre": "Peón",
+          "unidad": "hh",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No calificada",
+          "rendimiento": 0.1,
+          "precio": 16.5,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "pe_mo_peon_hh"
+        }
+      ]
+    }
+  ]
+}
