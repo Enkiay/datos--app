@@ -12,13 +12,7 @@
       "descripcion": "Aprende a instalar y configurar el componente de ArqOn BIM para Vectorworks y prepara el programa para trabajar con las herramientas de ArqOn BIM",
       "url": "https://youtu.be/ED123Rzlf7w",
       "duracion": "3",
-      "tema": "Vectorworks",
-      "adjuntos": [
-        {
-          "nombre": "ArqOn_Asignador_Vectorworks.zip",
-          "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn_Asignador_Vectorworks.zip"
-        }
-      ]
+      "tema": "Vectorworks"
     }
   ]
 }
