@@ -2,7 +2,7 @@
   "tutoriales": [
     {
       "titulo": "Como Crear un Item",
-      "descripcion": "los pasos para crear un item",
+      "descripcion": "Aprende cómo crear fácilmente tus propios ítems e insumos en ArqOn, configurar unidades, categorías y precios, agregar materiales, equipos y mano de obra, utilizar los asistentes de hormigón y acero, crear presets de medición y finalmente incorporar el ítem a un proyecto. Un tutorial práctico para comenzar a personalizar tu catálogo y trabajar de forma más eficiente con tus presupuestos de obra.",
       "url": "https://youtu.be/Z6EGJYoKlcM",
       "duracion": "2:21",
       "tema": "Ítems y biblioteca"
