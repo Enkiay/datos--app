@@ -1,11 +1,11 @@
 {
-  "version": "v20260816-semilla-pe-25c",
+  "version": "v20260816-semilla-pe-codigos",
   "schemaVersion": 1,
   "pais": "PE",
   "nota": "SEMILLA del catálogo peruano (10 ítems, 20 insumos). Rendimientos y precios REFERENCIALES: verificar contra un expediente técnico real antes de usarlos en una licitación.",
   "items": [
     {
-      "codigo": "PE-EST-001",
+      "codigo": "OG0001",
       "nombre": "Concreto f'c=210 kg/cm2 en zapatas",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Cantidad",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "codigo": "PE-EST-002",
+      "codigo": "OG0002",
       "nombre": "Concreto f'c=210 kg/cm2 en columnas",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Cantidad",
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "codigo": "PE-EST-003",
+      "codigo": "OG0003",
       "nombre": "Acero fy=4200 kg/cm2 en columnas",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
@@ -272,7 +272,7 @@
       ]
     },
     {
-      "codigo": "PE-EST-004",
+      "codigo": "OG0004",
       "nombre": "Encofrado y desencofrado normal en columnas",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Cantidad",
@@ -350,7 +350,7 @@
       ]
     },
     {
-      "codigo": "PE-ARQ-001",
+      "codigo": "MP0001",
       "nombre": "Muro de ladrillo King Kong de soga",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Cantidad",
@@ -439,7 +439,7 @@
       ]
     },
     {
-      "codigo": "PE-ARQ-002",
+      "codigo": "AC0001",
       "nombre": "Tarrajeo de muros interiores",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Cantidad",
@@ -528,7 +528,7 @@
       ]
     },
     {
-      "codigo": "PE-ARQ-003",
+      "codigo": "AC0002",
       "nombre": "Falso piso de concreto e=4\"",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Cantidad",
@@ -617,7 +617,7 @@
       ]
     },
     {
-      "codigo": "PE-ARQ-004",
+      "codigo": "AC0003",
       "nombre": "Contrapiso de 48 mm",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Cantidad",
@@ -695,7 +695,7 @@
       ]
     },
     {
-      "codigo": "PE-ARQ-005",
+      "codigo": "AC0004",
       "nombre": "Piso cerámico 45x45",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Cantidad",
@@ -773,7 +773,7 @@
       ]
     },
     {
-      "codigo": "PE-ARQ-006",
+      "codigo": "AC0005",
       "nombre": "Pintura látex en muros interiores (2 manos)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Cantidad",
