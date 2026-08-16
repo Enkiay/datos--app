@@ -1,8 +1,8 @@
 {
- "version": "v20260817-parametros-presets",
+ "version": "v20260817-armadura",
  "schemaVersion": 1,
  "pais": "PE",
- "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Parámetros de medición y presets por familia completados (17-ago).",
+ "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Parámetros de medición y presets por familia completados (17-ago). Armadura auto por elemento en el concreto armado (17-ago).",
  "items": [
   {
    "codigo": "OG0001",
@@ -148,7 +148,8 @@
       "Alto": 0.6
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"zapata\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0002",
@@ -291,7 +292,8 @@
       "Ancho": 0.6
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"columna\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0003",
@@ -4912,7 +4914,8 @@
       "Alto": 0.6
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"zapata\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0038",
@@ -5091,7 +5094,8 @@
       "Alto": 0.6
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"zapata\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0039",
@@ -5101,7 +5105,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
+   "tipoIfc": "BEAM",
    "insumos": [
     {
      "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -5271,7 +5275,8 @@
       "Alto": 0.8
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"viga\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0040",
@@ -5281,7 +5286,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
+   "tipoIfc": "BEAM",
    "insumos": [
     {
      "nombre": "Cemento Portland Tipo I (42.5 kg)",
@@ -5451,7 +5456,8 @@
       "Alto": 0.8
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"viga\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0041",
@@ -5635,7 +5641,8 @@
       "Alto": 0.6
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"zapata\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0042",
@@ -5819,7 +5826,8 @@
       "Alto": 0.6
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"zapata\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0043",
@@ -6003,7 +6011,8 @@
       "Espesor": 0.25
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"muro_ha\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0044",
@@ -6187,7 +6196,8 @@
       "Espesor": 0.25
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"muro_ha\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0045",
@@ -6365,7 +6375,8 @@
       "Espesor": 0.15
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"muro_ha\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0046",
@@ -6543,7 +6554,8 @@
       "Espesor": 0.15
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"muro_ha\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0047",
@@ -6730,7 +6742,8 @@
       "Ancho": 0.6
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"columna\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0048",
@@ -6917,7 +6930,8 @@
       "Ancho": 0.6
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"columna\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0049",
@@ -7104,7 +7118,8 @@
       "Alto": 0.6
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"viga\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0050",
@@ -7291,7 +7306,8 @@
       "Alto": 0.6
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"viga\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0051",
@@ -7475,7 +7491,8 @@
       "Espesor": 0.2
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"losa\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0052",
@@ -7659,7 +7676,8 @@
       "Espesor": 0.2
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"losa\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0053",
@@ -7843,7 +7861,8 @@
       "Espesor": 0.2
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"losa\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0054",
@@ -8027,7 +8046,8 @@
       "Espesor": 0.25
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"losa_nervada\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0055",
@@ -8211,7 +8231,8 @@
       "Espesor": 0.25
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"losa_nervada\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0056",
@@ -8395,7 +8416,8 @@
       "Espesor": 0.25
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"losa_nervada\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0057",
@@ -8559,7 +8581,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"escalera\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0058",
@@ -8723,7 +8746,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"escalera\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0059",
@@ -8887,7 +8911,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"escalera\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "OG0060",
@@ -9791,7 +9816,8 @@
       "Espesor": 0.25
      }
     }
-   ]
+   ],
+   "armaduraJson": "{\"v\": \"pc1\", \"elemento\": \"muro_ha\", \"dims\": {}, \"auto\": true}"
   },
   {
    "codigo": "MP0002",
