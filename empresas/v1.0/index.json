@@ -1,5 +1,5 @@
 {
-  "version": "v20260817-121842",
+  "version": "v20260817-124312",
   "empresas": [
     {
       "id": "proyeso-srl-cochabamba",
@@ -25,7 +25,7 @@
       "ofrece": [],
       "destacada": false,
       "destacadaHasta": null,
-      "fichaFondo": "esmeralda"
+      "fichaFondo": "atardecer"
     },
     {
       "id": "todocemento-santa-cruz-de-la-sierra",
