@@ -1,5 +1,5 @@
 {
-  "version": "v20260726-2107-items",
+  "version": "v20260817-0821-items",
   "schemaVersion": 1,
   "items": [
     {
@@ -37650,7 +37650,7 @@
           "codigo": "MQ016"
         },
         {
-          "nombre": "Vibradora de 2 HP",
+          "nombre": "Vibradora",
           "unidad": "Hr",
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
@@ -37658,8 +37658,8 @@
           "precio": 20,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "vibradora_de_2_hp_hr",
-          "codigo": "MQ018"
+          "idCanonico": "eq_vibradora",
+          "codigo": "MQ013"
         }
       ],
       "parametros": [
@@ -37986,7 +37986,7 @@
           "codigo": "NC001"
         },
         {
-          "nombre": "Vibradora de 2 HP",
+          "nombre": "Vibradora",
           "unidad": "Hr",
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
@@ -37994,8 +37994,8 @@
           "precio": 20,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "vibradora_de_2_hp_hr",
-          "codigo": "MQ018"
+          "idCanonico": "eq_vibradora",
+          "codigo": "MQ013"
         },
         {
           "nombre": "Mezcladora de Hormigón 320 Litros",
