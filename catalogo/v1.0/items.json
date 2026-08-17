@@ -1,5 +1,5 @@
 {
-  "version": "v20260817-0858-items",
+  "version": "v20260817-1445-genericos",
   "schemaVersion": 1,
   "items": [
     {
@@ -3201,7 +3201,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -3253,7 +3253,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -3456,7 +3456,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -3504,7 +3504,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -4073,7 +4073,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -4791,7 +4791,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -5143,7 +5143,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -5634,7 +5634,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -10685,7 +10685,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "ROOF",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -10785,7 +10785,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "ROOF",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -11501,7 +11501,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -13179,7 +13179,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -15097,7 +15097,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -15203,7 +15203,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -15311,7 +15311,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -15417,7 +15417,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -15523,7 +15523,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -15629,7 +15629,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -15723,7 +15723,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -15805,7 +15805,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -15899,7 +15899,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -15969,7 +15969,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -16039,7 +16039,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -16151,7 +16151,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "BEAM",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -16259,7 +16259,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -16353,7 +16353,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -16422,7 +16422,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -17047,7 +17047,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "ROOF",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -17239,7 +17239,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "ROOF",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -17712,7 +17712,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -28096,7 +28096,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -30432,7 +30432,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -30526,7 +30526,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -32256,7 +32256,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -32424,7 +32424,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -32580,7 +32580,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -32698,7 +32698,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -32804,7 +32804,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -33695,7 +33695,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -34613,7 +34613,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "SLAB",
+      "tipoIfc": "GENERICO",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
