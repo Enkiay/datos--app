@@ -1,5 +1,5 @@
 {
-  "version": "v20260817-0853-items",
+  "version": "v20260817-0858-items",
   "schemaVersion": 1,
   "items": [
     {
@@ -4974,7 +4974,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Ayudante 2DA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -4982,8 +4982,8 @@
           "precio": 13.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_2da",
-          "codigo": "NC003"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         },
         {
           "nombre": "Volqueta 6 m3",
@@ -22833,7 +22833,7 @@
           "codigo": "OC005"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -22841,8 +22841,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -22911,7 +22911,7 @@
           "codigo": "OC005"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -22919,8 +22919,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -22989,7 +22989,7 @@
           "codigo": "OC005"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -22997,8 +22997,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -23067,7 +23067,7 @@
           "codigo": "OC005"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -23075,8 +23075,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -23145,7 +23145,7 @@
           "codigo": "OC005"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -23153,8 +23153,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -23223,7 +23223,7 @@
           "codigo": "OC005"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -23231,8 +23231,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -23301,7 +23301,7 @@
           "codigo": "OC005"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -23309,8 +23309,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -23379,7 +23379,7 @@
           "codigo": "OC005"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -23387,8 +23387,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -23457,7 +23457,7 @@
           "codigo": "OC005"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -23465,8 +23465,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -23535,7 +23535,7 @@
           "codigo": "CA014"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -23543,8 +23543,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -23613,7 +23613,7 @@
           "codigo": "CA014"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -23621,8 +23621,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -23691,7 +23691,7 @@
           "codigo": "CA014"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -23699,8 +23699,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -23769,7 +23769,7 @@
           "codigo": "CA014"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
@@ -23777,8 +23777,8 @@
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         }
       ],
       "parametros": [
@@ -32889,24 +32889,12 @@
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.65,
+          "rendimiento": 0.93,
           "precio": 15,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "mo_ayudante",
           "codigo": "NC001"
-        },
-        {
-          "nombre": "Ayudante 2DA",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "No Calificada",
-          "rendimiento": 0.28,
-          "precio": 13.5,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "mo_ayudante_2da",
-          "codigo": "NC003"
         },
         {
           "nombre": "Máquina Losetera Tipo Pulpo Manual",
@@ -34206,16 +34194,16 @@
           "codigo": "CA001"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 20,
+          "rendimiento": 32,
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         },
         {
           "nombre": "Operador de Mezcladora",
@@ -34228,18 +34216,6 @@
           "baseCalculo": "",
           "idCanonico": "mo_operador_de_mezcladora",
           "codigo": "EQ004"
-        },
-        {
-          "nombre": "Ayudante 2DA",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "No Calificada",
-          "rendimiento": 12,
-          "precio": 13.5,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "mo_ayudante_2da",
-          "codigo": "NC003"
         },
         {
           "nombre": "Mezcladora (Lejana)",
@@ -34426,28 +34402,16 @@
           "codigo": "CA001"
         },
         {
-          "nombre": "Ayudante 1RA",
+          "nombre": "Ayudante",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 20,
+          "rendimiento": 32,
           "precio": 18.75,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_ayudante_1ra",
-          "codigo": "NC002"
-        },
-        {
-          "nombre": "Ayudante 2DA",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "No Calificada",
-          "rendimiento": 12,
-          "precio": 13.5,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "mo_ayudante_2da",
-          "codigo": "NC003"
+          "idCanonico": "mo_ayudante",
+          "codigo": "NC001"
         },
         {
           "nombre": "Operador de Mezcladora",
