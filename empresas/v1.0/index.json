@@ -1,5 +1,5 @@
 {
-  "version": "v20260815-215049",
+  "version": "v20260817-102046",
   "empresas": [
     {
       "id": "proyeso-srl-cochabamba",
@@ -24,7 +24,8 @@
       ],
       "ofrece": [],
       "destacada": false,
-      "destacadaHasta": null
+      "destacadaHasta": null,
+      "fichaFondo": "granate"
     },
     {
       "id": "todocemento-santa-cruz-de-la-sierra",
@@ -52,7 +53,8 @@
         "ladrillo_3_huecos_pza"
       ],
       "destacada": false,
-      "destacadaHasta": null
+      "destacadaHasta": null,
+      "fichaFondo": null
     }
   ]
 }
