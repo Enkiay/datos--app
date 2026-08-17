@@ -1,5 +1,5 @@
 {
-  "version": "v20260817-0821-items",
+  "version": "v20260817-0853-items",
   "schemaVersion": 1,
   "items": [
     {
@@ -28793,7 +28793,7 @@
           "codigo": "FE034"
         },
         {
-          "nombre": "Carpintero en Aluminio",
+          "nombre": "Carpintero",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
@@ -28801,8 +28801,8 @@
           "precio": 22.5,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "mo_carpintero_en_aluminio",
-          "codigo": "OC002"
+          "idCanonico": "mo_carpintero",
+          "codigo": "CA003"
         },
         {
           "nombre": "Ayudante",
