@@ -39,7 +39,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/empresas/v1.0/index.json"
     },
     "catalogo_PE": {
-      "version": "v20260816-semilla-pe-codigos",
+      "version": "v20260818-iu",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_PE.json"
     },
     "precios_PE": {
