@@ -27,6 +27,13 @@
       "url": "https://www.youtube.com/watch?v=Qor2spXH1BE",
       "duracion": "1:52",
       "tema": "Insumos y precios"
+    },
+    {
+      "titulo": "Mediciones y Computos Metricos",
+      "descripcion": "Descubre cómo ArqOn BIM integra archivos IFC con el módulo de mediciones para revisar cantidades, visualizar el modelo en planta, elevación e isométrico, reutilizar mediciones y trabajar con planos PDF directamente desde el proyecto.\n\nUna forma más rápida y ordenada de revisar, corregir y gestionar las mediciones de tu proyecto BIM.\n",
+      "url": "https://www.youtube.com/watch?v=BB1e38x4y_Y",
+      "duracion": "1:22",
+      "tema": "Mediciones y cómputos"
     }
   ]
 }
