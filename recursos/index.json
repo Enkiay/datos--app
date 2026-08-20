@@ -446,11 +446,16 @@
       "pais": "BO"
     },
     {
-      "nombre": "ejemplo1",
+      "nombre": "Vivienda Unifamiliar De ejemplo",
       "tipo": "ifc",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ejemplo1.ifc",
-      "descripcion": "",
-      "tamano": "2.0 MB"
+      "descripcion": "Se elaboro con VectorWorks exportado en formato .IFC    2x3",
+      "tamano": "2.0 MB",
+      "tags": [
+        "ifc",
+        "archicad",
+        "vectorworks"
+      ]
     }
   ]
 }
