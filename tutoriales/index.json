@@ -34,6 +34,13 @@
       "url": "https://www.youtube.com/watch?v=ddpJhEFVQuo",
       "duracion": "1:22",
       "tema": "Mediciones y cómputos"
+    },
+    {
+      "titulo": "Archicad → ArqOn | Primer método de vinculación BIM",
+      "descripcion": "Aprende a vincular un modelo de Archicad con ArqOn mediante IFC y llevar sus elementos directamente al presupuesto.\n\nEn este método básico aprenderás a:\n• Exportar el modelo de Archicad en formato IFC.\n• Importarlo en ArqOn.\n• Identificar muros, vigas, columnas y losas.\n• Asignar cada elemento a su respectivo ítem del presupuesto.\n• Generar el presupuesto a partir de las cantidades del modelo BIM.\n\nEste es el método más sencillo para comenzar a trabajar con BIM + presupuestos en ArqOn.",
+      "url": "https://www.youtube.com/watch?v=Ln4SbD6bY6I",
+      "duracion": "1:35",
+      "tema": "ArchiCAD"
     }
   ]
 }
