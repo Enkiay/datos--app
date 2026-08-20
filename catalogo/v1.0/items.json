@@ -7210,7 +7210,7 @@
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
-      "formulaResultado": "Ancho * (round(Altura/Contrahuella) * sqrt(Huella^2 + Contrahuella^2) * Espesor + round(Altura/Contrahuella) * Huella * Contrahuella / 2) + Descansos * DescansoLargo * DescansoAncho * Espesor",
+      "formulaResultado": "Ancho * (sqrt((max(round(Altura/Contrahuella) - Descansos - 1, 0) * Huella)^2 + (round(Altura/Contrahuella) * Contrahuella)^2) * Espesor + max(round(Altura/Contrahuella) - Descansos - 1, 0) * Huella * Contrahuella / 2) + Descansos * DescansoLargo * DescansoAncho * Espesor",
       "aliases": [
         "Escalera",
         "Stair",
