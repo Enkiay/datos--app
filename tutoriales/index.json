@@ -41,6 +41,13 @@
       "url": "https://www.youtube.com/watch?v=Ln4SbD6bY6I",
       "duracion": "1:35",
       "tema": "ArchiCAD"
+    },
+    {
+      "titulo": "Archicad → ArqOn | Vinculación automática mediante códigos IFC",
+      "descripcion": "En este tutorial veremos el **segundo método para vincular Archicad con ArqOn**, utilizando códigos de ítems previamente asignados a los elementos del modelo.\n\nAprenderemos a configurar en Archicad los códigos correspondientes a muros, vigas, columnas, losas y otros elementos constructivos. Al exportar el modelo mediante IFC e importarlo en ArqOn, estos códigos permitirán identificar y relacionar los elementos con sus respectivos ítems del presupuesto.\n\nEste método permite **reducir la asignación manual y agilizar el proceso de generación del presupuesto a partir del modelo BIM**.\n\n",
+      "url": "https://www.youtube.com/watch?v=TWYwndtm7tw",
+      "duracion": "1:20",
+      "tema": "ArchiCAD"
     }
   ]
 }
