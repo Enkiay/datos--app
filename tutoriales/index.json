@@ -48,6 +48,19 @@
       "url": "https://www.youtube.com/watch?v=TWYwndtm7tw",
       "duracion": "1:20",
       "tema": "ArchiCAD"
+    },
+    {
+      "titulo": "Método 3 de Archicad a ArqOn BIM",
+      "descripcion": "Aprende a vincular tus elementos de Archicad con ArqOn BIM mediante la clasificación CAD y una plantilla con el traductor de ArqOn. En este método podrás clasificar rápidamente muros y otros elementos para obtener tu presupuesto desde el modelo BIM.",
+      "url": "https://www.youtube.com/watch?v=oPexX1mPLLA",
+      "duracion": "1:58",
+      "tema": "ArchiCAD",
+      "adjuntos": [
+        {
+          "nombre": "ArqOn_ArchiCAD24.pln",
+          "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn_ArchiCAD24.pln"
+        }
+      ]
     }
   ]
 }
