@@ -1033,15 +1033,15 @@
    "tipoIfc": "WALL",
    "insumos": [
     {
-     "nombre": "Pintura látex",
-     "unidad": "gln",
+     "nombre": "Pintura látex interiores",
+     "unidad": "gal",
      "tipoInsumo": "MATERIAL",
      "categoria": "Pinturas",
      "rendimiento": 0.05,
-     "precio": 45.0,
+     "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_pintura_latex_gln",
+     "idCanonico": "pe_pintura_latex_interiores",
      "iuInei": "54"
     },
     {
@@ -2000,7 +2000,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -2168,7 +2168,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -2329,7 +2329,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -2490,7 +2490,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -2635,7 +2635,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -4178,12 +4178,12 @@
      "nombre": "Alambre negro N°16",
      "unidad": "kg",
      "tipoInsumo": "MATERIAL",
-     "categoria": "Ferretería",
+     "categoria": "Fierro",
      "rendimiento": 0.1,
-     "precio": 5.5,
+     "precio": 4.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_alambre_negro_n_16",
+     "idCanonico": "pe_alambre_negro_16_kg",
      "iuInei": "02"
     },
     {
@@ -4300,12 +4300,12 @@
      "nombre": "Alambre negro N°16",
      "unidad": "kg",
      "tipoInsumo": "MATERIAL",
-     "categoria": "Ferretería",
+     "categoria": "Fierro",
      "rendimiento": 0.1,
-     "precio": 5.5,
+     "precio": 4.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_alambre_negro_n_16",
+     "idCanonico": "pe_alambre_negro_16_kg",
      "iuInei": "02"
     },
     {
@@ -4876,7 +4876,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -4888,7 +4888,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -4900,7 +4900,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -5067,7 +5067,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -5079,7 +5079,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -5091,7 +5091,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -5258,7 +5258,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -5270,7 +5270,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -5282,7 +5282,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -5451,7 +5451,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -5463,7 +5463,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -5475,7 +5475,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -5644,7 +5644,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -5656,7 +5656,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -5668,7 +5668,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -5841,7 +5841,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -5853,7 +5853,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -5865,7 +5865,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -6038,7 +6038,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -6050,7 +6050,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -6062,7 +6062,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -6235,7 +6235,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -6247,7 +6247,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -6259,7 +6259,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -6432,7 +6432,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -6444,7 +6444,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -6456,7 +6456,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -6623,7 +6623,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -6635,7 +6635,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -6647,7 +6647,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -6814,7 +6814,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -6826,7 +6826,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -6838,7 +6838,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -7014,7 +7014,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -7026,7 +7026,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -7038,7 +7038,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -7214,7 +7214,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -7226,7 +7226,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -7238,7 +7238,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -7414,7 +7414,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -7426,7 +7426,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -7438,7 +7438,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -7614,7 +7614,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -7626,7 +7626,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -7638,7 +7638,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -7811,7 +7811,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -7823,7 +7823,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -7835,7 +7835,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -8008,7 +8008,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -8020,7 +8020,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -8032,7 +8032,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -8205,7 +8205,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -8217,7 +8217,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -8229,7 +8229,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -8402,7 +8402,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -8414,7 +8414,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -8426,7 +8426,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -8599,7 +8599,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -8611,7 +8611,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -8623,7 +8623,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -8796,7 +8796,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -8808,7 +8808,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -8820,7 +8820,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -8973,7 +8973,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -8985,7 +8985,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -8997,7 +8997,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -9150,7 +9150,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -9162,7 +9162,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -9174,7 +9174,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -9327,7 +9327,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -9339,7 +9339,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -9351,7 +9351,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -9503,7 +9503,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -9515,7 +9515,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -9527,7 +9527,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -9678,7 +9678,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -9690,7 +9690,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -9702,7 +9702,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -9841,7 +9841,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -9853,7 +9853,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -9865,7 +9865,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -10548,7 +10548,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -10560,7 +10560,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -10702,7 +10702,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -10714,7 +10714,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -10856,7 +10856,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -10868,7 +10868,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -11010,7 +11010,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -11022,7 +11022,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -11164,7 +11164,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -11176,7 +11176,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -11318,7 +11318,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -11330,7 +11330,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -11472,7 +11472,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -11484,7 +11484,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -11626,7 +11626,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -11638,7 +11638,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -11780,7 +11780,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -11792,7 +11792,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -11934,7 +11934,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -11946,7 +11946,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -12088,7 +12088,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -12100,7 +12100,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -12253,7 +12253,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -12265,7 +12265,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -12418,7 +12418,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -12430,7 +12430,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -12551,7 +12551,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -12563,7 +12563,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -12745,7 +12745,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -12757,7 +12757,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -12940,7 +12940,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -12952,7 +12952,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -13496,7 +13496,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -13508,7 +13508,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -13629,7 +13629,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -13641,7 +13641,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -13763,7 +13763,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -13775,7 +13775,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -13897,7 +13897,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -13909,7 +13909,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -14019,7 +14019,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -14031,7 +14031,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -14141,7 +14141,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -14153,7 +14153,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -14371,7 +14371,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -14395,7 +14395,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -14492,7 +14492,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -14504,7 +14504,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -14516,7 +14516,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -14528,7 +14528,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -14662,7 +14662,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -14674,7 +14674,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -14686,7 +14686,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -14698,7 +14698,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -14843,7 +14843,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -14855,7 +14855,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -14867,7 +14867,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -14879,7 +14879,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -15012,7 +15012,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -15024,7 +15024,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -15138,7 +15138,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -15150,7 +15150,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -15373,7 +15373,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -15385,7 +15385,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -15397,7 +15397,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -15409,7 +15409,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -15554,7 +15554,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -15566,7 +15566,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -15578,7 +15578,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -15747,7 +15747,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -15759,7 +15759,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -15976,7 +15976,7 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_piedra_chancada_1_2",
+     "idCanonico": "pe_piedra_chancada_m3",
      "iuInei": "05"
     },
     {
@@ -15988,7 +15988,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -16194,7 +16194,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -16206,7 +16206,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -16298,7 +16298,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -16310,7 +16310,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -16390,7 +16390,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -16402,7 +16402,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -16482,7 +16482,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -16494,7 +16494,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -16874,7 +16874,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -16886,7 +16886,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -16995,7 +16995,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -17007,7 +17007,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -17115,7 +17115,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -17127,7 +17127,7 @@
      "precio": 55.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_gruesa",
+     "idCanonico": "pe_arena_gruesa_m3",
      "iuInei": "04"
     },
     {
@@ -17218,7 +17218,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -17230,7 +17230,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -17332,7 +17332,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -17344,7 +17344,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -17441,7 +17441,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -17453,7 +17453,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -17562,7 +17562,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -17574,7 +17574,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -17684,7 +17684,7 @@
      "precio": 26.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
+     "idCanonico": "pe_cemento_portland_tipo_i_bls",
      "iuInei": "21"
     },
     {
@@ -17696,7 +17696,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {
@@ -17828,7 +17828,7 @@
      "precio": 60.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_arena_fina",
+     "idCanonico": "pe_arena_fina_m3",
      "iuInei": "04"
     },
     {

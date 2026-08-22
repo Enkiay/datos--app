@@ -138,16 +138,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -278,16 +268,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -388,36 +368,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -516,16 +466,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -1243,16 +1183,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -1383,16 +1313,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -1493,36 +1413,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -1621,16 +1511,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -2348,16 +2228,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -2488,16 +2358,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -2598,36 +2458,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -2726,16 +2556,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -3453,16 +3273,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -3593,16 +3403,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -3703,36 +3503,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -3831,16 +3601,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -4558,16 +4318,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -4698,16 +4448,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -4808,36 +4548,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -4936,16 +4646,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -5663,16 +5363,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -5803,16 +5493,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -5913,36 +5593,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -6041,16 +5691,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -6768,16 +6408,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -6908,16 +6538,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -7018,36 +6638,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -7146,16 +6736,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -7873,16 +7453,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -8013,16 +7583,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -8123,36 +7683,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -8251,16 +7781,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -8978,16 +8498,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -9118,16 +8628,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -9228,36 +8728,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -9356,16 +8826,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -10083,16 +9543,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -10223,16 +9673,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -10333,36 +9773,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -10461,16 +9871,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -11188,16 +10588,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -11328,16 +10718,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -11438,36 +10818,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -11566,16 +10916,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -12293,16 +11633,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -12433,16 +11763,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -12543,36 +11863,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -12671,16 +11961,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -13398,16 +12678,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -13538,16 +12808,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -13648,36 +12908,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -13776,16 +13006,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -14503,16 +13723,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -14643,16 +13853,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -14753,36 +13953,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -14881,16 +14051,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -15608,16 +14768,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -15748,16 +14898,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -15858,36 +14998,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -15986,16 +15096,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -16713,16 +15813,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -16853,16 +15943,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -16963,36 +16043,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -17091,16 +16141,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -17818,16 +16858,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -17958,16 +16988,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -18068,36 +17088,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -18196,16 +17186,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -18923,16 +17903,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -19063,16 +18033,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -19173,36 +18133,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -19301,16 +18231,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -20028,16 +18948,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -20168,16 +19078,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -20278,36 +19178,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -20406,16 +19276,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -21133,16 +19993,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -21273,16 +20123,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -21383,36 +20223,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -21511,16 +20321,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -22238,16 +21038,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -22378,16 +21168,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -22488,36 +21268,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -22616,16 +21366,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -23343,16 +22083,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -23483,16 +22213,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -23593,36 +22313,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -23721,16 +22411,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -24448,16 +23128,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -24588,16 +23258,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -24698,36 +23358,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -24826,16 +23456,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -25553,16 +24173,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -25693,16 +24303,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -25803,36 +24403,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -25931,16 +24501,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
@@ -26658,16 +25218,6 @@
      "categoria": "Cemento y Cal"
     },
     {
-     "nombre": "Pintura látex",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 45.0,
-     "unidad": "gln",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_pintura_latex_gln",
-     "categoria": "Pinturas"
-    },
-    {
      "nombre": "Cerámico para piso 45x45",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -26798,16 +25348,6 @@
      "categoria": "Ferretería"
     },
     {
-     "nombre": "Cemento Portland Tipo I (42.5 kg)",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 26.5,
-     "unidad": "bls",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_cemento_portland_tipo_i_42_5_kg",
-     "categoria": "Cemento y Cal"
-    },
-    {
      "nombre": "Hormigón (agregado de río)",
      "codigo": "",
      "tipoInsumo": "MATERIAL",
@@ -26908,36 +25448,6 @@
      "categoria": "Eléctricos"
     },
     {
-     "nombre": "Alambre negro N°16",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 5.5,
-     "unidad": "kg",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_alambre_negro_n_16",
-     "categoria": "Ferretería"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 55.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_gruesa",
-     "categoria": "Agregados"
-    },
-    {
-     "nombre": "Piedra chancada 1/2\"",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 65.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_piedra_chancada_1_2",
-     "categoria": "Agregados"
-    },
-    {
      "nombre": "Vibrador de concreto 2\", 4 HP",
      "codigo": "",
      "tipoInsumo": "HERRAMIENTA",
@@ -27036,16 +25546,6 @@
      "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
      "idCanonico": "pe_ladrillo_king_kong_24x12x6",
      "categoria": "Ladrillos"
-    },
-    {
-     "nombre": "Arena fina",
-     "codigo": "",
-     "tipoInsumo": "MATERIAL",
-     "precio": 60.0,
-     "unidad": "m3",
-     "nota": "Semilla: precio referencial de mercado — ajustar con aportes locales",
-     "idCanonico": "pe_arena_fina",
-     "categoria": "Agregados"
     },
     {
      "nombre": "Yeso (28 kg)",
