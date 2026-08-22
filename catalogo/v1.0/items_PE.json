@@ -16990,7 +16990,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Alto",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -17112,7 +17112,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Alto",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
