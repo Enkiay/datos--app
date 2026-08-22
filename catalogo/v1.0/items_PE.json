@@ -59,7 +59,8 @@
      "precio": 8.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_agua_m3"
+     "idCanonico": "pe_agua_m3",
+     "iuInei": "39"
     },
     {
      "nombre": "Capataz",
@@ -213,7 +214,8 @@
      "precio": 8.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_agua_m3"
+     "idCanonico": "pe_agua_m3",
+     "iuInei": "39"
     },
     {
      "nombre": "Capataz",
@@ -396,7 +398,7 @@
      "nombre": "Madera tornillo para encofrado",
      "unidad": "p2",
      "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
+     "categoria": "Maderas",
      "rendimiento": 4.87,
      "precio": 6.5,
      "tipoCalculo": "DIRECTO",
@@ -535,7 +537,8 @@
      "precio": 8.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_agua_m3"
+     "idCanonico": "pe_agua_m3",
+     "iuInei": "39"
     },
     {
      "nombre": "Capataz",
@@ -652,13 +655,14 @@
      "precio": 8.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_agua_m3"
+     "idCanonico": "pe_agua_m3",
+     "iuInei": "39"
     },
     {
      "nombre": "Madera tornillo para encofrado",
      "unidad": "p2",
      "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
+     "categoria": "Maderas",
      "rendimiento": 0.02,
      "precio": 6.5,
      "tipoCalculo": "DIRECTO",
@@ -761,7 +765,8 @@
      "precio": 8.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_agua_m3"
+     "idCanonico": "pe_agua_m3",
+     "iuInei": "39"
     },
     {
      "nombre": "Capataz",
@@ -870,7 +875,8 @@
      "precio": 8.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_agua_m3"
+     "idCanonico": "pe_agua_m3",
+     "iuInei": "39"
     },
     {
      "nombre": "Capataz",
@@ -1053,7 +1059,8 @@
      "precio": 9.5,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_yeso_bls"
+     "idCanonico": "pe_yeso_bls",
+     "iuInei": "39"
     },
     {
      "nombre": "Cal hidratada",
@@ -1064,7 +1071,8 @@
      "precio": 12.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cal_hidratada_bls"
+     "idCanonico": "pe_cal_hidratada_bls",
+     "iuInei": "39"
     },
     {
      "nombre": "Capataz",
@@ -1215,7 +1223,8 @@
      "precio": 14.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cal_hidratada_30_kg"
+     "idCanonico": "pe_cal_hidratada_30_kg",
+     "iuInei": "39"
     },
     {
      "nombre": "Madera tornillo",
@@ -3761,7 +3770,8 @@
      "precio": 45.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_desmoldante_protector_de_encofrado"
+     "idCanonico": "pe_desmoldante_protector_de_encofrado",
+     "iuInei": "39"
     },
     {
      "nombre": "Pernos 1/2\" con tuerca",
@@ -4038,7 +4048,8 @@
      "precio": 45.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_desmoldante_protector_de_encofrado"
+     "idCanonico": "pe_desmoldante_protector_de_encofrado",
+     "iuInei": "39"
     },
     {
      "nombre": "Tubería PVC 3/4\"",
@@ -12124,7 +12135,8 @@
      "precio": 14.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cal_hidratada_30_kg"
+     "idCanonico": "pe_cal_hidratada_30_kg",
+     "iuInei": "39"
     },
     {
      "nombre": "Capataz",
@@ -12289,7 +12301,8 @@
      "precio": 14.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cal_hidratada_30_kg"
+     "idCanonico": "pe_cal_hidratada_30_kg",
+     "iuInei": "39"
     },
     {
      "nombre": "Capataz",
@@ -13135,7 +13148,8 @@
      "precio": 16.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_yeso_28_kg"
+     "idCanonico": "pe_yeso_28_kg",
+     "iuInei": "39"
     },
     {
      "nombre": "Capataz",
@@ -14177,7 +14191,8 @@
      "precio": 5.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_fragua_porcelana"
+     "idCanonico": "pe_fragua_porcelana",
+     "iuInei": "24"
     },
     {
      "nombre": "Capataz",
@@ -14274,7 +14289,8 @@
      "precio": 28.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_pegamento_en_polvo_para_ceramica_25_kg"
+     "idCanonico": "pe_pegamento_en_polvo_para_ceramica_25_kg",
+     "iuInei": "24"
     },
     {
      "nombre": "Loseta vinílica 1,6 mm",
@@ -14407,7 +14423,8 @@
      "precio": 260.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_marmol_travertino"
+     "idCanonico": "pe_marmol_travertino",
+     "iuInei": "64"
     },
     {
      "nombre": "Capataz",
@@ -14710,7 +14727,8 @@
      "precio": 12.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_ocre_colorante"
+     "idCanonico": "pe_ocre_colorante",
+     "iuInei": "54"
     },
     {
      "nombre": "Capataz",
@@ -15036,7 +15054,8 @@
      "precio": 5.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_fragua_porcelana"
+     "idCanonico": "pe_fragua_porcelana",
+     "iuInei": "24"
     },
     {
      "nombre": "Mayólica de primera 15x15",
@@ -15162,7 +15181,8 @@
      "precio": 5.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_fragua_porcelana"
+     "idCanonico": "pe_fragua_porcelana",
+     "iuInei": "24"
     },
     {
      "nombre": "Cerámica de piso 30x30",
@@ -16898,7 +16918,8 @@
      "precio": 5.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_fragua_porcelana"
+     "idCanonico": "pe_fragua_porcelana",
+     "iuInei": "24"
     },
     {
      "nombre": "Mayólica de primera 15x15",
@@ -17019,7 +17040,8 @@
      "precio": 5.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_fragua_porcelana"
+     "idCanonico": "pe_fragua_porcelana",
+     "iuInei": "24"
     },
     {
      "nombre": "Mayólica de primera 15x15",
@@ -17242,7 +17264,8 @@
      "precio": 12.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_ocre_colorante"
+     "idCanonico": "pe_ocre_colorante",
+     "iuInei": "54"
     },
     {
      "nombre": "Capataz",
@@ -17465,7 +17488,8 @@
      "precio": 12.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_ocre_colorante"
+     "idCanonico": "pe_ocre_colorante",
+     "iuInei": "54"
     },
     {
      "nombre": "Capataz",
@@ -17708,7 +17732,8 @@
      "precio": 40.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_tierra_de_chacra"
+     "idCanonico": "pe_tierra_de_chacra",
+     "iuInei": "04"
     },
     {
      "nombre": "Ladrillo pastelero 24x24x3",
@@ -17817,7 +17842,8 @@
      "precio": 40.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_tierra_de_chacra"
+     "idCanonico": "pe_tierra_de_chacra",
+     "iuInei": "04"
     },
     {
      "nombre": "Arena fina",
@@ -17950,7 +17976,8 @@
      "precio": 35.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cola_sintetica"
+     "idCanonico": "pe_cola_sintetica",
+     "iuInei": "39"
     },
     {
      "nombre": "Operario",
@@ -18404,7 +18431,8 @@
      "precio": 35.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_cola_sintetica"
+     "idCanonico": "pe_cola_sintetica",
+     "iuInei": "39"
     },
     {
      "nombre": "Clavos para madera (surtidos)",
@@ -18476,7 +18504,8 @@
      "precio": 65.0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "pe_pegamento_para_pvc"
+     "idCanonico": "pe_pegamento_para_pvc",
+     "iuInei": "39"
     },
     {
      "nombre": "Tubería CSN 6\"",
