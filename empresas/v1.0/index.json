@@ -1,5 +1,5 @@
 {
-  "version": "v20260817-124312",
+  "version": "v20260824-160826",
   "empresas": [
     {
       "id": "proyeso-srl-cochabamba",
@@ -45,16 +45,24 @@
         "cemento",
         "yeso",
         "ladrillo 3 huecos",
+        "accesorios div",
+        "arena común",
+        "grava común",
+        "fierro corrugado",
         "cemento y cal"
       ],
       "ofrece": [
         "cemento_kg",
         "yeso_kg",
-        "ladrillo_3_huecos_pza"
+        "ladrillo_3_huecos_pza",
+        "accesorios_div_glb",
+        "arena_comun_m3",
+        "grava_comun_m3",
+        "fierro_corrugado_kg"
       ],
       "destacada": false,
       "destacadaHasta": null,
-      "fichaFondo": "rgb:33474f-b8860b"
+      "fichaFondo": null
     }
   ]
 }
