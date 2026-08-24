@@ -1,0 +1,7 @@
+{
+ "version": "v20260823-estructura-cl",
+ "schemaVersion": 1,
+ "pais": "CL",
+ "nota": "ESTRUCTURA VACÍA, a propósito (23-ago-2026). El país existe para que la app NO caiga al catálogo de otro: sin este archivo, el manifest resolvía `catalogo` genérico y un usuario chileno bajaba los ítems BOLIVIANOS sin que nada se lo dijera. Un catálogo vacío es honesto; uno de otro país, no. CÓMO SE CARGA: lo propio de Chile no va en la cadena de cálculo (que ya es CD → gastos generales → utilidad → IVA 19%) sino DENTRO de cada APU, como insumos de tipo porcentaje: LEYES SOCIALES y RECARGO DESGASTE HERRAMIENTAS con tipoCalculo=PORCENTAJE y baseCalculo=MO, y PÉRDIDAS con baseCalculo=MAT_MO. Verificado contra un presupuesto chileno real (Presto, «Ejemplo de presupuesto Chile»). Los VALORES los tiene que confirmar un profesional chileno: acá no se inventa ninguno.",
+ "items": []
+}
