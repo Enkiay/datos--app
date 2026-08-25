@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "paises": [
     {
       "codigo": "BO",
@@ -15,6 +15,21 @@
       "porcentajeHerramientasMenoresDefault": 5.0,
       "cadenaCalculo": "SABS",
       "configJson": ""
+    },
+    {
+      "codigo": "PE",
+      "nombre": "Perú (OSCE)",
+      "moneda": "S/.",
+      "locale": "es-PE",
+      "porcentajeUtilidadDefault": 10.0,
+      "porcentajeImprevistosDefault": 0.0,
+      "porcentajeIVADefault": 18.0,
+      "porcentajeGastosGeneralesDefault": 8.0,
+      "porcentajeCargasSocialesDefault": 60.0,
+      "porcentajeImpTransaccionesDefault": 0.0,
+      "porcentajeHerramientasMenoresDefault": 0.0,
+      "cadenaCalculo": "PERU",
+      "configJson": ""
     }
   ],
   "pdfs": [
@@ -29,6 +44,18 @@
       "marginLeft": 71.0,
       "marginRight": 57.0,
       "configJson": "{\"formularios\":[\"B-1\",\"B-2\",\"A-8\"],\"moneda_simbolo\":\"Bs.\",\"decimales_total\":2,\"decimales_apu\":4,\"page_w\":612,\"page_h\":792,\"text_width\":484}"
+    },
+    {
+      "codigo": "OSCE_PE",
+      "nombre": "OSCE — Perú",
+      "paisCodigo": "PE",
+      "tamanoPagina": "CARTA",
+      "orientacion": "PORTRAIT",
+      "marginTop": 57.0,
+      "marginBottom": 57.0,
+      "marginLeft": 71.0,
+      "marginRight": 57.0,
+      "configJson": "{\"moneda_simbolo\": \"S/.\", \"moneda_label_pais\": \"Soles\", \"decimales_total\": 2, \"decimales_apu\": 4}"
     }
   ]
 }
