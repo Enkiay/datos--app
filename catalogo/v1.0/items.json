@@ -1,5 +1,5 @@
 {
-  "version": "v20260817-1445-genericos",
+  "version": "v20260825-1700-instalaciones",
   "schemaVersion": 1,
   "items": [
     {
@@ -16505,7 +16505,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "TERMINAL",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -17135,7 +17135,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -17499,7 +17499,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "TERMINAL",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -17568,7 +17568,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "TERMINAL",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -17819,7 +17819,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "TERMINAL",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -17900,7 +17900,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "TERMINAL",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -17981,7 +17981,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "TERMINAL",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -18062,7 +18062,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "TERMINAL",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -18533,7 +18533,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "TERMINAL",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -18695,7 +18695,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "VALVE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -18766,7 +18766,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "VALVE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -18861,7 +18861,7 @@
       ],
       "parametros": [],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "VALVE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -18951,7 +18951,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -19043,7 +19043,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -19135,7 +19135,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -19227,7 +19227,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -19317,7 +19317,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -19407,7 +19407,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -19499,7 +19499,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -19603,7 +19603,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -22454,7 +22454,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -22534,7 +22534,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -22614,7 +22614,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -22694,7 +22694,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -22774,7 +22774,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -22854,7 +22854,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -22932,7 +22932,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23010,7 +23010,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23088,7 +23088,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23166,7 +23166,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23244,7 +23244,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23322,7 +23322,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23400,7 +23400,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23478,7 +23478,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23556,7 +23556,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23634,7 +23634,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23712,7 +23712,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -23790,7 +23790,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -24570,7 +24570,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -24662,7 +24662,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -24754,7 +24754,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
@@ -24846,7 +24846,7 @@
         }
       ],
       "presets": [],
-      "tipoIfc": "",
+      "tipoIfc": "PIPE",
       "autorNombre": "",
       "autorUid": "",
       "armaduraJson": "",
