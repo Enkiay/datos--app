@@ -1,30 +1,36 @@
 {
-  "actualizado": "2026-08-24",
+  "actualizado": "2026-08-25",
   "planes": {
     "perpetua": {
+      "monto": 2000,
+      "moneda": "Bs",
       "bs": 2000,
       "descuentoPct": 50,
       "hasta": "2026-09-29"
     },
     "anual": {
+      "monto": 400,
+      "moneda": "Bs",
       "bs": 400,
       "descuentoPct": 50,
       "hasta": "2026-09-29"
     },
     "semestral": {
+      "monto": 250,
+      "moneda": "Bs",
       "bs": 250,
       "descuentoPct": 50,
       "hasta": "2026-09-29"
     },
     "trimestral": {
-      "bs": 150,
-      "descuentoPct": 50,
-      "hasta": "2026-09-29"
+      "monto": 150,
+      "moneda": "Bs",
+      "bs": 150
     },
     "educativa": {
-      "bs": 30,
-      "descuentoPct": 50,
-      "hasta": "2026-09-29"
+      "monto": 30,
+      "moneda": "Bs",
+      "bs": 30
     }
   }
 }
