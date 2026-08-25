@@ -2,25 +2,25 @@
   "actualizado": "2026-08-25",
   "planes": {
     "perpetua": {
-      "monto": 1000,
+      "monto": 1500,
       "moneda": "S/",
       "descuentoPct": 50,
       "hasta": "2026-09-29"
     },
     "anual": {
-      "monto": 500,
+      "monto": 800,
       "moneda": "S/",
       "descuentoPct": 50,
       "hasta": "2026-09-29"
     },
     "semestral": {
-      "monto": 300,
+      "monto": 500,
       "moneda": "S/",
       "descuentoPct": 50,
       "hasta": "2026-09-29"
     },
     "trimestral": {
-      "monto": 200,
+      "monto": 400,
       "moneda": "S/",
       "descuentoPct": 50,
       "hasta": "2026-09-29"
