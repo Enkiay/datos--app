@@ -61,6 +61,13 @@
           "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ArqOn_ArchiCAD24.pln"
         }
       ]
+    },
+    {
+      "titulo": "Metodo 4 de Archicad a ArqOn BIM ",
+      "descripcion": "En este tutorial te mostramos el método 4 para llevar muros, losas y otros elementos compuestos directamente al presupuesto mediante IFC.\n\nAprende a asignar tus ítems a los materiales de ArchiCAD y luego importarlos en ArqOn para generar tu presupuesto de obra de forma mucho más rápida.",
+      "url": "https://www.youtube.com/watch?v=lphiIkYKvt4",
+      "duracion": "1:56",
+      "tema": "ArchiCAD"
     }
   ]
 }
