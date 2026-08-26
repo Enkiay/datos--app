@@ -3,11 +3,11 @@
   "minAppVersion": "1.0.0",
   "resources": {
     "catalogo": {
-      "version": "v20260825-1700-instalaciones",
+      "version": "v20260825-2130-precio-unico",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items.json"
     },
     "catalogo_BO": {
-      "version": "v20260825-1700-instalaciones",
+      "version": "v20260825-2130-precio-unico",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items.json"
     },
     "precios": {
@@ -39,7 +39,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/empresas/v1.0/index.json"
     },
     "catalogo_PE": {
-      "version": "v20260818-iu",
+      "version": "v20260825-2130-precio-unico",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_PE.json"
     },
     "precios_PE": {
