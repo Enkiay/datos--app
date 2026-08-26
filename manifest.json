@@ -53,6 +53,14 @@
     "precios_CL": {
       "version": "v20260823-estructura-cl",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_CL.json"
+    },
+    "catalogo_ES": {
+      "version": "v20260826-semilla-es",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_ES.json"
+    },
+    "precios_ES": {
+      "version": "v20260826-semilla-es",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_ES.json"
     }
   }
 }

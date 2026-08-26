@@ -1,0 +1,704 @@
+{
+ "version": "v20260826-semilla-es",
+ "pais": "ES",
+ "fuente": "Semilla de referencia (mercado español) — pendiente de una base BC3/FIEBDC-3 oficial",
+ "nota": "SIN FUENTE OFICIAL todavía: precios referenciales iguales en todas las ciudades, para que el país tenga dónde ubicarse. Se afinan por ciudad con aportes o importando FIEBDC-3.",
+ "ciudades": [
+  {
+   "nombre": "España",
+   "sigla": "ESP",
+   "precios": [
+    {
+     "idCanonico": "es_retro_neum_h",
+     "nombre": "Retroexcavadora sobre neumáticos 70 kW",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 46.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 18.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_limpieza_m3",
+     "nombre": "Hormigón de limpieza HL-150/B/20",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 66.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 21.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_ha25_m3",
+     "nombre": "Hormigón HA-25/B/20/IIa",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 78.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_acero_b500s_kg",
+     "nombre": "Acero corrugado B500S",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 1.05,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_vibrador_h",
+     "nombre": "Vibrador de hormigón de aguja",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 3.1,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_ladrillo_perforado_u",
+     "nombre": "Ladrillo cerámico perforado 24x11,5x7",
+     "categoria": "Cerámicos",
+     "unidad": "u",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.16,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mortero_cem_m5_m3",
+     "nombre": "Mortero de cemento M-5",
+     "categoria": "Morteros",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 95.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_baldosa_gres_m2",
+     "nombre": "Baldosa de gres esmaltado 30x30 cm",
+     "categoria": "Solados",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 9.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_cemento_cem_ii_kg",
+     "nombre": "Cemento CEM II/B-L 32,5 N",
+     "categoria": "Conglomerantes",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.13,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    }
+   ]
+  },
+  {
+   "nombre": "Madrid",
+   "sigla": "MAD",
+   "precios": [
+    {
+     "idCanonico": "es_retro_neum_h",
+     "nombre": "Retroexcavadora sobre neumáticos 70 kW",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 46.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 18.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_limpieza_m3",
+     "nombre": "Hormigón de limpieza HL-150/B/20",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 66.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 21.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_ha25_m3",
+     "nombre": "Hormigón HA-25/B/20/IIa",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 78.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_acero_b500s_kg",
+     "nombre": "Acero corrugado B500S",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 1.05,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_vibrador_h",
+     "nombre": "Vibrador de hormigón de aguja",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 3.1,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_ladrillo_perforado_u",
+     "nombre": "Ladrillo cerámico perforado 24x11,5x7",
+     "categoria": "Cerámicos",
+     "unidad": "u",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.16,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mortero_cem_m5_m3",
+     "nombre": "Mortero de cemento M-5",
+     "categoria": "Morteros",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 95.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_baldosa_gres_m2",
+     "nombre": "Baldosa de gres esmaltado 30x30 cm",
+     "categoria": "Solados",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 9.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_cemento_cem_ii_kg",
+     "nombre": "Cemento CEM II/B-L 32,5 N",
+     "categoria": "Conglomerantes",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.13,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    }
+   ]
+  },
+  {
+   "nombre": "Barcelona",
+   "sigla": "BCN",
+   "precios": [
+    {
+     "idCanonico": "es_retro_neum_h",
+     "nombre": "Retroexcavadora sobre neumáticos 70 kW",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 46.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 18.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_limpieza_m3",
+     "nombre": "Hormigón de limpieza HL-150/B/20",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 66.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 21.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_ha25_m3",
+     "nombre": "Hormigón HA-25/B/20/IIa",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 78.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_acero_b500s_kg",
+     "nombre": "Acero corrugado B500S",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 1.05,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_vibrador_h",
+     "nombre": "Vibrador de hormigón de aguja",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 3.1,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_ladrillo_perforado_u",
+     "nombre": "Ladrillo cerámico perforado 24x11,5x7",
+     "categoria": "Cerámicos",
+     "unidad": "u",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.16,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mortero_cem_m5_m3",
+     "nombre": "Mortero de cemento M-5",
+     "categoria": "Morteros",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 95.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_baldosa_gres_m2",
+     "nombre": "Baldosa de gres esmaltado 30x30 cm",
+     "categoria": "Solados",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 9.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_cemento_cem_ii_kg",
+     "nombre": "Cemento CEM II/B-L 32,5 N",
+     "categoria": "Conglomerantes",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.13,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    }
+   ]
+  },
+  {
+   "nombre": "Valencia",
+   "sigla": "VLC",
+   "precios": [
+    {
+     "idCanonico": "es_retro_neum_h",
+     "nombre": "Retroexcavadora sobre neumáticos 70 kW",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 46.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 18.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_limpieza_m3",
+     "nombre": "Hormigón de limpieza HL-150/B/20",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 66.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 21.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_ha25_m3",
+     "nombre": "Hormigón HA-25/B/20/IIa",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 78.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_acero_b500s_kg",
+     "nombre": "Acero corrugado B500S",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 1.05,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_vibrador_h",
+     "nombre": "Vibrador de hormigón de aguja",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 3.1,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_ladrillo_perforado_u",
+     "nombre": "Ladrillo cerámico perforado 24x11,5x7",
+     "categoria": "Cerámicos",
+     "unidad": "u",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.16,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mortero_cem_m5_m3",
+     "nombre": "Mortero de cemento M-5",
+     "categoria": "Morteros",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 95.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_baldosa_gres_m2",
+     "nombre": "Baldosa de gres esmaltado 30x30 cm",
+     "categoria": "Solados",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 9.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_cemento_cem_ii_kg",
+     "nombre": "Cemento CEM II/B-L 32,5 N",
+     "categoria": "Conglomerantes",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.13,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    }
+   ]
+  },
+  {
+   "nombre": "Sevilla",
+   "sigla": "SEV",
+   "precios": [
+    {
+     "idCanonico": "es_retro_neum_h",
+     "nombre": "Retroexcavadora sobre neumáticos 70 kW",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 46.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 18.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_limpieza_m3",
+     "nombre": "Hormigón de limpieza HL-150/B/20",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 66.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 21.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_ha25_m3",
+     "nombre": "Hormigón HA-25/B/20/IIa",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 78.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_acero_b500s_kg",
+     "nombre": "Acero corrugado B500S",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 1.05,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_vibrador_h",
+     "nombre": "Vibrador de hormigón de aguja",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 3.1,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_ladrillo_perforado_u",
+     "nombre": "Ladrillo cerámico perforado 24x11,5x7",
+     "categoria": "Cerámicos",
+     "unidad": "u",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.16,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mortero_cem_m5_m3",
+     "nombre": "Mortero de cemento M-5",
+     "categoria": "Morteros",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 95.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_baldosa_gres_m2",
+     "nombre": "Baldosa de gres esmaltado 30x30 cm",
+     "categoria": "Solados",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 9.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_cemento_cem_ii_kg",
+     "nombre": "Cemento CEM II/B-L 32,5 N",
+     "categoria": "Conglomerantes",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.13,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    }
+   ]
+  },
+  {
+   "nombre": "Bilbao",
+   "sigla": "BIO",
+   "precios": [
+    {
+     "idCanonico": "es_retro_neum_h",
+     "nombre": "Retroexcavadora sobre neumáticos 70 kW",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 46.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 18.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_limpieza_m3",
+     "nombre": "Hormigón de limpieza HL-150/B/20",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 66.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "",
+     "precio": 21.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_hormigon_ha25_m3",
+     "nombre": "Hormigón HA-25/B/20/IIa",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 78.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_acero_b500s_kg",
+     "nombre": "Acero corrugado B500S",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 1.05,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_vibrador_h",
+     "nombre": "Vibrador de hormigón de aguja",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "",
+     "precio": 3.1,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_ladrillo_perforado_u",
+     "nombre": "Ladrillo cerámico perforado 24x11,5x7",
+     "categoria": "Cerámicos",
+     "unidad": "u",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.16,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_mortero_cem_m5_m3",
+     "nombre": "Mortero de cemento M-5",
+     "categoria": "Morteros",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 95.0,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_baldosa_gres_m2",
+     "nombre": "Baldosa de gres esmaltado 30x30 cm",
+     "categoria": "Solados",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 9.5,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    },
+    {
+     "idCanonico": "es_cemento_cem_ii_kg",
+     "nombre": "Cemento CEM II/B-L 32,5 N",
+     "categoria": "Conglomerantes",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "",
+     "precio": 0.13,
+     "nota": "Referencia nacional de mercado español — no es un precio local de esta ciudad; ajustar con aportes o con una base BC3 real."
+    }
+   ]
+  }
+ ]
+}

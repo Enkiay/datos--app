@@ -1,0 +1,512 @@
+{
+ "version": "v20260826-semilla-es",
+ "schemaVersion": 1,
+ "pais": "ES",
+ "nota": "SEMILLA MÍNIMA de España (26-ago-2026): 7 partidas de referencia para que el país arranque con contenido, no un catálogo vacío. Los precios son referenciales de mercado español, NO de una fuente oficial — ajustar con aportes locales o importando una base BC3/FIEBDC-3 real. La cadena aplicable es BC3 (PEM → GG% → BI% → PEC → IVA 21%).",
+ "items": [
+  {
+   "codigo": "E01",
+   "nombre": "Excavación en zanjas en terreno flojo",
+   "categoria": "Movimiento de tierras",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Zanja 0,60×1,00",
+     "valores": {
+      "Largo": 1.0,
+      "Ancho": 0.6,
+      "Alto": 1.0
+     }
+    }
+   ],
+   "insumos": [
+    {
+     "idCanonico": "es_retro_neum_h",
+     "nombre": "Retroexcavadora sobre neumáticos 70 kW",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.12,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "baseCalculo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "E02",
+   "nombre": "Hormigón de limpieza HL-150 en fondo de zapatas",
+   "categoria": "Cimentaciones",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": "FOOTING",
+   "verificado": false,
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Solera 10 cm",
+     "valores": {
+      "Largo": 1.0,
+      "Ancho": 1.0,
+      "Alto": 0.1
+     }
+    }
+   ],
+   "insumos": [
+    {
+     "idCanonico": "es_hormigon_limpieza_m3",
+     "nombre": "Hormigón de limpieza HL-150/B/20",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "baseCalculo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "E03",
+   "nombre": "Hormigón armado HA-25 en zapatas",
+   "categoria": "Cimentaciones",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": "FOOTING",
+   "verificado": false,
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "Zapata 1,00×1,00×0,50",
+     "valores": {
+      "Largo": 1.0,
+      "Ancho": 1.0,
+      "Alto": 0.5
+     }
+    },
+    {
+     "nombre": "Zapata 1,20×1,20×0,60",
+     "valores": {
+      "Largo": 1.2,
+      "Ancho": 1.2,
+      "Alto": 0.6
+     }
+    }
+   ],
+   "insumos": [
+    {
+     "idCanonico": "es_hormigon_ha25_m3",
+     "nombre": "Hormigón HA-25/B/20/IIa",
+     "categoria": "Hormigones",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_acero_b500s_kg",
+     "nombre": "Acero corrugado B500S",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 45.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.9,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.9,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_vibrador_h",
+     "nombre": "Vibrador de hormigón de aguja",
+     "categoria": "Maquinaria",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.4,
+     "precio": 0,
+     "baseCalculo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "E04",
+   "nombre": "Acero corrugado B500S en armaduras",
+   "categoria": "Cimentaciones",
+   "tipoCalculo": "CANTIDAD",
+   "unidadResultado": "kg",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": "REINFORCING_BAR",
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "es_acero_b500s_kg",
+     "nombre": "Acero corrugado B500S",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.012,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.012,
+     "precio": 0,
+     "baseCalculo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "E05",
+   "nombre": "Fábrica de ladrillo perforado de 1/2 pie",
+   "categoria": "Albañilería",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "es_ladrillo_perforado_u",
+     "nombre": "Ladrillo cerámico perforado 24x11,5x7",
+     "categoria": "Cerámicos",
+     "unidad": "u",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 48.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mortero_cem_m5_m3",
+     "nombre": "Mortero de cemento M-5",
+     "categoria": "Morteros",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.03,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.4,
+     "precio": 0,
+     "baseCalculo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "E06",
+   "nombre": "Enfoscado de mortero de cemento en paramentos",
+   "categoria": "Revestimientos",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "es_mortero_cem_m5_m3",
+     "nombre": "Mortero de cemento M-5",
+     "categoria": "Morteros",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.015,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.3,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "baseCalculo": ""
+    }
+   ]
+  },
+  {
+   "codigo": "E07",
+   "nombre": "Solado de baldosa de gres 30×30 cm",
+   "categoria": "Revestimientos",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "unidad": "m",
+     "valorDefault": 1,
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "es_baldosa_gres_m2",
+     "nombre": "Baldosa de gres esmaltado 30x30 cm",
+     "categoria": "Solados",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mortero_cem_m5_m3",
+     "nombre": "Mortero de cemento M-5",
+     "categoria": "Morteros",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.03,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_cemento_cem_ii_kg",
+     "nombre": "Cemento CEM II/B-L 32,5 N",
+     "categoria": "Conglomerantes",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_oficial_1_h",
+     "nombre": "Oficial 1ª construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.45,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "es_mo_peon_ord_h",
+     "nombre": "Peón ordinario construcción",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.22,
+     "precio": 0,
+     "baseCalculo": ""
+    }
+   ]
+  }
+ ]
+}
