@@ -1,5 +1,5 @@
 {
-  "version": "v20260817-0902-precios",
+  "version": "v20260825-201940",
   "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -30,7 +30,7 @@
           "nombre": "Accesorios Galvanizado Ø 1″",
           "codigo": "FE003",
           "tipoInsumo": "MATERIAL",
-          "precio": 20,
+          "precio": 12,
           "unidad": "Pza",
           "nota": "Actualizado por aportes (1)",
           "idCanonico": "accesorios_galvanizado_1_pza",
@@ -440,9 +440,9 @@
           "nombre": "Arena Fina",
           "codigo": "AG004",
           "tipoInsumo": "MATERIAL",
-          "precio": 220,
+          "precio": 120,
           "unidad": "m3",
-          "nota": "Precio actualizado por relevamiento comercial 30-jul-2026",
+          "nota": "Actualizado por aportes (1)",
           "idCanonico": "arena_fina_m3",
           "categoria": "Agregados"
         },
@@ -1070,7 +1070,7 @@
           "nombre": "Cemento",
           "codigo": "CM013",
           "tipoInsumo": "MATERIAL",
-          "precio": 1,
+          "precio": 1.3,
           "unidad": "Kg",
           "nota": "Actualizado por aportes (1)",
           "idCanonico": "cemento_kg",
