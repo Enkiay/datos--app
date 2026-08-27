@@ -1,8 +1,8 @@
 {
- "version": "v20260825-2130-precio-unico",
+ "version": "v20260826-iu-dic2025",
  "schemaVersion": 1,
  "pais": "PE",
- "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Medición SIMPLE por dimensiones (sin fórmulas) + presets por familia (17-ago). Armadura auto por elemento en el concreto armado (17-ago).",
+ "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Medición SIMPLE por dimensiones (sin fórmulas) + presets por familia (17-ago). Armadura auto por elemento en el concreto armado (17-ago). · IU en base INEI dic-2025 (26-ago-2026): el unico codigo de la base vieja, el 64 (TERRAZO, Marmol travertino), migro al 40 (Loseta y terrazo); el resto de los indices declarados ya existia en la base nueva.",
  "items": [
   {
    "codigo": "OG0001",
@@ -14424,7 +14424,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_marmol_travertino",
-     "iuInei": "64"
+     "iuInei": "40"
     },
     {
      "nombre": "Capataz",
