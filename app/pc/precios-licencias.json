@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-25",
+  "actualizado": "2026-08-28",
   "planes": {
     "perpetua": {
       "monto": 2000,
@@ -16,9 +16,9 @@
       "hasta": "2026-09-29"
     },
     "semestral": {
-      "monto": 300,
+      "monto": 400,
       "moneda": "Bs",
-      "bs": 300,
+      "bs": 400,
       "descuentoPct": 50,
       "hasta": "2026-09-29"
     },
