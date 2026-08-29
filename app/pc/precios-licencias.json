@@ -23,9 +23,9 @@
       "hasta": "2026-09-29"
     },
     "trimestral": {
-      "monto": 150,
+      "monto": 250,
       "moneda": "Bs",
-      "bs": 150
+      "bs": 250
     },
     "educativa": {
       "monto": 30,
