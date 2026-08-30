@@ -1,5 +1,5 @@
 {
-  "version": "v20260825-201940",
+  "version": "v20260829-211226",
   "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -30,9 +30,9 @@
           "nombre": "Accesorios Galvanizado Ø 1″",
           "codigo": "FE003",
           "tipoInsumo": "MATERIAL",
-          "precio": 12,
+          "precio": 20,
           "unidad": "Pza",
-          "nota": "Actualizado por aportes (1)",
+          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "accesorios_galvanizado_1_pza",
           "categoria": "Ferretería"
         },
@@ -440,9 +440,9 @@
           "nombre": "Arena Fina",
           "codigo": "AG004",
           "tipoInsumo": "MATERIAL",
-          "precio": 120,
+          "precio": 220,
           "unidad": "m3",
-          "nota": "Actualizado por aportes (1)",
+          "nota": "Precio actualizado por relevamiento comercial 30-jul-2026",
           "idCanonico": "arena_fina_m3",
           "categoria": "Agregados"
         },
@@ -1070,9 +1070,9 @@
           "nombre": "Cemento",
           "codigo": "CM013",
           "tipoInsumo": "MATERIAL",
-          "precio": 1.3,
+          "precio": 1,
           "unidad": "Kg",
-          "nota": "Actualizado por aportes (1)",
+          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
           "idCanonico": "cemento_kg",
           "categoria": "Cemento y Cal"
         },
