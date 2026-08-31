@@ -1,0 +1,10 @@
+{
+  "_nota": "Canal de redes y promos (PC + APK). Editar desde Admin Recursos ▸ Redes. Esquema: web, playStore, promoCelular{titulo,subtitulo}, promoPc{titulo,subtitulo}, redes[{id,cuenta,url}] con id ∈ facebook|instagram|tiktok|youtube|gmail|whatsapp|whatsapp-grupo. Una url vacía APAGA esa red; un campo ausente deja el respaldo del código. Estreno 30-ago-2026 con los mismos valores que mostraban las apps.",
+  "web": "https://www.arqonbim.com",
+  "playStore": "https://play.google.com/store/apps/details?id=com.arqon.app",
+  "redes": [
+    { "id": "tiktok", "cuenta": "@arqonbim", "url": "https://www.tiktok.com/@arqonbim" },
+    { "id": "whatsapp", "cuenta": "+591 6034 8854", "url": "https://wa.me/59160348854" },
+    { "id": "whatsapp-grupo", "cuenta": "Grupo abierto", "url": "https://chat.whatsapp.com/C65lfZqSLVtLTTMIs7Sgwt" }
+  ]
+}
