@@ -1,8 +1,8 @@
 {
-  "version": "1.13.2",
-  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v1.13.2/ArqOn.Desktop_1.13.2_x64-setup.exe",
-  "notas": "## ArqOn PC 1.13.2\n\n### El precio que entra al presupuesto es el de TU BD de insumos\n- Al insertar una partida —desde el IFC, el paramétrico, la biblioteca de ítems o el selector— cada insumo nuevo del proyecto toma **el precio de tu BD de insumos para la ciudad activa** (el oficial, salvo que lo hayas editado). Antes el proyecto copiaba la foto guardada en la biblioteca de ítems o en el catálogo descargado, y por eso el mismo IFC podía dar un precio en el PC y otro en la APK (Arena Fina 120 vs 220). Ahora es la misma regla en los dos.\n- **Catálogo del proyecto → «Precios de mi BD»**: repricia con tu BD los insumos de un proyecto ya armado, con vista previa antes → después. Un `.arqon` sigue siendo autocontenido: no se reprecia solo al abrirlo.\n\n### Viene de la 1.13.1\n- Reimportar la BD oficial y «Resetear la biblioteca» pasan al precio oficial de hoy los insumos que no cambiaste a mano y refrescan siempre la referencia oficial.\n- Importar IFC: el bruto NETO del CAD ya no descuenta además los vanos.\n\n---\n\nInstalador firmado. La actualización desde la 1.13.x se ofrece sola dentro del programa.",
+  "version": "1.13.3",
+  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v1.13.3/ArqOn.Desktop_1.13.3_x64-setup.exe",
+  "notas": "## ArqOn PC 1.13.3\n\n### España, al detalle\n- **Árbol del presupuesto**: orden fiel del archivo, colores por capítulo, recuadro de mediciones al desplegar la partida, análisis de precios en la columna derecha y el pie con la cadena completa (PEM → GG → BI → PEC → IVA → Base de licitación).\n- **Botón «Solo ver»**: modo de solo visualización para revisar con fluidez, sin botones de edición.\n- **Importa el .cbp de CONSTRUBIT directo** (sin tener el programa instalado), además del .bc3 de siempre.\n- **Exporta .bc3 normativo**: Presto, CYPE, Arquímedes y CONSTRUBIT lo abren al céntimo (porcentajes según FIEBDC-3/2024, mediciones y ~K completos, códigos y unidades conservados).\n- Los textos del .bc3 llegan a la especificación técnica; parámetros de cálculo, insumos y costes indirectos a mano en el árbol.\n\n### General\n- Correcciones de estabilidad y paridad con la app Android.",
   "publicado": "2026-08-30",
-  "sha256": "3be57497ea450cd32fcaf46e78007f3f37bb5e471dc0befe72a009473742fa6b",
-  "firma": "zjihLu48UFk6ty5iTz0824RrcgIu6WPrjgaI5FxZ9etdfCqhHxnMqBv39BxBPyQYEV683blZJc6bTgs/aoUXBA=="
+  "sha256": "9e543ebebf20f9eb8c7f2920f5843e89d74cdd4c7969886aee79f4cc62859f03",
+  "firma": "VKIHwoTy8H/d+g7WyA8waa82OuY10PnHzk81UN/axOxEUA3LxJyV15vemFUGJw0m+o28gucFZd/XHRB9vlGXCA=="
 }
