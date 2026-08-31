@@ -1,0 +1,3602 @@
+{
+ "version": "v20260830-base-43",
+ "schemaVersion": 1,
+ "pais": "EC",
+ "nota": "BASE DE ARRANQUE de Ecuador (30-ago-2026): 43 rubros esenciales de edificación con su APU según el formulario 1.6 de SERCOP (equipos, mano de obra, materiales, transporte; el precio del rubro NO incluye IVA — lo aplica la cadena ECU como cierre informativo). Rendimientos REFERENCIALES de práctica común, editables por proyecto. Mano de obra por salario real horario de la tabla 2026 de la Contraloría (incluye cargas sociales). Herramienta menor = 5% de la M.O. La base se completa con aportes.",
+ "items": [
+  {
+   "codigo": "OP001",
+   "nombre": "Limpieza y desbroce del terreno",
+   "categoria": "OBRAS PRELIMINARES",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.005,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "OP002",
+   "nombre": "Replanteo y nivelación con equipo",
+   "categoria": "OBRAS PRELIMINARES",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.02,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.06,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_cuarton",
+     "nombre": "Cuartón de madera",
+     "categoria": "Maderas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.02,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_clavos",
+     "nombre": "Clavos 2\"–3\"",
+     "categoria": "Ferretería",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.02,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "MT001",
+   "nombre": "Excavación manual de plintos y cimientos",
+   "categoria": "MOVIMIENTO DE TIERRAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 5.33,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.27,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "MT002",
+   "nombre": "Excavación a máquina (retroexcavadora)",
+   "categoria": "MOVIMIENTO DE TIERRAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_eq_retro",
+     "nombre": "Retroexcavadora",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.12,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_operador",
+     "nombre": "Operador de equipo pesado (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.12,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "MT003",
+   "nombre": "Relleno compactado con material del sitio",
+   "categoria": "MOVIMIENTO DE TIERRAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_compactadora",
+     "nombre": "Compactadora tipo plancha",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "MT004",
+   "nombre": "Desalojo de material con volqueta",
+   "categoria": "MOVIMIENTO DE TIERRAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_volqueta",
+     "nombre": "Volqueta 8 m³",
+     "categoria": "Transporte",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "ES001",
+   "nombre": "Replantillo de H.S. f'c=140 kg/cm²",
+   "categoria": "ESTRUCTURAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 6.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_ripio",
+     "nombre": "Ripio triturado",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.95,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.22,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 8.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 4.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_concretera",
+     "nombre": "Concretera de 1 saco",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "ES002",
+   "nombre": "Hormigón ciclópeo (60 % H.S. + 40 % piedra)",
+   "categoria": "ESTRUCTURAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 4.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.4,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_ripio",
+     "nombre": "Ripio triturado",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_piedra",
+     "nombre": "Piedra bola",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.45,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 7.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 3.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.4,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_concretera",
+     "nombre": "Concretera de 1 saco",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "ES003",
+   "nombre": "Hormigón simple f'c=210 kg/cm² en plintos",
+   "categoria": "ESTRUCTURAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 7.2,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_ripio",
+     "nombre": "Ripio triturado",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.95,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.23,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 9.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 4.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_concretera",
+     "nombre": "Concretera de 1 saco",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_vibrador",
+     "nombre": "Vibrador de hormigón",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "ES004",
+   "nombre": "Hormigón f'c=210 kg/cm² en cadenas",
+   "categoria": "ESTRUCTURAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 7.2,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_ripio",
+     "nombre": "Ripio triturado",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.95,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.23,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 10.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_concretera",
+     "nombre": "Concretera de 1 saco",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_vibrador",
+     "nombre": "Vibrador de hormigón",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "ES005",
+   "nombre": "Hormigón f'c=210 kg/cm² en columnas",
+   "categoria": "ESTRUCTURAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 7.2,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_ripio",
+     "nombre": "Ripio triturado",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.95,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.23,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 10.7,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 5.3,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_concretera",
+     "nombre": "Concretera de 1 saco",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_vibrador",
+     "nombre": "Vibrador de hormigón",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "ES006",
+   "nombre": "Hormigón f'c=210 kg/cm² en losa",
+   "categoria": "ESTRUCTURAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 7.2,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_ripio",
+     "nombre": "Ripio triturado",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.95,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.23,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 12.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 6.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_concretera",
+     "nombre": "Concretera de 1 saco",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_vibrador",
+     "nombre": "Vibrador de hormigón",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "ES007",
+   "nombre": "Encofrado y desencofrado de madera",
+   "categoria": "ESTRUCTURAS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_tabla",
+     "nombre": "Tabla de encofrado de monte 0,30 m",
+     "categoria": "Maderas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_cuarton",
+     "nombre": "Cuartón de madera",
+     "categoria": "Maderas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_pingo",
+     "nombre": "Pingo de eucalipto",
+     "categoria": "Maderas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.4,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_clavos",
+     "nombre": "Clavos 2\"–3\"",
+     "categoria": "Ferretería",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_carpintero",
+     "nombre": "Carpintero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "ES008",
+   "nombre": "Acero de refuerzo fy=4200 kg/cm² (cortado y figurado)",
+   "categoria": "ESTRUCTURAS",
+   "tipoCalculo": "CANTIDAD",
+   "unidadResultado": "Kg",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_acero",
+     "nombre": "Acero de refuerzo fy=4200 kg/cm² (varilla corrugada)",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_alambre",
+     "nombre": "Alambre de amarre Nº 18",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_fierrero",
+     "nombre": "Fierrero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.035,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.035,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "ES009",
+   "nombre": "Malla electrosoldada R-84",
+   "categoria": "ESTRUCTURAS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_malla",
+     "nombre": "Malla electrosoldada R-84",
+     "categoria": "Aceros",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.1,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_fierrero",
+     "nombre": "Fierrero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.06,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.06,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "MA001",
+   "nombre": "Mampostería de bloque e=15 cm",
+   "categoria": "MAMPOSTERÍA",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_bloque15",
+     "nombre": "Bloque de hormigón 15×20×40",
+     "categoria": "Mampuestos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 13.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.2,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.012,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "MA002",
+   "nombre": "Mampostería de bloque e=10 cm",
+   "categoria": "MAMPOSTERÍA",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_bloque10",
+     "nombre": "Bloque de hormigón 10×20×40",
+     "categoria": "Mampuestos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 13.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.18,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.035,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.01,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.72,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.72,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "MA003",
+   "nombre": "Mampostería de ladrillo mambrón",
+   "categoria": "MAMPOSTERÍA",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_ladrillo",
+     "nombre": "Ladrillo mambrón",
+     "categoria": "Mampuestos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 33.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.25,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.015,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "EN001",
+   "nombre": "Enlucido vertical paleteado",
+   "categoria": "ENLUCIDOS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.17,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena_fina",
+     "nombre": "Arena fina",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.022,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.006,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.7,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.7,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.035,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "EN002",
+   "nombre": "Enlucido horizontal (tumbados)",
+   "categoria": "ENLUCIDOS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.19,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena_fina",
+     "nombre": "Arena fina",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.024,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.007,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.9,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.9,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.045,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "EN003",
+   "nombre": "Masillado de losa (paleteado fino)",
+   "categoria": "ENLUCIDOS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena_fina",
+     "nombre": "Arena fina",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.02,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.005,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "PI001",
+   "nombre": "Contrapiso de H.S. f'c=180 kg/cm² e=8 cm",
+   "categoria": "PISOS Y RECUBRIMIENTOS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.55,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_ripio",
+     "nombre": "Ripio triturado",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.075,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.02,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.4,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "PI002",
+   "nombre": "Cerámica nacional en piso",
+   "categoria": "PISOS Y RECUBRIMIENTOS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_ceramica",
+     "nombre": "Cerámica nacional para piso",
+     "categoria": "Recubrimientos",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_bondex",
+     "nombre": "Mortero adhesivo para cerámica (saco 25 kg)",
+     "categoria": "Recubrimientos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.26,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_emporador",
+     "nombre": "Emporador (funda 2 kg)",
+     "categoria": "Recubrimientos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.7,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.35,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "PI003",
+   "nombre": "Porcelanato en piso",
+   "categoria": "PISOS Y RECUBRIMIENTOS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_porcelanato",
+     "nombre": "Porcelanato nacional",
+     "categoria": "Recubrimientos",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_bondex",
+     "nombre": "Mortero adhesivo para cerámica (saco 25 kg)",
+     "categoria": "Recubrimientos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.3,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_emporador",
+     "nombre": "Emporador (funda 2 kg)",
+     "categoria": "Recubrimientos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.85,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.42,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "PI004",
+   "nombre": "Barredera de cerámica h=10 cm",
+   "categoria": "PISOS Y RECUBRIMIENTOS",
+   "tipoCalculo": "LONGITUD",
+   "unidadResultado": "m",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_ceramica",
+     "nombre": "Cerámica nacional para piso",
+     "categoria": "Recubrimientos",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.11,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_bondex",
+     "nombre": "Mortero adhesivo para cerámica (saco 25 kg)",
+     "categoria": "Recubrimientos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.25,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.12,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "CR001",
+   "nombre": "Cielo raso de gypsum con perfilería",
+   "categoria": "CIELOS RASOS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_gypsum",
+     "nombre": "Plancha de gypsum con perfilería (por m²)",
+     "categoria": "Recubrimientos",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_carpintero",
+     "nombre": "Carpintero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.45,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.45,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "CA001",
+   "nombre": "Puerta tamborada incl. cerradura y bisagras",
+   "categoria": "CARPINTERÍA Y ALUMINIO",
+   "tipoCalculo": "CANTIDAD",
+   "unidadResultado": "Pza",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_puerta",
+     "nombre": "Puerta tamborada de laurel 0,70–0,90 m",
+     "categoria": "Carpintería",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_cerradura",
+     "nombre": "Cerradura de pomo",
+     "categoria": "Carpintería",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_bisagra",
+     "nombre": "Bisagra 3\"",
+     "categoria": "Carpintería",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 3.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_carpintero",
+     "nombre": "Carpintero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 3.2,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.6,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "CA002",
+   "nombre": "Ventana de aluminio con vidrio de 4 mm",
+   "categoria": "CARPINTERÍA Y ALUMINIO",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_ventana",
+     "nombre": "Ventana de aluminio y vidrio de 4 mm (por m²)",
+     "categoria": "Carpintería",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_carpintero",
+     "nombre": "Carpintero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.2,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "CU001",
+   "nombre": "Estructura de cubierta con correas metálicas",
+   "categoria": "CUBIERTAS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_correa",
+     "nombre": "Correa metálica G 80×40×15×2 mm (6 m)",
+     "categoria": "Aceros",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.35,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_electrodo",
+     "nombre": "Electrodo 6011",
+     "categoria": "Ferretería",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_anticorrosiva",
+     "nombre": "Pintura anticorrosiva (galón)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.02,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_soldadora",
+     "nombre": "Soldadora eléctrica 300 A",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_fierrero",
+     "nombre": "Fierrero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.03,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "CU002",
+   "nombre": "Cubierta de fibrocemento sobre estructura",
+   "categoria": "CUBIERTAS",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_plancha_fc",
+     "nombre": "Plancha ondulada de fibrocemento 2,44×1,05 m",
+     "categoria": "Cubiertas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.47,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_gancho",
+     "nombre": "Gancho J con capuchón",
+     "categoria": "Cubiertas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.2,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_carpintero",
+     "nombre": "Carpintero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "PT001",
+   "nombre": "Empastado interior de paredes",
+   "categoria": "PINTURA",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_empaste",
+     "nombre": "Empaste interior (saco 20 kg)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.06,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_lija",
+     "nombre": "Lija (pliego)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.25,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_pintor",
+     "nombre": "Pintor (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.25,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "PT002",
+   "nombre": "Pintura de caucho interior (2 manos)",
+   "categoria": "PINTURA",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_pintura",
+     "nombre": "Pintura de caucho (galón)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_lija",
+     "nombre": "Lija (pliego)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_pintor",
+     "nombre": "Pintor (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.3,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "PT003",
+   "nombre": "Pintura de caucho exterior (2 manos)",
+   "categoria": "PINTURA",
+   "tipoCalculo": "AREA",
+   "unidadResultado": "m2",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_pintura",
+     "nombre": "Pintura de caucho (galón)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_lija",
+     "nombre": "Lija (pliego)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_pintor",
+     "nombre": "Pintor (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.35,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "IS001",
+   "nombre": "Punto de agua fría PVC roscable 1/2\"",
+   "categoria": "INSTALACIONES HIDROSANITARIAS",
+   "tipoCalculo": "CANTIDAD",
+   "unidadResultado": "pto",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_tubo12",
+     "nombre": "Tubería PVC roscable 1/2\" (6 m)",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_teflon",
+     "nombre": "Cinta teflón",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_plomero",
+     "nombre": "Plomero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.6,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.6,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "IS002",
+   "nombre": "Punto de desagüe PVC 110 mm",
+   "categoria": "INSTALACIONES HIDROSANITARIAS",
+   "tipoCalculo": "CANTIDAD",
+   "unidadResultado": "pto",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_tubo110",
+     "nombre": "Tubería PVC desagüe 110 mm (3 m)",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_codo110",
+     "nombre": "Codo PVC 110 mm × 90°",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_plomero",
+     "nombre": "Plomero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "IS003",
+   "nombre": "Tendido de tubería PVC 110 mm",
+   "categoria": "INSTALACIONES HIDROSANITARIAS",
+   "tipoCalculo": "LONGITUD",
+   "unidadResultado": "m",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_tubo110",
+     "nombre": "Tubería PVC desagüe 110 mm (3 m)",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.35,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_codo110",
+     "nombre": "Codo PVC 110 mm × 90°",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_plomero",
+     "nombre": "Plomero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.25,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.25,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "IS004",
+   "nombre": "Inodoro de tanque bajo, instalado",
+   "categoria": "INSTALACIONES HIDROSANITARIAS",
+   "tipoCalculo": "CANTIDAD",
+   "unidadResultado": "Pza",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_inodoro",
+     "nombre": "Inodoro de tanque bajo, blanco",
+     "categoria": "Aparatos sanitarios",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_teflon",
+     "nombre": "Cinta teflón",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_plomero",
+     "nombre": "Plomero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.6,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "IS005",
+   "nombre": "Lavamanos con grifería, instalado",
+   "categoria": "INSTALACIONES HIDROSANITARIAS",
+   "tipoCalculo": "CANTIDAD",
+   "unidadResultado": "Pza",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_lavamanos",
+     "nombre": "Lavamanos de pared, blanco",
+     "categoria": "Aparatos sanitarios",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_griferia",
+     "nombre": "Grifería para lavamanos",
+     "categoria": "Aparatos sanitarios",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_teflon",
+     "nombre": "Cinta teflón",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_plomero",
+     "nombre": "Plomero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "IE001",
+   "nombre": "Punto de iluminación (conduit + conductor)",
+   "categoria": "INSTALACIONES ELÉCTRICAS",
+   "tipoCalculo": "CANTIDAD",
+   "unidadResultado": "pto",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_conduit",
+     "nombre": "Tubería conduit EMT 1/2\" (3 m)",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_cable12",
+     "nombre": "Conductor de cobre THHN 12 AWG",
+     "categoria": "Eléctrico",
+     "unidad": "m",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 15.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_caja",
+     "nombre": "Caja rectangular profunda",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_boquilla",
+     "nombre": "Boquilla de baquelita",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_interruptor",
+     "nombre": "Interruptor simple",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_foco",
+     "nombre": "Foco LED 9 W",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_electricista",
+     "nombre": "Electricista (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "IE002",
+   "nombre": "Punto de tomacorriente doble polarizado",
+   "categoria": "INSTALACIONES ELÉCTRICAS",
+   "tipoCalculo": "CANTIDAD",
+   "unidadResultado": "pto",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_conduit",
+     "nombre": "Tubería conduit EMT 1/2\" (3 m)",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_cable12",
+     "nombre": "Conductor de cobre THHN 12 AWG",
+     "categoria": "Eléctrico",
+     "unidad": "m",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 18.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_caja",
+     "nombre": "Caja rectangular profunda",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_tomacorriente",
+     "nombre": "Tomacorriente doble polarizado",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_electricista",
+     "nombre": "Electricista (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "IE003",
+   "nombre": "Tablero de distribución de 8 puntos con breakers",
+   "categoria": "INSTALACIONES ELÉCTRICAS",
+   "tipoCalculo": "CANTIDAD",
+   "unidadResultado": "Pza",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_tablero",
+     "nombre": "Tablero de distribución 8 puntos",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_breaker",
+     "nombre": "Breaker enchufable 1 polo 15–30 A",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 6.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_electricista",
+     "nombre": "Electricista (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 4.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 2.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "ES010",
+   "nombre": "Hormigón f'c=210 kg/cm² en gradas",
+   "categoria": "ESTRUCTURAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 7.2,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_ripio",
+     "nombre": "Ripio triturado",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.95,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.23,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 13.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 6.5,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_concretera",
+     "nombre": "Concretera de 1 saco",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_vibrador",
+     "nombre": "Vibrador de hormigón",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  },
+  {
+   "codigo": "MT005",
+   "nombre": "Mejoramiento de suelo con material de préstamo",
+   "categoria": "MOVIMIENTO DE TIERRAS",
+   "tipoCalculo": "VOLUMEN",
+   "unidadResultado": "m3",
+   "inputPrincipalLabel": "Cantidad",
+   "tipoIfc": null,
+   "verificado": false,
+   "parametros": [],
+   "presets": [],
+   "insumos": [
+    {
+     "idCanonico": "ec_mat_ripio",
+     "nombre": "Ripio triturado",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.25,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 1.6,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.08,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_compactadora",
+     "nombre": "Compactadora tipo plancha",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.45,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "tipoCalculo": "DIRECTO",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "baseCalculo": ""
+    },
+    {
+     "idCanonico": "ec_eq_herramienta",
+     "nombre": "Herramienta menor (% de M.O.)",
+     "categoria": "Equipo",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "tipoCalculo": "PORCENTAJE",
+     "rendimiento": 5.0,
+     "precio": 0,
+     "baseCalculo": "MO"
+    }
+   ]
+  }
+ ]
+}

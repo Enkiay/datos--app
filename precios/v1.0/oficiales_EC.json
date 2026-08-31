@@ -1,0 +1,653 @@
+{
+ "version": "v20260830-base-43",
+ "pais": "EC",
+ "fuente": "Salarios: Contraloría General del Estado, tabla 2026 (salario real horario, incluye cargas). Materiales y equipo: precios de referencia de mercado (Quito, 2026).",
+ "nota": "Precio ÚNICO (Quito) para la base de arranque — referencia nacional a afinar por ciudad con aportes, CAMICON o el boletín IPCO del INEC. Los salarios 2026 quedan por validar contra el PDF oficial de la Contraloría.",
+ "ciudades": [
+  {
+   "nombre": "Quito",
+   "precios": [
+    {
+     "idCanonico": "ec_eq_compactadora",
+     "nombre": "Compactadora tipo plancha",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "EQ_COMPACTADORA",
+     "precio": 3.5,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    },
+    {
+     "idCanonico": "ec_eq_concretera",
+     "nombre": "Concretera de 1 saco",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "EQ_CONCRETERA",
+     "precio": 4.0,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    },
+    {
+     "idCanonico": "ec_eq_retro",
+     "nombre": "Retroexcavadora",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "EQ_RETRO",
+     "precio": 30.0,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    },
+    {
+     "idCanonico": "ec_eq_soldadora",
+     "nombre": "Soldadora eléctrica 300 A",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "EQ_SOLDADORA",
+     "precio": 3.0,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    },
+    {
+     "idCanonico": "ec_eq_vibrador",
+     "nombre": "Vibrador de hormigón",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "EQ_VIBRADOR",
+     "precio": 2.5,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    },
+    {
+     "idCanonico": "ec_eq_volqueta",
+     "nombre": "Volqueta 8 m³",
+     "categoria": "Transporte",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "EQ_VOLQUETA",
+     "precio": 25.0,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    },
+    {
+     "idCanonico": "ec_mat_acero",
+     "nombre": "Acero de refuerzo fy=4200 kg/cm² (varilla corrugada)",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ACERO",
+     "precio": 1.15,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_AGUA",
+     "precio": 1.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_alambre",
+     "nombre": "Alambre de amarre Nº 18",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ALAMBRE",
+     "precio": 2.2,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_anticorrosiva",
+     "nombre": "Pintura anticorrosiva (galón)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ANTICORROSIVA",
+     "precio": 18.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_arena",
+     "nombre": "Arena gruesa",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ARENA",
+     "precio": 15.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_arena_fina",
+     "nombre": "Arena fina",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ARENA_FINA",
+     "precio": 16.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_bisagra",
+     "nombre": "Bisagra 3\"",
+     "categoria": "Carpintería",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_BISAGRA",
+     "precio": 1.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_bloque10",
+     "nombre": "Bloque de hormigón 10×20×40",
+     "categoria": "Mampuestos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_BLOQUE10",
+     "precio": 0.48,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_bloque15",
+     "nombre": "Bloque de hormigón 15×20×40",
+     "categoria": "Mampuestos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_BLOQUE15",
+     "precio": 0.55,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_bondex",
+     "nombre": "Mortero adhesivo para cerámica (saco 25 kg)",
+     "categoria": "Recubrimientos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_BONDEX",
+     "precio": 5.8,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_boquilla",
+     "nombre": "Boquilla de baquelita",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_BOQUILLA",
+     "precio": 1.2,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_breaker",
+     "nombre": "Breaker enchufable 1 polo 15–30 A",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_BREAKER",
+     "precio": 6.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_cable12",
+     "nombre": "Conductor de cobre THHN 12 AWG",
+     "categoria": "Eléctrico",
+     "unidad": "m",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CABLE12",
+     "precio": 0.62,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_caja",
+     "nombre": "Caja rectangular profunda",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CAJA",
+     "precio": 0.6,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_cemento",
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CEMENTO",
+     "precio": 8.6,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_ceramica",
+     "nombre": "Cerámica nacional para piso",
+     "categoria": "Recubrimientos",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CERAMICA",
+     "precio": 9.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_cerradura",
+     "nombre": "Cerradura de pomo",
+     "categoria": "Carpintería",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CERRADURA",
+     "precio": 18.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_clavos",
+     "nombre": "Clavos 2\"–3\"",
+     "categoria": "Ferretería",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CLAVOS",
+     "precio": 2.3,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_codo110",
+     "nombre": "Codo PVC 110 mm × 90°",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CODO110",
+     "precio": 1.8,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_conduit",
+     "nombre": "Tubería conduit EMT 1/2\" (3 m)",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CONDUIT",
+     "precio": 2.8,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_correa",
+     "nombre": "Correa metálica G 80×40×15×2 mm (6 m)",
+     "categoria": "Aceros",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CORREA",
+     "precio": 14.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_cuarton",
+     "nombre": "Cuartón de madera",
+     "categoria": "Maderas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CUARTON",
+     "precio": 3.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_electrodo",
+     "nombre": "Electrodo 6011",
+     "categoria": "Ferretería",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ELECTRODO",
+     "precio": 3.8,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_empaste",
+     "nombre": "Empaste interior (saco 20 kg)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_EMPASTE",
+     "precio": 9.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_emporador",
+     "nombre": "Emporador (funda 2 kg)",
+     "categoria": "Recubrimientos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_EMPORADOR",
+     "precio": 1.8,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_foco",
+     "nombre": "Foco LED 9 W",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_FOCO",
+     "precio": 2.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_gancho",
+     "nombre": "Gancho J con capuchón",
+     "categoria": "Cubiertas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_GANCHO",
+     "precio": 0.3,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_griferia",
+     "nombre": "Grifería para lavamanos",
+     "categoria": "Aparatos sanitarios",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_GRIFERIA",
+     "precio": 28.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_gypsum",
+     "nombre": "Plancha de gypsum con perfilería (por m²)",
+     "categoria": "Recubrimientos",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_GYPSUM",
+     "precio": 7.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_inodoro",
+     "nombre": "Inodoro de tanque bajo, blanco",
+     "categoria": "Aparatos sanitarios",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_INODORO",
+     "precio": 78.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_interruptor",
+     "nombre": "Interruptor simple",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_INTERRUPTOR",
+     "precio": 3.2,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_ladrillo",
+     "nombre": "Ladrillo mambrón",
+     "categoria": "Mampuestos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_LADRILLO",
+     "precio": 0.35,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_lavamanos",
+     "nombre": "Lavamanos de pared, blanco",
+     "categoria": "Aparatos sanitarios",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_LAVAMANOS",
+     "precio": 45.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_lija",
+     "nombre": "Lija (pliego)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_LIJA",
+     "precio": 0.6,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_malla",
+     "nombre": "Malla electrosoldada R-84",
+     "categoria": "Aceros",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_MALLA",
+     "precio": 2.1,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_piedra",
+     "nombre": "Piedra bola",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_PIEDRA",
+     "precio": 14.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_pingo",
+     "nombre": "Pingo de eucalipto",
+     "categoria": "Maderas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_PINGO",
+     "precio": 2.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_pintura",
+     "nombre": "Pintura de caucho (galón)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_PINTURA",
+     "precio": 16.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_plancha_fc",
+     "nombre": "Plancha ondulada de fibrocemento 2,44×1,05 m",
+     "categoria": "Cubiertas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_PLANCHA_FC",
+     "precio": 12.8,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_porcelanato",
+     "nombre": "Porcelanato nacional",
+     "categoria": "Recubrimientos",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_PORCELANATO",
+     "precio": 16.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_puerta",
+     "nombre": "Puerta tamborada de laurel 0,70–0,90 m",
+     "categoria": "Carpintería",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_PUERTA",
+     "precio": 85.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_ripio",
+     "nombre": "Ripio triturado",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_RIPIO",
+     "precio": 17.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_tabla",
+     "nombre": "Tabla de encofrado de monte 0,30 m",
+     "categoria": "Maderas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TABLA",
+     "precio": 3.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_tablero",
+     "nombre": "Tablero de distribución 8 puntos",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TABLERO",
+     "precio": 45.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_teflon",
+     "nombre": "Cinta teflón",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TEFLON",
+     "precio": 0.35,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_tomacorriente",
+     "nombre": "Tomacorriente doble polarizado",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TOMACORRIENTE",
+     "precio": 3.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_tubo110",
+     "nombre": "Tubería PVC desagüe 110 mm (3 m)",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TUBO110",
+     "precio": 8.9,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_tubo12",
+     "nombre": "Tubería PVC roscable 1/2\" (6 m)",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TUBO12",
+     "precio": 7.5,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mat_ventana",
+     "nombre": "Ventana de aluminio y vidrio de 4 mm (por m²)",
+     "categoria": "Carpintería",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_VENTANA",
+     "precio": 65.0,
+     "nota": "Precio de REFERENCIA (Quito, 2026) — ajustar con aportes, CAMICON o boletín IPCO del INEC."
+    },
+    {
+     "idCanonico": "ec_mo_albanil",
+     "nombre": "Albañil (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_ALBANIL",
+     "precio": 4.39,
+     "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
+    },
+    {
+     "idCanonico": "ec_mo_carpintero",
+     "nombre": "Carpintero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_CARPINTERO",
+     "precio": 4.39,
+     "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
+    },
+    {
+     "idCanonico": "ec_mo_electricista",
+     "nombre": "Electricista (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_ELECTRICISTA",
+     "precio": 4.39,
+     "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
+    },
+    {
+     "idCanonico": "ec_mo_fierrero",
+     "nombre": "Fierrero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_FIERRERO",
+     "precio": 4.39,
+     "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
+    },
+    {
+     "idCanonico": "ec_mo_maestro",
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_MAESTRO",
+     "precio": 4.87,
+     "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
+    },
+    {
+     "idCanonico": "ec_mo_operador",
+     "nombre": "Operador de equipo pesado (EO C1)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_OPERADOR",
+     "precio": 4.87,
+     "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
+    },
+    {
+     "idCanonico": "ec_mo_peon",
+     "nombre": "Peón (EO E2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_PEON",
+     "precio": 4.34,
+     "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
+    },
+    {
+     "idCanonico": "ec_mo_pintor",
+     "nombre": "Pintor (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_PINTOR",
+     "precio": 4.39,
+     "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
+    },
+    {
+     "idCanonico": "ec_mo_plomero",
+     "nombre": "Plomero (EO D2)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_PLOMERO",
+     "precio": 4.39,
+     "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
+    }
+   ]
+  }
+ ]
+}

@@ -61,6 +61,14 @@
     "precios_ES": {
       "version": "v20260829-base-50",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_ES.json"
+    },
+    "catalogo_EC": {
+      "version": "v20260830-base-43",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_EC.json"
+    },
+    "precios_EC": {
+      "version": "v20260830-base-43",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_EC.json"
     }
   }
 }
