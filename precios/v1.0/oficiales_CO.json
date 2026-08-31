@@ -1,0 +1,523 @@
+{
+ "version": "v20260831-base-33",
+ "pais": "CO",
+ "fuente": "Precios de referencia de mercado (Bogotá, 2026). Jornales con factor prestacional incluido.",
+ "nota": "Precio ÚNICO (Bogotá) para la base de arranque — referencia nacional a afinar por ciudad con aportes, listas oficiales de gobernación, IDU o CONSTRUDATA. Montos en pesos, sin centavos.",
+ "ciudades": [
+  {
+   "nombre": "Bogotá",
+   "precios": [
+    {
+     "idCanonico": "co_eq_compactador",
+     "nombre": "Compactador tipo rana",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "EQ_COMPACTADOR",
+     "precio": 15000,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    },
+    {
+     "idCanonico": "co_eq_mezcladora",
+     "nombre": "Mezcladora de concreto de 1 bulto",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "EQ_MEZCLADORA",
+     "precio": 12000,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    },
+    {
+     "idCanonico": "co_eq_retro",
+     "nombre": "Retroexcavadora",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "EQ_RETRO",
+     "precio": 120000,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    },
+    {
+     "idCanonico": "co_eq_vibrador",
+     "nombre": "Vibrador de concreto",
+     "categoria": "Equipo",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "EQ_VIBRADOR",
+     "precio": 8000,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    },
+    {
+     "idCanonico": "co_mat_acero",
+     "nombre": "Acero de refuerzo fy=420 MPa (60.000 psi)",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ACERO",
+     "precio": 4800,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_agua",
+     "nombre": "Agua",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_AGUA",
+     "precio": 6000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_alambre",
+     "nombre": "Alambre negro Nº 18",
+     "categoria": "Aceros",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ALAMBRE",
+     "precio": 8000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_amarre_teja",
+     "nombre": "Gancho / fijación para teja",
+     "categoria": "Cubiertas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_AMARRE_TEJA",
+     "precio": 1200,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_arena",
+     "nombre": "Arena de río lavada",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ARENA",
+     "precio": 95000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_arena_pena",
+     "nombre": "Arena de peña (pañete)",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ARENA_PENA",
+     "precio": 85000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_bloque5",
+     "nombre": "Bloque de arcilla Nº 5",
+     "categoria": "Mampuestos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_BLOQUE5",
+     "precio": 2600,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_bombillo",
+     "nombre": "Bombillo LED 9 W",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_BOMBILLO",
+     "precio": 9000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_boquilla",
+     "nombre": "Boquilla / lechada (bolsa 2 kg)",
+     "categoria": "Acabados",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_BOQUILLA",
+     "precio": 8500,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_breaker",
+     "nombre": "Breaker enchufable 1×15–30 A",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_BREAKER",
+     "precio": 18000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_cable12",
+     "nombre": "Cable de cobre THHN #12",
+     "categoria": "Eléctrico",
+     "unidad": "m",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CABLE12",
+     "precio": 2800,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_caja",
+     "nombre": "Caja rectangular PVC",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CAJA",
+     "precio": 2500,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_cemento",
+     "nombre": "Cemento gris (saco 50 kg)",
+     "categoria": "Aglomerantes",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CEMENTO",
+     "precio": 32000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_ceramica",
+     "nombre": "Cerámica para piso tráfico 3",
+     "categoria": "Acabados",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CERAMICA",
+     "precio": 38000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_codo4",
+     "nombre": "Codo PVC sanitario 4\"",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CODO4",
+     "precio": 8500,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_conduit",
+     "nombre": "Tubería conduit PVC 1/2\" (3 m)",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_CONDUIT",
+     "precio": 6500,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_drywall",
+     "nombre": "Lámina de yeso con perfilería (por m²)",
+     "categoria": "Acabados",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_DRYWALL",
+     "precio": 32000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_estuco",
+     "nombre": "Estuco plástico (galón)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ESTUCO",
+     "precio": 28000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_griferia",
+     "nombre": "Grifería para lavamanos",
+     "categoria": "Aparatos sanitarios",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_GRIFERIA",
+     "precio": 95000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_interruptor",
+     "nombre": "Interruptor sencillo",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_INTERRUPTOR",
+     "precio": 8500,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_lavamanos",
+     "nombre": "Lavamanos de colgar, blanco",
+     "categoria": "Aparatos sanitarios",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_LAVAMANOS",
+     "precio": 180000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_lija",
+     "nombre": "Lija (pliego)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_LIJA",
+     "precio": 2500,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_malla",
+     "nombre": "Malla electrosoldada",
+     "categoria": "Aceros",
+     "unidad": "m2",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_MALLA",
+     "precio": 12000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_pegacor",
+     "nombre": "Mortero de pega para cerámica (saco 25 kg)",
+     "categoria": "Acabados",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_PEGACOR",
+     "precio": 28000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_puntilla",
+     "nombre": "Puntilla 2\"–3\"",
+     "categoria": "Ferretería",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_PUNTILLA",
+     "precio": 9000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_pvc12",
+     "nombre": "Tubería PVC presión 1/2\" (6 m)",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_PVC12",
+     "precio": 15000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_pvc4",
+     "nombre": "Tubería PVC sanitaria 4\" (3 m)",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_PVC4",
+     "precio": 48000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_recebo",
+     "nombre": "Recebo compactable",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_RECEBO",
+     "precio": 55000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_roseta",
+     "nombre": "Roseta / plafón",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_ROSETA",
+     "precio": 4500,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_sanitario",
+     "nombre": "Sanitario completo, blanco",
+     "categoria": "Aparatos sanitarios",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_SANITARIO",
+     "precio": 350000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_tabla",
+     "nombre": "Tabla burra de encofrado",
+     "categoria": "Maderas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TABLA",
+     "precio": 18000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_tablero",
+     "nombre": "Tablero de 8 circuitos",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TABLERO",
+     "precio": 95000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_teflon",
+     "nombre": "Cinta teflón",
+     "categoria": "Hidrosanitario",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TEFLON",
+     "precio": 2000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_teja",
+     "nombre": "Teja ondulada de fibrocemento 2,44 m",
+     "categoria": "Cubiertas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TEJA",
+     "precio": 52000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_tolete",
+     "nombre": "Ladrillo tolete común",
+     "categoria": "Mampuestos",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TOLETE",
+     "precio": 950,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_toma",
+     "nombre": "Toma doble con polo a tierra",
+     "categoria": "Eléctrico",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TOMA",
+     "precio": 9500,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_triturado",
+     "nombre": "Triturado / gravilla",
+     "categoria": "Áridos",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_TRITURADO",
+     "precio": 110000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_vareta",
+     "nombre": "Vareta / repisa de madera",
+     "categoria": "Maderas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_VARETA",
+     "precio": 12000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mat_vinilo",
+     "nombre": "Pintura vinilo tipo 1 (galón)",
+     "categoria": "Pinturas",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "MAT_VINILO",
+     "precio": 65000,
+     "nota": "Precio de REFERENCIA (Bogotá, 2026) — ajustar con aportes, listas de gobernación, IDU o CONSTRUDATA."
+    },
+    {
+     "idCanonico": "co_mo_ayudante",
+     "nombre": "Ayudante (prestaciones incluidas)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_AYUDANTE",
+     "precio": 9500,
+     "nota": "Jornal/hora de REFERENCIA (Bogotá, 2026) CON factor prestacional incluido (~1,52 sobre el básico). Ajustar por región y convenio."
+    },
+    {
+     "idCanonico": "co_mo_electricista",
+     "nombre": "Oficial electricista (prestaciones incluidas)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_ELECTRICISTA",
+     "precio": 13000,
+     "nota": "Jornal/hora de REFERENCIA (Bogotá, 2026) CON factor prestacional incluido (~1,52 sobre el básico). Ajustar por región y convenio."
+    },
+    {
+     "idCanonico": "co_mo_maestro",
+     "nombre": "Maestro de obra (prestaciones incluidas)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_MAESTRO",
+     "precio": 16650,
+     "nota": "Jornal/hora de REFERENCIA (Bogotá, 2026) CON factor prestacional incluido (~1,52 sobre el básico). Ajustar por región y convenio."
+    },
+    {
+     "idCanonico": "co_mo_oficial",
+     "nombre": "Oficial de construcción (prestaciones incluidas)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_OFICIAL",
+     "precio": 11900,
+     "nota": "Jornal/hora de REFERENCIA (Bogotá, 2026) CON factor prestacional incluido (~1,52 sobre el básico). Ajustar por región y convenio."
+    },
+    {
+     "idCanonico": "co_mo_operador",
+     "nombre": "Operador de equipo (prestaciones incluidas)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_OPERADOR",
+     "precio": 14500,
+     "nota": "Jornal/hora de REFERENCIA (Bogotá, 2026) CON factor prestacional incluido (~1,52 sobre el básico). Ajustar por región y convenio."
+    },
+    {
+     "idCanonico": "co_mo_pintor",
+     "nombre": "Oficial pintor (prestaciones incluidas)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_PINTOR",
+     "precio": 11900,
+     "nota": "Jornal/hora de REFERENCIA (Bogotá, 2026) CON factor prestacional incluido (~1,52 sobre el básico). Ajustar por región y convenio."
+    },
+    {
+     "idCanonico": "co_mo_plomero",
+     "nombre": "Oficial hidrosanitario (prestaciones incluidas)",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "MO_PLOMERO",
+     "precio": 13000,
+     "nota": "Jornal/hora de REFERENCIA (Bogotá, 2026) CON factor prestacional incluido (~1,52 sobre el básico). Ajustar por región y convenio."
+    },
+    {
+     "idCanonico": "co_tr_volqueta",
+     "nombre": "Volqueta 6 m³ (viaje de retiro)",
+     "categoria": "Transporte",
+     "unidad": "Pza",
+     "tipoInsumo": "HERRAMIENTA",
+     "codigo": "TR_VOLQUETA",
+     "precio": 90000,
+     "nota": "Tarifa horaria de REFERENCIA — ajustar con tarifas locales."
+    }
+   ]
+  }
+ ]
+}
