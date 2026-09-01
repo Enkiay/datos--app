@@ -1,0 +1,1792 @@
+{
+ "version": "1.0",
+ "schemaVersion": 1,
+ "pais": "PY",
+ "nota": "Base de ARRANQUE de Paraguay: 30 items. LO QUE HAY QUE SABER — los CONSUMOS (lo que el formulario de la DNCP llama asi) estan HEREDADOS del catalogo boliviano, no salen de una fuente paraguaya: no se encontro publicado ningun analisis de precios paraguayo con consumos. Lo que SI es paraguayo es todo el dinero: el escalafon legal de la construccion (Resolucion MTESS 670/2026) y los precios de material de ANDE y de costeo.com.py. Se publicaron SOLO los items cuyos insumos estan todos precificados con fuente; por eso no hay mamposteria (el ladrillo paraguayo mide 18x18x25 y el consumo boliviano no le sirve), ni encofrados (no se consiguio precio publicado de madera ni de clavos), ni hormigon vibrado (falta la tarifa horaria de equipos). Falta que un profesional paraguayo revise los consumos.",
+ "items": [
+  {
+   "codigo": "UA001",
+   "nombre": "Revoque de cemento",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m2",
+   "categoria": "Acabados",
+   "verificado": false,
+   "tipoIfc": "WALL",
+   "insumos": [
+    {
+     "nombre": "Cemento Portland",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 8,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_cemento",
+     "codigo": "PY_MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena lavada (fina)",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.015,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_arena_fina",
+     "codigo": "PY_MAT_ARENA_FINA"
+    },
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "UA006",
+   "nombre": "Piso Cemento Alisado",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m2",
+   "categoria": "Acabados",
+   "verificado": false,
+   "tipoIfc": "SLAB",
+   "insumos": [
+    {
+     "nombre": "Cemento Portland",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 12,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_cemento",
+     "codigo": "PY_MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena lavada (fina)",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.015,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_arena_fina",
+     "codigo": "PY_MAT_ARENA_FINA"
+    },
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "UH002",
+   "nombre": "Excavación de zanjas",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Metro Lineal",
+   "unidadResultado": "m3",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "tipoIfc": "",
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 3.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "profundidad",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "40×60",
+     "valores": {
+      "ancho": 0.4,
+      "profundidad": 0.6
+     }
+    },
+    {
+     "nombre": "60×60",
+     "valores": {
+      "ancho": 0.6,
+      "profundidad": 0.6
+     }
+    },
+    {
+     "nombre": "80×80",
+     "valores": {
+      "ancho": 0.8,
+      "profundidad": 0.8
+     }
+    }
+   ]
+  },
+  {
+   "codigo": "OT003",
+   "nombre": "Excavación Manual",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "tipoIfc": "",
+   "insumos": [
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 1.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 3,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Profundidad",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "OT004",
+   "nombre": "Relleno y Compactado",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "tipoIfc": "",
+   "insumos": [
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "OT005",
+   "nombre": "Limpieza del Terreno",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "tipoIfc": "",
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "OT047",
+   "nombre": "Demolición de Piso y Contrapiso",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": [
+    "demolición"
+   ]
+  },
+  {
+   "codigo": "OT049",
+   "nombre": "Demolición Hormigón Simple",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 13,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [
+    "DEMOLICIÓN Ho. Simple"
+   ],
+   "subcategoria": "Faenas",
+   "tags": [
+    "demolición"
+   ]
+  },
+  {
+   "codigo": "OT050",
+   "nombre": "Demolición Mampostería de Piedra",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 11.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": [
+    "demolición"
+   ]
+  },
+  {
+   "codigo": "MP001",
+   "nombre": "Demolición Muro de Ladrillo",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Mampostería",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 2.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": [
+    "demolición"
+   ]
+  },
+  {
+   "codigo": "CU001",
+   "nombre": "Desate de Cubierta de Calamina",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Cubiertas",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.8,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "ROOF",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "Largo*Ancho",
+   "aliases": [],
+   "subcategoria": "Calamina",
+   "tags": []
+  },
+  {
+   "codigo": "OT006",
+   "nombre": "Desate de Gaviones",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 2.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": []
+  },
+  {
+   "codigo": "CR001",
+   "nombre": "Desate de Puerta - Ventana",
+   "tipoCalculo": "CANTIDAD",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "Pza",
+   "categoria": "Carpintería",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1.4,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    },
+    {
+     "nombre": "Oficial especializado",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Obras Civiles",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_especialista",
+     "codigo": "PY_MO_ESPECIALISTA"
+    }
+   ],
+   "parametros": [],
+   "presets": [],
+   "tipoIfc": "DOOR",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "1",
+   "aliases": [],
+   "subcategoria": "Puerta",
+   "tags": []
+  },
+  {
+   "codigo": "OT007",
+   "nombre": "Desempiedre",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.35,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": []
+  },
+  {
+   "codigo": "OT010",
+   "nombre": "Limpieza y Deshierbe",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.09,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": []
+  },
+  {
+   "codigo": "OT011",
+   "nombre": "Picado de Revoque Interior",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.9,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": [
+    "interior"
+   ]
+  },
+  {
+   "codigo": "OT014",
+   "nombre": "Retiro de Cielo Raso (Estuco bajo Losa)",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": [
+    "estructural"
+   ]
+  },
+  {
+   "codigo": "OT016",
+   "nombre": "Excavación 0-1.5 M Terr. Blando",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 2.8,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [
+    "EXCAVACIÓN 0-1.5 m. TERR. BLANDO"
+   ],
+   "subcategoria": "Excavación",
+   "tags": []
+  },
+  {
+   "codigo": "OT017",
+   "nombre": "Excavación 0-1.5 M Terr. Semiduro",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 3.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [
+    "EXCAVACIÓN 0-1.5 m. TERR. SEMIDURO"
+   ],
+   "subcategoria": "Excavación",
+   "tags": []
+  },
+  {
+   "codigo": "OT018",
+   "nombre": "Excavación 0-1.5 M Terr. Duro",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 3.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [
+    "EXCAVACIÓN 0-1.5 m. TERR. DURO"
+   ],
+   "subcategoria": "Excavación",
+   "tags": []
+  },
+  {
+   "codigo": "OT023",
+   "nombre": "Relleno y Apisonado Manual de Tierra",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 2.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Excavación",
+   "tags": []
+  },
+  {
+   "codigo": "AC006",
+   "nombre": "Buña o Goterón de Mortero",
+   "tipoCalculo": "LONGITUD",
+   "inputPrincipalLabel": "Longitud",
+   "unidadResultado": "m",
+   "categoria": "Acabados",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Arena lavada (fina)",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_arena_fina",
+     "codigo": "PY_MAT_ARENA_FINA"
+    },
+    {
+     "nombre": "Cemento Portland",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_cemento",
+     "codigo": "PY_MAT_CEMENTO"
+    },
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.25,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
+   "codigo": "AC010",
+   "nombre": "Piruleado Exterior",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Acabados",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Cemento Portland",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 0.25,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_cemento",
+     "codigo": "PY_MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena lavada (fina)",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.02,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_arena_fina",
+     "codigo": "PY_MAT_ARENA_FINA"
+    },
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": [
+    "exterior"
+   ]
+  },
+  {
+   "codigo": "AC016",
+   "nombre": "Revoque Exterior Cal-Cemento",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Acabados",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Cemento Portland",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 9,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_cemento",
+     "codigo": "PY_MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena lavada (comun)",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_arena_comun",
+     "codigo": "PY_MAT_ARENA_COMUN"
+    },
+    {
+     "nombre": "Cal hidratada",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_cal",
+     "codigo": "PY_MAT_CAL"
+    },
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 2.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 2.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Revoque",
+   "tags": [
+    "exterior"
+   ]
+  },
+  {
+   "codigo": "AC019",
+   "nombre": "Contrapiso de Cemento sobre Losa",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Acabados",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Cemento Portland",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 11,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_cemento",
+     "codigo": "PY_MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena lavada (fina)",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.06,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_arena_fina",
+     "codigo": "PY_MAT_ARENA_FINA"
+    },
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.9,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "SLAB",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "Largo*Ancho",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": [
+    "estructural"
+   ]
+  },
+  {
+   "codigo": "AC040",
+   "nombre": "Zócalo de Cemento",
+   "tipoCalculo": "LONGITUD",
+   "inputPrincipalLabel": "Longitud",
+   "unidadResultado": "m",
+   "categoria": "Acabados",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Cemento Portland",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 7,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_cemento",
+     "codigo": "PY_MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena lavada (comun)",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_arena_comun",
+     "codigo": "PY_MAT_ARENA_COMUN"
+    },
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Zócalo",
+   "tags": []
+  },
+  {
+   "codigo": "OG044",
+   "nombre": "Cortado de Carpeta Asfáltica",
+   "tipoCalculo": "LONGITUD",
+   "inputPrincipalLabel": "Longitud",
+   "unidadResultado": "m",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Oficial especializado",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Obras Civiles",
+     "rendimiento": 0.07,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_especialista",
+     "codigo": "PY_MO_ESPECIALISTA"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
+   "codigo": "OG046",
+   "nombre": "Demolición Cordón de Acera",
+   "tipoCalculo": "LONGITUD",
+   "inputPrincipalLabel": "Longitud",
+   "unidadResultado": "m",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": [
+    "demolición"
+   ]
+  },
+  {
+   "codigo": "OG055",
+   "nombre": "Remoción y Reposición de Empedrado",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.7,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
+   "codigo": "OG061",
+   "nombre": "Excavación Común",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Oficial albanil",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_albanil",
+     "codigo": "PY_MO_ALBANIL"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 3.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,734 @@
+{
+ "version": "1.0",
+ "fuente": "ANDE (lista de precios de arena, cemento y piedra POR LOCALIDAD) + Resolucion MTESS 670/2026 (escalafon legal del sector de la construccion) + costeo.com.py, ago-2026",
+ "pais": "PY",
+ "nota": "Base de ARRANQUE de Paraguay. Tres cosas antes de usarla: (1) La mano de obra es el MINIMO LEGAL del escalafon de la construccion, cargado con IPS patronal 16,5 % y aguinaldo 8,33 %; es costo horario con las cargas ADENTRO, que es lo que pide el formulario de la DNCP y por eso la caja lleva cargasSociales = 0. (2) El cemento, la arena y la piedra salen de la lista de ANDE POR LOCALIDAD y varian de verdad entre ciudades. (3) Los demas materiales solo se relevaron en Asuncion; en las otras cuatro se repite ese precio y cada uno lo dice en su propia nota. Falta que un profesional paraguayo la revise.",
+ "precios": [],
+ "ciudades": [
+  {
+   "nombre": "Asunción (ASU)",
+   "precios": [
+    {
+     "idCanonico": "py_mat_cemento",
+     "nombre": "Cemento Portland",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CEMENTO",
+     "precio": 1375,
+     "nota": "Cemento tipo I, G. 1.375/kg en esta localidad segun la lista de ANDE POR LOCALIDAD. Cruce independiente: bolsa de 50 kg a G. 59.000 en retail = G. 1.180/kg."
+    },
+    {
+     "idCanonico": "py_mat_arena_comun",
+     "nombre": "Arena lavada (comun)",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ARENA_COMUN",
+     "precio": 64688,
+     "nota": "Arena lavada G. 64.688/m3, lista de ANDE por localidad. Cruce independiente en Asuncion: G. 61.700/m3 en costeo.com.py, 5 % de diferencia."
+    },
+    {
+     "idCanonico": "py_mat_arena_fina",
+     "nombre": "Arena lavada (fina)",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ARENA_FINA",
+     "precio": 64688,
+     "nota": "ANDE publica UNA sola arena (lavada): se le da el mismo precio que a la comun. CONFIRMAR si en Paraguay la fina cotiza distinto."
+    },
+    {
+     "idCanonico": "py_mat_grava",
+     "nombre": "Piedra triturada",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_GRAVA",
+     "precio": 185625,
+     "nota": "ANDE la publica POR TONELADA (G. 123.750/Tn). Pasada a m3 con densidad 1,5 t/m3 de basalto triturado: 123.750 x 1,5 = 185.625. La conversion es la unica parte no publicada; si se releva el peso real, se recalcula."
+    },
+    {
+     "idCanonico": "py_mat_grava_clasificada",
+     "nombre": "Piedra triturada clasificada",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_GRAVA_CLASIFICADA",
+     "precio": 185625,
+     "nota": "Mismo precio que la triturada: ANDE no separa granulometrias. CONFIRMAR."
+    },
+    {
+     "idCanonico": "py_mat_piedra_bruta",
+     "nombre": "Piedra bruta",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_PIEDRA_BRUTA",
+     "precio": 104000,
+     "nota": "G. 104.000/m3 (piedra bruta, costeo.com.py, ago-2026)."
+    },
+    {
+     "idCanonico": "py_mat_fierro",
+     "nombre": "Hierro nervurado",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_FIERRO",
+     "precio": 7390,
+     "nota": "Varilla de construccion G. 7.390/kg (costeo.com.py, ago-2026). Serie de 6 a 25 mm en barras de 12 m."
+    },
+    {
+     "idCanonico": "py_mat_cal",
+     "nombre": "Cal hidratada",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CAL",
+     "precio": 1250,
+     "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20."
+    },
+    {
+     "idCanonico": "py_mo_albanil",
+     "nombre": "Oficial albanil",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ALBANIL",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_carpintero",
+     "nombre": "Oficial carpintero",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_CARPINTERO",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_encofrador",
+     "nombre": "Oficial encofrador",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ENCOFRADOR",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_armador",
+     "nombre": "Oficial armador",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ARMADOR",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o, por «y Anexos»: G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_especialista",
+     "nombre": "Oficial especializado",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ESPECIALISTA",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o: la resolucion NO publica un grado superior. CONFIRMAR: G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_ayudante",
+     "nombre": "Peon",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_AYUDANTE",
+     "precio": 18451,
+     "nota": "Jornal minimo LEGAL de Peones (Edificaciones y Obras de Construccion): G. 118.248/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    }
+   ]
+  },
+  {
+   "nombre": "San Lorenzo (SLO)",
+   "precios": [
+    {
+     "idCanonico": "py_mat_cemento",
+     "nombre": "Cemento Portland",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CEMENTO",
+     "precio": 1375,
+     "nota": "Cemento tipo I, G. 1.375/kg en esta localidad segun la lista de ANDE POR LOCALIDAD. Cruce independiente: bolsa de 50 kg a G. 59.000 en retail = G. 1.180/kg."
+    },
+    {
+     "idCanonico": "py_mat_arena_comun",
+     "nombre": "Arena lavada (comun)",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ARENA_COMUN",
+     "precio": 64688,
+     "nota": "Arena lavada G. 64.688/m3, lista de ANDE por localidad. Cruce independiente en Asuncion: G. 61.700/m3 en costeo.com.py, 5 % de diferencia."
+    },
+    {
+     "idCanonico": "py_mat_arena_fina",
+     "nombre": "Arena lavada (fina)",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ARENA_FINA",
+     "precio": 64688,
+     "nota": "ANDE publica UNA sola arena (lavada): se le da el mismo precio que a la comun. CONFIRMAR si en Paraguay la fina cotiza distinto."
+    },
+    {
+     "idCanonico": "py_mat_grava",
+     "nombre": "Piedra triturada",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_GRAVA",
+     "precio": 185625,
+     "nota": "ANDE la publica POR TONELADA (G. 123.750/Tn). Pasada a m3 con densidad 1,5 t/m3 de basalto triturado: 123.750 x 1,5 = 185.625. La conversion es la unica parte no publicada; si se releva el peso real, se recalcula."
+    },
+    {
+     "idCanonico": "py_mat_grava_clasificada",
+     "nombre": "Piedra triturada clasificada",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_GRAVA_CLASIFICADA",
+     "precio": 185625,
+     "nota": "Mismo precio que la triturada: ANDE no separa granulometrias. CONFIRMAR."
+    },
+    {
+     "idCanonico": "py_mat_piedra_bruta",
+     "nombre": "Piedra bruta",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_PIEDRA_BRUTA",
+     "precio": 104000,
+     "nota": "G. 104.000/m3 (piedra bruta, costeo.com.py, ago-2026). SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_fierro",
+     "nombre": "Hierro nervurado",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_FIERRO",
+     "precio": 7390,
+     "nota": "Varilla de construccion G. 7.390/kg (costeo.com.py, ago-2026). Serie de 6 a 25 mm en barras de 12 m. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_cal",
+     "nombre": "Cal hidratada",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CAL",
+     "precio": 1250,
+     "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mo_albanil",
+     "nombre": "Oficial albanil",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ALBANIL",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_carpintero",
+     "nombre": "Oficial carpintero",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_CARPINTERO",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_encofrador",
+     "nombre": "Oficial encofrador",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ENCOFRADOR",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_armador",
+     "nombre": "Oficial armador",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ARMADOR",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o, por «y Anexos»: G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_especialista",
+     "nombre": "Oficial especializado",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ESPECIALISTA",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o: la resolucion NO publica un grado superior. CONFIRMAR: G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_ayudante",
+     "nombre": "Peon",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_AYUDANTE",
+     "precio": 18451,
+     "nota": "Jornal minimo LEGAL de Peones (Edificaciones y Obras de Construccion): G. 118.248/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    }
+   ]
+  },
+  {
+   "nombre": "Luque (LUQ)",
+   "precios": [
+    {
+     "idCanonico": "py_mat_cemento",
+     "nombre": "Cemento Portland",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CEMENTO",
+     "precio": 1375,
+     "nota": "Cemento tipo I, G. 1.375/kg en esta localidad segun la lista de ANDE POR LOCALIDAD. Cruce independiente: bolsa de 50 kg a G. 59.000 en retail = G. 1.180/kg."
+    },
+    {
+     "idCanonico": "py_mat_arena_comun",
+     "nombre": "Arena lavada (comun)",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ARENA_COMUN",
+     "precio": 64688,
+     "nota": "Arena lavada G. 64.688/m3, lista de ANDE por localidad. Cruce independiente en Asuncion: G. 61.700/m3 en costeo.com.py, 5 % de diferencia."
+    },
+    {
+     "idCanonico": "py_mat_arena_fina",
+     "nombre": "Arena lavada (fina)",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ARENA_FINA",
+     "precio": 64688,
+     "nota": "ANDE publica UNA sola arena (lavada): se le da el mismo precio que a la comun. CONFIRMAR si en Paraguay la fina cotiza distinto."
+    },
+    {
+     "idCanonico": "py_mat_grava",
+     "nombre": "Piedra triturada",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_GRAVA",
+     "precio": 185625,
+     "nota": "ANDE la publica POR TONELADA (G. 123.750/Tn). Pasada a m3 con densidad 1,5 t/m3 de basalto triturado: 123.750 x 1,5 = 185.625. La conversion es la unica parte no publicada; si se releva el peso real, se recalcula."
+    },
+    {
+     "idCanonico": "py_mat_grava_clasificada",
+     "nombre": "Piedra triturada clasificada",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_GRAVA_CLASIFICADA",
+     "precio": 185625,
+     "nota": "Mismo precio que la triturada: ANDE no separa granulometrias. CONFIRMAR."
+    },
+    {
+     "idCanonico": "py_mat_piedra_bruta",
+     "nombre": "Piedra bruta",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_PIEDRA_BRUTA",
+     "precio": 104000,
+     "nota": "G. 104.000/m3 (piedra bruta, costeo.com.py, ago-2026). SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_fierro",
+     "nombre": "Hierro nervurado",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_FIERRO",
+     "precio": 7390,
+     "nota": "Varilla de construccion G. 7.390/kg (costeo.com.py, ago-2026). Serie de 6 a 25 mm en barras de 12 m. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_cal",
+     "nombre": "Cal hidratada",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CAL",
+     "precio": 1250,
+     "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mo_albanil",
+     "nombre": "Oficial albanil",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ALBANIL",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_carpintero",
+     "nombre": "Oficial carpintero",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_CARPINTERO",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_encofrador",
+     "nombre": "Oficial encofrador",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ENCOFRADOR",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_armador",
+     "nombre": "Oficial armador",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ARMADOR",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o, por «y Anexos»: G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_especialista",
+     "nombre": "Oficial especializado",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ESPECIALISTA",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o: la resolucion NO publica un grado superior. CONFIRMAR: G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_ayudante",
+     "nombre": "Peon",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_AYUDANTE",
+     "precio": 18451,
+     "nota": "Jornal minimo LEGAL de Peones (Edificaciones y Obras de Construccion): G. 118.248/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    }
+   ]
+  },
+  {
+   "nombre": "Ciudad del Este (CDE)",
+   "precios": [
+    {
+     "idCanonico": "py_mat_cemento",
+     "nombre": "Cemento Portland",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CEMENTO",
+     "precio": 1500,
+     "nota": "Cemento tipo I, G. 1.500/kg en esta localidad segun la lista de ANDE POR LOCALIDAD. Cruce independiente: bolsa de 50 kg a G. 59.000 en retail = G. 1.180/kg."
+    },
+    {
+     "idCanonico": "py_mat_arena_comun",
+     "nombre": "Arena lavada (comun)",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ARENA_COMUN",
+     "precio": 136563,
+     "nota": "Arena lavada G. 136.563/m3, lista de ANDE por localidad. Cruce independiente en Asuncion: G. 61.700/m3 en costeo.com.py, 5 % de diferencia."
+    },
+    {
+     "idCanonico": "py_mat_arena_fina",
+     "nombre": "Arena lavada (fina)",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ARENA_FINA",
+     "precio": 136563,
+     "nota": "ANDE publica UNA sola arena (lavada): se le da el mismo precio que a la comun. CONFIRMAR si en Paraguay la fina cotiza distinto."
+    },
+    {
+     "idCanonico": "py_mat_grava",
+     "nombre": "Piedra triturada",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_GRAVA",
+     "precio": 206250,
+     "nota": "ANDE la publica POR TONELADA (G. 137.500/Tn). Pasada a m3 con densidad 1,5 t/m3 de basalto triturado: 137.500 x 1,5 = 206.250. La conversion es la unica parte no publicada; si se releva el peso real, se recalcula."
+    },
+    {
+     "idCanonico": "py_mat_grava_clasificada",
+     "nombre": "Piedra triturada clasificada",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_GRAVA_CLASIFICADA",
+     "precio": 206250,
+     "nota": "Mismo precio que la triturada: ANDE no separa granulometrias. CONFIRMAR."
+    },
+    {
+     "idCanonico": "py_mat_piedra_bruta",
+     "nombre": "Piedra bruta",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_PIEDRA_BRUTA",
+     "precio": 104000,
+     "nota": "G. 104.000/m3 (piedra bruta, costeo.com.py, ago-2026). SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_fierro",
+     "nombre": "Hierro nervurado",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_FIERRO",
+     "precio": 7390,
+     "nota": "Varilla de construccion G. 7.390/kg (costeo.com.py, ago-2026). Serie de 6 a 25 mm en barras de 12 m. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_cal",
+     "nombre": "Cal hidratada",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CAL",
+     "precio": 1250,
+     "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mo_albanil",
+     "nombre": "Oficial albanil",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ALBANIL",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_carpintero",
+     "nombre": "Oficial carpintero",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_CARPINTERO",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_encofrador",
+     "nombre": "Oficial encofrador",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ENCOFRADOR",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_armador",
+     "nombre": "Oficial armador",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ARMADOR",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o, por «y Anexos»: G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_especialista",
+     "nombre": "Oficial especializado",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ESPECIALISTA",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o: la resolucion NO publica un grado superior. CONFIRMAR: G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_ayudante",
+     "nombre": "Peon",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_AYUDANTE",
+     "precio": 18451,
+     "nota": "Jornal minimo LEGAL de Peones (Edificaciones y Obras de Construccion): G. 118.248/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    }
+   ]
+  },
+  {
+   "nombre": "Encarnación (ENC)",
+   "precios": [
+    {
+     "idCanonico": "py_mat_cemento",
+     "nombre": "Cemento Portland",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CEMENTO",
+     "precio": 1375,
+     "nota": "Cemento tipo I, G. 1.375/kg en esta localidad segun la lista de ANDE POR LOCALIDAD. Cruce independiente: bolsa de 50 kg a G. 59.000 en retail = G. 1.180/kg."
+    },
+    {
+     "idCanonico": "py_mat_arena_comun",
+     "nombre": "Arena lavada (comun)",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ARENA_COMUN",
+     "precio": 71875,
+     "nota": "Arena lavada G. 71.875/m3, lista de ANDE por localidad. Cruce independiente en Asuncion: G. 61.700/m3 en costeo.com.py, 5 % de diferencia."
+    },
+    {
+     "idCanonico": "py_mat_arena_fina",
+     "nombre": "Arena lavada (fina)",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ARENA_FINA",
+     "precio": 71875,
+     "nota": "ANDE publica UNA sola arena (lavada): se le da el mismo precio que a la comun. CONFIRMAR si en Paraguay la fina cotiza distinto."
+    },
+    {
+     "idCanonico": "py_mat_grava",
+     "nombre": "Piedra triturada",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_GRAVA",
+     "precio": 226875,
+     "nota": "ANDE la publica POR TONELADA (G. 151.250/Tn). Pasada a m3 con densidad 1,5 t/m3 de basalto triturado: 151.250 x 1,5 = 226.875. La conversion es la unica parte no publicada; si se releva el peso real, se recalcula."
+    },
+    {
+     "idCanonico": "py_mat_grava_clasificada",
+     "nombre": "Piedra triturada clasificada",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_GRAVA_CLASIFICADA",
+     "precio": 226875,
+     "nota": "Mismo precio que la triturada: ANDE no separa granulometrias. CONFIRMAR."
+    },
+    {
+     "idCanonico": "py_mat_piedra_bruta",
+     "nombre": "Piedra bruta",
+     "categoria": "Material",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_PIEDRA_BRUTA",
+     "precio": 104000,
+     "nota": "G. 104.000/m3 (piedra bruta, costeo.com.py, ago-2026). SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_fierro",
+     "nombre": "Hierro nervurado",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_FIERRO",
+     "precio": 7390,
+     "nota": "Varilla de construccion G. 7.390/kg (costeo.com.py, ago-2026). Serie de 6 a 25 mm en barras de 12 m. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_cal",
+     "nombre": "Cal hidratada",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CAL",
+     "precio": 1250,
+     "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mo_albanil",
+     "nombre": "Oficial albanil",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ALBANIL",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_carpintero",
+     "nombre": "Oficial carpintero",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_CARPINTERO",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_encofrador",
+     "nombre": "Oficial encofrador",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ENCOFRADOR",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o (Albaniles y Carpinteros, Encofradores y Anexos): G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_armador",
+     "nombre": "Oficial armador",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ARMADOR",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o, por «y Anexos»: G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_especialista",
+     "nombre": "Oficial especializado",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_ESPECIALISTA",
+     "precio": 21366,
+     "nota": "Jornal minimo LEGAL de Oficial de 1o: la resolucion NO publica un grado superior. CONFIRMAR: G. 136.927/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    },
+    {
+     "idCanonico": "py_mo_ayudante",
+     "nombre": "Peon",
+     "categoria": "Mano de obra",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "codigo": "PY_MO_AYUDANTE",
+     "precio": 18451,
+     "nota": "Jornal minimo LEGAL de Peones (Edificaciones y Obras de Construccion): G. 118.248/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado."
+    }
+   ]
+  }
+ ]
+}
