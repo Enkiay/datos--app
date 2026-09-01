@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-31",
+  "actualizado": "2026-09-01",
   "planes": {
     "perpetua": {
       "monto": 2000,
@@ -25,7 +25,8 @@
     "trimestral": {
       "monto": 250,
       "moneda": "Bs",
-      "bs": 250
+      "bs": 250,
+      "descuentoPct": 50
     },
     "educativa": {
       "monto": 30,
