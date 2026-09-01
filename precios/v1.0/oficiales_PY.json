@@ -1,8 +1,8 @@
 {
  "version": "1.0",
- "fuente": "ANDE (lista de precios de arena, cemento y piedra POR LOCALIDAD, 52 localidades) + Resolucion MTESS 670/2026 (escalafon legal del sector de la construccion) + costeo.com.py, ago-2026",
+ "fuente": "ANDE (lista de precios de arena, cemento y piedra POR LOCALIDAD, 52 localidades) + Resolucion MTESS 670/2026 (escalafon legal del sector de la construccion) + costeo.com.py, ago-2026 (materiales, clavos y alambre)",
  "pais": "PY",
- "nota": "Base de ARRANQUE de Paraguay, DOCE ciudades — las mismas que ofrece la caja del pais, ni una mas ni una menos. Tres cosas antes de usarla: (1) La mano de obra es el MINIMO LEGAL del escalafon de la construccion, cargado con IPS patronal 16,5 % y aguinaldo 8,33 %; es costo horario con las cargas ADENTRO, que es lo que pide el formulario de la DNCP y por eso la caja lleva cargasSociales = 0. Rige en todo el pais, asi que no varia por ciudad. (2) El cemento, la arena y la piedra salen de la lista de ANDE POR LOCALIDAD y varian de verdad: en Pedro Juan Caballero la arena cuesta casi el triple que en Asuncion. Cada precio dice de que fila salio. (3) Los demas materiales solo se relevaron en Asuncion; en las otras once se repite ese precio y cada uno lo dice en su nota. Falta que un profesional paraguayo la revise.",
+ "nota": "Base de ARRANQUE de Paraguay, DOCE ciudades — las mismas que ofrece la caja del pais, ni una mas ni una menos. Tres cosas antes de usarla: (1) La mano de obra es el MINIMO LEGAL del escalafon de la construccion, cargado con IPS patronal 16,5 % y aguinaldo 8,33 %; es costo horario con las cargas ADENTRO, que es lo que pide el formulario de la DNCP y por eso la caja lleva cargasSociales = 0. Rige en todo el pais, asi que no varia por ciudad. (2) El cemento, la arena y la piedra salen de la lista de ANDE POR LOCALIDAD y varian de verdad: en Pedro Juan Caballero la arena cuesta casi el triple que en Asuncion. Cada precio dice de que fila salio. (3) Los demas materiales solo se relevaron en Asuncion; en las otras once se repite ese precio y cada uno lo dice en su nota. AMPLIADA el 1-sep-2026 con CLAVOS y ALAMBRE DE ATAR, que eran dos de los tres insumos que trababan la mayor parte del catalogo. La MADERA sigue sin precio usable: alla se vende por metro lineal, por m2 o por pulgada de puntal, y el insumo esta en PIE CUADRADO — convertir sin saber la escuadria daria un numero inventado con cara de dato. Falta que un profesional paraguayo la revise.",
  "precios": [],
  "ciudades": [
   {
@@ -87,6 +87,26 @@
      "codigo": "PY_MAT_CAL",
      "precio": 1250,
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20."
+    },
+    {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado."
     },
     {
      "idCanonico": "py_mo_albanil",
@@ -234,6 +254,26 @@
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
      "idCanonico": "py_mo_albanil",
      "nombre": "Oficial albanil",
      "categoria": "Mano de obra",
@@ -377,6 +417,26 @@
      "codigo": "PY_MAT_CAL",
      "precio": 1250,
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
      "idCanonico": "py_mo_albanil",
@@ -524,6 +584,26 @@
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
      "idCanonico": "py_mo_albanil",
      "nombre": "Oficial albanil",
      "categoria": "Mano de obra",
@@ -667,6 +747,26 @@
      "codigo": "PY_MAT_CAL",
      "precio": 1250,
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
      "idCanonico": "py_mo_albanil",
@@ -814,6 +914,26 @@
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
      "idCanonico": "py_mo_albanil",
      "nombre": "Oficial albanil",
      "categoria": "Mano de obra",
@@ -957,6 +1077,26 @@
      "codigo": "PY_MAT_CAL",
      "precio": 1250,
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
      "idCanonico": "py_mo_albanil",
@@ -1104,6 +1244,26 @@
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
      "idCanonico": "py_mo_albanil",
      "nombre": "Oficial albanil",
      "categoria": "Mano de obra",
@@ -1247,6 +1407,26 @@
      "codigo": "PY_MAT_CAL",
      "precio": 1250,
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
      "idCanonico": "py_mo_albanil",
@@ -1394,6 +1574,26 @@
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
      "idCanonico": "py_mo_albanil",
      "nombre": "Oficial albanil",
      "categoria": "Mano de obra",
@@ -1539,6 +1739,26 @@
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
      "idCanonico": "py_mo_albanil",
      "nombre": "Oficial albanil",
      "categoria": "Mano de obra",
@@ -1682,6 +1902,26 @@
      "codigo": "PY_MAT_CAL",
      "precio": 1250,
      "nota": "Bolsa de 20 kg a G. 25.000 (costeo.com.py, ago-2026) dividida por 20. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_clavos",
+     "nombre": "Clavo con cabeza",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_CLAVOS",
+     "precio": 25000,
+     "nota": "Gs 25.000/kg (costeo.com.py, ago-2026). En la lista figuran «Clavo 1x10 c/ cabeza» y «Clavo 1x13 c/ cabeza» a ese precio, y «Clavo 2x13 SIN cabeza» a 20.000. ⚠ La medida de ENCOFRADO habitual (2 y 3 pulgadas con cabeza) NO figura suelta: se toma el precio de los con cabeza publicados. CONFIRMAR con una ferreteria. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
+    },
+    {
+     "idCanonico": "py_mat_alambre_amarre",
+     "nombre": "Alambre de atar",
+     "categoria": "Material",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE",
+     "precio": 20000,
+     "nota": "Gs 20.000/kg (costeo.com.py, ago-2026), publicado como «alambre de atar» — que es el de amarre de armaduras. La lista no separa recocido de galvanizado. SIN relevamiento propio en esta ciudad: se repite el de Asuncion. COTIZAR."
     },
     {
      "idCanonico": "py_mo_albanil",

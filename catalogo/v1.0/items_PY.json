@@ -2,7 +2,7 @@
  "version": "1.0",
  "schemaVersion": 1,
  "pais": "PY",
- "nota": "Base de ARRANQUE de Paraguay: 30 items. LO QUE HAY QUE SABER — los CONSUMOS (lo que el formulario de la DNCP llama asi) estan HEREDADOS del catalogo boliviano, no salen de una fuente paraguaya: no se encontro publicado ningun analisis de precios paraguayo con consumos. Lo que SI es paraguayo es todo el dinero: el escalafon legal de la construccion (Resolucion MTESS 670/2026) y los precios de material de ANDE y de costeo.com.py. Se publicaron SOLO los items cuyos insumos estan todos precificados con fuente; por eso no hay mamposteria (el ladrillo paraguayo mide 18x18x25 y el consumo boliviano no le sirve), ni encofrados (no se consiguio precio publicado de madera ni de clavos), ni hormigon vibrado (falta la tarifa horaria de equipos). Falta que un profesional paraguayo revise los consumos.",
+ "nota": "Base de ARRANQUE de Paraguay: 30 items. LO QUE HAY QUE SABER — los CONSUMOS (lo que el formulario de la DNCP llama asi) estan HEREDADOS del catalogo boliviano, no salen de una fuente paraguaya: no se encontro publicado ningun analisis de precios paraguayo con consumos. Lo que SI es paraguayo es todo el dinero: el escalafon legal de la construccion (Resolucion MTESS 670/2026) y los precios de material de ANDE y de costeo.com.py. Se publicaron SOLO los items cuyos insumos estan todos precificados con fuente; AMPLIADA el 1-sep-2026 con CLAVOS y ALAMBRE DE ATAR. Siguen afuera la mamposteria (el ladrillo paraguayo mide 18x18x25 y el consumo boliviano no le sirve), los encofrados (la MADERA sigue sin precio usable: alla se vende por metro lineal o por m2 y el insumo esta en pie cuadrado) y el hormigon vibrado (falta la tarifa horaria de equipos). Falta que un profesional paraguayo revise los consumos.",
  "items": [
   {
    "codigo": "UA001",
@@ -1169,6 +1169,75 @@
    "tags": []
   },
   {
+   "codigo": "OG013",
+   "nombre": "Acero de Refuerzo",
+   "tipoCalculo": "CANTIDAD",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "Kg",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Hierro nervurado",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero/Fierro de construcción",
+     "rendimiento": 1.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_fierro",
+     "codigo": "PY_MAT_FIERRO"
+    },
+    {
+     "nombre": "Alambre de atar",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero y Metal",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_alambre_amarre",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE"
+    },
+    {
+     "nombre": "Oficial armador",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.06,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_armador",
+     "codigo": "PY_MO_ARMADOR"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.08,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "1",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
    "codigo": "AC006",
    "nombre": "Buña o Goterón de Mortero",
    "tipoCalculo": "LONGITUD",
@@ -1787,6 +1856,148 @@
    "aliases": [],
    "subcategoria": "",
    "tags": []
+  },
+  {
+   "codigo": "OG064",
+   "nombre": "Acero Estructural P/Hormigón Simple Tipo A (Estribos)",
+   "tipoCalculo": "CANTIDAD",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "Kg",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Hierro nervurado",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero/Fierro de construcción",
+     "rendimiento": 1.1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_fierro",
+     "codigo": "PY_MAT_FIERRO"
+    },
+    {
+     "nombre": "Alambre de atar",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero y Metal",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_alambre_amarre",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE"
+    },
+    {
+     "nombre": "Oficial armador",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.07,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_armador",
+     "codigo": "PY_MO_ARMADOR"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.08,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "1",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": [
+    "estructural"
+   ]
+  },
+  {
+   "codigo": "OG065",
+   "nombre": "Acero Estructural P/Hormigón Simple Tipo A (Losa)",
+   "tipoCalculo": "CANTIDAD",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "Kg",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Hierro nervurado",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero/Fierro de construcción",
+     "rendimiento": 1.1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_fierro",
+     "codigo": "PY_MAT_FIERRO"
+    },
+    {
+     "nombre": "Alambre de atar",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero y Metal",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mat_alambre_amarre",
+     "codigo": "PY_MAT_ALAMBRE_AMARRE"
+    },
+    {
+     "nombre": "Oficial armador",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.07,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_armador",
+     "codigo": "PY_MO_ARMADOR"
+    },
+    {
+     "nombre": "Peon",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.08,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "py_mo_ayudante",
+     "codigo": "PY_MO_AYUDANTE"
+    }
+   ],
+   "parametros": [],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "1",
+   "aliases": [],
+   "subcategoria": "Losas",
+   "tags": [
+    "estructural"
+   ]
   }
  ]
 }
