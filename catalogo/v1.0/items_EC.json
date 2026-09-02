@@ -2,7 +2,7 @@
  "version": "v20260830-base-43",
  "schemaVersion": 1,
  "pais": "EC",
- "nota": "BASE DE ARRANQUE de Ecuador (30-ago-2026): 43 rubros esenciales de edificación con su APU según el formulario 1.6 de SERCOP (equipos, mano de obra, materiales, transporte; el precio del rubro NO incluye IVA — lo aplica la cadena ECU como cierre informativo). Rendimientos REFERENCIALES de práctica común, editables por proyecto. Mano de obra por salario real horario de la tabla 2026 de la Contraloría (incluye cargas sociales). Herramienta menor = 5% de la M.O. La base se completa con aportes.",
+ "nota": "BASE DE ARRANQUE de Ecuador (30-ago-2026): 43 rubros esenciales de edificación con su APU según el formulario 1.6 de SERCOP (equipos, mano de obra, materiales, transporte; el precio del rubro NO incluye IVA — lo aplica la cadena ECU como cierre informativo). Rendimientos REFERENCIALES de práctica común, editables por proyecto. Mano de obra por salario real horario de la tabla 2026 de la Contraloría (incluye cargas sociales). Herramienta menor = 5% de la M.O. La base se completa con aportes. AMPLIADO el 1-sep-2026: se sumaron items HEREDADOS del catalogo boliviano, con los precios de este pais. Entraron SOLO los que pasan tres filtros: (1) ningun insumo depende de una PIEZA local —el ladrillo, el bloque y la teja miden distinto en cada pais—; (2) todos sus insumos tienen precio publicado aca; y (3) las UNIDADES coinciden o hay un factor de conversion declarado. El cemento es el caso: Bolivia lo cotiza en KG y aca en SACO DE 50 KG, asi que el consumo se dividio por 50. Sin esa cuenta un hormigon habria salido cincuenta veces mas caro, y sin dar ningun error. Ademas se dejo AFUERA el item boliviano OG001 (Carpeta H.P.), que declara 20 kg de cemento por m3 cuando los otros trece de hormigon van de 200 a 350: parece un digito perdido y no se propaga. Los CONSUMOS de estos items son BOLIVIANOS y estan SIN VERIFICAR: es lo primero que tiene que mirar un profesional del pais.",
  "items": [
   {
    "codigo": "OP001",
@@ -3597,6 +3597,2692 @@
      "baseCalculo": "MO"
     }
    ]
+  },
+  {
+   "codigo": "UA001",
+   "nombre": "Revoque de cemento",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m2",
+   "categoria": "Acabados",
+   "verificado": false,
+   "tipoIfc": "WALL",
+   "insumos": [
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 0.16,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena fina",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.015,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena_fina",
+     "codigo": "MAT_ARENA_FINA"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "UA006",
+   "nombre": "Piso Cemento Alisado",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m2",
+   "categoria": "Acabados",
+   "verificado": false,
+   "tipoIfc": "SLAB",
+   "insumos": [
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 0.24,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena fina",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.015,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena_fina",
+     "codigo": "MAT_ARENA_FINA"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "UH002",
+   "nombre": "Excavación de zanjas",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Metro Lineal",
+   "unidadResultado": "m3",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "tipoIfc": "",
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 3.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "profundidad",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "40×60",
+     "valores": {
+      "ancho": 0.4,
+      "profundidad": 0.6
+     }
+    },
+    {
+     "nombre": "60×60",
+     "valores": {
+      "ancho": 0.6,
+      "profundidad": 0.6
+     }
+    },
+    {
+     "nombre": "80×80",
+     "valores": {
+      "ancho": 0.8,
+      "profundidad": 0.8
+     }
+    }
+   ]
+  },
+  {
+   "codigo": "UH003",
+   "nombre": "Capa de hormigón pobre",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Metro Lineal",
+   "unidadResultado": "m3",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "tipoIfc": "",
+   "insumos": [
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 4.0,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena gruesa",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.45,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena",
+     "codigo": "MAT_ARENA"
+    },
+    {
+     "nombre": "Ripio triturado",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_ripio",
+     "codigo": "MAT_RIPIO"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    },
+    {
+     "nombre": "Concretera de 1 saco",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "categoria": "Maquinaria",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_eq_concretera",
+     "codigo": "EQ_CONCRETERA"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "espesor",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "40×5cm",
+     "valores": {
+      "ancho": 0.4,
+      "espesor": 0.05
+     }
+    },
+    {
+     "nombre": "60×5cm",
+     "valores": {
+      "ancho": 0.6,
+      "espesor": 0.05
+     }
+    },
+    {
+     "nombre": "60×10cm",
+     "valores": {
+      "ancho": 0.6,
+      "espesor": 0.1
+     }
+    }
+   ]
+  },
+  {
+   "codigo": "UH004",
+   "nombre": "Cimiento corrido",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Metro Lineal",
+   "unidadResultado": "m3",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "tipoIfc": "FOOTING",
+   "insumos": [
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 4.0,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena gruesa",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.4,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena",
+     "codigo": "MAT_ARENA"
+    },
+    {
+     "nombre": "Ripio triturado",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_ripio",
+     "codigo": "MAT_RIPIO"
+    },
+    {
+     "nombre": "Piedra bola",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_piedra",
+     "codigo": "MAT_PIEDRA"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 3,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    },
+    {
+     "nombre": "Concretera de 1 saco",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "categoria": "Maquinaria",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_eq_concretera",
+     "codigo": "EQ_CONCRETERA"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "altura",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [
+    {
+     "nombre": "40×40",
+     "valores": {
+      "ancho": 0.4,
+      "altura": 0.4
+     }
+    },
+    {
+     "nombre": "40×60",
+     "valores": {
+      "ancho": 0.4,
+      "altura": 0.6
+     }
+    },
+    {
+     "nombre": "60×60",
+     "valores": {
+      "ancho": 0.6,
+      "altura": 0.6
+     }
+    }
+   ]
+  },
+  {
+   "codigo": "UH012",
+   "nombre": "Contrapiso con empedrado",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m2",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "tipoIfc": "SLAB",
+   "insumos": [
+    {
+     "nombre": "Piedra bola",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_piedra",
+     "codigo": "MAT_PIEDRA"
+    },
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 0.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena gruesa",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.015,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena",
+     "codigo": "MAT_ARENA"
+    },
+    {
+     "nombre": "Ripio triturado",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.02,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_ripio",
+     "codigo": "MAT_RIPIO"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    },
+    {
+     "nombre": "Concretera de 1 saco",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "categoria": "Maquinaria",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_eq_concretera",
+     "codigo": "EQ_CONCRETERA"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "OT003",
+   "nombre": "Excavación Manual",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "tipoIfc": "",
+   "insumos": [
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 1.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 3,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Profundidad",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "OT004",
+   "nombre": "Relleno y Compactado",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "tipoIfc": "",
+   "insumos": [
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "OT005",
+   "nombre": "Limpieza del Terreno",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "tipoIfc": "",
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "OG028",
+   "nombre": "Acera de H°S°",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "m2",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "tipoIfc": "SLAB",
+   "insumos": [
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 0.3,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena gruesa",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.015,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena",
+     "codigo": "MAT_ARENA"
+    },
+    {
+     "nombre": "Ripio triturado",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.025,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_ripio",
+     "codigo": "MAT_RIPIO"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    },
+    {
+     "nombre": "Concretera de 1 saco",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "categoria": "Maquinaria",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_eq_concretera",
+     "codigo": "EQ_CONCRETERA"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ]
+  },
+  {
+   "codigo": "OT047",
+   "nombre": "Demolición de Piso y Contrapiso",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": [
+    "demolición"
+   ]
+  },
+  {
+   "codigo": "OT049",
+   "nombre": "Demolición Hormigón Simple",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 13,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [
+    "DEMOLICIÓN Ho. Simple"
+   ],
+   "subcategoria": "Faenas",
+   "tags": [
+    "demolición"
+   ]
+  },
+  {
+   "codigo": "OT050",
+   "nombre": "Demolición Mampostería de Piedra",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 11.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": [
+    "demolición"
+   ]
+  },
+  {
+   "codigo": "MP001",
+   "nombre": "Demolición Muro de Ladrillo",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Mampostería",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 2.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": [
+    "demolición"
+   ]
+  },
+  {
+   "codigo": "OT006",
+   "nombre": "Desate de Gaviones",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 2.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": []
+  },
+  {
+   "codigo": "OT007",
+   "nombre": "Desempiedre",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.35,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": []
+  },
+  {
+   "codigo": "OT010",
+   "nombre": "Limpieza y Deshierbe",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.09,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": []
+  },
+  {
+   "codigo": "OT011",
+   "nombre": "Picado de Revoque Interior",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.9,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": [
+    "interior"
+   ]
+  },
+  {
+   "codigo": "OT014",
+   "nombre": "Retiro de Cielo Raso (Estuco bajo Losa)",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Faenas",
+   "tags": [
+    "estructural"
+   ]
+  },
+  {
+   "codigo": "OT016",
+   "nombre": "Excavación 0-1.5 M Terr. Blando",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 2.8,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [
+    "EXCAVACIÓN 0-1.5 m. TERR. BLANDO"
+   ],
+   "subcategoria": "Excavación",
+   "tags": []
+  },
+  {
+   "codigo": "OT017",
+   "nombre": "Excavación 0-1.5 M Terr. Semiduro",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 3.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [
+    "EXCAVACIÓN 0-1.5 m. TERR. SEMIDURO"
+   ],
+   "subcategoria": "Excavación",
+   "tags": []
+  },
+  {
+   "codigo": "OT018",
+   "nombre": "Excavación 0-1.5 M Terr. Duro",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 3.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [
+    "EXCAVACIÓN 0-1.5 m. TERR. DURO"
+   ],
+   "subcategoria": "Excavación",
+   "tags": []
+  },
+  {
+   "codigo": "OT023",
+   "nombre": "Relleno y Apisonado Manual de Tierra",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 2.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Excavación",
+   "tags": []
+  },
+  {
+   "codigo": "OT027",
+   "nombre": "Retiro y Transporte de Escombros con Carguío",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    },
+    {
+     "nombre": "Volqueta 8 m³",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "categoria": "Maquinaria",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_eq_volqueta",
+     "codigo": "EQ_VOLQUETA"
+    },
+    {
+     "nombre": "Retroexcavadora",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "categoria": "Maquinaria",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_eq_retro",
+     "codigo": "EQ_RETRO"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Excavación",
+   "tags": []
+  },
+  {
+   "codigo": "OG013",
+   "nombre": "Acero de Refuerzo",
+   "tipoCalculo": "CANTIDAD",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "Kg",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Acero de refuerzo fy=4200 kg/cm² (varilla corrugada)",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero/Fierro de construcción",
+     "rendimiento": 1.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_acero",
+     "codigo": "MAT_ACERO"
+    },
+    {
+     "nombre": "Alambre de amarre Nº 18",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero y Metal",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_alambre",
+     "codigo": "MAT_ALAMBRE"
+    },
+    {
+     "nombre": "Fierrero (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.06,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_fierrero",
+     "codigo": "MO_FIERRERO"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.08,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "1",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
+   "codigo": "AC006",
+   "nombre": "Buña o Goterón de Mortero",
+   "tipoCalculo": "LONGITUD",
+   "inputPrincipalLabel": "Longitud",
+   "unidadResultado": "m",
+   "categoria": "Acabados",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Arena fina",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena_fina",
+     "codigo": "MAT_ARENA_FINA"
+    },
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 0.1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.25,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
+   "codigo": "AC010",
+   "nombre": "Piruleado Exterior",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Acabados",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 0.005,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena fina",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.02,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena_fina",
+     "codigo": "MAT_ARENA_FINA"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": [
+    "exterior"
+   ]
+  },
+  {
+   "codigo": "AC019",
+   "nombre": "Contrapiso de Cemento sobre Losa",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Acabados",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 0.22,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena fina",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.06,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena_fina",
+     "codigo": "MAT_ARENA_FINA"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.9,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "SLAB",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "Largo*Ancho",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": [
+    "estructural"
+   ]
+  },
+  {
+   "codigo": "AC021",
+   "nombre": "Empedrado y Contrapiso de Ho",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Acabados",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 0.4,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena gruesa",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.06,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena",
+     "codigo": "MAT_ARENA"
+    },
+    {
+     "nombre": "Ripio triturado",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_ripio",
+     "codigo": "MAT_RIPIO"
+    },
+    {
+     "nombre": "Piedra bola",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_piedra",
+     "codigo": "MAT_PIEDRA"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 1.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "SLAB",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "Largo*Ancho",
+   "aliases": [
+    "EMPEDRADO Y CONTRAPISO DE Ho."
+   ],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
+   "codigo": "AC040",
+   "nombre": "Zócalo de Cemento",
+   "tipoCalculo": "LONGITUD",
+   "inputPrincipalLabel": "Longitud",
+   "unidadResultado": "m",
+   "categoria": "Acabados",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Cemento Portland tipo GU (saco 50 kg)",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Cemento y Cal",
+     "rendimiento": 0.14,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_cemento",
+     "codigo": "MAT_CEMENTO"
+    },
+    {
+     "nombre": "Arena gruesa",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.04,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_arena",
+     "codigo": "MAT_ARENA"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Zócalo",
+   "tags": []
+  },
+  {
+   "codigo": "OG044",
+   "nombre": "Cortado de Carpeta Asfáltica",
+   "tipoCalculo": "LONGITUD",
+   "inputPrincipalLabel": "Longitud",
+   "unidadResultado": "m",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Maestro mayor de obra (EO C1)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Obras Civiles",
+     "rendimiento": 0.07,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_maestro",
+     "codigo": "MO_MAESTRO"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
+   "codigo": "OG046",
+   "nombre": "Demolición Cordón de Acera",
+   "tipoCalculo": "LONGITUD",
+   "inputPrincipalLabel": "Longitud",
+   "unidadResultado": "m",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": [
+    "demolición"
+   ]
+  },
+  {
+   "codigo": "OG049",
+   "nombre": "Empedrado de Calzada",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Piedra bola",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_piedra",
+     "codigo": "MAT_PIEDRA"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.9,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.9,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
+   "codigo": "OG055",
+   "nombre": "Remoción y Reposición de Empedrado",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.7,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
+   "codigo": "OG061",
+   "nombre": "Excavación Común",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 3.6,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": []
+  },
+  {
+   "codigo": "OG064",
+   "nombre": "Acero Estructural P/Hormigón Simple Tipo A (Estribos)",
+   "tipoCalculo": "CANTIDAD",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "Kg",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Acero de refuerzo fy=4200 kg/cm² (varilla corrugada)",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero/Fierro de construcción",
+     "rendimiento": 1.1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_acero",
+     "codigo": "MAT_ACERO"
+    },
+    {
+     "nombre": "Alambre de amarre Nº 18",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero y Metal",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_alambre",
+     "codigo": "MAT_ALAMBRE"
+    },
+    {
+     "nombre": "Fierrero (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.07,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_fierrero",
+     "codigo": "MO_FIERRERO"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.08,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "1",
+   "aliases": [],
+   "subcategoria": "",
+   "tags": [
+    "estructural"
+   ]
+  },
+  {
+   "codigo": "OG065",
+   "nombre": "Acero Estructural P/Hormigón Simple Tipo A (Losa)",
+   "tipoCalculo": "CANTIDAD",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "Kg",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Acero de refuerzo fy=4200 kg/cm² (varilla corrugada)",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero/Fierro de construcción",
+     "rendimiento": 1.1,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_acero",
+     "codigo": "MAT_ACERO"
+    },
+    {
+     "nombre": "Alambre de amarre Nº 18",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero y Metal",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_alambre",
+     "codigo": "MAT_ALAMBRE"
+    },
+    {
+     "nombre": "Fierrero (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.07,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_fierrero",
+     "codigo": "MO_FIERRERO"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.08,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [],
+   "presets": [],
+   "tipoIfc": "GENERICO",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "1",
+   "aliases": [],
+   "subcategoria": "Losas",
+   "tags": [
+    "estructural"
+   ]
+  },
+  {
+   "codigo": "OT038",
+   "nombre": "Limpieza y Retiro de Escombros",
+   "tipoCalculo": "VOLUMEN",
+   "inputPrincipalLabel": "Volumen",
+   "unidadResultado": "m3",
+   "categoria": "Otros",
+   "verificado": false,
+   "insumos": [
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 1.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    },
+    {
+     "nombre": "Volqueta 8 m³",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "categoria": "Maquinaria",
+     "rendimiento": 0.2,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_eq_volqueta",
+     "codigo": "EQ_VOLQUETA"
+    },
+    {
+     "nombre": "Retroexcavadora",
+     "unidad": "Hr",
+     "tipoInsumo": "HERRAMIENTA",
+     "categoria": "Maquinaria",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_eq_retro",
+     "codigo": "EQ_RETRO"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "presets": [],
+   "tipoIfc": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "armaduraJson": "",
+   "formulaResultado": "",
+   "aliases": [],
+   "subcategoria": "Limpieza",
+   "tags": []
+  },
+  {
+   "codigo": "OG074",
+   "nombre": "Soladura de Piedra Manzana",
+   "tipoCalculo": "AREA",
+   "inputPrincipalLabel": "Área",
+   "unidadResultado": "m2",
+   "categoria": "Obra Gruesa",
+   "tipoIfc": "SLAB",
+   "insumos": [
+    {
+     "nombre": "Piedra bola",
+     "unidad": "m3",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Agregados",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mat_piedra",
+     "codigo": "MAT_PIEDRA"
+    },
+    {
+     "nombre": "Albañil (EO D2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_albanil",
+     "codigo": "MO_ALBANIL"
+    },
+    {
+     "nombre": "Peón (EO E2)",
+     "unidad": "Hr",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No Calificada",
+     "rendimiento": 0.15,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "ec_mo_peon",
+     "codigo": "MO_PEON"
+    }
+   ],
+   "parametros": [
+    {
+     "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    }
+   ],
+   "subcategoria": "Soladura",
+   "aliases": [
+    "SOLADURA DE PIEDRA MANZANA"
+   ],
+   "tags": [
+    "GAMC"
+   ],
+   "armaduraJson": "",
+   "autorNombre": "",
+   "autorUid": "",
+   "presets": [],
+   "formulaResultado": "",
+   "verificado": false
   }
  ]
 }
