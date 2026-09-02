@@ -2,7 +2,7 @@
  "version": "v20260830-base-43",
  "schemaVersion": 1,
  "pais": "EC",
- "nota": "BASE DE ARRANQUE de Ecuador (30-ago-2026): 43 rubros esenciales de edificación con su APU según el formulario 1.6 de SERCOP (equipos, mano de obra, materiales, transporte; el precio del rubro NO incluye IVA — lo aplica la cadena ECU como cierre informativo). Rendimientos REFERENCIALES de práctica común, editables por proyecto. Mano de obra por salario real horario de la tabla 2026 de la Contraloría (incluye cargas sociales). Herramienta menor = 5% de la M.O. La base se completa con aportes. AMPLIADO el 1-sep-2026: se sumaron items HEREDADOS del catalogo boliviano, con los precios de este pais. Entraron SOLO los que pasan tres filtros: (1) ningun insumo depende de una PIEZA local —el ladrillo, el bloque y la teja miden distinto en cada pais—; (2) todos sus insumos tienen precio publicado aca; y (3) las UNIDADES coinciden o hay un factor de conversion declarado. El cemento es el caso: Bolivia lo cotiza en KG y aca en SACO DE 50 KG, asi que el consumo se dividio por 50. Sin esa cuenta un hormigon habria salido cincuenta veces mas caro, y sin dar ningun error. Ademas se dejo AFUERA el item boliviano OG001 (Carpeta H.P.), que declara 20 kg de cemento por m3 cuando los otros trece de hormigon van de 200 a 350: parece un digito perdido y no se propaga. Los CONSUMOS de estos items son BOLIVIANOS y estan SIN VERIFICAR: es lo primero que tiene que mirar un profesional del pais.",
+ "nota": "BASE DE ARRANQUE de Ecuador (30-ago-2026): 43 rubros esenciales de edificación con su APU según el formulario 1.6 de SERCOP (equipos, mano de obra, materiales, transporte; el precio del rubro NO incluye IVA — lo aplica la cadena ECU como cierre informativo). Rendimientos REFERENCIALES de práctica común, editables por proyecto. Mano de obra por salario real horario de la tabla 2026 de la Contraloría (incluye cargas sociales). Herramienta menor = 5% de la M.O. La base se completa con aportes. AMPLIADO el 1-sep-2026: se sumaron items HEREDADOS del catalogo boliviano, con los precios de este pais. Entraron SOLO los que pasan tres filtros: (1) ningun insumo depende de una PIEZA local —el ladrillo, el bloque y la teja miden distinto en cada pais—; (2) todos sus insumos tienen precio publicado aca; y (3) las UNIDADES coinciden o hay un factor de conversion declarado. El cemento es el caso: Bolivia lo cotiza en KG y aca en SACO DE 50 KG, asi que el consumo se dividio por 50. Sin esa cuenta un hormigon habria salido cincuenta veces mas caro, y sin dar ningun error. Ademas se dejo AFUERA el item boliviano OG001 (Carpeta H.P.), que declara 20 kg de cemento por m3 cuando los otros trece de hormigon van de 200 a 350: parece un digito perdido y no se propaga. Los CONSUMOS de estos items son BOLIVIANOS y estan SIN VERIFICAR: es lo primero que tiene que mirar un profesional del pais. CODIGOS DESAMBIGUADOS el 1-sep-2026: los items HEREDADOS de Bolivia llevan el sufijo del pais (UA001 -> UA001EC). El indice de la base de la APK es UNIQUE sobre el codigo SIN el pais, asi que dos paises con el mismo codigo se pisan y la descarga del segundo se corta. El sufijo va AL FINAL a proposito: el filtro por grupos usa los DOS PRIMEROS caracteres del codigo, asi que el capitulo se conserva. Tambien se desambiguaron los codigos PROPIOS que coincidian con los de otro pais (Ecuador y Colombia compartian 15, y el segundo en bajar los perdia).",
  "items": [
   {
    "codigo": "OP001",
@@ -342,7 +342,7 @@
    ]
   },
   {
-   "codigo": "ES001",
+   "codigo": "ES001EC",
    "nombre": "Replantillo de H.S. f'c=140 kg/cm²",
    "categoria": "ESTRUCTURAS",
    "tipoCalculo": "VOLUMEN",
@@ -455,7 +455,7 @@
    ]
   },
   {
-   "codigo": "ES002",
+   "codigo": "ES002EC",
    "nombre": "Hormigón ciclópeo (60 % H.S. + 40 % piedra)",
    "categoria": "ESTRUCTURAS",
    "tipoCalculo": "VOLUMEN",
@@ -579,7 +579,7 @@
    ]
   },
   {
-   "codigo": "ES003",
+   "codigo": "ES003EC",
    "nombre": "Hormigón simple f'c=210 kg/cm² en plintos",
    "categoria": "ESTRUCTURAS",
    "tipoCalculo": "VOLUMEN",
@@ -703,7 +703,7 @@
    ]
   },
   {
-   "codigo": "ES004",
+   "codigo": "ES004EC",
    "nombre": "Hormigón f'c=210 kg/cm² en cadenas",
    "categoria": "ESTRUCTURAS",
    "tipoCalculo": "VOLUMEN",
@@ -827,7 +827,7 @@
    ]
   },
   {
-   "codigo": "ES005",
+   "codigo": "ES005EC",
    "nombre": "Hormigón f'c=210 kg/cm² en columnas",
    "categoria": "ESTRUCTURAS",
    "tipoCalculo": "VOLUMEN",
@@ -951,7 +951,7 @@
    ]
   },
   {
-   "codigo": "ES006",
+   "codigo": "ES006EC",
    "nombre": "Hormigón f'c=210 kg/cm² en losa",
    "categoria": "ESTRUCTURAS",
    "tipoCalculo": "VOLUMEN",
@@ -1075,7 +1075,7 @@
    ]
   },
   {
-   "codigo": "ES007",
+   "codigo": "ES007EC",
    "nombre": "Encofrado y desencofrado de madera",
    "categoria": "ESTRUCTURAS",
    "tipoCalculo": "AREA",
@@ -1304,7 +1304,7 @@
    ]
   },
   {
-   "codigo": "MA001",
+   "codigo": "MA001EC",
    "nombre": "Mampostería de bloque e=15 cm",
    "categoria": "MAMPOSTERÍA",
    "tipoCalculo": "AREA",
@@ -1406,7 +1406,7 @@
    ]
   },
   {
-   "codigo": "MA002",
+   "codigo": "MA002EC",
    "nombre": "Mampostería de bloque e=10 cm",
    "categoria": "MAMPOSTERÍA",
    "tipoCalculo": "AREA",
@@ -1872,7 +1872,7 @@
    ]
   },
   {
-   "codigo": "PI001",
+   "codigo": "PI001EC",
    "nombre": "Contrapiso de H.S. f'c=180 kg/cm² e=8 cm",
    "categoria": "PISOS Y RECUBRIMIENTOS",
    "tipoCalculo": "AREA",
@@ -1974,7 +1974,7 @@
    ]
   },
   {
-   "codigo": "PI002",
+   "codigo": "PI002EC",
    "nombre": "Cerámica nacional en piso",
    "categoria": "PISOS Y RECUBRIMIENTOS",
    "tipoCalculo": "AREA",
@@ -2054,7 +2054,7 @@
    ]
   },
   {
-   "codigo": "PI003",
+   "codigo": "PI003EC",
    "nombre": "Porcelanato en piso",
    "categoria": "PISOS Y RECUBRIMIENTOS",
    "tipoCalculo": "AREA",
@@ -2203,7 +2203,7 @@
    ]
   },
   {
-   "codigo": "CR001",
+   "codigo": "CR001EC",
    "nombre": "Cielo raso de gypsum con perfilería",
    "categoria": "CIELOS RASOS",
    "tipoCalculo": "AREA",
@@ -2261,7 +2261,7 @@
    ]
   },
   {
-   "codigo": "CA001",
+   "codigo": "CA001EC",
    "nombre": "Puerta tamborada incl. cerradura y bisagras",
    "categoria": "CARPINTERÍA Y ALUMINIO",
    "tipoCalculo": "CANTIDAD",
@@ -2341,7 +2341,7 @@
    ]
   },
   {
-   "codigo": "CA002",
+   "codigo": "CA002EC",
    "nombre": "Ventana de aluminio con vidrio de 4 mm",
    "categoria": "CARPINTERÍA Y ALUMINIO",
    "tipoCalculo": "AREA",
@@ -2399,7 +2399,7 @@
    ]
   },
   {
-   "codigo": "CU001",
+   "codigo": "CU001EC",
    "nombre": "Estructura de cubierta con correas metálicas",
    "categoria": "CUBIERTAS",
    "tipoCalculo": "AREA",
@@ -2501,7 +2501,7 @@
    ]
   },
   {
-   "codigo": "CU002",
+   "codigo": "CU002EC",
    "nombre": "Cubierta de fibrocemento sobre estructura",
    "categoria": "CUBIERTAS",
    "tipoCalculo": "AREA",
@@ -2570,7 +2570,7 @@
    ]
   },
   {
-   "codigo": "PT001",
+   "codigo": "PT001EC",
    "nombre": "Empastado interior de paredes",
    "categoria": "PINTURA",
    "tipoCalculo": "AREA",
@@ -2628,7 +2628,7 @@
    ]
   },
   {
-   "codigo": "PT002",
+   "codigo": "PT002EC",
    "nombre": "Pintura de caucho interior (2 manos)",
    "categoria": "PINTURA",
    "tipoCalculo": "AREA",
@@ -2697,7 +2697,7 @@
    ]
   },
   {
-   "codigo": "PT003",
+   "codigo": "PT003EC",
    "nombre": "Pintura de caucho exterior (2 manos)",
    "categoria": "PINTURA",
    "tipoCalculo": "AREA",
@@ -2766,7 +2766,7 @@
    ]
   },
   {
-   "codigo": "IS001",
+   "codigo": "IS001EC",
    "nombre": "Punto de agua fría PVC roscable 1/2\"",
    "categoria": "INSTALACIONES HIDROSANITARIAS",
    "tipoCalculo": "CANTIDAD",
@@ -2835,7 +2835,7 @@
    ]
   },
   {
-   "codigo": "IS002",
+   "codigo": "IS002EC",
    "nombre": "Punto de desagüe PVC 110 mm",
    "categoria": "INSTALACIONES HIDROSANITARIAS",
    "tipoCalculo": "CANTIDAD",
@@ -2904,7 +2904,7 @@
    ]
   },
   {
-   "codigo": "IS003",
+   "codigo": "IS003EC",
    "nombre": "Tendido de tubería PVC 110 mm",
    "categoria": "INSTALACIONES HIDROSANITARIAS",
    "tipoCalculo": "LONGITUD",
@@ -2973,7 +2973,7 @@
    ]
   },
   {
-   "codigo": "IS004",
+   "codigo": "IS004EC",
    "nombre": "Inodoro de tanque bajo, instalado",
    "categoria": "INSTALACIONES HIDROSANITARIAS",
    "tipoCalculo": "CANTIDAD",
@@ -3042,7 +3042,7 @@
    ]
   },
   {
-   "codigo": "IS005",
+   "codigo": "IS005EC",
    "nombre": "Lavamanos con grifería, instalado",
    "categoria": "INSTALACIONES HIDROSANITARIAS",
    "tipoCalculo": "CANTIDAD",
@@ -3122,7 +3122,7 @@
    ]
   },
   {
-   "codigo": "IE001",
+   "codigo": "IE001EC",
    "nombre": "Punto de iluminación (conduit + conductor)",
    "categoria": "INSTALACIONES ELÉCTRICAS",
    "tipoCalculo": "CANTIDAD",
@@ -3235,7 +3235,7 @@
    ]
   },
   {
-   "codigo": "IE002",
+   "codigo": "IE002EC",
    "nombre": "Punto de tomacorriente doble polarizado",
    "categoria": "INSTALACIONES ELÉCTRICAS",
    "tipoCalculo": "CANTIDAD",
@@ -3326,7 +3326,7 @@
    ]
   },
   {
-   "codigo": "IE003",
+   "codigo": "IE003EC",
    "nombre": "Tablero de distribución de 8 puntos con breakers",
    "categoria": "INSTALACIONES ELÉCTRICAS",
    "tipoCalculo": "CANTIDAD",
@@ -3599,7 +3599,7 @@
    ]
   },
   {
-   "codigo": "UA001",
+   "codigo": "UA001EC",
    "nombre": "Revoque de cemento",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3673,7 +3673,7 @@
    ]
   },
   {
-   "codigo": "UA006",
+   "codigo": "UA006EC",
    "nombre": "Piso Cemento Alisado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3747,7 +3747,7 @@
    ]
   },
   {
-   "codigo": "UH002",
+   "codigo": "UH002EC",
    "nombre": "Excavación de zanjas",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Metro Lineal",
@@ -3814,7 +3814,7 @@
    ]
   },
   {
-   "codigo": "UH003",
+   "codigo": "UH003EC",
    "nombre": "Capa de hormigón pobre",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Metro Lineal",
@@ -3941,7 +3941,7 @@
    ]
   },
   {
-   "codigo": "UH004",
+   "codigo": "UH004EC",
    "nombre": "Cimiento corrido",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Metro Lineal",
@@ -4080,7 +4080,7 @@
    ]
   },
   {
-   "codigo": "UH012",
+   "codigo": "UH012EC",
    "nombre": "Contrapiso con empedrado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -4190,7 +4190,7 @@
    ]
   },
   {
-   "codigo": "OT003",
+   "codigo": "OT003EC",
    "nombre": "Excavación Manual",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -4246,7 +4246,7 @@
    ]
   },
   {
-   "codigo": "OT004",
+   "codigo": "OT004EC",
    "nombre": "Relleno y Compactado",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -4302,7 +4302,7 @@
    ]
   },
   {
-   "codigo": "OT005",
+   "codigo": "OT005EC",
    "nombre": "Limpieza del Terreno",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -4340,7 +4340,7 @@
    ]
   },
   {
-   "codigo": "OG028",
+   "codigo": "OG028EC",
    "nombre": "Acera de H°S°",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -4438,7 +4438,7 @@
    ]
   },
   {
-   "codigo": "OT047",
+   "codigo": "OT047EC",
    "nombre": "Demolición de Piso y Contrapiso",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -4486,7 +4486,7 @@
    ]
   },
   {
-   "codigo": "OT049",
+   "codigo": "OT049EC",
    "nombre": "Demolición Hormigón Simple",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -4542,7 +4542,7 @@
    ]
   },
   {
-   "codigo": "OT050",
+   "codigo": "OT050EC",
    "nombre": "Demolición Mampostería de Piedra",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -4596,7 +4596,7 @@
    ]
   },
   {
-   "codigo": "MP001",
+   "codigo": "MP001EC",
    "nombre": "Demolición Muro de Ladrillo",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -4644,7 +4644,7 @@
    ]
   },
   {
-   "codigo": "OT006",
+   "codigo": "OT006EC",
    "nombre": "Desate de Gaviones",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -4696,7 +4696,7 @@
    "tags": []
   },
   {
-   "codigo": "OT007",
+   "codigo": "OT007EC",
    "nombre": "Desempiedre",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -4742,7 +4742,7 @@
    "tags": []
   },
   {
-   "codigo": "OT010",
+   "codigo": "OT010EC",
    "nombre": "Limpieza y Deshierbe",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -4788,7 +4788,7 @@
    "tags": []
   },
   {
-   "codigo": "OT011",
+   "codigo": "OT011EC",
    "nombre": "Picado de Revoque Interior",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -4836,7 +4836,7 @@
    ]
   },
   {
-   "codigo": "OT014",
+   "codigo": "OT014EC",
    "nombre": "Retiro de Cielo Raso (Estuco bajo Losa)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -4884,7 +4884,7 @@
    ]
   },
   {
-   "codigo": "OT016",
+   "codigo": "OT016EC",
    "nombre": "Excavación 0-1.5 M Terr. Blando",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -4950,7 +4950,7 @@
    "tags": []
   },
   {
-   "codigo": "OT017",
+   "codigo": "OT017EC",
    "nombre": "Excavación 0-1.5 M Terr. Semiduro",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -5016,7 +5016,7 @@
    "tags": []
   },
   {
-   "codigo": "OT018",
+   "codigo": "OT018EC",
    "nombre": "Excavación 0-1.5 M Terr. Duro",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -5082,7 +5082,7 @@
    "tags": []
   },
   {
-   "codigo": "OT023",
+   "codigo": "OT023EC",
    "nombre": "Relleno y Apisonado Manual de Tierra",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -5146,7 +5146,7 @@
    "tags": []
   },
   {
-   "codigo": "OT027",
+   "codigo": "OT027EC",
    "nombre": "Retiro y Transporte de Escombros con Carguío",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -5222,7 +5222,7 @@
    "tags": []
   },
   {
-   "codigo": "OG013",
+   "codigo": "OG013EC",
    "nombre": "Acero de Refuerzo",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -5291,7 +5291,7 @@
    "tags": []
   },
   {
-   "codigo": "AC006",
+   "codigo": "AC006EC",
    "nombre": "Buña o Goterón de Mortero",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Longitud",
@@ -5367,7 +5367,7 @@
    "tags": []
   },
   {
-   "codigo": "AC010",
+   "codigo": "AC010EC",
    "nombre": "Piruleado Exterior",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -5451,7 +5451,7 @@
    ]
   },
   {
-   "codigo": "AC019",
+   "codigo": "AC019EC",
    "nombre": "Contrapiso de Cemento sobre Losa",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -5535,7 +5535,7 @@
    ]
   },
   {
-   "codigo": "AC021",
+   "codigo": "AC021EC",
    "nombre": "Empedrado y Contrapiso de Ho",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -5643,7 +5643,7 @@
    "tags": []
   },
   {
-   "codigo": "AC040",
+   "codigo": "AC040EC",
    "nombre": "Zócalo de Cemento",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Longitud",
@@ -5719,7 +5719,7 @@
    "tags": []
   },
   {
-   "codigo": "OG044",
+   "codigo": "OG044EC",
    "nombre": "Cortado de Carpeta Asfáltica",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Longitud",
@@ -5759,7 +5759,7 @@
    "tags": []
   },
   {
-   "codigo": "OG046",
+   "codigo": "OG046EC",
    "nombre": "Demolición Cordón de Acera",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Longitud",
@@ -5801,7 +5801,7 @@
    ]
   },
   {
-   "codigo": "OG049",
+   "codigo": "OG049EC",
    "nombre": "Empedrado de Calzada",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -5871,7 +5871,7 @@
    "tags": []
   },
   {
-   "codigo": "OG055",
+   "codigo": "OG055EC",
    "nombre": "Remoción y Reposición de Empedrado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -5929,7 +5929,7 @@
    "tags": []
   },
   {
-   "codigo": "OG061",
+   "codigo": "OG061EC",
    "nombre": "Excavación Común",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -5993,7 +5993,7 @@
    "tags": []
   },
   {
-   "codigo": "OG064",
+   "codigo": "OG064EC",
    "nombre": "Acero Estructural P/Hormigón Simple Tipo A (Estribos)",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -6064,7 +6064,7 @@
    ]
   },
   {
-   "codigo": "OG065",
+   "codigo": "OG065EC",
    "nombre": "Acero Estructural P/Hormigón Simple Tipo A (Losa)",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -6135,7 +6135,7 @@
    ]
   },
   {
-   "codigo": "OT038",
+   "codigo": "OT038EC",
    "nombre": "Limpieza y Retiro de Escombros",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -6211,7 +6211,7 @@
    "tags": []
   },
   {
-   "codigo": "OG074",
+   "codigo": "OG074EC",
    "nombre": "Soladura de Piedra Manzana",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",

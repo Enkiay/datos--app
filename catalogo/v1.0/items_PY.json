@@ -2,10 +2,10 @@
  "version": "1.0",
  "schemaVersion": 1,
  "pais": "PY",
- "nota": "Base de ARRANQUE de Paraguay: 30 items. LO QUE HAY QUE SABER — los CONSUMOS (lo que el formulario de la DNCP llama asi) estan HEREDADOS del catalogo boliviano, no salen de una fuente paraguaya: no se encontro publicado ningun analisis de precios paraguayo con consumos. Lo que SI es paraguayo es todo el dinero: el escalafon legal de la construccion (Resolucion MTESS 670/2026) y los precios de material de ANDE y de costeo.com.py. Se publicaron SOLO los items cuyos insumos estan todos precificados con fuente; AMPLIADA el 1-sep-2026 con CLAVOS y ALAMBRE DE ATAR. Siguen afuera la mamposteria (el ladrillo paraguayo mide 18x18x25 y el consumo boliviano no le sirve), los encofrados (la MADERA sigue sin precio usable: alla se vende por metro lineal o por m2 y el insumo esta en pie cuadrado) y el hormigon vibrado (falta la tarifa horaria de equipos). Falta que un profesional paraguayo revise los consumos.",
+ "nota": "Base de ARRANQUE de Paraguay: 30 items. LO QUE HAY QUE SABER — los CONSUMOS (lo que el formulario de la DNCP llama asi) estan HEREDADOS del catalogo boliviano, no salen de una fuente paraguaya: no se encontro publicado ningun analisis de precios paraguayo con consumos. Lo que SI es paraguayo es todo el dinero: el escalafon legal de la construccion (Resolucion MTESS 670/2026) y los precios de material de ANDE y de costeo.com.py. Se publicaron SOLO los items cuyos insumos estan todos precificados con fuente; AMPLIADA el 1-sep-2026 con CLAVOS y ALAMBRE DE ATAR. Siguen afuera la mamposteria (el ladrillo paraguayo mide 18x18x25 y el consumo boliviano no le sirve), los encofrados (la MADERA sigue sin precio usable: alla se vende por metro lineal o por m2 y el insumo esta en pie cuadrado) y el hormigon vibrado (falta la tarifa horaria de equipos). Falta que un profesional paraguayo revise los consumos. CODIGOS DESAMBIGUADOS el 1-sep-2026: los items HEREDADOS de Bolivia llevan el sufijo del pais (UA001 -> UA001PY). El indice de la base de la APK es UNIQUE sobre el codigo SIN el pais, asi que dos paises con el mismo codigo se pisan y la descarga del segundo se corta. El sufijo va AL FINAL a proposito: el filtro por grupos usa los DOS PRIMEROS caracteres del codigo, asi que el capitulo se conserva.",
  "items": [
   {
-   "codigo": "UA001",
+   "codigo": "UA001PY",
    "nombre": "Revoque de cemento",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -79,7 +79,7 @@
    ]
   },
   {
-   "codigo": "UA006",
+   "codigo": "UA006PY",
    "nombre": "Piso Cemento Alisado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -153,7 +153,7 @@
    ]
   },
   {
-   "codigo": "UH002",
+   "codigo": "UH002PY",
    "nombre": "Excavación de zanjas",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Metro Lineal",
@@ -220,7 +220,7 @@
    ]
   },
   {
-   "codigo": "OT003",
+   "codigo": "OT003PY",
    "nombre": "Excavación Manual",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -276,7 +276,7 @@
    ]
   },
   {
-   "codigo": "OT004",
+   "codigo": "OT004PY",
    "nombre": "Relleno y Compactado",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -332,7 +332,7 @@
    ]
   },
   {
-   "codigo": "OT005",
+   "codigo": "OT005PY",
    "nombre": "Limpieza del Terreno",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -370,7 +370,7 @@
    ]
   },
   {
-   "codigo": "OT047",
+   "codigo": "OT047PY",
    "nombre": "Demolición de Piso y Contrapiso",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -418,7 +418,7 @@
    ]
   },
   {
-   "codigo": "OT049",
+   "codigo": "OT049PY",
    "nombre": "Demolición Hormigón Simple",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -474,7 +474,7 @@
    ]
   },
   {
-   "codigo": "OT050",
+   "codigo": "OT050PY",
    "nombre": "Demolición Mampostería de Piedra",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -528,7 +528,7 @@
    ]
   },
   {
-   "codigo": "MP001",
+   "codigo": "MP001PY",
    "nombre": "Demolición Muro de Ladrillo",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -576,7 +576,7 @@
    ]
   },
   {
-   "codigo": "CU001",
+   "codigo": "CU001PY",
    "nombre": "Desate de Cubierta de Calamina",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -622,7 +622,7 @@
    "tags": []
   },
   {
-   "codigo": "OT006",
+   "codigo": "OT006PY",
    "nombre": "Desate de Gaviones",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -674,7 +674,7 @@
    "tags": []
   },
   {
-   "codigo": "CR001",
+   "codigo": "CR001PY",
    "nombre": "Desate de Puerta - Ventana",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -719,7 +719,7 @@
    "tags": []
   },
   {
-   "codigo": "OT007",
+   "codigo": "OT007PY",
    "nombre": "Desempiedre",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -765,7 +765,7 @@
    "tags": []
   },
   {
-   "codigo": "OT010",
+   "codigo": "OT010PY",
    "nombre": "Limpieza y Deshierbe",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -811,7 +811,7 @@
    "tags": []
   },
   {
-   "codigo": "OT011",
+   "codigo": "OT011PY",
    "nombre": "Picado de Revoque Interior",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -859,7 +859,7 @@
    ]
   },
   {
-   "codigo": "OT014",
+   "codigo": "OT014PY",
    "nombre": "Retiro de Cielo Raso (Estuco bajo Losa)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -907,7 +907,7 @@
    ]
   },
   {
-   "codigo": "OT016",
+   "codigo": "OT016PY",
    "nombre": "Excavación 0-1.5 M Terr. Blando",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -973,7 +973,7 @@
    "tags": []
   },
   {
-   "codigo": "OT017",
+   "codigo": "OT017PY",
    "nombre": "Excavación 0-1.5 M Terr. Semiduro",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -1039,7 +1039,7 @@
    "tags": []
   },
   {
-   "codigo": "OT018",
+   "codigo": "OT018PY",
    "nombre": "Excavación 0-1.5 M Terr. Duro",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -1105,7 +1105,7 @@
    "tags": []
   },
   {
-   "codigo": "OT023",
+   "codigo": "OT023PY",
    "nombre": "Relleno y Apisonado Manual de Tierra",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -1169,7 +1169,7 @@
    "tags": []
   },
   {
-   "codigo": "OG013",
+   "codigo": "OG013PY",
    "nombre": "Acero de Refuerzo",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -1238,7 +1238,7 @@
    "tags": []
   },
   {
-   "codigo": "AC006",
+   "codigo": "AC006PY",
    "nombre": "Buña o Goterón de Mortero",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Longitud",
@@ -1314,7 +1314,7 @@
    "tags": []
   },
   {
-   "codigo": "AC010",
+   "codigo": "AC010PY",
    "nombre": "Piruleado Exterior",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -1398,7 +1398,7 @@
    ]
   },
   {
-   "codigo": "AC016",
+   "codigo": "AC016PY",
    "nombre": "Revoque Exterior Cal-Cemento",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -1494,7 +1494,7 @@
    ]
   },
   {
-   "codigo": "AC019",
+   "codigo": "AC019PY",
    "nombre": "Contrapiso de Cemento sobre Losa",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -1578,7 +1578,7 @@
    ]
   },
   {
-   "codigo": "AC040",
+   "codigo": "AC040PY",
    "nombre": "Zócalo de Cemento",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Longitud",
@@ -1654,7 +1654,7 @@
    "tags": []
   },
   {
-   "codigo": "OG044",
+   "codigo": "OG044PY",
    "nombre": "Cortado de Carpeta Asfáltica",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Longitud",
@@ -1694,7 +1694,7 @@
    "tags": []
   },
   {
-   "codigo": "OG046",
+   "codigo": "OG046PY",
    "nombre": "Demolición Cordón de Acera",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Longitud",
@@ -1736,7 +1736,7 @@
    ]
   },
   {
-   "codigo": "OG055",
+   "codigo": "OG055PY",
    "nombre": "Remoción y Reposición de Empedrado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Área",
@@ -1794,7 +1794,7 @@
    "tags": []
   },
   {
-   "codigo": "OG061",
+   "codigo": "OG061PY",
    "nombre": "Excavación Común",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Volumen",
@@ -1858,7 +1858,7 @@
    "tags": []
   },
   {
-   "codigo": "OG064",
+   "codigo": "OG064PY",
    "nombre": "Acero Estructural P/Hormigón Simple Tipo A (Estribos)",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -1929,7 +1929,7 @@
    ]
   },
   {
-   "codigo": "OG065",
+   "codigo": "OG065PY",
    "nombre": "Acero Estructural P/Hormigón Simple Tipo A (Losa)",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
