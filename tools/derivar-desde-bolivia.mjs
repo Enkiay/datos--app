@@ -44,7 +44,7 @@ const mediana = (a) => { const s = [...a].sort((x, y) => x - y); return s.length
 // escalafón). Se declara acá, insumo por insumo, para que la decisión quede escrita.
 const CONFIG = {
   PY: {
-    version: "v20260902-completa",
+    version: "v20260902-referencias-capaco",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Paraguay: ANDE (arena, cemento y piedra por localidad), Resolución MTESS 670/2026 (escalafón de la construcción) y costeo.com.py ago-2026",
     equivalentes: {
       cemento_portland_kg: "py_mat_cemento", arena_comun_m3: "py_mat_arena_comun", arena_fina_m3: "py_mat_arena_fina",

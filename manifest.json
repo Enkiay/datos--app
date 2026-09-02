@@ -87,11 +87,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_AR.json"
     },
     "catalogo_PY": {
-      "version": "v20260902-completa",
+      "version": "v20260902-referencias-capaco",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_PY.json"
     },
     "precios_PY": {
-      "version": "v20260902-completa",
+      "version": "v20260902-referencias-capaco",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PY.json"
     }
   }
