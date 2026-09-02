@@ -4,9 +4,18 @@
 //
 // Produce, para el país pedido:
 //   precios/v1.0/oficiales_XX.json → TODOS los insumos de Bolivia (751) bajo el espacio del
-//       país (`xx_<idBoliviano>`), en TODAS las ciudades de la caja. Los que tienen precio
-//       relevado lo traen (por ciudad); los demás van en 0 con nota «PENDIENTE» — el usuario
-//       los ve como «sin precio» y puede cargarlos a mano. Nunca un número inventado.
+//       país (`xx_<idBoliviano>`), en TODAS las ciudades de la caja. Cada precio dice en su
+//       nota de dónde salió, en este orden de preferencia:
+//         · RELEVADO: precio del país ya publicado (tabla `equivalentes`/`familias`).
+//         · REFERENCIA: precio leído en una fuente concreta (precios/fuentes/referencias_XX.json:
+//           idBo, precio en la unidad boliviana, fuente, url, fecha, conversión).
+//         · ESTIMADO: precio boliviano × la relación mediana precio_XX/precio_BO medida en los
+//           insumos que tienen precio en los dos lados, por tipo (material / M.O. / equipo).
+//           Oscar, 2-sep-2026: «para aquellos que no encuentres, completar por relación».
+//           La nota lo dice con el factor y pide revisar. `--sin-estimar` lo apaga.
+//         · PENDIENTE (0): sólo si no hay ni un par para medir la relación.
+//       Al regenerar, sólo los RELEVADOS cuentan como precio del país (COPIADO/ESTIMADO se
+//       recalculan): el generador es idempotente y las referencias viven en su propio archivo.
 //   catalogo/v1.0/items_XX.json → SÓLO los ítems bolivianos cuyos insumos tienen TODOS precio.
 //       Es la regla de la casa (`estado-de-las-bases.test.ts`): un ítem con un insumo en cero
 //       no da error, da un APU barato. La base CRECE SOLA: relevás precios, regenerás, entran
@@ -22,6 +31,12 @@ const BASE = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PAIS = (process.argv[2] || "").toUpperCase();
 if (!PAIS) { console.error("uso: node tools/derivar-desde-bolivia.mjs <ISO>"); process.exit(2); }
 const iso = PAIS.toLowerCase();
+const ESTIMAR = !process.argv.includes("--sin-estimar");
+// Unidades comparables: «Hr» = «h», «m²» = «m2», sin espacios ni puntos.
+const u = (s) => String(s ?? "").toLowerCase().replace(/[\s.]/g, "").replace("²", "2").replace("³", "3").replace(/^(hr|hora)$/, "h");
+// Un precio estimado se redondea a la precisión que se cotiza: entero si pasa de 100.
+const redondear = (v) => (v >= 100 ? Math.round(v) : Math.round(v * 100) / 100);
+const mediana = (a) => { const s = [...a].sort((x, y) => x - y); return s.length ? (s.length % 2 ? s[(s.length - 1) / 2] : (s[s.length / 2 - 1] + s[s.length / 2]) / 2) : null; };
 
 // ── LA TABLA DEL PAÍS: qué insumo boliviano ya tiene precio relevado, y con qué id ──────────
 // `equivalentes`: id boliviano → id YA publicado del país (conserva el id y el precio por ciudad).
@@ -29,7 +44,7 @@ const iso = PAIS.toLowerCase();
 // escalafón). Se declara acá, insumo por insumo, para que la decisión quede escrita.
 const CONFIG = {
   PY: {
-    version: "v20260902-base-bolivia",
+    version: "v20260902-completa",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Paraguay: ANDE (arena, cemento y piedra por localidad), Resolución MTESS 670/2026 (escalafón de la construcción) y costeo.com.py ago-2026",
     equivalentes: {
       cemento_portland_kg: "py_mat_cemento", arena_comun_m3: "py_mat_arena_comun", arena_fina_m3: "py_mat_arena_fina",
@@ -52,7 +67,7 @@ const CONFIG = {
     },
   },
   CL: {
-    version: "v20260902-base-bolivia",
+    version: "v20260902-completa",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Chile: índices públicos de materiales (factoIA, ObraMaestra, CalculaObra) y un APU chileno real, jun-jul 2026. Relevado en Santiago; las otras 15 ciudades COPIAN Santiago (referencial) hasta relevarse.",
     equivalentes: {
       arena_fina_m3: "cl_mat_arena_fina", arena_comun_m3: "cl_mat_arena_gruesa", cemento_portland_kg: "cl_mat_cemento",
@@ -83,7 +98,7 @@ const CONFIG = {
     }] : [],
   },
   AR: {
-    version: "v20260902-base-bolivia",
+    version: "v20260902-completa",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Argentina: Unidad Central de Contrataciones (UCC), Provincia de Salta — planilla de insumos, julio 2026. Relevado en Salta; las otras 15 ciudades COPIAN Salta (referencial) hasta relevarse.",
     // MANO DE OBRA: la UCC cotiza «Cuadrilla tipo UOCRA» a $10.836/h y un ayudante a $10.030/h —
     // la magnitud de UNA hora-hombre promedio, no de un equipo entero—, con las cargas ADENTRO
@@ -125,50 +140,112 @@ if (!cfg) { console.error(`no hay tabla para ${PAIS}: agregala en CONFIG`); proc
 const leer = (p) => JSON.parse(readFileSync(join(BASE, p), "utf8"));
 const itemsBO = leer("catalogo/v1.0/items.json");
 const ofiBO = leer("precios/v1.0/oficiales.json");
-const ofiPaisViejo = existsSync(join(BASE, `precios/v1.0/oficiales_${PAIS}.json`)) ? leer(`precios/v1.0/oficiales_${PAIS}.json`) : null;
-if (!ofiPaisViejo?.ciudades?.length) { console.error(`falta oficiales_${PAIS}.json con las ciudades y los precios relevados`); process.exit(2); }
+// LOS RELEVADOS viven en precios/fuentes/relevados_XX.json (la lista del país tal como se
+// relevó, con sus ciudades): es la fuente de verdad y no se sobreescribe. Si no existe todavía,
+// la primera corrida toma el oficiales_XX.json vigente — y conviene guardarlo ahí antes, porque
+// después de derivar sólo sobreviven los ids declarados como equivalentes.
+const relevadosPath = `precios/fuentes/relevados_${PAIS}.json`;
+const ofiPaisViejo = existsSync(join(BASE, relevadosPath)) ? leer(relevadosPath)
+  : existsSync(join(BASE, `precios/v1.0/oficiales_${PAIS}.json`)) ? leer(`precios/v1.0/oficiales_${PAIS}.json`) : null;
+if (!ofiPaisViejo?.ciudades?.length) { console.error(`falta ${relevadosPath} (o oficiales_${PAIS}.json) con las ciudades y los precios relevados`); process.exit(2); }
+if (!existsSync(join(BASE, relevadosPath))) console.warn(`  aviso: no existe ${relevadosPath}; guardá ahí la lista relevada antes de regenerar`);
 
 // El insumo maestro: la primera ciudad boliviana trae los 751 con nombre/unidad/tipo/categoría.
 const maestro = ofiBO.ciudades[0].precios;
 const idPais = (idBo) => cfg.equivalentes[idBo] ?? `${iso}_${idBo}`;
 const codigoPais = (idBo, codBo) => cfg.equivalentes[idBo] ? cfg.equivalentes[idBo].toUpperCase() : `${PAIS}_${codBo}`;
 
+// Un precio del archivo del país cuenta como RELEVADO sólo si es real: lo copiado de otra
+// ciudad, lo estimado y lo pendiente se recalculan en cada corrida (idempotencia).
+const relevado = (p) => !!p && p.precio > 0 && !/^(COPIADO|ESTIMADO|PENDIENTE)/.test(p.nota ?? "");
 // Precio relevado del país para un id boliviano, en una ciudad dada (null si no hay).
 function precioEn(ciudadPais, idBo) {
   const ref = cfg.equivalentes[idBo] ?? cfg.familias[idBo];
   if (!ref) return null;
   const p = ciudadPais.precios.find((x) => x.idCanonico === ref);
-  return p && p.precio > 0 ? p : null;
+  return relevado(p) ? p : null;
+}
+
+// ── REFERENCIAS: precios leídos en una fuente concreta (precios/fuentes/referencias_XX.json) ─
+// Valen para la ciudad de referencia, en la unidad boliviana; el resto de las ciudades los copia.
+// La primera entrada de cada idBo manda (el archivo viene ordenado por confianza).
+const refPath = `precios/fuentes/referencias_${PAIS}.json`;
+const referencias = new Map();
+if (existsSync(join(BASE, refPath))) {
+  for (const r of leer(refPath)) {
+    const m = maestro.find((x) => x.idCanonico === r.idBo);
+    if (!m) { console.warn(`  referencia ignorada: «${r.idBo}» no es un insumo boliviano`); continue; }
+    if (!(r.precio > 0)) continue;
+    if (u(m.unidad) !== u(r.unidad)) { console.warn(`  referencia ignorada: ${r.idBo} viene en «${r.unidad}» y el insumo es «${m.unidad}»`); continue; }
+    if (!referencias.has(r.idBo)) referencias.set(r.idBo, r);
+  }
 }
 
 // ── oficiales_XX: las ciudades del país, con los 751 insumos cada una ──────────────────────
 // TODAS las ciudades de la caja salen SERVIDAS (Oscar, 2-sep-2026: «habilita todas las
 // ciudades, con precios copiados»): una ciudad sin relevamiento propio copia los precios de la
-// ciudad de REFERENCIA (la primera que tenga precios), y cada precio copiado lo dice en su nota.
-// Es lo que ya hacía Paraguay con los materiales fuera de la lista de ANDE.
-const servida = (c) => c.precios.some((p) => p.precio > 0);
+// ciudad de REFERENCIA (la primera que tenga precios relevados), y cada precio copiado lo dice
+// en su nota. Es lo que ya hacía Paraguay con los materiales fuera de la lista de ANDE.
+const servida = (c) => c.precios.some(relevado);
 const ciudadRef = ofiPaisViejo.ciudades.find(servida);
 if (!ciudadRef) { console.error("ninguna ciudad tiene un solo precio relevado: no hay de dónde copiar"); process.exit(2); }
+
+// ── La RELACIÓN con Bolivia, medida: precio_XX / precio_BO en los insumos con precio en los dos
+// lados (relevados + referencias), misma unidad, mediana por tipo. Un tipo sin pares (equipo,
+// casi siempre) toma la relación de los materiales y la nota lo dice.
+const pares = { MATERIAL: [], MANO_DE_OBRA: [], HERRAMIENTA: [] };
+for (const m of maestro) {
+  const rel = precioEn(ciudadRef, m.idCanonico);
+  const precio = rel ? rel.precio : referencias.get(m.idCanonico)?.precio;
+  if (!(precio > 0) || !(m.precio > 0)) continue;
+  if (rel && u(rel.unidad) !== u(m.unidad)) continue;
+  pares[m.tipoInsumo]?.push(precio / m.precio);
+}
+// Con menos de MIN_PARES un tipo no tiene relación propia (una sola volqueta no hace mediana).
+const MIN_PARES = 3;
+const k = {};
+for (const t of Object.keys(pares)) k[t] = pares[t].length >= MIN_PARES ? mediana(pares[t]) : null;
+if (k.MATERIAL == null) k.MATERIAL = mediana(pares.MATERIAL);
+for (const t of Object.keys(k)) if (k[t] == null) k[t] = k.MATERIAL;
+const kNota = (t) => pares[t].length >= MIN_PARES
+  ? `mediana de ${pares[t].length} pares de ${t.toLowerCase().replace(/_/g, " ")}`
+  : `${pares[t].length} pares de ${t.toLowerCase().replace(/_/g, " ")}, insuficientes: usa la relación de los materiales`;
+
+const origen = { RELEVADO: 0, REFERENCIA: 0, ESTIMADO: 0, PENDIENTE: 0 };
 const ciudades = ofiPaisViejo.ciudades.map((c) => ({
   nombre: c.nombre,
   precios: maestro.map((m) => {
+    const esRef = c === ciudadRef;
+    const cuenta = (o) => { if (esRef) origen[o]++; };
+    const copia = (nota) => (esRef ? nota : `COPIADO de ${ciudadRef.nombre} (referencial, sin relevar en ${c.nombre}). ${nota}`.trim());
     const propio = precioEn(c, m.idCanonico);
     const rel = propio ?? precioEn(ciudadRef, m.idCanonico);
-    const copiado = !propio && !!rel;
-    const viejo = (copiado ? ciudadRef : c).precios.find((x) => x.idCanonico === cfg.equivalentes[m.idCanonico]);
-    const notaBase = viejo ? (viejo.nota ?? "") : (rel ? `Precio heredado de «${rel.nombre}» (misma familia / mismo escalafón)` : "");
-    return {
-      idCanonico: idPais(m.idCanonico),
-      nombre: viejo?.nombre ?? m.nombre,
-      categoria: m.categoria,
-      unidad: viejo?.unidad ?? m.unidad,
-      tipoInsumo: m.tipoInsumo,
-      codigo: codigoPais(m.idCanonico, m.codigo),
-      precio: rel ? rel.precio : 0,
-      nota: rel
-        ? (copiado ? `COPIADO de ${ciudadRef.nombre} (referencial, sin relevar en ${c.nombre}). ${notaBase}`.trim() : notaBase)
-        : `PENDIENTE: sin precio relevado en ${PAIS}. Insumo heredado de la base boliviana (${m.idCanonico}); cargalo a mano o esperá la próxima publicación.`,
+    const viejo = (propio ? c : ciudadRef).precios.find((x) => x.idCanonico === cfg.equivalentes[m.idCanonico]);
+    const base = {
+      idCanonico: idPais(m.idCanonico), nombre: viejo?.nombre ?? m.nombre, categoria: m.categoria,
+      unidad: viejo?.unidad ?? m.unidad, tipoInsumo: m.tipoInsumo, codigo: codigoPais(m.idCanonico, m.codigo),
     };
+    if (rel) {
+      cuenta("RELEVADO");
+      const notaBase = viejo ? (viejo.nota ?? "") : `Precio heredado de «${rel.nombre}» (misma familia / mismo escalafón)`;
+      return { ...base, precio: rel.precio, nota: propio ? notaBase : copia(notaBase) };
+    }
+    const r = referencias.get(m.idCanonico);
+    if (r) {
+      cuenta("REFERENCIA");
+      const nota = `REFERENCIA: ${r.fuente}${r.fecha ? ` (${r.fecha})` : ""}${r.conversion ? `; ${r.conversion}` : ""}${r.nota ? `; ${r.nota}` : ""}${r.url ? ` · ${r.url}` : ""}`;
+      return { ...base, precio: r.precio, nota: copia(nota) };
+    }
+    if (ESTIMAR && k[m.tipoInsumo] != null && m.precio > 0) {
+      cuenta("ESTIMADO");
+      const f = k[m.tipoInsumo];
+      return {
+        ...base, precio: redondear(m.precio * f),
+        nota: `ESTIMADO por relación con Bolivia: ${m.precio} Bs × ${f.toFixed(2)} (${kNota(m.tipoInsumo)}). Sin referencia relevada en ${PAIS}; revisar antes de usarlo en una oferta.`,
+      };
+    }
+    cuenta("PENDIENTE");
+    return { ...base, precio: 0, nota: `PENDIENTE: sin precio relevado en ${PAIS}. Insumo heredado de la base boliviana (${m.idCanonico}); cargalo a mano o esperá la próxima publicación.` };
   }),
 }));
 
@@ -216,7 +293,8 @@ const zerosPorCiudad = Math.max(...servidas.map((c) => c.precios.filter((p) => !
 const salidaItems = { version: cfg.version, schemaVersion: itemsBO.schemaVersion ?? 1, items };
 const salidaPrecios = {
   version: cfg.version, fuente: cfg.fuente, pais: PAIS,
-  nota: `Base de ${PAIS} DERIVADA de la boliviana (2-sep-2026): los ${maestro.length} insumos de Bolivia bajo el espacio ${iso}_, en las ${ciudades.length} ciudades de la caja. Los relevados traen precio por ciudad; los PENDIENTES van en 0 con nota y se ven como «sin precio». Los ítems publicados son SÓLO los que cierran con precio completo (${items.length} de ${itemsBO.items.length}); regenerar con tools/derivar-desde-bolivia.mjs cuando entren precios nuevos. ${ofiPaisViejo.nota ? "Nota de la base anterior: " + ofiPaisViejo.nota : ""}`,
+  nota: `Base de ${PAIS} DERIVADA de la boliviana (2-sep-2026): los ${maestro.length} insumos de Bolivia bajo el espacio ${iso}_, en las ${ciudades.length} ciudades de la caja. Cada precio dice en su nota de dónde salió — en ${ciudadRef.nombre}: ${origen.RELEVADO} RELEVADOS, ${origen.REFERENCIA} por REFERENCIA (fuente citada), ${origen.ESTIMADO} ESTIMADOS por relación con Bolivia (material ×${k.MATERIAL?.toFixed(2)}, M.O. ×${k.MANO_DE_OBRA?.toFixed(2)}, equipo ×${k.HERRAMIENTA?.toFixed(2)}; revisar antes de ofertar), ${origen.PENDIENTE} PENDIENTES en 0. Las otras ciudades copian ${ciudadRef.nombre} hasta relevarse. Ítems publicados: los que cierran con precio completo (${items.length} de ${itemsBO.items.length}). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_${PAIS}.json).`,
+  origenPrecios: { ciudadReferencia: ciudadRef.nombre, ...origen, relacionConBolivia: k, paresMedidos: Object.fromEntries(Object.entries(pares).map(([t, a]) => [t, a.length])) },
   precios: [],
   ciudades,
 };
@@ -225,5 +303,6 @@ writeFileSync(join(BASE, `precios/v1.0/oficiales_${PAIS}.json`), JSON.stringify(
 
 const top = [...bloqueo.entries()].sort((a, b) => b[1] - a[1]).slice(0, 15);
 console.log(`✓ ${PAIS}: ${items.length}/${itemsBO.items.length} ítems con precio completo · ${maestro.length} insumos × ${ciudades.length} ciudades · pendientes por ciudad: ${zerosPorCiudad} (poner ese TOPE en estado-de-las-bases.test.ts)`);
-console.log("  los que más destraban al relevarlos:");
-for (const [id, n] of top) console.log(`    ${String(n).padStart(3)}  ${id}`);
+console.log(`  origen en ${ciudadRef.nombre}: ${origen.RELEVADO} relevados · ${origen.REFERENCIA} referencias · ${origen.ESTIMADO} estimados · ${origen.PENDIENTE} pendientes`);
+console.log(`  relación con Bolivia: material ×${k.MATERIAL?.toFixed(2)} (${pares.MATERIAL.length} pares) · M.O. ×${k.MANO_DE_OBRA?.toFixed(2)} (${pares.MANO_DE_OBRA.length}) · equipo ×${k.HERRAMIENTA?.toFixed(2)} (${pares.HERRAMIENTA.length})`);
+if (top.length) { console.log("  los que más destraban al relevarlos:"); for (const [id, n] of top) console.log(`    ${String(n).padStart(3)}  ${id}`); }
