@@ -1,3392 +1,3345 @@
 {
- "version": "v20260829-base-50",
- "schemaVersion": 1,
- "pais": "ES",
- "nota": "Banco de Coste de la Construcción de Andalucía (BCCA) 2023 v02, importado del FIEBDC-3 oficial (26-ago-2026). Precios de referencia con Costes Indirectos aparte (los aplica la cadena BC3: GG 13% + BI 6% + IVA 21%). Base regional andaluza — ajustar por ámbito con aportes. | BASE DE ARRANQUE (29-ago-2026, decisión de Oscar): 50 partidas esenciales de la BCCA 2023 con sólo sus recursos. La completa está en items_ES_bcca-2023-completa.json.",
- "items": [
-  {
-   "codigo": "01ADS00001",
-   "nombre": "DEMOLICIÓN DE TABIQUE DE L/ HUECO SENCILLO, C. MANUAL, T. VERT.",
-   "categoria": "DEMOLICIONES Y TRABAJOS PREVIOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
+  "version": "v20260902-base-49",
+  "schemaVersion": 1,
+  "pais": "ES",
+  "nota": "Banco de Coste de la Construcción de Andalucía (BCCA) 2023 v02, importado del FIEBDC-3 oficial (26-ago-2026). Precios de referencia con Costes Indirectos aparte (los aplica la cadena BC3: GG 13% + BI 6% + IVA 21%). Base regional andaluza — ajustar por ámbito con aportes. | BASE DE ARRANQUE (29-ago-2026, decisión de Oscar): 50 partidas esenciales de la BCCA 2023 con sólo sus recursos. La completa está en items_ES_bcca-2023-completa.json.",
+  "items": [
     {
-     "idCanonico": "es_mk00100",
-     "nombre": "CAMIÓN BASCULANTE",
-     "categoria": "Camiones y carretillas",
-     "unidad": "h",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
+      "codigo": "01ADS00001",
+      "nombre": "DEMOLICIÓN DE TABIQUE DE L/ HUECO SENCILLO, C. MANUAL, T. VERT.",
+      "categoria": "DEMOLICIONES Y TRABAJOS PREVIOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_mk00100",
+          "nombre": "CAMIÓN BASCULANTE",
+          "categoria": "Camiones y carretillas",
+          "unidad": "h",
+          "tipoInsumo": "HERRAMIENTA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
     },
     {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
+      "codigo": "01QHT00020",
+      "nombre": "LEVANTADO AZOTEA SOLERÍA GENERAL, CARGA MANUAL",
+      "categoria": "DEMOLICIONES Y TRABAJOS PREVIOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.335,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_mk00100",
+          "nombre": "CAMIÓN BASCULANTE",
+          "categoria": "Camiones y carretillas",
+          "unidad": "h",
+          "tipoInsumo": "HERRAMIENTA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.024,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "01TLL90100",
+      "nombre": "LIMPIEZA Y DESBROCE DE TERRENO, CON MEDIOS MECANICOS",
+      "categoria": "DEMOLICIONES Y TRABAJOS PREVIOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.003,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_me00300",
+          "nombre": "PALA CARGADORA",
+          "categoria": "Excavadoras y palas",
+          "unidad": "h",
+          "tipoInsumo": "HERRAMIENTA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.005,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "02ACC00001",
+      "nombre": "EXCAVACIÓN APERTURA DE CAJA, TIERRAS DE CONSIST. MEDIA",
+      "categoria": "ACONDICIONAMIENTO DE TERRENOS",
+      "tipoCalculo": "VOLUMEN",
+      "unidadResultado": "m3",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_me00300",
+          "nombre": "PALA CARGADORA",
+          "categoria": "Excavadoras y palas",
+          "unidad": "h",
+          "tipoInsumo": "HERRAMIENTA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.034,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "02RRB00001",
+      "nombre": "RELLENO CON TIERRAS REALIZADO CON MEDIOS MANUALES",
+      "categoria": "ACONDICIONAMIENTO DE TERRENOS",
+      "tipoCalculo": "VOLUMEN",
+      "unidadResultado": "m3",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.3,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_gw00100",
+          "nombre": "AGUA POTABLE",
+          "categoria": "Varios",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.3,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_mr00200",
+          "nombre": "PISÓN MECÁNICO MANUAL",
+          "categoria": "Rulos y compactadoras",
+          "unidad": "h",
+          "tipoInsumo": "HERRAMIENTA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.55,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "02TBB00001",
+      "nombre": "TRANSPORTE EN INT. DE OBRA, DE TIERRAS CON M. MANUALES",
+      "categoria": "ACONDICIONAMIENTO DE TERRENOS",
+      "tipoCalculo": "VOLUMEN",
+      "unidadResultado": "m3",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.9,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "03ACC00011",
+      "nombre": "ACERO EN BARRAS CORRUGADAS B500S EN CIMENT.",
+      "categoria": "CIMENTACIONES",
+      "tipoCalculo": "CANTIDAD",
+      "unidadResultado": "kg",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to00600",
+          "nombre": "OF. 1ª FERRALLISTA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ca00320",
+          "nombre": "ACERO B 500 S",
+          "categoria": "Aceros",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.08,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ca01700",
+          "nombre": "ALAMBRE DE ATAR",
+          "categoria": "Aceros",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.005,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.05,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "03AMM00010",
+      "nombre": "ACERO ME B500S EN MALLA ELECTROSOLDADA",
+      "categoria": "CIMENTACIONES",
+      "tipoCalculo": "CANTIDAD",
+      "unidadResultado": "kg",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to00600",
+          "nombre": "OF. 1ª FERRALLISTA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.01,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ca00520",
+          "nombre": "ACERO ELECTROSOLDADO ME B 500 S EN MALLA",
+          "categoria": "Aceros",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.15,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ca01700",
+          "nombre": "ALAMBRE DE ATAR",
+          "categoria": "Aceros",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.001,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "03EPF00001",
+      "nombre": "ENCOFRADO PERD. ZUNCHOS, ZAPATAS Y ENCEP. TABICÓN L. H.D",
+      "categoria": "CIMENTACIONES",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to02100",
+          "nombre": "OFICIAL 1ª",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.4,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm00500",
+          "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fl00300",
+          "nombre": "LADRILLO CERÁM. HUECO DOBLE 24x11,5x9 cm",
+          "categoria": "Ladrillos",
+          "unidad": "mu",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.045,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "03HAA00010",
+      "nombre": "HORMIGÓN HA-25/P/20/XC2 EN VIGAS/ZUNCHOS DE CIMENT.",
+      "categoria": "CIMENTACIONES",
+      "tipoCalculo": "VOLUMEN",
+      "unidadResultado": "m3",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ch02920",
+          "nombre": "HORMIGÓN HA-25/P/20/XC2, SUMINISTRADO",
+          "categoria": "Hormigones",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.03,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_mv00100",
+          "nombre": "VIBRADOR",
+          "categoria": "Vibradores",
+          "unidad": "h",
+          "tipoInsumo": "HERRAMIENTA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "03HAL00002",
+      "nombre": "HORMIGÓN HA-25/B/40/XC2 EN LOSAS DE CIMENT.",
+      "categoria": "CIMENTACIONES",
+      "tipoCalculo": "VOLUMEN",
+      "unidadResultado": "m3",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to02200",
+          "nombre": "OFICIAL 2ª",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.05,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.6,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ch03000",
+          "nombre": "HORMIGÓN HA-25/B/40/XC2, SUMINISTRADO",
+          "categoria": "Hormigones",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.03,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_mv00100",
+          "nombre": "VIBRADOR",
+          "categoria": "Vibradores",
+          "unidad": "h",
+          "tipoInsumo": "HERRAMIENTA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "03HAM00007",
+      "nombre": "HORMIGÓN HA-25/P/20/XC2 EN MUROS DE CONTENCIÓN",
+      "categoria": "CIMENTACIONES",
+      "tipoCalculo": "VOLUMEN",
+      "unidadResultado": "m3",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to02200",
+          "nombre": "OFICIAL 2ª",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.05,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.6,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ch02920",
+          "nombre": "HORMIGÓN HA-25/P/20/XC2, SUMINISTRADO",
+          "categoria": "Hormigones",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.03,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_mv00100",
+          "nombre": "VIBRADOR",
+          "categoria": "Vibradores",
+          "unidad": "h",
+          "tipoInsumo": "HERRAMIENTA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "03HAZ00002",
+      "nombre": "HORMIGÓN HA-25/P/40/XC2 EN ZAPATAS Y ENCEPADOS",
+      "categoria": "CIMENTACIONES",
+      "tipoCalculo": "VOLUMEN",
+      "unidadResultado": "m3",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to02200",
+          "nombre": "OFICIAL 2ª",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.05,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.4,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ch03020",
+          "nombre": "HORMIGÓN HA-25/P/40/XC2, SUMINISTRADO",
+          "categoria": "Hormigones",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.03,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_mv00100",
+          "nombre": "VIBRADOR",
+          "categoria": "Vibradores",
+          "unidad": "h",
+          "tipoInsumo": "HERRAMIENTA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.13,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "03WSS80000",
+      "nombre": "CAPA DE HORMIGÓN DE LIMPIEZA 10 cm ESP. MEDIO",
+      "categoria": "CIMENTACIONES",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to02200",
+          "nombre": "OFICIAL 2ª",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.05,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.075,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ch04020",
+          "nombre": "HORMIGÓN HM-20/P/20/X0, SUMINISTRADO",
+          "categoria": "Hormigones",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.11,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "04CAS00001",
+      "nombre": "ARQUETA SIFÓNICA COLGADA DE POLIÉSTER DE 60X60 cm",
+      "categoria": "SANEAMIENTO",
+      "tipoCalculo": "CANTIDAD",
+      "unidadResultado": "u",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01900",
+          "nombre": "OF. 1ª FONTANERO",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to02100",
+          "nombre": "OFICIAL 1ª",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_sa00300",
+          "nombre": "ARQUETA SIFÓNICA POLIÉSTER REFORZADO 0,60x0,60x1 m",
+          "categoria": "Arquetas",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 20,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 5,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "04CCP00001",
+      "nombre": "COLECTOR COLGADO DE PVC DIÁM. 160 mm",
+      "categoria": "SANEAMIENTO",
+      "tipoCalculo": "LONGITUD",
+      "unidadResultado": "m",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01900",
+          "nombre": "OF. 1ª FONTANERO",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.8,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to02100",
+          "nombre": "OFICIAL 1ª",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.25,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_sc00800",
+          "nombre": "TUBO PVC DIÁM. 160 mm 4 kg/cm2",
+          "categoria": "Colectores",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.01,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 4,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "05ACJ00001",
+      "nombre": "ACERO PERFILES LAM. EN CAL. EN VIGAS UNIÓN ATORNILLADA",
+      "categoria": "ESTRUCTURAS",
+      "tipoCalculo": "CANTIDAD",
+      "unidadResultado": "kg",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_ta00200",
+          "nombre": "AYUDANTE ESPECIALISTA",
+          "categoria": "Ayudantes",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to01600",
+          "nombre": "OF. 1ª CERRAJERO-CHAPISTA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ca01300",
+          "nombre": "ACERO PERFILES S 275 JR VIGAS ESTRUCT ATOR.",
+          "categoria": "Aceros",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.08,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.08,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.08,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "05ACS00000",
+      "nombre": "ACERO PERFILES LAM. EN CAL. EN SOPORTES SIMPLES",
+      "categoria": "ESTRUCTURAS",
+      "tipoCalculo": "CANTIDAD",
+      "unidadResultado": "kg",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_ta00200",
+          "nombre": "AYUDANTE ESPECIALISTA",
+          "categoria": "Ayudantes",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to01600",
+          "nombre": "OF. 1ª CERRAJERO-CHAPISTA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ca01600",
+          "nombre": "ACERO PERFILES S 275 JR, SOPORTES SIMPLES",
+          "categoria": "Aceros",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.08,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.06,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.08,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "06ACE00100N",
+      "nombre": "CERRAM. MIXTO CITARA LADRILLO LP + DOBLE PLACA C-Y 13mm",
+      "categoria": "ALBAÑILERÍA",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to00100",
+          "nombre": "OF. 1ª ALBAÑILERÍA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.584,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.292,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm00500",
+          "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.026,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fl80240",
+          "nombre": "LADRILLO CERÁM. C/V PERF. HIDROFUGADO 24x11,5x5 cm",
+          "categoria": "Ladrillos",
+          "unidad": "mu",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.07,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fp80020a",
+          "nombre": "PLACA DE YESO LAMINADO DE 13mm RESISTENTE AL FUEGO",
+          "categoria": "Placas y paneles",
+          "unidad": "m²",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 4.2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ta00200",
+          "nombre": "AYUDANTE ESPECIALISTA",
+          "categoria": "Ayudantes",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.22,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to00900",
+          "nombre": "OF. 1ª MONTADOR",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.22,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fp00500",
+          "nombre": "ENTRAMADO METÁLICO PARA TABIQUE PLACAS DE YESO LAMIN. 46x600 mm",
+          "categoria": "Placas y paneles",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.05,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fp01200n2",
+          "nombre": "PLACA DE YESO LAMINADO DE 13 mm ALTA DUREZA",
+          "categoria": "Placas y paneles",
+          "unidad": "m²",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fp01800",
+          "nombre": "PASTA PARA JUNTAS DE PLACAS DE YESO LAMINADO",
+          "categoria": "Placas y paneles",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.8,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "06ACE00130N",
+      "nombre": "TABIQUE SIMPLE PL. YESO LAMINADO 15+70+15 (100mm)",
+      "categoria": "ALBAÑILERÍA",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_ta00200",
+          "nombre": "AYUDANTE ESPECIALISTA",
+          "categoria": "Ayudantes",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.26,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to00900",
+          "nombre": "OF. 1ª MONTADOR",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.26,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fp00605n",
+          "nombre": "ENTRAMADO METÁLICO PARA TABIQUE PLACAS DE YESO LAMIN. 90x600 mm",
+          "categoria": "Placas y paneles",
+          "unidad": "m²",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.05,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fp80010n3",
+          "nombre": "PLACA YESO FONOABSORBENTE DE 15 mm",
+          "categoria": "Placas y paneles",
+          "unidad": "ml",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fp01800",
+          "nombre": "PASTA PARA JUNTAS DE PLACAS DE YESO LAMINADO",
+          "categoria": "Placas y paneles",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.8,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "06BHH00001",
+      "nombre": "FÁBRICA 6 cm ESP. CON BLOQUE HUECO HORMIGÓN",
+      "categoria": "ALBAÑILERÍA",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to00100",
+          "nombre": "OF. 1ª ALBAÑILERÍA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.25,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.125,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm00800",
+          "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N + PLAST.",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.004,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fb00300",
+          "nombre": "BLOQUE HORMIGÓN 40x20x6 cm",
+          "categoria": "Bloques",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 12.875,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "06DI200100N",
+      "nombre": "TABICÓN LAD. H/D 7 cm GRAN FORMATO TRASDOS. PL. YESO 13 mm",
+      "categoria": "ALBAÑILERÍA",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_fp01200n2",
+          "nombre": "PLACA DE YESO LAMINADO DE 13 mm ALTA DUREZA",
+          "categoria": "Placas y paneles",
+          "unidad": "m²",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 4.2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to00100",
+          "nombre": "OF. 1ª ALBAÑILERÍA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.59,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.24,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fl80070",
+          "nombre": "LADRILLO CERÁM. H/D GRAN FORMATO 70x50,5x6,8 cm",
+          "categoria": "Ladrillos",
+          "unidad": "mu",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.003,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_fp80010",
+          "nombre": "PLACA DE YESO LAMINADO ANTIHUMEDAD DE 15 mm",
+          "categoria": "Placas y paneles",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.05,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm00800",
+          "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N + PLAST.",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.19,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_gp80010",
+          "nombre": "PASTA AGARRE PARA PEGADO PANEL YESO LAMINADO",
+          "categoria": "Pastas",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 3.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.4,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "07HAF00001",
+      "nombre": "FALDÓN DE AZOTEA PARA AJARDINAR",
+      "categoria": "CUBIERTAS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00100",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.55,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to00700",
+          "nombre": "OF. 1ª IMPERMEABILIZADOR",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_aa00300",
+          "nombre": "ARENA GRUESA",
+          "categoria": "Arenas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.03,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ag00200",
+          "nombre": "GRAVA DIÁM. 16/32 mm",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.05,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm00500",
+          "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.041,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_qw00100",
+          "nombre": "HORMIGÓN CELULAR",
+          "categoria": "Varios",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_qw00900",
+          "nombre": "TEJIDO ANTIRRAICES",
+          "categoria": "Varios",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_uj01800",
+          "nombre": "TIERRA VEGETAL",
+          "categoria": "Jardinería",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.4,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_xi01800",
+          "nombre": "MEMBRANA BETÚN MODIF. ARM. DOBLE POLIETILENO 4 mm",
+          "categoria": "Impermeabilizaciones",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.111,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_xi02700",
+          "nombre": "PINTURA OXIASFALTO",
+          "categoria": "Impermeabilizaciones",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.515,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "07ITF00001",
+      "nombre": "FALDÓN DE TEJAS CURVAS DE CERÁMICA PRIMERA CALIDAD",
+      "categoria": "CUBIERTAS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00100",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.55,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm00600",
+          "nombre": "MORTERO DE CEMENTO M2,5 (1:8) CEM II/A-L 32,5 N",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.031,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_qt00700",
+          "nombre": "TEJA CERÁMICA CURVA",
+          "categoria": "Tejas",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 43.2,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "08CAW00002",
+      "nombre": "CIRCUITO DE TRES CONDUCTORES DE 1,5 mm2",
+      "categoria": "INSTALACIONES",
+      "tipoCalculo": "LONGITUD",
+      "unidadResultado": "m",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01800",
+          "nombre": "OF. 1ª ELECTRICISTA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.05,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to02100",
+          "nombre": "OFICIAL 1ª",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.05,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ie01900",
+          "nombre": "CABLE COBRE 1x1,5 mm2 H07V-K",
+          "categoria": "Eléctricas",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 3,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ie11900",
+          "nombre": "TUBO PVC FLEXIBLE CORRUGADO DIÁM. 13 mm",
+          "categoria": "Eléctricas",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.01,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.3,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "08CCC00157",
+      "nombre": "CALDERA MURAL GAS 10000 A 30000 kcal/h",
+      "categoria": "INSTALACIONES",
+      "tipoCalculo": "CANTIDAD",
+      "unidadResultado": "u",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00200",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 2ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.6,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_atc00400",
+          "nombre": "CUADRILLA FORMADA POR OFICIAL 1ª INSTALADOR Y AYUDANTE",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 9,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ic14600",
+          "nombre": "CALDERA MURAL GAS 10000-30000 kcal/h CALEFACCIÓN",
+          "categoria": "Climatización",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ic24900",
+          "nombre": "CONDUCTO EVACUACIÓN DE HUMOS DE ACERO",
+          "categoria": "Climatización",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 30,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 20,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "08CCE00000",
+      "nombre": "RADIADOR PANEL SIMPLE CHAPA ACERO CONVECT. LLAVE 2 VÍAS",
+      "categoria": "INSTALACIONES",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00200",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 2ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to01400",
+          "nombre": "OF. 1ª CALEFACTOR O MECÁNICO",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to02100",
+          "nombre": "OFICIAL 1ª",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ic41400",
+          "nombre": "LLAVE REGULACIÓN RADIADOR, 2 VÍAS,1/2\"",
+          "categoria": "Climatización",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ic50400",
+          "nombre": "PURGADOR MANUAL",
+          "categoria": "Climatización",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ic52100",
+          "nombre": "RADIADOR DE PANEL DE CHAPA SIMPLE C/CONVECTOR",
+          "categoria": "Climatización",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_pe00200",
+          "nombre": "ESMALTE SINTÉTICO",
+          "categoria": "Esmaltes",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 22,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "08ELL00001",
+      "nombre": "PUNTO DE LUZ SENCILLO EMPOTRADO",
+      "categoria": "INSTALACIONES",
+      "tipoCalculo": "CANTIDAD",
+      "unidadResultado": "u",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00100",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.18,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to01800",
+          "nombre": "OF. 1ª ELECTRICISTA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.4,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ie01900",
+          "nombre": "CABLE COBRE 1x1,5 mm2 H07V-K",
+          "categoria": "Eléctricas",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 8,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ie05200",
+          "nombre": "CAJILLO UNIVERSAL ENLAZABLE",
+          "categoria": "Eléctricas",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ie11000",
+          "nombre": "INTERRUPTOR SENCILLO",
+          "categoria": "Eléctricas",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ie11900",
+          "nombre": "TUBO PVC FLEXIBLE CORRUGADO DIÁM. 13 mm",
+          "categoria": "Eléctricas",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 4.04,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.3,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "08EWW00005",
+      "nombre": "CUADRO GENERAL MANDO Y PROTECCIÓN ALUMBRADO ESCALERA",
+      "categoria": "INSTALACIONES",
+      "tipoCalculo": "CANTIDAD",
+      "unidadResultado": "u",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00100",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.09,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to01800",
+          "nombre": "OF. 1ª ELECTRICISTA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ie06700",
+          "nombre": "CONMUTADOR ROTATIVO (TELERRUPTOR)",
+          "categoria": "Eléctricas",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ie08600",
+          "nombre": "INTERRUPTOR DIFERENCIAL II 40 A/30 mA TIPO AC",
+          "categoria": "Eléctricas",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ie09900",
+          "nombre": "INTERRUPTOR HORARIO AUTOMÁTICO",
+          "categoria": "Eléctricas",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ie11800",
+          "nombre": "TABLERO AISLANTE",
+          "categoria": "Eléctricas",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "08FCC00002",
+      "nombre": "CANALIZACIÓN COBRE, SIN CALORIFUGAR, EMPOTRADA DE 18 mm",
+      "categoria": "INSTALACIONES",
+      "tipoCalculo": "LONGITUD",
+      "unidadResultado": "m",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00200",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 2ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.03,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to01900",
+          "nombre": "OF. 1ª FONTANERO",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.08,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_if28200",
+          "nombre": "TUBO COBRE DIÁM. 16/18 mm",
+          "categoria": "Fontanería",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.01,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.8,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.7,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "08FDP00002",
+      "nombre": "CANALIZACIÓN DERIVACIÓN PARA DESAGÜES PVC DIÁM. 32x2,4 mm",
+      "categoria": "INSTALACIONES",
+      "tipoCalculo": "LONGITUD",
+      "unidadResultado": "m",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00100",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.13,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to01900",
+          "nombre": "OF. 1ª FONTANERO",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.22,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_if29000",
+          "nombre": "TUBO PVC DIÁM. 32x2,4 mm",
+          "categoria": "Fontanería",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.01,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.6,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "08FDP00091",
+      "nombre": "DESAGÜE DE INODORO VERTEDERO CON MANGUETÓN PVC 93 mm",
+      "categoria": "INSTALACIONES",
+      "tipoCalculo": "CANTIDAD",
+      "unidadResultado": "u",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00100",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.25,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to01900",
+          "nombre": "OF. 1ª FONTANERO",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.35,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_if22800",
+          "nombre": "MANGUETÓN PVC DIÁM. 93 mm",
+          "categoria": "Fontanería",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "09APP00120",
+      "nombre": "AISLAMIENTO PAREDES, PANEL RÍGIDO FIBRA VIDRIO 40 mm",
+      "categoria": "AISLAMIENTOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to00300",
+          "nombre": "OF. 1ª COLOCADOR",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_xt12000",
+          "nombre": "PANEL RÍGIDO FIBRA VIDRIO 40 mm DENSIDAD 38 kg/m3",
+          "categoria": "Térmicos",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.01,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "09ASS00040",
+      "nombre": "AISLAMIENTO SUELOS, PLANCHAS RIGIDAS POLIEST. EXPAND. 10 mm",
+      "categoria": "AISLAMIENTOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to00300",
+          "nombre": "OF. 1ª COLOCADOR",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_xt13700",
+          "nombre": "POLIESTIRENO PLANCHAS RIGID. FLEXIBILIZADAS, DENS. 10 kg/m3",
+          "categoria": "Térmicos",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.011,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "10AAE00001",
+      "nombre": "ALICATADO AZULEJO COLOR LISO 15x15 cm FAB. ARTESANA M. BASTARDO",
+      "categoria": "REVESTIMIENTOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to00200",
+          "nombre": "OF. 1ª ALICATADOR",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.75,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.375,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm01600",
+          "nombre": "MORTERO BASTARDO M10 (1:0,5:4) CEM II/A-L 32,5 N Y CAL",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.021,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_gc00100",
+          "nombre": "CEMENTO BLANCO BL II/A-L 42,5 R EN SACOS",
+          "categoria": "Cementos",
+          "unidad": "t",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.001,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ra00100",
+          "nombre": "AZULEJO ARTESANO 15x15 cm",
+          "categoria": "Aplacados",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 47.17,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "10CEE00001",
+      "nombre": "ENFOSCADO SIN MAESTREAR Y FRATASADO EN PAREDES",
+      "categoria": "REVESTIMIENTOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00100",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.25,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm00500",
+          "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.021,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "10CGG00007",
+      "nombre": "GUARNECIDO Y ENLUCIDO MAESTREADO EN TECHOS, YESO",
+      "categoria": "REVESTIMIENTOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01200",
+          "nombre": "OF. 1ª YESERO",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.8,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agy00100",
+          "nombre": "PASTA DE YESO NEGRO YG",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.015,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agy00200",
+          "nombre": "PASTA DE YESO BLANCO YF",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.005,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "10CGG00025",
+      "nombre": "GUARNECIDO Y ENLUCIDO SIN MAESTREAR EN TECHOS, MORT. ESCAYOLA",
+      "categoria": "REVESTIMIENTOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01200",
+          "nombre": "OF. 1ª YESERO",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm01900",
+          "nombre": "MORTERO DE PERLITA Y ESCAYOLA",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.021,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "10SCS00001",
+      "nombre": "SOLADO CON BALDOSAS CERÁMICA 14x28 cm",
+      "categoria": "REVESTIMIENTOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01100",
+          "nombre": "OF. 1ª SOLADOR",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.42,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.21,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_aa00200",
+          "nombre": "ARENA FINA",
+          "categoria": "Arenas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agl00100",
+          "nombre": "LECHADA DE CEMENTO CEM II/A-L 32,5 N",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.001,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm00500",
+          "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.031,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_rs00600",
+          "nombre": "BALDOSA CERÁMICA 14x28 cm",
+          "categoria": "Suelos",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 27.03,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "10SCS00022",
+      "nombre": "SOLADO BALDOSAS GRES COMPACTO 40x40 cm",
+      "categoria": "REVESTIMIENTOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01100",
+          "nombre": "OF. 1ª SOLADOR",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.35,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.18,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_aa00200",
+          "nombre": "ARENA FINA",
+          "categoria": "Arenas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agl00100",
+          "nombre": "LECHADA DE CEMENTO CEM II/A-L 32,5 N",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.001,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_agm00500",
+          "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
+          "categoria": "Gravas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.031,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_rs02502",
+          "nombre": "BALDOSA GRES COMPACTO 40x4O cm",
+          "categoria": "Suelos",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 6.375,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "11MPB00041",
+      "nombre": "PUERTA BLINDADA PARA BARNIZAR",
+      "categoria": "CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01500",
+          "nombre": "OF. 1ª CARPINTERÍA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 4.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ka01000",
+          "nombre": "PRECERCO CHAPA ACERO 1,5 mm ESPESOR",
+          "categoria": "Acero",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2.52,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_km01200",
+          "nombre": "CERCO SAPELLY 90X50 mm",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2.45,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_km01800",
+          "nombre": "CHAPA SAPELLY 3 mm ESPESOR",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.66,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_km02100",
+          "nombre": "HOJA BLIND. DOS C. NERV. INT. 50 mm ESPESOR",
+          "categoria": "Madera",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_km05300",
+          "nombre": "MADERA SAPELLY",
+          "categoria": "Madera",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.002,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_km08200",
+          "nombre": "TAPAJUNTAS SAPELLY 80X20 mm",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_kw00500",
+          "nombre": "BISAGRA LATÓN PALA ANCHA",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_kw00600",
+          "nombre": "BULONES FIJOS ACERO",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_kw01600",
+          "nombre": "CERRADURA SEG. 5 ANCL. MOV. C/PICAP. DE RESBALÓN",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_kw02500",
+          "nombre": "JUEGO DE POMOS O MANIVELAS DE LATON",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_kw02900",
+          "nombre": "MIRILLA PANORÁMICA LATÓN",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 3,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "11MPW00105",
+      "nombre": "PUERTA DE PASO CORREDERA EMPOTRADA TABIQUERIA",
+      "categoria": "CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_rd0001a",
+          "nombre": "CERCO RAPID-ACUSTIC DE ACERO GALVANIZADO 1,2 MM",
+          "categoria": "Sin capítulo",
+          "unidad": "M2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_rd0003a",
+          "nombre": "HOJA SANDWICH MACIZA DE POLIESTIRENO",
+          "categoria": "Sin capítulo",
+          "unidad": "M2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_rd0002a",
+          "nombre": "CERRADURA DIN18251",
+          "categoria": "Sin capítulo",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_rd0004a",
+          "nombre": "MANILLA EN U",
+          "categoria": "Sin capítulo",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_rd0005a",
+          "nombre": "CASONETO",
+          "categoria": "Sin capítulo",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to01500",
+          "nombre": "OF. 1ª CARPINTERÍA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "11PVA00010",
+      "nombre": "VENTANA ABATIBLE PVC-U TIPO II (0,50-1,50 m2)",
+      "categoria": "CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01600",
+          "nombre": "OF. 1ª CERRAJERO-CHAPISTA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ka01100",
+          "nombre": "PRECERCO TUBO ACERO GALVANIZADO ABATIBLE O FIJO",
+          "categoria": "Acero",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 4,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_kp00800",
+          "nombre": "VENTANA ABATIBLE PVC (T-II) BLANCO",
+          "categoria": "PVC y Poliuretano",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_rw01900",
+          "nombre": "JUNTA DE SELLADO",
+          "categoria": "Varios",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 4,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "11SBA00001",
+      "nombre": "BARANDILLA AC. CAL. BAST. SENC. PLET. ENTREP. CUADRAD. 14 mm",
+      "categoria": "CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN",
+      "tipoCalculo": "LONGITUD",
+      "unidadResultado": "m",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_atc00100",
+          "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
+          "categoria": "Sin capítulo",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_to01600",
+          "nombre": "OF. 1ª CERRAJERO-CHAPISTA",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.4,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ka00100",
+          "nombre": "ACERO EN CUADRADILLOS MANUFACTURADO",
+          "categoria": "Acero",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 15.4,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ka00200",
+          "nombre": "ACERO EN PLETINAS MANUFACTURADO",
+          "categoria": "Acero",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 10,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00300",
+          "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "12ACT00010",
+      "nombre": "ACRIST. TÉRMICO Y ACÚSTICO DOS LUNAS PULIDAS INCOLORAS 6mmBE/16mm aire/4mm",
+      "categoria": "VIDRIERÍA Y ELABORADOS SINTÉTICOS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01700",
+          "nombre": "OF. 1ª CRISTALERO",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.85,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_vl04500a",
+          "nombre": "DOBLE LUNA INCOLORA 6 mm bajo emisivo, CÁMARA AIRE 16 mm, 4 mm",
+          "categoria": "Lunas",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_vw02000",
+          "nombre": "SELLADO SILICONA",
+          "categoria": "Varios",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 6,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "13IPP00001",
+      "nombre": "PINTURA PLÁSTICA LISA SOBRE LADRILLO, YESO O CEMENTO",
+      "categoria": "PINTURAS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01000",
+          "nombre": "OF. 1ª PINTOR",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.09,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_pp00100",
+          "nombre": "PINTURA PLÁSTICA",
+          "categoria": "Plásticos",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.45,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_pw00300",
+          "nombre": "SELLADORA",
+          "categoria": "Varios",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.35,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "13IPP00003",
+      "nombre": "PINTURA PLÁSTICA SOBRE CARPINTERIA DE MADERA",
+      "categoria": "PINTURAS",
+      "tipoCalculo": "AREA",
+      "unidadResultado": "m2",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01000",
+          "nombre": "OF. 1ª PINTOR",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.25,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_pp00100",
+          "nombre": "PINTURA PLÁSTICA",
+          "categoria": "Plásticos",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_pw00300",
+          "nombre": "SELLADORA",
+          "categoria": "Varios",
+          "unidad": "kg",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.36,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "15ACP00001",
+      "nombre": "CANALIZACIÓN DE PVC CON TUBERÍA REFORZADA DE 110 mm",
+      "categoria": "URBANIZACIONES",
+      "tipoCalculo": "LONGITUD",
+      "unidadResultado": "m",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_to01900",
+          "nombre": "OF. 1ª FONTANERO",
+          "categoria": "Oficiales",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_tp00100",
+          "nombre": "PEÓN ESPECIAL",
+          "categoria": "Peones",
+          "unidad": "h",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_aa00300",
+          "nombre": "ARENA GRUESA",
+          "categoria": "Arenas",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.15,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ch04120",
+          "nombre": "HORMIGÓN HM-20/P/40/X0, SUMINISTRADO",
+          "categoria": "Hormigones",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 0.003,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ua01200",
+          "nombre": "TUBERÍA PVC SN4 DIÁM. 110 mm TEJA",
+          "categoria": "Alcantarillado",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1.01,
+          "precio": 0,
+          "baseCalculo": ""
+        },
+        {
+          "idCanonico": "es_ww00400",
+          "nombre": "PEQUEÑO MATERIAL",
+          "categoria": "Varios",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
+    },
+    {
+      "codigo": "15SAA00002",
+      "nombre": "ACOMETIDA A LA RED EXISTENTE ABASTECIMIENTO DE AGUAS",
+      "categoria": "URBANIZACIONES",
+      "tipoCalculo": "CANTIDAD",
+      "unidadResultado": "u",
+      "inputPrincipalLabel": "Cantidad",
+      "tipoIfc": null,
+      "verificado": false,
+      "parametros": [],
+      "presets": [],
+      "insumos": [
+        {
+          "idCanonico": "es_us04500",
+          "nombre": "ACOMETIDA AGUAS RED GENERAL",
+          "categoria": "Suministro de agua",
+          "unidad": "u",
+          "tipoInsumo": "MATERIAL",
+          "tipoCalculo": "DIRECTO",
+          "rendimiento": 1,
+          "precio": 0,
+          "baseCalculo": ""
+        }
+      ]
     }
-   ]
-  },
-  {
-   "codigo": "01QHT00020",
-   "nombre": "LEVANTADO AZOTEA SOLERÍA GENERAL, CARGA MANUAL",
-   "categoria": "DEMOLICIONES Y TRABAJOS PREVIOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.335,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_mk00100",
-     "nombre": "CAMIÓN BASCULANTE",
-     "categoria": "Camiones y carretillas",
-     "unidad": "h",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.024,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "01TLL90100",
-   "nombre": "LIMPIEZA Y DESBROCE DE TERRENO, CON MEDIOS MECANICOS",
-   "categoria": "DEMOLICIONES Y TRABAJOS PREVIOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.003,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_me00300",
-     "nombre": "PALA CARGADORA",
-     "categoria": "Excavadoras y palas",
-     "unidad": "h",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.005,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "02ACC00001",
-   "nombre": "EXCAVACIÓN APERTURA DE CAJA, TIERRAS DE CONSIST. MEDIA",
-   "categoria": "ACONDICIONAMIENTO DE TERRENOS",
-   "tipoCalculo": "VOLUMEN",
-   "unidadResultado": "m3",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_me00300",
-     "nombre": "PALA CARGADORA",
-     "categoria": "Excavadoras y palas",
-     "unidad": "h",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.034,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "02RRB00001",
-   "nombre": "RELLENO CON TIERRAS REALIZADO CON MEDIOS MANUALES",
-   "categoria": "ACONDICIONAMIENTO DE TERRENOS",
-   "tipoCalculo": "VOLUMEN",
-   "unidadResultado": "m3",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.3,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_gw00100",
-     "nombre": "AGUA POTABLE",
-     "categoria": "Varios",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.3,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_mr00200",
-     "nombre": "PISÓN MECÁNICO MANUAL",
-     "categoria": "Rulos y compactadoras",
-     "unidad": "h",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.55,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "02TBB00001",
-   "nombre": "TRANSPORTE EN INT. DE OBRA, DE TIERRAS CON M. MANUALES",
-   "categoria": "ACONDICIONAMIENTO DE TERRENOS",
-   "tipoCalculo": "VOLUMEN",
-   "unidadResultado": "m3",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.9,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "03ACC00011",
-   "nombre": "ACERO EN BARRAS CORRUGADAS B500S EN CIMENT.",
-   "categoria": "CIMENTACIONES",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "kg",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to00600",
-     "nombre": "OF. 1ª FERRALLISTA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ca00320",
-     "nombre": "ACERO B 500 S",
-     "categoria": "Aceros",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.08,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ca01700",
-     "nombre": "ALAMBRE DE ATAR",
-     "categoria": "Aceros",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.005,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.05,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "03AMM00010",
-   "nombre": "ACERO ME B500S EN MALLA ELECTROSOLDADA",
-   "categoria": "CIMENTACIONES",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "kg",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to00600",
-     "nombre": "OF. 1ª FERRALLISTA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.01,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ca00520",
-     "nombre": "ACERO ELECTROSOLDADO ME B 500 S EN MALLA",
-     "categoria": "Aceros",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.15,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ca01700",
-     "nombre": "ALAMBRE DE ATAR",
-     "categoria": "Aceros",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.001,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "03EPF00001",
-   "nombre": "ENCOFRADO PERD. ZUNCHOS, ZAPATAS Y ENCEP. TABICÓN L. H.D",
-   "categoria": "CIMENTACIONES",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to02100",
-     "nombre": "OFICIAL 1ª",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.4,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm00500",
-     "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fl00300",
-     "nombre": "LADRILLO CERÁM. HUECO DOBLE 24x11,5x9 cm",
-     "categoria": "Ladrillos",
-     "unidad": "mu",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.045,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "03HAA00010",
-   "nombre": "HORMIGÓN HA-25/P/20/XC2 EN VIGAS/ZUNCHOS DE CIMENT.",
-   "categoria": "CIMENTACIONES",
-   "tipoCalculo": "VOLUMEN",
-   "unidadResultado": "m3",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ch02920",
-     "nombre": "HORMIGÓN HA-25/P/20/XC2, SUMINISTRADO",
-     "categoria": "Hormigones",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.03,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_mv00100",
-     "nombre": "VIBRADOR",
-     "categoria": "Vibradores",
-     "unidad": "h",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.2,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "03HAL00002",
-   "nombre": "HORMIGÓN HA-25/B/40/XC2 EN LOSAS DE CIMENT.",
-   "categoria": "CIMENTACIONES",
-   "tipoCalculo": "VOLUMEN",
-   "unidadResultado": "m3",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to02200",
-     "nombre": "OFICIAL 2ª",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.05,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.6,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ch03000",
-     "nombre": "HORMIGÓN HA-25/B/40/XC2, SUMINISTRADO",
-     "categoria": "Hormigones",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.03,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_mv00100",
-     "nombre": "VIBRADOR",
-     "categoria": "Vibradores",
-     "unidad": "h",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.2,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "03HAM00007",
-   "nombre": "HORMIGÓN HA-25/P/20/XC2 EN MUROS DE CONTENCIÓN",
-   "categoria": "CIMENTACIONES",
-   "tipoCalculo": "VOLUMEN",
-   "unidadResultado": "m3",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to02200",
-     "nombre": "OFICIAL 2ª",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.05,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.6,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ch02920",
-     "nombre": "HORMIGÓN HA-25/P/20/XC2, SUMINISTRADO",
-     "categoria": "Hormigones",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.03,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_mv00100",
-     "nombre": "VIBRADOR",
-     "categoria": "Vibradores",
-     "unidad": "h",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.2,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "03HAZ00002",
-   "nombre": "HORMIGÓN HA-25/P/40/XC2 EN ZAPATAS Y ENCEPADOS",
-   "categoria": "CIMENTACIONES",
-   "tipoCalculo": "VOLUMEN",
-   "unidadResultado": "m3",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to02200",
-     "nombre": "OFICIAL 2ª",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.05,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.4,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ch03020",
-     "nombre": "HORMIGÓN HA-25/P/40/XC2, SUMINISTRADO",
-     "categoria": "Hormigones",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.03,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_mv00100",
-     "nombre": "VIBRADOR",
-     "categoria": "Vibradores",
-     "unidad": "h",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.13,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "03WSS80000",
-   "nombre": "CAPA DE HORMIGÓN DE LIMPIEZA 10 cm ESP. MEDIO",
-   "categoria": "CIMENTACIONES",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to02200",
-     "nombre": "OFICIAL 2ª",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.05,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.075,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ch04020",
-     "nombre": "HORMIGÓN HM-20/P/20/X0, SUMINISTRADO",
-     "categoria": "Hormigones",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.11,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "04CAS00001",
-   "nombre": "ARQUETA SIFÓNICA COLGADA DE POLIÉSTER DE 60X60 cm",
-   "categoria": "SANEAMIENTO",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "u",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01900",
-     "nombre": "OF. 1ª FONTANERO",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to02100",
-     "nombre": "OFICIAL 1ª",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_sa00300",
-     "nombre": "ARQUETA SIFÓNICA POLIÉSTER REFORZADO 0,60x0,60x1 m",
-     "categoria": "Arquetas",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 20,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 5,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "04CCP00001",
-   "nombre": "COLECTOR COLGADO DE PVC DIÁM. 160 mm",
-   "categoria": "SANEAMIENTO",
-   "tipoCalculo": "LONGITUD",
-   "unidadResultado": "m",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01900",
-     "nombre": "OF. 1ª FONTANERO",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.8,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to02100",
-     "nombre": "OFICIAL 1ª",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.25,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_sc00800",
-     "nombre": "TUBO PVC DIÁM. 160 mm 4 kg/cm2",
-     "categoria": "Colectores",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.01,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 4,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "05ACJ00001",
-   "nombre": "ACERO PERFILES LAM. EN CAL. EN VIGAS UNIÓN ATORNILLADA",
-   "categoria": "ESTRUCTURAS",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "kg",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_ta00200",
-     "nombre": "AYUDANTE ESPECIALISTA",
-     "categoria": "Ayudantes",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to01600",
-     "nombre": "OF. 1ª CERRAJERO-CHAPISTA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ca01300",
-     "nombre": "ACERO PERFILES S 275 JR VIGAS ESTRUCT ATOR.",
-     "categoria": "Aceros",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.08,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.08,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.08,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "05ACS00000",
-   "nombre": "ACERO PERFILES LAM. EN CAL. EN SOPORTES SIMPLES",
-   "categoria": "ESTRUCTURAS",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "kg",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_ta00200",
-     "nombre": "AYUDANTE ESPECIALISTA",
-     "categoria": "Ayudantes",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to01600",
-     "nombre": "OF. 1ª CERRAJERO-CHAPISTA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ca01600",
-     "nombre": "ACERO PERFILES S 275 JR, SOPORTES SIMPLES",
-     "categoria": "Aceros",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.08,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.06,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.08,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "06ACE00100N",
-   "nombre": "CERRAM. MIXTO CITARA LADRILLO LP + DOBLE PLACA C-Y 13mm",
-   "categoria": "ALBAÑILERÍA",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to00100",
-     "nombre": "OF. 1ª ALBAÑILERÍA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.584,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.292,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm00500",
-     "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.026,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fl80240",
-     "nombre": "LADRILLO CERÁM. C/V PERF. HIDROFUGADO 24x11,5x5 cm",
-     "categoria": "Ladrillos",
-     "unidad": "mu",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.07,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fp80020a",
-     "nombre": "PLACA DE YESO LAMINADO DE 13mm RESISTENTE AL FUEGO",
-     "categoria": "Placas y paneles",
-     "unidad": "m²",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 4.2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ta00200",
-     "nombre": "AYUDANTE ESPECIALISTA",
-     "categoria": "Ayudantes",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.22,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to00900",
-     "nombre": "OF. 1ª MONTADOR",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.22,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fp00500",
-     "nombre": "ENTRAMADO METÁLICO PARA TABIQUE PLACAS DE YESO LAMIN. 46x600 mm",
-     "categoria": "Placas y paneles",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.05,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fp01200n2",
-     "nombre": "PLACA DE YESO LAMINADO DE 13 mm ALTA DUREZA",
-     "categoria": "Placas y paneles",
-     "unidad": "m²",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fp01800",
-     "nombre": "PASTA PARA JUNTAS DE PLACAS DE YESO LAMINADO",
-     "categoria": "Placas y paneles",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.8,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "06ACE00130N",
-   "nombre": "TABIQUE SIMPLE PL. YESO LAMINADO 15+70+15 (100mm)",
-   "categoria": "ALBAÑILERÍA",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_ta00200",
-     "nombre": "AYUDANTE ESPECIALISTA",
-     "categoria": "Ayudantes",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.26,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to00900",
-     "nombre": "OF. 1ª MONTADOR",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.26,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fp00605n",
-     "nombre": "ENTRAMADO METÁLICO PARA TABIQUE PLACAS DE YESO LAMIN. 90x600 mm",
-     "categoria": "Placas y paneles",
-     "unidad": "m²",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.05,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fp80010n3",
-     "nombre": "PLACA YESO FONOABSORBENTE DE 15 mm",
-     "categoria": "Placas y paneles",
-     "unidad": "ml",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fp01800",
-     "nombre": "PASTA PARA JUNTAS DE PLACAS DE YESO LAMINADO",
-     "categoria": "Placas y paneles",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.8,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "06BHH00001",
-   "nombre": "FÁBRICA 6 cm ESP. CON BLOQUE HUECO HORMIGÓN",
-   "categoria": "ALBAÑILERÍA",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to00100",
-     "nombre": "OF. 1ª ALBAÑILERÍA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.25,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.125,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm00800",
-     "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N + PLAST.",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.004,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fb00300",
-     "nombre": "BLOQUE HORMIGÓN 40x20x6 cm",
-     "categoria": "Bloques",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 12.875,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "06DI200100N",
-   "nombre": "TABICÓN LAD. H/D 7 cm GRAN FORMATO TRASDOS. PL. YESO 13 mm",
-   "categoria": "ALBAÑILERÍA",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_fp01200n2",
-     "nombre": "PLACA DE YESO LAMINADO DE 13 mm ALTA DUREZA",
-     "categoria": "Placas y paneles",
-     "unidad": "m²",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 4.2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to00100",
-     "nombre": "OF. 1ª ALBAÑILERÍA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.59,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.24,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fl80070",
-     "nombre": "LADRILLO CERÁM. H/D GRAN FORMATO 70x50,5x6,8 cm",
-     "categoria": "Ladrillos",
-     "unidad": "mu",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.003,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_fp80010",
-     "nombre": "PLACA DE YESO LAMINADO ANTIHUMEDAD DE 15 mm",
-     "categoria": "Placas y paneles",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.05,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm00800",
-     "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N + PLAST.",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.19,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_gp80010",
-     "nombre": "PASTA AGARRE PARA PEGADO PANEL YESO LAMINADO",
-     "categoria": "Pastas",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 3.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.4,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "07HAF00001",
-   "nombre": "FALDÓN DE AZOTEA PARA AJARDINAR",
-   "categoria": "CUBIERTAS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00100",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.55,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to00700",
-     "nombre": "OF. 1ª IMPERMEABILIZADOR",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_aa00300",
-     "nombre": "ARENA GRUESA",
-     "categoria": "Arenas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.03,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ag00200",
-     "nombre": "GRAVA DIÁM. 16/32 mm",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.05,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm00500",
-     "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.041,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_qw00100",
-     "nombre": "HORMIGÓN CELULAR",
-     "categoria": "Varios",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_qw00900",
-     "nombre": "TEJIDO ANTIRRAICES",
-     "categoria": "Varios",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_uj01800",
-     "nombre": "TIERRA VEGETAL",
-     "categoria": "Jardinería",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.4,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_xi01800",
-     "nombre": "MEMBRANA BETÚN MODIF. ARM. DOBLE POLIETILENO 4 mm",
-     "categoria": "Impermeabilizaciones",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.111,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_xi02700",
-     "nombre": "PINTURA OXIASFALTO",
-     "categoria": "Impermeabilizaciones",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.515,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "07ITF00001",
-   "nombre": "FALDÓN DE TEJAS CURVAS DE CERÁMICA PRIMERA CALIDAD",
-   "categoria": "CUBIERTAS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00100",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.55,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm00600",
-     "nombre": "MORTERO DE CEMENTO M2,5 (1:8) CEM II/A-L 32,5 N",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.031,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_qt00700",
-     "nombre": "TEJA CERÁMICA CURVA",
-     "categoria": "Tejas",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 43.2,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "08CAW00002",
-   "nombre": "CIRCUITO DE TRES CONDUCTORES DE 1,5 mm2",
-   "categoria": "INSTALACIONES",
-   "tipoCalculo": "LONGITUD",
-   "unidadResultado": "m",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01800",
-     "nombre": "OF. 1ª ELECTRICISTA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.05,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to02100",
-     "nombre": "OFICIAL 1ª",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.05,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ie01900",
-     "nombre": "CABLE COBRE 1x1,5 mm2 H07V-K",
-     "categoria": "Eléctricas",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 3,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ie11900",
-     "nombre": "TUBO PVC FLEXIBLE CORRUGADO DIÁM. 13 mm",
-     "categoria": "Eléctricas",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.01,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.3,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "08CCC00157",
-   "nombre": "CALDERA MURAL GAS 10000 A 30000 kcal/h",
-   "categoria": "INSTALACIONES",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "u",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00200",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 2ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.6,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_atc00400",
-     "nombre": "CUADRILLA FORMADA POR OFICIAL 1ª INSTALADOR Y AYUDANTE",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 9,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ic14600",
-     "nombre": "CALDERA MURAL GAS 10000-30000 kcal/h CALEFACCIÓN",
-     "categoria": "Climatización",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ic24900",
-     "nombre": "CONDUCTO EVACUACIÓN DE HUMOS DE ACERO",
-     "categoria": "Climatización",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 30,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 20,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "08CCE00000",
-   "nombre": "RADIADOR PANEL SIMPLE CHAPA ACERO CONVECT. LLAVE 2 VÍAS",
-   "categoria": "INSTALACIONES",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00200",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 2ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to01400",
-     "nombre": "OF. 1ª CALEFACTOR O MECÁNICO",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to02100",
-     "nombre": "OFICIAL 1ª",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ic41400",
-     "nombre": "LLAVE REGULACIÓN RADIADOR, 2 VÍAS,1/2\"",
-     "categoria": "Climatización",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ic50400",
-     "nombre": "PURGADOR MANUAL",
-     "categoria": "Climatización",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ic52100",
-     "nombre": "RADIADOR DE PANEL DE CHAPA SIMPLE C/CONVECTOR",
-     "categoria": "Climatización",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_pe00200",
-     "nombre": "ESMALTE SINTÉTICO",
-     "categoria": "Esmaltes",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 22,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "08ELL00001",
-   "nombre": "PUNTO DE LUZ SENCILLO EMPOTRADO",
-   "categoria": "INSTALACIONES",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "u",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00100",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.18,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to01800",
-     "nombre": "OF. 1ª ELECTRICISTA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.4,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ie01900",
-     "nombre": "CABLE COBRE 1x1,5 mm2 H07V-K",
-     "categoria": "Eléctricas",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 8,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ie05200",
-     "nombre": "CAJILLO UNIVERSAL ENLAZABLE",
-     "categoria": "Eléctricas",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ie11000",
-     "nombre": "INTERRUPTOR SENCILLO",
-     "categoria": "Eléctricas",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ie11900",
-     "nombre": "TUBO PVC FLEXIBLE CORRUGADO DIÁM. 13 mm",
-     "categoria": "Eléctricas",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 4.04,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.3,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "08EWW00005",
-   "nombre": "CUADRO GENERAL MANDO Y PROTECCIÓN ALUMBRADO ESCALERA",
-   "categoria": "INSTALACIONES",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "u",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00100",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.09,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to01800",
-     "nombre": "OF. 1ª ELECTRICISTA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ie06700",
-     "nombre": "CONMUTADOR ROTATIVO (TELERRUPTOR)",
-     "categoria": "Eléctricas",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ie08600",
-     "nombre": "INTERRUPTOR DIFERENCIAL II 40 A/30 mA TIPO AC",
-     "categoria": "Eléctricas",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ie09900",
-     "nombre": "INTERRUPTOR HORARIO AUTOMÁTICO",
-     "categoria": "Eléctricas",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ie11800",
-     "nombre": "TABLERO AISLANTE",
-     "categoria": "Eléctricas",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "08FCC00002",
-   "nombre": "CANALIZACIÓN COBRE, SIN CALORIFUGAR, EMPOTRADA DE 18 mm",
-   "categoria": "INSTALACIONES",
-   "tipoCalculo": "LONGITUD",
-   "unidadResultado": "m",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00200",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 2ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.03,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to01900",
-     "nombre": "OF. 1ª FONTANERO",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.08,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_if28200",
-     "nombre": "TUBO COBRE DIÁM. 16/18 mm",
-     "categoria": "Fontanería",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.01,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.8,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.7,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "08FDP00002",
-   "nombre": "CANALIZACIÓN DERIVACIÓN PARA DESAGÜES PVC DIÁM. 32x2,4 mm",
-   "categoria": "INSTALACIONES",
-   "tipoCalculo": "LONGITUD",
-   "unidadResultado": "m",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00100",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.13,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to01900",
-     "nombre": "OF. 1ª FONTANERO",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.22,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_if29000",
-     "nombre": "TUBO PVC DIÁM. 32x2,4 mm",
-     "categoria": "Fontanería",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.01,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.6,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "08FDP00091",
-   "nombre": "DESAGÜE DE INODORO VERTEDERO CON MANGUETÓN PVC 93 mm",
-   "categoria": "INSTALACIONES",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "u",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00100",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.25,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to01900",
-     "nombre": "OF. 1ª FONTANERO",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.35,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_if22800",
-     "nombre": "MANGUETÓN PVC DIÁM. 93 mm",
-     "categoria": "Fontanería",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "09APP00120",
-   "nombre": "AISLAMIENTO PAREDES, PANEL RÍGIDO FIBRA VIDRIO 40 mm",
-   "categoria": "AISLAMIENTOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to00300",
-     "nombre": "OF. 1ª COLOCADOR",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_xt12000",
-     "nombre": "PANEL RÍGIDO FIBRA VIDRIO 40 mm DENSIDAD 38 kg/m3",
-     "categoria": "Térmicos",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.01,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "09ASS00040",
-   "nombre": "AISLAMIENTO SUELOS, PLANCHAS RIGIDAS POLIEST. EXPAND. 10 mm",
-   "categoria": "AISLAMIENTOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to00300",
-     "nombre": "OF. 1ª COLOCADOR",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_xt13700",
-     "nombre": "POLIESTIRENO PLANCHAS RIGID. FLEXIBILIZADAS, DENS. 10 kg/m3",
-     "categoria": "Térmicos",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.011,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "10AAE00001",
-   "nombre": "ALICATADO AZULEJO COLOR LISO 15x15 cm FAB. ARTESANA M. BASTARDO",
-   "categoria": "REVESTIMIENTOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to00200",
-     "nombre": "OF. 1ª ALICATADOR",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.75,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.375,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm01600",
-     "nombre": "MORTERO BASTARDO M10 (1:0,5:4) CEM II/A-L 32,5 N Y CAL",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.021,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_gc00100",
-     "nombre": "CEMENTO BLANCO BL II/A-L 42,5 R EN SACOS",
-     "categoria": "Cementos",
-     "unidad": "t",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.001,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ra00100",
-     "nombre": "AZULEJO ARTESANO 15x15 cm",
-     "categoria": "Aplacados",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 47.17,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "10CEE00001",
-   "nombre": "ENFOSCADO SIN MAESTREAR Y FRATASADO EN PAREDES",
-   "categoria": "REVESTIMIENTOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00100",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.25,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm00500",
-     "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.021,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "10CGG00007",
-   "nombre": "GUARNECIDO Y ENLUCIDO MAESTREADO EN TECHOS, YESO",
-   "categoria": "REVESTIMIENTOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01200",
-     "nombre": "OF. 1ª YESERO",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.8,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agy00100",
-     "nombre": "PASTA DE YESO NEGRO YG",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.015,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agy00200",
-     "nombre": "PASTA DE YESO BLANCO YF",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.005,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "10CGG00025",
-   "nombre": "GUARNECIDO Y ENLUCIDO SIN MAESTREAR EN TECHOS, MORT. ESCAYOLA",
-   "categoria": "REVESTIMIENTOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01200",
-     "nombre": "OF. 1ª YESERO",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm01900",
-     "nombre": "MORTERO DE PERLITA Y ESCAYOLA",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.021,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "10SCS00001",
-   "nombre": "SOLADO CON BALDOSAS CERÁMICA 14x28 cm",
-   "categoria": "REVESTIMIENTOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01100",
-     "nombre": "OF. 1ª SOLADOR",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.42,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.21,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_aa00200",
-     "nombre": "ARENA FINA",
-     "categoria": "Arenas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agl00100",
-     "nombre": "LECHADA DE CEMENTO CEM II/A-L 32,5 N",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.001,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm00500",
-     "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.031,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_rs00600",
-     "nombre": "BALDOSA CERÁMICA 14x28 cm",
-     "categoria": "Suelos",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 27.03,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "10SCS00022",
-   "nombre": "SOLADO BALDOSAS GRES COMPACTO 40x40 cm",
-   "categoria": "REVESTIMIENTOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01100",
-     "nombre": "OF. 1ª SOLADOR",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.35,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.18,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_aa00200",
-     "nombre": "ARENA FINA",
-     "categoria": "Arenas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agl00100",
-     "nombre": "LECHADA DE CEMENTO CEM II/A-L 32,5 N",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.001,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_agm00500",
-     "nombre": "MORTERO DE CEMENTO M5 (1:6) CEM II/A-L 32,5 N",
-     "categoria": "Gravas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.031,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_rs02502",
-     "nombre": "BALDOSA GRES COMPACTO 40x4O cm",
-     "categoria": "Suelos",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 6.375,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "11MPB00041",
-   "nombre": "PUERTA BLINDADA PARA BARNIZAR",
-   "categoria": "CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01500",
-     "nombre": "OF. 1ª CARPINTERÍA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 4.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ka01000",
-     "nombre": "PRECERCO CHAPA ACERO 1,5 mm ESPESOR",
-     "categoria": "Acero",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2.52,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_km01200",
-     "nombre": "CERCO SAPELLY 90X50 mm",
-     "categoria": "Madera",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2.45,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_km01800",
-     "nombre": "CHAPA SAPELLY 3 mm ESPESOR",
-     "categoria": "Madera",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.66,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_km02100",
-     "nombre": "HOJA BLIND. DOS C. NERV. INT. 50 mm ESPESOR",
-     "categoria": "Madera",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_km05300",
-     "nombre": "MADERA SAPELLY",
-     "categoria": "Madera",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.002,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_km08200",
-     "nombre": "TAPAJUNTAS SAPELLY 80X20 mm",
-     "categoria": "Madera",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_kw00500",
-     "nombre": "BISAGRA LATÓN PALA ANCHA",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_kw00600",
-     "nombre": "BULONES FIJOS ACERO",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_kw01600",
-     "nombre": "CERRADURA SEG. 5 ANCL. MOV. C/PICAP. DE RESBALÓN",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_kw02500",
-     "nombre": "JUEGO DE POMOS O MANIVELAS DE LATON",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_kw02900",
-     "nombre": "MIRILLA PANORÁMICA LATÓN",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 3,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "11MPW00105",
-   "nombre": "PUERTA DE PASO CORREDERA EMPOTRADA TABIQUERIA",
-   "categoria": "CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_rd0001a",
-     "nombre": "CERCO RAPID-ACUSTIC DE ACERO GALVANIZADO 1,2 MM",
-     "categoria": "Sin capítulo",
-     "unidad": "M2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_rd0003a",
-     "nombre": "HOJA SANDWICH MACIZA DE POLIESTIRENO",
-     "categoria": "Sin capítulo",
-     "unidad": "M2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_rd0002a",
-     "nombre": "CERRADURA DIN18251",
-     "categoria": "Sin capítulo",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_rd0004a",
-     "nombre": "MANILLA EN U",
-     "categoria": "Sin capítulo",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_rd0005a",
-     "nombre": "CASONETO",
-     "categoria": "Sin capítulo",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to01500",
-     "nombre": "OF. 1ª CARPINTERÍA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "11PVA00010",
-   "nombre": "VENTANA ABATIBLE PVC-U TIPO II (0,50-1,50 m2)",
-   "categoria": "CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01600",
-     "nombre": "OF. 1ª CERRAJERO-CHAPISTA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ka01100",
-     "nombre": "PRECERCO TUBO ACERO GALVANIZADO ABATIBLE O FIJO",
-     "categoria": "Acero",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 4,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_kp00800",
-     "nombre": "VENTANA ABATIBLE PVC (T-II) BLANCO",
-     "categoria": "PVC y Poliuretano",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_rw01900",
-     "nombre": "JUNTA DE SELLADO",
-     "categoria": "Varios",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 4,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "11SBA00001",
-   "nombre": "BARANDILLA AC. CAL. BAST. SENC. PLET. ENTREP. CUADRAD. 14 mm",
-   "categoria": "CARPINTERÍA Y ELEMENTOS DE SEGURIDAD Y PROTECCIÓN",
-   "tipoCalculo": "LONGITUD",
-   "unidadResultado": "m",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_atc00100",
-     "nombre": "CUADRILLA ALBAÑILERÍA, FORMADA POR OFICIAL 1ª Y PEÓN ESP.",
-     "categoria": "Sin capítulo",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_to01600",
-     "nombre": "OF. 1ª CERRAJERO-CHAPISTA",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.4,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ka00100",
-     "nombre": "ACERO EN CUADRADILLOS MANUFACTURADO",
-     "categoria": "Acero",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 15.4,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ka00200",
-     "nombre": "ACERO EN PLETINAS MANUFACTURADO",
-     "categoria": "Acero",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 10,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00300",
-     "nombre": "MATERIAL COMPLEMENTARIO O PZAS. ESPECIALES",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "12ACT00010",
-   "nombre": "ACRIST. TÉRMICO Y ACÚSTICO DOS LUNAS PULIDAS INCOLORAS 6mmBE/16mm aire/4mm",
-   "categoria": "VIDRIERÍA Y ELABORADOS SINTÉTICOS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01700",
-     "nombre": "OF. 1ª CRISTALERO",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.85,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_vl04500a",
-     "nombre": "DOBLE LUNA INCOLORA 6 mm bajo emisivo, CÁMARA AIRE 16 mm, 4 mm",
-     "categoria": "Lunas",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_vw02000",
-     "nombre": "SELLADO SILICONA",
-     "categoria": "Varios",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 6,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "13IPP00001",
-   "nombre": "PINTURA PLÁSTICA LISA SOBRE LADRILLO, YESO O CEMENTO",
-   "categoria": "PINTURAS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01000",
-     "nombre": "OF. 1ª PINTOR",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.09,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_pp00100",
-     "nombre": "PINTURA PLÁSTICA",
-     "categoria": "Plásticos",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.45,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_pw00300",
-     "nombre": "SELLADORA",
-     "categoria": "Varios",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.35,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.2,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "13IPP00003",
-   "nombre": "PINTURA PLÁSTICA SOBRE CARPINTERIA DE MADERA",
-   "categoria": "PINTURAS",
-   "tipoCalculo": "AREA",
-   "unidadResultado": "m2",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01000",
-     "nombre": "OF. 1ª PINTOR",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.25,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_pp00100",
-     "nombre": "PINTURA PLÁSTICA",
-     "categoria": "Plásticos",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_pw00300",
-     "nombre": "SELLADORA",
-     "categoria": "Varios",
-     "unidad": "kg",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.36,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.2,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "15ACP00001",
-   "nombre": "CANALIZACIÓN DE PVC CON TUBERÍA REFORZADA DE 110 mm",
-   "categoria": "URBANIZACIONES",
-   "tipoCalculo": "LONGITUD",
-   "unidadResultado": "m",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_to01900",
-     "nombre": "OF. 1ª FONTANERO",
-     "categoria": "Oficiales",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.2,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_aa00300",
-     "nombre": "ARENA GRUESA",
-     "categoria": "Arenas",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.15,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ch04120",
-     "nombre": "HORMIGÓN HM-20/P/40/X0, SUMINISTRADO",
-     "categoria": "Hormigones",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.003,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ua01200",
-     "nombre": "TUBERÍA PVC SN4 DIÁM. 110 mm TEJA",
-     "categoria": "Alcantarillado",
-     "unidad": "m",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1.01,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ww00400",
-     "nombre": "PEQUEÑO MATERIAL",
-     "categoria": "Varios",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "15SAA00002",
-   "nombre": "ACOMETIDA A LA RED EXISTENTE ABASTECIMIENTO DE AGUAS",
-   "categoria": "URBANIZACIONES",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "u",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_us04500",
-     "nombre": "ACOMETIDA AGUAS RED GENERAL",
-     "categoria": "Suministro de agua",
-     "unidad": "u",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  },
-  {
-   "codigo": "17AHA00230",
-   "nombre": "RETIRADA EN CONTENEDOR 3 m3 RESIDUOS ACERO DEM. DIST. MÁX. 5 km",
-   "categoria": "GESTIÓN DE RESIDUOS",
-   "tipoCalculo": "CANTIDAD",
-   "unidadResultado": "t",
-   "inputPrincipalLabel": "Cantidad",
-   "tipoIfc": null,
-   "verificado": false,
-   "parametros": [],
-   "presets": [],
-   "insumos": [
-    {
-     "idCanonico": "es_tp00100",
-     "nombre": "PEÓN ESPECIAL",
-     "categoria": "Peones",
-     "unidad": "h",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 0.025,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_ea00100",
-     "nombre": "RESIDUOS DE ACERO",
-     "categoria": "Metales y aleaciones",
-     "unidad": "t",
-     "tipoInsumo": "MATERIAL",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    },
-    {
-     "idCanonico": "es_mk00400",
-     "nombre": "TRANSPORTE EN CONTENEDOR",
-     "categoria": "Camiones y carretillas",
-     "unidad": "m3",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "DIRECTO",
-     "rendimiento": 1,
-     "precio": 0,
-     "baseCalculo": ""
-    }
-   ]
-  }
- ]
+  ]
 }
