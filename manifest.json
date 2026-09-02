@@ -43,7 +43,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_PE.json"
     },
     "precios_PE": {
-      "version": "v20260824-precios-mercado",
+      "version": "v20260902-hdpe-por-masa",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PE.json"
     },
     "catalogo_CL": {
