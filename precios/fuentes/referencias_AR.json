@@ -1530,91 +1530,99 @@
  },
  {
   "idBo": "eq_vibradora",
-  "precio": 3550,
+  "precio": 2933.88,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/producto/alquiler-vibrador-de-hormigon-monofasico-1-hp-x-dia/",
   "fecha": "2026-09-02",
-  "conversion": "$28.400/día ÷ 8 h = $3.550,00/h",
+  "conversion": "$28.400/día ÷ 8 h = $3.550,00/h; 3550 con IVA ÷ 1.21 = 2933.88 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Vibrador de hormigón monofásico 1 HP."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Vibrador de hormigón monofásico 1 HP.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_mezcladora",
-  "precio": 1875,
+  "precio": 1549.59,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/producto/alquiler-hormigonera-1-hp-140-litros/",
   "fecha": "2026-09-02",
-  "conversion": "$15.000/día ÷ 8 h = $1.875,00/h",
+  "conversion": "$15.000/día ÷ 8 h = $1.875,00/h; 1875 con IVA ÷ 1.21 = 1549.59 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Hormigonera 1 HP 140 l con pedestal. Precio de COMPRA UCC jul-26 her.001 HORMIGONERA 1HP 140 l = $753.804,05."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Hormigonera 1 HP 140 l con pedestal. Precio de COMPRA UCC jul-26 her.001 HORMIGONERA 1HP 140 l = $753.804,05.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "mezcladora_de_hormigon_320_litros_hr",
-  "precio": 9375,
+  "precio": 7747.93,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/producto/alquiler-hormigonera-volteo-300-litros-naftero/",
   "fecha": "2026-09-02",
-  "conversion": "$75.000/día ÷ 8 h = $9.375,00/h",
+  "conversion": "$75.000/día ÷ 8 h = $9.375,00/h; 9375 con IVA ÷ 1.21 = 7747.93 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Hormigonera de volteo 300 l naftera."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Hormigonera de volteo 300 l naftera.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_equipo_de_soldadura",
-  "precio": 1625,
+  "precio": 1342.98,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/producto/alquiler-soldadora-inverter-3-25mm-elect-maximo/",
   "fecha": "2026-09-02",
-  "conversion": "$13.000/día ÷ 8 h = $1.625,00/h",
+  "conversion": "$13.000/día ÷ 8 h = $1.625,00/h; 1625 con IVA ÷ 1.21 = 1342.98 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Soldadora inverter monofásica hasta electrodo 3,25 mm (soldadora por arco = mismo precio; motosoldador 190 A = $55.000/día)."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Soldadora inverter monofásica hasta electrodo 3,25 mm (soldadora por arco = mismo precio; motosoldador 190 A = $55.000/día).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_compresor_de_aire",
-  "precio": 2875,
+  "precio": 2376.03,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/categoria-producto/alquileres/page/2/",
   "fecha": "2026-09-02",
-  "conversion": "$23.000/día ÷ 8 h = $2.875,00/h",
+  "conversion": "$23.000/día ÷ 8 h = $2.875,00/h; 2875 con IVA ÷ 1.21 = 2376.03 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Compresor 100 l ($19.000 el de 50 l; $30.000 el de 180 l)."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Compresor 100 l ($19.000 el de 50 l; $30.000 el de 180 l).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_amoladora",
-  "precio": 1625,
+  "precio": 1342.98,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/categoria-producto/alquileres/",
   "fecha": "2026-09-02",
-  "conversion": "$13.000/día ÷ 8 h = $1.625,00/h",
+  "conversion": "$13.000/día ÷ 8 h = $1.625,00/h; 1625 con IVA ÷ 1.21 = 1342.98 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Amoladora angular 4 1/2\", 7\" o 9\" (mismo precio)."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Amoladora angular 4 1/2\", 7\" o 9\" (mismo precio).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_compactadora_manual_de_impacto",
-  "precio": 10625,
+  "precio": 8780.99,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/categoria-producto/alquileres/page/6/",
   "fecha": "2026-09-02",
-  "conversion": "$85.000/día ÷ 8 h = $10.625,00/h",
+  "conversion": "$85.000/día ÷ 8 h = $10.625,00/h; 10625 con IVA ÷ 1.21 = 8780.99 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Vibroapisonador naftero 4 HP (plancha vibratoria naftera = $70.000/día)."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Vibroapisonador naftero 4 HP (plancha vibratoria naftera = $70.000/día).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_compactadora_manual_salt",
-  "precio": 10625,
+  "precio": 8780.99,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/categoria-producto/alquileres/page/6/",
   "fecha": "2026-09-02",
-  "conversion": "$85.000/día ÷ 8 h = $10.625,00/h",
+  "conversion": "$85.000/día ÷ 8 h = $10.625,00/h; 10625 con IVA ÷ 1.21 = 8780.99 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Vibroapisonador (saltarín) naftero 4 HP."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Vibroapisonador (saltarín) naftero 4 HP.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "caneria_galvanizada_o_1_2_pza",
@@ -1739,69 +1747,75 @@
  },
  {
   "idBo": "union_universal_galvanizado_1_pza",
-  "precio": 11792.33,
+  "precio": 9745.73,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/union-doble-galv-1/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "11792.33 con IVA ÷ 1.21 = 9745.73 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Unión doble cónica galvanizada 1\"."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Unión doble cónica galvanizada 1\".",
+  "ivaNormalizado": true
  },
  {
   "idBo": "union_universal_galvanizada_o_1_25_mm_pza",
-  "precio": 11792.33,
+  "precio": 9745.73,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/union-doble-galv-1/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "11792.33 con IVA ÷ 1.21 = 9745.73 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Unión doble cónica galvanizada 1\"."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Unión doble cónica galvanizada 1\".",
+  "ivaNormalizado": true
  },
  {
   "idBo": "union_universal_galvanizado_3_4_pza",
-  "precio": 9545.67,
+  "precio": 7888.98,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/union-doble-galv-3-4/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "9545.67 con IVA ÷ 1.21 = 7888.98 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Unión doble cónica galvanizada 3/4\" (Don Agro, Cnel. Suárez: $12.962,54)."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Unión doble cónica galvanizada 3/4\" (Don Agro, Cnel. Suárez: $12.962,54).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "union_universal_galvanizada_o_3_4_16_mm_pza",
-  "precio": 9545.67,
+  "precio": 7888.98,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/union-doble-galv-3-4/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "9545.67 con IVA ÷ 1.21 = 7888.98 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Unión doble cónica galvanizada 3/4\"."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Unión doble cónica galvanizada 3/4\".",
+  "ivaNormalizado": true
  },
  {
   "idBo": "union_universal_galvanizada_o_1_2_12_mm_pza",
-  "precio": 7870.14,
+  "precio": 6504.25,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/union-doble-galv-1-2/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "7870.14 con IVA ÷ 1.21 = 6504.25 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Unión doble cónica galvanizada 1/2\"."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Unión doble cónica galvanizada 1/2\".",
+  "ivaNormalizado": true
  },
  {
   "idBo": "bomba_de_agua_1_2_hp_pza",
-  "precio": 51999,
+  "precio": 42974.38,
   "unidad": "Pza",
   "fuente": "Sodimac Argentina",
   "url": "https://sodimac.com.ar/sodimac-ar/product/1284053/bomba-periferica-1-2-hp",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "51999 con IVA ÷ 1.21 = 42974.38 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Precio web IVA incl. ($42.975 sin impuestos nacionales). Bomba periférica 1/2 HP Gamma QB-60 (sin stock al consultar)."
+  "nota": "Precio web IVA incl. ($42.975 sin impuestos nacionales). Bomba periférica 1/2 HP Gamma QB-60 (sin stock al consultar).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "motobomba_5_5_hp_honda_3_3_pza",
@@ -1816,14 +1830,15 @@
  },
  {
   "idBo": "camara_septica_plastica_1200_lt_pza",
-  "precio": 1386300,
+  "precio": 1145702.48,
   "unidad": "Pza",
   "fuente": "Easy Argentina",
   "url": "https://www.easy.com.ar/v-p-biodigestor-1300-lt-/p",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "1386300 con IVA ÷ 1.21 = 1145702.48 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Biodigestor autolimpiable Rotoplas 1.300 l (equivale a cámara séptica plástica). Precio regular; oferta 15 % = $1.178.355. IVA incl."
+  "nota": "Biodigestor autolimpiable Rotoplas 1.300 l (equivale a cámara séptica plástica). Precio regular; oferta 15 % = $1.178.355. IVA incl.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "teflon_pza",
@@ -1838,14 +1853,15 @@
  },
  {
   "idBo": "silicona_tubo",
-  "precio": 10395,
+  "precio": 8590.91,
   "unidad": "Tubo",
   "fuente": "Easy Argentina",
   "url": "https://www.easy.com.ar/silicona-acetica-transparent-280ml-tacs/p",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "10395 con IVA ÷ 1.21 = 8590.91 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Sellador silicona acética transparente 280 ml TACSA; precio regular (oferta 15 % = $8.835,75). IVA incl."
+  "nota": "Sellador silicona acética transparente 280 ml TACSA; precio regular (oferta 15 % = $8.835,75). IVA incl.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "silicona_incolora_o_negra_para_vidrio_pza",
@@ -1893,14 +1909,15 @@
  },
  {
   "idBo": "foco_led_14_w_pza",
-  "precio": 1544,
+  "precio": 1276.03,
   "unidad": "Pza",
   "fuente": "Casa Blanco (tienda online, Argentina)",
   "url": "https://tiendacasablanco.com.ar/productos/lampara-led-value-classic-14w-fria-e27/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "1544 con IVA ÷ 1.21 = 1276.03 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "ALTA",
-  "nota": "Lámpara LED Value Classic 14 W E27 fría Ledvance; IVA incl. ($1.276,03 sin impuestos)."
+  "nota": "Lámpara LED Value Classic 14 W E27 fría Ledvance; IVA incl. ($1.276,03 sin impuestos).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "angular_1_x_1_8_m",
@@ -3246,80 +3263,87 @@
  },
  {
   "idBo": "vibradora_de_2_hp_hr",
-  "precio": 3550,
+  "precio": 2933.88,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/producto/alquiler-vibrador-de-hormigon-monofasico-1-hp-x-dia/",
   "fecha": "2026-09-02",
-  "conversion": "$28.400/día ÷ 8 h = $3.550,00/h",
+  "conversion": "$28.400/día ÷ 8 h = $3.550,00/h; 3550 con IVA ÷ 1.21 = 2933.88 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Vibrador 1 HP (no hay de 2 HP)."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Vibrador 1 HP (no hay de 2 HP).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_mezcladora_lejana",
-  "precio": 1875,
+  "precio": 1549.59,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/producto/alquiler-hormigonera-1-hp-140-litros/",
   "fecha": "2026-09-02",
-  "conversion": "$15.000/día ÷ 8 h = $1.875,00/h",
+  "conversion": "$15.000/día ÷ 8 h = $1.875,00/h; 1875 con IVA ÷ 1.21 = 1549.59 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Mismo equipo (hormigonera 140 l); el sobrecosto de distancia no está en la tarifa."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Mismo equipo (hormigonera 140 l); el sobrecosto de distancia no está en la tarifa.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_bomba_de_agua_3_hp",
-  "precio": 3250,
+  "precio": 2685.95,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/producto/alquiler-motobomba-naftero-2/",
   "fecha": "2026-09-02",
-  "conversion": "$26.000/día ÷ 8 h = $3.250,00/h",
+  "conversion": "$26.000/día ÷ 8 h = $3.250,00/h; 3250 con IVA ÷ 1.21 = 2685.95 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Motobomba naftera 2\" autocebante ~50.000 l/h (no se indica HP)."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Motobomba naftera 2\" autocebante ~50.000 l/h (no se indica HP).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_perforadora_neumatica",
-  "precio": 6500,
+  "precio": 5371.9,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/categoria-producto/alquileres/page/4/",
   "fecha": "2026-09-02",
-  "conversion": "$52.000/día ÷ 8 h = $6.500,00/h",
+  "conversion": "$52.000/día ÷ 8 h = $6.500,00/h; 6500 con IVA ÷ 1.21 = 5371.9 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Martillo demolición eléctrico c/punta 44,9 J 30 kg (no neumático; no se alquila compresor de obra + martillo neumático)."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Martillo demolición eléctrico c/punta 44,9 J 30 kg (no neumático; no se alquila compresor de obra + martillo neumático).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_rompedora_de_asfalto",
-  "precio": 5875,
+  "precio": 4855.37,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/producto/alquiler-martillo-demolicion-c-punta-33-8j-16kg-x-dia/",
   "fecha": "2026-09-02",
-  "conversion": "$47.000/día ÷ 8 h = $5.875,00/h",
+  "conversion": "$47.000/día ÷ 8 h = $5.875,00/h; 5875 con IVA ÷ 1.21 = 4855.37 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Martillo demolición c/punta 33,8 J 16 kg ($42.000 el de 9 kg; $52.000 el de 30 kg)."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Martillo demolición c/punta 33,8 J 16 kg ($42.000 el de 9 kg; $52.000 el de 30 kg).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "cortadora_de_hormigon_hr",
-  "precio": 12500,
+  "precio": 10330.58,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/categoria-producto/alquileres/page/2/",
   "fecha": "2026-09-02",
-  "conversion": "$100.000/día ÷ 8 h = $12.500,00/h",
+  "conversion": "$100.000/día ÷ 8 h = $12.500,00/h; 12500 con IVA ÷ 1.21 = 10330.58 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Cortadora de junta SIN disco; el disco para pavimento se cobra $69.000 por milímetro de desgaste. (Arco Maquinarias Bs.As.: aserradora c/motor a explosión $50.000/día)."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Cortadora de junta SIN disco; el disco para pavimento se cobra $69.000 por milímetro de desgaste. (Arco Maquinarias Bs.As.: aserradora c/motor a explosión $50.000/día).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_cortadora_de_asfalto",
-  "precio": 12500,
+  "precio": 10330.58,
   "unidad": "Hr",
   "fuente": "Ferretería Gay (Salta Capital, Av. Jujuy 591) - alquiler por día",
   "url": "https://ferreteriagay.com.ar/categoria-producto/alquileres/page/2/",
   "fecha": "2026-09-02",
-  "conversion": "$100.000/día ÷ 8 h = $12.500,00/h",
+  "conversion": "$100.000/día ÷ 8 h = $12.500,00/h; 12500 con IVA ÷ 1.21 = 10330.58 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Cortadora de junta sin disco (ver cortadora_de_hormigon_hr)."
+  "nota": "Alquiler por día en Salta Capital, precio de mostrador (IVA incl.), sin operador ni combustible; 15 % desc. contado. Conversión a hora: jornada de 8 h. Cortadora de junta sin disco (ver cortadora_de_hormigon_hr).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_guinche_con_motor_electrico",
@@ -3367,91 +3391,99 @@
  },
  {
   "idBo": "niple_hexagonal_1_pza",
-  "precio": 3074.43,
+  "precio": 2540.85,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/niple-galv-1-x-5cm/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "3074.43 con IVA ÷ 1.21 = 2540.85 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 1\" x 5 cm (roscado, no hexagonal)."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 1\" x 5 cm (roscado, no hexagonal).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "niple_hexagonal_galvanizado_o_1_25_mm_pza",
-  "precio": 3074.43,
+  "precio": 2540.85,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/niple-galv-1-x-5cm/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "3074.43 con IVA ÷ 1.21 = 2540.85 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 1\" x 5 cm."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 1\" x 5 cm.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "niple_hexagonal_3_4_pza",
-  "precio": 6022.99,
+  "precio": 4977.68,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/niple-galv-3-4-x-18cm/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "6022.99 con IVA ÷ 1.21 = 4977.68 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 3/4\" x 18 cm (largo; sin stock)."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 3/4\" x 18 cm (largo; sin stock).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "niple_hexagonal_galvanizado_o_3_4_16_mm_pza",
-  "precio": 6022.99,
+  "precio": 4977.68,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/niple-galv-3-4-x-18cm/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "6022.99 con IVA ÷ 1.21 = 4977.68 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 3/4\" x 18 cm."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 3/4\" x 18 cm.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "niple_hexagonal_galvanizado_1_2_pza",
-  "precio": 3495.41,
+  "precio": 2888.77,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/niple-galv-1-2-x-12cm/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "3495.41 con IVA ÷ 1.21 = 2888.77 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 1/2\" x 12 cm."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 1/2\" x 12 cm.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "niple_hexagonal_galvanizado_o_1_2_12_mm_pza",
-  "precio": 3495.41,
+  "precio": 2888.77,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/niple-galv-1-2-x-12cm/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "3495.41 con IVA ÷ 1.21 = 2888.77 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 1/2\" x 12 cm."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Niple galvanizado 1/2\" x 12 cm.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "bomba_de_agua_1_hp_pza",
-  "precio": 185977,
+  "precio": 153700,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/bomba-centrifuga-1-hp/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "185977 con IVA ÷ 1.21 = 153700 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Bomba centrífuga 1 HP, cuerpo fundición, turbina bronce, 88 l/min (periférica 1 HP Duroll = $149.112,33)."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Bomba centrífuga 1 HP, cuerpo fundición, turbina bronce, 88 l/min (periférica 1 HP Duroll = $149.112,33).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "bomba_de_agua_1_5_hp_pza",
-  "precio": 457380,
+  "precio": 378000,
   "unidad": "Pza",
   "fuente": "Abrafer SRL (ferretería industrial, Argentina) - marca Latyn",
   "url": "https://www.abrafersrl.com.ar/product/bomba-centrifuga-1-hp/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "457380 con IVA ÷ 1.21 = 378000 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Bomba centrífuga 1,5 HP (listada como relacionada en la misma página)."
+  "nota": "Precio de lista web IVA incl. (10 % menos por transferencia). Bomba centrífuga 1,5 HP (listada como relacionada en la misma página).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "bomba_de_agua_2_hp_pza",
@@ -3477,25 +3509,27 @@
  },
  {
   "idBo": "tanque_plastico_1200_lt_con_acc_pza",
-  "precio": 387507,
+  "precio": 320253.72,
   "unidad": "Pza",
   "fuente": "Hydro4 (Argentina)",
   "url": "https://hydro4.com.ar/product/tanque-de-agua-rotoplas-tricapa-1100-litros/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "387507 con IVA ÷ 1.21 = 320253.72 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Tanque Rotoplas tricapa gris 1.100 l (sin accesorios; UCC jul-26: conexión 3/4 $7.937 + flotante $16.238 + ventilación $1.331). IVA incl."
+  "nota": "Tanque Rotoplas tricapa gris 1.100 l (sin accesorios; UCC jul-26: conexión 3/4 $7.937 + flotante $16.238 + ventilación $1.331). IVA incl.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "tanque_plastico_2300_lt_con_acc_pza",
-  "precio": 782681.94,
+  "precio": 646844.58,
   "unidad": "Pza",
   "fuente": "Dimora (Rosario)",
   "url": "https://www.dimora.com.ar/TANQUE-DE-AGUA-ROTOPLAS-TRICAPA-GRIS-2750-LTS-Gtia-25-a%C3%B1os",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "782681.94 con IVA ÷ 1.21 = 646844.58 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Tanque Rotoplas tricapa gris 2.750 l, IVA incl. ($646.844,58 sin impuestos nacionales); Rosario; sin accesorios."
+  "nota": "Tanque Rotoplas tricapa gris 2.750 l, IVA incl. ($646.844,58 sin impuestos nacionales); Rosario; sin accesorios.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "fosa_septica_de_polie_1100_sanear_pza",
@@ -3532,14 +3566,15 @@
  },
  {
   "idBo": "costanera_100x50x13_3_mm_m",
-  "precio": 10015,
+  "precio": 8276.86,
   "unidad": "m",
   "fuente": "Easy Argentina",
   "url": "https://www.easy.com.ar/perfil-c-100x40x15x1-60mmx6m-galv--barb/p",
   "fecha": "2026-09-02",
-  "conversion": "Perfil C 100x40x15x1,6 mm x 6 m Barbieri $60.090 ÷ 6 = $10.015/m",
+  "conversion": "Perfil C 100x40x15x1,6 mm x 6 m Barbieri $60.090 ÷ 6 = $10.015/m; 10015 con IVA ÷ 1.21 = 8276.86 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "MEDIA",
-  "nota": "Easy; 100x40x1,6 (no 100x50x3). IVA incl."
+  "nota": "Easy; 100x40x1,6 (no 100x50x3). IVA incl.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "perfil_costanera_100_50_mm_e_2_mm_barra",
@@ -3741,13 +3776,14 @@
  },
  {
   "idBo": "hormigon_premezclado_h_25_m3",
-  "precio": 535050.43,
+  "precio": 442190.44,
   "unidad": "m3",
   "fuente": "Nodo Materiales (Villa La Angostura)",
   "url": "https://nodomateriales.com/categoria-producto/hormigon-elaborado/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "535050.43 con IVA ÷ 1.21 = 442190.44 NETO (la cadena AR agrega el IVA 21 % al final)",
   "confianza": "BAJA",
-  "nota": "Villa La Angostura, Neuquén (Patagonia, flete alto), IVA incl.; H21 en la misma fuente $510.851,10 → relación H25/H21 = 1,047. Aplicar esa relación al H21 de Corrientes daría ≈ $226.900."
+  "nota": "Villa La Angostura, Neuquén (Patagonia, flete alto), IVA incl.; H21 en la misma fuente $510.851,10 → relación H25/H21 = 1,047. Aplicar esa relación al H21 de Corrientes daría ≈ $226.900.",
+  "ivaNormalizado": true
  }
 ]

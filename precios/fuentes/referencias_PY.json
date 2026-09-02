@@ -1,14 +1,15 @@
 [
  {
   "idBo": "zocalo_cedro_3_m",
-  "precio": 6500,
+  "precio": 5909.09,
   "unidad": "m",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "6500 con IVA ÷ 1.10 = 5909.09 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "ALTA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Zócalo de cedro 3/4 x 3''' 6.500 Gs/ml."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Zócalo de cedro 3/4 x 3''' 6.500 Gs/ml.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "barniz_para_madera_l",
@@ -100,91 +101,99 @@
  },
  {
   "idBo": "eq_volqueta_12_m3",
-  "precio": 290909,
+  "precio": 264462.73,
   "unidad": "Hr",
   "fuente": "CAPACO - Listado de Maquinarias: precio hora / equipos y maquinarias, 20-jun-2026",
   "url": "https://www.capaco.org.py/storage/app/media/Listado%20de%20Precios/2026%20PRECIOS/06-LISTADO%20DE%20PRECIOS%20CAPACO-6%20JUNIO%202026.pdf",
   "fecha": "2026-06-20",
-  "conversion": "",
+  "conversion": "290909 con IVA ÷ 1.10 = 264462.73 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "ALTA",
-  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). Camión Sinotruk Homan 12 m³ 8x4 tumba, 260 HP: 290.909 Gs/h."
+  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). Camión Sinotruk Homan 12 m³ 8x4 tumba, 260 HP: 290.909 Gs/h.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_camion_cisterna",
-  "precio": 279241,
+  "precio": 253855.45,
   "unidad": "Hr",
   "fuente": "CAPACO - Listado de Maquinarias: precio hora / equipos y maquinarias, 20-jun-2026",
   "url": "https://www.capaco.org.py/storage/app/media/Listado%20de%20Precios/2026%20PRECIOS/06-LISTADO%20DE%20PRECIOS%20CAPACO-6%20JUNIO%202026.pdf",
   "fecha": "2026-06-20",
-  "conversion": "",
+  "conversion": "279241 con IVA ÷ 1.10 = 253855.45 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "ALTA",
-  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). Camión regador Sinotruk Howo TX 266 4x2 10.000 L: 279.241 Gs/h (Shacman F3000 regador 386.478; MB Atego regador 274.134)."
+  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). Camión regador Sinotruk Howo TX 266 4x2 10.000 L: 279.241 Gs/h (Shacman F3000 regador 386.478; MB Atego regador 274.134).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_retroexcavadora",
-  "precio": 328755,
+  "precio": 298868.18,
   "unidad": "Hr",
   "fuente": "CAPACO - Listado de Maquinarias: precio hora / equipos y maquinarias, 20-jun-2026",
   "url": "https://www.capaco.org.py/storage/app/media/Listado%20de%20Precios/2026%20PRECIOS/06-LISTADO%20DE%20PRECIOS%20CAPACO-6%20JUNIO%202026.pdf",
   "fecha": "2026-06-20",
-  "conversion": "",
+  "conversion": "328755 con IVA ÷ 1.10 = 298868.18 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "ALTA",
-  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). RETROPALAS 80-100 HP (Cat 416, JD 310L, JCB 3CX, Komatsu WB93/97) promedio 328.755 Gs/h. Referencias de mercado: Costeo.com.py retropala neumáticos 1 m³ 210.000 Gs/h sin combustible ni flete; avisos Asunción 220.000-250.000 Gs/h IVA incl."
+  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). RETROPALAS 80-100 HP (Cat 416, JD 310L, JCB 3CX, Komatsu WB93/97) promedio 328.755 Gs/h. Referencias de mercado: Costeo.com.py retropala neumáticos 1 m³ 210.000 Gs/h sin combustible ni flete; avisos Asunción 220.000-250.000 Gs/h IVA incl.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_compactadora_de_rodillo",
-  "precio": 376372,
+  "precio": 342156.36,
   "unidad": "Hr",
   "fuente": "CAPACO - Listado de Maquinarias: precio hora / equipos y maquinarias, 20-jun-2026",
   "url": "https://www.capaco.org.py/storage/app/media/Listado%20de%20Precios/2026%20PRECIOS/06-LISTADO%20DE%20PRECIOS%20CAPACO-6%20JUNIO%202026.pdf",
   "fecha": "2026-06-20",
-  "conversion": "",
+  "conversion": "376372 con IVA ÷ 1.10 = 342156.36 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "ALTA",
-  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). COMPACTADOR VIBRATORIO LISO O PATA DE CABRA 115-130 HP (Cat CS11, Sakai SV520, JCB VM116, Bomag BW212) promedio 376.372 Gs/h."
+  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). COMPACTADOR VIBRATORIO LISO O PATA DE CABRA 115-130 HP (Cat CS11, Sakai SV520, JCB VM116, Bomag BW212) promedio 376.372 Gs/h.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_compactadora_pata_de_cabra",
-  "precio": 376372,
+  "precio": 342156.36,
   "unidad": "Hr",
   "fuente": "CAPACO - Listado de Maquinarias: precio hora / equipos y maquinarias, 20-jun-2026",
   "url": "https://www.capaco.org.py/storage/app/media/Listado%20de%20Precios/2026%20PRECIOS/06-LISTADO%20DE%20PRECIOS%20CAPACO-6%20JUNIO%202026.pdf",
   "fecha": "2026-06-20",
-  "conversion": "",
+  "conversion": "376372 con IVA ÷ 1.10 = 342156.36 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "ALTA",
-  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). COMPACTADOR VIBRATORIO LISO O PATA DE CABRA promedio 376.372 Gs/h. Costeo.com.py: pata de cabra 400.000 Gs/h sin combustible ni flete."
+  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). COMPACTADOR VIBRATORIO LISO O PATA DE CABRA promedio 376.372 Gs/h. Costeo.com.py: pata de cabra 400.000 Gs/h sin combustible ni flete.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_compactadora_neumatica",
-  "precio": 388759,
+  "precio": 353417.27,
   "unidad": "Hr",
   "fuente": "CAPACO - Listado de Maquinarias: precio hora / equipos y maquinarias, 20-jun-2026",
   "url": "https://www.capaco.org.py/storage/app/media/Listado%20de%20Precios/2026%20PRECIOS/06-LISTADO%20DE%20PRECIOS%20CAPACO-6%20JUNIO%202026.pdf",
   "fecha": "2026-06-20",
-  "conversion": "",
+  "conversion": "388759 con IVA ÷ 1.10 = 353417.27 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "ALTA",
-  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). COMPACTADOR NEUMÁTICO 110-140 HP (Cat CW34, Dynapac CP2700) promedio 388.759 Gs/h."
+  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). COMPACTADOR NEUMÁTICO 110-140 HP (Cat CW34, Dynapac CP2700) promedio 388.759 Gs/h.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_topadora_d7g",
-  "precio": 832366,
+  "precio": 756696.36,
   "unidad": "Hr",
   "fuente": "CAPACO - Listado de Maquinarias: precio hora / equipos y maquinarias, 20-jun-2026",
   "url": "https://www.capaco.org.py/storage/app/media/Listado%20de%20Precios/2026%20PRECIOS/06-LISTADO%20DE%20PRECIOS%20CAPACO-6%20JUNIO%202026.pdf",
   "fecha": "2026-06-20",
-  "conversion": "",
+  "conversion": "832366 con IVA ÷ 1.10 = 756696.36 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "ALTA",
-  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). TOPADORA 200-220 HP (Cat D6, JD 850J, Komatsu D65EX) promedio 832.366 Gs/h; D7G ≈ 200 HP. Rango 120-150 HP: 585.999 Gs/h."
+  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). TOPADORA 200-220 HP (Cat D6, JD 850J, Komatsu D65EX) promedio 832.366 Gs/h; D7G ≈ 200 HP. Rango 120-150 HP: 585.999 Gs/h.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_cargador_frontal_150hp",
-  "precio": 445785,
+  "precio": 405259.09,
   "unidad": "Hr",
   "fuente": "CAPACO - Listado de Maquinarias: precio hora / equipos y maquinarias, 20-jun-2026",
   "url": "https://www.capaco.org.py/storage/app/media/Listado%20de%20Precios/2026%20PRECIOS/06-LISTADO%20DE%20PRECIOS%20CAPACO-6%20JUNIO%202026.pdf",
   "fecha": "2026-06-20",
-  "conversion": "",
+  "conversion": "445785 con IVA ÷ 1.10 = 405259.09 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "ALTA",
-  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). CARGADOR FRONTAL 120-150 HP (Cat 924, JD 524K, JCB 422, Komatsu WA200) promedio 445.785 Gs/h; 165-190 HP: 541.461 Gs/h."
+  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). CARGADOR FRONTAL 120-150 HP (Cat 924, JD 524K, JCB 422, Komatsu WA200) promedio 445.785 Gs/h; 165-190 HP: 541.461 Gs/h.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_compresor_de_aire",
@@ -1497,47 +1506,51 @@
  },
  {
   "idBo": "machihembre_cedro_p2",
-  "precio": 8361,
+  "precio": 7600.91,
   "unidad": "p2",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "tabla de 1\" de espesor: 1 m² = 10,764 p² → 90.000 / 10,764 = 8.361 Gs/p²",
+  "conversion": "tabla de 1\" de espesor: 1 m² = 10,764 p² → 90.000 / 10,764 = 8.361 Gs/p²; 8361 con IVA ÷ 1.10 = 7600.91 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Machimbre de ybyrapyta 1x3'' 90.000 Gs/m² (ybyrapytá, no cedro). CAPACO jun-2026: machimbre lapacho 1/2\"x3\" 168.700 Gs/m²."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Machimbre de ybyrapyta 1x3'' 90.000 Gs/m² (ybyrapytá, no cedro). CAPACO jun-2026: machimbre lapacho 1/2\"x3\" 168.700 Gs/m².",
+  "ivaNormalizado": true
  },
  {
   "idBo": "marco_4_x_2_cedro_pza",
-  "precio": 204000,
+  "precio": 185454.55,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "marco de puerta 0,80x2,10 m ≈ 5,1 ml → 40.000 x 5,1 = 204.000 Gs/pza",
+  "conversion": "marco de puerta 0,80x2,10 m ≈ 5,1 ml → 40.000 x 5,1 = 204.000 Gs/pza; 204000 con IVA ÷ 1.10 = 185454.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Marco Ybyrapyta' 40.000 Gs/ml (madera dura; en PY no se usa cedro para marcos). CAPACO jun-2026: marco cajón lapacho 0,15 m 105.650 Gs/ml."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Marco Ybyrapyta' 40.000 Gs/ml (madera dura; en PY no se usa cedro para marcos). CAPACO jun-2026: marco cajón lapacho 0,15 m 105.650 Gs/ml.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "marco_2_x_4_cedro_pza",
-  "precio": 204000,
+  "precio": 185454.55,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "marco de puerta 0,80x2,10 m ≈ 5,1 ml → 40.000 x 5,1 = 204.000 Gs/pza",
+  "conversion": "marco de puerta 0,80x2,10 m ≈ 5,1 ml → 40.000 x 5,1 = 204.000 Gs/pza; 204000 con IVA ÷ 1.10 = 185454.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Marco Ybyrapyta' 40.000 Gs/ml (madera dura; en PY no se usa cedro para marcos). CAPACO jun-2026: marco cajón lapacho 0,15 m 105.650 Gs/ml."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Marco Ybyrapyta' 40.000 Gs/ml (madera dura; en PY no se usa cedro para marcos). CAPACO jun-2026: marco cajón lapacho 0,15 m 105.650 Gs/ml.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "marco_3_x_2_cedro_pza",
-  "precio": 204000,
+  "precio": 185454.55,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "marco de puerta 0,80x2,10 m ≈ 5,1 ml → 40.000 x 5,1 = 204.000 Gs/pza",
+  "conversion": "marco de puerta 0,80x2,10 m ≈ 5,1 ml → 40.000 x 5,1 = 204.000 Gs/pza; 204000 con IVA ÷ 1.10 = 185454.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Marco Ybyrapyta' 40.000 Gs/ml (madera dura; en PY no se usa cedro para marcos). CAPACO jun-2026: marco cajón lapacho 0,15 m 105.650 Gs/ml."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Marco Ybyrapyta' 40.000 Gs/ml (madera dura; en PY no se usa cedro para marcos). CAPACO jun-2026: marco cajón lapacho 0,15 m 105.650 Gs/ml.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "parket_tajibo_m2",
@@ -1585,14 +1598,15 @@
  },
  {
   "idBo": "retroexcavadora_110_hp_hr",
-  "precio": 328755,
+  "precio": 298868.18,
   "unidad": "Hr",
   "fuente": "CAPACO - Listado de Maquinarias: precio hora / equipos y maquinarias, 20-jun-2026",
   "url": "https://www.capaco.org.py/storage/app/media/Listado%20de%20Precios/2026%20PRECIOS/06-LISTADO%20DE%20PRECIOS%20CAPACO-6%20JUNIO%202026.pdf",
   "fecha": "2026-06-20",
-  "conversion": "",
+  "conversion": "328755 con IVA ÷ 1.10 = 298868.18 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). RETROPALAS promedio 80-100 HP 328.755 Gs/h (rango más cercano a 110 HP)."
+  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). RETROPALAS promedio 80-100 HP 328.755 Gs/h (rango más cercano a 110 HP).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_compresora_atlas_copco",
@@ -1618,25 +1632,27 @@
  },
  {
   "idBo": "eq_bomba_de_agua_3_hp",
-  "precio": 15238,
+  "precio": 13852.73,
   "unidad": "Hr",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "121.900 / 8 h = 15.238 Gs/h",
+  "conversion": "121.900 / 8 h = 15.238 Gs/h; 15238 con IVA ÷ 1.10 = 13852.73 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Bomba de achique, incluyendo una bomba y dos mangueras, alquiler por día' 121.900 Gs/día (potencia no indicada)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Bomba de achique, incluyendo una bomba y dos mangueras, alquiler por día' 121.900 Gs/día (potencia no indicada).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "dobladora_hr",
-  "precio": 76250,
+  "precio": 69318.18,
   "unidad": "Hr",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "610.000 / 8 h = 76.250 Gs/h",
+  "conversion": "610.000 / 8 h = 76.250 Gs/h; 76250 con IVA ÷ 1.10 = 69318.18 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Máquina dobladora de varillas hasta 25 mm, alquiler por día' 610.000 Gs/día."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Máquina dobladora de varillas hasta 25 mm, alquiler por día' 610.000 Gs/día.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "mo_chofer",
@@ -1849,80 +1865,87 @@
  },
  {
   "idBo": "cinta_aislante_pza",
-  "precio": 8000,
+  "precio": 7272.73,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "8000 con IVA ÷ 1.10 = 7272.73 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Cinta aisladora - rollo de 18 m' 8.000 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Cinta aisladora - rollo de 18 m' 8.000 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "limpiador_l",
-  "precio": 130000,
+  "precio": 118181.82,
   "unidad": "L",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "26.000 / 0,2 L = 130.000 Gs/L",
+  "conversion": "26.000 / 0,2 L = 130.000 Gs/L; 130000 con IVA ÷ 1.10 = 118181.82 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Limpiador unión tubos 200 cc' 26.000 Gs/un (envase chico; el precio por litro baja en envases grandes)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Limpiador unión tubos 200 cc' 26.000 Gs/un (envase chico; el precio por litro baja en envases grandes).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "limpiador_para_pvc_y_cpvc_2_l",
-  "precio": 260000,
+  "precio": 236363.64,
   "unidad": "2 l",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "26.000 / 0,2 L x 2 L = 260.000 Gs",
+  "conversion": "26.000 / 0,2 L x 2 L = 260.000 Gs; 260000 con IVA ÷ 1.10 = 236363.64 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Limpiador unión tubos 200 cc' 26.000 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Limpiador unión tubos 200 cc' 26.000 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "pegamento_l",
-  "precio": 160000,
+  "precio": 145454.55,
   "unidad": "L",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "12.000 / 0,075 L = 160.000 Gs/L",
+  "conversion": "12.000 / 0,075 L = 160.000 Gs/L; 160000 con IVA ÷ 1.10 = 145454.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Adhesivo para tubos 75 gr' 12.000 Gs/un (envase chico; densidad ~1)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Adhesivo para tubos 75 gr' 12.000 Gs/un (envase chico; densidad ~1).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "pegamento_para_pvc_y_cpvc_1_l",
-  "precio": 160000,
+  "precio": 145454.55,
   "unidad": "1 l",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "12.000 / 0,075 L = 160.000 Gs/L",
+  "conversion": "12.000 / 0,075 L = 160.000 Gs/L; 160000 con IVA ÷ 1.10 = 145454.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Adhesivo para tubos 75 gr' 12.000 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Adhesivo para tubos 75 gr' 12.000 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "pegamento_para_alfombras_l",
-  "precio": 60000,
+  "precio": 54545.45,
   "unidad": "L",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "60000 con IVA ÷ 1.10 = 54545.45 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Cemento de contacto' 60.000 Gs/lt."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Cemento de contacto' 60.000 Gs/lt.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "pegamento_para_vinil_l",
-  "precio": 60000,
+  "precio": 54545.45,
   "unidad": "L",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "60000 con IVA ÷ 1.10 = 54545.45 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Cemento de contacto' 60.000 Gs/lt."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Cemento de contacto' 60.000 Gs/lt.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "chicotillo_pza",
@@ -1948,25 +1971,27 @@
  },
  {
   "idBo": "tornillo_para_madera_pza",
-  "precio": 85,
+  "precio": 77.27,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "85 con IVA ÷ 1.10 = 77.27 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Tornillo 1x7' 85 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Tornillo 1x7' 85 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "tornillo_hexagonal_pza",
-  "precio": 500,
+  "precio": 454.55,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "500 con IVA ÷ 1.10 = 454.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Bulón 1/4x1''' 500 Gs/un (bulón 1/4x2'': 1.500; 3/8x3'': 1.200)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Bulón 1/4x1''' 500 Gs/un (bulón 1/4x2'': 1.500; 3/8x3'': 1.200).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "tornillo_con_aleta_autoavellante_pza",
@@ -2003,14 +2028,15 @@
  },
  {
   "idBo": "tirafondos_de_5_1_2x1_4_pza",
-  "precio": 1500,
+  "precio": 1363.64,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "1500 con IVA ÷ 1.10 = 1363.64 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Tirafondo galv 3/8x5''' 1.500 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Tirafondo galv 3/8x5''' 1.500 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "bisagra_4_doble_pza",
@@ -2080,25 +2106,27 @@
  },
  {
   "idBo": "electrodos_kg",
-  "precio": 20000,
+  "precio": 18181.82,
   "unidad": "Kg",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "20000 con IVA ÷ 1.10 = 18181.82 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Electrodo' 20.000 Gs/kg."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Electrodo' 20.000 Gs/kg.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "soldadura_kg",
-  "precio": 20000,
+  "precio": 18181.82,
   "unidad": "Kg",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "20000 con IVA ÷ 1.10 = 18181.82 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Electrodo' 20.000 Gs/kg."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Electrodo' 20.000 Gs/kg.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "calamina_plana_n_28_m2",
@@ -2113,25 +2141,27 @@
  },
  {
   "idBo": "calamina_ondulada_n_28_m2",
-  "precio": 49636,
+  "precio": 45123.64,
   "unidad": "m2",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "109.000 / (2,44 x 0,90 = 2,196 m²) = 49.636 Gs/m²",
+  "conversion": "109.000 / (2,44 x 0,90 = 2,196 m²) = 49.636 Gs/m²; 49636 con IVA ÷ 1.10 = 45123.64 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Chapa cincalum N°28, 2,44x0,90 m' 109.000 Gs/un (cincalum = aluzinc, no galvanizado). 'Chapa galvanizada ondulada N°28 (3,66 m)' 56.000 Gs/un sin ancho indicado."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Chapa cincalum N°28, 2,44x0,90 m' 109.000 Gs/un (cincalum = aluzinc, no galvanizado). 'Chapa galvanizada ondulada N°28 (3,66 m)' 56.000 Gs/un sin ancho indicado.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "accesorios_galvanizado_3_4_pza",
-  "precio": 8805,
+  "precio": 8004.55,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "8805 con IVA ÷ 1.10 = 8004.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. Accesorio representativo: 'Alma doble 3/4'' galvaniz' (niple) 8.805 Gs/un; codo reducción PVC 3/4x1/2: 2.800."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. Accesorio representativo: 'Alma doble 3/4'' galvaniz' (niple) 8.805 Gs/un; codo reducción PVC 3/4x1/2: 2.800.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "alambre_galvanizado_n_8_4_20_mm_kg",
@@ -2168,36 +2198,39 @@
  },
  {
   "idBo": "alfombra_m2",
-  "precio": 18000,
+  "precio": 16363.64,
   "unidad": "m2",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "18000 con IVA ÷ 1.10 = 16363.64 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alfombra multipiso (3,5 mm)' 18.000 Gs/m²."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alfombra multipiso (3,5 mm)' 18.000 Gs/m².",
+  "ivaNormalizado": true
  },
  {
   "idBo": "alfombra_nacional_m2",
-  "precio": 18000,
+  "precio": 16363.64,
   "unidad": "m2",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "18000 con IVA ÷ 1.10 = 16363.64 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alfombra multipiso (3,5 mm)' 18.000 Gs/m²."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alfombra multipiso (3,5 mm)' 18.000 Gs/m².",
+  "ivaNormalizado": true
  },
  {
   "idBo": "ocre_importado_kg",
-  "precio": 25000,
+  "precio": 22727.27,
   "unidad": "Kg",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "25000 con IVA ÷ 1.10 = 22727.27 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Óxido rojo' (pigmento) 25.000 Gs/kg; óxido amarillo 25.000."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Óxido rojo' (pigmento) 25.000 Gs/kg; óxido amarillo 25.000.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "pintura_super_latex_gal",
@@ -2234,25 +2267,27 @@
  },
  {
   "idBo": "fondo_preparador_de_pared_l",
-  "precio": 7777,
+  "precio": 7070,
   "unidad": "L",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "7777 con IVA ÷ 1.10 = 7070 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Sellador acrílico Suvinil' 7.777 Gs/lt (fijador Inatix: 4.000 Gs/lt)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Sellador acrílico Suvinil' 7.777 Gs/lt (fijador Inatix: 4.000 Gs/lt).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "sellador_para_pared_l",
-  "precio": 7777,
+  "precio": 7070,
   "unidad": "L",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "7777 con IVA ÷ 1.10 = 7070 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Sellador acrílico Suvinil' 7.777 Gs/lt."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Sellador acrílico Suvinil' 7.777 Gs/lt.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "caja_de_registro_electrica_pza",
@@ -2267,25 +2302,27 @@
  },
  {
   "idBo": "electroducto_flexible_corrugado_20_mm_1_2_m",
-  "precio": 500,
+  "precio": 454.55,
   "unidad": "m",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "500 con IVA ÷ 1.10 = 454.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Caño corrugado 1/2''' 500 Gs/ml (CAPACO: corrugado 5/8\" 1.339 Gs/ml)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Caño corrugado 1/2''' 500 Gs/ml (CAPACO: corrugado 5/8\" 1.339 Gs/ml).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "electroducto_flexible_corrugado_32_mm_1_m",
-  "precio": 1400,
+  "precio": 1272.73,
   "unidad": "m",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "1400 con IVA ÷ 1.10 = 1272.73 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Caño corrugado 1''' 1.400 Gs/ml."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Caño corrugado 1''' 1.400 Gs/ml.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "cable_thw_12_awg_m",
@@ -2344,25 +2381,27 @@
  },
  {
   "idBo": "cable_cu_para_telefono_2_x_22_m",
-  "precio": 1373,
+  "precio": 1248.18,
   "unidad": "m",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "1373 con IVA ÷ 1.10 = 1248.18 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Cable p/ teléfono 2x0,20 mm' 1.373 Gs/ml."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Cable p/ teléfono 2x0,20 mm' 1.373 Gs/ml.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "placa_telefono_pza",
-  "precio": 27720,
+  "precio": 25200,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "27720 con IVA ÷ 1.10 = 25200 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Toma teléfono + tapa' 27.720 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Toma teléfono + tapa' 27.720 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "timbre_pulsador_con_campanilla_pza",
@@ -2399,14 +2438,15 @@
  },
  {
   "idBo": "tablero_de_distribucion_6_circuitos_pza",
-  "precio": 46500,
+  "precio": 42272.73,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "46500 con IVA ÷ 1.10 = 42272.73 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Caja p/ tablero principal 12 TM' 46.500 Gs/un (gabinete solo, sin llaves)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Caja p/ tablero principal 12 TM' 46.500 Gs/un (gabinete solo, sin llaves).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "jabalina_de_cobre_80_cm_pza",
@@ -2487,14 +2527,15 @@
  },
  {
   "idBo": "teja_espanola_ceramica_pza",
-  "precio": 1989,
+  "precio": 1808.18,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "1989 con IVA ÷ 1.10 = 1808.18 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Teja Española prensada' 1.989 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Teja Española prensada' 1.989 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "ceramica_esmaltada_30_30_m2",
@@ -2630,14 +2671,15 @@
  },
  {
   "idBo": "piedra_pizarra_cortada_y_pulida_m2",
-  "precio": 95000,
+  "precio": 86363.64,
   "unidad": "m2",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "95000 con IVA ÷ 1.10 = 86363.64 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Piedra losa blanca cuadrada pulida' 95.000 Gs/m²."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Piedra losa blanca cuadrada pulida' 95.000 Gs/m².",
+  "ivaNormalizado": true
  },
  {
   "idBo": "placa_ondulada_duralit_m2",
@@ -2707,25 +2749,27 @@
  },
  {
   "idBo": "tubular_cuadrado_20x20_mm_m",
-  "precio": 6170,
+  "precio": 5609.09,
   "unidad": "m",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "6170 con IVA ÷ 1.10 = 5609.09 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Caño 20x20x1,20 mm' 6.170 Gs/ml."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Caño 20x20x1,20 mm' 6.170 Gs/ml.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "tubo_cuadrado_20_20_mm_e_1_2_mm_barra",
-  "precio": 37020,
+  "precio": 33654.55,
   "unidad": "Barra",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "6.170 x 6 m = 37.020 Gs/barra",
+  "conversion": "6.170 x 6 m = 37.020 Gs/barra; 37020 con IVA ÷ 1.10 = 33654.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Caño 20x20x1,20 mm' 6.170 Gs/ml."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Caño 20x20x1,20 mm' 6.170 Gs/ml.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "fierro_liso_1_4_6mm_barra",
@@ -2817,25 +2861,27 @@
  },
  {
   "idBo": "tierra_seleccionada_m3",
-  "precio": 64000,
+  "precio": 58181.82,
   "unidad": "m3",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "64000 con IVA ÷ 1.10 = 58181.82 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Tierra gorda' 64.000 Gs/m³."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Tierra gorda' 64.000 Gs/m³.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "tierra_comun_m3",
-  "precio": 64000,
+  "precio": 58181.82,
   "unidad": "m3",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "64000 con IVA ÷ 1.10 = 58181.82 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Tierra gorda' 64.000 Gs/m³."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Tierra gorda' 64.000 Gs/m³.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "hormigon_premezclado_h_25_m3",
@@ -2894,25 +2940,27 @@
  },
  {
   "idBo": "union_universal_galvanizado_1_pza",
-  "precio": 17630,
+  "precio": 16027.27,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "17630 con IVA ÷ 1.10 = 16027.27 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Unión doble 1'' galvaniz' 17.630 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Unión doble 1'' galvaniz' 17.630 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "union_universal_galvanizada_o_1_25_mm_pza",
-  "precio": 17630,
+  "precio": 16027.27,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "17630 con IVA ÷ 1.10 = 16027.27 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Unión doble 1'' galvaniz' 17.630 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Unión doble 1'' galvaniz' 17.630 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "llave_de_paso_tipo_cortina_de_cobre_o_1_2_pza",
@@ -2949,47 +2997,51 @@
  },
  {
   "idBo": "niple_hexagonal_1_pza",
-  "precio": 12720,
+  "precio": 11563.64,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "12720 con IVA ÷ 1.10 = 11563.64 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alma doble 1'' galvaniz' (niple) 12.720 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alma doble 1'' galvaniz' (niple) 12.720 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "niple_hexagonal_galvanizado_o_1_25_mm_pza",
-  "precio": 12720,
+  "precio": 11563.64,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "12720 con IVA ÷ 1.10 = 11563.64 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alma doble 1'' galvaniz' 12.720 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alma doble 1'' galvaniz' 12.720 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "niple_hexagonal_3_4_pza",
-  "precio": 8805,
+  "precio": 8004.55,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "8805 con IVA ÷ 1.10 = 8004.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alma doble 3/4'' galvaniz' 8.805 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alma doble 3/4'' galvaniz' 8.805 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "niple_hexagonal_galvanizado_o_3_4_16_mm_pza",
-  "precio": 8805,
+  "precio": 8004.55,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "8805 con IVA ÷ 1.10 = 8004.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alma doble 3/4'' galvaniz' 8.805 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Alma doble 3/4'' galvaniz' 8.805 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "accesorios_galvanizado_1_2_pza",
@@ -3004,58 +3056,63 @@
  },
  {
   "idBo": "copla_rosca_pvc_1_2_pza",
-  "precio": 1628,
+  "precio": 1480,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "1628 con IVA ÷ 1.10 = 1480 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Unión sencilla roscable 1/2''' 1.628 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Unión sencilla roscable 1/2''' 1.628 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "anillo_de_goma_stp_4_pza",
-  "precio": 4800,
+  "precio": 4363.64,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "4800 con IVA ÷ 1.10 = 4363.64 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Anillo de sellado 100 mm p/desagüe' 4.800 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Anillo de sellado 100 mm p/desagüe' 4.800 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "anillo_de_goma_stp_2_pza",
-  "precio": 2500,
+  "precio": 2272.73,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "2500 con IVA ÷ 1.10 = 2272.73 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Anillo de sellado 50 mm p/desagüe' 2.500 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Anillo de sellado 50 mm p/desagüe' 2.500 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "sifon_de_pvc_pza",
-  "precio": 17500,
+  "precio": 15909.09,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "17500 con IVA ÷ 1.10 = 15909.09 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Bajada p/ lavatorio' (sifón de descarga) 17.500 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Bajada p/ lavatorio' (sifón de descarga) 17.500 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "griferia_para_lavanderia_pza",
-  "precio": 43600,
+  "precio": 39636.36,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "43600 con IVA ÷ 1.10 = 39636.36 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Canilla 1/2'' bronce FV' 43.600 Gs/un (CAPACO: canilla bronce 3/4\" c/pico 145.000)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Canilla 1/2'' bronce FV' 43.600 Gs/un (CAPACO: canilla bronce 3/4\" c/pico 145.000).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "mezcladora_p_lavaplatos_bras_pza",
@@ -3114,14 +3171,15 @@
  },
  {
   "idBo": "tina_blanca_con_griferia_pza",
-  "precio": 2110380,
+  "precio": 1918527.27,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "1.400.000 + 710.380 = 2.110.380 Gs",
+  "conversion": "1.400.000 + 710.380 = 2.110.380 Gs; 2110380 con IVA ÷ 1.10 = 1918527.27 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Bañera 1,60x0,70' 1.400.000 Gs + grifería ducha FV F-C (CAPACO 12.11) 710.380."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Bañera 1,60x0,70' 1.400.000 Gs + grifería ducha FV F-C (CAPACO 12.11) 710.380.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "lavaplatos_2_depos_1_fregadero_pza",
@@ -3312,14 +3370,15 @@
  },
  {
   "idBo": "caneria_fg_2_1_2_l_6m_pza",
-  "precio": 730000,
+  "precio": 663636.36,
   "unidad": "Pza",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "730000 con IVA ÷ 1.10 = 663636.36 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "MEDIA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Tubo galvanizado 2 1/2'' x 6 m' 730.000 Gs/un."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Tubo galvanizado 2 1/2'' x 6 m' 730.000 Gs/un.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "vidrio_catedral_blanco_3_mm_m2",
@@ -3389,36 +3448,39 @@
  },
  {
   "idBo": "madera_palo_maria_p2",
-  "precio": 14266,
+  "precio": 12969.09,
   "unidad": "p2",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "3.900 Gs/pulg-m x 3,658 pulg/p² = 14.266 Gs/p²",
+  "conversion": "3.900 Gs/pulg-m x 3,658 pulg/p² = 14.266 Gs/p²; 14266 con IVA ÷ 1.10 = 12969.09 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "BAJA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. Palo María no se comercializa en PY; se toma 'Viga de Yvyrapytá/kurupay 4,00-4,90 m' 3.900 Gs/pulg-m (madera dura estructural equivalente)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. Palo María no se comercializa en PY; se toma 'Viga de Yvyrapytá/kurupay 4,00-4,90 m' 3.900 Gs/pulg-m (madera dura estructural equivalente).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "machihembre_palo_maria_p2",
-  "precio": 8361,
+  "precio": 7600.91,
   "unidad": "p2",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "90.000 / 10,764 p²/m² = 8.361 Gs/p²",
+  "conversion": "90.000 / 10,764 p²/m² = 8.361 Gs/p²; 8361 con IVA ÷ 1.10 = 7600.91 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "BAJA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. Misma referencia que machihembre cedro (ybyrapytá 1x3'' 90.000 Gs/m²); especie no disponible en PY."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. Misma referencia que machihembre cedro (ybyrapytá 1x3'' 90.000 Gs/m²); especie no disponible en PY.",
+  "ivaNormalizado": true
  },
  {
   "idBo": "camion_de_transporte_hr",
-  "precio": 306452,
+  "precio": 278592.73,
   "unidad": "Hr",
   "fuente": "CAPACO - Listado de Maquinarias: precio hora / equipos y maquinarias, 20-jun-2026",
   "url": "https://www.capaco.org.py/storage/app/media/Listado%20de%20Precios/2026%20PRECIOS/06-LISTADO%20DE%20PRECIOS%20CAPACO-6%20JUNIO%202026.pdf",
   "fecha": "2026-06-20",
-  "conversion": "",
+  "conversion": "306452 con IVA ÷ 1.10 = 278592.73 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "BAJA",
-  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). 'Promedio camiones' 306.452 Gs/h (promedio de volquetes tumba y regadores 8-20 m³; no hay camión plano/transporte específico)."
+  "nota": "Costo horario promedio por rango de potencia, IVA incluido (CAPACO no aclara si incluye operador/combustible). 'Promedio camiones' 306.452 Gs/h (promedio de volquetes tumba y regadores 8-20 m³; no hay camión plano/transporte específico).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "eq_rompedora_de_asfalto",
@@ -3433,36 +3495,39 @@
  },
  {
   "idBo": "pegamento_para_cpvc_agua_caliente_1_4_l",
-  "precio": 40000,
+  "precio": 36363.64,
   "unidad": "1/4 l",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "160.000 Gs/L / 4 = 40.000 Gs",
+  "conversion": "160.000 Gs/L / 4 = 40.000 Gs; 40000 con IVA ÷ 1.10 = 36363.64 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "BAJA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Adhesivo para tubos 75 gr' 12.000 Gs/un (adhesivo PVC común, no específico CPVC)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Adhesivo para tubos 75 gr' 12.000 Gs/un (adhesivo PVC común, no específico CPVC).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "pegamento_para_cpvc_agua_caliente_1_l",
-  "precio": 160000,
+  "precio": 145454.55,
   "unidad": "1 l",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "12.000 / 0,075 L = 160.000 Gs/L",
+  "conversion": "12.000 / 0,075 L = 160.000 Gs/L; 160000 con IVA ÷ 1.10 = 145454.55 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "BAJA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Adhesivo para tubos 75 gr' 12.000 Gs/un (adhesivo PVC común, no específico CPVC)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Adhesivo para tubos 75 gr' 12.000 Gs/un (adhesivo PVC común, no específico CPVC).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "marmol_travertino_nacional_m2",
-  "precio": 680000,
+  "precio": 618181.82,
   "unidad": "m2",
   "fuente": "Costeo.com.py - Precios de materiales y equipos (referenciales, Paraguay)",
   "url": "https://www.costeo.com.py/precios/materiales/",
   "fecha": "2026-09-02",
-  "conversion": "",
+  "conversion": "680000 con IVA ÷ 1.10 = 618181.82 NETO (la cadena PY agrega el IVA 10 % al final)",
   "confianza": "BAJA",
-  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Mármol blanco' 680.000 Gs/m² (no travertino; granito natural 550.000)."
+  "nota": "Consulta 2-sep-2026; el sitio no publica fecha de actualización (precios coherentes con CAPACO jun-2026: cemento CP40 59.000 Gs en ambos). Precio de mostrador, se asume IVA incluido. 'Mármol blanco' 680.000 Gs/m² (no travertino; granito natural 550.000).",
+  "ivaNormalizado": true
  },
  {
   "idBo": "hormigon_premezclado_h_21_con_bomba_m3",
