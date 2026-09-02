@@ -47,11 +47,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PE.json"
     },
     "catalogo_CL": {
-      "version": "v20260823-estructura-cl",
+      "version": "v20260902-base-bolivia",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_CL.json"
     },
     "precios_CL": {
-      "version": "v20260823-estructura-cl",
+      "version": "v20260902-base-bolivia",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_CL.json"
     },
     "catalogo_ES": {

@@ -1,2697 +1,2732 @@
 {
- "version": "v20260823-estructura-cl",
- "schemaVersion": 1,
- "pais": "CL",
- "nota": "Base de ARRANQUE de Chile (1-sep-2026). Los 37 items vienen de la base boliviana y son SOLO los que transfieren limpio: su rendimiento es por m2, m3 o kg, no por PIEZA. Los de ladrillo, bloque y teja quedaron fuera a proposito, porque «62 ladrillos/m2» es un numero de la pieza boliviana y el ladrillo chileno tiene otra cara. Las LEYES SOCIALES van como linea del 45 % sobre la mano de obra DENTRO del APU, que es como las escribe un APU chileno; por eso la cadena CHILE no lleva nodo de cargas sociales. Todos los items estan marcados verificado=false: los precios tienen fuente publica pero no los reviso un profesional chileno. NOTA TECNICA: la linea de leyes sociales se declara como HERRAMIENTA porque el motor de APU solo evalua porcentajes en ese tipo (core/apu.ts); por eso aparece en el bloque de equipo y no en el de mano de obra. El NUMERO es correcto -45 % sobre la M.O.- y se edita en un solo lugar. CODIGOS DESAMBIGUADOS el 1-sep-2026: los items HEREDADOS de Bolivia llevan el sufijo del pais (UA001 -> UA001CL). El indice de la base de la APK es UNIQUE sobre el codigo SIN el pais, asi que dos paises con el mismo codigo se pisan y la descarga del segundo se corta. El sufijo va AL FINAL a proposito: el filtro por grupos usa los DOS PRIMEROS caracteres del codigo, asi que el capitulo se conserva.",
- "items": [
-  {
-   "codigo": "UH002CL",
-   "nombre": "Excavación de zanjas",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Metro Lineal",
-   "unidadResultado": "m3",
-   "categoria": "Obra Gruesa",
-   "verificado": false,
-   "tipoIfc": "",
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 3.2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "profundidad",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [
-    {
-     "nombre": "40×60",
-     "valores": {
-      "ancho": 0.4,
-      "profundidad": 0.6
-     }
-    },
-    {
-     "nombre": "60×60",
-     "valores": {
-      "ancho": 0.6,
-      "profundidad": 0.6
-     }
-    },
-    {
-     "nombre": "80×80",
-     "valores": {
-      "ancho": 0.8,
-      "profundidad": 0.8
-     }
-    }
-   ]
-  },
-  {
-   "codigo": "OG044CL",
-   "nombre": "Cortado de Carpeta Asfáltica",
-   "tipoCalculo": "LONGITUD",
-   "inputPrincipalLabel": "Longitud",
-   "unidadResultado": "m",
-   "categoria": "Obra Gruesa",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Maestro especializado",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Obras Civiles",
-     "rendimiento": 0.07,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_especialista",
-     "codigo": "OC004"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "GENERICO",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "",
-   "tags": []
-  },
-  {
-   "codigo": "OG046CL",
-   "nombre": "Demolición Cordón de Acera",
-   "tipoCalculo": "LONGITUD",
-   "inputPrincipalLabel": "Longitud",
-   "unidadResultado": "m",
-   "categoria": "Obra Gruesa",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.65,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "",
-   "tags": [
-    "demolición"
-   ]
-  },
-  {
-   "codigo": "OG055CL",
-   "nombre": "Remoción y Reposición de Empedrado",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Obra Gruesa",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.7,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 1,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "",
-   "tags": []
-  },
-  {
-   "codigo": "OG061CL",
-   "nombre": "Excavación Común",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Volumen",
-   "unidadResultado": "m3",
-   "categoria": "Obra Gruesa",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 3.6,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "",
-   "tags": []
-  },
-  {
-   "codigo": "UA001CL",
-   "nombre": "Revoque de cemento",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "m2",
-   "categoria": "Acabados",
-   "verificado": false,
-   "tipoIfc": "WALL",
-   "insumos": [
-    {
-     "nombre": "Cemento Portland",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Cemento y Cal",
-     "rendimiento": 8,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_cemento",
-     "codigo": "CM016"
-    },
-    {
-     "nombre": "Arena fina",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Agregados",
-     "rendimiento": 0.015,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_arena_fina",
-     "codigo": "AG004"
-    },
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.6,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.6,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ]
-  },
-  {
-   "codigo": "UA006CL",
-   "nombre": "Piso Cemento Alisado",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "m2",
-   "categoria": "Acabados",
-   "verificado": false,
-   "tipoIfc": "SLAB",
-   "insumos": [
-    {
-     "nombre": "Cemento Portland",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Cemento y Cal",
-     "rendimiento": 12,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_cemento",
-     "codigo": "CM016"
-    },
-    {
-     "nombre": "Arena fina",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Agregados",
-     "rendimiento": 0.015,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_arena_fina",
-     "codigo": "AG004"
-    },
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ]
-  },
-  {
-   "codigo": "AC002CL",
-   "nombre": "Revoque Cielo Raso sobre Losa",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Acabados",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Estuco de cemento",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Cemento y Cal",
-     "rendimiento": 17,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_estuco",
-     "codigo": "CM018"
-    },
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "SLAB",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "Largo*Ancho",
-   "aliases": [],
-   "subcategoria": "Revoque",
-   "tags": [
-    "estructural"
-   ]
-  },
-  {
-   "codigo": "AC006CL",
-   "nombre": "Buña o Goterón de Mortero",
-   "tipoCalculo": "LONGITUD",
-   "inputPrincipalLabel": "Longitud",
-   "unidadResultado": "m",
-   "categoria": "Acabados",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Arena fina",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Agregados",
-     "rendimiento": 0.04,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_arena_fina",
-     "codigo": "AG004"
-    },
-    {
-     "nombre": "Cemento Portland",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Cemento y Cal",
-     "rendimiento": 5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_cemento",
-     "codigo": "CM016"
-    },
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.25,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "",
-   "tags": []
-  },
-  {
-   "codigo": "AC010CL",
-   "nombre": "Piruleado Exterior",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Acabados",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Cemento Portland",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Cemento y Cal",
-     "rendimiento": 0.25,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_cemento",
-     "codigo": "CM016"
-    },
-    {
-     "nombre": "Arena fina",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Agregados",
-     "rendimiento": 0.02,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_arena_fina",
-     "codigo": "AG004"
-    },
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "",
-   "tags": [
-    "exterior"
-   ]
-  },
-  {
-   "codigo": "AC017CL",
-   "nombre": "Revoque Interior de Yeso",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Acabados",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Estuco de cemento",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Cemento y Cal",
-     "rendimiento": 10.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_estuco",
-     "codigo": "CM018"
-    },
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 1.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 1.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "Revoque",
-   "tags": [
-    "interior"
-   ]
-  },
-  {
-   "codigo": "AC019CL",
-   "nombre": "Contrapiso de Cemento sobre Losa",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Acabados",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Cemento Portland",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Cemento y Cal",
-     "rendimiento": 11,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_cemento",
-     "codigo": "CM016"
-    },
-    {
-     "nombre": "Arena fina",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Agregados",
-     "rendimiento": 0.06,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_arena_fina",
-     "codigo": "AG004"
-    },
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.9,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 1.2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "SLAB",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "Largo*Ancho",
-   "aliases": [],
-   "subcategoria": "",
-   "tags": [
-    "estructural"
-   ]
-  },
-  {
-   "codigo": "AC040CL",
-   "nombre": "Zócalo de Cemento",
-   "tipoCalculo": "LONGITUD",
-   "inputPrincipalLabel": "Longitud",
-   "unidadResultado": "m",
-   "categoria": "Acabados",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Cemento Portland",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Cemento y Cal",
-     "rendimiento": 7,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_cemento",
-     "codigo": "CM016"
-    },
-    {
-     "nombre": "Arena gruesa",
-     "unidad": "m3",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Agregados",
-     "rendimiento": 0.04,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_arena_gruesa",
-     "codigo": "AG003"
-    },
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "Zócalo",
-   "tags": []
-  },
-  {
-   "codigo": "MP001CL",
-   "nombre": "Demolición Muro de Ladrillo",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Mampostería",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 2.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "GENERICO",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "",
-   "tags": [
-    "demolición"
-   ]
-  },
-  {
-   "codigo": "UC001CL",
-   "nombre": "Cubierta calamina N°28",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "m2",
-   "categoria": "Cubiertas",
-   "verificado": false,
-   "tipoIfc": "ROOF",
-   "insumos": [
-    {
-     "nombre": "Plancha de zinc acanalada 0,35 mm",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Cubiertas",
-     "rendimiento": 1.1,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_zinc",
-     "codigo": "CB001"
-    },
-    {
-     "nombre": "Pino cepillado",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_madera",
-     "codigo": "MD007"
-    },
-    {
-     "nombre": "Clavo corriente",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Ferretería",
-     "rendimiento": 0.3,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_clavos",
-     "codigo": "FE030"
-    },
-    {
-     "nombre": "Maestro carpintero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_carpintero",
-     "codigo": "CA003"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ]
-  },
-  {
-   "codigo": "CU001CL",
-   "nombre": "Desate de Cubierta de Calamina",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Cubiertas",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.8,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "ROOF",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "Largo*Ancho",
-   "aliases": [],
-   "subcategoria": "Calamina",
-   "tags": []
-  },
-  {
-   "codigo": "CU027CL",
-   "nombre": "Pintura de Cubierta Exterior",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Cubiertas",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Pintura latex",
-     "unidad": "L",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Pinturas",
-     "rendimiento": 0.28,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_pintura_latex",
-     "codigo": "PT009"
-    },
-    {
-     "nombre": "Maestro especializado",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Obras Civiles",
-     "rendimiento": 0.45,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_especialista",
-     "codigo": "OC004"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.45,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "ROOF",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "Largo*Ancho",
-   "aliases": [],
-   "subcategoria": "",
-   "tags": [
-    "exterior"
-   ]
-  },
-  {
-   "codigo": "OT001CL",
-   "nombre": "Instalación de Faenas",
-   "tipoCalculo": "CANTIDAD",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "Glb",
-   "categoria": "Otros",
-   "verificado": false,
-   "tipoIfc": "",
-   "formulaResultado": "1",
-   "insumos": [
-    {
-     "nombre": "Pino cepillado",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 50,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_madera",
-     "codigo": "MD007"
-    },
-    {
-     "nombre": "Plancha de zinc acanalada 0,35 mm",
-     "unidad": "m2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Cubiertas",
-     "rendimiento": 6,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_zinc",
-     "codigo": "CB001"
-    },
-    {
-     "nombre": "Clavo corriente",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Ferretería",
-     "rendimiento": 3,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_clavos",
-     "codigo": "FE030"
-    },
-    {
-     "nombre": "Maestro carpintero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 16,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_carpintero",
-     "codigo": "CA003"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 16,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": []
-  },
-  {
-   "codigo": "OT003CL",
-   "nombre": "Excavación Manual",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "m3",
-   "categoria": "Otros",
-   "verificado": false,
-   "tipoIfc": "",
-   "insumos": [
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 1.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 3,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Profundidad",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ]
-  },
-  {
-   "codigo": "OT004CL",
-   "nombre": "Relleno y Compactado",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "m3",
-   "categoria": "Otros",
-   "verificado": false,
-   "tipoIfc": "",
-   "insumos": [
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 1.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ]
-  },
-  {
-   "codigo": "OT005CL",
-   "nombre": "Limpieza del Terreno",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "m2",
-   "categoria": "Otros",
-   "verificado": false,
-   "tipoIfc": "",
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.1,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ]
-  },
-  {
-   "codigo": "OT047CL",
-   "nombre": "Demolición de Piso y Contrapiso",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 1.2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "GENERICO",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "Faenas",
-   "tags": [
-    "demolición"
-   ]
-  },
-  {
-   "codigo": "CA001CL",
-   "nombre": "Puerta",
-   "tipoCalculo": "CANTIDAD",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "Pza",
-   "categoria": "Carpintería",
-   "verificado": false,
-   "tipoIfc": "DOOR",
-   "formulaResultado": "1",
-   "insumos": [
-    {
-     "nombre": "Pino cepillado",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 30,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_madera",
-     "codigo": "MD007"
-    },
-    {
-     "nombre": "Clavo corriente",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Ferretería",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_clavos",
-     "codigo": "FE030"
-    },
-    {
-     "nombre": "Maestro carpintero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_carpintero",
-     "codigo": "CA003"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ]
-  },
-  {
-   "codigo": "CA002CL",
-   "nombre": "Ventana",
-   "tipoCalculo": "CANTIDAD",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "Pza",
-   "categoria": "Carpintería",
-   "verificado": false,
-   "tipoIfc": "WINDOW",
-   "formulaResultado": "1",
-   "insumos": [
-    {
-     "nombre": "Pino cepillado",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 15,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_madera",
-     "codigo": "MD007"
-    },
-    {
-     "nombre": "Clavo corriente",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Ferretería",
-     "rendimiento": 0.3,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_clavos",
-     "codigo": "FE030"
-    },
-    {
-     "nombre": "Maestro carpintero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 3,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_carpintero",
-     "codigo": "CA003"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 1.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ]
-  },
-  {
-   "codigo": "CA003CL",
-   "nombre": "Baranda Metálica",
-   "tipoCalculo": "LONGITUD",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "m",
-   "categoria": "Carpintería",
-   "verificado": false,
-   "tipoIfc": "RAILING",
-   "insumos": [
-    {
-     "nombre": "Fierro corrugado A630-420H",
-     "unidad": "Kg",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Acero/Fierro de construcción",
-     "rendimiento": 5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_fierro",
-     "codigo": "AC018"
-    },
-    {
-     "nombre": "Pino cepillado",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mat_madera",
-     "codigo": "MD007"
-    },
-    {
-     "nombre": "Maestro carpintero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_carpintero",
-     "codigo": "CA003"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 1,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ]
-  },
-  {
-   "codigo": "OT049CL",
-   "nombre": "Demolición Hormigón Simple",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Volumen",
-   "unidadResultado": "m3",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 13,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [
-    "DEMOLICIÓN Ho. Simple"
-   ],
-   "subcategoria": "Faenas",
-   "tags": [
-    "demolición"
-   ]
-  },
-  {
-   "codigo": "OT050CL",
-   "nombre": "Demolición Mampostería de Piedra",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Volumen",
-   "unidadResultado": "m3",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 11.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "GENERICO",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "Faenas",
-   "tags": [
-    "demolición"
-   ]
-  },
-  {
-   "codigo": "OT006CL",
-   "nombre": "Desate de Gaviones",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Volumen",
-   "unidadResultado": "m3",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 2.2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "Faenas",
-   "tags": []
-  },
-  {
-   "codigo": "CR001CL",
-   "nombre": "Desate de Puerta - Ventana",
-   "tipoCalculo": "CANTIDAD",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "Pza",
-   "categoria": "Carpintería",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 1.4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "nombre": "Maestro especializado",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Obras Civiles",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_especialista",
-     "codigo": "OC004"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [],
-   "presets": [],
-   "tipoIfc": "DOOR",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "1",
-   "aliases": [],
-   "subcategoria": "Puerta",
-   "tags": []
-  },
-  {
-   "codigo": "OT007CL",
-   "nombre": "Desempiedre",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.35,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "Faenas",
-   "tags": []
-  },
-  {
-   "codigo": "OT010CL",
-   "nombre": "Limpieza y Deshierbe",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.09,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "Faenas",
-   "tags": []
-  },
-  {
-   "codigo": "OT011CL",
-   "nombre": "Picado de Revoque Interior",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.9,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "Faenas",
-   "tags": [
-    "interior"
-   ]
-  },
-  {
-   "codigo": "OT014CL",
-   "nombre": "Retiro de Cielo Raso (Estuco bajo Losa)",
-   "tipoCalculo": "AREA",
-   "inputPrincipalLabel": "Área",
-   "unidadResultado": "m2",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 0.6,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "GENERICO",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "Faenas",
-   "tags": [
-    "estructural"
-   ]
-  },
-  {
-   "codigo": "OT016CL",
-   "nombre": "Excavación 0-1.5 M Terr. Blando",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Volumen",
-   "unidadResultado": "m3",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.6,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 2.8,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [
-    "EXCAVACIÓN 0-1.5 m. TERR. BLANDO"
-   ],
-   "subcategoria": "Excavación",
-   "tags": []
-  },
-  {
-   "codigo": "OT017CL",
-   "nombre": "Excavación 0-1.5 M Terr. Semiduro",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Volumen",
-   "unidadResultado": "m3",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.6,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 3.2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [
-    "EXCAVACIÓN 0-1.5 m. TERR. SEMIDURO"
-   ],
-   "subcategoria": "Excavación",
-   "tags": []
-  },
-  {
-   "codigo": "OT018CL",
-   "nombre": "Excavación 0-1.5 M Terr. Duro",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Volumen",
-   "unidadResultado": "m3",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.6,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 3.6,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [
-    "EXCAVACIÓN 0-1.5 m. TERR. DURO"
-   ],
-   "subcategoria": "Excavación",
-   "tags": []
-  },
-  {
-   "codigo": "OT023CL",
-   "nombre": "Relleno y Apisonado Manual de Tierra",
-   "tipoCalculo": "VOLUMEN",
-   "inputPrincipalLabel": "Volumen",
-   "unidadResultado": "m3",
-   "categoria": "Otros",
-   "verificado": false,
-   "insumos": [
-    {
-     "nombre": "Maestro albanil",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_albanil",
-     "codigo": "CA001"
-    },
-    {
-     "nombre": "Jornalero",
-     "unidad": "Hr",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No Calificada",
-     "rendimiento": 2.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "cl_mo_jornalero",
-     "codigo": "NC001"
-    },
-    {
-     "idCanonico": "cl_mo_leyes_sociales",
-     "nombre": "Leyes sociales (45 % de la M.O.)",
-     "categoria": "Equipo",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "tipoCalculo": "PORCENTAJE",
-     "rendimiento": 45.0,
-     "precio": 0,
-     "baseCalculo": "MO"
-    }
-   ],
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
-   "presets": [],
-   "tipoIfc": "GENERICO",
-   "autorNombre": "",
-   "autorUid": "",
-   "armaduraJson": "",
-   "formulaResultado": "",
-   "aliases": [],
-   "subcategoria": "Excavación",
-   "tags": []
-  }
- ]
+  "version": "v20260902-base-bolivia",
+  "schemaVersion": 1,
+  "items": [
+    {
+      "codigo": "CA001CL",
+      "nombre": "Puerta",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "Pza",
+      "categoria": "Carpintería",
+      "verificado": true,
+      "tipoIfc": "DOOR",
+      "formulaResultado": "1",
+      "insumos": [
+        {
+          "nombre": "Pino cepillado",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 30,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_madera",
+          "codigo": "CL_MAT_MADERA"
+        },
+        {
+          "nombre": "Clavo corriente",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_clavos",
+          "codigo": "CL_MAT_CLAVOS"
+        },
+        {
+          "nombre": "Maestro carpintero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 4,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_carpintero",
+          "codigo": "CL_MO_CARPINTERO"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "CA002CL",
+      "nombre": "Ventana",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "Pza",
+      "categoria": "Carpintería",
+      "verificado": true,
+      "tipoIfc": "WINDOW",
+      "formulaResultado": "1",
+      "insumos": [
+        {
+          "nombre": "Pino cepillado",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 15,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_madera",
+          "codigo": "CL_MAT_MADERA"
+        },
+        {
+          "nombre": "Clavo corriente",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 0.3,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_clavos",
+          "codigo": "CL_MAT_CLAVOS"
+        },
+        {
+          "nombre": "Maestro carpintero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 3,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_carpintero",
+          "codigo": "CL_MO_CARPINTERO"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "CA003CL",
+      "nombre": "Baranda Metálica",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m",
+      "categoria": "Carpintería",
+      "verificado": true,
+      "tipoIfc": "RAILING",
+      "insumos": [
+        {
+          "nombre": "Fierro corrugado A630-420H",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero/Fierro de construcción",
+          "rendimiento": 5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_fierro",
+          "codigo": "CL_MAT_FIERRO"
+        },
+        {
+          "nombre": "Pino cepillado",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_madera",
+          "codigo": "CL_MAT_MADERA"
+        },
+        {
+          "nombre": "Maestro carpintero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_carpintero",
+          "codigo": "CL_MO_CARPINTERO"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "UA001CL",
+      "nombre": "Revoque de cemento",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": true,
+      "tipoIfc": "WALL",
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 8,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_cemento",
+          "codigo": "CL_MAT_CEMENTO"
+        },
+        {
+          "nombre": "Arena fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.015,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_arena_fina",
+          "codigo": "CL_MAT_ARENA_FINA"
+        },
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.6,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.6,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "UA006CL",
+      "nombre": "Piso Cemento Alisado",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": true,
+      "tipoIfc": "SLAB",
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 12,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_cemento",
+          "codigo": "CL_MAT_CEMENTO"
+        },
+        {
+          "nombre": "Arena fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.015,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_arena_fina",
+          "codigo": "CL_MAT_ARENA_FINA"
+        },
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "UC001CL",
+      "nombre": "Cubierta calamina N°28",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Cubiertas",
+      "verificado": true,
+      "tipoIfc": "ROOF",
+      "insumos": [
+        {
+          "nombre": "Plancha de zinc acanalada 0,35 mm",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cubiertas",
+          "rendimiento": 1.1,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_zinc",
+          "codigo": "CL_MAT_ZINC"
+        },
+        {
+          "nombre": "Pino cepillado",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_madera",
+          "codigo": "CL_MAT_MADERA"
+        },
+        {
+          "nombre": "Clavo corriente",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 0.3,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_clavos",
+          "codigo": "CL_MAT_CLAVOS"
+        },
+        {
+          "nombre": "Maestro carpintero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_carpintero",
+          "codigo": "CL_MO_CARPINTERO"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "UH002CL",
+      "nombre": "Excavación de zanjas",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Metro Lineal",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 3.2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "profundidad",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [
+        {
+          "nombre": "40×60",
+          "valores": {
+            "ancho": 0.4,
+            "profundidad": 0.6
+          }
+        },
+        {
+          "nombre": "60×60",
+          "valores": {
+            "ancho": 0.6,
+            "profundidad": 0.6
+          }
+        },
+        {
+          "nombre": "80×80",
+          "valores": {
+            "ancho": 0.8,
+            "profundidad": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "codigo": "OT001CL",
+      "nombre": "Instalación de Faenas",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "Glb",
+      "categoria": "Otros",
+      "verificado": true,
+      "tipoIfc": "",
+      "formulaResultado": "1",
+      "insumos": [
+        {
+          "nombre": "Pino cepillado",
+          "unidad": "p2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 50,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_madera",
+          "codigo": "CL_MAT_MADERA"
+        },
+        {
+          "nombre": "Plancha de zinc acanalada 0,35 mm",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cubiertas",
+          "rendimiento": 6,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_zinc",
+          "codigo": "CL_MAT_ZINC"
+        },
+        {
+          "nombre": "Clavo corriente",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Ferretería",
+          "rendimiento": 3,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_clavos",
+          "codigo": "CL_MAT_CLAVOS"
+        },
+        {
+          "nombre": "Maestro carpintero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 16,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_carpintero",
+          "codigo": "CL_MO_CARPINTERO"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 16,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": []
+    },
+    {
+      "codigo": "OT003CL",
+      "nombre": "Excavación Manual",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 1.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 3,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Profundidad",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "OT004CL",
+      "nombre": "Relleno y Compactado",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "OT005CL",
+      "nombre": "Limpieza del Terreno",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "m2",
+      "categoria": "Otros",
+      "verificado": true,
+      "tipoIfc": "",
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.1,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ]
+    },
+    {
+      "codigo": "OT047CL",
+      "nombre": "Demolición de Piso y Contrapiso",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1.2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "GENERICO",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "Faenas",
+      "tags": [
+        "demolición"
+      ]
+    },
+    {
+      "codigo": "OT049CL",
+      "nombre": "Demolición Hormigón Simple",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Volumen",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 13,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [
+        "DEMOLICIÓN Ho. Simple"
+      ],
+      "subcategoria": "Faenas",
+      "tags": [
+        "demolición"
+      ]
+    },
+    {
+      "codigo": "OT050CL",
+      "nombre": "Demolición Mampostería de Piedra",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Volumen",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 11.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "GENERICO",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "Faenas",
+      "tags": [
+        "demolición"
+      ]
+    },
+    {
+      "codigo": "MP001CL",
+      "nombre": "Demolición Muro de Ladrillo",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Mampostería",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 2.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "GENERICO",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "",
+      "tags": [
+        "demolición"
+      ]
+    },
+    {
+      "codigo": "CU001CL",
+      "nombre": "Desate de Cubierta de Calamina",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Cubiertas",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.8,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "ROOF",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "Largo*Ancho",
+      "aliases": [],
+      "subcategoria": "Calamina",
+      "tags": []
+    },
+    {
+      "codigo": "OT006CL",
+      "nombre": "Desate de Gaviones",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Volumen",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 2.2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "Faenas",
+      "tags": []
+    },
+    {
+      "codigo": "CR001CL",
+      "nombre": "Desate de Puerta - Ventana",
+      "tipoCalculo": "CANTIDAD",
+      "inputPrincipalLabel": "Cantidad",
+      "unidadResultado": "Pza",
+      "categoria": "Carpintería",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1.4,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Maestro especializado",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_especialista",
+          "codigo": "CL_MO_ESPECIALISTA"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [],
+      "presets": [],
+      "tipoIfc": "DOOR",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "1",
+      "aliases": [],
+      "subcategoria": "Puerta",
+      "tags": []
+    },
+    {
+      "codigo": "OT007CL",
+      "nombre": "Desempiedre",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.35,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "Faenas",
+      "tags": []
+    },
+    {
+      "codigo": "OT010CL",
+      "nombre": "Limpieza y Deshierbe",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.09,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "Faenas",
+      "tags": []
+    },
+    {
+      "codigo": "OT011CL",
+      "nombre": "Picado de Revoque Interior",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.9,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "Faenas",
+      "tags": [
+        "interior"
+      ]
+    },
+    {
+      "codigo": "OT014CL",
+      "nombre": "Retiro de Cielo Raso (Estuco bajo Losa)",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.6,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "GENERICO",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "Faenas",
+      "tags": [
+        "estructural"
+      ]
+    },
+    {
+      "codigo": "OT016CL",
+      "nombre": "Excavación 0-1.5 M Terr. Blando",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Volumen",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.6,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 2.8,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [
+        "EXCAVACIÓN 0-1.5 m. TERR. BLANDO"
+      ],
+      "subcategoria": "Excavación",
+      "tags": []
+    },
+    {
+      "codigo": "OT017CL",
+      "nombre": "Excavación 0-1.5 M Terr. Semiduro",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Volumen",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.6,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 3.2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [
+        "EXCAVACIÓN 0-1.5 m. TERR. SEMIDURO"
+      ],
+      "subcategoria": "Excavación",
+      "tags": []
+    },
+    {
+      "codigo": "OT018CL",
+      "nombre": "Excavación 0-1.5 M Terr. Duro",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Volumen",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.6,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 3.6,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [
+        "EXCAVACIÓN 0-1.5 m. TERR. DURO"
+      ],
+      "subcategoria": "Excavación",
+      "tags": []
+    },
+    {
+      "codigo": "OT023CL",
+      "nombre": "Relleno y Apisonado Manual de Tierra",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Volumen",
+      "unidadResultado": "m3",
+      "categoria": "Otros",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 2.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "GENERICO",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "Excavación",
+      "tags": []
+    },
+    {
+      "codigo": "AC002CL",
+      "nombre": "Revoque Cielo Raso sobre Losa",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Estuco de cemento",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 17,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_estuco",
+          "codigo": "CL_MAT_ESTUCO"
+        },
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "SLAB",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "Largo*Ancho",
+      "aliases": [],
+      "subcategoria": "Revoque",
+      "tags": [
+        "estructural"
+      ]
+    },
+    {
+      "codigo": "AC006CL",
+      "nombre": "Buña o Goterón de Mortero",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Longitud",
+      "unidadResultado": "m",
+      "categoria": "Acabados",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Arena fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.04,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_arena_fina",
+          "codigo": "CL_MAT_ARENA_FINA"
+        },
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_cemento",
+          "codigo": "CL_MAT_CEMENTO"
+        },
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.25,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "",
+      "tags": []
+    },
+    {
+      "codigo": "AC010CL",
+      "nombre": "Piruleado Exterior",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 0.25,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_cemento",
+          "codigo": "CL_MAT_CEMENTO"
+        },
+        {
+          "nombre": "Arena fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.02,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_arena_fina",
+          "codigo": "CL_MAT_ARENA_FINA"
+        },
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "codigo": "AC017CL",
+      "nombre": "Revoque Interior de Yeso",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Estuco de cemento",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 10.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_estuco",
+          "codigo": "CL_MAT_ESTUCO"
+        },
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 1.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "Revoque",
+      "tags": [
+        "interior"
+      ]
+    },
+    {
+      "codigo": "AC019CL",
+      "nombre": "Contrapiso de Cemento sobre Losa",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Acabados",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 11,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_cemento",
+          "codigo": "CL_MAT_CEMENTO"
+        },
+        {
+          "nombre": "Arena fina",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.06,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_arena_fina",
+          "codigo": "CL_MAT_ARENA_FINA"
+        },
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.9,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1.2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "SLAB",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "Largo*Ancho",
+      "aliases": [],
+      "subcategoria": "",
+      "tags": [
+        "estructural"
+      ]
+    },
+    {
+      "codigo": "AC040CL",
+      "nombre": "Zócalo de Cemento",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Longitud",
+      "unidadResultado": "m",
+      "categoria": "Acabados",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Cemento Portland",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 7,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_cemento",
+          "codigo": "CL_MAT_CEMENTO"
+        },
+        {
+          "nombre": "Arena gruesa",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.04,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_arena_gruesa",
+          "codigo": "CL_MAT_ARENA_GRUESA"
+        },
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "Zócalo",
+      "tags": []
+    },
+    {
+      "codigo": "CU027CL",
+      "nombre": "Pintura de Cubierta Exterior",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Cubiertas",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Pintura latex",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 0.28,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mat_pintura_latex",
+          "codigo": "CL_MAT_PINTURA_LATEX"
+        },
+        {
+          "nombre": "Maestro especializado",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.45,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_especialista",
+          "codigo": "CL_MO_ESPECIALISTA"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.45,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "ROOF",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "Largo*Ancho",
+      "aliases": [],
+      "subcategoria": "",
+      "tags": [
+        "exterior"
+      ]
+    },
+    {
+      "codigo": "OG044CL",
+      "nombre": "Cortado de Carpeta Asfáltica",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Longitud",
+      "unidadResultado": "m",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Maestro especializado",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Obras Civiles",
+          "rendimiento": 0.07,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_especialista",
+          "codigo": "CL_MO_ESPECIALISTA"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "GENERICO",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "",
+      "tags": []
+    },
+    {
+      "codigo": "OG046CL",
+      "nombre": "Demolición Cordón de Acera",
+      "tipoCalculo": "LONGITUD",
+      "inputPrincipalLabel": "Longitud",
+      "unidadResultado": "m",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.65,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "",
+      "tags": [
+        "demolición"
+      ]
+    },
+    {
+      "codigo": "OG055CL",
+      "nombre": "Remoción y Reposición de Empedrado",
+      "tipoCalculo": "AREA",
+      "inputPrincipalLabel": "Área",
+      "unidadResultado": "m2",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.7,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "",
+      "tags": []
+    },
+    {
+      "codigo": "OG061CL",
+      "nombre": "Excavación Común",
+      "tipoCalculo": "VOLUMEN",
+      "inputPrincipalLabel": "Volumen",
+      "unidadResultado": "m3",
+      "categoria": "Obra Gruesa",
+      "verificado": true,
+      "insumos": [
+        {
+          "nombre": "Maestro albanil",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.5,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_albanil",
+          "codigo": "CL_MO_ALBANIL"
+        },
+        {
+          "nombre": "Jornalero",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 3.6,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "cl_mo_jornalero",
+          "codigo": "CL_MO_JORNALERO"
+        },
+        {
+          "nombre": "Leyes sociales (45 % de la M.O.)",
+          "unidad": "%",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Equipo",
+          "rendimiento": 45,
+          "precio": 0,
+          "tipoCalculo": "PORCENTAJE",
+          "baseCalculo": "MO",
+          "idCanonico": "cl_mo_leyes_sociales",
+          "codigo": ""
+        }
+      ],
+      "parametros": [
+        {
+          "nombre": "Largo",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Ancho",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        },
+        {
+          "nombre": "Alto",
+          "valorDefault": 1,
+          "unidad": "m",
+          "visiblePorDefecto": true
+        }
+      ],
+      "presets": [],
+      "tipoIfc": "",
+      "autorNombre": "",
+      "autorUid": "",
+      "armaduraJson": "",
+      "formulaResultado": "",
+      "aliases": [],
+      "subcategoria": "",
+      "tags": []
+    }
+  ]
 }

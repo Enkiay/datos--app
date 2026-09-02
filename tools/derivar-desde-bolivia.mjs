@@ -51,6 +51,37 @@ const CONFIG = {
       mo_cerrajero: "py_mo_especialista", mo_carpintero_en_aluminio: "py_mo_carpintero", mo_perforista: "py_mo_especialista",
     },
   },
+  CL: {
+    version: "v20260902-base-bolivia",
+    fuente: "Base boliviana (catálogo ArqOn) + precios de Chile: índices públicos de materiales (factoIA, ObraMaestra, CalculaObra) y un APU chileno real, jun-jul 2026. Relevado en Santiago; las otras 15 ciudades COPIAN Santiago (referencial) hasta relevarse.",
+    equivalentes: {
+      arena_fina_m3: "cl_mat_arena_fina", arena_comun_m3: "cl_mat_arena_gruesa", cemento_portland_kg: "cl_mat_cemento",
+      clavos_kg: "cl_mat_clavos", estuco_kg: "cl_mat_estuco", fierro_corrugado_kg: "cl_mat_fierro",
+      madera_de_construccion_p2: "cl_mat_madera", pintura_latex_l: "cl_mat_pintura_latex", calamina_galvanizada_m2: "cl_mat_zinc",
+      mo_albanil: "cl_mo_albanil", mo_carpintero: "cl_mo_carpintero", mo_especialista: "cl_mo_especialista", mo_ayudante: "cl_mo_jornalero",
+    },
+    familias: {
+      cemento_portland_ip30_kg: "cl_mat_cemento", cemento_portland_ip40_kg: "cl_mat_cemento", cemento_kg: "cl_mat_cemento",
+      arena_lavada_m3: "cl_mat_arena_gruesa",
+      pintura_latex_interior_l: "cl_mat_pintura_latex", pintura_latex_exterior_l: "cl_mat_pintura_latex", pintura_latex_satinado_l: "cl_mat_pintura_latex",
+      // La «plancha de zinc acanalada» chilena ES la calamina boliviana.
+      calamina_ondulada_n_28_m2: "cl_mat_zinc", calamina_ondulada_n_33_m2: "cl_mat_zinc", calamina_plana_n_28_m2: "cl_mat_zinc",
+      // En Chile todo MAESTRO cobra la misma hora (3.212): las oficialías bolivianas la heredan.
+      mo_encofrador: "cl_mo_especialista", mo_armador: "cl_mo_especialista", mo_especialista_calificado: "cl_mo_especialista",
+      mo_especialista_plomero: "cl_mo_especialista", mo_especialista_cerrajero: "cl_mo_especialista",
+      mo_especialista_en_tesado_e_inyeccion: "cl_mo_especialista", mo_tecnico_especialista: "cl_mo_especialista",
+      mo_tecnico_especialista_certificado: "cl_mo_especialista", mo_tecnico_especialista_juntas: "cl_mo_especialista",
+      mo_electricista: "cl_mo_especialista", mo_plomero: "cl_mo_especialista", mo_plomero_certificado: "cl_mo_especialista",
+      mo_pintor: "cl_mo_especialista", mo_cerrajero: "cl_mo_especialista", mo_carpintero_en_aluminio: "cl_mo_carpintero",
+      mo_perforista: "cl_mo_especialista",
+    },
+    // LEYES SOCIALES (≈45 % de la M.O.) van DENTRO del APU como línea de porcentaje — la caja
+    // chilena lleva cargasSociales = 0 por eso, y la guarda del PC exige que la línea exista.
+    lineasExtra: (it) => it.insumos.some((s) => s.tipoInsumo === "MANO_DE_OBRA") ? [{
+      nombre: "Leyes sociales (45 % de la M.O.)", unidad: "%", tipoInsumo: "HERRAMIENTA", categoria: "Equipo",
+      rendimiento: 45, precio: 0, tipoCalculo: "PORCENTAJE", baseCalculo: "MO", idCanonico: "cl_mo_leyes_sociales", codigo: "",
+    }] : [],
+  },
 };
 const cfg = CONFIG[PAIS];
 if (!cfg) { console.error(`no hay tabla para ${PAIS}: agregala en CONFIG`); process.exit(2); }
@@ -75,11 +106,21 @@ function precioEn(ciudadPais, idBo) {
 }
 
 // ── oficiales_XX: las ciudades del país, con los 751 insumos cada una ──────────────────────
+// TODAS las ciudades de la caja salen SERVIDAS (Oscar, 2-sep-2026: «habilita todas las
+// ciudades, con precios copiados»): una ciudad sin relevamiento propio copia los precios de la
+// ciudad de REFERENCIA (la primera que tenga precios), y cada precio copiado lo dice en su nota.
+// Es lo que ya hacía Paraguay con los materiales fuera de la lista de ANDE.
+const servida = (c) => c.precios.some((p) => p.precio > 0);
+const ciudadRef = ofiPaisViejo.ciudades.find(servida);
+if (!ciudadRef) { console.error("ninguna ciudad tiene un solo precio relevado: no hay de dónde copiar"); process.exit(2); }
 const ciudades = ofiPaisViejo.ciudades.map((c) => ({
   nombre: c.nombre,
   precios: maestro.map((m) => {
-    const rel = precioEn(c, m.idCanonico);
-    const viejo = c.precios.find((x) => x.idCanonico === cfg.equivalentes[m.idCanonico]);
+    const propio = precioEn(c, m.idCanonico);
+    const rel = propio ?? precioEn(ciudadRef, m.idCanonico);
+    const copiado = !propio && !!rel;
+    const viejo = (copiado ? ciudadRef : c).precios.find((x) => x.idCanonico === cfg.equivalentes[m.idCanonico]);
+    const notaBase = viejo ? (viejo.nota ?? "") : (rel ? `Precio heredado de «${rel.nombre}» (misma familia / mismo escalafón)` : "");
     return {
       idCanonico: idPais(m.idCanonico),
       nombre: viejo?.nombre ?? m.nombre,
@@ -89,31 +130,34 @@ const ciudades = ofiPaisViejo.ciudades.map((c) => ({
       codigo: codigoPais(m.idCanonico, m.codigo),
       precio: rel ? rel.precio : 0,
       nota: rel
-        ? (viejo ? (viejo.nota ?? "") : `Precio heredado de «${rel.nombre}» (misma familia / mismo escalafón)`)
+        ? (copiado ? `COPIADO de ${ciudadRef.nombre} (referencial, sin relevar en ${c.nombre}). ${notaBase}`.trim() : notaBase)
         : `PENDIENTE: sin precio relevado en ${PAIS}. Insumo heredado de la base boliviana (${m.idCanonico}); cargalo a mano o esperá la próxima publicación.`,
     };
   }),
 }));
 
-// ── items_XX: sólo los que cierran con precio completo en TODAS las ciudades ───────────────
+// ── items_XX: sólo los que cierran con precio completo en TODAS las ciudades SERVIDAS ──────
+// Las líneas de PORCENTAJE (leyes sociales chilenas) no llevan precio: no cuentan como faltante.
+const servidas = ciudades.filter((c) => c.precios.length);
 const conPrecio = new Set();
 for (const m of maestro) {
-  if (ciudades.every((c) => (c.precios.find((p) => p.idCanonico === idPais(m.idCanonico))?.precio ?? 0) > 0)) conPrecio.add(m.idCanonico);
+  if (servidas.every((c) => (c.precios.find((p) => p.idCanonico === idPais(m.idCanonico))?.precio ?? 0) > 0)) conPrecio.add(m.idCanonico);
 }
+const primeraServida = ofiPaisViejo.ciudades.find(servida);
 const items = [];
 const bloqueo = new Map();
 for (const it of itemsBO.items) {
-  const faltan = [...new Set(it.insumos.filter((s) => !conPrecio.has(s.idCanonico)).map((s) => s.idCanonico))];
+  const conPrecioReq = it.insumos.filter((s) => s.tipoCalculo !== "PORCENTAJE");
+  const faltan = [...new Set(conPrecioReq.filter((s) => !conPrecio.has(s.idCanonico)).map((s) => s.idCanonico))];
   for (const id of faltan) bloqueo.set(id, (bloqueo.get(id) ?? 0) + 1);
   if (faltan.length) continue;
-  items.push({
-    ...it,
-    codigo: `${it.codigo}${PAIS}`,
-    insumos: it.insumos.map((s) => {
-      const viejo = ofiPaisViejo.ciudades[0].precios.find((x) => x.idCanonico === cfg.equivalentes[s.idCanonico]);
-      return { ...s, idCanonico: idPais(s.idCanonico), codigo: codigoPais(s.idCanonico, s.codigo), nombre: viejo?.nombre ?? s.nombre, unidad: viejo?.unidad ?? s.unidad, precio: 0 };
-    }),
+  const insumos = it.insumos.map((s) => {
+    const viejo = primeraServida.precios.find((x) => x.idCanonico === cfg.equivalentes[s.idCanonico]);
+    return { ...s, idCanonico: idPais(s.idCanonico), codigo: codigoPais(s.idCanonico, s.codigo), nombre: viejo?.nombre ?? s.nombre, unidad: viejo?.unidad ?? s.unidad, precio: 0 };
   });
+  // Líneas que el país agrega a cada APU (Chile: leyes sociales como % de la M.O.).
+  for (const extra of cfg.lineasExtra?.(it) ?? []) insumos.push(extra);
+  items.push({ ...it, codigo: `${it.codigo}${PAIS}`, insumos });
 }
 
 // ── Chequeos: lo que las guardas del PC van a exigir, comprobado ACÁ antes de escribir ─────
@@ -126,12 +170,13 @@ for (const c of ciudades) {
 }
 const cods = items.map((i) => i.codigo);
 if (new Set(cods).size !== cods.length) err.push("códigos de ítem repetidos");
-for (const i of items) for (const s of i.insumos) {
-  for (const c of ciudades) if (!((c.precios.find((p) => p.idCanonico === s.idCanonico)?.precio ?? 0) > 0)) err.push(`${i.codigo}: ${s.idCanonico} sin precio en ${c.nombre}`);
+if (!servidas.length) err.push("ninguna ciudad servida: no hay un solo precio relevado");
+for (const i of items) for (const s of i.insumos.filter((x) => x.tipoCalculo !== "PORCENTAJE")) {
+  for (const c of servidas) if (!((c.precios.find((p) => p.idCanonico === s.idCanonico)?.precio ?? 0) > 0)) err.push(`${i.codigo}: ${s.idCanonico} sin precio en ${c.nombre}`);
 }
 if (err.length) { console.error("✗ derivación inválida:"); for (const e of err.slice(0, 20)) console.error("  · " + e); process.exit(1); }
 
-const zerosPorCiudad = Math.max(...ciudades.map((c) => c.precios.filter((p) => !p.precio).length));
+const zerosPorCiudad = Math.max(...servidas.map((c) => c.precios.filter((p) => !p.precio).length));
 const salidaItems = { version: cfg.version, schemaVersion: itemsBO.schemaVersion ?? 1, items };
 const salidaPrecios = {
   version: cfg.version, fuente: cfg.fuente, pais: PAIS,
