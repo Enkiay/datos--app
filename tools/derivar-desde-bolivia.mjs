@@ -124,6 +124,77 @@ const CONFIG = {
       mo_tecnico_especialista: "ar_mo_007", mo_tecnico_especialista_certificado: "ar_mo_007", mo_tecnico_especialista_juntas: "ar_mo_007",
     },
   },
+  EC: {
+    version: "v20260902-base-bolivia",
+    fuente: "Base boliviana (catálogo ArqOn) + precios de Ecuador: Contraloría General del Estado (salarios mínimos por ley 2026, hora real con cargas: la caja lleva cargasSociales = 0) y precios de referencia de mercado de Quito 2026. Relevado en Quito; las otras 6 ciudades COPIAN Quito (referencial) hasta relevarse. La cadena ecuatoriana agrega el IVA (15 %) al final: los insumos van sin IVA.",
+    // El cemento ecuatoriano se vende por SACO de 50 kg y el boliviano por kg: no es equivalente,
+    // entra como REFERENCIA convertida (referencias_EC.json). Lo mismo con galones y tubos.
+    equivalentes: {
+      fierro_corrugado_kg: "ec_mat_acero", alambre_de_amarre_kg: "ec_mat_alambre", arena_comun_m3: "ec_mat_arena", arena_fina_m3: "ec_mat_arena_fina",
+      grava_comun_m3: "ec_mat_ripio", piedra_bruta_m3: "ec_mat_piedra", clavos_kg: "ec_mat_clavos", bloque_de_hormigon_3h_e_15_cm_pza: "ec_mat_bloque15",
+      ladrillo_gambote_pza: "ec_mat_ladrillo", ceramica_esmaltada_30_30_m2: "ec_mat_ceramica", porcelanato_m2: "ec_mat_porcelanato",
+      inodoro_blanco_tanq_bajo_con_acc_pza: "ec_mat_inodoro", lavamanos_blanco_con_acc_pza: "ec_mat_lavamanos", teflon_pza: "ec_mat_teflon",
+      electrodos_kg: "ec_mat_electrodo", cable_thw_12_awg_m: "ec_mat_cable12", interruptor_simple_pza: "ec_mat_interruptor",
+      tomacorriente_doble_pza: "ec_mat_tomacorriente", lija_hoja: "ec_mat_lija", bisagra_3_doble_pza: "ec_mat_bisagra",
+      interruptor_termico_2x30_amp_pza: "ec_mat_breaker", foco_led_14_w_pza: "ec_mat_foco", tablero_de_distribucion_6_circuitos_pza: "ec_mat_tablero",
+      eq_mezcladora: "ec_eq_concretera", eq_vibradora: "ec_eq_vibrador", eq_retroexcavadora: "ec_eq_retro", eq_volqueta_6_m3: "ec_eq_volqueta",
+      eq_compactadora_manual_de_impacto: "ec_eq_compactadora",
+      // Contraloría: categorías por estructura ocupacional. D2 (albañil, carpintero, fierrero,
+      // electricista, plomero, pintor) = 4,39; C1 (maestro mayor, operador) = 4,87; E2 (peón) = 4,34.
+      mo_albanil: "ec_mo_albanil", mo_carpintero: "ec_mo_carpintero", mo_electricista: "ec_mo_electricista", mo_armador: "ec_mo_fierrero",
+      mo_ayudante: "ec_mo_peon", mo_pintor: "ec_mo_pintor", mo_plomero: "ec_mo_plomero", mo_operador_de_retroexcavadora: "ec_mo_operador",
+      mo_especialista: "ec_mo_maestro",
+    },
+    familias: {
+      arena_lavada_m3: "ec_mat_arena", grava_lavada_m3: "ec_mat_ripio", grava_clasificada_m3: "ec_mat_ripio", piedra_para_cimiento_m3: "ec_mat_piedra",
+      ladrillo_adobito_de_1ra_pza: "ec_mat_ladrillo", ladrillo_gambote_18h_25x12x6_5_cm_pza: "ec_mat_ladrillo",
+      ceramica_esmaltada_brasil_m2: "ec_mat_ceramica", ceramica_esmaltada_nal_20x30cm_m2: "ec_mat_ceramica", baldosa_ceramica_esmaltada_m2: "ec_mat_ceramica",
+      baldosa_ceramica_esmalt_11x23_cm_m2: "ec_mat_ceramica", revestimiento_ceramico_nacional_m2: "ec_mat_ceramica",
+      ceramica_nacional_22_34_cm_m2: "ec_mat_ceramica", ceramica_nacional_25_25_cm_m2: "ec_mat_ceramica", ceramica_nacional_34_34_cm_m2: "ec_mat_ceramica", ceramica_nacional_40_40_cm_m2: "ec_mat_ceramica",
+      lija_para_cubierta_hoja: "ec_mat_lija", lija_para_madera_hoja: "ec_mat_lija", lija_para_pared_hoja: "ec_mat_lija",
+      interruptor_termico_2x40_amp_pza: "ec_mat_breaker",
+      mezcladora_de_hormigon_320_litros_hr: "ec_eq_concretera", vibradora_de_2_hp_hr: "ec_eq_vibrador", retroexcavadora_110_hp_hr: "ec_eq_retro",
+      mo_encofrador: "ec_mo_carpintero", mo_carpintero_en_aluminio: "ec_mo_carpintero",
+      mo_especialista_calificado: "ec_mo_albanil", mo_especialista_plomero: "ec_mo_plomero", mo_especialista_cerrajero: "ec_mo_albanil",
+      mo_especialista_en_tesado_e_inyeccion: "ec_mo_albanil", mo_tecnico_especialista: "ec_mo_albanil", mo_tecnico_especialista_certificado: "ec_mo_albanil",
+      mo_tecnico_especialista_juntas: "ec_mo_albanil", mo_plomero_certificado: "ec_mo_plomero", mo_cerrajero: "ec_mo_albanil", mo_perforista: "ec_mo_albanil",
+      mo_operador_de_compactadora: "ec_mo_operador", mo_operador_de_mezcladora: "ec_mo_operador", mo_operador_de_volqueta: "ec_mo_operador",
+    },
+  },
+  CO: {
+    version: "v20260902-base-bolivia",
+    fuente: "Base boliviana (catálogo ArqOn) + precios de Colombia: precios de referencia de mercado de Bogotá 2026 y jornales con factor prestacional incluido (la caja lleva cargasSociales = 0). Relevado en Bogotá; las otras 7 ciudades COPIAN Bogotá (referencial) hasta relevarse. La cadena colombiana agrega el IVA (19 %) al final: los insumos van sin IVA.",
+    // Cemento por BULTO de 50 kg, pintura por galón, tubería por tubo: entran como REFERENCIA
+    // convertida (referencias_CO.json), no como equivalentes.
+    equivalentes: {
+      fierro_corrugado_kg: "co_mat_acero", alambre_de_amarre_kg: "co_mat_alambre", arena_comun_m3: "co_mat_arena", arena_fina_m3: "co_mat_arena_pena",
+      grava_comun_m3: "co_mat_triturado", clavos_kg: "co_mat_puntilla", ladrillo_gambote_pza: "co_mat_tolete", ceramica_esmaltada_30_30_m2: "co_mat_ceramica",
+      inodoro_blanco_tanq_bajo_con_acc_pza: "co_mat_sanitario", lavamanos_blanco_con_acc_pza: "co_mat_lavamanos", teflon_pza: "co_mat_teflon",
+      cable_thw_12_awg_m: "co_mat_cable12", interruptor_simple_pza: "co_mat_interruptor", tomacorriente_doble_pza: "co_mat_toma", lija_hoja: "co_mat_lija",
+      interruptor_termico_2x30_amp_pza: "co_mat_breaker", foco_led_14_w_pza: "co_mat_bombillo", tablero_de_distribucion_6_circuitos_pza: "co_mat_tablero",
+      eq_mezcladora: "co_eq_mezcladora", eq_vibradora: "co_eq_vibrador", eq_retroexcavadora: "co_eq_retro", eq_compactadora_manual_salt: "co_eq_compactador",
+      // Jornales con prestaciones adentro: ayudante 9.500, oficial 11.900, oficiales especializados
+      // 13.000, operador 14.500, maestro 16.650.
+      mo_ayudante: "co_mo_ayudante", mo_albanil: "co_mo_oficial", mo_electricista: "co_mo_electricista", mo_plomero: "co_mo_plomero",
+      mo_pintor: "co_mo_pintor", mo_especialista: "co_mo_maestro", mo_operador_de_retroexcavadora: "co_mo_operador",
+    },
+    familias: {
+      arena_lavada_m3: "co_mat_arena", grava_lavada_m3: "co_mat_triturado", grava_clasificada_m3: "co_mat_triturado",
+      ladrillo_adobito_de_1ra_pza: "co_mat_tolete", ladrillo_gambote_18h_25x12x6_5_cm_pza: "co_mat_tolete",
+      ceramica_esmaltada_brasil_m2: "co_mat_ceramica", ceramica_esmaltada_nal_20x30cm_m2: "co_mat_ceramica", baldosa_ceramica_esmaltada_m2: "co_mat_ceramica",
+      baldosa_ceramica_esmalt_11x23_cm_m2: "co_mat_ceramica", revestimiento_ceramico_nacional_m2: "co_mat_ceramica",
+      ceramica_nacional_22_34_cm_m2: "co_mat_ceramica", ceramica_nacional_25_25_cm_m2: "co_mat_ceramica", ceramica_nacional_34_34_cm_m2: "co_mat_ceramica", ceramica_nacional_40_40_cm_m2: "co_mat_ceramica",
+      lija_para_cubierta_hoja: "co_mat_lija", lija_para_madera_hoja: "co_mat_lija", lija_para_pared_hoja: "co_mat_lija",
+      interruptor_termico_2x40_amp_pza: "co_mat_breaker",
+      mezcladora_de_hormigon_320_litros_hr: "co_eq_mezcladora", vibradora_de_2_hp_hr: "co_eq_vibrador", retroexcavadora_110_hp_hr: "co_eq_retro",
+      mo_carpintero: "co_mo_oficial", mo_encofrador: "co_mo_oficial", mo_armador: "co_mo_oficial", mo_carpintero_en_aluminio: "co_mo_oficial",
+      mo_especialista_calificado: "co_mo_oficial", mo_especialista_cerrajero: "co_mo_oficial", mo_especialista_en_tesado_e_inyeccion: "co_mo_oficial",
+      mo_cerrajero: "co_mo_oficial", mo_perforista: "co_mo_oficial",
+      mo_especialista_plomero: "co_mo_plomero", mo_plomero_certificado: "co_mo_plomero",
+      mo_tecnico_especialista: "co_mo_electricista", mo_tecnico_especialista_certificado: "co_mo_electricista", mo_tecnico_especialista_juntas: "co_mo_electricista",
+      mo_operador_de_compactadora: "co_mo_operador", mo_operador_de_mezcladora: "co_mo_operador", mo_operador_de_volqueta: "co_mo_operador",
+    },
+  },
 };
 const cfg = CONFIG[PAIS];
 if (!cfg) { console.error(`no hay tabla para ${PAIS}: agregala en CONFIG`); process.exit(2); }

@@ -13,8 +13,9 @@ import { fileURLToPath } from "node:url";
 
 const BASE = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PAIS = (process.argv[2] || "").toUpperCase();
-const IVA = { PY: 10, CL: 19, AR: 21 }[PAIS];
-if (!IVA) { console.error("uso: node tools/normalizar-iva-referencias.mjs PY|CL|AR"); process.exit(2); }
+// `impuestoPct` de cada caja (arqon-pc/src/core/pais/*.ts): todas agregan el IVA al final.
+const IVA = { PY: 10, CL: 19, AR: 21, EC: 15, CO: 19 }[PAIS];
+if (!IVA) { console.error("uso: node tools/normalizar-iva-referencias.mjs PY|CL|AR|EC|CO"); process.exit(2); }
 
 const ruta = join(BASE, `precios/fuentes/referencias_${PAIS}.json`);
 const refs = JSON.parse(readFileSync(ruta, "utf8"));
