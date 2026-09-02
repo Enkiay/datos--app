@@ -125,7 +125,7 @@ const CONFIG = {
     },
   },
   EC: {
-    version: "v20260902-base-bolivia",
+    version: "v20260902-referencias-contraloria",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Ecuador: Contraloría General del Estado (salarios mínimos por ley 2026, hora real con cargas: la caja lleva cargasSociales = 0) y precios de referencia de mercado de Quito 2026. Relevado en Quito; las otras 6 ciudades COPIAN Quito (referencial) hasta relevarse. La cadena ecuatoriana agrega el IVA (15 %) al final: los insumos van sin IVA.",
     // El cemento ecuatoriano se vende por SACO de 50 kg y el boliviano por kg: no es equivalente,
     // entra como REFERENCIA convertida (referencias_EC.json). Lo mismo con galones y tubos.
@@ -162,7 +162,7 @@ const CONFIG = {
     },
   },
   CO: {
-    version: "v20260902-base-bolivia",
+    version: "v20260902-referencias-ffie",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Colombia: precios de referencia de mercado de Bogotá 2026 y jornales con factor prestacional incluido (la caja lleva cargasSociales = 0). Relevado en Bogotá; las otras 7 ciudades COPIAN Bogotá (referencial) hasta relevarse. La cadena colombiana agrega el IVA (19 %) al final: los insumos van sin IVA.",
     // Cemento por BULTO de 50 kg, pintura por galón, tubería por tubo: entran como REFERENCIA
     // convertida (referencias_CO.json), no como equivalentes.

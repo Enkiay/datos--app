@@ -29,13 +29,17 @@ for (const r of refs) {
   if (r.ivaNormalizado) { ya++; continue; }
   const t = texto(r);
   if (/^mo_/.test(r.idBo)) continue;
-  if (conIva(t) && !neto(t)) {
+  // Si la nota EMPIEZA diciendo «CON IVA» o «SIN IVA», eso manda (los buscadores de EC/CO lo
+  // escriben así; el resto de la nota puede comparar con otro precio «sin IVA» y confundir al regex).
+  const inicio = String(r.nota ?? "").trim().toLowerCase();
+  const decide = /^con iva/.test(inicio) ? true : /^sin iva/.test(inicio) ? false : null;
+  if (decide === true || (decide === null && conIva(t) && !neto(t))) {
     const antes = r.precio;
     r.precio = Math.round((antes / f) * 100) / 100;
     r.conversion = `${r.conversion ? r.conversion + "; " : ""}${antes} con IVA ÷ ${f.toFixed(2)} = ${r.precio} NETO (la cadena ${PAIS} agrega el IVA ${IVA} % al final)`;
     r.ivaNormalizado = true;
     n++;
-  } else if (conIva(t) && neto(t)) {
+  } else if (decide === null && conIva(t) && neto(t)) {
     dudosos++;
   }
 }
