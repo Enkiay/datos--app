@@ -82,9 +82,45 @@ const CONFIG = {
       rendimiento: 45, precio: 0, tipoCalculo: "PORCENTAJE", baseCalculo: "MO", idCanonico: "cl_mo_leyes_sociales", codigo: "",
     }] : [],
   },
+  AR: {
+    version: "v20260902-base-bolivia",
+    fuente: "Base boliviana (catálogo ArqOn) + precios de Argentina: Unidad Central de Contrataciones (UCC), Provincia de Salta — planilla de insumos, julio 2026. Relevado en Salta; las otras 15 ciudades COPIAN Salta (referencial) hasta relevarse.",
+    // MANO DE OBRA: la UCC cotiza «Cuadrilla tipo UOCRA» a $10.836/h y un ayudante a $10.030/h —
+    // la magnitud de UNA hora-hombre promedio, no de un equipo entero—, con las cargas ADENTRO
+    // (costo empresa; por eso la caja argentina lleva cargasSociales = 0 y ninguna línea de %).
+    // Las líneas por trabajador de Bolivia heredan esa hora: oficialías y peón → UOCRA;
+    // instaladores y técnicos → UGATS. Sin líneas de porcentaje sobre la M.O., a propósito.
+    equivalentes: {
+      cemento_portland_kg: "ar_li_006", arena_comun_m3: "ar_ar_001", grava_comun_m3: "ar_ar_003",
+      cal_kg: "ar_li_004", clavos_kg: "ar_ac_050", fierro_corrugado_kg: "ar_ac_015", yeso_kg: "ar_li_009",
+      // Un id argentino sólo puede ser EQUIVALENTE de un id boliviano (reemplaza el id); el resto
+      // de las oficialías entran como FAMILIA con id propio (`ar_mo_albanil`) y heredan la hora.
+      mo_ayudante: "ar_mo_006", mo_electricista: "ar_mo_007",
+    },
+    familias: {
+      cemento_portland_ip30_kg: "ar_li_006", cemento_portland_ip40_kg: "ar_li_006", cemento_kg: "ar_li_006",
+      arena_lavada_m3: "ar_ar_001", grava_lavada_m3: "ar_ar_003",
+      eq_volqueta_6_m3: "ar_eq_012",
+      mo_albanil: "ar_mo_006",
+      mo_armador: "ar_mo_006", mo_encofrador: "ar_mo_006", mo_carpintero: "ar_mo_006", mo_carpintero_en_aluminio: "ar_mo_006",
+      mo_especialista: "ar_mo_006", mo_especialista_calificado: "ar_mo_006", mo_especialista_cerrajero: "ar_mo_006",
+      mo_especialista_en_tesado_e_inyeccion: "ar_mo_006", mo_pintor: "ar_mo_006", mo_cerrajero: "ar_mo_006", mo_perforista: "ar_mo_006",
+      mo_especialista_plomero: "ar_mo_007", mo_plomero: "ar_mo_007", mo_plomero_certificado: "ar_mo_007",
+      mo_tecnico_especialista: "ar_mo_007", mo_tecnico_especialista_certificado: "ar_mo_007", mo_tecnico_especialista_juntas: "ar_mo_007",
+    },
+  },
 };
 const cfg = CONFIG[PAIS];
 if (!cfg) { console.error(`no hay tabla para ${PAIS}: agregala en CONFIG`); process.exit(2); }
+// Un id del país sólo puede ser EQUIVALENTE de un id boliviano: dos bolivianos apuntando al
+// mismo id lo duplicarían en oficiales. El segundo tiene que ir como FAMILIA (id propio).
+{
+  const vistos = new Map();
+  for (const [bo, ext] of Object.entries(cfg.equivalentes)) {
+    if (vistos.has(ext)) { console.error(`CONFIG.${PAIS}.equivalentes: «${ext}» ya es equivalente de «${vistos.get(ext)}»; pasá «${bo}» a familias`); process.exit(2); }
+    vistos.set(ext, bo);
+  }
+}
 
 const leer = (p) => JSON.parse(readFileSync(join(BASE, p), "utf8"));
 const itemsBO = leer("catalogo/v1.0/items.json");
