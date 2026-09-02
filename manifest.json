@@ -77,6 +77,22 @@
     "precios_CO": {
       "version": "v20260831-base-33",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_CO.json"
+    },
+    "catalogo_AR": {
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_AR.json"
+    },
+    "precios_AR": {
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_AR.json"
+    },
+    "catalogo_PY": {
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_PY.json"
+    },
+    "precios_PY": {
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PY.json"
     }
   }
 }
