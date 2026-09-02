@@ -98,7 +98,7 @@ const CONFIG = {
     }] : [],
   },
   AR: {
-    version: "v20260902-completa",
+    version: "v20260902-referencias-ucc",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Argentina: Unidad Central de Contrataciones (UCC), Provincia de Salta — planilla de insumos, julio 2026. Relevado en Salta; las otras 15 ciudades COPIAN Salta (referencial) hasta relevarse.",
     // MANO DE OBRA: la UCC cotiza «Cuadrilla tipo UOCRA» a $10.836/h y un ayudante a $10.030/h —
     // la magnitud de UNA hora-hombre promedio, no de un equipo entero—, con las cargas ADENTRO
