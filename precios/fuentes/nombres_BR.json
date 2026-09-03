@@ -1,0 +1,4508 @@
+[
+  {
+    "idBo": "mo_ayudante",
+    "pt": "Servente",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_albanil",
+    "pt": "Pedreiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cemento_portland_kg",
+    "pt": "Cimento Portland",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_especialista",
+    "pt": "Oficial Especializado",
+    "confianza": "MEDIA",
+    "nota": "«Especialista» é a categoria boliviana de operário qualificado; no Brasil corresponde a «oficial especializado»."
+  },
+  {
+    "idBo": "clavos_kg",
+    "pt": "Pregos",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "madera_de_construccion_p2",
+    "pt": "Madeira para Construção",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "arena_comun_m3",
+    "pt": "Areia Comum",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "arena_fina_m3",
+    "pt": "Areia Fina",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_corrugado_kg",
+    "pt": "Aço CA-50 (Vergalhão)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_de_amarre_kg",
+    "pt": "Arame Recozido",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "grava_comun_m3",
+    "pt": "Brita Comum",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_especialista_plomero",
+    "pt": "Encanador Especializado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_armador",
+    "pt": "Armador",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_encofrador",
+    "pt": "Carpinteiro de Formas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_vibradora",
+    "pt": "Vibrador de Imersão",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_electricista",
+    "pt": "Eletricista",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cemento_blanco_kg",
+    "pt": "Cimento Branco",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_mezcladora",
+    "pt": "Betoneira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "teflon_pza",
+    "pt": "Fita Veda-Rosca",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_carpintero",
+    "pt": "Carpinteiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "limpiador_l",
+    "pt": "Solução Limpadora para PVC",
+    "confianza": "MEDIA",
+    "nota": "«Limpiador» é a solução limpadora usada antes do adesivo de PVC."
+  },
+  {
+    "idBo": "pegamento_l",
+    "pt": "Adesivo",
+    "confianza": "MEDIA",
+    "nota": "Nome genérico na origem; mantido genérico."
+  },
+  {
+    "idBo": "mo_tecnico_especialista",
+    "pt": "Técnico Especializado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "piedra_bruta_m3",
+    "pt": "Pedra de Mão",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pintura_anticorrosiva_l",
+    "pt": "Tinta Anticorrosiva",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caja_plastica_rectangular_pza",
+    "pt": "Caixa Plástica Retangular",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "electrodos_kg",
+    "pt": "Eletrodos para Solda",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ladrillo_gambote_18h_25x12x6_5_cm_pza",
+    "pt": "Tijolo Cerâmico 18 Furos 25X12X6.5 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Gambote 18H» é tijolo cerâmico furado do formato boliviano."
+  },
+  {
+    "idBo": "piedra_manzana_m3",
+    "pt": "Pedra de Mão (Rachão)",
+    "confianza": "MEDIA",
+    "nota": "«Piedra manzana» é pedra bruta do tamanho de um punho, usada em alvenaria de fundação."
+  },
+  {
+    "idBo": "cinta_aislante_pza",
+    "pt": "Fita Isolante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "estuco_kg",
+    "pt": "Estuque (Gesso para Acabamento)",
+    "confianza": "MEDIA",
+    "nota": "«Estuco» boliviano é gesso de acabamento, não o estuque de cal europeu."
+  },
+  {
+    "idBo": "ladrillo_6h_24x15x11_cm_pza",
+    "pt": "Bloco Cerâmico 6 Furos 24X15X11 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lija_para_pared_hoja",
+    "pt": "Lixa para Parede",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_mezcladora_lejana",
+    "pt": "Betoneira (Obra Distante)",
+    "confianza": "MEDIA",
+    "nota": "«(Lejana)» indica preço de equipamento em obra afastada."
+  },
+  {
+    "idBo": "silicona_tubo",
+    "pt": "Silicone",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "chicotillo_pza",
+    "pt": "Engate Flexível",
+    "confianza": "MEDIA",
+    "nota": "«Chicotillo» é o engate/rabicho flexível de ligação de louças sanitárias."
+  },
+  {
+    "idBo": "cinta_m",
+    "pt": "Fita",
+    "confianza": "MEDIA",
+    "nota": "Nome genérico na origem."
+  },
+  {
+    "idBo": "tornillo_t1_pza",
+    "pt": "Parafuso T1",
+    "confianza": "MEDIA",
+    "nota": "Parafuso de drywall tipo agulha; código T1 mantido como na origem."
+  },
+  {
+    "idBo": "eq_volqueta_6_m3",
+    "pt": "Caminhão Basculante 6 m3",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "aditivo_acelerante_kg",
+    "pt": "Aditivo Acelerador de Pega",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "barniz_para_madera_l",
+    "pt": "Verniz para Madeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cemento_kg",
+    "pt": "Cimento",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_equipo_de_soldadura",
+    "pt": "Máquina de Solda",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_especialista_cerrajero",
+    "pt": "Serralheiro Especializado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "flotador_plastico_pza",
+    "pt": "Boia Plástica",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "grava_clasificada_m3",
+    "pt": "Brita Classificada",
+    "confianza": "MEDIA",
+    "nota": "Brita separada por faixa granulométrica."
+  },
+  {
+    "idBo": "masilla_kg",
+    "pt": "Massa Corrida",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tirafondos_de_4_1_2x1_4_pza",
+    "pt": "Parafuso Tirefond de 4 1/2X1/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_conduit_pvc_5_8_m",
+    "pt": "Eletroduto de PVC 5/8″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_universal_galvanizado_1_pza",
+    "pt": "União Universal Galvanizada 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_galvanizado_n_10_kg",
+    "pt": "Arame Galvanizado N° 10",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alquitran_kg",
+    "pt": "Alcatrão",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "anclajes_12v1_2_pza",
+    "pt": "Chumbadores 12V1/2",
+    "confianza": "MEDIA",
+    "nota": "Código de bitola da origem mantido."
+  },
+  {
+    "idBo": "angular_1_x_1_8_m",
+    "pt": "Cantoneira 1″ X 1/8″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "arena_clasificada_m3",
+    "pt": "Areia Classificada",
+    "confianza": "MEDIA",
+    "nota": "Areia separada por faixa granulométrica."
+  },
+  {
+    "idBo": "bisagra_4_doble_pza",
+    "pt": "Dobradiça 4″ Dupla",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cable_grado_270_kg",
+    "pt": "Cordoalha de Protensão Grau 270",
+    "confianza": "MEDIA",
+    "nota": "«Cable grado 270» corresponde à cordoalha CP-190/grau 270 de protensão."
+  },
+  {
+    "idBo": "cold_rolled_channel_pza",
+    "pt": "Canaleta Cold Rolled",
+    "confianza": "MEDIA",
+    "nota": "Perfil de forro/drywall; termo em inglês é usado também no Brasil."
+  },
+  {
+    "idBo": "mo_especialista_calificado",
+    "pt": "Oficial Qualificado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_especialista_en_tesado_e_inyeccion",
+    "pt": "Especialista em Protensão e Injeção",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fondo_preparador_de_pared_l",
+    "pt": "Fundo Preparador de Parede",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "grava_lavada_m3",
+    "pt": "Brita Lavada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "llave_de_paso_cortina_3_4_pza",
+    "pt": "Registro de Gaveta 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "malla_flex_construpanel_m",
+    "pt": "Tela de Fibra de Vidro para Painel de EPS",
+    "confianza": "MEDIA",
+    "nota": "«Construpanel» é marca boliviana de painel de EPS; descrito o produto."
+  },
+  {
+    "idBo": "masa_flex_construpanel_kg",
+    "pt": "Argamassa Flexível para Painel de EPS",
+    "confianza": "MEDIA",
+    "nota": "«Masa Flex Construpanel»: marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "material_para_inyeccion_por_viga_m",
+    "pt": "Calda de Injeção (por Viga)",
+    "confianza": "MEDIA",
+    "nota": "Nata de cimento para injeção de bainhas de protensão."
+  },
+  {
+    "idBo": "panel_fix_construpanel_kg",
+    "pt": "Argamassa de Fixação para Painel de EPS",
+    "confianza": "MEDIA",
+    "nota": "«Panel Fix Construpanel»: marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "plastoform_100x40x16_p_vigueta_pza",
+    "pt": "Bloco de EPS (Isopor) 100X40X16 para Vigota",
+    "confianza": "ALTA",
+    "nota": "«Plastoform» é marca boliviana de EPS."
+  },
+  {
+    "idBo": "plastoform_100x50x1_cm_pza",
+    "pt": "Placa de EPS (Isopor) 100X50X1 Cm",
+    "confianza": "ALTA",
+    "nota": "«Plastoform» é marca boliviana de EPS."
+  },
+  {
+    "idBo": "eq_retroexcavadora",
+    "pt": "Retroescavadeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sifon_de_pvc_pza",
+    "pt": "Sifão de PVC",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_tecnico_especialista_certificado",
+    "pt": "Técnico Especializado Certificado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_tecnico_especialista_juntas",
+    "pt": "Técnico Especializado em Juntas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tornillo_t2_pza",
+    "pt": "Parafuso T2",
+    "confianza": "MEDIA",
+    "nota": "Parafuso de drywall; código T2 mantido como na origem."
+  },
+  {
+    "idBo": "vainas_m",
+    "pt": "Bainha Metálica para Protensão",
+    "confianza": "MEDIA",
+    "nota": "«Vainas» são as bainhas dos cabos de protensão."
+  },
+  {
+    "idBo": "valvula_de_retencion_galvanizado_1_pza",
+    "pt": "Válvula de Retenção Galvanizada 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "vigueta_pretensada_h_20_m",
+    "pt": "Vigota Protendida H=20",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "yeso_kg",
+    "pt": "Gesso",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "accesorios_galvanizado_1_2_pza",
+    "pt": "Conexões Galvanizadas Ø 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "accesorios_galvanizado_3_4_pza",
+    "pt": "Conexões Galvanizadas Ø 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "aditivo_kg",
+    "pt": "Aditivo",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "aguarras_l",
+    "pt": "Aguarrás",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "anillo_de_goma_stp_4_pza",
+    "pt": "Anel de Borracha para Junta Elástica 4″",
+    "confianza": "MEDIA",
+    "nota": "«Stp» é a designação boliviana da junta elástica de tubos."
+  },
+  {
+    "idBo": "arena_lavada_m3",
+    "pt": "Areia Lavada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cable_thw_12_awg_m",
+    "pt": "Cabo THW 12 AWG",
+    "confianza": "MEDIA",
+    "nota": "Bitola AWG mantida; no Brasil o equivalente usual é cabo de cobre 2,5 mm² 750V."
+  },
+  {
+    "idBo": "caja_plastica_circular_pza",
+    "pt": "Caixa Plástica Redonda",
+    "confianza": "MEDIA",
+    "nota": "No Brasil a caixa de teto equivalente é a octogonal."
+  },
+  {
+    "idBo": "calamina_ondulada_n_28_m2",
+    "pt": "Telha Ondulada de Aço Zincado N° 28",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "calamina_plana_n_28_m2",
+    "pt": "Chapa Plana de Aço Zincado N° 28",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "clavos_para_calamina_kg",
+    "pt": "Pregos para Telha",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "flotador_electrico_pza",
+    "pt": "Chave Boia Elétrica",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "griferia_para_lavanderia_pza",
+    "pt": "Torneira para Tanque",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "hormigon_premezclado_h_21_m3",
+    "pt": "Concreto Usinado H-21",
+    "confianza": "ALTA",
+    "nota": "Classe H-21 é a nomenclatura boliviana; mantida conforme a regra de especificações."
+  },
+  {
+    "idBo": "hormigon_premezclado_h_21_con_bomba_m3",
+    "pt": "Concreto Usinado H-21 Bombeado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "hormigon_premezclado_h_25_m3",
+    "pt": "Concreto Usinado H-25",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "llave_de_paso_cortina_galvanizado_1_pza",
+    "pt": "Registro de Gaveta Galvanizado 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mezcladora_de_hormigon_320_litros_hr",
+    "pt": "Betoneira 320 Litros",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mezcladora_p_lavaplatos_bras_pza",
+    "pt": "Misturador para Pia de Cozinha Bras.",
+    "confianza": "MEDIA",
+    "nota": "«Bras.» indica procedência brasileira na origem; mantido."
+  },
+  {
+    "idBo": "niple_hexagonal_1_pza",
+    "pt": "Niple Hexagonal 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_operador_de_compactadora",
+    "pt": "Operador de Compactador",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "paja_kg",
+    "pt": "Palha",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "picaporte_15_cm_pza",
+    "pt": "Ferrolho 15 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Picaporte» é o ferrolho/trinco de porta."
+  },
+  {
+    "idBo": "mo_pintor",
+    "pt": "Pintor",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "polietileno_m2",
+    "pt": "Lona de Polietileno",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tacos_de_plastico_pza",
+    "pt": "Buchas Plásticas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "teja_colonial_ceramica_pza",
+    "pt": "Telha Colonial Cerâmica",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "termo_spray_m2",
+    "pt": "Isolamento Térmico Aplicado a Spray",
+    "confianza": "BAJA",
+    "nota": "«Termo Spray» é marca/sistema boliviano de isolamento térmico projetado; sem equivalente comercial direto no Brasil."
+  },
+  {
+    "idBo": "tierra_seleccionada_m3",
+    "pt": "Terra Selecionada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tornillo_para_madera_pza",
+    "pt": "Parafuso para Madeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_rosca_pvc_1_m",
+    "pt": "Tubo de PVC Roscável 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_conduit_pvc_3_4_m",
+    "pt": "Eletroduto de PVC 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "turba_m3",
+    "pt": "Turfa",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "accesorios_div_glb",
+    "pt": "Acessórios Diversos",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "accesorios_pvc_codos_tees_glb",
+    "pt": "Conexões de PVC (joelhos, tês)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "agua_comun_l",
+    "pt": "Água Comum",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_cu_awg_n_1x10_m",
+    "pt": "Fio de Cobre AWG N° 1X10",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_cu_awg_n_1x12_m",
+    "pt": "Fio de Cobre AWG N° 1X12",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_cu_awg_n_1x14_m",
+    "pt": "Fio de Cobre AWG N° 1X14",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_cu_awg_n_1x8_m",
+    "pt": "Fio de Cobre AWG N° 1X8",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_tejido_m2",
+    "pt": "Tela de Arame",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "anclajes_j_pza",
+    "pt": "Chumbadores Tipo J",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bisagra_4_simple_pza",
+    "pt": "Dobradiça 4″ Simples",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_bomba_de_agua_3_hp",
+    "pt": "Bomba d'Água 3 HP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bomba_hidroneumatica_1_5_hp_pza",
+    "pt": "Bomba Hidropneumática 1.5 HP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caja_de_registro_electrica_pza",
+    "pt": "Caixa de Passagem Elétrica",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "calamina_galvanizada_m2",
+    "pt": "Telha Galvanizada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cera_kg",
+    "pt": "Cera",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ceramica_esmaltada_30_30_m2",
+    "pt": "Revestimento Cerâmico Esmaltado 30×30",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_cerrajero",
+    "pt": "Serralheiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "chapa_exterior_pza",
+    "pt": "Fechadura Externa",
+    "confianza": "ALTA",
+    "nota": "«Chapa» na Bolívia é a fechadura."
+  },
+  {
+    "idBo": "chapa_exterior_p_puerta_metalica_pza",
+    "pt": "Fechadura Externa para Porta Metálica",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "chapa_interior_embutida_pza",
+    "pt": "Fechadura Interna de Embutir",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_chofer",
+    "pt": "Motorista",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cinta_union_cesped_sintetico_m",
+    "pt": "Fita de União para Grama Sintética",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_galvanizado_1_2_pza",
+    "pt": "Joelho Galvanizado 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_rosca_pvc_1_pza",
+    "pt": "Joelho de PVC Roscável 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_compactadora_de_rodillo",
+    "pt": "Rolo Compactador",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_compresor_de_aire",
+    "pt": "Compressor de Ar",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "costanera_100x50x13_3_mm_m",
+    "pt": "Terça Perfil Ue 100X50X13 3 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Costanera» é a terça em perfil U enrijecido (Ue)."
+  },
+  {
+    "idBo": "escobas_y_cepillos_pza",
+    "pt": "Vassouras e Escovas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ladrillo_adobito_de_1ra_pza",
+    "pt": "Tijolo Maciço Pequeno de 1ª Qualidade",
+    "confianza": "MEDIA",
+    "nota": "«Adobito» é o tijolo maciço pequeno boliviano."
+  },
+  {
+    "idBo": "lija_hoja",
+    "pt": "Lixa",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "machihembre_cedro_p2",
+    "pt": "Tábua Macho-Fêmea de Cedro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "malla_alambre_galvanizado_7x7_cm_12_m2",
+    "pt": "Tela de Arame Galvanizado 7X7 Cm #12",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "marco_4_x_2_cedro_pza",
+    "pt": "Batente 4″ X 2″ de Cedro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "marmol_travertino_nacional_m2",
+    "pt": "Mármore Travertino Nacional",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "masilla_etercoart_l",
+    "pt": "Massa Plástica de Poliéster",
+    "confianza": "MEDIA",
+    "nota": "«Etercoart» é marca boliviana de massa de poliéster."
+  },
+  {
+    "idBo": "masilla_eterglass_l",
+    "pt": "Massa Plástica com Fibra de Vidro",
+    "confianza": "MEDIA",
+    "nota": "«Eterglass» é marca boliviana de massa com fibra de vidro."
+  },
+  {
+    "idBo": "niple_hexagonal_3_4_pza",
+    "pt": "Niple Hexagonal 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ocre_importado_kg",
+    "pt": "Pigmento Ocre Importado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_operador_de_equipo_pesado",
+    "pt": "Operador de Equipamento Pesado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_operador_de_mezcladora",
+    "pt": "Operador de Betoneira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_operador_de_perforadora_neumatica",
+    "pt": "Operador de Perfuratriz Pneumática",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pegamento_ceramico_kg",
+    "pt": "Argamassa Colante para Cerâmica",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pegamento_para_alfombras_l",
+    "pt": "Cola para Carpetes",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pegamento_para_cesped_sintetico_l",
+    "pt": "Cola para Grama Sintética",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_canal_de_92_mm_l_4_m_pza",
+    "pt": "Guia de Drywall 92 Mm L=4 M",
+    "confianza": "MEDIA",
+    "nota": "«Perfil canal» corresponde à guia (perfil U) do drywall."
+  },
+  {
+    "idBo": "perfil_h_m",
+    "pt": "Perfil H",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_montante_de_0_70x2_40_m_m",
+    "pt": "Perfil Montante 0.70X2.40 M",
+    "confianza": "MEDIA",
+    "nota": "«Montante» do drywall."
+  },
+  {
+    "idBo": "perfil_pcg_90x40x6_mm_m",
+    "pt": "Perfil C Galvanizado (PCG) 90X40X6 Mm",
+    "confianza": "MEDIA",
+    "nota": "PCG é a sigla boliviana de perfil C galvanizado."
+  },
+  {
+    "idBo": "perfil_poste_92_mm_l_2_4_m_pza",
+    "pt": "Perfil Montante 92 Mm L=2.4 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_solera_de_0_70x3_00_m_m",
+    "pt": "Perfil Guia 0.70X3.00 M",
+    "confianza": "MEDIA",
+    "nota": "«Solera» corresponde à guia do drywall."
+  },
+  {
+    "idBo": "perfil_stud_92_mm_l_2_40_m_pza",
+    "pt": "Perfil Montante (Stud) 92 Mm L=2.40 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_terminal_u_m",
+    "pt": "Perfil Terminal U",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_track_de_92_mm_l_4_m_pza",
+    "pt": "Perfil Guia (Track) 92 Mm L=4 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_u_de_aluminio_m",
+    "pt": "Perfil U de Alumínio",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_perforadora_neumatica",
+    "pt": "Perfuratriz Pneumática",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perno_de_expansion_pza",
+    "pt": "Chumbador de Expansão",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pintura_latex_l",
+    "pt": "Tinta Látex",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pintura_sintetica_brillo_l",
+    "pt": "Tinta Esmalte Sintético Brilhante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "placa_de_yeso_12_5_mm_1_2x2_4_m_pza",
+    "pt": "Placa de Gesso Acartonado 12.5 Mm 1.2X2.4 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "placas_cementicias_de_eter_board_8_mm_pza",
+    "pt": "Placa Cimentícia 8 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Eter Board» é marca; descrito o produto."
+  },
+  {
+    "idBo": "placas_durlock_12_50_mm_pza",
+    "pt": "Placa de Gesso Acartonado (Drywall) 12.50 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Durlock» é marca argentina de drywall; descrito o produto."
+  },
+  {
+    "idBo": "plancha_de_hierro_1_16_hoja",
+    "pt": "Chapa de Ferro 1/16″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plaqueta_interruptor_simple_pza",
+    "pt": "Placa com Interruptor Simples",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_plomero",
+    "pt": "Encanador",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_plomero_certificado",
+    "pt": "Encanador Certificado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "politubo_3_4_m",
+    "pt": "Mangueira de Polietileno 3/4″",
+    "confianza": "MEDIA",
+    "nota": "«Politubo» é a mangueira de polietileno para água."
+  },
+  {
+    "idBo": "porcelanato_m2",
+    "pt": "Porcelanato",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "reduccion_galvanizado_1_3_4_pza",
+    "pt": "Bucha de Redução Galvanizada 1″ - 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sellador_para_pared_l",
+    "pt": "Selador para Parede",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "socket_pza",
+    "pt": "Soquete",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "soldadura_kg",
+    "pt": "Solda",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "soldadura_para_calamina_kg",
+    "pt": "Solda para Telha",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tee_galvanizado_1_2_pza",
+    "pt": "Tê Galvanizado 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tee_rosca_pvc_1_pza",
+    "pt": "Tê de PVC Roscável 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tierra_negra_m3",
+    "pt": "Terra Preta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_topografo",
+    "pt": "Topógrafo",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tornillo_con_aleta_autoavellante_pza",
+    "pt": "Parafuso Autoatarraxante com Aleta",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "tornillo_hexagonal_pza",
+    "pt": "Parafuso Sextavado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_galvanizada_fg_2_m",
+    "pt": "Tubo de Ferro Galvanizado 2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_rosca_pvc_3_4_m",
+    "pt": "Tubo de PVC Roscável 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_desague_pvc_4_m",
+    "pt": "Tubo de PVC para Esgoto Ø 4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_universal_galvanizado_3_4_pza",
+    "pt": "União Universal Galvanizada 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "vidrio_plano_incoloro_4_mm_m2",
+    "pt": "Vidro Plano Incolor 4 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "vidrio_templado_incoloro_10_mm_m2",
+    "pt": "Vidro Temperado Incolor 10 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "accesorios_galvanizado_1_pza",
+    "pt": "Conexões Galvanizadas Ø 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "accesorios_galvanizado_2_pza",
+    "pt": "Conexões Galvanizadas Ø 2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "accesorios_p_estruc_aluminio_glb",
+    "pt": "Acessórios para Estrutura de Alumínio",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "aceite_de_linaza_l",
+    "pt": "Óleo de Linhaça",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "acople_superjunta_de_110_mm_pza",
+    "pt": "Luva de Compressão de 110 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Acople superjunta» é a luva de compressão para tubo de polietileno."
+  },
+  {
+    "idBo": "acople_superjunta_de_20_mm_pza",
+    "pt": "Luva de Compressão de 20 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Acople superjunta» é a luva de compressão para tubo de polietileno."
+  },
+  {
+    "idBo": "acople_superjunta_de_25_mm_pza",
+    "pt": "Luva de Compressão de 25 Mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "acople_superjunta_de_32_mm_pza",
+    "pt": "Luva de Compressão de 32 Mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "acople_superjunta_de_40_mm_pza",
+    "pt": "Luva de Compressão de 40 Mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "acople_superjunta_de_50_mm_pza",
+    "pt": "Luva de Compressão de 50 Mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "acople_superjunta_de_63_mm_pza",
+    "pt": "Luva de Compressão de 63 Mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "acople_superjunta_de_75_mm_pza",
+    "pt": "Luva de Compressão de 75 Mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "acople_superjunta_de_90_mm_pza",
+    "pt": "Luva de Compressão de 90 Mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "adoquin_comanche_pza",
+    "pt": "Paralelepípedo de Pedra Comanche",
+    "confianza": "BAJA",
+    "nota": "«Comanche» é pedra vulcânica boliviana, sem equivalente no Brasil; descrito como paralelepípedo de pedra natural."
+  },
+  {
+    "idBo": "aire_acondicionado_tipo_split_9000_btu_pza",
+    "pt": "Ar Condicionado Tipo Split 9000 BTU",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_con_puas_galvanizado_simple_m",
+    "pt": "Arame Farpado Galvanizado Simples",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alc_chapa_metalico_corrug_1_m_m",
+    "pt": "Bueiro de Chapa Metálica Corrugada Ø 1 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alcohol_al_70_l",
+    "pt": "Álcool a 70%",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alfombra_m2",
+    "pt": "Carpete",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_amoladora",
+    "pt": "Esmerilhadeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "anillo_de_goma_stp_2_pza",
+    "pt": "Anel de Borracha para Junta Elástica 2″",
+    "confianza": "MEDIA",
+    "nota": "«Stp» é a designação boliviana da junta elástica de tubos."
+  },
+  {
+    "idBo": "arena_chancada_m3",
+    "pt": "Areia Britada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "armazon_de_aluminio_m",
+    "pt": "Estrutura de Alumínio",
+    "confianza": "MEDIA",
+    "nota": "«Armazón» é o perfil estrutural de alumínio de esquadria."
+  },
+  {
+    "idBo": "asfaltex_de_monopol_kg",
+    "pt": "Tinta Asfáltica Impermeabilizante",
+    "confianza": "MEDIA",
+    "nota": "«Asfaltex de Monopol» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "azulejo_bras_20x30_cm_m2",
+    "pt": "Azulejo Brasileiro 20X30 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "azulejo_color_nal_22x34_cm_m2",
+    "pt": "Azulejo Colorido Nacional 22X34 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "azulejo_nacional_color_22x34_cm_m2",
+    "pt": "Azulejo Nacional Colorido 22X34 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "baldosa_ceramica_esmalt_11x23_cm_m2",
+    "pt": "Ladrilho Cerâmico Esmaltado 11X23 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "baldosa_ceramica_esmaltada_m2",
+    "pt": "Ladrilho Cerâmico Esmaltado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "barbijo_bioseguridad_kn95_5_filtros_pza",
+    "pt": "Máscara de Biossegurança KN95 5 Filtros",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "base_de_anclaje_u",
+    "pt": "Base de Ancoragem",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "base_de_ducha_0_80_x_0_80_m_pza",
+    "pt": "Base de Chuveiro 0.80 X 0.80 M",
+    "confianza": "MEDIA",
+    "nota": "No Brasil também chamada de base/prato de box."
+  },
+  {
+    "idBo": "basurero_para_desechos_infecciosos_pza",
+    "pt": "Lixeira para Resíduos Infectantes",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bide_blanco_con_griferia_pza",
+    "pt": "Bidê Branco com Torneira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bisagra_3_doble_pza",
+    "pt": "Dobradiça 3″ Dupla",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bisagra_de_metal_pza",
+    "pt": "Dobradiça de Metal",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bisagra_te_pza",
+    "pt": "Dobradiça Tipo T",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bloque_de_hormigon_3h_e_15_cm_pza",
+    "pt": "Bloco de Concreto 3 Furos E=15 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bloque_de_vidrio_20_x_20_cm_pza",
+    "pt": "Bloco de Vidro 20 X 20 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bomba_hidroneumatica_2_hp_pza",
+    "pt": "Bomba Hidropneumática 2 HP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "brazo_hidraulico_p_puerta_pza",
+    "pt": "Mola Hidráulica para Porta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cable_coaxial_para_tv_m",
+    "pt": "Cabo Coaxial para TV",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cable_cu_para_telefono_2_x_22_m",
+    "pt": "Cabo de Cobre Telefônico 2 X 22",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cable_enchaquetado_2x6_mm_m",
+    "pt": "Cabo Multipolar 2x6 mm²",
+    "confianza": "MEDIA",
+    "nota": "«Enchaquetado» = com capa externa; no Brasil, cabo multipolar (tipo PP)."
+  },
+  {
+    "idBo": "cable_enchaquetado_3x2_5_mm_m",
+    "pt": "Cabo Multipolar 3x2.5 mm²",
+    "confianza": "MEDIA",
+    "nota": "«Enchaquetado» = com capa externa; no Brasil, cabo multipolar (tipo PP)."
+  },
+  {
+    "idBo": "cable_ud_para_telefono_2_x_22_m",
+    "pt": "Cabo UD Telefônico 2 X 22",
+    "confianza": "MEDIA",
+    "nota": "Sigla «UD» da origem mantida."
+  },
+  {
+    "idBo": "cable_utp_4_pares_unifilar_m",
+    "pt": "Cabo UTP 4 Pares Rígido",
+    "confianza": "ALTA",
+    "nota": "«Unifilar» = condutor rígido (sólido)."
+  },
+  {
+    "idBo": "caja_interceptora_cemento_pza",
+    "pt": "Caixa Sifonada de Cimento",
+    "confianza": "MEDIA",
+    "nota": "«Caja interceptora» é a caixa sifonada de esgoto."
+  },
+  {
+    "idBo": "caja_interceptora_e_40_6_x30_cm_pza",
+    "pt": "Caixa Sifonada E-40 6″X30 Cm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "caja_protector_termico_pza",
+    "pt": "Caixa para Disjuntor Termomagnético",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caja_receptora_pvc_8_x40_cm_pza",
+    "pt": "Caixa Receptora de PVC 8″X40 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caja_sifonada_pvc_e_40_4_pza",
+    "pt": "Caixa Sifonada de PVC E-40 4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caja_sifonada_pvc_porta_rejilla_6_pza",
+    "pt": "Caixa Sifonada de PVC com Porta-Grelha 6″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cal_kg",
+    "pt": "Cal Hidratada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "calamina_ondulada_de_policarbonato_m2",
+    "pt": "Telha Ondulada de Policarbonato",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "calamina_ondulada_n_33_m2",
+    "pt": "Telha Ondulada de Aço Zincado N° 33",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "calamina_pvc_2_40x0_90_m_m2",
+    "pt": "Telha de PVC 2.40X0,90 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "calefon_a_gas_11l_con_accesorios_pza",
+    "pt": "Aquecedor a Gás 11L com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "calefon_a_gas_14l_con_accesorios_pza",
+    "pt": "Aquecedor a Gás 14L com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "callapos_de_3_m",
+    "pt": "Escora de Eucalipto Ø 3″",
+    "confianza": "MEDIA",
+    "nota": "«Callapo» é o rolete de eucalipto usado como escora/andaime."
+  },
+  {
+    "idBo": "camara_de_inspeccion_pvc_sanear_pza",
+    "pt": "Caixa de Inspeção de PVC",
+    "confianza": "MEDIA",
+    "nota": "«Sanear» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "camara_desgrasadora_pvc_sanear_pza",
+    "pt": "Caixa de Gordura de PVC",
+    "confianza": "MEDIA",
+    "nota": "«Sanear» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "camara_septica_plastica_1200_lt_pza",
+    "pt": "Fossa Séptica Plástica 1200 L",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "camara_septica_plastica_2300_lt_pza",
+    "pt": "Fossa Séptica Plástica 2300 L",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_camion_cisterna",
+    "pt": "Caminhão Pipa",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "camion_de_transporte_hr",
+    "pt": "Caminhão de Transporte",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "camion_grua_hr",
+    "pt": "Caminhão Guindaste (Munck)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cantoneras_2l_4_x4_x3_8_m",
+    "pt": "Cantoneiras 2L (4″X4″X3/8″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_fg_2_l_6m_pza",
+    "pt": "Tubo de Ferro Galvanizado 2″ L=6m",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_fg_2_1_2_l_6m_pza",
+    "pt": "Tubo de Ferro Galvanizado 2½″ L=6m",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_fg_3_l_6m_pza",
+    "pt": "Tubo de Ferro Galvanizado 3″ L=6m",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_galvanizada_de_1_2_m",
+    "pt": "Tubo Galvanizado de 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_galvanizada_de_2_m",
+    "pt": "Tubo Galvanizado de 2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_galvanizada_de_3_4_m",
+    "pt": "Tubo Galvanizado de 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_capataz",
+    "pt": "Encarregado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caucho_granulado_p_cesped_5_kg",
+    "pt": "Borracha Granulada para Grama Sintética 5",
+    "confianza": "MEDIA",
+    "nota": "Sufixo «5» da origem mantido (granulometria/altura)."
+  },
+  {
+    "idBo": "cemento_asfaltico_kg",
+    "pt": "Cimento Asfáltico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cemento_cola_facil_porcelanato_kg",
+    "pt": "Argamassa Colante para Porcelanato",
+    "confianza": "MEDIA",
+    "nota": "«Fácil» é linha comercial boliviana; descrito o produto."
+  },
+  {
+    "idBo": "cenefa_m",
+    "pt": "Faixa Decorativa",
+    "confianza": "BAJA",
+    "nota": "«Cenefa» pode designar faixa decorativa de revestimento ou testeira; adotada a leitura de faixa decorativa."
+  },
+  {
+    "idBo": "ceramica_esmaltada_brasil_m2",
+    "pt": "Revestimento Cerâmico Esmaltado Brasileiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cesped_sint_bicolor_h_5_mm_m2",
+    "pt": "Grama Sintética Bicolor H=5 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cesped_sint_monofilamento_h_6_mm_m2",
+    "pt": "Grama Sintética Monofilamento H=6 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "chupador_1_pza",
+    "pt": "Válvula de Pé com Crivo 1″",
+    "confianza": "MEDIA",
+    "nota": "«Chupador» é a válvula de pé com crivo da sucção de bombas."
+  },
+  {
+    "idBo": "cola_fresca_kg",
+    "pt": "Cola Branca (PVA)",
+    "confianza": "MEDIA",
+    "nota": "«Cola fresca» é a cola branca de madeira."
+  },
+  {
+    "idBo": "eq_compactadora_manual_de_impacto",
+    "pt": "Compactador Manual de Impacto (Sapo)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_compactadora_manual_salt",
+    "pt": "Compactador Manual de Percussão",
+    "confianza": "MEDIA",
+    "nota": "«Salt» refere-se ao compactador tipo salta-sapo."
+  },
+  {
+    "idBo": "eq_compactadora_pata_de_cabra",
+    "pt": "Rolo Compactador Pé de Carneiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_compresora_atlas_copco",
+    "pt": "Compressor Atlas Copco",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "copla_rosca_pvc_1_2_pza",
+    "pt": "Luva de PVC Roscável 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "copla_rosca_pvc_1_pza",
+    "pt": "Luva de PVC Roscável 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "copla_rosca_pvc_3_4_pza",
+    "pt": "Luva de PVC Roscável 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cortadora_de_hormigon_hr",
+    "pt": "Cortadora de Concreto",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cubierta_de_platoform_e_50_mm_m",
+    "pt": "Telha Sanduíche com EPS E=50 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Platoform» é grafia local de plastoform (EPS)."
+  },
+  {
+    "idBo": "cubierta_de_poliuretano_e_30_mm_m2",
+    "pt": "Telha Sanduíche com Poliuretano E=30 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cubierta_de_poliuretano_e_50_mm_m2",
+    "pt": "Telha Sanduíche com Poliuretano E=50 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "diesel_l",
+    "pt": "Diesel",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "dinamita_pza",
+    "pt": "Dinamite",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "dobladora_hr",
+    "pt": "Dobradeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ducha_completa_mas_instalacion_glb",
+    "pt": "Chuveiro Completo com Instalação",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "electroducto_flexible_corrugado_20_mm_1_2_m",
+    "pt": "Eletroduto Flexível Corrugado 20 Mm (1/2″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "electroducto_flexible_corrugado_32_mm_1_m",
+    "pt": "Eletroduto Flexível Corrugado 32 Mm (1″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "entablonado_madera_e_1_9_cm_m2",
+    "pt": "Assoalho de Madeira E=1.9 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_equipo_de_perforacion",
+    "pt": "Equipamento de Perfuração",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "estacas_de_madera_pza",
+    "pt": "Estacas de Madeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_estacion_total",
+    "pt": "Estação Total",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "estiercol_de_ovino_kg",
+    "pt": "Esterco Ovino",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "estructura_metalica_galvanizado_3d_m2",
+    "pt": "Estrutura Metálica Galvanizada 3D",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "estructura_metalica_para_letrero_glb",
+    "pt": "Estrutura Metálica para Letreiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fachada_flotante_vidrio_reflec_6_mm_m2",
+    "pt": "Fachada em Pele de Vidro Refletivo 6 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Fachada flotante» corresponde à pele de vidro brasileira."
+  },
+  {
+    "idBo": "fierro_corrugado_1_4_6mm_l_12m_barra",
+    "pt": "Vergalhão de Aço CA-50 1/4″ (6mm) L=12m",
+    "confianza": "MEDIA",
+    "nota": "No Brasil a barra de 6 mm nervurada é usualmente CA-60; classe CA-50 mantida por coerência com o restante da base."
+  },
+  {
+    "idBo": "fierro_corrugado_3_8_10mm_l_12m_barra",
+    "pt": "Vergalhão de Aço CA-50 3/8″ (10mm) L=12m",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_liso_1_4_6mm_barra",
+    "pt": "Barra de Aço Lisa CA-25 1/4″ (6mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_liso_3_8_10mm_l_12m_barra",
+    "pt": "Barra de Aço Lisa CA-25 3/8″ (10mm) L=12m",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "flotador_automatico_pza",
+    "pt": "Boia Automática",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "foco_100_w_pza",
+    "pt": "Lâmpada 100 W",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "foco_led_14_w_pza",
+    "pt": "Lâmpada LED 14 W",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fosa_septica_de_polie_1100_sanear_pza",
+    "pt": "Fossa Séptica de Polietileno 1100 L",
+    "confianza": "MEDIA",
+    "nota": "«Sanear» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "fosa_septica_de_polie_2500_sanear_pza",
+    "pt": "Fossa Séptica de Polietileno 2500 L",
+    "confianza": "MEDIA",
+    "nota": "«Sanear» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "fulminante_pza",
+    "pt": "Espoleta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "gavion_colchoneta_4x2x0_3_m_m3",
+    "pt": "Gabião Tipo Colchão 4X2X0.3 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "gavion_maccaferri_2x1x0_5_con_d_m",
+    "pt": "Gabião Maccaferri 2X1X0.5 com Diafragma",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "gravilla_1_2_t200_m3",
+    "pt": "Pedrisco 1/2″ T200",
+    "confianza": "MEDIA",
+    "nota": "«Gravilla» corresponde ao pedrisco (brita 0)."
+  },
+  {
+    "idBo": "griferia_para_urinario_pza",
+    "pt": "Válvula para Mictório",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "guia_m",
+    "pt": "Guia",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_guinche_con_motor_electrico",
+    "pt": "Guincho com Motor Elétrico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "hidro_de_1_2_m",
+    "pt": "Tubo de Polipropileno (PPR) 1/2″",
+    "confianza": "BAJA",
+    "nota": "«Hidro» é a designação boliviana da tubulação de polipropileno para água; equivalência não é literal."
+  },
+  {
+    "idBo": "hidro_de_3_4_m",
+    "pt": "Tubo de Polipropileno (PPR) 3/4″",
+    "confianza": "BAJA",
+    "nota": "«Hidro» é a designação boliviana da tubulação de polipropileno para água; equivalência não é literal."
+  },
+  {
+    "idBo": "hipoclorito_de_sodio_l",
+    "pt": "Hipoclorito de Sódio",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "igol_primer_kg",
+    "pt": "Igol Primer",
+    "confianza": "ALTA",
+    "nota": "Produto de mesmo nome comercializado no Brasil (primer asfáltico)."
+  },
+  {
+    "idBo": "impermeabilizante_asfaltico_kg",
+    "pt": "Impermeabilizante Asfáltico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "inodoro_blanco_tanq_bajo_con_acc_pza",
+    "pt": "Vaso Sanitário Branco com Caixa Acoplada e Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "interruptor_simple_pza",
+    "pt": "Interruptor Simples",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "interruptor_termico_2x30_amp_pza",
+    "pt": "Disjuntor Termomagnético 2X30 Amp",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "interruptor_termico_2x40_amp_pza",
+    "pt": "Disjuntor Termomagnético 2X40 Amp",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "jabalina_de_cobre_80_cm_pza",
+    "pt": "Haste de Aterramento de Cobre 80 Cm",
+    "confianza": "ALTA",
+    "nota": "«Jabalina» é a haste de aterramento."
+  },
+  {
+    "idBo": "jabon_liquido_l",
+    "pt": "Sabão Líquido",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "juego_accesorios_de_bano_pza",
+    "pt": "Jogo de Acessórios para Banheiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "junta_de_dilatacion_m",
+    "pt": "Junta de Dilatação",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "kikuyo_m2",
+    "pt": "Grama Kikuyu",
+    "confianza": "MEDIA",
+    "nota": "Espécie mantida; no Brasil predominam outras gramas, mas a kikuyu é identificável."
+  },
+  {
+    "idBo": "ladrillo_6h_24x15x9_8_cm_rayado_pza",
+    "pt": "Bloco Cerâmico 6 Furos 24X15X9.8 Cm (Ranhurado)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ladrillo_gambote_pza",
+    "pt": "Tijolo Maciço",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lama_m3",
+    "pt": "Silte Fino (Lama)",
+    "confianza": "BAJA",
+    "nota": "«Lama» na Bolívia é sedimento fino usado como agregado miúdo de reboco; sem termo comercial brasileiro equivalente."
+  },
+  {
+    "idBo": "lamina_sika_con_aluminio_m2",
+    "pt": "Manta Asfáltica Sika com Alumínio",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lampara_tortuga_18w_pza",
+    "pt": "Arandela Tipo Tartaruga 18W",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lavadero_de_fierro_enlosado_pza",
+    "pt": "Tanque de Lavar de Ferro Esmaltado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lavamanos_blanco_con_acc_pza",
+    "pt": "Lavatório Branco com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lavaplatos_1_depos_1_fregadero_pza",
+    "pt": "Pia de Cozinha 1 Cuba 1 Escorredor",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lavaplatos_2_depos_1_fregadero_pza",
+    "pt": "Pia de Cozinha 2 Cubas 1 Escorredor",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lavaplatos_2_depos_2_fregaderos_pza",
+    "pt": "Pia de Cozinha 2 Cubas 2 Escorredores",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lavarropa_de_cemento_pza",
+    "pt": "Tanque de Lavar Roupa de Cimento",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lavarropa_de_cemento_2_depositos_pza",
+    "pt": "Tanque de Lavar Roupa de Cimento 2 Cubas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "letrero_lona_con_diseno_m2",
+    "pt": "Placa de Lona com Arte",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lija_para_cubierta_hoja",
+    "pt": "Lixa para Cobertura",
+    "confianza": "BAJA",
+    "nota": "Destino da lixa («cubierta») ambíguo na origem; traduzido literalmente."
+  },
+  {
+    "idBo": "lija_para_madera_hoja",
+    "pt": "Lixa para Madeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "llave_de_paso_cortina_1_2_pza",
+    "pt": "Registro de Gaveta 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lona_de_pvc_con_impresion_digital_m2",
+    "pt": "Lona de PVC com Impressão Digital",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "loseta_hexagonal_10_cm_pza",
+    "pt": "Piso Intertravado Hexagonal 10 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Loseta» corresponde ao bloco/piso intertravado de concreto."
+  },
+  {
+    "idBo": "loseta_ondulada_10_cm_m2",
+    "pt": "Piso Intertravado Ondulado 10 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Loseta» corresponde ao bloco/piso intertravado de concreto."
+  },
+  {
+    "idBo": "luminaria_panel_led_24_de_sobreponer_pza",
+    "pt": "Luminária Painel LED 24 de Sobrepor",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "luminaria_pantalla_2x20_w_led_pza",
+    "pt": "Luminária de Calha 2X20 W LED",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "luminaria_spot_embutir_16w_led_pza",
+    "pt": "Luminária Spot de Embutir 16W LED",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "luminaria_tipo_farola_led_80w_clase_ii_pza",
+    "pt": "Luminária Pública LED 80W Classe II",
+    "confianza": "ALTA",
+    "nota": "«Farola» é a luminária de poste de via pública."
+  },
+  {
+    "idBo": "machihembre_palo_maria_p2",
+    "pt": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+    "confianza": "MEDIA",
+    "nota": "«Palo María» corresponde ao guanandi/jacareúba no Brasil."
+  },
+  {
+    "idBo": "madera_en_liston_2_x_2_p2",
+    "pt": "Sarrafo de Madeira 2″ X 2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "madera_palo_maria_p2",
+    "pt": "Madeira Guanandi (Palo María)",
+    "confianza": "MEDIA",
+    "nota": "«Palo María» corresponde ao guanandi/jacareúba no Brasil."
+  },
+  {
+    "idBo": "madera_tejido_kg",
+    "pt": "Madeira Trançada",
+    "confianza": "BAJA",
+    "nota": "Nome de origem («Madera Tejido», em Kg) ambíguo; tradução descritiva literal."
+  },
+  {
+    "idBo": "malla_alambre_7x7_cm_12_m2",
+    "pt": "Tela de Arame 7X7 Cm #12",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_maquina_losetera_tipo_pulpo_manual",
+    "pt": "Máquina Manual para Fabricação de Ladrilhos (Tipo Polvo)",
+    "confianza": "BAJA",
+    "nota": "Prensa manual boliviana de lajotas; sem equipamento de nome equivalente no Brasil."
+  },
+  {
+    "idBo": "marco_2_x_4_cedro_pza",
+    "pt": "Batente 2″ X 4″ de Cedro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "marco_3_x_2_cedro_pza",
+    "pt": "Batente 3″ X 2″ de Cedro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_mecanico_de_equipo_pesado",
+    "pt": "Mecânico de Equipamento Pesado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "medidor_de_agua_pza",
+    "pt": "Hidrômetro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "medidor_de_temperatura_infrarrojo_pza",
+    "pt": "Termômetro Infravermelho",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "membrana_geotextil_aluminio_3_5_mm_m2",
+    "pt": "Manta Asfáltica Geotêxtil com Alumínio 3.5 Mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "membrana_liquida_impermeabilizante_l",
+    "pt": "Membrana Líquida Impermeabilizante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mezclador_y_transf_p_ducha_pza",
+    "pt": "Misturador e Desviador para Chuveiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mezcladora_p_lavamanos_bras_pza",
+    "pt": "Misturador para Lavatório Bras.",
+    "confianza": "MEDIA",
+    "nota": "«Bras.» indica procedência brasileira na origem; mantido."
+  },
+  {
+    "idBo": "mosaico_granitico_30x30_cm_m2",
+    "pt": "Ladrilho de Granilite 30X30 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Mosaico granítico» corresponde ao granilite brasileiro."
+  },
+  {
+    "idBo": "mosaico_marmolado_40x40_cm_m2",
+    "pt": "Ladrilho Marmorizado 40X40 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "muro_termoacustico_e_100_mm_m2",
+    "pt": "Painel de Parede Termoacústico E=100 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "muro_termoacustico_e_120_mm_m2",
+    "pt": "Painel de Parede Termoacústico E=120 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "muro_termoacustico_e_60_mm_m2",
+    "pt": "Painel de Parede Termoacústico E=60 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "muro_termoacustico_e_75_mm_m2",
+    "pt": "Painel de Parede Termoacústico E=75 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "neopreno_compuesto_grado_60_dm3",
+    "pt": "Neoprene Composto Grau 60",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "niple_hexagonal_galvanizado_1_2_pza",
+    "pt": "Niple Hexagonal Galvanizado 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "nitrato_kg",
+    "pt": "Nitrato",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_operador_de_planta",
+    "pt": "Operador de Usina",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_operador_de_retroexcavadora",
+    "pt": "Operador de Retroescavadeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_operador_de_topadora",
+    "pt": "Operador de Trator de Esteira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_operador_de_volqueta",
+    "pt": "Motorista de Caminhão Basculante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "parket_tajibo_m2",
+    "pt": "Parquete de Ipê (Tajibo)",
+    "confianza": "MEDIA",
+    "nota": "«Tajibo» é o ipê (Tabebuia) na Bolívia."
+  },
+  {
+    "idBo": "parketek_para_parket_l",
+    "pt": "Selador para Parquete",
+    "confianza": "MEDIA",
+    "nota": "«Parketek» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "pavic_estandar_ceramico_20x10x6_5_cm_pza",
+    "pt": "Piso Cerâmico Intertravado (Paver) 20X10X6.5 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Pavic» é designação comercial boliviana de piso cerâmico intertravado."
+  },
+  {
+    "idBo": "pediluvio_pza",
+    "pt": "Pedilúvio",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pegaladrillo_facil_kg",
+    "pt": "Argamassa para Assentamento de Tijolos",
+    "confianza": "MEDIA",
+    "nota": "«Pegaladrillo Fácil» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "pegamento_para_ladrillo_valkure_kg_kg",
+    "pt": "Argamassa Colante para Tijolos",
+    "confianza": "MEDIA",
+    "nota": "«Valkure» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "pegamento_para_vinil_l",
+    "pt": "Cola para Piso Vinílico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_p_cercha_pcg_40x6_mm_m",
+    "pt": "Perfil C Galvanizado (PCG) para Tesoura 40X6 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Cercha» é a tesoura de telhado."
+  },
+  {
+    "idBo": "perfil_p_cercha_pgg_40x6_mm_m",
+    "pt": "Perfil PGG para Tesoura 40X6 Mm",
+    "confianza": "MEDIA",
+    "nota": "Sigla de perfil boliviana mantida."
+  },
+  {
+    "idBo": "perfil_pcg_61x40x6_mm_m",
+    "pt": "Perfil C Galvanizado (PCG) 61X40X6 Mm",
+    "confianza": "MEDIA",
+    "nota": "Sigla de perfil boliviana mantida."
+  },
+  {
+    "idBo": "perfil_pcj_90x40_mm_m",
+    "pt": "Perfil PCJ 90X40 Mm",
+    "confianza": "MEDIA",
+    "nota": "Sigla de perfil boliviana mantida."
+  },
+  {
+    "idBo": "perfil_pgg_61x40x6_mm_m",
+    "pt": "Perfil PGG 61X40X6 Mm",
+    "confianza": "MEDIA",
+    "nota": "Sigla de perfil boliviana mantida."
+  },
+  {
+    "idBo": "perfil_pgj_90x40_mm_m",
+    "pt": "Perfil PGJ 90X40 Mm",
+    "confianza": "MEDIA",
+    "nota": "Sigla de perfil boliviana mantida."
+  },
+  {
+    "idBo": "perfil_tee_1_x_1_8_m",
+    "pt": "Perfil Tê 1″ X 1/8″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_perforista",
+    "pt": "Perfurador",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perno_3_8_x_4_con_arandela_pza",
+    "pt": "Parafuso 3/8″ x 4 com Arruela",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "phono_spray_m2",
+    "pt": "Isolamento Acústico Aplicado a Spray",
+    "confianza": "BAJA",
+    "nota": "«Phono Spray» é sistema/marca boliviana de isolamento acústico projetado."
+  },
+  {
+    "idBo": "piedra_cortada_20x20x20_cm_m3",
+    "pt": "Pedra Cortada 20X20X20 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "piedra_pizarra_cortada_15x30_cm_m2",
+    "pt": "Pedra Ardósia Cortada 15X30 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "piedra_tarija_m2",
+    "pt": "Pedra Tarija",
+    "confianza": "BAJA",
+    "nota": "Pedra natural boliviana da região de Tarija; sem equivalente comercial no Brasil, nome mantido."
+  },
+  {
+    "idBo": "pintura_al_aceite_l",
+    "pt": "Tinta a Óleo",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pintura_latex_exterior_l",
+    "pt": "Tinta Látex para Exterior",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pintura_latex_interior_l",
+    "pt": "Tinta Látex para Interior",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pintura_latex_satinado_l",
+    "pt": "Tinta Látex Acetinada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pintura_sintetica_color_azul_gal",
+    "pt": "Tinta Esmalte Sintético Azul",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pintura_super_latex_gal",
+    "pt": "Tinta Super Látex",
+    "confianza": "MEDIA",
+    "nota": "«Super Látex» é designação comercial boliviana de tinta látex premium."
+  },
+  {
+    "idBo": "piso_flotante_m2",
+    "pt": "Piso Laminado Flutuante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pisopak_30x30cmx1_6_mm_m2",
+    "pt": "Piso Vinílico em Placas 30X30 Cm X 1.6 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Pisopak» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "placa_drywall_10_mm_1_2x2_4_m_pza",
+    "pt": "Placa de Drywall 10 Mm 1.2X2.4 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "placa_ondulada_duralit_m2",
+    "pt": "Telha Ondulada de Fibrocimento",
+    "confianza": "ALTA",
+    "nota": "«Duralit» é a marca boliviana de fibrocimento."
+  },
+  {
+    "idBo": "placa_telefono_pza",
+    "pt": "Placa para Tomada de Telefone",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plancha_de_acero_5_16_8mm_hoja",
+    "pt": "Chapa de Aço 5/16″ (8mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plancha_metalica_1_4_2x1_m_pza",
+    "pt": "Chapa Metálica 1/4″ 2X1 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plancha_metalica_10mm_m2",
+    "pt": "Chapa Metálica 10mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plaqueta_toma_de_internet_pza",
+    "pt": "Placa com Tomada de Internet",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plaqueta_tv_conector_spliter_pza",
+    "pt": "Placa com Tomada de TV e Splitter",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plastoformo_5mm_pza",
+    "pt": "Placa de EPS (Isopor) 5mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pletina_3_4_1_8_m",
+    "pt": "Barra Chata 3/4″ - 1/8″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "policarbonato_con_bronce_6_mm_m2",
+    "pt": "Policarbonato Bronze 6 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "policarbonato_con_bronce_8_mm_m2",
+    "pt": "Policarbonato Bronze 8 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "poste_de_hormigon_pretensado_m",
+    "pt": "Poste de Concreto Protendido",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_profesional_de_seguridad_y_salud_ocupacional",
+    "pt": "Profissional de Segurança e Saúde Ocupacional",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "puerta_moldeada_ext_hdf_pza",
+    "pt": "Porta Moldada Externa de HDF",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "puerta_moldeada_int_hdf_pza",
+    "pt": "Porta Moldada Interna de HDF",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "puerta_tablero_cedro_0_80x2_10_m_pza",
+    "pt": "Porta Almofadada de Cedro 0.80X2.10 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "puerta_tablero_exterior_pza",
+    "pt": "Porta Almofadada Externa",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "quincalleria_y_accesorios_p_puerta_glb",
+    "pt": "Ferragens e Acessórios para Porta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ray_grass_kg",
+    "pt": "Azevém (Ray-Grass)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "reja_metalica_tubo_rect_20x30_mm_m",
+    "pt": "Grade Metálica em Tubo Retangular 20X30 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "rejilla_de_piso_20x20_cm_bronce_pza",
+    "pt": "Grelha de Piso 20X20 Cm em Bronze",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "rejilla_de_piso_6_bronce_pza",
+    "pt": "Grelha de Piso 6″ em Bronze",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "retroexcavadora_110_hp_hr",
+    "pt": "Retroescavadeira 110 HP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "revoque_fino_facil_kg",
+    "pt": "Argamassa para Reboco Fino",
+    "confianza": "MEDIA",
+    "nota": "«Fácil» é linha comercial boliviana; descrito o produto."
+  },
+  {
+    "idBo": "eq_rompedora_de_asfalto",
+    "pt": "Rompedor de Asfalto",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sellador_para_madera_l",
+    "pt": "Selador para Madeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "senaletica_acrilica_con_adhesivo_40x30_cm_pza",
+    "pt": "Placa de Sinalização em Acrílico com Adesivo 40x30 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sika_1_impermeabilizante_kg",
+    "pt": "Sika 1 Impermeabilizante",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "sikadur_32_kg",
+    "pt": "Sikadur 32",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "sikaflex_1_a_cm3",
+    "pt": "Sikaflex 1-A",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "sillar_tipo_a_60x40x30_cm_pza",
+    "pt": "Bloco de Cantaria Tipo A 60X40X30 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Sillar» é bloco de pedra vulcânica aparelhada; no Brasil, cantaria."
+  },
+  {
+    "idBo": "sillar_tipo_b_40x30x30_cm_pza",
+    "pt": "Bloco de Cantaria Tipo B 40X30X30 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Sillar» é bloco de pedra vulcânica aparelhada; no Brasil, cantaria."
+  },
+  {
+    "idBo": "soporte_compresor_ai_split_pza",
+    "pt": "Suporte para Condensadora de Ar Condicionado Split",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "superlatex_acrilico_l",
+    "pt": "Tinta Super Látex Acrílica",
+    "confianza": "MEDIA",
+    "nota": "«Superlatex» é designação comercial boliviana."
+  },
+  {
+    "idBo": "supertubo_hdpe_110_mm_4_m",
+    "pt": "Tubo de PEAD 110 Mm (4″)",
+    "confianza": "ALTA",
+    "nota": "«Supertubo» é marca boliviana de tubo de polietileno; PEAD é o termo brasileiro para HDPE."
+  },
+  {
+    "idBo": "supertubo_hdpe_125_mm_5_pn8_m",
+    "pt": "Tubo de PEAD 125 Mm (5″) PN8",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_160_mm_6_pn6_m",
+    "pt": "Tubo de PEAD 160 Mm (6″) PN6",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_20_mm_1_2_m",
+    "pt": "Tubo de PEAD 20 Mm (1/2″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_200_mm_8_pn6_m",
+    "pt": "Tubo de PEAD 200 Mm (8″) PN6",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_25_mm_3_4_m",
+    "pt": "Tubo de PEAD 25 Mm (3/4″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_250_mm_10_pn6_m",
+    "pt": "Tubo de PEAD 250 Mm (10″) PN6",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_32_mm_1_m",
+    "pt": "Tubo de PEAD 32 Mm (1″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_40_mm_1_1_4_m",
+    "pt": "Tubo de PEAD 40 Mm (1 1/4″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_50_mm_1_1_2_m",
+    "pt": "Tubo de PEAD 50 Mm (1 1/2″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_63_mm_2_m",
+    "pt": "Tubo de PEAD 63 Mm (2″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_75_mm_2_1_2_m",
+    "pt": "Tubo de PEAD 75 Mm (2 1/2″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "supertubo_hdpe_90_mm_3_m",
+    "pt": "Tubo de PEAD 90 Mm (3″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tablero_de_distribucion_6_circuitos_pza",
+    "pt": "Quadro de Distribuição 6 circuitos",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tanque_plastico_10_000_lt_con_acc_pza",
+    "pt": "Reservatório Plástico 10 000 L com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tanque_plastico_1200_lt_con_acc_pza",
+    "pt": "Caixa d'Água Plástica 1200 L com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tanque_plastico_2300_lt_con_acc_pza",
+    "pt": "Caixa d'Água Plástica 2300 L com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tanque_plastico_5000_lt_con_acc_pza",
+    "pt": "Caixa d'Água Plástica 5000 L com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tanque_plastico_600_lt_con_acc_pza",
+    "pt": "Caixa d'Água Plástica 600 L com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tapizon_m2",
+    "pt": "Carpete Agulhado",
+    "confianza": "MEDIA",
+    "nota": "«Tapizón» é o carpete agulhado (tipo forração), distinto de «alfombra»."
+  },
+  {
+    "idBo": "teja_espanola_ceramica_pza",
+    "pt": "Telha Espanhola Cerâmica",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "teja_espanola_color_duralit_m2",
+    "pt": "Telha Espanhola Colorida de Fibrocimento",
+    "confianza": "ALTA",
+    "nota": "«Duralit» é a marca boliviana de fibrocimento."
+  },
+  {
+    "idBo": "tepe_m2",
+    "pt": "Tepe",
+    "confianza": "ALTA",
+    "nota": "«Tepe» é exatamente o termo brasileiro para grama em placas."
+  },
+  {
+    "idBo": "terminales_para_cable_utp_pza",
+    "pt": "Conectores para Cabo UTP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tierra_cernida_m3",
+    "pt": "Terra Peneirada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tierra_comun_m3",
+    "pt": "Terra Comum",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "timbre_pulsador_con_campanilla_pza",
+    "pt": "Campainha com Botão",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tina_blanca_con_griferia_pza",
+    "pt": "Banheira Branca com Torneira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tirafondos_pza",
+    "pt": "Parafusos Tirefond",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tirafondos_de_5_1_2x1_4_pza",
+    "pt": "Parafuso Tirefond de 5 1/2X1/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tomacorriente_doble_pza",
+    "pt": "Tomada Dupla",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_topadora_d7g",
+    "pt": "Trator de Esteira D7G",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "transformador_trifasico_150_kva_10_5_kv_380_220v_pza",
+    "pt": "Transformador Trifásico 150 KVA 10.5 KV 380/220V",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_galvanizada_fg_1_2_m",
+    "pt": "Tubo de Ferro Galvanizado 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_pvc_1_2_m",
+    "pt": "Tubo de PVC 1/2\"",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_pvc_4_m",
+    "pt": "Tubo de PVC 4\"",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_pvc_clase_9_3_con_junta_m",
+    "pt": "Tubo de PVC Classe 9 Ø 3″ com Junta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_pvc_clase_9_4_con_junta_m",
+    "pt": "Tubo de PVC Classe 9 Ø 4″ com Junta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_pvc_e_40_2_con_junta_m",
+    "pt": "Tubo de PVC E-40 Ø 2″ com Junta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_pvc_e_40_3_con_junta_m",
+    "pt": "Tubo de PVC E-40 Ø 3″ com Junta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_pvc_e_40_4_con_junta_m",
+    "pt": "Tubo de PVC E-40 Ø 4″ com Junta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tuberia_rosca_pvc_1_2_m",
+    "pt": "Tubo de PVC Roscável 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_de_hormigon_10_para_desague_m",
+    "pt": "Tubo de Concreto 10″ para Esgoto",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_de_hormigon_12_para_desague_m",
+    "pt": "Tubo de Concreto 12″ para Esgoto",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_de_hormigon_16_para_desague_m",
+    "pt": "Tubo de Concreto 16″ para Esgoto",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_de_hormigon_armado_40_m",
+    "pt": "Tubo de Concreto Armado 40″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_desague_pvc_clase_9_3_m",
+    "pt": "Tubo de PVC para Esgoto Classe 9 Ø 3″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_desague_pvc_clase_9_4_m",
+    "pt": "Tubo de PVC para Esgoto Classe 9 Ø 4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_desague_pvc_4_sdr_m",
+    "pt": "Tubo de PVC para Esgoto Ø 4″ SDR",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_desague_pvc_6_sdr_35_m",
+    "pt": "Tubo de PVC para Esgoto Ø 6″ SDR 35",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubular_cuadrado_20x20_mm_m",
+    "pt": "Tubo Quadrado 20X20 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubular_rectangular_50x30x2_mm_m",
+    "pt": "Tubo Retangular 50X30X2 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_por_termofusion_10_pza",
+    "pt": "União por Termofusão 10″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_por_termofusion_5_pza",
+    "pt": "União por Termofusão 5″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_por_termofusion_6_pza",
+    "pt": "União por Termofusão 6″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_por_termofusion_8_pza",
+    "pt": "União por Termofusão 8″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "urinario_blanco_con_sifon_pza",
+    "pt": "Mictório Branco com Sifão",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ventana_aluminio_3_hojas_m2",
+    "pt": "Janela de Alumínio 3 Folhas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ventana_mad_cedro_marco_2x3_m2",
+    "pt": "Janela de Madeira Cedro com Batente 2X3″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "vidrio_catedral_blanco_3_mm_m2",
+    "pt": "Vidro Catedral Branco 3 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "vidrio_plano_arg_incoloro_3_mm_m2",
+    "pt": "Vidro Plano Argentino Incolor 3 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "vidrio_plano_incoloro_6_mm_m2",
+    "pt": "Vidro Plano Incolor 6 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_volqueta_12_m3",
+    "pt": "Caminhão Basculante 12 m3",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "zocalo_cedro_3_m",
+    "pt": "Rodapé de Cedro 3″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "zocalo_de_ceramica_m",
+    "pt": "Rodapé Cerâmico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "zocalo_granitico_de_25x10_cm_m",
+    "pt": "Rodapé de Granilite 25X10 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Zócalo granítico» corresponde ao rodapé de granilite."
+  },
+  {
+    "idBo": "agua_potable_l",
+    "pt": "ÁGUA Potável",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_de_puas_galvanizado_simple_rollo_500_m_rollo",
+    "pt": "Arame farpado galvanizado simples, rolo 500 m",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_galvanizado_n_12_2_76_mm_kg",
+    "pt": "Arame galvanizado N° 12 (2.76 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_galvanizado_n_8_4_20_mm_kg",
+    "pt": "Arame galvanizado N° 8 (4.20 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_tejido_malla_m2",
+    "pt": "Tela de arame (alambrado)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alambre_tejido_rollo_50_m_0_80_m_de_alto_rollo",
+    "pt": "Tela de arame, rolo 50 m × 0.80 m de altura",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mo_alarife",
+    "pt": "Meio-oficial",
+    "confianza": "MEDIA",
+    "nota": "«Alarife» é a categoria boliviana intermediária entre servente e pedreiro; no Brasil, meio-oficial."
+  },
+  {
+    "idBo": "alfombra_nacional_m2",
+    "pt": "Carpete nacional",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "alfombra_nacional_para_alto_trafico_m2",
+    "pt": "Carpete nacional para alto tráfego",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "angular_de_acero_1_8_1_1_2_barra",
+    "pt": "Cantoneira de aço 1/8″ × 1 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "angular_de_acero_1_8_1_barra",
+    "pt": "Cantoneira de aço 1/8″ × 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "angular_de_acero_1_8_2_barra",
+    "pt": "Cantoneira de aço 1/8″ × 2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "angular_de_acero_1_8_3_4_barra",
+    "pt": "Cantoneira de aço 1/8″ × 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "angular_de_acero_3_16_2_barra",
+    "pt": "Cantoneira de aço 3/16″ × 2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "antisol_normalizado_curador_de_hormigon_20_kg",
+    "pt": "Antisol Normalizado, cura química para concreto",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "azulejo_decorado_22_34_cm_m2",
+    "pt": "Azulejo decorado 22×34 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "azulejo_decorado_bras_20x30cm_m2",
+    "pt": "Azulejo Decorado BRAS. 20x30cm",
+    "confianza": "ALTA",
+    "nota": "«BRAS.» indica procedência brasileira na origem; mantido."
+  },
+  {
+    "idBo": "azulejo_decorado_brasileno_20_20_cm_m2",
+    "pt": "Azulejo decorado brasileiro 20×20 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "baranda_de_acero_inoxidable_h_0_90_m_m",
+    "pt": "Guarda-Corpo de Aço Inoxidável H=0,90 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "basurero_papelero_de_50_l_pza",
+    "pt": "Lixeira tipo papeleira de 50 l",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "basurero_urbano_de_50_l_pza",
+    "pt": "Lixeira urbana de 50 l",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bentonita_ultragel_kg",
+    "pt": "Bentonita Ultragel",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "binda_fraguador_fragua_para_juntas_5_kg",
+    "pt": "Rejunte para juntas cerâmicas",
+    "confianza": "MEDIA",
+    "nota": "«Binda» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "binda_porcelanato_adhesivo_para_porcelanato_20_kg",
+    "pt": "Argamassa colante para porcelanato",
+    "confianza": "MEDIA",
+    "nota": "«Binda» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "binda_standard_adhesivo_para_ceramica_20_kg",
+    "pt": "Argamassa colante para cerâmica",
+    "confianza": "MEDIA",
+    "nota": "«Binda» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "bomba_de_agua_1_hp_pza",
+    "pt": "Bomba d'água 1 HP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bomba_de_agua_1_5_hp_pza",
+    "pt": "Bomba d'água 1.5 HP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bomba_de_agua_1_2_hp_pza",
+    "pt": "Bomba d'água 1/2 HP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "bomba_de_agua_2_hp_pza",
+    "pt": "Bomba d'água 2 HP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cable_de_50_mm2_m",
+    "pt": "Cabo de 50 mm²",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caja_de_hormigon_30x30x30_pza",
+    "pt": "CAIXA de Concreto 30x30x30",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "calamina_trapezoidal_n_28_pre_pintada_m2",
+    "pt": "Telha Trapezoidal de Aço Zincado N° 28 PRÉ-Pintada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "camara_de_inspeccion_ho_40x40x40_cm_pza",
+    "pt": "Caixa de Inspeção de Concreto 40x40x40 Cm",
+    "confianza": "ALTA",
+    "nota": "«HO» = hormigón (concreto)."
+  },
+  {
+    "idBo": "caneria_de_cobre_o_1_2_pza",
+    "pt": "Tubo de cobre Ø 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_de_cobre_o_3_4_pza",
+    "pt": "Tubo de cobre Ø 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_galvanizada_o_1_1_2_pza",
+    "pt": "Tubo galvanizado Ø 1 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_galvanizada_o_1_1_4_pza",
+    "pt": "Tubo galvanizado Ø 1 1/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_galvanizada_o_1_2_pza",
+    "pt": "Tubo galvanizado Ø 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_galvanizada_o_1_pza",
+    "pt": "Tubo galvanizado Ø 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_galvanizada_o_2_pza",
+    "pt": "Tubo galvanizado Ø 2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caneria_galvanizada_o_3_4_pza",
+    "pt": "Tubo galvanizado Ø 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_cargador_frontal_150hp",
+    "pt": "Pá Carregadeira 150HP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "carpicola_monopol_gl",
+    "pt": "Cola branca para madeira",
+    "confianza": "MEDIA",
+    "nota": "«Carpícola Monopol» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "mo_carpintero_en_aluminio",
+    "pt": "Montador de Esquadrias de Alumínio",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "caseton_de_tecnopor_40_40_15_cm_pza",
+    "pt": "Bloco de EPS (isopor) para laje nervurada 40×40×15 cm",
+    "confianza": "MEDIA",
+    "nota": "«Casetón de tecnopor» é o bloco/caixote perdido de EPS para lajes nervuradas."
+  },
+  {
+    "idBo": "caseton_de_tecnopor_50_50_12_cm_pza",
+    "pt": "Bloco de EPS (isopor) para laje nervurada 50×50×12 cm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "caseton_de_tecnopor_50_50_15_cm_pza",
+    "pt": "Bloco de EPS (isopor) para laje nervurada 50×50×15 cm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "caseton_de_tecnopor_50_50_20_cm_pza",
+    "pt": "Bloco de EPS (isopor) para laje nervurada 50×50×20 cm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "cemento_consductivo_illapa_bolsa",
+    "pt": "Cimento condutivo para aterramento",
+    "confianza": "MEDIA",
+    "nota": "«Illapa» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "cemento_portland_ip30_kg",
+    "pt": "Cimento Portland IP-30",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cemento_portland_ip40_kg",
+    "pt": "Cimento Portland IP-40",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ceramica_esmaltada_brasilena_30_30_cm_m2",
+    "pt": "Revestimento cerâmico esmaltado brasileiro 30×30 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ceramica_esmaltada_brasilena_33_33_cm_m2",
+    "pt": "Revestimento cerâmico esmaltado brasileiro 33×33 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ceramica_esmaltada_nal_20x30cm_m2",
+    "pt": "Revestimento Cerâmico Esmaltado NAC. 20x30cm",
+    "confianza": "ALTA",
+    "nota": "«NAL.» (nacional) adaptado para «NAC.»."
+  },
+  {
+    "idBo": "ceramica_kaiser_mutun_24_24_cm_m2",
+    "pt": "Revestimento cerâmico rústico 24×24 cm",
+    "confianza": "MEDIA",
+    "nota": "«Kaiser Mutún» é marca e linha bolivianas; descrito o produto."
+  },
+  {
+    "idBo": "ceramica_kaiser_rojo_natural_24_11_5_cm_m2",
+    "pt": "Revestimento cerâmico vermelho natural 24×11.5 cm",
+    "confianza": "MEDIA",
+    "nota": "«Kaiser» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "ceramica_kaiser_rojo_natural_24_24_cm_m2",
+    "pt": "Revestimento cerâmico vermelho natural 24×24 cm",
+    "confianza": "MEDIA",
+    "nota": "«Kaiser» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "ceramica_nacional_22_34_cm_m2",
+    "pt": "Revestimento cerâmico nacional 22×34 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ceramica_nacional_25_25_cm_m2",
+    "pt": "Revestimento cerâmico nacional 25×25 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ceramica_nacional_34_34_cm_m2",
+    "pt": "Revestimento cerâmico nacional 34×34 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ceramica_nacional_40_40_cm_m2",
+    "pt": "Revestimento cerâmico nacional 40×40 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_de_cobre_con_terminal_rosca_interna_o_1_2_pza",
+    "pt": "Joelho de cobre com rosca interna Ø 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_de_cobre_con_terminal_rosca_interna_o_3_4_pza",
+    "pt": "Joelho de cobre com rosca interna Ø 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_de_cobre_o_1_2_12_mm_pza",
+    "pt": "Joelho de cobre Ø 1/2″ (12 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_de_cobre_o_3_4_16_mm_pza",
+    "pt": "Joelho de cobre Ø 3/4″ (16 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_galvanizado_o_1_1_2_37_mm_pza",
+    "pt": "Joelho galvanizado Ø 1 1/2″ (37 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_galvanizado_o_1_1_4_30_mm_pza",
+    "pt": "Joelho galvanizado Ø 1 1/4″ (30 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_galvanizado_o_1_2_12_mm_pza",
+    "pt": "Joelho galvanizado Ø 1/2″ (12 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_galvanizado_o_1_25_mm_pza",
+    "pt": "Joelho galvanizado Ø 1″ (25 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_galvanizado_o_2_50_mm_pza",
+    "pt": "Joelho galvanizado Ø 2″ (50 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_galvanizado_o_3_4_16_mm_pza",
+    "pt": "Joelho galvanizado Ø 3/4″ (16 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_para_conduit_3_4_pza",
+    "pt": "CURVA para Eletroduto Ø 3/4\"",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "codo_para_conduit_5_8_pza",
+    "pt": "CURVA para Eletroduto Ø 5/8\"",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "colmafix_32_puente_de_adherencia_kg",
+    "pt": "Colmafix 32, ponte de aderência",
+    "confianza": "MEDIA",
+    "nota": "«Colmafix 32» é a designação Sika andina; no Brasil o produto equivalente é o Sikadur 32."
+  },
+  {
+    "idBo": "eq_compactadora_neumatica",
+    "pt": "Compactador Pneumático",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "complemento_plastoform_en_tira_100_40_12_cm_pza",
+    "pt": "Complemento de EPS (isopor) em tira 100×40×12 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "complemento_plastoform_en_tira_100_40_15_cm_pza",
+    "pt": "Complemento de EPS (isopor) em tira 100×40×15 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "complemento_plastoform_en_tira_100_40_20_cm_pza",
+    "pt": "Complemento de EPS (isopor) em tira 100×40×20 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "copla_galvanizada_o_1_1_2_37_mm_pza",
+    "pt": "Luva galvanizada Ø 1 1/2″ (37 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "copla_galvanizada_o_1_1_4_30_mm_pza",
+    "pt": "Luva galvanizada Ø 1 1/4″ (30 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "copla_galvanizada_o_1_2_12_mm_pza",
+    "pt": "Luva galvanizada Ø 1/2″ (12 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "copla_galvanizada_o_1_25_mm_pza",
+    "pt": "Luva galvanizada Ø 1″ (25 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "copla_galvanizada_o_2_50_mm_pza",
+    "pt": "Luva galvanizada Ø 2″ (50 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "copla_galvanizada_o_3_4_16_mm_pza",
+    "pt": "Luva galvanizada Ø 3/4″ (16 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_cortadora_de_asfalto",
+    "pt": "Cortadora de Asfalto",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "costanera_80x40x15_2_mm_m",
+    "pt": "Terça Perfil Ue 80x40x15 2 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Costanera» é a terça em perfil U enrijecido (Ue)."
+  },
+  {
+    "idBo": "cruz_galvanizada_o_1_2_12_mm_pza",
+    "pt": "Cruzeta galvanizada Ø 1/2″ (12 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cruz_galvanizada_o_1_25_mm_pza",
+    "pt": "Cruzeta galvanizada Ø 1″ (25 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cruz_galvanizada_o_2_50_mm_pza",
+    "pt": "Cruzeta galvanizada Ø 2″ (50 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "cruz_galvanizada_o_3_4_16_mm_pza",
+    "pt": "Cruzeta galvanizada Ø 3/4″ (16 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "disco_de_corte_pza",
+    "pt": "Disco de Corte",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "enchape_de_ladrillo_nacional_m2",
+    "pt": "Revestimento em tijolo aparente nacional",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_equipo_especializado",
+    "pt": "Equipamento Especializado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "espuma_de_poliuretano_e_10mm_m2",
+    "pt": "Espuma de Poliuretano E=10mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_corrugado_o_10_mm_3_8_barra",
+    "pt": "Vergalhão de aço CA-50 Ø 10 mm (3/8″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_corrugado_o_12_mm_1_2_barra",
+    "pt": "Vergalhão de aço CA-50 Ø 12 mm (1/2″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_corrugado_o_16_mm_5_8_barra",
+    "pt": "Vergalhão de aço CA-50 Ø 16 mm (5/8″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_corrugado_o_20_mm_3_4_barra",
+    "pt": "Vergalhão de aço CA-50 Ø 20 mm (3/4″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_corrugado_o_25_mm_1_barra",
+    "pt": "Vergalhão de aço CA-50 Ø 25 mm (1″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_corrugado_o_6_mm_1_4_barra",
+    "pt": "Vergalhão de aço CA-50 Ø 6 mm (1/4″)",
+    "confianza": "MEDIA",
+    "nota": "No Brasil a barra nervurada de 6 mm é usualmente CA-60; classe CA-50 mantida por coerência com o restante da base."
+  },
+  {
+    "idBo": "fierro_corrugado_o_8_mm_5_16_barra",
+    "pt": "Vergalhão de aço CA-50 Ø 8 mm (5/16″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_liso_o_10_mm_3_8_barra",
+    "pt": "Barra de aço lisa CA-25 Ø 10 mm (3/8″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_liso_o_12_mm_1_2_barra",
+    "pt": "Barra de aço lisa CA-25 Ø 12 mm (1/2″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_liso_o_6_mm_1_4_barra",
+    "pt": "Barra de aço lisa CA-25 Ø 6 mm (1/4″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fierro_liso_o_8_mm_5_16_barra",
+    "pt": "Barra de aço lisa CA-25 Ø 8 mm (5/16″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "fullcaneria_para_tubos_de_pvc_envase_18_l_pza",
+    "pt": "Adesivo para tubos de PVC, embalagem 18 l",
+    "confianza": "MEDIA",
+    "nota": "«Fullcañería» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "ganchos_j_de_80mm_kg",
+    "pt": "Ganchos tipo J de 80mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "gavion_2x1x0_5m_c_diafragma_pza",
+    "pt": "Gabião 2x1x0.5m C/DIAFRAGMA",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "gavion_2x1x1m_c_diafragma_pza",
+    "pt": "Gabião 2x1x1m C/DIAFRAGMA",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "intraplast_z_aditivo_expansor_para_grout_kg",
+    "pt": "Intraplast Z, aditivo expansor para graute",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "intraplast_z_aditivo_expansor_para_grout_3_kg",
+    "pt": "Intraplast Z, aditivo expansor para graute",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "jabalina_de_acero_5_8_banada_de_cobre_pza",
+    "pt": "Haste de Aterramento de Aço 5/8\" Cobreada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "kit_electrodo_gs_15_ecogel_terraflux_pza",
+    "pt": "KIT Eletrodo GS-15 (ECOGEL + TERRAFLUX)",
+    "confianza": "MEDIA",
+    "nota": "Kit comercial de aterramento; nomes de marca mantidos."
+  },
+  {
+    "idBo": "ladrillo_3h_24x15x8_cm_pza",
+    "pt": "Bloco Cerâmico 3 Furos 24x15x8 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ladrillo_6h_24x15x11_pza",
+    "pt": "Bloco Cerâmico 6 Furos 24x15x11",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "lana_de_vidrio_espesor_25_mm_m2",
+    "pt": "Lã de vidro, espessura 25 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "limpiador_para_pvc_y_cpvc_2_l",
+    "pt": "Solução limpadora para PVC e CPVC",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "llave_de_paso_tipo_cortina_de_cobre_o_1_2_pza",
+    "pt": "Registro de gaveta de cobre Ø 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "llave_de_paso_tipo_cortina_de_cobre_o_3_4_pza",
+    "pt": "Registro de gaveta de cobre Ø 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "malla_milimetrica_plastica_m2",
+    "pt": "Tela mosquiteira plástica",
+    "confianza": "MEDIA",
+    "nota": "«Malla milimétrica» é a tela plástica de malha fina (mosquiteira)."
+  },
+  {
+    "idBo": "manguera_de_expulsion_o_3_m",
+    "pt": "Mangueira de recalque Ø 3″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "manguera_de_succion_o_3_m",
+    "pt": "Mangueira de sucção Ø 3″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "membrana_asfaltica_aluminio_4_mm_m2",
+    "pt": "Manta Asfáltica com Alumínio 4 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "miscelaneos_glb",
+    "pt": "Diversos",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "motobomba_5_5_hp_honda_3_3_pza",
+    "pt": "Motobomba 5.5 HP Honda, 3″ × 3″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mueble_de_bano_con_cajoneria_baja_m",
+    "pt": "Armário de BANHEIRO com Gaveteiro BAIXO",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "mueble_de_cocina_alto_y_bajo_cajoneria_m",
+    "pt": "Móvel de Cozinha, Gaveteiro ALTO e BAIXO",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "niple_hexagonal_galvanizado_o_1_2_12_mm_pza",
+    "pt": "Niple hexagonal galvanizado Ø 1/2″ (12 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "niple_hexagonal_galvanizado_o_1_25_mm_pza",
+    "pt": "Niple hexagonal galvanizado Ø 1″ (25 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "niple_hexagonal_galvanizado_o_2_50_mm_pza",
+    "pt": "Niple hexagonal galvanizado Ø 2″ (50 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "niple_hexagonal_galvanizado_o_3_4_16_mm_pza",
+    "pt": "Niple hexagonal galvanizado Ø 3/4″ (16 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "parketex_sellador_para_parquet_10_l",
+    "pt": "Selador para parquete",
+    "confianza": "MEDIA",
+    "nota": "«Parketex» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "pegamento_para_cpvc_agua_caliente_1_4_l",
+    "pt": "Adesivo para CPVC (água quente)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pegamento_para_cpvc_agua_caliente_1_l",
+    "pt": "Adesivo para CPVC (água quente)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pegamento_para_pvc_y_cpvc_1_l",
+    "pt": "Adesivo para PVC e CPVC",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_costanera_100_50_mm_e_2_mm_barra",
+    "pt": "Perfil terça Ue 100×50 mm, e = 2 mm",
+    "confianza": "MEDIA",
+    "nota": "«Costanera» é a terça em perfil U enrijecido (Ue)."
+  },
+  {
+    "idBo": "perfil_costanera_50_30_mm_e_2_mm_barra",
+    "pt": "Perfil terça Ue 50×30 mm, e = 2 mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_costanera_60_40_mm_e_1_8_mm_barra",
+    "pt": "Perfil terça Ue 60×40 mm, e = 1.8 mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_costanera_80_40_mm_e_2_mm_barra",
+    "pt": "Perfil terça Ue 80×40 mm, e = 2 mm",
+    "confianza": "MEDIA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_para_ventana_3_2_barra",
+    "pt": "Perfil para janela 3-2",
+    "confianza": "MEDIA",
+    "nota": "Código de linha de perfil de esquadria da origem mantido."
+  },
+  {
+    "idBo": "perfil_para_ventana_3_4_barra",
+    "pt": "Perfil para janela 3-4",
+    "confianza": "MEDIA",
+    "nota": "Código de linha de perfil de esquadria da origem mantido."
+  },
+  {
+    "idBo": "perfil_para_ventana_4_2_barra",
+    "pt": "Perfil para janela 4-2",
+    "confianza": "MEDIA",
+    "nota": "Código de linha de perfil de esquadria da origem mantido."
+  },
+  {
+    "idBo": "perfil_tee_1_8_1_1_2_3_37_mm_barra",
+    "pt": "Perfil tê 1/8″ × 1 1/2″ (3 × 37 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_tee_1_8_3_4_3_16_mm_barra",
+    "pt": "Perfil tê 1/8″ × 3/4″ (3 × 16 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perfil_u_100_50_mm_e_2_mm_barra",
+    "pt": "Perfil U 100×50 mm, e = 2 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "perno_1_1_2_autoperforante_pza",
+    "pt": "Parafuso 1 1/2\" Autoperfurante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "piedra_cortada_20_20_cm_pza",
+    "pt": "Pedra cortada 20×20 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "piedra_laja_sin_cortar_m2",
+    "pt": "Pedra laje sem corte",
+    "confianza": "MEDIA",
+    "nota": "«Piedra laja» corresponde à pedra laje (tipo São Tomé) no Brasil."
+  },
+  {
+    "idBo": "piedra_para_cimiento_m3",
+    "pt": "Pedra de Mão para Fundação",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "piedra_pizarra_cortada_20_20_cm_m2",
+    "pt": "Pedra ardósia cortada 20×20 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "piedra_pizarra_cortada_30_30_cm_m2",
+    "pt": "Pedra ardósia cortada 30×30 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "piedra_pizarra_cortada_y_pulida_m2",
+    "pt": "Pedra ardósia cortada e polida",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "piedra_sillar_30_30_40_cm_pza",
+    "pt": "Pedra de cantaria 30×30×40 cm",
+    "confianza": "MEDIA",
+    "nota": "«Sillar» é bloco de pedra vulcânica aparelhada; no Brasil, cantaria."
+  },
+  {
+    "idBo": "piedra_tarija_cortada_y_pulida_m2",
+    "pt": "Pedra Tarija cortada e polida",
+    "confianza": "BAJA",
+    "nota": "Pedra natural boliviana da região de Tarija; sem equivalente comercial no Brasil, nome mantido."
+  },
+  {
+    "idBo": "piso_ceramico_eliane_33_33_cm_m2",
+    "pt": "Piso cerâmico Eliane 33×33 cm",
+    "confianza": "ALTA",
+    "nota": "Eliane é marca cerâmica brasileira; mantida."
+  },
+  {
+    "idBo": "plancha_de_tecnopor_100_50_1_0_cm_pza",
+    "pt": "Placa de EPS (isopor) 100×50×1.0 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plancha_de_tecnopor_100_50_1_5_cm_pza",
+    "pt": "Placa de EPS (isopor) 100×50×1.5 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plancha_de_tecnopor_100_50_2_0_cm_pza",
+    "pt": "Placa de EPS (isopor) 100×50×2.0 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plancha_de_tecnopor_100_50_3_0_cm_pza",
+    "pt": "Placa de EPS (isopor) 100×50×3.0 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plancha_de_tecnopor_100_50_5_0_cm_pza",
+    "pt": "Placa de EPS (isopor) 100×50×5.0 cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_planta_de_asfalto_60ton_hr",
+    "pt": "Usina de Asfalto 60Ton/Hr",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "plastiment_bv_40_plastificante_5_kg",
+    "pt": "Plastiment BV 40, plastificante",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "plastiment_bv_40_plastificante_22_kg",
+    "pt": "Plastiment BV 40, plastificante",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "plastiment_h_e_plastificante_pza",
+    "pt": "Plastiment H-E, plastificante",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "pletina_de_acero_1_4_2_6_50_mm_barra",
+    "pt": "Barra chata de aço 1/4″ × 2″ (6 × 50 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pletina_de_acero_1_8_1_1_2_3_37_mm_barra",
+    "pt": "Barra chata de aço 1/8″ × 1 1/2″ (3 × 37 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pletina_de_acero_1_8_1_3_25_mm_barra",
+    "pt": "Barra chata de aço 1/8″ × 1″ (3 × 25 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pletina_de_acero_1_8_3_4_3_20_mm_barra",
+    "pt": "Barra chata de aço 1/8″ × 3/4″ (3 × 20 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "pletina_de_acero_3_16_1_5_25_mm_barra",
+    "pt": "Barra chata de aço 3/16″ × 1″ (5 × 25 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "politubo_de_3_4_m",
+    "pt": "Mangueira de polietileno de 3/4″",
+    "confianza": "MEDIA",
+    "nota": "«Politubo» é a mangueira de polietileno para água."
+  },
+  {
+    "idBo": "randa_guarda_ceramica_nacional_pza",
+    "pt": "Faixa decorativa cerâmica nacional",
+    "confianza": "MEDIA",
+    "nota": "«Randa/guarda» é a faixa decorativa de revestimento cerâmico."
+  },
+  {
+    "idBo": "reduccion_galvanizada_de_1_1_2_a_1_pza",
+    "pt": "Bucha de redução galvanizada de 1 1/2″ para 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "reduccion_galvanizada_de_1_1_4_a_1_pza",
+    "pt": "Bucha de redução galvanizada de 1 1/4″ para 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "reduccion_galvanizada_de_1_a_1_2_pza",
+    "pt": "Bucha de redução galvanizada de 1″ para 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "reduccion_galvanizada_de_2_a_1_pza",
+    "pt": "Bucha de redução galvanizada de 2″ para 1″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "reduccion_galvanizada_de_3_4_a_1_2_pza",
+    "pt": "Bucha de redução galvanizada de 3/4″ para 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "revestimiento_ceramico_nacional_m2",
+    "pt": "Revestimento cerâmico nacional",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "ripio_bruto_m3",
+    "pt": "Cascalho bruto",
+    "confianza": "MEDIA",
+    "nota": "«Ripio bruto» é o cascalho natural não britado."
+  },
+  {
+    "idBo": "ripio_chancado_m3",
+    "pt": "Cascalho britado",
+    "confianza": "MEDIA",
+    "nota": "«Ripio chancado» é o cascalho britado."
+  },
+  {
+    "idBo": "ropero_empotrado_moldeado_m2",
+    "pt": "Guarda-roupa embutido moldado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sika_1_impermeabilizante_de_masa_l",
+    "pt": "Sika 1, impermeabilizante de massa",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "sika_1_impermeabilizante_de_masa_20_kg",
+    "pt": "Sika 1, impermeabilizante de massa",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "sika_3_acelerador_controlable_de_fraguado_5_kg",
+    "pt": "Sika 3, acelerador controlável de pega",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "sika_3_acelerador_controlable_de_fraguado_22_kg",
+    "pt": "Sika 3, acelerador controlável de pega",
+    "confianza": "ALTA",
+    "nota": "Produto Sika disponível também no Brasil."
+  },
+  {
+    "idBo": "sika_acelerante_sin_cloruros_22_kg",
+    "pt": "Sika Acelerante isento de cloretos",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sika_aer_incorporador_de_aire_20_kg",
+    "pt": "Sika AER, incorporador de ar",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sika_boom_s_espuma_de_poliuretano_500_ml",
+    "pt": "Sika Boom-S, espuma de poliuretano",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sika_ligante_adhesivo_para_morteros_5_kg",
+    "pt": "Sika Ligante, adesivo para argamassas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sika_top_107_seal_mortero_impermeabilizante_25_kg",
+    "pt": "Sika Top 107 Seal, argamassa impermeabilizante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sika_wt_100l_impermeabilizante_de_masa_20_kg",
+    "pt": "Sika WT-100L, impermeabilizante de massa",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sikadur_31_hmg_adhesivo_epoxico_de_anclaje_kg",
+    "pt": "Sikadur 31 HMG, adesivo epóxi para ancoragem",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sikalatex_adhesivo_y_aditivo_acrilico_5_kg",
+    "pt": "Sikalatex, adesivo e aditivo acrílico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sikament_n_100_superplastificante_5_kg",
+    "pt": "Sikament N-100, superplastificante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sikament_n_100_superplastificante_22_kg",
+    "pt": "Sikament N-100, superplastificante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sikaviscocrete_5_800_superplastificante_20_kg",
+    "pt": "SikaViscocrete 5-800, superplastificante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "sikaviscocrete_5000_superplastificante_20_kg",
+    "pt": "SikaViscocrete 5000, superplastificante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "silicona_incolora_o_negra_para_vidrio_pza",
+    "pt": "Silicone incolor ou preto para vidro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "silicona_neutra_para_policarbonato_pza",
+    "pt": "Silicone neutro para policarbonato",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "soldadura_exotermica_90grs_grs",
+    "pt": "Solda Exotérmica 90grs",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tablero_equipotencial_pza",
+    "pt": "Quadro de Equipotencialização",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tablero_medidor_8_espacios_pza",
+    "pt": "Quadro de Medição 8 Espaços",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tapa_de_inspeccion_pza",
+    "pt": "TAMPA de Inspeção",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tapizon_nacional_m2",
+    "pt": "Carpete agulhado nacional",
+    "confianza": "MEDIA",
+    "nota": "«Tapizón» é o carpete agulhado (tipo forração)."
+  },
+  {
+    "idBo": "tee_de_cobre_o_1_2_12_mm_pza",
+    "pt": "Tê de cobre Ø 1/2″ (12 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tee_de_cobre_o_3_4_16_mm_pza",
+    "pt": "Tê de cobre Ø 3/4″ (16 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tee_galvanizada_o_1_1_2_37_mm_pza",
+    "pt": "Tê galvanizado Ø 1 1/2″ (37 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tee_galvanizada_o_1_1_4_30_mm_pza",
+    "pt": "Tê galvanizado Ø 1 1/4″ (30 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tee_galvanizada_o_1_2_12_mm_pza",
+    "pt": "Tê galvanizado Ø 1/2″ (12 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tee_galvanizada_o_1_25_mm_pza",
+    "pt": "Tê galvanizado Ø 1″ (25 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tee_galvanizada_o_2_50_mm_pza",
+    "pt": "Tê galvanizado Ø 2″ (50 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tee_galvanizada_o_3_4_16_mm_pza",
+    "pt": "Tê galvanizado Ø 3/4″ (16 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "eq_terminadora_de_asfalto",
+    "pt": "Vibroacabadora de Asfalto",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "terminal_de_cobre_con_rosca_interna_o_1_2_pza",
+    "pt": "Conector de cobre com rosca interna Ø 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "terminal_de_cobre_con_rosca_interna_o_3_4_pza",
+    "pt": "Conector de cobre com rosca interna Ø 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tierra_tratada_terranova_bolsa",
+    "pt": "Terra Vegetal Tratada",
+    "confianza": "MEDIA",
+    "nota": "«Terranova» é marca boliviana; descrito o produto."
+  },
+  {
+    "idBo": "ttubo_conduit_pvc_1_m",
+    "pt": "Eletroduto de PVC 1\"",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_cuadrado_15_15_mm_e_1_2_mm_barra",
+    "pt": "Tubo quadrado 15×15 mm, e = 1.2 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_cuadrado_20_20_mm_e_1_2_mm_barra",
+    "pt": "Tubo quadrado 20×20 mm, e = 1.2 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_cuadrado_25_25_mm_e_1_2_mm_barra",
+    "pt": "Tubo quadrado 25×25 mm, e = 1.2 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_cuadrado_40_40_mm_e_1_2_mm_barra",
+    "pt": "Tubo quadrado 40×40 mm, e = 1.2 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_cuadrado_40x40x1_2mm_m",
+    "pt": "TUBO Quadrado 40x40x1.2mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_rectangular_100_50_mm_e_2_0_mm_barra",
+    "pt": "Tubo retangular 100×50 mm, e = 2.0 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_rectangular_50_30_mm_e_1_5_mm_barra",
+    "pt": "Tubo retangular 50×30 mm, e = 1.5 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_rectangular_50_30_mm_e_2_0_mm_barra",
+    "pt": "Tubo retangular 50×30 mm, e = 2.0 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_redondo_o_19_mm_barra",
+    "pt": "Tubo redondo Ø 19 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_redondo_o_22_mm_barra",
+    "pt": "Tubo redondo Ø 22 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_redondo_o_25_mm_barra",
+    "pt": "Tubo redondo Ø 25 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "tubo_redondo_o_50_mm_barra",
+    "pt": "Tubo redondo Ø 50 mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_universal_de_cobre_o_1_2_pza",
+    "pt": "União universal de cobre Ø 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_universal_de_cobre_o_3_4_pza",
+    "pt": "União universal de cobre Ø 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_universal_galvanizada_o_1_2_12_mm_pza",
+    "pt": "União universal galvanizada Ø 1/2″ (12 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_universal_galvanizada_o_1_25_mm_pza",
+    "pt": "União universal galvanizada Ø 1″ (25 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_universal_galvanizada_o_2_pza",
+    "pt": "União universal galvanizada Ø 2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "union_universal_galvanizada_o_3_4_16_mm_pza",
+    "pt": "União universal galvanizada Ø 3/4″ (16 mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "valvula_de_retencion_bronce_3_4_pza",
+    "pt": "Válvula de Retenção de Bronze 3/4\"",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "vibradora_de_2_hp_hr",
+    "pt": "Vibrador de Imersão de 2 HP",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "idBo": "yute_m2",
+    "pt": "JUTA",
+    "confianza": "ALTA",
+    "nota": ""
+  }
+]

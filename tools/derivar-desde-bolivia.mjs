@@ -195,6 +195,22 @@ const CONFIG = {
       mo_operador_de_compactadora: "co_mo_operador", mo_operador_de_mezcladora: "co_mo_operador", mo_operador_de_volqueta: "co_mo_operador",
     },
   },
+  BR: {
+    version: "v20260902-sinapi",
+    fuente: "Base boliviana (catálogo ArqOn), traducida al portugués, + precios del SINAPI (Caixa/IBGE), praça São Paulo, regime DESONERADO. La mano de obra del SINAPI es hora bruta CON encargos complementares pero SEM encargos sociais: los 85 % de la caja brasileña (cargasSocialesDefecto) SÍ se aplican encima. El recargo brasileño es el BDI, uno solo y multiplicativo (Acórdão 2622/2013 del TCU), y los tributos van adentro: por eso la cadena no lleva IVA y los insumos van como se compran.",
+    // Brasil es el PRIMER país sin base previa: no hay relevados_BR.json, las ciudades se declaran
+    // acá y TODO el precio entra por referencias (SINAPI) o por relación con Bolivia.
+    ciudades: [
+      "São Paulo", "Rio de Janeiro", "Belo Horizonte", "Brasília", "Curitiba",
+      "Porto Alegre", "Salvador", "Recife", "Fortaleza", "Manaus",
+    ],
+    // Y el primero que no habla español: los nombres salen de precios/fuentes/nombres_BR.json
+    // (insumos) y catalogo/fuentes/nombres_items_BR.json (ítems). Sin ellos NO se publica: un
+    // catálogo brasileño en español no es una base, es un borrador.
+    traducir: true,
+    equivalentes: {},
+    familias: {},
+  },
 };
 const cfg = CONFIG[PAIS];
 if (!cfg) { console.error(`no hay tabla para ${PAIS}: agregala en CONFIG`); process.exit(2); }
@@ -217,9 +233,25 @@ const ofiBO = leer("precios/v1.0/oficiales.json");
 // después de derivar sólo sobreviven los ids declarados como equivalentes.
 const relevadosPath = `precios/fuentes/relevados_${PAIS}.json`;
 const ofiPaisViejo = existsSync(join(BASE, relevadosPath)) ? leer(relevadosPath)
-  : existsSync(join(BASE, `precios/v1.0/oficiales_${PAIS}.json`)) ? leer(`precios/v1.0/oficiales_${PAIS}.json`) : null;
-if (!ofiPaisViejo?.ciudades?.length) { console.error(`falta ${relevadosPath} (o oficiales_${PAIS}.json) con las ciudades y los precios relevados`); process.exit(2); }
-if (!existsSync(join(BASE, relevadosPath))) console.warn(`  aviso: no existe ${relevadosPath}; guardá ahí la lista relevada antes de regenerar`);
+  : existsSync(join(BASE, `precios/v1.0/oficiales_${PAIS}.json`)) ? leer(`precios/v1.0/oficiales_${PAIS}.json`)
+  // Un país SIN base previa (Brasil, 2-sep-2026) declara sus ciudades en CONFIG y arranca vacío:
+  // todo el precio entra por referencias o por relación con Bolivia.
+  : cfg.ciudades?.length ? { ciudades: cfg.ciudades.map((nombre) => ({ nombre, precios: [] })) } : null;
+if (!ofiPaisViejo?.ciudades?.length) { console.error(`falta ${relevadosPath} (o oficiales_${PAIS}.json, o CONFIG.${PAIS}.ciudades) con las ciudades del país`); process.exit(2); }
+if (!existsSync(join(BASE, relevadosPath)) && !cfg.ciudades) console.warn(`  aviso: no existe ${relevadosPath}; guardá ahí la lista relevada antes de regenerar`);
+
+// ── NOMBRES DEL PAÍS: la base puede hablar otro idioma (Brasil) ──────────────────────────────
+const nombrePais = new Map();      // idBo → nombre del insumo en el idioma del país
+const nombreItem = new Map();      // código boliviano → nombre del ítem
+if (cfg.traducir) {
+  const fIns = `precios/fuentes/nombres_${PAIS}.json`, fIt = `catalogo/fuentes/nombres_items_${PAIS}.json`;
+  if (!existsSync(join(BASE, fIns)) || !existsSync(join(BASE, fIt))) {
+    console.error(`${PAIS} publica en otro idioma: faltan ${fIns} y/o ${fIt} (array de {idBo|codigo, pt}).`);
+    process.exit(2);
+  }
+  for (const t of leer(fIns)) if (t.idBo && (t.pt ?? "").trim()) nombrePais.set(t.idBo, t.pt.trim());
+  for (const t of leer(fIt)) if (t.codigo && (t.pt ?? "").trim()) nombreItem.set(t.codigo, t.pt.trim());
+}
 
 // El insumo maestro: la primera ciudad boliviana trae los 751 con nombre/unidad/tipo/categoría.
 const maestro = ofiBO.ciudades[0].precios;
@@ -258,8 +290,11 @@ if (existsSync(join(BASE, refPath))) {
 // ciudad de REFERENCIA (la primera que tenga precios relevados), y cada precio copiado lo dice
 // en su nota. Es lo que ya hacía Paraguay con los materiales fuera de la lista de ANDE.
 const servida = (c) => c.precios.some(relevado);
-const ciudadRef = ofiPaisViejo.ciudades.find(servida);
-if (!ciudadRef) { console.error("ninguna ciudad tiene un solo precio relevado: no hay de dónde copiar"); process.exit(2); }
+// Sin relevados (país nuevo), la de referencia es la PRIMERA de la lista: allí entran las
+// referencias y de allí copian las demás. La lista tiene que empezar por la plaza relevada.
+const ciudadRef = ofiPaisViejo.ciudades.find(servida) ?? ofiPaisViejo.ciudades[0];
+if (!ciudadRef) { console.error("el país no declara ninguna ciudad"); process.exit(2); }
+if (!servida(ciudadRef) && !referencias.size) { console.error(`${PAIS} no tiene ni un precio relevado ni una referencia: no hay de dónde partir`); process.exit(2); }
 
 // ── La RELACIÓN con Bolivia, medida: precio_XX / precio_BO en los insumos con precio en los dos
 // lados (relevados + referencias), misma unidad, mediana por tipo. Un tipo sin pares (equipo,
@@ -293,7 +328,11 @@ const ciudades = ofiPaisViejo.ciudades.map((c) => ({
     const rel = propio ?? precioEn(ciudadRef, m.idCanonico);
     const viejo = (propio ? c : ciudadRef).precios.find((x) => x.idCanonico === cfg.equivalentes[m.idCanonico]);
     const base = {
-      idCanonico: idPais(m.idCanonico), nombre: viejo?.nombre ?? m.nombre, categoria: m.categoria,
+      idCanonico: idPais(m.idCanonico),
+      // El nombre del PAÍS manda: primero el relevado (lo escribió su fuente), después la
+      // traducción si la base habla otro idioma, y al final el boliviano.
+      nombre: viejo?.nombre ?? nombrePais.get(m.idCanonico) ?? m.nombre,
+      categoria: m.categoria,
       unidad: viejo?.unidad ?? m.unidad, tipoInsumo: m.tipoInsumo, codigo: codigoPais(m.idCanonico, m.codigo),
     };
     if (rel) {
@@ -327,9 +366,10 @@ const conPrecio = new Set();
 for (const m of maestro) {
   if (servidas.every((c) => (c.precios.find((p) => p.idCanonico === idPais(m.idCanonico))?.precio ?? 0) > 0)) conPrecio.add(m.idCanonico);
 }
-const primeraServida = ofiPaisViejo.ciudades.find(servida);
+const primeraServida = ofiPaisViejo.ciudades.find(servida) ?? { precios: [] };
 const items = [];
 const bloqueo = new Map();
+const sinTraducir = [];
 for (const it of itemsBO.items) {
   const conPrecioReq = it.insumos.filter((s) => s.tipoCalculo !== "PORCENTAJE");
   const faltan = [...new Set(conPrecioReq.filter((s) => !conPrecio.has(s.idCanonico)).map((s) => s.idCanonico))];
@@ -337,15 +377,30 @@ for (const it of itemsBO.items) {
   if (faltan.length) continue;
   const insumos = it.insumos.map((s) => {
     const viejo = primeraServida.precios.find((x) => x.idCanonico === cfg.equivalentes[s.idCanonico]);
-    return { ...s, idCanonico: idPais(s.idCanonico), codigo: codigoPais(s.idCanonico, s.codigo), nombre: viejo?.nombre ?? s.nombre, unidad: viejo?.unidad ?? s.unidad, precio: 0 };
+    return {
+      ...s, idCanonico: idPais(s.idCanonico), codigo: codigoPais(s.idCanonico, s.codigo),
+      nombre: viejo?.nombre ?? nombrePais.get(s.idCanonico) ?? s.nombre,
+      unidad: viejo?.unidad ?? s.unidad, precio: 0,
+    };
   });
   // Líneas que el país agrega a cada APU (Chile: leyes sociales como % de la M.O.).
   for (const extra of cfg.lineasExtra?.(it) ?? []) insumos.push(extra);
-  items.push({ ...it, codigo: `${it.codigo}${PAIS}`, insumos });
+  const nombre = cfg.traducir ? nombreItem.get(it.codigo) : null;
+  if (cfg.traducir && !nombre) sinTraducir.push(it.codigo);
+  items.push({ ...it, codigo: `${it.codigo}${PAIS}`, nombre: nombre ?? it.nombre, insumos });
 }
 
 // ── Chequeos: lo que las guardas del PC van a exigir, comprobado ACÁ antes de escribir ─────
 const err = [];
+// Un país que publica en otro idioma no puede salir a medias: cada ítem y cada insumo con precio
+// tienen que estar traducidos, o el usuario ve una base mitad portugués mitad español.
+if (cfg.traducir) {
+  if (sinTraducir.length) err.push(`${sinTraducir.length} ítems sin traducir (${sinTraducir.slice(0, 5).join(", ")})`);
+  const insumosSinTraducir = ciudades[0].precios
+    .filter((p) => p.precio > 0 && !nombrePais.has(maestro[ciudades[0].precios.indexOf(p)]?.idCanonico))
+    .map((p) => p.idCanonico);
+  if (insumosSinTraducir.length) err.push(`${insumosSinTraducir.length} insumos con precio sin traducir (${insumosSinTraducir.slice(0, 5).join(", ")})`);
+}
 const setBase = new Set(ciudades[0].precios.map((p) => p.idCanonico));
 for (const c of ciudades) {
   const ids = c.precios.map((p) => p.idCanonico);

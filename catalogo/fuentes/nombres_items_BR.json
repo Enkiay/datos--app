@@ -1,0 +1,2252 @@
+[
+  {
+    "codigo": "AC009",
+    "pt": "Forro de Gesso",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CA001",
+    "pt": "Porta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CA002",
+    "pt": "Janela",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CA003",
+    "pt": "Guarda-corpo Metálico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE001",
+    "pt": "Ponto de Luz",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE002",
+    "pt": "Ponto de Tomada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS001",
+    "pt": "Ponto de Água Fria",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS002",
+    "pt": "Ponto de Esgoto",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UA001",
+    "pt": "Reboco de Cimento",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UA002",
+    "pt": "Reboco de Gesso Liso",
+    "confianza": "MEDIA",
+    "nota": "«Enlucido de yeso» = acabamento liso de gesso sobre parede; no Brasil «gesso liso»/«reboco de gesso»."
+  },
+  {
+    "codigo": "UA003",
+    "pt": "Revestimento Cerâmico Nacional",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UA004",
+    "pt": "Pintura Látex Interna",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UA005",
+    "pt": "Pintura Látex Externa",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UA006",
+    "pt": "Piso de Cimento Queimado",
+    "confianza": "ALTA",
+    "nota": "«Cemento alisado» = «cimento queimado» (acabamento alisado) no jargão brasileiro."
+  },
+  {
+    "codigo": "UA007",
+    "pt": "Impermeabilização",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UC001",
+    "pt": "Cobertura com Telha de Aço Galvanizado N°28",
+    "confianza": "ALTA",
+    "nota": "«Calamina» = telha ondulada de aço galvanizado/zincado."
+  },
+  {
+    "codigo": "UH001",
+    "pt": "Locação da Obra",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UH002",
+    "pt": "Escavação de Valas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UH003",
+    "pt": "Camada de Concreto Magro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UH004",
+    "pt": "Fundação Corrida (Alicerce)",
+    "confianza": "MEDIA",
+    "nota": "«Cimiento corrido» = alicerce/fundação corrida; no SINAPI aparece como alvenaria de embasamento ou sapata corrida."
+  },
+  {
+    "codigo": "UH008",
+    "pt": "Cinta de Amarração Superior",
+    "confianza": "ALTA",
+    "nota": "«Viga de amarre» = cinta de amarração."
+  },
+  {
+    "codigo": "UH009",
+    "pt": "Alvenaria de Tijolo Cerâmico 6 Furos",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UH012",
+    "pt": "Contrapiso sobre Lastro de Pedra",
+    "confianza": "ALTA",
+    "nota": "«Empedrado» = lastro de pedra."
+  },
+  {
+    "codigo": "UH022",
+    "pt": "Estaca de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UH025",
+    "pt": "Laje Maciça de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UH026",
+    "pt": "Parede de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT001",
+    "pt": "Instalação do Canteiro de Obras",
+    "confianza": "ALTA",
+    "nota": "«Instalación de faenas» = canteiro de obras."
+  },
+  {
+    "codigo": "OT002",
+    "pt": "Locação e Marcação da Obra",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT003",
+    "pt": "Escavação Manual",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT004",
+    "pt": "Reaterro e Compactação",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT005",
+    "pt": "Limpeza do Terreno",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG028",
+    "pt": "Calçada de Concreto Simples",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC008",
+    "pt": "Rodapé Cerâmico",
+    "confianza": "ALTA",
+    "nota": "«Contrazócalo» = rodapé."
+  },
+  {
+    "codigo": "IE003",
+    "pt": "Quadro de Distribuição",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS003",
+    "pt": "Caixa de Inspeção",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT046",
+    "pt": "Demolição de Pilares, Vigas e Lajes de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT047",
+    "pt": "Demolição de Piso e Contrapiso",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT048",
+    "pt": "Demolição de Concreto Ciclópico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT049",
+    "pt": "Demolição de Concreto Simples",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT050",
+    "pt": "Demolição de Alvenaria de Pedra",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "MP001",
+    "pt": "Demolição de Alvenaria de Tijolo",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU001",
+    "pt": "Retirada de Cobertura de Telha de Aço Galvanizado",
+    "confianza": "ALTA",
+    "nota": "«Desate» = retirada/desmonte."
+  },
+  {
+    "codigo": "OT006",
+    "pt": "Desmonte de Gabiões",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR001",
+    "pt": "Retirada de Porta - Janela",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT007",
+    "pt": "Remoção de Calçamento de Pedra",
+    "confianza": "MEDIA",
+    "nota": "«Desempiedre» = retirada do empedrado existente."
+  },
+  {
+    "codigo": "OT008",
+    "pt": "Escoramento e Travamento",
+    "confianza": "MEDIA",
+    "nota": "«Entibado» = escoramento de vala; «apuntalado» = travamento/escoramento."
+  },
+  {
+    "codigo": "OT009",
+    "pt": "Placa de Obra 3x2 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT010",
+    "pt": "Limpeza e Capina do Terreno",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT011",
+    "pt": "Retirada de Reboco Interno",
+    "confianza": "ALTA",
+    "nota": "«Picado de revoque» = remoção do reboco existente."
+  },
+  {
+    "codigo": "OT014",
+    "pt": "Retirada de Forro (Gesso sob Laje)",
+    "confianza": "MEDIA",
+    "nota": "«Estuco bajo losa» = revestimento de gesso aplicado sob a laje."
+  },
+  {
+    "codigo": "OT015",
+    "pt": "Transporte de Material Excedente",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT016",
+    "pt": "Escavação 0-1.5 M em Terreno Mole",
+    "confianza": "MEDIA",
+    "nota": "Classificação boliviana de solo; no Brasil equivale a material de 1ª categoria."
+  },
+  {
+    "codigo": "OT017",
+    "pt": "Escavação 0-1.5 M em Terreno Semiduro",
+    "confianza": "MEDIA",
+    "nota": "Classificação boliviana de solo."
+  },
+  {
+    "codigo": "OT018",
+    "pt": "Escavação 0-1.5 M em Terreno Duro",
+    "confianza": "MEDIA",
+    "nota": "Classificação boliviana de solo."
+  },
+  {
+    "codigo": "OT019",
+    "pt": "Escavação com Esgotamento",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT020",
+    "pt": "Escavação com Retroescavadeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT021",
+    "pt": "Escavação em Rocha",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT022",
+    "pt": "Movimentação de Terra com Trator de Esteiras",
+    "confianza": "ALTA",
+    "nota": "«Topadora» = trator de esteiras (bulldozer)."
+  },
+  {
+    "codigo": "OT023",
+    "pt": "Reaterro e Apiloamento Manual de Terra",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT025",
+    "pt": "Reaterro e Compactação Mecanizada com Material Comum",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT026",
+    "pt": "Reaterro e Compactação com Solo Selecionado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT027",
+    "pt": "Retirada e Transporte de Entulho com Carga",
+    "confianza": "ALTA",
+    "nota": "«Escombros» = entulho; «carguío» = carga."
+  },
+  {
+    "codigo": "OG001",
+    "pt": "Camada de Concreto Magro",
+    "confianza": "MEDIA",
+    "nota": "«Carpeta H°P°» lida como camada de hormigón pobre = concreto magro."
+  },
+  {
+    "codigo": "OG003",
+    "pt": "Laje de Fundação (Radier) de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG004",
+    "pt": "Radier com Concreto Usinado H-21",
+    "confianza": "ALTA",
+    "nota": "«Hormigón premezclado» = concreto usinado; classe H-21 mantida."
+  },
+  {
+    "codigo": "OG005",
+    "pt": "Alvenaria de Pedra Bruta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG006",
+    "pt": "Muro de Arrimo de Concreto Ciclópico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG007",
+    "pt": "Muro de Concreto Armado E=25 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG012",
+    "pt": "Ábaco em Lajes com Concreto Usinado H-21",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG013",
+    "pt": "Aço para Armadura",
+    "confianza": "ALTA",
+    "nota": "«Acero de refuerzo» = aço para armadura (vergalhão)."
+  },
+  {
+    "codigo": "OG015",
+    "pt": "Pilar de Concreto Usinado H-21",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG016",
+    "pt": "Pilar de Concreto Usinado H-21 com Bomba",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG017",
+    "pt": "Pilar de Concreto Usinado H-25",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG018",
+    "pt": "Escada de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UH021",
+    "pt": "Escada de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG019",
+    "pt": "Juntas de Dilatação",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG021",
+    "pt": "Laje Pré-moldada com Vigota Protendida",
+    "confianza": "ALTA",
+    "nota": "«Losa alivianada» = laje pré-moldada/treliçada."
+  },
+  {
+    "codigo": "OG022",
+    "pt": "Laje H=20 com Vigota, Concreto Usinado H-25",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG023",
+    "pt": "Laje H=20 com Vigota, Concreto Usinado H-21",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG024",
+    "pt": "Laje H=20 com Vigota, Concreto Usinado H-21 com Bomba Adicional",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG025",
+    "pt": "Cinta de Amarração de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": "«Viga de encadenado» = cinta de amarração."
+  },
+  {
+    "codigo": "OG027",
+    "pt": "Pilar de Tijolo Maciço 25x25 Cm",
+    "confianza": "ALTA",
+    "nota": "«Ladrillo gambote» = tijolo maciço."
+  },
+  {
+    "codigo": "OG083",
+    "pt": "Verga de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": "«Dintel» = verga."
+  },
+  {
+    "codigo": "OG029",
+    "pt": "Verga de Madeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "MP002",
+    "pt": "Alvenaria de Bloco de Concreto 3 Furos E=15 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "MP003",
+    "pt": "Alvenaria de Bloco de Vidro 20x20 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "MP006",
+    "pt": "Alvenaria de Tijolo 12 Cm 6 Furos com Argamassa Polimérica",
+    "confianza": "MEDIA",
+    "nota": "«Pega Ladrillo Fácil» é marca boliviana de argamassa polimérica/colante para alvenaria."
+  },
+  {
+    "codigo": "MP007",
+    "pt": "Alvenaria de Tijolo 16 Cm 6 Furos",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "MP008",
+    "pt": "Alvenaria de Tijolo 9.8 Cm 6 Furos com Argamassa Colante Valkure (Hz)",
+    "confianza": "MEDIA",
+    "nota": "Valkure é marca; mantida por ser referência de preço."
+  },
+  {
+    "codigo": "MP009",
+    "pt": "Alvenaria de Tijolo Maciço Tipo Adobito 15 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Adobito» é tijolo maciço pequeno boliviano; sem equivalente exato no Brasil."
+  },
+  {
+    "codigo": "CU002",
+    "pt": "Cobertura com Telha de Aço Galvanizado N° 28",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU003",
+    "pt": "Cobertura com Telha de Aço Galvanizado N° 33",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU004",
+    "pt": "Cobertura com Telha Ondulada de Policarbonato",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU005",
+    "pt": "Cobertura com Telha Plástica de PVC",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU008",
+    "pt": "Cobertura em Steel Frame com Telha Ondulada de Aço Galvanizado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU009",
+    "pt": "Cobertura com Placa Ondulada de Fibrocimento",
+    "confianza": "MEDIA",
+    "nota": "«Placa ondulada» sem material declarado; assumido fibrocimento, o uso corrente."
+  },
+  {
+    "codigo": "CU010",
+    "pt": "Cobertura em Steel Frame com Telha Colonial",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU011",
+    "pt": "Cobertura com Telha Cerâmica Colonial",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU012",
+    "pt": "Cobertura com Telha Cerâmica Espanhola",
+    "confianza": "MEDIA",
+    "nota": "«Teja española»: no Brasil o perfil mais próximo é a telha portuguesa/romana; mantido «espanhola» para não trocar o produto."
+  },
+  {
+    "codigo": "CU013",
+    "pt": "Cobertura com Telha Espanhola de Fibrocimento",
+    "confianza": "MEDIA",
+    "nota": "Duralit é marca boliviana de fibrocimento; descrito o produto."
+  },
+  {
+    "codigo": "CU014",
+    "pt": "Cobertura Termoacústica (Telha Sanduíche) - Densidade 13",
+    "confianza": "MEDIA",
+    "nota": "Isolcruz é marca boliviana de isolamento; descrito o produto."
+  },
+  {
+    "codigo": "CU015",
+    "pt": "Cobertura Termoacústica (Telha Sanduíche) E=30 Mm Densidade 40",
+    "confianza": "MEDIA",
+    "nota": "Isolcruz é marca boliviana de isolamento; descrito o produto."
+  },
+  {
+    "codigo": "CU016",
+    "pt": "Cobertura Termoacústica (Telha Sanduíche) E=50 Mm - Densidade 40",
+    "confianza": "MEDIA",
+    "nota": "Isolcruz é marca boliviana de isolamento; descrito o produto."
+  },
+  {
+    "codigo": "CU017",
+    "pt": "Cumeeira de Chapa Lisa de Aço Galvanizado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU018",
+    "pt": "Cumeeira de Telha Colonial",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG030",
+    "pt": "Impermeabilização de Baldrame H=30 Cm",
+    "confianza": "ALTA",
+    "nota": "«Sobrecimiento» = baldrame."
+  },
+  {
+    "codigo": "OG031",
+    "pt": "Impermeabilização de Baldrame H=30 Cm com Manta Asfáltica (Asfaltex)",
+    "confianza": "MEDIA",
+    "nota": "Asfaltex é marca; mantida entre parênteses."
+  },
+  {
+    "codigo": "OG032",
+    "pt": "Aplicação de Isolamento Acústico Projetado E=45-60 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Phono Spray Isolcruz» é marca; descrito o produto (isolamento acústico projetado)."
+  },
+  {
+    "codigo": "OG033",
+    "pt": "Aplicação de Isolamento Térmico Projetado E=20-25 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Termo Spray Isolcruz» é marca; descrito o produto."
+  },
+  {
+    "codigo": "OG034",
+    "pt": "Aplicação de Isolamento Térmico Projetado E=10-15 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Termo Spray Isolcruz» é marca; descrito o produto."
+  },
+  {
+    "codigo": "OG035",
+    "pt": "Aplicação de Isolamento Térmico Projetado E=15-20 Mm",
+    "confianza": "MEDIA",
+    "nota": "«Termo Spray Isolcruz» é marca; descrito o produto."
+  },
+  {
+    "codigo": "AC001",
+    "pt": "Forro de Madeira Macho-e-Fêmea (Palo María)",
+    "confianza": "MEDIA",
+    "nota": "«Machihembre» = encaixe macho-fêmea; «Palo María» é espécie boliviana, mantida."
+  },
+  {
+    "codigo": "CU019",
+    "pt": "Reboco de Forro Falso",
+    "confianza": "MEDIA",
+    "nota": "«Revoque cielo falso» = reboco aplicado em forro falso."
+  },
+  {
+    "codigo": "AC002",
+    "pt": "Reboco de Teto sobre Laje",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC003",
+    "pt": "Beiral",
+    "confianza": "ALTA",
+    "nota": "«Alero» = beiral."
+  },
+  {
+    "codigo": "AC004",
+    "pt": "Pingadeira de Concreto Armado 30x10 Cm",
+    "confianza": "ALTA",
+    "nota": "«Botaguas» = pingadeira."
+  },
+  {
+    "codigo": "AC005",
+    "pt": "Pingadeira de Tijolo Maciço",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC006",
+    "pt": "Friso ou Pingadeira de Argamassa",
+    "confianza": "MEDIA",
+    "nota": "«Buña» = friso/sulco; «goterón» = pingadeira."
+  },
+  {
+    "codigo": "AC007",
+    "pt": "Rejuntamento com Cimento Branco",
+    "confianza": "ALTA",
+    "nota": "«Emboquillado» = rejuntamento."
+  },
+  {
+    "codigo": "AC068",
+    "pt": "Revestimento Cerâmico Externo",
+    "confianza": "ALTA",
+    "nota": "«Enchape» = revestimento."
+  },
+  {
+    "codigo": "AC069",
+    "pt": "Batente de Madeira 2″x4″ (Palo María)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC010",
+    "pt": "Revestimento Texturizado Externo",
+    "confianza": "MEDIA",
+    "nota": "«Piruleado» é acabamento rugoso projetado; equivalente brasileiro é revestimento texturizado/chapiscado."
+  },
+  {
+    "codigo": "AC011",
+    "pt": "Revestimento com Azulejo Colorido Nacional 22x34 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC012",
+    "pt": "Revestimento com Azulejo Importado 20x30 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC013",
+    "pt": "Revestimento em Pedra Ardósia Cortada",
+    "confianza": "ALTA",
+    "nota": "«Pizarra» = ardósia."
+  },
+  {
+    "codigo": "AC014",
+    "pt": "Revestimento de Madeira Macho-e-Fêmea de Cedro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC015",
+    "pt": "Reboco Externo com Massa Fina Pronta",
+    "confianza": "MEDIA",
+    "nota": "«Revoque Fino Fácil» é produto pronto boliviano; descrito como massa fina pronta."
+  },
+  {
+    "codigo": "AC016",
+    "pt": "Reboco Externo de Cal e Cimento",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC017",
+    "pt": "Reboco Interno de Gesso",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC018",
+    "pt": "Reboco Interno Impermeável",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU020",
+    "pt": "Forro de Gesso Acartonado (Drywall) 10 Mm",
+    "confianza": "ALTA",
+    "nota": "«Durlok» é marca; substituída pelo termo genérico gesso acartonado."
+  },
+  {
+    "codigo": "MP012",
+    "pt": "Parede de Drywall 1 Face 12 Cm, Placa 1.2x2.4 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "MP013",
+    "pt": "Parede de Drywall 2 Faces 12 Cm, Placa 1.2x2.4 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "MP014",
+    "pt": "Parede de Drywall 1 Face 92 Mm, Placa 0.90x2.40 M",
+    "confianza": "ALTA",
+    "nota": "Durlock é marca; mantido o padrão de placa."
+  },
+  {
+    "codigo": "MP015",
+    "pt": "Parede de Drywall 2 Faces 92 Mm, Placa 0.90x2.40 M",
+    "confianza": "ALTA",
+    "nota": "Durlock é marca; mantido o padrão de placa."
+  },
+  {
+    "codigo": "MP016",
+    "pt": "Parede Interna Termoacústica em Painel de EPS com Malha de Aço E=60 Mm (sem Reboco)",
+    "confianza": "MEDIA",
+    "nota": "«Construpanel» é marca boliviana de painel de EPS com malha eletrossoldada; descrito o produto."
+  },
+  {
+    "codigo": "MP017",
+    "pt": "Parede Interna Termoacústica em Painel de EPS com Malha de Aço E=75 Mm (sem Reboco)",
+    "confianza": "MEDIA",
+    "nota": "«Construpanel» é marca boliviana de painel de EPS com malha eletrossoldada; descrito o produto."
+  },
+  {
+    "codigo": "MP018",
+    "pt": "Parede Externa Autoportante Termoacústica em Painel de EPS com Malha de Aço E=100 Mm (sem Reboco)",
+    "confianza": "MEDIA",
+    "nota": "«Construpanel» é marca boliviana de painel de EPS com malha eletrossoldada; descrito o produto."
+  },
+  {
+    "codigo": "MP019",
+    "pt": "Parede Externa Autoportante Termoacústica em Painel de EPS com Malha de Aço E=120 Mm (sem Reboco)",
+    "confianza": "MEDIA",
+    "nota": "«Construpanel» é marca boliviana de painel de EPS com malha eletrossoldada; descrito o produto."
+  },
+  {
+    "codigo": "MP020",
+    "pt": "Parede com Placa Cimentícia 1 Face Externa",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "MP021",
+    "pt": "Parede com Placa Cimentícia 2 Faces, Interna e Externa",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC019",
+    "pt": "Contrapiso de Cimento sobre Laje",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC020",
+    "pt": "Contrapiso de Tijolo Maciço (Adobito)",
+    "confianza": "MEDIA",
+    "nota": "«Adobito» é tijolo maciço pequeno boliviano."
+  },
+  {
+    "codigo": "AC021",
+    "pt": "Lastro de Pedra e Contrapiso de Concreto",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC022",
+    "pt": "Piso Cerâmico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC023",
+    "pt": "Piso de Ladrilho Granilite 40x40x0.50 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Baldosa granítica» = ladrilho de granilite."
+  },
+  {
+    "codigo": "AC024",
+    "pt": "Piso Cerâmico Importado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC027",
+    "pt": "Piso de Mármore Travertino Nacional",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC028",
+    "pt": "Piso de Ladrilho Hidráulico Marmorizado",
+    "confianza": "MEDIA",
+    "nota": "«Mosaico marmolado» = ladrilho hidráulico com acabamento marmorizado."
+  },
+  {
+    "codigo": "AC029",
+    "pt": "Piso de Porcelanato",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC030",
+    "pt": "Piso de Porcelanato com Argamassa Colante",
+    "confianza": "ALTA",
+    "nota": "«Cemento cola» = argamassa colante."
+  },
+  {
+    "codigo": "AC031",
+    "pt": "Piso Vinílico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC032",
+    "pt": "Piso Cimentado com Acabamento Liso (Massa Fina)",
+    "confianza": "MEDIA",
+    "nota": "«Piso enlucido fino» = cimentado com acabamento liso."
+  },
+  {
+    "codigo": "AC033",
+    "pt": "Piso de Tábua Corrida E=1.9 Cm",
+    "confianza": "ALTA",
+    "nota": "«Entablonado» = tábua corrida."
+  },
+  {
+    "codigo": "AC034",
+    "pt": "Piso Laminado Flutuante",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC035",
+    "pt": "Piso de Madeira Macho-e-Fêmea de Cedro com Vigamento",
+    "confianza": "ALTA",
+    "nota": "«Envigado» = vigamento/barroteamento de apoio."
+  },
+  {
+    "codigo": "AC036",
+    "pt": "Piso de Parquete de Ipê (Tajibo)",
+    "confianza": "MEDIA",
+    "nota": "«Tajibo» é o nome boliviano do ipê."
+  },
+  {
+    "codigo": "AC037",
+    "pt": "Piso de Pedra de Tarija",
+    "confianza": "MEDIA",
+    "nota": "Pedra regional boliviana (Tarija); sem equivalente brasileiro, mantido o nome."
+  },
+  {
+    "codigo": "AC038",
+    "pt": "Grelha de Piso em Bronze 20x20 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC039",
+    "pt": "Ralo Sifonado Pluvial 6″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC040",
+    "pt": "Rodapé de Cimento",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC041",
+    "pt": "Rodapé Cerâmico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC042",
+    "pt": "Rodapé de Madeira Cedro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC043",
+    "pt": "Rodapé de Granilite",
+    "confianza": "MEDIA",
+    "nota": "«Mosaico granítico» = granilite."
+  },
+  {
+    "codigo": "AC044",
+    "pt": "Rodapé de Argamassa Desempenada",
+    "confianza": "MEDIA",
+    "nota": "«Zócalo enlucido» = rodapé em argamassa com acabamento liso."
+  },
+  {
+    "codigo": "CU021",
+    "pt": "Condutor de Chapa Lisa de Aço Galvanizado N° 28",
+    "confianza": "ALTA",
+    "nota": "«Bajante» = condutor (tubo de queda)."
+  },
+  {
+    "codigo": "AC045",
+    "pt": "Condutor de Esgoto em PVC 4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU022",
+    "pt": "Calha de Chapa de Aço Galvanizado N° 28, Corte 50 Cm",
+    "confianza": "ALTA",
+    "nota": "«Canaleta» = calha."
+  },
+  {
+    "codigo": "IS086",
+    "pt": "Bidê",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS087",
+    "pt": "Chuveiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS088",
+    "pt": "Vaso Sanitário (Louça)",
+    "confianza": "ALTA",
+    "nota": "«Artefacto» sanitário = louça."
+  },
+  {
+    "codigo": "IS004",
+    "pt": "Tanque de Lavar em Ferro Esmaltado",
+    "confianza": "MEDIA",
+    "nota": "«Lavadero de fierro enlosado» = tanque/pia de ferro esmaltado."
+  },
+  {
+    "codigo": "IS005",
+    "pt": "Lavatório (Louça)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS006",
+    "pt": "Pia de Cozinha 1 Cuba 1 Escorredor",
+    "confianza": "ALTA",
+    "nota": "«Depósito» = cuba; «fregadero» aqui = escorredor."
+  },
+  {
+    "codigo": "IS007",
+    "pt": "Pia de Cozinha 2 Cubas 1 Escorredor",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS008",
+    "pt": "Pia de Cozinha 2 Cubas 2 Escorredores",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS009",
+    "pt": "Tanque de Lavar Roupa em Concreto 1 Cuba",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS010",
+    "pt": "Tanque de Lavar Roupa em Concreto 2 Cubas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS011",
+    "pt": "Fornecimento e Instalação de Acessórios de Banheiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS012",
+    "pt": "Banheira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS013",
+    "pt": "Mictório (Louça)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS014",
+    "pt": "Ramal de Entrada de Água Potável",
+    "confianza": "ALTA",
+    "nota": "«Acometida» = ramal de entrada."
+  },
+  {
+    "codigo": "IS015",
+    "pt": "Fornecimento e Instalação de Registro 1/2″",
+    "confianza": "ALTA",
+    "nota": "«Llave de paso» = registro."
+  },
+  {
+    "codigo": "IS016",
+    "pt": "Fornecimento e Instalação de Registro 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS017",
+    "pt": "Fornecimento e Instalação de Registro 1″ de Controle de Entrada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS018",
+    "pt": "Fornecimento e Instalação de Tubulação de Ferro Galvanizado 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS019",
+    "pt": "Fornecimento e Instalação de Tubulação de Ferro Galvanizado 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS020",
+    "pt": "Fornecimento e Instalação de Tubulação de Ferro Galvanizado 2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS021",
+    "pt": "Fornecimento e Instalação de Tubulação Hidráulica de PVC Soldável 1/2″",
+    "confianza": "MEDIA",
+    "nota": "«Tubería Hidro» é linha comercial boliviana de PVC de pressão; descrita como PVC soldável."
+  },
+  {
+    "codigo": "IS022",
+    "pt": "Fornecimento e Instalação de Tubulação Hidráulica de PVC Soldável 3/4″",
+    "confianza": "MEDIA",
+    "nota": "«Tubería Hidro» é linha comercial boliviana de PVC de pressão; descrita como PVC soldável."
+  },
+  {
+    "codigo": "IS023",
+    "pt": "Fornecimento e Instalação de Tubulação de PVC Roscável 1/2″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS024",
+    "pt": "Fornecimento e Instalação de Tubulação de PVC Roscável 3/4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS025",
+    "pt": "Fornecimento e Instalação de Tubulação de PVC Roscável E-40 1″",
+    "confianza": "ALTA",
+    "nota": "Classe E-40 mantida tal como no original."
+  },
+  {
+    "codigo": "IS026",
+    "pt": "Caixa de Inspeção de Concreto 40x40 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS027",
+    "pt": "Caixa Sifonada de Concreto",
+    "confianza": "MEDIA",
+    "nota": "«Cámara interceptora» = caixa sifonada (retém sólidos antes da rede)."
+  },
+  {
+    "codigo": "IS028",
+    "pt": "Caixa Sifonada de PVC 6″ X 30 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Cámara interceptora» = caixa sifonada."
+  },
+  {
+    "codigo": "IS029",
+    "pt": "Caixa Sifonada de PVC 4° com Sifão",
+    "confianza": "MEDIA",
+    "nota": "O «4°» do original é provável erro de digitação de 4″; mantido tal qual."
+  },
+  {
+    "codigo": "IS030",
+    "pt": "Caixa Receptora Pluvial de PVC 8″ X 40 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS032",
+    "pt": "Caixa de Inspeção de Polietileno Ø 60 Cm (Sanear)",
+    "confianza": "ALTA",
+    "nota": "Sanear é marca boliviana; mantida entre parênteses."
+  },
+  {
+    "codigo": "IS033",
+    "pt": "Caixa de Inspeção em Tijolo Maciço",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS034",
+    "pt": "Caixa de Gordura de Polietileno 25x35x35 Cm",
+    "confianza": "ALTA",
+    "nota": "«Cámara desgrasadora» = caixa de gordura."
+  },
+  {
+    "codigo": "IS035",
+    "pt": "Caixa de Gordura em Tijolo 30x50 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS036",
+    "pt": "Bomba d'Água de 1.5 Hp",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS037",
+    "pt": "Bomba d'Água de 2 Hp",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS038",
+    "pt": "Reservatório Inferior (Cisterna) com Bomba d'Água - Instalação",
+    "confianza": "ALTA",
+    "nota": "«Tanque bajo» = reservatório inferior/cisterna."
+  },
+  {
+    "codigo": "IS039",
+    "pt": "Reservatório Elevado de Água - Instalação",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS040",
+    "pt": "Caixa d'Água de Polietileno 600 L. com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS041",
+    "pt": "Caixa d'Água de Polietileno 1200 L. com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS042",
+    "pt": "Caixa d'Água de Polietileno 2300 L. com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS043",
+    "pt": "Caixa d'Água de Polietileno 5000 L. com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS044",
+    "pt": "Caixa d'Água de Polietileno 10 000 L. com Acessórios",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS045",
+    "pt": "Fossa Séptica de Polietileno 1.200 L",
+    "confianza": "ALTA",
+    "nota": "«Cámara séptica» = fossa séptica."
+  },
+  {
+    "codigo": "IS046",
+    "pt": "Fossa Séptica de Polietileno 2.300 L",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS047",
+    "pt": "Fossa Séptica 1.100 L. (Sanear)",
+    "confianza": "ALTA",
+    "nota": "Sanear é marca boliviana; mantida entre parênteses."
+  },
+  {
+    "codigo": "IS048",
+    "pt": "Fossa Séptica 2.500 L. (Sanear)",
+    "confianza": "ALTA",
+    "nota": "Sanear é marca boliviana; mantida entre parênteses."
+  },
+  {
+    "codigo": "IS049",
+    "pt": "Poço Absorvente (Sumidouro) de Concreto Ciclópico Ø 2 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS050",
+    "pt": "Poço Absorvente (Sumidouro) em Tijolo Maciço Ø 2 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS051",
+    "pt": "Teste Hidráulico de Estanqueidade",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS052",
+    "pt": "Locação e Marcação de Tubulações",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS053",
+    "pt": "Fornecimento e Assentamento de Tubulação de PVC Classe 9 (3″) com Junta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS054",
+    "pt": "Fornecimento e Assentamento de Tubulação de PVC Classe 9 (4″) com Junta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS055",
+    "pt": "Fornecimento e Assentamento de Tubulação de PVC E-40 (2″) com Junta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS056",
+    "pt": "Fornecimento e Assentamento de Tubulação de PVC E-40 (3″) com Junta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS057",
+    "pt": "Fornecimento e Assentamento de Tubulação de PVC E-40 (4″) com Junta",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS058",
+    "pt": "Fornecimento e Instalação de Tubulação de PEAD de 20 Mm (1/2″) SDR9 PN20",
+    "confianza": "ALTA",
+    "nota": "HDPE = PEAD (polietileno de alta densidade)."
+  },
+  {
+    "codigo": "IS059",
+    "pt": "Fornecimento e Instalação de Tubulação de PEAD de 25 Mm (3/4″) SDR11 PN16",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS060",
+    "pt": "Fornecimento e Instalação de Tubulação de PEAD de 32 Mm (1″) Sdr 13.6 PN12.5",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS061",
+    "pt": "Fornecimento e Instalação de Tubulação de PEAD de 40 Mm (1 1/4″) SDR17 PN10",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS062",
+    "pt": "Fornecimento e Instalação de Tubulação de PEAD de 50 Mm (1 1/2″) SDR17 PN8",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS063",
+    "pt": "Fornecimento e Instalação de Tubulação de PEAD de 63 Mm (2″) SDR21 PN6",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS064",
+    "pt": "Fornecimento e Instalação de Tubulação de PEAD de 75 Mm (2 1/2″) SDR21 PN8",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS065",
+    "pt": "Fornecimento e Instalação de Tubulação de PEAD de 90 Mm (3″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS066",
+    "pt": "Fornecimento e Instalação de Tubulação de PEAD de 110 Mm (4″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS067",
+    "pt": "Fornecimento e Termofusão de Tubulação de PEAD de 125 Mm (5″) SDR21 PN6",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS068",
+    "pt": "Fornecimento e Termofusão de Tubulação de PEAD de 160 Mm (6″) SDR26 PN6",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS069",
+    "pt": "Fornecimento e Termofusão de Tubulação de PEAD de 200 Mm (8″) SDR26 PN6",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS070",
+    "pt": "Fornecimento e Termofusão de Tubulação de PEAD de 250 Mm (10″) SDR26 PN6",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS071",
+    "pt": "Berço de Assentamento para Tubulação (E=5 Cm)",
+    "confianza": "ALTA",
+    "nota": "«Cama de asiento» = berço/lastro de assentamento."
+  },
+  {
+    "codigo": "IS072",
+    "pt": "Poço de Visita de Concreto Ciclópico H=1 M Ø 1.2 M",
+    "confianza": "ALTA",
+    "nota": "Cámara de inspección de Ø 1.2 m em rede = poço de visita (PV)."
+  },
+  {
+    "codigo": "IS073",
+    "pt": "Poço de Visita de Concreto Ciclópico H=2 M Ø 1.2 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS074",
+    "pt": "Escavação de Vala com Retroescavadeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS076",
+    "pt": "Fornecimento e Assentamento de Tubo de Concreto D/10″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS077",
+    "pt": "Fornecimento e Assentamento de Tubo de Concreto D/12″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS078",
+    "pt": "Fornecimento e Assentamento de Tubo de Concreto D/16″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS079",
+    "pt": "Fornecimento e Assentamento de Tubulação de Esgoto em PVC C-9 3″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS080",
+    "pt": "Fornecimento e Assentamento de Tubulação de Esgoto em PVC C-9 4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS081",
+    "pt": "Fornecimento e Assentamento de Tubulação de Esgoto em PVC Sdr 4″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS082",
+    "pt": "Fornecimento e Assentamento de Tubulação de Esgoto em PVC Sdr 6″",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS083",
+    "pt": "Reaterro e Compactação de Vala com Compactador",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE024",
+    "pt": "Haste de Aterramento",
+    "confianza": "ALTA",
+    "nota": "«Jabalina» = haste de aterramento."
+  },
+  {
+    "codigo": "IE025",
+    "pt": "Luminária Externa Tipo Tartaruga 18W",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE026",
+    "pt": "Luminária Painel LED 24 de Sobrepor",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE004",
+    "pt": "Luminária Tipo Calha 2X20W LED",
+    "confianza": "ALTA",
+    "nota": "«Tipo pantalla» = luminária tipo calha."
+  },
+  {
+    "codigo": "IE005",
+    "pt": "Luminária Tipo Spot de Embutir 16W LED",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE006",
+    "pt": "Fornecimento e Instalação de Fio de Cobre Awg N° 1x8",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE007",
+    "pt": "Fornecimento e Instalação de Fio de Cobre Awg N° 1x10",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE008",
+    "pt": "Fornecimento e Instalação de Fio de Cobre Awg N° 1x12",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE009",
+    "pt": "Fornecimento e Instalação de Campainha",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE010",
+    "pt": "Fornecimento e Instalação de Eletroduto Flexível Corrugado 20 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE011",
+    "pt": "Fornecimento e Instalação de Eletroduto Flexível Corrugado 32 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE012",
+    "pt": "Fornecimento e Instalação de Aparelho de Ar-Condicionado (9.000 Btu)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE013",
+    "pt": "Fornecimento e Instalação de Iluminação Incandescente 100W",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE014",
+    "pt": "Fornecimento e Instalação de Iluminação LED 14W",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE015",
+    "pt": "Fornecimento e Instalação de Ponto de Internet",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE016",
+    "pt": "Fornecimento e Instalação de Ponto de TV",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE018",
+    "pt": "Ponto de Ar-Condicionado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE019",
+    "pt": "Ponto de Telefone",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE020",
+    "pt": "Ponto para Chuveiro Elétrico",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IE022",
+    "pt": "Transformador 150 KVA",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU023",
+    "pt": "Cobertura de Policarbonato (6 Mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU024",
+    "pt": "Cobertura de Policarbonato (8 Mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU025",
+    "pt": "Impermeabilização de Cobertura com Telha Colonial",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC046",
+    "pt": "Impermeabilização com Manta Asfáltica Sika com Alumínio",
+    "confianza": "ALTA",
+    "nota": "«Lámina asfáltica» = manta asfáltica."
+  },
+  {
+    "codigo": "AC047",
+    "pt": "Impermeabilização com Membrana Geotêxtil 3.5 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU026",
+    "pt": "Pintura Anticorrosiva para Cobertura",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC048",
+    "pt": "Pintura Anticorrosiva para Grade",
+    "confianza": "ALTA",
+    "nota": "«Reja» = grade."
+  },
+  {
+    "codigo": "AC049",
+    "pt": "Pintura de Beirais",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CU027",
+    "pt": "Pintura de Cobertura Externa",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR002",
+    "pt": "Pintura de Portas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC050",
+    "pt": "Pintura de Concreto Aparente Externo",
+    "confianza": "ALTA",
+    "nota": "«Hormigón visto» = concreto aparente."
+  },
+  {
+    "codigo": "AC052",
+    "pt": "Pintura Interna Látex Acetinado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC054",
+    "pt": "Pintura a Óleo Interna",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC055",
+    "pt": "Envernizamento de Madeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR003",
+    "pt": "Mola Hidráulica para Porta de Banheiro",
+    "confianza": "ALTA",
+    "nota": "«Brazo hidráulico» = mola hidráulica/mola aérea."
+  },
+  {
+    "codigo": "AC056",
+    "pt": "Raspagem e Lustração de Piso de Madeira",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR004",
+    "pt": "Porta de Madeira Tipo Almofadada 0.80x2.10 M",
+    "confianza": "ALTA",
+    "nota": "«Tipo tablero» = almofadada."
+  },
+  {
+    "codigo": "CR005",
+    "pt": "Porta de Madeira Tipo Almofadada 1.00x2.10 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR006",
+    "pt": "Porta Externa Moldurada 1.00x2.10 M",
+    "confianza": "MEDIA",
+    "nota": "«Moldeada» = porta moldurada (HDF/madeira prensada)."
+  },
+  {
+    "codigo": "CR007",
+    "pt": "Porta Interna Moldurada 0.90 X 2.10 M",
+    "confianza": "MEDIA",
+    "nota": "«Moldeada» = porta moldurada (HDF/madeira prensada)."
+  },
+  {
+    "codigo": "CR008",
+    "pt": "Janela de Madeira Cedro (Marco 2x3″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC057",
+    "pt": "Divisória Interna em Vidro Temperado (10 Mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC058",
+    "pt": "Fachada Pele de Vidro Refletivo com Estrutura de Alumínio",
+    "confianza": "ALTA",
+    "nota": "«Fachada flotante» = pele de vidro."
+  },
+  {
+    "codigo": "CR010",
+    "pt": "Porta de Abrir em Vidro Temperado 10 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR011",
+    "pt": "Porta em Chapa Metálica",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR012",
+    "pt": "Portão de Garagem em Chapa Metálica 3.0x2.4 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR013",
+    "pt": "Grade Metálica para Janela com Marco",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR014",
+    "pt": "Janela de Correr em Alumínio 3 Folhas 2.40x1.20 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR015",
+    "pt": "Janela Metálica (Cantoneira 1″x1/8″)",
+    "confianza": "ALTA",
+    "nota": "«Angular» = cantoneira."
+  },
+  {
+    "codigo": "AC059",
+    "pt": "Assentamento de Vidro (6 Mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC060",
+    "pt": "Assentamento de Vidro Impresso Tipo Catedral (3 Mm)",
+    "confianza": "MEDIA",
+    "nota": "No Brasil o «vidro catedral» corresponde ao vidro impresso/fantasia."
+  },
+  {
+    "codigo": "AC061",
+    "pt": "Assentamento de Vidro Duplo (3 Mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC062",
+    "pt": "Assentamento de Vidro Triplo (4 Mm)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR016",
+    "pt": "Bancada de Concreto Armado com Revestimento em Azulejo Colorido",
+    "confianza": "ALTA",
+    "nota": "«Mesón» = bancada."
+  },
+  {
+    "codigo": "CR017",
+    "pt": "Bancada de Concreto Armado com Revestimento em Mármore",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC063",
+    "pt": "Piso em Carpete",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "AC064",
+    "pt": "Piso em Carpete em Rolo",
+    "confianza": "MEDIA",
+    "nota": "«Tapizón» = carpete em rolo (parede a parede)."
+  },
+  {
+    "codigo": "OT028",
+    "pt": "Área Verde em Jardim com Grama em Tepe",
+    "confianza": "ALTA",
+    "nota": "«Tepe» é o mesmo termo usado no Brasil (grama em placas)."
+  },
+  {
+    "codigo": "OT029",
+    "pt": "Área Verde em Jardins",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT030",
+    "pt": "Meio-fio Ornamental em Tijolo Maciço",
+    "confianza": "ALTA",
+    "nota": "«Bordillo» = meio-fio."
+  },
+  {
+    "codigo": "OT031",
+    "pt": "Cerca de Arame Farpado com Mourões de Madeira Roliça",
+    "confianza": "MEDIA",
+    "nota": "«Callapos» = postes de madeira roliça (eucalipto)."
+  },
+  {
+    "codigo": "OT032",
+    "pt": "Alambrado com Tela e Mourão de Concreto Protendido",
+    "confianza": "MEDIA",
+    "nota": "«Malla olímpica» = tela de alambrado."
+  },
+  {
+    "codigo": "OT033",
+    "pt": "Alambrado com Tela e Tubo de Ferro Galvanizado 2″ C/2.5 M",
+    "confianza": "MEDIA",
+    "nota": "«Malla olímpica» = tela de alambrado; FG = ferro galvanizado."
+  },
+  {
+    "codigo": "OT034",
+    "pt": "Fornecimento e Instalação de Grama Sintética Bicolor H=5 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT035",
+    "pt": "Fornecimento e Instalação de Grama Sintética Monofilamento H=6 Mm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR018",
+    "pt": "Portão Metálico com Tela de Alambrado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT036",
+    "pt": "Grade Metálica para Cercamento",
+    "confianza": "MEDIA",
+    "nota": "«Verja» = cercado/gradil do lote."
+  },
+  {
+    "codigo": "OG036",
+    "pt": "Calçada de Concreto sobre Lastro de Pedra E=4 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG037",
+    "pt": "Pavimentação de Rua com Blocos Intertravados",
+    "confianza": "MEDIA",
+    "nota": "«Adoquinado» = pavimento de blocos intertravados (paver)."
+  },
+  {
+    "codigo": "OG038",
+    "pt": "Bueiro de Chapa Metálica Corrugada Ø 1 M",
+    "confianza": "ALTA",
+    "nota": "«Alcantarilla» viária = bueiro."
+  },
+  {
+    "codigo": "OG039",
+    "pt": "Bueiro Tubular de Concreto Armado Ø 1 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG040",
+    "pt": "Compactação com Rolo Pé de Carneiro",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG041",
+    "pt": "Capa Asfáltica em CBUQ E=5 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Carpeta asfáltica» = capa de rolamento; CBUQ é o padrão brasileiro."
+  },
+  {
+    "codigo": "OG042",
+    "pt": "Placa de Concreto para Pavimento Rígido E=17 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG043",
+    "pt": "Meio-fio de Concreto para Calçada 20x40 Cm",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG044",
+    "pt": "Corte de Capa Asfáltica",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG045",
+    "pt": "Sarjeta em Alvenaria",
+    "confianza": "ALTA",
+    "nota": "«Cuneta» urbana = sarjeta."
+  },
+  {
+    "codigo": "OG046",
+    "pt": "Demolição de Meio-fio",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG047",
+    "pt": "Demolição de Capa Asfáltica",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG048",
+    "pt": "Fabricação de Bloquetes Sextavados",
+    "confianza": "ALTA",
+    "nota": "«Loseta hexagonal» = bloquete sextavado."
+  },
+  {
+    "codigo": "OG049",
+    "pt": "Calçamento de Pista em Pedra",
+    "confianza": "MEDIA",
+    "nota": "«Empedrado de calzada» = calçamento da pista com pedra."
+  },
+  {
+    "codigo": "OG050",
+    "pt": "Pavimentação de Pista com Bloquete Sextavado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG051",
+    "pt": "Pavimentação de Pista com Bloquete Ondulado",
+    "confianza": "MEDIA",
+    "nota": "«Loseta ondulada» = bloquete de perfil ondulado."
+  },
+  {
+    "codigo": "OG052",
+    "pt": "Juntas de Dilatação com Alcatrão e Areia",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG053",
+    "pt": "Fornecimento e Assentamento de Bloquete Cerâmico Tipo Pavic Padrão",
+    "confianza": "MEDIA",
+    "nota": "«Pavic» é linha comercial de piso cerâmico para pisos externos; mantida como tipo."
+  },
+  {
+    "codigo": "OG054",
+    "pt": "Reaterro e Compactação com Rolo Liso",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG055",
+    "pt": "Remoção e Recomposição de Calçamento de Pedra",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG056",
+    "pt": "Gabião Tipo Colchão (Colchão Reno) 4x2x0.30 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG057",
+    "pt": "Alvenaria de Pedra Cortada",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG058",
+    "pt": "Muro de Arrimo em Gabião",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG059",
+    "pt": "Fornecimento e Assentamento de Blocos de Pedra Aparelhada Tipo A 60x40x30 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Sillar» é pedra vulcânica aparelhada andina; sem equivalente comercial brasileiro."
+  },
+  {
+    "codigo": "OG060",
+    "pt": "Fornecimento e Assentamento de Blocos de Pedra Aparelhada Tipo B 40x40x30 Cm",
+    "confianza": "MEDIA",
+    "nota": "«Sillar» é pedra vulcânica aparelhada andina; sem equivalente comercial brasileiro."
+  },
+  {
+    "codigo": "OG061",
+    "pt": "Escavação Comum",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG062",
+    "pt": "Concreto Simples Tipo A (Encontros)",
+    "confianza": "MEDIA",
+    "nota": "Em obra de arte, «estribos» = encontros da ponte, não estribos de armadura."
+  },
+  {
+    "codigo": "OG063",
+    "pt": "Concreto Simples Tipo A (Laje)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG064",
+    "pt": "Aço Estrutural p/ Concreto Simples Tipo A (Encontros)",
+    "confianza": "MEDIA",
+    "nota": "Em obra de arte, «estribos» = encontros da ponte."
+  },
+  {
+    "codigo": "OG065",
+    "pt": "Aço Estrutural p/ Concreto Simples Tipo A (Laje)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG066",
+    "pt": "Viga Pré-moldada de Concreto Protendido (f'c=350 Kg/cm2) L=20,60 M",
+    "confianza": "ALTA",
+    "nota": "H°P° aqui = hormigón pretensado = concreto protendido (contexto de ponte)."
+  },
+  {
+    "codigo": "OG067",
+    "pt": "Viga Pré-moldada de Concreto Protendido (f'c=350 Kg/cm2) L=25,60 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG068",
+    "pt": "Viga Pré-moldada de Concreto Protendido (f'c=350 Kg/cm2) L=35,60 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG069",
+    "pt": "Viga Pré-moldada de Concreto Protendido (f'c=350 Kg/cm2) L=45,60 M",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG070",
+    "pt": "Aparelhos de Apoio em Neoprene Fretado",
+    "confianza": "MEDIA",
+    "nota": "«Neopreno compuesto» = neoprene fretado (com chapas de aço)."
+  },
+  {
+    "codigo": "OG071",
+    "pt": "Junta de Dilatação",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG072",
+    "pt": "Tubos de Drenagem em PVC (Ø = 4″)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR019",
+    "pt": "Guarda-corpo Tipo P-3",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "IS084",
+    "pt": "Aquecedor a Gás de Tiragem Natural Q=11 L/Min",
+    "confianza": "ALTA",
+    "nota": "«Calefón» = aquecedor de água a gás."
+  },
+  {
+    "codigo": "IS085",
+    "pt": "Aquecedor a Gás de Tiragem Natural Q=14 L/Min",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT037",
+    "pt": "Limpeza Geral de Superfícies",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT038",
+    "pt": "Limpeza e Retirada de Entulho",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UH006",
+    "pt": "Sapata de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UH007",
+    "pt": "Pilar de Concreto Armado",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "UH005",
+    "pt": "Baldrame",
+    "confianza": "ALTA",
+    "nota": "«Sobrecimiento» = baldrame."
+  },
+  {
+    "codigo": "OT040",
+    "pt": "Biossegurança em Obra de Médio Porte (Projetos 500k-1M Bs)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT041",
+    "pt": "Placa de Obra (Lona de PVC)",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT042",
+    "pt": "Locação e Marcação de Superfície",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OT044",
+    "pt": "Preenchimento com Lama (Lameado) com Fornecimento de Material",
+    "confianza": "BAJA",
+    "nota": "«Lameado» é termo boliviano ambíguo (preenchimento/rejunte com lama de solo fino); sem equivalente brasileiro consagrado."
+  },
+  {
+    "codigo": "OT045",
+    "pt": "Fornecimento e Plantio de Grama Kikuyu",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG073",
+    "pt": "Meio-fio 0.35x0.15x1.00 m (Moldado In Loco)",
+    "confianza": "ALTA",
+    "nota": "«Vaciado in situ» = moldado in loco."
+  },
+  {
+    "codigo": "OG074",
+    "pt": "Lastro (Solado) de Pedra Rolada",
+    "confianza": "BAJA",
+    "nota": "«Soladura de piedra manzana»: pedra rolada de rio usada como base; termo regional sem equivalente direto."
+  },
+  {
+    "codigo": "OG075",
+    "pt": "Contrapiso de Cimento sem Pedra E=7cm - Calçadas",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG076",
+    "pt": "Meio-fio para Jardineira em Concreto Simples R=180 kg/cm² 0.10x0.30m",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG081",
+    "pt": "Corte de Pavimento Rígido",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "OG082",
+    "pt": "Concreto Simples para Sarjetas R=210 kg/cm² B=0.30m",
+    "confianza": "ALTA",
+    "nota": ""
+  },
+  {
+    "codigo": "CR020",
+    "pt": "Protetor Metálico Tipo Folha H=0.70m",
+    "confianza": "MEDIA",
+    "nota": "«Protector tipo hoja» descrito literalmente; não há partida equivalente no SINAPI."
+  },
+  {
+    "codigo": "IE023",
+    "pt": "Luminária de Parque LED 80W Classe II + Poste Metálico Galvanizado H=5m + Base de Concreto Armado Enterrada",
+    "confianza": "ALTA",
+    "nota": "FG = ferro galvanizado; «subterránea» = base enterrada."
+  },
+  {
+    "codigo": "AC067",
+    "pt": "Pintura Externa Super Látex",
+    "confianza": "ALTA",
+    "nota": ""
+  }
+]
