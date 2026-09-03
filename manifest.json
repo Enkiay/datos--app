@@ -93,6 +93,14 @@
     "precios_PY": {
       "version": "v20260902-referencias-capaco-neto",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PY.json"
+    },
+    "catalogo_BR": {
+      "version": "v20260902-sinapi",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_BR.json"
+    },
+    "precios_BR": {
+      "version": "v20260902-sinapi",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_BR.json"
     }
   }
 }
