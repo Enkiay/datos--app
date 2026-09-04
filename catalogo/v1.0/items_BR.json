@@ -1,6 +1,7 @@
 {
   "version": "v20260902-sinapi",
   "schemaVersion": 1,
+  "pais": "BR",
   "items": [
     {
       "codigo": "AC009BR",
