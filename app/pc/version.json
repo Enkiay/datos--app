@@ -1,8 +1,0 @@
-{
-  "version": "1.13.5",
-  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v1.13.5/ArqOn.Desktop_1.13.5_x64-setup.exe",
-  "notas": "## ArqOn PC 1.13.5\n\n### Los reportes ya no se salen de la hoja\n- **Corregido, y afecta a todos los países**: cuando el nombre del cliente era largo, «Lugar» y\n  «Fecha» se imprimían **fuera del papel** y desaparecían de la hoja. La cabecera ahora usa las\n  filas que haga falta, cortando por campo para no partir nombres al medio.\n\n### Tres países nuevos en el selector\n- **Chile, Argentina y Paraguay**, con su cadena de cálculo, su moneda, su serie de acero y su\n  catálogo de arranque. Cada uno abre en la ciudad con precios relevados: Santiago, Salta y\n  Asunción.\n- **Ecuador y Colombia** dejan de tener una sola ciudad: ahora 7 y 8 respectivamente.\n\n### Bases de datos\n- Un ítem español de retirada de residuos de acero salía con **precio unitario negativo** (la\n  chatarra se descuenta) y hacía que una partida restara dinero del presupuesto. Se retiró.\n- Perú completa los precios que le faltaban: las tuberías de polietileno ya no salen en cero.\n\n### Formato de prueba\n- Un formato nuevo **en pruebas** dentro de la ventana de reportes, con panel para elegir qué\n  incluir: con o sin códigos de ítem, con o sin porcentajes, para el cliente o completo, o resumido\n  en una sola página. El pie lleva **su empresa**, no la nuestra.",
-  "publicado": "2026-09-02",
-  "sha256": "28c7b985ab08d198095353653df9f897b45630438b5050954c086958a4516441",
-  "firma": "R84bZEY0MU3G1xRGO5Si/LIKiWPDDzAwdrUfLcFDOwceowJoaBJHrWhwqvyrdfO2JrDYTQKdC5wM9d+uDmGNAA=="
-}
