@@ -98,8 +98,8 @@ const CONFIG = {
     }] : [],
   },
   AR: {
-    version: "v20260902-referencias-ucc-neto",
-    fuente: "Base boliviana (catálogo ArqOn) + precios de Argentina: Unidad Central de Contrataciones (UCC), Provincia de Salta — planilla de insumos, julio 2026. Relevado en Salta; las otras 15 ciudades COPIAN Salta (referencial) hasta relevarse.",
+    version: "v20260907-referencias-ba-rosario",
+    fuente: "Base boliviana (catálogo ArqOn) + precios de Argentina: Unidad Central de Contrataciones (UCC), Provincia de Salta — planilla de insumos, julio 2026 (ciudad de referencia). Buenos Aires (Red Materiales 7-sep-2026 + Materiales Moreno, GBA Oeste) y Rosario (La Económica, Gran Rosario) con referencias propias de materiales y el resto estimado por relación; la mano de obra es la escala UOCRA zona A en todo el país. Las otras 13 ciudades COPIAN Salta hasta relevarse.",
     // MANO DE OBRA: la UCC cotiza «Cuadrilla tipo UOCRA» a $10.836/h y un ayudante a $10.030/h —
     // la magnitud de UNA hora-hombre promedio, no de un equipo entero—, con las cargas ADENTRO
     // (costo empresa; por eso la caja argentina lleva cargasSociales = 0 y ninguna línea de %).
@@ -273,16 +273,22 @@ function precioEn(ciudadPais, idBo) {
 // Valen para la ciudad de referencia, en la unidad boliviana; el resto de las ciudades los copia.
 // La primera entrada de cada idBo manda (el archivo viene ordenado por confianza).
 const refPath = `precios/fuentes/referencias_${PAIS}.json`;
-const referencias = new Map();
+// POR CIUDAD (7-sep-2026, Oscar: «relevá Buenos Aires, Córdoba y Rosario»): una referencia puede
+// decir `ciudad`; las que no lo dicen son de la ciudad de REFERENCIA (la primera de la caja), como
+// hasta hoy. `null` = sin ciudad; se reparte cuando ya se sabe cuál es la de referencia.
+const refsPorCiudad = new Map();
 if (existsSync(join(BASE, refPath))) {
   for (const r of leer(refPath)) {
     const m = maestro.find((x) => x.idCanonico === r.idBo);
     if (!m) { console.warn(`  referencia ignorada: «${r.idBo}» no es un insumo boliviano`); continue; }
     if (!(r.precio > 0)) continue;
     if (u(m.unidad) !== u(r.unidad)) { console.warn(`  referencia ignorada: ${r.idBo} viene en «${r.unidad}» y el insumo es «${m.unidad}»`); continue; }
-    if (!referencias.has(r.idBo)) referencias.set(r.idBo, r);
+    const ciudad = (r.ciudad ?? "").trim() || null;
+    if (!refsPorCiudad.has(ciudad)) refsPorCiudad.set(ciudad, new Map());
+    if (!refsPorCiudad.get(ciudad).has(r.idBo)) refsPorCiudad.get(ciudad).set(r.idBo, r);
   }
 }
+const referencias = refsPorCiudad.get(null) ?? new Map();
 
 // ── oficiales_XX: las ciudades del país, con los 751 insumos cada una ──────────────────────
 // TODAS las ciudades de la caja salen SERVIDAS (Oscar, 2-sep-2026: «habilita todas las
@@ -294,6 +300,9 @@ const servida = (c) => c.precios.some(relevado);
 // referencias y de allí copian las demás. La lista tiene que empezar por la plaza relevada.
 const ciudadRef = ofiPaisViejo.ciudades.find(servida) ?? ofiPaisViejo.ciudades[0];
 if (!ciudadRef) { console.error("el país no declara ninguna ciudad"); process.exit(2); }
+for (const [id, r] of refsPorCiudad.get(ciudadRef.nombre) ?? []) if (!referencias.has(id)) referencias.set(id, r);
+refsPorCiudad.delete(ciudadRef.nombre);
+for (const ciudad of refsPorCiudad.keys()) if (ciudad && !ofiPaisViejo.ciudades.some((c) => c.nombre === ciudad)) console.warn(`  referencias de «${ciudad}» ignoradas: no es una ciudad de la caja ${PAIS}`);
 if (!servida(ciudadRef) && !referencias.size) { console.error(`${PAIS} no tiene ni un precio relevado ni una referencia: no hay de dónde partir`); process.exit(2); }
 
 // ── La RELACIÓN con Bolivia, medida: precio_XX / precio_BO en los insumos con precio en los dos
@@ -318,12 +327,32 @@ const kNota = (t) => pares[t].length >= MIN_PARES
   : `${pares[t].length} pares de ${t.toLowerCase().replace(/_/g, " ")}, insuficientes: usa la relación de los materiales`;
 
 const origen = { RELEVADO: 0, REFERENCIA: 0, ESTIMADO: 0, PENDIENTE: 0 };
-const ciudades = ofiPaisViejo.ciudades.map((c) => ({
-  nombre: c.nombre,
-  precios: maestro.map((m) => {
-    const esRef = c === ciudadRef;
+const origenCiudad = {};
+const MIN_PARES_CIUDAD = 3;
+let preciosRef = null;   // los de la ciudad de referencia, ya calculados (las demás los miran)
+function preciosDeCiudad(c) {
+  const esRef = c === ciudadRef;
+  const refsC = esRef ? new Map() : (refsPorCiudad.get(c.nombre) ?? new Map());
+  // La relación de ESTA ciudad con la de referencia: mediana de (precio relevado acá / precio allá)
+  // en los insumos que tienen los dos. Con menos de MIN_PARES_CIUDAD no se estima: se copia.
+  // POR TIPO: los pares relevados son casi siempre materiales, y la relación de los materiales no
+  // dice nada de la mano de obra (la escala UOCRA es NACIONAL en la zona A: Buenos Aires, Córdoba,
+  // Santa Fe y Salta pagan la misma hora) ni del alquiler de equipos. Un tipo sin pares se COPIA.
+  const paresC = { MATERIAL: [], MANO_DE_OBRA: [], HERRAMIENTA: [] };
+  if (!esRef && preciosRef) for (const [id, r] of refsC) {
+    const m = maestro.find((x) => x.idCanonico === id);
+    const pr = preciosRef.find((x) => x.idCanonico === idPais(id))?.precio;
+    if (m && pr > 0) paresC[m.tipoInsumo]?.push(r.precio / pr);
+  }
+  const kC = {};
+  for (const t of Object.keys(paresC)) kC[t] = paresC[t].length >= MIN_PARES_CIUDAD ? mediana(paresC[t]) : null;
+  if (!esRef) origenCiudad[c.nombre] = { REFERENCIA: 0, ESTIMADO_DESDE_REFERENCIA: 0, COPIADO: 0,
+    relacionConReferencia: Object.fromEntries(Object.entries(kC).filter(([, v]) => v != null)),
+    paresMedidos: Object.fromEntries(Object.entries(paresC).map(([t, a]) => [t, a.length])) };
+  const cuentaC = (o) => { if (!esRef) origenCiudad[c.nombre][o]++; };
+  return maestro.map((m) => {
     const cuenta = (o) => { if (esRef) origen[o]++; };
-    const copia = (nota) => (esRef ? nota : `COPIADO de ${ciudadRef.nombre} (referencial, sin relevar en ${c.nombre}). ${nota}`.trim());
+    const copia = (nota) => (esRef ? nota : `COPIADO de ${ciudadRef.nombre} (${m.tipoInsumo === "MANO_DE_OBRA" && PAIS === "AR" ? "escala UOCRA zona A, la misma en todo el país salvo la Patagonia" : `referencial, sin relevar en ${c.nombre}`}). ${nota}`.trim());
     const propio = precioEn(c, m.idCanonico);
     const rel = propio ?? precioEn(ciudadRef, m.idCanonico);
     const viejo = (propio ? c : ciudadRef).precios.find((x) => x.idCanonico === cfg.equivalentes[m.idCanonico]);
@@ -335,6 +364,22 @@ const ciudades = ofiPaisViejo.ciudades.map((c) => ({
       categoria: m.categoria,
       unidad: viejo?.unidad ?? m.unidad, tipoInsumo: m.tipoInsumo, codigo: codigoPais(m.idCanonico, m.codigo),
     };
+    // Referencia PROPIA de la ciudad: manda sobre todo lo que venga de la de referencia.
+    const rC = refsC.get(m.idCanonico);
+    if (rC && !propio) {
+      cuentaC("REFERENCIA");
+      return { ...base, precio: rC.precio, nota: `REFERENCIA en ${c.nombre}: ${rC.fuente}${rC.fecha ? ` (${rC.fecha})` : ""}${rC.conversion ? `; ${rC.conversion}` : ""}${rC.nota ? `; ${rC.nota}` : ""}${rC.url ? ` · ${rC.url}` : ""}` };
+    }
+    // Sin referencia propia pero con relación medida: el precio de la de referencia, escalado.
+    const kT = esRef ? null : kC[m.tipoInsumo];
+    if (!esRef && !propio && kT != null) {
+      const pr = preciosRef.find((x) => x.idCanonico === idPais(m.idCanonico));
+      if (pr && pr.precio > 0) {
+        cuentaC("ESTIMADO_DESDE_REFERENCIA");
+        return { ...base, precio: redondear(pr.precio * kT), nota: `ESTIMADO desde ${ciudadRef.nombre}: ${pr.precio} × ${kT.toFixed(3)} (mediana de ${paresC[m.tipoInsumo].length} pares de ${m.tipoInsumo.toLowerCase().replace(/_/g, " ")} relevados en ${c.nombre}). Revisar antes de ofertar. Origen en ${ciudadRef.nombre}: ${(pr.nota ?? "").slice(0, 160)}` };
+      }
+    }
+    if (!esRef) cuentaC("COPIADO");
     if (rel) {
       cuenta("RELEVADO");
       const notaBase = viejo ? (viejo.nota ?? "") : `Precio heredado de «${rel.nombre}» (misma familia / mismo escalafón)`;
@@ -356,8 +401,10 @@ const ciudades = ofiPaisViejo.ciudades.map((c) => ({
     }
     cuenta("PENDIENTE");
     return { ...base, precio: 0, nota: `PENDIENTE: sin precio relevado en ${PAIS}. Insumo heredado de la base boliviana (${m.idCanonico}); cargalo a mano o esperá la próxima publicación.` };
-  }),
-}));
+  });
+}
+preciosRef = preciosDeCiudad(ciudadRef);
+const ciudades = ofiPaisViejo.ciudades.map((c) => ({ nombre: c.nombre, precios: c === ciudadRef ? preciosRef : preciosDeCiudad(c) }));
 
 // ── items_XX: sólo los que cierran con precio completo en TODAS las ciudades SERVIDAS ──────
 // Las líneas de PORCENTAJE (leyes sociales chilenas) no llevan precio: no cuentan como faltante.
@@ -420,7 +467,7 @@ const salidaItems = { version: cfg.version, schemaVersion: itemsBO.schemaVersion
 const salidaPrecios = {
   version: cfg.version, fuente: cfg.fuente, pais: PAIS,
   nota: `Base de ${PAIS} DERIVADA de la boliviana (2-sep-2026): los ${maestro.length} insumos de Bolivia bajo el espacio ${iso}_, en las ${ciudades.length} ciudades de la caja. Cada precio dice en su nota de dónde salió — en ${ciudadRef.nombre}: ${origen.RELEVADO} RELEVADOS, ${origen.REFERENCIA} por REFERENCIA (fuente citada), ${origen.ESTIMADO} ESTIMADOS por relación con Bolivia (material ×${k.MATERIAL?.toFixed(2)}, M.O. ×${k.MANO_DE_OBRA?.toFixed(2)}, equipo ×${k.HERRAMIENTA?.toFixed(2)}; revisar antes de ofertar), ${origen.PENDIENTE} PENDIENTES en 0. Las otras ciudades copian ${ciudadRef.nombre} hasta relevarse. Ítems publicados: los que cierran con precio completo (${items.length} de ${itemsBO.items.length}). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_${PAIS}.json).`,
-  origenPrecios: { ciudadReferencia: ciudadRef.nombre, ...origen, relacionConBolivia: k, paresMedidos: Object.fromEntries(Object.entries(pares).map(([t, a]) => [t, a.length])) },
+  origenPrecios: { ciudadReferencia: ciudadRef.nombre, ...origen, relacionConBolivia: k, paresMedidos: Object.fromEntries(Object.entries(pares).map(([t, a]) => [t, a.length])), porCiudad: origenCiudad },
   precios: [],
   ciudades,
 };
@@ -431,4 +478,5 @@ const top = [...bloqueo.entries()].sort((a, b) => b[1] - a[1]).slice(0, 15);
 console.log(`✓ ${PAIS}: ${items.length}/${itemsBO.items.length} ítems con precio completo · ${maestro.length} insumos × ${ciudades.length} ciudades · pendientes por ciudad: ${zerosPorCiudad} (poner ese TOPE en estado-de-las-bases.test.ts)`);
 console.log(`  origen en ${ciudadRef.nombre}: ${origen.RELEVADO} relevados · ${origen.REFERENCIA} referencias · ${origen.ESTIMADO} estimados · ${origen.PENDIENTE} pendientes`);
 console.log(`  relación con Bolivia: material ×${k.MATERIAL?.toFixed(2)} (${pares.MATERIAL.length} pares) · M.O. ×${k.MANO_DE_OBRA?.toFixed(2)} (${pares.MANO_DE_OBRA.length}) · equipo ×${k.HERRAMIENTA?.toFixed(2)} (${pares.HERRAMIENTA.length})`);
+for (const [ciudad, o] of Object.entries(origenCiudad)) if (o.REFERENCIA) console.log(`  ${ciudad}: ${o.REFERENCIA} referencias propias · ${o.ESTIMADO_DESDE_REFERENCIA} estimados desde ${ciudadRef.nombre} (${Object.entries(o.relacionConReferencia).map(([t, v]) => `${t.toLowerCase()} ×${v.toFixed(3)}`).join(", ") || "sin relación"}) · ${o.COPIADO} copiados`);
 if (top.length) { console.log("  los que más destraban al relevarlos:"); for (const [id, n] of top) console.log(`    ${String(n).padStart(3)}  ${id}`); }
