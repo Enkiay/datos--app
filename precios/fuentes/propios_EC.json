@@ -112,7 +112,7 @@
           "nombre": "Cortadora de ceramica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP001",
           "precio": 0.1,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -162,7 +162,7 @@
           "nombre": "Amoladora electrica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP006",
           "precio": 4.3,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -172,7 +172,7 @@
           "nombre": "Equipo de corte y pulido plancha piedra",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP007",
           "precio": 6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -212,7 +212,7 @@
           "nombre": "Andamios",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP011",
           "precio": 0.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -272,7 +272,7 @@
           "nombre": "Concretera 1 saco",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP017",
           "precio": 4.48,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -282,7 +282,7 @@
           "nombre": "Vibrador de manguera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP018",
           "precio": 4.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -452,7 +452,7 @@
           "nombre": "Bomba estacionaria (45m Tuberia) HOLCIM",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP035",
           "precio": 12.62,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -612,7 +612,7 @@
           "nombre": "Soldadora electrica 300 a",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP051",
           "precio": 1.98,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -762,7 +762,7 @@
           "nombre": "Iluminacion interna colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP066",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -772,7 +772,7 @@
           "nombre": "Ventilacion interior colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP067",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -1132,7 +1132,7 @@
           "nombre": "Pulidora piso de madera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP103",
           "precio": 4.6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -1432,7 +1432,7 @@
           "nombre": "Equipo Elevador",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP133",
           "precio": 6.8,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Pichincha), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -1622,7 +1622,7 @@
           "nombre": "Taladro electrico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP152",
           "precio": 1.1,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Pichincha), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -1862,7 +1862,7 @@
           "nombre": "Equipo pintura",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP176",
           "precio": 2,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Pichincha), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -2502,7 +2502,7 @@
           "nombre": "Compactador mecanico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP240",
           "precio": 6.25,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -2522,7 +2522,7 @@
           "nombre": "Retroexcavadora 75 HP",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP242",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -2532,7 +2532,7 @@
           "nombre": "Compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP243",
           "precio": 0.75,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -2542,7 +2542,7 @@
           "nombre": "Tractor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP244",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -2582,7 +2582,7 @@
           "nombre": "Martillo neumatico con compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP248",
           "precio": 20,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -2592,7 +2592,7 @@
           "nombre": "Excavadora de oruga",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP249",
           "precio": 47,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -2602,7 +2602,7 @@
           "nombre": "Bomba de agua",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP250",
           "precio": 4.06,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -2612,7 +2612,7 @@
           "nombre": "Volqueta 8m3",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP251",
           "precio": 30,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -2702,7 +2702,7 @@
           "nombre": "Pulidora de piso",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP260",
           "precio": 4.6,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Quito. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -3137,7 +3137,7 @@
           "nombre": "Cortadora de ceramica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP001",
           "precio": 0.1,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -3187,7 +3187,7 @@
           "nombre": "Amoladora electrica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP006",
           "precio": 4.3,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -3197,7 +3197,7 @@
           "nombre": "Equipo de corte y pulido plancha piedra",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP007",
           "precio": 6,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -3237,7 +3237,7 @@
           "nombre": "Andamios",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP011",
           "precio": 0.06,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -3297,7 +3297,7 @@
           "nombre": "Concretera 1 saco",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP017",
           "precio": 4.48,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -3307,7 +3307,7 @@
           "nombre": "Vibrador de manguera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP018",
           "precio": 4.06,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -3477,7 +3477,7 @@
           "nombre": "Bomba estacionaria (45m Tuberia) HOLCIM",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP035",
           "precio": 12.62,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -3637,7 +3637,7 @@
           "nombre": "Soldadora electrica 300 a",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP051",
           "precio": 1.98,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -3787,7 +3787,7 @@
           "nombre": "Iluminacion interna colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP066",
           "precio": 0.05,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -3797,7 +3797,7 @@
           "nombre": "Ventilacion interior colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP067",
           "precio": 0.05,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -4157,7 +4157,7 @@
           "nombre": "Pulidora piso de madera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP103",
           "precio": 4.6,
           "nota": "RELEVADO: presupuesto real de obra (provincia de Guayas), 10-sep-2026. Precio SIN IVA — la cadena EC agrega el 15 % al final."
@@ -4457,7 +4457,7 @@
           "nombre": "Equipo Elevador",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP133",
           "precio": 6.8,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -4647,7 +4647,7 @@
           "nombre": "Taladro electrico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP152",
           "precio": 1.1,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -4887,7 +4887,7 @@
           "nombre": "Equipo pintura",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP176",
           "precio": 2,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -5527,7 +5527,7 @@
           "nombre": "Compactador mecanico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP240",
           "precio": 6.25,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -5547,7 +5547,7 @@
           "nombre": "Retroexcavadora 75 HP",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP242",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -5557,7 +5557,7 @@
           "nombre": "Compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP243",
           "precio": 0.75,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -5567,7 +5567,7 @@
           "nombre": "Tractor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP244",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -5607,7 +5607,7 @@
           "nombre": "Martillo neumatico con compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP248",
           "precio": 20,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -5617,7 +5617,7 @@
           "nombre": "Excavadora de oruga",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP249",
           "precio": 47,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -5627,7 +5627,7 @@
           "nombre": "Bomba de agua",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP250",
           "precio": 4.06,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -5637,7 +5637,7 @@
           "nombre": "Volqueta 8m3",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP251",
           "precio": 30,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -5727,7 +5727,7 @@
           "nombre": "Pulidora de piso",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP260",
           "precio": 4.6,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Guayaquil. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -6162,7 +6162,7 @@
           "nombre": "Cortadora de ceramica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP001",
           "precio": 0.1,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -6212,7 +6212,7 @@
           "nombre": "Amoladora electrica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP006",
           "precio": 4.3,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -6222,7 +6222,7 @@
           "nombre": "Equipo de corte y pulido plancha piedra",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP007",
           "precio": 6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -6262,7 +6262,7 @@
           "nombre": "Andamios",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP011",
           "precio": 0.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -6322,7 +6322,7 @@
           "nombre": "Concretera 1 saco",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP017",
           "precio": 4.48,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -6332,7 +6332,7 @@
           "nombre": "Vibrador de manguera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP018",
           "precio": 4.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -6502,7 +6502,7 @@
           "nombre": "Bomba estacionaria (45m Tuberia) HOLCIM",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP035",
           "precio": 12.62,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -6662,7 +6662,7 @@
           "nombre": "Soldadora electrica 300 a",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP051",
           "precio": 1.98,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -6812,7 +6812,7 @@
           "nombre": "Iluminacion interna colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP066",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -6822,7 +6822,7 @@
           "nombre": "Ventilacion interior colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP067",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -7182,7 +7182,7 @@
           "nombre": "Pulidora piso de madera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP103",
           "precio": 4.6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -7482,7 +7482,7 @@
           "nombre": "Equipo Elevador",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP133",
           "precio": 6.8,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -7672,7 +7672,7 @@
           "nombre": "Taladro electrico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP152",
           "precio": 1.1,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -7912,7 +7912,7 @@
           "nombre": "Equipo pintura",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP176",
           "precio": 2,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -8552,7 +8552,7 @@
           "nombre": "Compactador mecanico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP240",
           "precio": 6.25,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -8572,7 +8572,7 @@
           "nombre": "Retroexcavadora 75 HP",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP242",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -8582,7 +8582,7 @@
           "nombre": "Compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP243",
           "precio": 0.75,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -8592,7 +8592,7 @@
           "nombre": "Tractor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP244",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -8632,7 +8632,7 @@
           "nombre": "Martillo neumatico con compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP248",
           "precio": 20,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -8642,7 +8642,7 @@
           "nombre": "Excavadora de oruga",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP249",
           "precio": 47,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -8652,7 +8652,7 @@
           "nombre": "Bomba de agua",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP250",
           "precio": 4.06,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -8662,7 +8662,7 @@
           "nombre": "Volqueta 8m3",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP251",
           "precio": 30,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -8752,7 +8752,7 @@
           "nombre": "Pulidora de piso",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP260",
           "precio": 4.6,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Cuenca. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -9187,7 +9187,7 @@
           "nombre": "Cortadora de ceramica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP001",
           "precio": 0.1,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -9237,7 +9237,7 @@
           "nombre": "Amoladora electrica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP006",
           "precio": 4.3,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -9247,7 +9247,7 @@
           "nombre": "Equipo de corte y pulido plancha piedra",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP007",
           "precio": 6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -9287,7 +9287,7 @@
           "nombre": "Andamios",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP011",
           "precio": 0.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -9347,7 +9347,7 @@
           "nombre": "Concretera 1 saco",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP017",
           "precio": 4.48,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -9357,7 +9357,7 @@
           "nombre": "Vibrador de manguera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP018",
           "precio": 4.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -9527,7 +9527,7 @@
           "nombre": "Bomba estacionaria (45m Tuberia) HOLCIM",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP035",
           "precio": 12.62,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -9687,7 +9687,7 @@
           "nombre": "Soldadora electrica 300 a",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP051",
           "precio": 1.98,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -9837,7 +9837,7 @@
           "nombre": "Iluminacion interna colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP066",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -9847,7 +9847,7 @@
           "nombre": "Ventilacion interior colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP067",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -10207,7 +10207,7 @@
           "nombre": "Pulidora piso de madera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP103",
           "precio": 4.6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -10507,7 +10507,7 @@
           "nombre": "Equipo Elevador",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP133",
           "precio": 6.8,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -10697,7 +10697,7 @@
           "nombre": "Taladro electrico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP152",
           "precio": 1.1,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -10937,7 +10937,7 @@
           "nombre": "Equipo pintura",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP176",
           "precio": 2,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -11577,7 +11577,7 @@
           "nombre": "Compactador mecanico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP240",
           "precio": 6.25,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -11597,7 +11597,7 @@
           "nombre": "Retroexcavadora 75 HP",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP242",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -11607,7 +11607,7 @@
           "nombre": "Compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP243",
           "precio": 0.75,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -11617,7 +11617,7 @@
           "nombre": "Tractor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP244",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -11657,7 +11657,7 @@
           "nombre": "Martillo neumatico con compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP248",
           "precio": 20,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -11667,7 +11667,7 @@
           "nombre": "Excavadora de oruga",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP249",
           "precio": 47,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -11677,7 +11677,7 @@
           "nombre": "Bomba de agua",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP250",
           "precio": 4.06,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -11687,7 +11687,7 @@
           "nombre": "Volqueta 8m3",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP251",
           "precio": 30,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -11777,7 +11777,7 @@
           "nombre": "Pulidora de piso",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP260",
           "precio": 4.6,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Ambato. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -12212,7 +12212,7 @@
           "nombre": "Cortadora de ceramica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP001",
           "precio": 0.1,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -12262,7 +12262,7 @@
           "nombre": "Amoladora electrica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP006",
           "precio": 4.3,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -12272,7 +12272,7 @@
           "nombre": "Equipo de corte y pulido plancha piedra",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP007",
           "precio": 6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -12312,7 +12312,7 @@
           "nombre": "Andamios",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP011",
           "precio": 0.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -12372,7 +12372,7 @@
           "nombre": "Concretera 1 saco",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP017",
           "precio": 4.48,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -12382,7 +12382,7 @@
           "nombre": "Vibrador de manguera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP018",
           "precio": 4.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -12552,7 +12552,7 @@
           "nombre": "Bomba estacionaria (45m Tuberia) HOLCIM",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP035",
           "precio": 12.62,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -12712,7 +12712,7 @@
           "nombre": "Soldadora electrica 300 a",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP051",
           "precio": 1.98,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -12862,7 +12862,7 @@
           "nombre": "Iluminacion interna colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP066",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -12872,7 +12872,7 @@
           "nombre": "Ventilacion interior colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP067",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -13232,7 +13232,7 @@
           "nombre": "Pulidora piso de madera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP103",
           "precio": 4.6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -13532,7 +13532,7 @@
           "nombre": "Equipo Elevador",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP133",
           "precio": 6.8,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -13722,7 +13722,7 @@
           "nombre": "Taladro electrico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP152",
           "precio": 1.1,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -13962,7 +13962,7 @@
           "nombre": "Equipo pintura",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP176",
           "precio": 2,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -14602,7 +14602,7 @@
           "nombre": "Compactador mecanico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP240",
           "precio": 6.25,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -14622,7 +14622,7 @@
           "nombre": "Retroexcavadora 75 HP",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP242",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -14632,7 +14632,7 @@
           "nombre": "Compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP243",
           "precio": 0.75,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -14642,7 +14642,7 @@
           "nombre": "Tractor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP244",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -14682,7 +14682,7 @@
           "nombre": "Martillo neumatico con compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP248",
           "precio": 20,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -14692,7 +14692,7 @@
           "nombre": "Excavadora de oruga",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP249",
           "precio": 47,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -14702,7 +14702,7 @@
           "nombre": "Bomba de agua",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP250",
           "precio": 4.06,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -14712,7 +14712,7 @@
           "nombre": "Volqueta 8m3",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP251",
           "precio": 30,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -14802,7 +14802,7 @@
           "nombre": "Pulidora de piso",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP260",
           "precio": 4.6,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Manta. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -15237,7 +15237,7 @@
           "nombre": "Cortadora de ceramica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP001",
           "precio": 0.1,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -15287,7 +15287,7 @@
           "nombre": "Amoladora electrica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP006",
           "precio": 4.3,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -15297,7 +15297,7 @@
           "nombre": "Equipo de corte y pulido plancha piedra",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP007",
           "precio": 6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -15337,7 +15337,7 @@
           "nombre": "Andamios",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP011",
           "precio": 0.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -15397,7 +15397,7 @@
           "nombre": "Concretera 1 saco",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP017",
           "precio": 4.48,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -15407,7 +15407,7 @@
           "nombre": "Vibrador de manguera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP018",
           "precio": 4.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -15577,7 +15577,7 @@
           "nombre": "Bomba estacionaria (45m Tuberia) HOLCIM",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP035",
           "precio": 12.62,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -15737,7 +15737,7 @@
           "nombre": "Soldadora electrica 300 a",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP051",
           "precio": 1.98,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -15887,7 +15887,7 @@
           "nombre": "Iluminacion interna colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP066",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -15897,7 +15897,7 @@
           "nombre": "Ventilacion interior colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP067",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -16257,7 +16257,7 @@
           "nombre": "Pulidora piso de madera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP103",
           "precio": 4.6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -16557,7 +16557,7 @@
           "nombre": "Equipo Elevador",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP133",
           "precio": 6.8,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -16747,7 +16747,7 @@
           "nombre": "Taladro electrico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP152",
           "precio": 1.1,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -16987,7 +16987,7 @@
           "nombre": "Equipo pintura",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP176",
           "precio": 2,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -17627,7 +17627,7 @@
           "nombre": "Compactador mecanico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP240",
           "precio": 6.25,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -17647,7 +17647,7 @@
           "nombre": "Retroexcavadora 75 HP",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP242",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -17657,7 +17657,7 @@
           "nombre": "Compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP243",
           "precio": 0.75,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -17667,7 +17667,7 @@
           "nombre": "Tractor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP244",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -17707,7 +17707,7 @@
           "nombre": "Martillo neumatico con compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP248",
           "precio": 20,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -17717,7 +17717,7 @@
           "nombre": "Excavadora de oruga",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP249",
           "precio": 47,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -17727,7 +17727,7 @@
           "nombre": "Bomba de agua",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP250",
           "precio": 4.06,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -17737,7 +17737,7 @@
           "nombre": "Volqueta 8m3",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP251",
           "precio": 30,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -17827,7 +17827,7 @@
           "nombre": "Pulidora de piso",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP260",
           "precio": 4.6,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Loja. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -18262,7 +18262,7 @@
           "nombre": "Cortadora de ceramica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP001",
           "precio": 0.1,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -18312,7 +18312,7 @@
           "nombre": "Amoladora electrica",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP006",
           "precio": 4.3,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -18322,7 +18322,7 @@
           "nombre": "Equipo de corte y pulido plancha piedra",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP007",
           "precio": 6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -18362,7 +18362,7 @@
           "nombre": "Andamios",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP011",
           "precio": 0.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -18422,7 +18422,7 @@
           "nombre": "Concretera 1 saco",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP017",
           "precio": 4.48,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -18432,7 +18432,7 @@
           "nombre": "Vibrador de manguera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP018",
           "precio": 4.06,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -18602,7 +18602,7 @@
           "nombre": "Bomba estacionaria (45m Tuberia) HOLCIM",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP035",
           "precio": 12.62,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -18762,7 +18762,7 @@
           "nombre": "Soldadora electrica 300 a",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP051",
           "precio": 1.98,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -18912,7 +18912,7 @@
           "nombre": "Iluminacion interna colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP066",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -18922,7 +18922,7 @@
           "nombre": "Ventilacion interior colector",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP067",
           "precio": 0.05,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -19282,7 +19282,7 @@
           "nombre": "Pulidora piso de madera",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP103",
           "precio": 4.6,
           "nota": "COPIADO de Guayaquil: presupuesto real de obra (provincia de Guayas), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -19582,7 +19582,7 @@
           "nombre": "Equipo Elevador",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP133",
           "precio": 6.8,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -19772,7 +19772,7 @@
           "nombre": "Taladro electrico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP152",
           "precio": 1.1,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -20012,7 +20012,7 @@
           "nombre": "Equipo pintura",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP176",
           "precio": 2,
           "nota": "COPIADO de Quito: presupuesto real de obra (provincia de Pichincha), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -20652,7 +20652,7 @@
           "nombre": "Compactador mecanico",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP240",
           "precio": 6.25,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -20672,7 +20672,7 @@
           "nombre": "Retroexcavadora 75 HP",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP242",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -20682,7 +20682,7 @@
           "nombre": "Compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP243",
           "precio": 0.75,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -20692,7 +20692,7 @@
           "nombre": "Tractor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP244",
           "precio": 35,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -20732,7 +20732,7 @@
           "nombre": "Martillo neumatico con compresor",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP248",
           "precio": 20,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -20742,7 +20742,7 @@
           "nombre": "Excavadora de oruga",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP249",
           "precio": 47,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -20752,7 +20752,7 @@
           "nombre": "Bomba de agua",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP250",
           "precio": 4.06,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -20762,7 +20762,7 @@
           "nombre": "Volqueta 8m3",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP251",
           "precio": 30,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."
@@ -20852,7 +20852,7 @@
           "nombre": "Pulidora de piso",
           "categoria": "Equipo",
           "unidad": "hora",
-          "tipoInsumo": "EQUIPO",
+          "tipoInsumo": "HERRAMIENTA",
           "codigo": "EC_AP260",
           "precio": 4.6,
           "nota": "COPIADO de la provincia de Santa Elena: presupuesto real de obra (provincia de Santa Elena), 10-sep-2026, sin relevar en Machala. Precio SIN IVA. ⚠ El material varía por plaza —el acero de Guayas está 30 % sobre el de Pichincha—: revisar antes de ofertar."

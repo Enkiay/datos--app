@@ -125,7 +125,7 @@ const CONFIG = {
     },
   },
   EC: {
-    version: "v20260910b",
+    version: "v20260910c",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Ecuador: Contraloría General del Estado (salarios mínimos por ley 2026, hora real con cargas: la caja lleva cargasSociales = 0) y precios de referencia de mercado de Quito 2026. Relevado en Quito; las otras 6 ciudades COPIAN Quito (referencial) hasta relevarse. La cadena ecuatoriana agrega el IVA (15 %) al final: los insumos van sin IVA.",
     // El cemento ecuatoriano se vende por SACO de 50 kg y el boliviano por kg: no es equivalente,
     // entra como REFERENCIA convertida (referencias_EC.json). Lo mismo con galones y tubos.
@@ -159,6 +159,40 @@ const CONFIG = {
       mo_especialista_en_tesado_e_inyeccion: "ec_mo_albanil", mo_tecnico_especialista: "ec_mo_albanil", mo_tecnico_especialista_certificado: "ec_mo_albanil",
       mo_tecnico_especialista_juntas: "ec_mo_albanil", mo_plomero_certificado: "ec_mo_plomero", mo_cerrajero: "ec_mo_albanil", mo_perforista: "ec_mo_albanil",
       mo_operador_de_compactadora: "ec_mo_operador", mo_operador_de_mezcladora: "ec_mo_operador", mo_operador_de_volqueta: "ec_mo_operador",
+    },
+    // UNIFICAR (10-sep-2026): el insumo boliviano ES este producto de los presupuestos reales de
+    // obra, con LA MISMA UNIDAD (lo verifica el generador). Los ítems pasan a usar el producto
+    // ecuatoriano —nombre, unidad y precio reales— y la fila boliviana deja de publicarse.
+    // Criterio: mismo producto sin interpretar. Lo dudoso NO entra (ver abajo).
+    unificar: {
+      // Duplicados que había en la lista: el de agosto era un precio de referencia a ojo
+      // («ajustar con aportes…»); el de hoy es el de un presupuesto real de obra.
+      piedra_bruta_m3: "ec_mat_piedra_bola", piedra_para_cimiento_m3: "ec_mat_piedra_bola",
+      porcelanato_m2: "ec_mat_porcelanato_nacional",
+      mo_operador_de_equipo_pesado: "ec_mo_operador",
+      // Cemento: el hidráulico de uso general (tipo GU, INEN 2380) es el portland de obra en Ecuador.
+      cemento_portland_kg: "ec_mat_cemento_fuerte_tipo_gu_holcim_disensa", cemento_kg: "ec_mat_cemento_fuerte_tipo_gu_holcim_disensa",
+      arena_fina_m3: "ec_mat_arena_corriente_fina",
+      arena_comun_m3: "ec_mat_arena_lavada_de_rio_gruesa", arena_lavada_m3: "ec_mat_arena_lavada_de_rio_gruesa",
+      clavos_kg: "ec_mat_clavos_2_2_1_2_3_3_1_2", alambre_de_amarre_kg: "ec_mat_alambre_de_amarre_18",
+      hormigon_premezclado_h_21_m3: "ec_mat_h_premezclado_210_kg_cm2_19mm_13cm_28d_holcim",   // H-21 ≈ 210 kg/cm²
+      bloque_de_hormigon_3h_e_15_cm_pza: "ec_mat_bloque_pesado_de_15x20x40",
+      ceramica_esmaltada_30_30_m2: "ec_mat_ceramica_para_piso_30x30cm",
+      cemento_cola_facil_porcelanato_kg: "ec_mat_mortero_adhesivo_porcelanato",
+      sika_1_impermeabilizante_kg: "ec_mat_sika_1", fulminante_pza: "ec_mat_fulminante",
+      eq_vibradora: "ec_eq_vibrador_de_manguera", eq_mezcladora: "ec_eq_concretera_1_saco",
+      eq_volqueta_6_m3: "ec_eq_volqueta_8m3", eq_amoladora: "ec_eq_amoladora_electrica",
+      // NO ENTRAN, a propósito (decidir con un dato más):
+      //  · fierro_corrugado_kg → «Acero de refuerzo» a 0,81/kg: el MISMO presupuesto cotiza la
+      //    varilla a 52,34/quintal = 1,15/kg, que es justo lo que ya tiene la base. El 0,81 no cierra.
+      //  · cemento_blanco_kg → «Cemento blanco Tolteca» a 0,22/kg: la captura del catálogo decía
+      //    0,46; es el único precio que no coincidió entre las dos fuentes.
+      //  · electrodos_kg → «Electrodos» a 1,50/kg: demasiado barato (el 6011 del mismo lote, 4,40).
+      //  · grava_comun_m3 → «Piedra 3/4"», tierra_seleccionada_m3 → «Tierra clasificada»,
+      //    hormigon_premezclado_h_25_m3 → «240 kg/cm²», eq_retroexcavadora → «Retro 75 HP»,
+      //    eq_compactadora_manual_de_impacto → «Compactador mecánico», eq_bomba_de_agua_3_hp →
+      //    «Bomba de agua» (sin potencia): parecidos, no iguales.
+      //  · Todo lo que cambia de unidad (saco↔kg, galón↔litro, tubo↔metro, agua m³↔litro).
     },
     // HERRAMIENTA MENOR (5 % de la M.O.): en Ecuador NO es opcional. Se midió sobre 325 APU
     // reales exportados de presupuestos reales de obra (10-sep-2026): la llevan 323, y los 323 al 5 % exacto.
@@ -266,6 +300,20 @@ if (cfg.traducir) {
 // El insumo maestro: la primera ciudad boliviana trae los 751 con nombre/unidad/tipo/categoría.
 const maestro = ofiBO.ciudades[0].precios;
 const idPais = (idBo) => cfg.equivalentes[idBo] ?? `${iso}_${idBo}`;
+// ── UNIFICAR (10-sep-2026) ──────────────────────────────────────────────────────────────────
+// `unificar: { idBoliviano: idDelPais }` dice «este insumo boliviano ES este producto del país».
+// Distinto de `equivalentes` y `familias`, que conservan la fila derivada: acá la fila boliviana
+// DEJA DE PUBLICARSE y las líneas de los ítems apuntan al producto del país — con su nombre, su
+// unidad y su precio. Nació en Ecuador: los 375 ítems usaban «Cemento Portland» con precio de
+// referencia mientras el cemento real de los presupuestos de obra estaba en la lista, al lado,
+// sin que ningún ítem lo usara. Dos listas del mismo producto es peor que una sola.
+// ⚠ Sólo con LA MISMA UNIDAD (se verifica abajo): los rendimientos de los ítems están en la
+// unidad boliviana, y un «7 kg/m³» apuntando a un saco de 50 kg serían 350 kg.
+const unificar = cfg.unificar ?? {};
+const idLinea = (idBo) => unificar[idBo] ?? idPais(idBo);
+// Unidades que son la misma aunque se escriban distinto («Pza» del catálogo boliviano y
+// «Unidad» de los presupuestos ecuatorianos; «Hr» y «hora»).
+const uComp = (s) => { const x = u(s); return ({ pza: "u", pieza: "u", und: "u", unid: "u", unidad: "u", lt: "l", litro: "l", litros: "l", kilo: "kg", kilos: "kg" })[x] ?? x; };
 const codigoPais = (idBo, codBo) => cfg.equivalentes[idBo] ? cfg.equivalentes[idBo].toUpperCase() : `${PAIS}_${codBo}`;
 
 // Un precio del archivo del país cuenta como RELEVADO sólo si es real: lo copiado de otra
@@ -415,6 +463,12 @@ function preciosDeCiudad(c) {
 }
 preciosRef = preciosDeCiudad(ciudadRef);
 const ciudades = ofiPaisViejo.ciudades.map((c) => ({ nombre: c.nombre, precios: c === ciudadRef ? preciosRef : preciosDeCiudad(c) }));
+// Una fila se quita sólo si TODOS los insumos bolivianos que la producen se unificaron: una fila
+// equivalente la puede producir más de un id boliviano, y quitarla por uno dejaría al otro sin precio.
+const productores = new Map();
+for (const m of maestro) { const id = idPais(m.idCanonico); if (!productores.has(id)) productores.set(id, []); productores.get(id).push(m.idCanonico); }
+const quitarIds = new Set([...productores].filter(([, bos]) => bos.every((b) => unificar[b])).map(([id]) => id));
+for (const c of ciudades) c.precios = c.precios.filter((p) => !quitarIds.has(p.idCanonico));
 
 // ── INSUMOS PROPIOS DEL PAÍS ────────────────────────────────────────────────────────────────
 // Un país puede tener insumos que NO son traducción de ninguno boliviano: Ecuador (10-sep-2026)
@@ -441,12 +495,25 @@ if (existsSync(join(BASE, propiosPath))) {
   console.log(`  propios de ${PAIS} arrastrados: ${propiosN}`);
 }
 
+{
+  const errU = [];
+  for (const [bo, dest] of Object.entries(unificar)) {
+    const m = maestro.find((x) => x.idCanonico === bo);
+    const t = ciudades[0].precios.find((x) => x.idCanonico === dest);
+    if (!m) errU.push(`unificar: «${bo}» no es un insumo boliviano`);
+    else if (!t) errU.push(`unificar: «${bo}» → «${dest}», que no se publica`);
+    else if (uComp(m.unidad) !== uComp(t.unidad)) errU.push(`unificar: «${bo}» [${m.unidad}] → «${dest}» [${t.unidad}]: OTRA UNIDAD — los rendimientos de los ítems están en ${m.unidad}`);
+  }
+  if (errU.length) { console.error("✗ tabla de unificar inválida:"); for (const e of errU) console.error("  · " + e); process.exit(1); }
+  if (Object.keys(unificar).length) console.log(`  unificados con un producto de ${PAIS}: ${Object.keys(unificar).length} insumos bolivianos · ${quitarIds.size} filas que dejan de publicarse`);
+}
+
 // ── items_XX: sólo los que cierran con precio completo en TODAS las ciudades SERVIDAS ──────
 // Las líneas de PORCENTAJE (leyes sociales chilenas) no llevan precio: no cuentan como faltante.
 const servidas = ciudades.filter((c) => c.precios.length);
 const conPrecio = new Set();
 for (const m of maestro) {
-  if (servidas.every((c) => (c.precios.find((p) => p.idCanonico === idPais(m.idCanonico))?.precio ?? 0) > 0)) conPrecio.add(m.idCanonico);
+  if (servidas.every((c) => (c.precios.find((p) => p.idCanonico === idLinea(m.idCanonico))?.precio ?? 0) > 0)) conPrecio.add(m.idCanonico);
 }
 const primeraServida = ofiPaisViejo.ciudades.find(servida) ?? { precios: [] };
 const items = [];
@@ -458,6 +525,11 @@ for (const it of itemsBO.items) {
   for (const id of faltan) bloqueo.set(id, (bloqueo.get(id) ?? 0) + 1);
   if (faltan.length) continue;
   const insumos = it.insumos.map((s) => {
+    const dest = unificar[s.idCanonico];
+    if (dest) {
+      const t = ciudades[0].precios.find((x) => x.idCanonico === dest);
+      return { ...s, idCanonico: dest, codigo: t.codigo ?? "", nombre: t.nombre, unidad: t.unidad, tipoInsumo: t.tipoInsumo, categoria: t.categoria ?? s.categoria, precio: 0 };
+    }
     const viejo = primeraServida.precios.find((x) => x.idCanonico === cfg.equivalentes[s.idCanonico]);
     return {
       ...s, idCanonico: idPais(s.idCanonico), codigo: codigoPais(s.idCanonico, s.codigo),
