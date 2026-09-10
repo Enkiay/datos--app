@@ -125,7 +125,7 @@ const CONFIG = {
     },
   },
   EC: {
-    version: "v20260910-herramienta-menor",
+    version: "v20260910b",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Ecuador: Contraloría General del Estado (salarios mínimos por ley 2026, hora real con cargas: la caja lleva cargasSociales = 0) y precios de referencia de mercado de Quito 2026. Relevado en Quito; las otras 6 ciudades COPIAN Quito (referencial) hasta relevarse. La cadena ecuatoriana agrega el IVA (15 %) al final: los insumos van sin IVA.",
     // El cemento ecuatoriano se vende por SACO de 50 kg y el boliviano por kg: no es equivalente,
     // entra como REFERENCIA convertida (referencias_EC.json). Lo mismo con galones y tubos.
@@ -161,7 +161,7 @@ const CONFIG = {
       mo_operador_de_compactadora: "ec_mo_operador", mo_operador_de_mezcladora: "ec_mo_operador", mo_operador_de_volqueta: "ec_mo_operador",
     },
     // HERRAMIENTA MENOR (5 % de la M.O.): en Ecuador NO es opcional. Se midió sobre 325 APU
-    // reales exportados de APUCONS (10-sep-2026): la llevan 323, y los 323 al 5 % exacto.
+    // reales exportados de presupuestos reales de obra (10-sep-2026): la llevan 323, y los 323 al 5 % exacto.
     // Va DENTRO del costo directo, en el cajón de EQUIPO —la cadena ECU suma D + E + C—, así
     // que no se pisa con los indirectos ni con la utilidad. Mismo mecanismo que las leyes
     // sociales chilenas. Sin esta línea, los 375 ítems derivados de Bolivia cotizan un APU
@@ -418,7 +418,7 @@ const ciudades = ofiPaisViejo.ciudades.map((c) => ({ nombre: c.nombre, precios: 
 
 // ── INSUMOS PROPIOS DEL PAÍS ────────────────────────────────────────────────────────────────
 // Un país puede tener insumos que NO son traducción de ninguno boliviano: Ecuador (10-sep-2026)
-// entró 302 sacados de presupuestos reales de APUCONS, con nombre comercial de allá («Cemento
+// entró 302 sacados de presupuestos reales de obra, con nombre comercial de allá («Cemento
 // Fuerte Tipo GU - Holcim DISENSA», «Eurolit 6 ondas»). Sin esto, la primera regeneración los
 // BORRABA — el generador escribe exactamente los 751 bolivianos y nada más.
 // Viven en `precios/fuentes/propios_XX.json`, con la misma forma que oficiales_XX (ciudades[]),
