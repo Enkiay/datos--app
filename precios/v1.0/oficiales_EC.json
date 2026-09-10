@@ -1,8 +1,8 @@
 {
-  "version": "v20260910-insumos-apucons",
+  "version": "v20260910-herramienta-menor",
   "fuente": "Base boliviana (catálogo ArqOn) + precios de Ecuador: Contraloría General del Estado (salarios mínimos por ley 2026, hora real con cargas: la caja lleva cargasSociales = 0) y precios de referencia de mercado de Quito 2026. Relevado en Quito; las otras 6 ciudades COPIAN Quito (referencial) hasta relevarse. La cadena ecuatoriana agrega el IVA (15 %) al final: los insumos van sin IVA.",
   "pais": "EC",
-  "nota": "Base de EC DERIVADA de la boliviana (2-sep-2026): los 751 insumos de Bolivia bajo el espacio ec_, en las 7 ciudades de la caja. Cada precio dice en su nota de dónde salió — en Quito: 74 RELEVADOS, 273 por REFERENCIA (fuente citada), 404 ESTIMADOS por relación con Bolivia (material ×0.10, M.O. ×0.21, equipo ×0.13; revisar antes de ofertar), 0 PENDIENTES en 0. Las otras ciudades copian Quito hasta relevarse. Ítems publicados: los que cierran con precio completo (375 de 375). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_EC.json). · 10-sep-2026: entran 10 categorías de MANO DE OBRA con su estructura ocupacional del SERCOP, sacadas de 6 presupuestos reales de APUCONS; 8 de las que ya estaban quedan CONFIRMADAS por esa segunda fuente. · 10-sep-2026: entran 292 INSUMOS ecuatorianos reales de APUCONS (112 relevados en Guayas —la plaza elegida—, 72 en Pichincha, 108 en Santa Elena), copiados a las 7 ciudades como se hace en Bolivia. Cada nota dice dónde se relevó y a dónde se copió.",
+  "nota": "Base de EC DERIVADA de la boliviana (2-sep-2026): los 751 insumos de Bolivia bajo el espacio ec_ más 302 PROPIOS del país (precios/fuentes/propios_EC.json), en las 7 ciudades de la caja. Cada precio dice en su nota de dónde salió — en Quito: 74 RELEVADOS, 273 por REFERENCIA (fuente citada), 404 ESTIMADOS por relación con Bolivia (material ×0.10, M.O. ×0.21, equipo ×0.13; revisar antes de ofertar), 0 PENDIENTES en 0. Las otras ciudades copian Quito hasta relevarse. Ítems publicados: los que cierran con precio completo (375 de 375). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_EC.json).",
   "origenPrecios": {
     "ciudadReferencia": "Quito",
     "RELEVADO": 74,
@@ -19,20 +19,73 @@
       "MANO_DE_OBRA": 33,
       "HERRAMIENTA": 33
     },
-    "manoDeObraSercop": {
-      "version": "v20260910-mo-sercop",
-      "fuente": "APUCONS · 6 presupuestos (Guayas, Pichincha, Santa Elena)",
-      "categoriasNuevas": 10,
-      "categoriasConfirmadas": 8,
-      "nacional": true
-    },
-    "insumosApucons": {
-      "version": "v20260910-insumos-apucons",
-      "nuevos": 292,
-      "deGuayas": 112,
-      "dePichincha": 72,
-      "deSantaElena": 108,
-      "plazaElegida": "Guayas"
+    "porCiudad": {
+      "Guayaquil": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Cuenca": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Ambato": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Manta": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Loja": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Machala": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      }
     }
   },
   "precios": [],
@@ -4568,7 +4621,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_ALBANIL",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_fierrero",
@@ -4578,7 +4631,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_FIERRERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_peon",
@@ -4588,7 +4641,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PEON",
           "precio": 4.34,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional E2."
+          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_capataz",
@@ -4608,7 +4661,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_CARPINTERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_carpintero_en_aluminio",
@@ -4668,7 +4721,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_MAESTRO",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_especialista_calificado",
@@ -4778,7 +4831,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_OPERADOR",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_operador_de_topadora",
@@ -4818,7 +4871,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PINTOR",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero",
@@ -4828,7 +4881,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PLOMERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero_certificado",
@@ -15103,7 +15156,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_ALBANIL",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Guayaquil). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_fierrero",
@@ -15113,7 +15166,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_FIERRERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Guayaquil). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_peon",
@@ -15123,7 +15176,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PEON",
           "precio": 4.34,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional E2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Guayaquil). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_capataz",
@@ -15143,7 +15196,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_CARPINTERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Guayaquil). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_carpintero_en_aluminio",
@@ -15203,7 +15256,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_MAESTRO",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Guayaquil). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_especialista_calificado",
@@ -15313,7 +15366,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_OPERADOR",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Guayaquil). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_operador_de_topadora",
@@ -15353,7 +15406,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PINTOR",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Guayaquil). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero",
@@ -15363,7 +15416,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PLOMERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Guayaquil). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero_certificado",
@@ -25638,7 +25691,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_ALBANIL",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Cuenca). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_fierrero",
@@ -25648,7 +25701,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_FIERRERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Cuenca). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_peon",
@@ -25658,7 +25711,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PEON",
           "precio": 4.34,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional E2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Cuenca). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_capataz",
@@ -25678,7 +25731,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_CARPINTERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Cuenca). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_carpintero_en_aluminio",
@@ -25738,7 +25791,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_MAESTRO",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Cuenca). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_especialista_calificado",
@@ -25848,7 +25901,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_OPERADOR",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Cuenca). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_operador_de_topadora",
@@ -25888,7 +25941,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PINTOR",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Cuenca). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero",
@@ -25898,7 +25951,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PLOMERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Cuenca). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero_certificado",
@@ -36173,7 +36226,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_ALBANIL",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Ambato). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_fierrero",
@@ -36183,7 +36236,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_FIERRERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Ambato). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_peon",
@@ -36193,7 +36246,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PEON",
           "precio": 4.34,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional E2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Ambato). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_capataz",
@@ -36213,7 +36266,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_CARPINTERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Ambato). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_carpintero_en_aluminio",
@@ -36273,7 +36326,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_MAESTRO",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Ambato). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_especialista_calificado",
@@ -36383,7 +36436,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_OPERADOR",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Ambato). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_operador_de_topadora",
@@ -36423,7 +36476,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PINTOR",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Ambato). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero",
@@ -36433,7 +36486,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PLOMERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Ambato). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero_certificado",
@@ -46708,7 +46761,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_ALBANIL",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Manta). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_fierrero",
@@ -46718,7 +46771,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_FIERRERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Manta). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_peon",
@@ -46728,7 +46781,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PEON",
           "precio": 4.34,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional E2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Manta). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_capataz",
@@ -46748,7 +46801,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_CARPINTERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Manta). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_carpintero_en_aluminio",
@@ -46808,7 +46861,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_MAESTRO",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Manta). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_especialista_calificado",
@@ -46918,7 +46971,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_OPERADOR",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Manta). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_operador_de_topadora",
@@ -46958,7 +47011,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PINTOR",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Manta). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero",
@@ -46968,7 +47021,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PLOMERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Manta). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero_certificado",
@@ -57243,7 +57296,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_ALBANIL",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Loja). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_fierrero",
@@ -57253,7 +57306,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_FIERRERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Loja). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_peon",
@@ -57263,7 +57316,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PEON",
           "precio": 4.34,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional E2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Loja). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_capataz",
@@ -57283,7 +57336,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_CARPINTERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Loja). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_carpintero_en_aluminio",
@@ -57343,7 +57396,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_MAESTRO",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Loja). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_especialista_calificado",
@@ -57453,7 +57506,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_OPERADOR",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Loja). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_operador_de_topadora",
@@ -57493,7 +57546,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PINTOR",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Loja). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero",
@@ -57503,7 +57556,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PLOMERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Loja). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero_certificado",
@@ -67778,7 +67831,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_ALBANIL",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Machala). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_fierrero",
@@ -67788,7 +67841,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_FIERRERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Machala). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_peon",
@@ -67798,7 +67851,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PEON",
           "precio": 4.34,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional E2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Machala). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_capataz",
@@ -67818,7 +67871,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_CARPINTERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Machala). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_carpintero_en_aluminio",
@@ -67878,7 +67931,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_MAESTRO",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Machala). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_especialista_calificado",
@@ -67988,7 +68041,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_OPERADOR",
           "precio": 4.87,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional C1."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Machala). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_operador_de_topadora",
@@ -68028,7 +68081,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PINTOR",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Machala). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero",
@@ -68038,7 +68091,7 @@
           "tipoInsumo": "MANO_DE_OBRA",
           "codigo": "EC_MO_PLOMERO",
           "precio": 4.39,
-          "nota": "Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). CONFIRMADO contra 6 presupuestos reales exportados de APUCONS (10-sep-2026): mismo valor en Guayas, Pichincha y Santa Elena — la M.O. ecuatoriana es NACIONAL. Estructura ocupacional D2."
+          "nota": "COPIADO de Quito (referencial, sin relevar en Machala). Salario real horario, tabla 2026 de la Contraloría General del Estado (incluye cargas sociales). A validar contra el PDF oficial."
         },
         {
           "idCanonico": "ec_mo_plomero_certificado",

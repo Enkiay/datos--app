@@ -125,7 +125,7 @@ const CONFIG = {
     },
   },
   EC: {
-    version: "v20260902-referencias-contraloria",
+    version: "v20260910-herramienta-menor",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Ecuador: Contraloría General del Estado (salarios mínimos por ley 2026, hora real con cargas: la caja lleva cargasSociales = 0) y precios de referencia de mercado de Quito 2026. Relevado en Quito; las otras 6 ciudades COPIAN Quito (referencial) hasta relevarse. La cadena ecuatoriana agrega el IVA (15 %) al final: los insumos van sin IVA.",
     // El cemento ecuatoriano se vende por SACO de 50 kg y el boliviano por kg: no es equivalente,
     // entra como REFERENCIA convertida (referencias_EC.json). Lo mismo con galones y tubos.
@@ -160,6 +160,16 @@ const CONFIG = {
       mo_tecnico_especialista_juntas: "ec_mo_albanil", mo_plomero_certificado: "ec_mo_plomero", mo_cerrajero: "ec_mo_albanil", mo_perforista: "ec_mo_albanil",
       mo_operador_de_compactadora: "ec_mo_operador", mo_operador_de_mezcladora: "ec_mo_operador", mo_operador_de_volqueta: "ec_mo_operador",
     },
+    // HERRAMIENTA MENOR (5 % de la M.O.): en Ecuador NO es opcional. Se midió sobre 325 APU
+    // reales exportados de APUCONS (10-sep-2026): la llevan 323, y los 323 al 5 % exacto.
+    // Va DENTRO del costo directo, en el cajón de EQUIPO —la cadena ECU suma D + E + C—, así
+    // que no se pisa con los indirectos ni con la utilidad. Mismo mecanismo que las leyes
+    // sociales chilenas. Sin esta línea, los 375 ítems derivados de Bolivia cotizan un APU
+    // ecuatoriano al que le falta un renglón que el SERCOP espera ver.
+    lineasExtra: (it) => it.insumos.some((s) => s.tipoInsumo === "MANO_DE_OBRA") ? [{
+      nombre: "Herramienta menor (5 % de la M.O.)", unidad: "%", tipoInsumo: "HERRAMIENTA", categoria: "Equipo",
+      rendimiento: 5, precio: 0, tipoCalculo: "PORCENTAJE", baseCalculo: "MO", idCanonico: "ec_eq_herramienta_menor", codigo: "",
+    }] : [],
   },
   CO: {
     version: "v20260902-referencias-ffie",
@@ -406,6 +416,31 @@ function preciosDeCiudad(c) {
 preciosRef = preciosDeCiudad(ciudadRef);
 const ciudades = ofiPaisViejo.ciudades.map((c) => ({ nombre: c.nombre, precios: c === ciudadRef ? preciosRef : preciosDeCiudad(c) }));
 
+// ── INSUMOS PROPIOS DEL PAÍS ────────────────────────────────────────────────────────────────
+// Un país puede tener insumos que NO son traducción de ninguno boliviano: Ecuador (10-sep-2026)
+// entró 302 sacados de presupuestos reales de APUCONS, con nombre comercial de allá («Cemento
+// Fuerte Tipo GU - Holcim DISENSA», «Eurolit 6 ondas»). Sin esto, la primera regeneración los
+// BORRABA — el generador escribe exactamente los 751 bolivianos y nada más.
+// Viven en `precios/fuentes/propios_XX.json`, con la misma forma que oficiales_XX (ciudades[]),
+// y se arrastran TAL CUAL: su precio no lo decide este generador.
+const propiosPath = `precios/fuentes/propios_${PAIS}.json`;
+let propiosN = 0;
+if (existsSync(join(BASE, propiosPath))) {
+  const propios = leer(propiosPath);
+  const derivados = new Set(ciudades[0].precios.map((p) => p.idCanonico));
+  for (const c of ciudades) {
+    const suyos = (propios.ciudades.find((x) => x.nombre === c.nombre)?.precios ?? []);
+    for (const p of suyos) {
+      // ⚠ Si un propio choca con un id derivado, el derivado manda y se avisa: pisarlo en
+      // silencio dejaría dos verdades para el mismo insumo.
+      if (derivados.has(p.idCanonico)) { console.warn(`  aviso: ${p.idCanonico} es propio Y derivado; gana el derivado`); continue; }
+      c.precios.push(p);
+    }
+  }
+  propiosN = ciudades[0].precios.length - derivados.size;
+  console.log(`  propios de ${PAIS} arrastrados: ${propiosN}`);
+}
+
 // ── items_XX: sólo los que cierran con precio completo en TODAS las ciudades SERVIDAS ──────
 // Las líneas de PORCENTAJE (leyes sociales chilenas) no llevan precio: no cuentan como faltante.
 const servidas = ciudades.filter((c) => c.precios.length);
@@ -463,10 +498,11 @@ for (const i of items) for (const s of i.insumos.filter((x) => x.tipoCalculo !==
 if (err.length) { console.error("✗ derivación inválida:"); for (const e of err.slice(0, 20)) console.error("  · " + e); process.exit(1); }
 
 const zerosPorCiudad = Math.max(...servidas.map((c) => c.precios.filter((p) => !p.precio).length));
-const salidaItems = { version: cfg.version, schemaVersion: itemsBO.schemaVersion ?? 1, items };
+// ⚠ `pais` lo declaran los catálogos desde b7b75eb y este generador lo BORRABA al regenerar.
+const salidaItems = { version: cfg.version, schemaVersion: itemsBO.schemaVersion ?? 1, pais: PAIS, items };
 const salidaPrecios = {
   version: cfg.version, fuente: cfg.fuente, pais: PAIS,
-  nota: `Base de ${PAIS} DERIVADA de la boliviana (2-sep-2026): los ${maestro.length} insumos de Bolivia bajo el espacio ${iso}_, en las ${ciudades.length} ciudades de la caja. Cada precio dice en su nota de dónde salió — en ${ciudadRef.nombre}: ${origen.RELEVADO} RELEVADOS, ${origen.REFERENCIA} por REFERENCIA (fuente citada), ${origen.ESTIMADO} ESTIMADOS por relación con Bolivia (material ×${k.MATERIAL?.toFixed(2)}, M.O. ×${k.MANO_DE_OBRA?.toFixed(2)}, equipo ×${k.HERRAMIENTA?.toFixed(2)}; revisar antes de ofertar), ${origen.PENDIENTE} PENDIENTES en 0. Las otras ciudades copian ${ciudadRef.nombre} hasta relevarse. Ítems publicados: los que cierran con precio completo (${items.length} de ${itemsBO.items.length}). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_${PAIS}.json).`,
+  nota: `Base de ${PAIS} DERIVADA de la boliviana (2-sep-2026): los ${maestro.length} insumos de Bolivia bajo el espacio ${iso}_${propiosN ? ` más ${propiosN} PROPIOS del país (precios/fuentes/propios_${PAIS}.json)` : ""}, en las ${ciudades.length} ciudades de la caja. Cada precio dice en su nota de dónde salió — en ${ciudadRef.nombre}: ${origen.RELEVADO} RELEVADOS, ${origen.REFERENCIA} por REFERENCIA (fuente citada), ${origen.ESTIMADO} ESTIMADOS por relación con Bolivia (material ×${k.MATERIAL?.toFixed(2)}, M.O. ×${k.MANO_DE_OBRA?.toFixed(2)}, equipo ×${k.HERRAMIENTA?.toFixed(2)}; revisar antes de ofertar), ${origen.PENDIENTE} PENDIENTES en 0. Las otras ciudades copian ${ciudadRef.nombre} hasta relevarse. Ítems publicados: los que cierran con precio completo (${items.length} de ${itemsBO.items.length}). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_${PAIS}.json).`,
   origenPrecios: { ciudadReferencia: ciudadRef.nombre, ...origen, relacionConBolivia: k, paresMedidos: Object.fromEntries(Object.entries(pares).map(([t, a]) => [t, a.length])), porCiudad: origenCiudad },
   precios: [],
   ciudades,

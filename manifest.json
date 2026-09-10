@@ -63,11 +63,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_ES.json"
     },
     "catalogo_EC": {
-      "version": "v20260902-referencias-contraloria",
+      "version": "v20260910-herramienta-menor",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_EC.json"
     },
     "precios_EC": {
-      "version": "v20260910-insumos-apucons",
+      "version": "v20260910-herramienta-menor",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_EC.json"
     },
     "catalogo_CO": {
