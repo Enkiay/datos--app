@@ -1,5 +1,5 @@
 {
-  "version": "v20260902-sinapi",
+  "version": "v20260910-br-nombres-unicos",
   "schemaVersion": 1,
   "pais": "BR",
   "items": [
@@ -5043,7 +5043,7 @@
     },
     {
       "codigo": "OG001BR",
-      "nombre": "Camada de Concreto Magro",
+      "nombre": "Contrapiso de Concreto Magro",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
       "unidadResultado": "m3",
@@ -6971,7 +6971,7 @@
     },
     {
       "codigo": "UH021BR",
-      "nombre": "Escada de Concreto Armado",
+      "nombre": "Escada de Concreto Armado por Degraus",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Cantidad",
       "unidadResultado": "m3",
@@ -16595,7 +16595,7 @@
     },
     {
       "codigo": "AC041BR",
-      "nombre": "Rodapé Cerâmico",
+      "nombre": "Rodapé Cerâmico com Argamassa",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
       "unidadResultado": "m",

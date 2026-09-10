@@ -240,7 +240,7 @@ const CONFIG = {
     },
   },
   BR: {
-    version: "v20260902-sinapi",
+    version: "v20260910-br-nombres-unicos",
     fuente: "Base boliviana (catálogo ArqOn), traducida al portugués, + precios del SINAPI (Caixa/IBGE), praça São Paulo, regime DESONERADO. La mano de obra del SINAPI es hora bruta CON encargos complementares pero SEM encargos sociais: los 85 % de la caja brasileña (cargasSocialesDefecto) SÍ se aplican encima. El recargo brasileño es el BDI, uno solo y multiplicativo (Acórdão 2622/2013 del TCU), y los tributos van adentro: por eso la cadena no lleva IVA y los insumos van como se compran.",
     // Brasil es el PRIMER país sin base previa: no hay relevados_BR.json, las ciudades se declaran
     // acá y TODO el precio entra por referencias (SINAPI) o por relación con Bolivia.
@@ -571,6 +571,23 @@ if (err.length) { console.error("✗ derivación inválida:"); for (const e of e
 
 const zerosPorCiudad = Math.max(...servidas.map((c) => c.precios.filter((p) => !p.precio).length));
 // ⚠ `pais` lo declaran los catálogos desde b7b75eb y este generador lo BORRABA al regenerar.
+// NINGÚN NOMBRE REPETIDO (10-sep-2026). La APK trata como el MISMO ítem a dos que tienen igual nombre,
+// unidad y tipo de cálculo, y se queda con uno: en Brasil, tres pares traducidos igual («Carpeta H°P°» y
+// «Capa de hormigón pobre» → «Camada de Concreto Magro»…) dejaban 372 ítems visibles de 375. Mejor que no
+// se publique a que desaparezcan en silencio.
+{
+  const normNom = (x) => String(x ?? "").trim().toLowerCase().replace(/×/g, "x").replace(/\s+/g, " ");
+  const vistos = new Map(), repetidos = [];
+  for (const it of items) {
+    const k = [normNom(it.nombre), String(it.unidadResultado ?? "").trim().toLowerCase(), it.tipoCalculo].join("|");
+    if (vistos.has(k)) repetidos.push(`${vistos.get(k)} y ${it.codigo}: «${it.nombre}»`);
+    else vistos.set(k, it.codigo);
+  }
+  if (repetidos.length) {
+    console.error(`✗ ${PAIS}: ${repetidos.length} ítems con el MISMO nombre, unidad y tipo (la APK los junta en uno):\n  ` + repetidos.join("\n  "));
+    process.exit(1);
+  }
+}
 const salidaItems = { version: cfg.version, schemaVersion: itemsBO.schemaVersion ?? 1, pais: PAIS, items };
 const salidaPrecios = {
   version: cfg.version, fuente: cfg.fuente, pais: PAIS,

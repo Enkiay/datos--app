@@ -1,5 +1,5 @@
 {
-  "version": "v20260902-sinapi",
+  "version": "v20260910-br-nombres-unicos",
   "fuente": "Base boliviana (catálogo ArqOn), traducida al portugués, + precios del SINAPI (Caixa/IBGE), praça São Paulo, regime DESONERADO. La mano de obra del SINAPI es hora bruta CON encargos complementares pero SEM encargos sociais: los 85 % de la caja brasileña (cargasSocialesDefecto) SÍ se aplican encima. El recargo brasileño es el BDI, uno solo y multiplicativo (Acórdão 2622/2013 del TCU), y los tributos van adentro: por eso la cadena no lleva IVA y los insumos van como se compran.",
   "pais": "BR",
   "nota": "Base de BR DERIVADA de la boliviana (2-sep-2026): los 751 insumos de Bolivia bajo el espacio br_, en las 10 ciudades de la caja. Cada precio dice en su nota de dónde salió — en São Paulo: 0 RELEVADOS, 138 por REFERENCIA (fuente citada), 613 ESTIMADOS por relación con Bolivia (material ×0.63, M.O. ×1.75, equipo ×0.69; revisar antes de ofertar), 0 PENDIENTES en 0. Las otras ciudades copian São Paulo hasta relevarse. Ítems publicados: los que cierran con precio completo (375 de 375). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_BR.json).",
@@ -18,6 +18,107 @@
       "MATERIAL": 72,
       "MANO_DE_OBRA": 34,
       "HERRAMIENTA": 32
+    },
+    "porCiudad": {
+      "Rio de Janeiro": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Belo Horizonte": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Brasília": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Curitiba": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Porto Alegre": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Salvador": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Recife": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Fortaleza": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      },
+      "Manaus": {
+        "REFERENCIA": 0,
+        "ESTIMADO_DESDE_REFERENCIA": 0,
+        "COPIADO": 751,
+        "relacionConReferencia": {},
+        "paresMedidos": {
+          "MATERIAL": 0,
+          "MANO_DE_OBRA": 0,
+          "HERRAMIENTA": 0
+        }
+      }
     }
   },
   "precios": [],

@@ -373,9 +373,9 @@
   },
   {
     "codigo": "OG001",
-    "pt": "Camada de Concreto Magro",
-    "confianza": "MEDIA",
-    "nota": "«Carpeta H°P°» lida como camada de hormigón pobre = concreto magro."
+    "pt": "Contrapiso de Concreto Magro",
+    "confianza": "ALTA",
+    "nota": "«Carpeta H°P°» = contrapiso (camada de nivelação) de concreto magro. Distinto de UH003 «Capa de hormigón pobre» (camada sob fundações), que é «Camada de Concreto Magro»: com o mesmo nome, a APK juntava os dois."
   },
   {
     "codigo": "OG003",
@@ -445,9 +445,9 @@
   },
   {
     "codigo": "UH021",
-    "pt": "Escada de Concreto Armado",
+    "pt": "Escada de Concreto Armado por Degraus",
     "confianza": "ALTA",
-    "nota": ""
+    "nota": "Calculada por piso, espelho e degraus. Distinto de OG018 «Escalera de H°A°» («Escada de Concreto Armado», por volume C×L×A): com o mesmo nome, a APK juntava os dois."
   },
   {
     "codigo": "OG019",
@@ -967,9 +967,9 @@
   },
   {
     "codigo": "AC041",
-    "pt": "Rodapé Cerâmico",
+    "pt": "Rodapé Cerâmico com Argamassa",
     "confianza": "ALTA",
-    "nota": ""
+    "nota": "«Zócalo de Cerámica» assentado com argamassa (cimento, areia fina, cimento branco). Distinto de AC008 «Contrazócalo» («Rodapé Cerâmico», com argamassa colante): com o mesmo nome, a APK juntava os dois."
   },
   {
     "codigo": "AC042",
