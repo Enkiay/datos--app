@@ -47,11 +47,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PE.json"
     },
     "catalogo_CL": {
-      "version": "v20260902-referencias-sodimac",
+      "version": "v20260911-acero-corrugado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_CL.json"
     },
     "precios_CL": {
-      "version": "v20260902-referencias-sodimac",
+      "version": "v20260911-acero-corrugado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_CL.json"
     },
     "catalogo_ES": {
@@ -63,35 +63,35 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_ES.json"
     },
     "catalogo_EC": {
-      "version": "v20260910c",
+      "version": "v20260911-acero-corrugado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_EC.json"
     },
     "precios_EC": {
-      "version": "v20260910c",
+      "version": "v20260911-acero-corrugado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_EC.json"
     },
     "catalogo_CO": {
-      "version": "v20260902-referencias-ffie",
+      "version": "v20260911-acero-corrugado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_CO.json"
     },
     "precios_CO": {
-      "version": "v20260902-referencias-ffie",
+      "version": "v20260911-acero-corrugado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_CO.json"
     },
     "catalogo_AR": {
-      "version": "v20260907-referencias-ba-rosario",
+      "version": "v20260911-acero-corrugado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_AR.json"
     },
     "precios_AR": {
-      "version": "v20260907-referencias-ba-rosario",
+      "version": "v20260911-acero-corrugado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_AR.json"
     },
     "catalogo_PY": {
-      "version": "v20260902-referencias-capaco-neto",
+      "version": "v20260911-acero-corrugado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_PY.json"
     },
     "precios_PY": {
-      "version": "v20260902-referencias-capaco-neto",
+      "version": "v20260911-acero-corrugado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PY.json"
     },
     "catalogo_BR": {

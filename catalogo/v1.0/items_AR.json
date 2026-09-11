@@ -1,5 +1,5 @@
 {
-  "version": "v20260907-referencias-ba-rosario",
+  "version": "v20260911-acero-corrugado",
   "schemaVersion": 1,
   "items": [
     {
@@ -38429,7 +38429,7 @@
           "codigo": "AR_PL026"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -38441,7 +38441,7 @@
           "codigo": "AR_AC016"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",

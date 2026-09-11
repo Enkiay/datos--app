@@ -1,5 +1,5 @@
 {
-  "version": "v20260910c",
+  "version": "v20260911-acero-corrugado",
   "schemaVersion": 1,
   "pais": "EC",
   "items": [
@@ -42906,7 +42906,7 @@
           "codigo": "EC_PL026"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -42918,7 +42918,7 @@
           "codigo": "EC_AC016"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",

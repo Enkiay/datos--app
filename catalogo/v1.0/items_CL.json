@@ -1,5 +1,5 @@
 {
-  "version": "v20260902-referencias-sodimac",
+  "version": "v20260911-acero-corrugado",
   "schemaVersion": 1,
   "pais": "CL",
   "items": [
@@ -262,7 +262,7 @@
       "tipoIfc": "RAILING",
       "insumos": [
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -1831,7 +1831,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -2279,7 +2279,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -2467,7 +2467,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -2661,7 +2661,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -5935,7 +5935,7 @@
           "codigo": "CL_MAT_CEMENTO"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -6160,7 +6160,7 @@
           "codigo": "CL_MAT_MADERA"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -6622,7 +6622,7 @@
           "codigo": "CL_MAT_CEMENTO"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -6870,7 +6870,7 @@
           "codigo": "CL_MAT_CLAVOS"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -7010,7 +7010,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -7151,7 +7151,7 @@
           "codigo": "CL_IM001"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -7339,7 +7339,7 @@
           "codigo": "CL_IM001"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -7527,7 +7527,7 @@
           "codigo": "CL_IM001"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -7667,7 +7667,7 @@
           "codigo": "CL_MAT_CEMENTO"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -7879,7 +7879,7 @@
           "codigo": "CL_MAT_CEMENTO"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -8269,7 +8269,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -8462,7 +8462,7 @@
           "codigo": "CL_CB015"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -8656,7 +8656,7 @@
           "codigo": "CL_CB015"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -8850,7 +8850,7 @@
           "codigo": "CL_CB015"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -9044,7 +9044,7 @@
           "codigo": "CL_MAT_CEMENTO"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -9383,7 +9383,7 @@
           "codigo": "CL_MAT_CEMENTO"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -13115,7 +13115,7 @@
           "codigo": "CL_MAT_ARENA_GRUESA"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -15457,7 +15457,7 @@
           "codigo": "CL_FE055"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -15615,7 +15615,7 @@
           "codigo": "CL_FE056"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -15773,7 +15773,7 @@
           "codigo": "CL_FE053"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -15931,7 +15931,7 @@
           "codigo": "CL_FE054"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -22468,7 +22468,7 @@
           "codigo": "CL_MAT_ARENA_GRUESA"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -22578,7 +22578,7 @@
           "codigo": "CL_MAT_ARENA_GRUESA"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -22793,7 +22793,7 @@
           "codigo": "CL_MAT_ARENA_FINA"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -24085,7 +24085,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -24228,7 +24228,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -24347,7 +24347,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -24464,7 +24464,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -24593,7 +24593,7 @@
           "codigo": "CL_MAT_MADERA"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -24709,7 +24709,7 @@
           "codigo": "CL_MAT_CEMENTO"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -26746,7 +26746,7 @@
           "codigo": "CL_MAT_MADERA"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -26903,7 +26903,7 @@
           "codigo": "CL_MAT_MADERA"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -33648,7 +33648,7 @@
           "codigo": "CL_MAT_CEMENTO"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -33821,7 +33821,7 @@
           "codigo": "CL_MAT_CEMENTO"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -36142,7 +36142,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -38621,7 +38621,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -38704,7 +38704,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -40116,7 +40116,7 @@
           "codigo": "CL_MAT_CLAVOS"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -40696,7 +40696,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -40932,7 +40932,7 @@
           "codigo": "CL_AG011"
         },
         {
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -42906,7 +42906,7 @@
           "codigo": "CL_PL026"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",
@@ -42918,7 +42918,7 @@
           "codigo": "CL_AC016"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero/Fierro de construcción",

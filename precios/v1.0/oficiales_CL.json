@@ -1,5 +1,5 @@
 {
-  "version": "v20260902-referencias-sodimac",
+  "version": "v20260911-acero-corrugado",
   "fuente": "Base boliviana (catálogo ArqOn) + precios de Chile: índices públicos de materiales (factoIA, ObraMaestra, CalculaObra) y un APU chileno real, jun-jul 2026. Relevado en Santiago; las otras 15 ciudades COPIAN Santiago (referencial) hasta relevarse.",
   "pais": "CL",
   "nota": "Base de CL DERIVADA de la boliviana (2-sep-2026): los 751 insumos de Bolivia bajo el espacio cl_, en las 16 ciudades de la caja. Cada precio dice en su nota de dónde salió — en Santiago (STGO): 39 RELEVADOS, 307 por REFERENCIA (fuente citada), 405 ESTIMADOS por relación con Bolivia (material ×89.52, M.O. ×156.68, equipo ×125.22; revisar antes de ofertar), 0 PENDIENTES en 0. Las otras ciudades copian Santiago (STGO) hasta relevarse. Ítems publicados: los que cierran con precio completo (375 de 375). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_CL.json).",
@@ -1547,7 +1547,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -1557,7 +1557,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -1567,7 +1567,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -5677,7 +5677,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -5687,7 +5687,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -5697,7 +5697,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -5707,7 +5707,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -5717,7 +5717,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -5727,7 +5727,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -5737,7 +5737,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -9062,7 +9062,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -9072,7 +9072,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -9082,7 +9082,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -13192,7 +13192,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -13202,7 +13202,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -13212,7 +13212,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -13222,7 +13222,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -13232,7 +13232,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -13242,7 +13242,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -13252,7 +13252,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -16577,7 +16577,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -16587,7 +16587,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -16597,7 +16597,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -20707,7 +20707,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -20717,7 +20717,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -20727,7 +20727,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -20737,7 +20737,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -20747,7 +20747,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -20757,7 +20757,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -20767,7 +20767,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -24092,7 +24092,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -24102,7 +24102,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -24112,7 +24112,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -28222,7 +28222,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -28232,7 +28232,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -28242,7 +28242,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -28252,7 +28252,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -28262,7 +28262,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -28272,7 +28272,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -28282,7 +28282,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -31607,7 +31607,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -31617,7 +31617,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -31627,7 +31627,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -35737,7 +35737,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -35747,7 +35747,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -35757,7 +35757,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -35767,7 +35767,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -35777,7 +35777,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -35787,7 +35787,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -35797,7 +35797,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -39122,7 +39122,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -39132,7 +39132,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -39142,7 +39142,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -43252,7 +43252,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -43262,7 +43262,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -43272,7 +43272,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -43282,7 +43282,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -43292,7 +43292,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -43302,7 +43302,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -43312,7 +43312,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -46637,7 +46637,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -46647,7 +46647,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -46657,7 +46657,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -50767,7 +50767,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -50777,7 +50777,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -50787,7 +50787,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -50797,7 +50797,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -50807,7 +50807,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -50817,7 +50817,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -50827,7 +50827,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -54152,7 +54152,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -54162,7 +54162,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -54172,7 +54172,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -58282,7 +58282,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -58292,7 +58292,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -58302,7 +58302,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -58312,7 +58312,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -58322,7 +58322,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -58332,7 +58332,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -58342,7 +58342,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -61667,7 +61667,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -61677,7 +61677,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -61687,7 +61687,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -65797,7 +65797,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -65807,7 +65807,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -65817,7 +65817,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -65827,7 +65827,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -65837,7 +65837,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -65847,7 +65847,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -65857,7 +65857,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -69182,7 +69182,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -69192,7 +69192,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -69202,7 +69202,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -73312,7 +73312,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -73322,7 +73322,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -73332,7 +73332,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -73342,7 +73342,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -73352,7 +73352,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -73362,7 +73362,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -73372,7 +73372,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -76697,7 +76697,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -76707,7 +76707,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -76717,7 +76717,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -80827,7 +80827,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -80837,7 +80837,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -80847,7 +80847,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -80857,7 +80857,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -80867,7 +80867,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -80877,7 +80877,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -80887,7 +80887,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -84212,7 +84212,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -84222,7 +84222,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -84232,7 +84232,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -88342,7 +88342,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -88352,7 +88352,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -88362,7 +88362,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -88372,7 +88372,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -88382,7 +88382,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -88392,7 +88392,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -88402,7 +88402,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -91727,7 +91727,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -91737,7 +91737,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -91747,7 +91747,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -95857,7 +95857,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -95867,7 +95867,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -95877,7 +95877,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -95887,7 +95887,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -95897,7 +95897,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -95907,7 +95907,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -95917,7 +95917,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -99242,7 +99242,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -99252,7 +99252,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -99262,7 +99262,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -103372,7 +103372,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -103382,7 +103382,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -103392,7 +103392,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -103402,7 +103402,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -103412,7 +103412,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -103422,7 +103422,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -103432,7 +103432,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -106757,7 +106757,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -106767,7 +106767,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -106777,7 +106777,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -110887,7 +110887,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -110897,7 +110897,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -110907,7 +110907,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -110917,7 +110917,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -110927,7 +110927,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -110937,7 +110937,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -110947,7 +110947,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -114272,7 +114272,7 @@
         },
         {
           "idCanonico": "cl_mat_fierro",
-          "nombre": "Fierro corrugado A630-420H",
+          "nombre": "Acero corrugado A630-420H",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -114282,7 +114282,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_1_4_6mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -114292,7 +114292,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_3_8_10mm_l_12m_barra",
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -118402,7 +118402,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_6_mm_1_4_barra",
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -118412,7 +118412,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_8_mm_5_16_barra",
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -118422,7 +118422,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_10_mm_3_8_barra",
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -118432,7 +118432,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_12_mm_1_2_barra",
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -118442,7 +118442,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_16_mm_5_8_barra",
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -118452,7 +118452,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_20_mm_3_4_barra",
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
@@ -118462,7 +118462,7 @@
         },
         {
           "idCanonico": "cl_fierro_corrugado_o_25_mm_1_barra",
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "categoria": "Acero y Metal",
           "unidad": "Barra",
           "tipoInsumo": "MATERIAL",
