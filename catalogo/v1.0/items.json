@@ -1,5 +1,5 @@
 {
- "version": "v20260911-rendimientos",
+ "version": "v20260911b-sin-madera",
  "schemaVersion": 1,
  "items": [
   {
@@ -235,18 +235,6 @@
      "baseCalculo": "",
      "idCanonico": "fierro_corrugado_kg",
      "codigo": "AC018"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Carpintero",
@@ -1141,18 +1129,6 @@
    "tipoIfc": "",
    "insumos": [
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 7,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -1614,18 +1590,6 @@
      "codigo": "AC006"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 31.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -2026,18 +1990,6 @@
      "codigo": "AC006"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 17.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -2200,18 +2152,6 @@
      "baseCalculo": "",
      "idCanonico": "alambre_de_amarre_kg",
      "codigo": "AC006"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 5.6,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -2384,18 +2324,6 @@
      "codigo": "AC006"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 7,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -2507,18 +2435,6 @@
    "formulaResultado": "1",
    "insumos": [
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 50,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Calamina Galvanizada",
      "unidad": "m2",
      "tipoInsumo": "MATERIAL",
@@ -2590,18 +2506,6 @@
      "baseCalculo": "",
      "idCanonico": "yeso_kg",
      "codigo": "CM033"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 0.1,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -3713,18 +3617,6 @@
    "categoria": "Otros",
    "verificado": true,
    "insumos": [
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
     {
      "nombre": "Alambre de Amarre",
      "unidad": "Kg",
@@ -5238,18 +5130,6 @@
      "codigo": "AC006"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 14,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Encofrador",
      "unidad": "Hr",
      "tipoInsumo": "MANO_DE_OBRA",
@@ -5377,18 +5257,6 @@
      "baseCalculo": "",
      "idCanonico": "hormigon_premezclado_h_21_m3",
      "codigo": "CM019"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 7,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Fierro Corrugado",
@@ -5565,18 +5433,6 @@
      "codigo": "AG003"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 9.8,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -5687,18 +5543,6 @@
      "baseCalculo": "",
      "idCanonico": "arena_comun_m3",
      "codigo": "AG003"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 11.2,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -5853,18 +5697,6 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 56,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -6015,18 +5847,6 @@
      "baseCalculo": "",
      "idCanonico": "hormigon_premezclado_h_21_con_bomba_m3",
      "codigo": "PL044"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 7,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Alambre de Amarre",
@@ -6262,18 +6082,6 @@
      "codigo": "CM019"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 56,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Alambre de Amarre",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -6438,18 +6246,6 @@
      "codigo": "PL044"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 56,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Alambre de Amarre",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -6612,18 +6408,6 @@
      "baseCalculo": "",
      "idCanonico": "hormigon_premezclado_h_25_m3",
      "codigo": "CM020"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 56,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Alambre de Amarre",
@@ -6826,18 +6610,6 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 42,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -7024,18 +6796,6 @@
      "baseCalculo": "",
      "idCanonico": "grava_comun_m3",
      "codigo": "AG011"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 42,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -7392,18 +7152,6 @@
      "codigo": "FE030"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 1.4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Plastoform 100X40X16 P/Vigueta",
      "unidad": "Pza",
      "tipoInsumo": "MATERIAL",
@@ -7571,18 +7319,6 @@
      "baseCalculo": "",
      "idCanonico": "clavos_kg",
      "codigo": "FE030"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 1.4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Plastoform 100X40X16 P/Vigueta",
@@ -7755,18 +7491,6 @@
      "codigo": "FE030"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 1.4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Plastoform 100X40X16 P/Vigueta",
      "unidad": "Pza",
      "tipoInsumo": "MATERIAL",
@@ -7937,18 +7661,6 @@
      "codigo": "FE030"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 1.4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Plastoform 100X40X16 P/Vigueta",
      "unidad": "Pza",
      "tipoInsumo": "MATERIAL",
@@ -8117,18 +7829,6 @@
      "baseCalculo": "",
      "idCanonico": "grava_comun_m3",
      "codigo": "AG011"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 59.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -8432,18 +8132,6 @@
      "baseCalculo": "",
      "idCanonico": "grava_comun_m3",
      "codigo": "AG011"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 3.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -11756,18 +11444,6 @@
      "baseCalculo": "",
      "idCanonico": "cemento_blanco_kg",
      "codigo": "CM011"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 4.8,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -19662,18 +19338,6 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -22000,18 +21664,6 @@
      "codigo": "AG019"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 7,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Fierro Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -22153,18 +21805,6 @@
      "largoCm": 25,
      "anchoCm": 12,
      "altoCm": 6.5
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -23877,18 +23517,6 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 40,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Fierro Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -24020,18 +23648,6 @@
      "baseCalculo": "",
      "idCanonico": "cemento_portland_kg",
      "codigo": "CM016"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 60,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Fierro Corrugado",
@@ -30047,18 +29663,6 @@
      "codigo": "AG003"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -30206,18 +29810,6 @@
      "baseCalculo": "",
      "idCanonico": "arena_comun_m3",
      "codigo": "AG003"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -32313,18 +31905,6 @@
      "codigo": "CM020"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 4.9,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -32491,18 +32071,6 @@
      "baseCalculo": "",
      "idCanonico": "grava_comun_m3",
      "codigo": "AG011"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 1.4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Albañil",
@@ -32859,18 +32427,6 @@
      "baseCalculo": "",
      "idCanonico": "grava_comun_m3",
      "codigo": "AG011"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 2.1,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Albañil",
@@ -34110,18 +33666,6 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 28,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -34316,18 +33860,6 @@
      "baseCalculo": "",
      "idCanonico": "grava_comun_m3",
      "codigo": "AG011"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 56,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -34670,18 +34202,6 @@
      "codigo": "AG010"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 30.1,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -34917,18 +34437,6 @@
      "baseCalculo": "",
      "idCanonico": "grava_clasificada_m3",
      "codigo": "AG010"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 36.4,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -35168,18 +34676,6 @@
      "codigo": "AG010"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 52.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -35415,18 +34911,6 @@
      "baseCalculo": "",
      "idCanonico": "grava_clasificada_m3",
      "codigo": "AG010"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 58.8,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -35853,18 +35337,6 @@
      "baseCalculo": "",
      "idCanonico": "grava_comun_m3",
      "codigo": "AG011"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 12,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -36423,18 +35895,6 @@
      "codigo": "AC006"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 17.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -36647,18 +36107,6 @@
      "codigo": "AC006"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 56,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Clavos",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
@@ -36802,18 +36250,6 @@
      "baseCalculo": "",
      "idCanonico": "piedra_bruta_m3",
      "codigo": "AG017"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 10.5,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Clavos",
@@ -37019,18 +36455,6 @@
      "codigo": "FE043"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 30,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Medidor de Temperatura Infrarrojo",
      "unidad": "Pza",
      "tipoInsumo": "MATERIAL",
@@ -37202,18 +36626,6 @@
    "categoria": "Otros",
    "tipoIfc": "",
    "insumos": [
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 0.25,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
     {
      "nombre": "Clavos",
      "unidad": "Kg",
@@ -37566,18 +36978,6 @@
      "codigo": "FE030"
     },
     {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 0.7,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
-    },
-    {
      "nombre": "Albañil",
      "unidad": "Hr",
      "tipoInsumo": "MANO_DE_OBRA",
@@ -37900,18 +37300,6 @@
      "baseCalculo": "",
      "idCanonico": "grava_lavada_m3",
      "codigo": "AG012"
-    },
-    {
-     "nombre": "Madera de Construcción",
-     "unidad": "p2",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "Madera",
-     "rendimiento": 2.331,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "madera_de_construccion_p2",
-     "codigo": "MD007"
     },
     {
      "nombre": "Plastoformo 5mm",
