@@ -1,5 +1,5 @@
 {
-  "version": "v20260829-211226",
+  "version": "v20260911-acero-corrugado",
   "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -1527,7 +1527,7 @@
           "categoria": "Ferretería"
         },
         {
-          "nombre": "Fierro Corrugado",
+          "nombre": "Acero Corrugado",
           "codigo": "AC018",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
@@ -9044,7 +9044,7 @@
           "categoria": "Ferretería"
         },
         {
-          "nombre": "Fierro Corrugado",
+          "nombre": "Acero Corrugado",
           "codigo": "AC018",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
@@ -16561,7 +16561,7 @@
           "categoria": "Ferretería"
         },
         {
-          "nombre": "Fierro Corrugado",
+          "nombre": "Acero Corrugado",
           "codigo": "AC018",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
@@ -24078,7 +24078,7 @@
           "categoria": "Ferretería"
         },
         {
-          "nombre": "Fierro Corrugado",
+          "nombre": "Acero Corrugado",
           "codigo": "AC018",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
@@ -31595,7 +31595,7 @@
           "categoria": "Ferretería"
         },
         {
-          "nombre": "Fierro Corrugado",
+          "nombre": "Acero Corrugado",
           "codigo": "AC018",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
@@ -39112,7 +39112,7 @@
           "categoria": "Ferretería"
         },
         {
-          "nombre": "Fierro Corrugado",
+          "nombre": "Acero Corrugado",
           "codigo": "AC018",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
@@ -46629,7 +46629,7 @@
           "categoria": "Ferretería"
         },
         {
-          "nombre": "Fierro Corrugado",
+          "nombre": "Acero Corrugado",
           "codigo": "AC018",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
@@ -54146,7 +54146,7 @@
           "categoria": "Ferretería"
         },
         {
-          "nombre": "Fierro Corrugado",
+          "nombre": "Acero Corrugado",
           "codigo": "AC018",
           "tipoInsumo": "MATERIAL",
           "precio": 13,
@@ -61663,7 +61663,7 @@
           "categoria": "Ferretería"
         },
         {
-          "nombre": "Fierro Corrugado",
+          "nombre": "Acero Corrugado",
           "codigo": "AC018",
           "tipoInsumo": "MATERIAL",
           "precio": 13,

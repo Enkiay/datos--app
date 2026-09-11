@@ -1,5 +1,5 @@
 {
- "version": "v20260911e-hormigon",
+ "version": "v20260911f-acero-corrugado",
  "schemaVersion": 1,
  "items": [
   {
@@ -225,7 +225,7 @@
    "tipoIfc": "RAILING",
    "insumos": [
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -1590,7 +1590,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -1990,7 +1990,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -2154,7 +2154,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -2324,7 +2324,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -5106,7 +5106,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -5295,7 +5295,7 @@
      "codigo": "CM019"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -5697,7 +5697,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -5909,7 +5909,7 @@
      "codigo": "FE030"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -6037,7 +6037,7 @@
    "verificado": true,
    "insumos": [
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -6154,7 +6154,7 @@
      "codigo": "IM001"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -6318,7 +6318,7 @@
      "codigo": "IM001"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -6482,7 +6482,7 @@
      "codigo": "IM001"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -6610,7 +6610,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -6798,7 +6798,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -7152,7 +7152,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -7321,7 +7321,7 @@
      "codigo": "CB015"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -7491,7 +7491,7 @@
      "codigo": "CB015"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -7661,7 +7661,7 @@
      "codigo": "CB015"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -7831,7 +7831,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -8134,7 +8134,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -11458,7 +11458,7 @@
      "codigo": "AG003"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -13548,7 +13548,7 @@
      "codigo": "FE055"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -13694,7 +13694,7 @@
      "codigo": "FE056"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -13840,7 +13840,7 @@
      "codigo": "FE053"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -13986,7 +13986,7 @@
      "codigo": "FE054"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -19791,7 +19791,7 @@
      "codigo": "AG003"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -19889,7 +19889,7 @@
      "codigo": "AG003"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -20080,7 +20080,7 @@
      "codigo": "AG004"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -21252,7 +21252,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -21383,7 +21383,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -21490,7 +21490,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -21595,7 +21595,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -21700,7 +21700,7 @@
      "codigo": "AG019"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -21804,7 +21804,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -23553,7 +23553,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -23686,7 +23686,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -29831,7 +29831,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -29980,7 +29980,7 @@
      "codigo": "CM016"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -32061,7 +32061,7 @@
    "verificado": true,
    "insumos": [
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -34216,7 +34216,7 @@
    "verificado": true,
    "insumos": [
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -34287,7 +34287,7 @@
    "verificado": true,
    "insumos": [
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -35543,7 +35543,7 @@
      "codigo": "FE030"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -36063,7 +36063,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
@@ -36275,7 +36275,7 @@
      "codigo": "AG011"
     },
     {
-     "nombre": "Fierro Corrugado",
+     "nombre": "Acero Corrugado",
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Acero/Fierro de construcción",
