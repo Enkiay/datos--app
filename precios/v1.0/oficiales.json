@@ -1,5 +1,5 @@
 {
-  "version": "v20260911-acero-corrugado",
+  "version": "v20260911b-acero-barras",
   "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -1537,7 +1537,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "codigo": "AC016",
           "tipoInsumo": "MATERIAL",
           "precio": 20,
@@ -1547,7 +1547,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "codigo": "AC017",
           "tipoInsumo": "MATERIAL",
           "precio": 52,
@@ -5657,7 +5657,7 @@
           "categoria": "Maquinaria"
         },
         {
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "codigo": "AC058",
           "tipoInsumo": "MATERIAL",
           "precio": 37,
@@ -5667,7 +5667,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "codigo": "AC059",
           "tipoInsumo": "MATERIAL",
           "precio": 60,
@@ -5677,7 +5677,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "codigo": "AC060",
           "tipoInsumo": "MATERIAL",
           "precio": 83.5,
@@ -5687,7 +5687,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "codigo": "AC061",
           "tipoInsumo": "MATERIAL",
           "precio": 122,
@@ -5697,7 +5697,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "codigo": "AC062",
           "tipoInsumo": "MATERIAL",
           "precio": 227,
@@ -5707,7 +5707,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "codigo": "AC063",
           "tipoInsumo": "MATERIAL",
           "precio": 371,
@@ -5717,7 +5717,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "codigo": "AC064",
           "tipoInsumo": "MATERIAL",
           "precio": 592,
@@ -9054,7 +9054,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "codigo": "AC016",
           "tipoInsumo": "MATERIAL",
           "precio": 20,
@@ -9064,7 +9064,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "codigo": "AC017",
           "tipoInsumo": "MATERIAL",
           "precio": 52,
@@ -13174,7 +13174,7 @@
           "categoria": "Maquinaria"
         },
         {
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "codigo": "AC058",
           "tipoInsumo": "MATERIAL",
           "precio": 37,
@@ -13184,7 +13184,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "codigo": "AC059",
           "tipoInsumo": "MATERIAL",
           "precio": 60,
@@ -13194,7 +13194,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "codigo": "AC060",
           "tipoInsumo": "MATERIAL",
           "precio": 83.5,
@@ -13204,7 +13204,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "codigo": "AC061",
           "tipoInsumo": "MATERIAL",
           "precio": 122,
@@ -13214,7 +13214,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "codigo": "AC062",
           "tipoInsumo": "MATERIAL",
           "precio": 227,
@@ -13224,7 +13224,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "codigo": "AC063",
           "tipoInsumo": "MATERIAL",
           "precio": 371,
@@ -13234,7 +13234,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "codigo": "AC064",
           "tipoInsumo": "MATERIAL",
           "precio": 592,
@@ -16571,7 +16571,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "codigo": "AC016",
           "tipoInsumo": "MATERIAL",
           "precio": 20,
@@ -16581,7 +16581,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "codigo": "AC017",
           "tipoInsumo": "MATERIAL",
           "precio": 52,
@@ -20691,7 +20691,7 @@
           "categoria": "Maquinaria"
         },
         {
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "codigo": "AC058",
           "tipoInsumo": "MATERIAL",
           "precio": 37,
@@ -20701,7 +20701,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "codigo": "AC059",
           "tipoInsumo": "MATERIAL",
           "precio": 60,
@@ -20711,7 +20711,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "codigo": "AC060",
           "tipoInsumo": "MATERIAL",
           "precio": 83.5,
@@ -20721,7 +20721,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "codigo": "AC061",
           "tipoInsumo": "MATERIAL",
           "precio": 122,
@@ -20731,7 +20731,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "codigo": "AC062",
           "tipoInsumo": "MATERIAL",
           "precio": 227,
@@ -20741,7 +20741,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "codigo": "AC063",
           "tipoInsumo": "MATERIAL",
           "precio": 371,
@@ -20751,7 +20751,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "codigo": "AC064",
           "tipoInsumo": "MATERIAL",
           "precio": 592,
@@ -24088,7 +24088,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "codigo": "AC016",
           "tipoInsumo": "MATERIAL",
           "precio": 20,
@@ -24098,7 +24098,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "codigo": "AC017",
           "tipoInsumo": "MATERIAL",
           "precio": 52,
@@ -28208,7 +28208,7 @@
           "categoria": "Maquinaria"
         },
         {
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "codigo": "AC058",
           "tipoInsumo": "MATERIAL",
           "precio": 37,
@@ -28218,7 +28218,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "codigo": "AC059",
           "tipoInsumo": "MATERIAL",
           "precio": 60,
@@ -28228,7 +28228,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "codigo": "AC060",
           "tipoInsumo": "MATERIAL",
           "precio": 83.5,
@@ -28238,7 +28238,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "codigo": "AC061",
           "tipoInsumo": "MATERIAL",
           "precio": 122,
@@ -28248,7 +28248,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "codigo": "AC062",
           "tipoInsumo": "MATERIAL",
           "precio": 227,
@@ -28258,7 +28258,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "codigo": "AC063",
           "tipoInsumo": "MATERIAL",
           "precio": 371,
@@ -28268,7 +28268,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "codigo": "AC064",
           "tipoInsumo": "MATERIAL",
           "precio": 592,
@@ -31605,7 +31605,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "codigo": "AC016",
           "tipoInsumo": "MATERIAL",
           "precio": 20,
@@ -31615,7 +31615,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "codigo": "AC017",
           "tipoInsumo": "MATERIAL",
           "precio": 52,
@@ -35725,7 +35725,7 @@
           "categoria": "Maquinaria"
         },
         {
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "codigo": "AC058",
           "tipoInsumo": "MATERIAL",
           "precio": 37,
@@ -35735,7 +35735,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "codigo": "AC059",
           "tipoInsumo": "MATERIAL",
           "precio": 60,
@@ -35745,7 +35745,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "codigo": "AC060",
           "tipoInsumo": "MATERIAL",
           "precio": 83.5,
@@ -35755,7 +35755,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "codigo": "AC061",
           "tipoInsumo": "MATERIAL",
           "precio": 122,
@@ -35765,7 +35765,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "codigo": "AC062",
           "tipoInsumo": "MATERIAL",
           "precio": 227,
@@ -35775,7 +35775,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "codigo": "AC063",
           "tipoInsumo": "MATERIAL",
           "precio": 371,
@@ -35785,7 +35785,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "codigo": "AC064",
           "tipoInsumo": "MATERIAL",
           "precio": 592,
@@ -39122,7 +39122,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "codigo": "AC016",
           "tipoInsumo": "MATERIAL",
           "precio": 20,
@@ -39132,7 +39132,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "codigo": "AC017",
           "tipoInsumo": "MATERIAL",
           "precio": 52,
@@ -43242,7 +43242,7 @@
           "categoria": "Maquinaria"
         },
         {
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "codigo": "AC058",
           "tipoInsumo": "MATERIAL",
           "precio": 37,
@@ -43252,7 +43252,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "codigo": "AC059",
           "tipoInsumo": "MATERIAL",
           "precio": 60,
@@ -43262,7 +43262,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "codigo": "AC060",
           "tipoInsumo": "MATERIAL",
           "precio": 83.5,
@@ -43272,7 +43272,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "codigo": "AC061",
           "tipoInsumo": "MATERIAL",
           "precio": 122,
@@ -43282,7 +43282,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "codigo": "AC062",
           "tipoInsumo": "MATERIAL",
           "precio": 227,
@@ -43292,7 +43292,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "codigo": "AC063",
           "tipoInsumo": "MATERIAL",
           "precio": 371,
@@ -43302,7 +43302,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "codigo": "AC064",
           "tipoInsumo": "MATERIAL",
           "precio": 592,
@@ -46639,7 +46639,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "codigo": "AC016",
           "tipoInsumo": "MATERIAL",
           "precio": 20,
@@ -46649,7 +46649,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "codigo": "AC017",
           "tipoInsumo": "MATERIAL",
           "precio": 52,
@@ -50759,7 +50759,7 @@
           "categoria": "Maquinaria"
         },
         {
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "codigo": "AC058",
           "tipoInsumo": "MATERIAL",
           "precio": 37,
@@ -50769,7 +50769,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "codigo": "AC059",
           "tipoInsumo": "MATERIAL",
           "precio": 60,
@@ -50779,7 +50779,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "codigo": "AC060",
           "tipoInsumo": "MATERIAL",
           "precio": 83.5,
@@ -50789,7 +50789,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "codigo": "AC061",
           "tipoInsumo": "MATERIAL",
           "precio": 122,
@@ -50799,7 +50799,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "codigo": "AC062",
           "tipoInsumo": "MATERIAL",
           "precio": 227,
@@ -50809,7 +50809,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "codigo": "AC063",
           "tipoInsumo": "MATERIAL",
           "precio": 371,
@@ -50819,7 +50819,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "codigo": "AC064",
           "tipoInsumo": "MATERIAL",
           "precio": 592,
@@ -54156,7 +54156,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "codigo": "AC016",
           "tipoInsumo": "MATERIAL",
           "precio": 20,
@@ -54166,7 +54166,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "codigo": "AC017",
           "tipoInsumo": "MATERIAL",
           "precio": 52,
@@ -58276,7 +58276,7 @@
           "categoria": "Maquinaria"
         },
         {
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "codigo": "AC058",
           "tipoInsumo": "MATERIAL",
           "precio": 37,
@@ -58286,7 +58286,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "codigo": "AC059",
           "tipoInsumo": "MATERIAL",
           "precio": 60,
@@ -58296,7 +58296,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "codigo": "AC060",
           "tipoInsumo": "MATERIAL",
           "precio": 83.5,
@@ -58306,7 +58306,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "codigo": "AC061",
           "tipoInsumo": "MATERIAL",
           "precio": 122,
@@ -58316,7 +58316,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "codigo": "AC062",
           "tipoInsumo": "MATERIAL",
           "precio": 227,
@@ -58326,7 +58326,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "codigo": "AC063",
           "tipoInsumo": "MATERIAL",
           "precio": 371,
@@ -58336,7 +58336,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "codigo": "AC064",
           "tipoInsumo": "MATERIAL",
           "precio": 592,
@@ -61673,7 +61673,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 1/4″ (6mm) L=12m",
+          "nombre": "Acero Corrugado 1/4″ (6mm) L=12m",
           "codigo": "AC016",
           "tipoInsumo": "MATERIAL",
           "precio": 20,
@@ -61683,7 +61683,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro Corrugado 3/8″ (10mm) L=12m",
+          "nombre": "Acero Corrugado 3/8″ (10mm) L=12m",
           "codigo": "AC017",
           "tipoInsumo": "MATERIAL",
           "precio": 52,
@@ -65793,7 +65793,7 @@
           "categoria": "Maquinaria"
         },
         {
-          "nombre": "Fierro corrugado Ø 6 mm (1/4″)",
+          "nombre": "Acero corrugado Ø 6 mm (1/4″)",
           "codigo": "AC058",
           "tipoInsumo": "MATERIAL",
           "precio": 37,
@@ -65803,7 +65803,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 8 mm (5/16″)",
+          "nombre": "Acero corrugado Ø 8 mm (5/16″)",
           "codigo": "AC059",
           "tipoInsumo": "MATERIAL",
           "precio": 60,
@@ -65813,7 +65813,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 10 mm (3/8″)",
+          "nombre": "Acero corrugado Ø 10 mm (3/8″)",
           "codigo": "AC060",
           "tipoInsumo": "MATERIAL",
           "precio": 83.5,
@@ -65823,7 +65823,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 12 mm (1/2″)",
+          "nombre": "Acero corrugado Ø 12 mm (1/2″)",
           "codigo": "AC061",
           "tipoInsumo": "MATERIAL",
           "precio": 122,
@@ -65833,7 +65833,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 16 mm (5/8″)",
+          "nombre": "Acero corrugado Ø 16 mm (5/8″)",
           "codigo": "AC062",
           "tipoInsumo": "MATERIAL",
           "precio": 227,
@@ -65843,7 +65843,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 20 mm (3/4″)",
+          "nombre": "Acero corrugado Ø 20 mm (3/4″)",
           "codigo": "AC063",
           "tipoInsumo": "MATERIAL",
           "precio": 371,
@@ -65853,7 +65853,7 @@
           "categoria": "Acero y Metal"
         },
         {
-          "nombre": "Fierro corrugado Ø 25 mm (1″)",
+          "nombre": "Acero corrugado Ø 25 mm (1″)",
           "codigo": "AC064",
           "tipoInsumo": "MATERIAL",
           "precio": 592,

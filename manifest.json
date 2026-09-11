@@ -3,15 +3,15 @@
   "minAppVersion": "1.0.0",
   "resources": {
     "catalogo": {
-      "version": "v20260911f-acero-corrugado",
+      "version": "v20260911g-acero-barras",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items.json"
     },
     "catalogo_BO": {
-      "version": "v20260911f-acero-corrugado",
+      "version": "v20260911g-acero-barras",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items.json"
     },
     "precios": {
-      "version": "v20260911-acero-corrugado",
+      "version": "v20260911b-acero-barras",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales.json"
     },
     "plantillas": {
