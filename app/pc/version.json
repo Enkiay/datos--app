@@ -1,8 +1,8 @@
 {
-  "version": "2.1.4",
-  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v2.1.4/ArqOn.Desktop_2.1.4_x64-setup.exe",
-  "notas": "## ArqOn PC 2.1.4\n\n### El clic derecho ya no muestra el menú del navegador\nAl hacer clic derecho en la pantalla aparecían **«Guardar como…», «Imprimir…» y «Volver a cargar»**. Ese menú no era de ArqOn: venía del motor web que hay abajo, y ninguna de esas opciones llevaba a ningún lado útil. «Guardar como» bajaba el código de la pantalla, «Imprimir» se salteaba el centro de reportes y «Volver a cargar» reiniciaba el programa en medio del trabajo.\n\nAhora no aparece. **En los campos donde se escribe sigue estando**, porque ahí el menú es el de cortar, copiar y pegar.\n\n### La ventana de importar desde PDF\nYa no nombra el programa del que salieron los papeles, ni en el título, ni en el aviso, ni en el menú. Lo que sí sigue diciendo es **qué PDF tienen que estar en la carpeta**: presupuesto general, cómputos métricos y análisis de precios.\n\n### Importar `.ddp`\nQueda desactivado. Si tenés un archivo de ese formato, convertilo a `.arqon` en **arqonbim.com/ddp**, que es libre, y abrilo desde ahí.",
+  "version": "2.1.5",
+  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v2.1.5/ArqOn.Desktop_2.1.5_x64-setup.exe",
+  "notas": "## ArqOn PC 2.1.5\n\n### Las teclas del navegador ya no hacen nada\nLa versión anterior sacó el menú de clic derecho. Esta cierra la otra puerta, que es el teclado.\n\nDejan de responder **F12** y **Ctrl+Shift+I**, que abrían las herramientas del motor web, **Ctrl+U**, que pedía ver el código de la pantalla, **Ctrl+P**, que abría el impresor del navegador en lugar del centro de reportes, y **F5** o **Ctrl+R**, que recargaban el programa en medio del trabajo y podían hacerte perder lo último.\n\n**Tus atajos siguen igual.** Ctrl+S para guardar, Ctrl+Shift+S para guardar una copia, Ctrl+O para abrir, Ctrl+N para uno nuevo, Ctrl+K para la paleta de códigos y Ctrl+Z para deshacer. Ninguno se tocó.\n\nPara imprimir sigue estando el centro de reportes, que es el que arma las hojas como corresponde.",
   "publicado": "2026-09-11",
-  "sha256": "cf3d691dbfb51d82ade88328a60082fbb1009985c58a5bc87d009d51c5f88fba",
-  "firma": "T4+++IMjqP3nYnLU93odRIo3hJYiwu9TjKZF12I12dXWlnwTcabAkQioH5NjsSpIVLvbkwdp91RQWjIw2aDGBQ=="
+  "sha256": "2f0a9b18d79ec55d49dcc51b9db78eff00c6aeee855f9dba86575f8d3489b5ec",
+  "firma": "E78xdvCVnQsMFM1pipI2xVDZXZ44vt/kMulXO2jiWr1r2YQFr2FYiXiLb6Ew0mmfPw0m2Gb4H/zQCXxYJe3DBw=="
 }
