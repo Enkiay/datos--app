@@ -1,5 +1,5 @@
 {
- "version": "v20260911g-acero-barras",
+ "version": "v20260919-muro-cortina",
  "schemaVersion": 1,
  "items": [
   {
@@ -28640,7 +28640,7 @@
     }
    ],
    "presets": [],
-   "tipoIfc": "",
+   "tipoIfc": "CURTAINWALL",
    "autorNombre": "",
    "autorUid": "",
    "armaduraJson": "",
