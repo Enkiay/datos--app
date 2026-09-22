@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-15",
+  "actualizado": "2026-09-22",
   "planes": {
     "perpetua": {
       "monto": 2000,
@@ -9,9 +9,9 @@
       "hasta": "2026-09-29"
     },
     "anual": {
-      "monto": 500,
+      "monto": 700,
       "moneda": "Bs",
-      "bs": 500,
+      "bs": 700,
       "descuentoPct": 50,
       "hasta": "2026-09-29"
     },
@@ -28,11 +28,6 @@
       "bs": 250,
       "descuentoPct": 50,
       "hasta": "2026-09-29"
-    },
-    "educativa": {
-      "monto": 0,
-      "moneda": "Bs",
-      "bs": 0
     }
   }
 }
