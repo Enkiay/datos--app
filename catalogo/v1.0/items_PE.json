@@ -1,11 +1,12 @@
 {
- "version": "v20260826-iu-dic2025",
+ "version": "v20260923-partidas-oe",
  "schemaVersion": 1,
  "pais": "PE",
- "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Medición SIMPLE por dimensiones (sin fórmulas) + presets por familia (17-ago). Armadura auto por elemento en el concreto armado (17-ago). · IU en base INEI dic-2025 (26-ago-2026): el unico codigo de la base vieja, el 64 (TERRAZO, Marmol travertino), migro al 40 (Loseta y terrazo); el resto de los indices declarados ya existia en la base nueva.",
+ "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Medición SIMPLE por dimensiones (sin fórmulas) + presets por familia (17-ago). Armadura auto por elemento en el concreto armado (17-ago). · IU en base INEI dic-2025 (26-ago-2026): el unico codigo de la base vieja, el 64 (TERRAZO, Marmol travertino), migro al 40 (Loseta y terrazo); el resto de los indices declarados ya existia en la base nueva. PARTIDAS: cada ítem lleva `partida`, su numeración en la Norma Técnica «Metrados para Obras de Edificación y Habilitaciones Urbanas» (RD 073-2010/VIVIENDA/VMCS-DNC); el `codigo` sigue siendo la identidad interna. Excavaciones simples = OE.2.1.2.2 (la Norma las imprime OE.2.1.2.1 por errata).",
  "items": [
   {
    "codigo": "OG0001",
+   "partida": "OE.2.3.2.1",
    "nombre": "Concreto f'c=210 kg/cm2 en zapatas",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -161,6 +162,7 @@
   },
   {
    "codigo": "OG0002",
+   "partida": "OE.2.3.7.1",
    "nombre": "Concreto f'c=210 kg/cm2 en columnas",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -313,6 +315,7 @@
   },
   {
    "codigo": "OG0003",
+   "partida": "OE.2.3.7.3",
    "nombre": "Acero fy=4200 kg/cm2 en columnas",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -387,6 +390,7 @@
   },
   {
    "codigo": "OG0004",
+   "partida": "OE.2.3.7.2",
    "nombre": "Encofrado y desencofrado normal en columnas",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -484,6 +488,7 @@
   },
   {
    "codigo": "MP0001",
+   "partida": "OE.3.1.1",
    "nombre": "Muro de ladrillo King Kong de soga",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -614,6 +619,7 @@
   },
   {
    "codigo": "AC0001",
+   "partida": "OE.3.2.2",
    "nombre": "Tarrajeo de muros interiores",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -724,6 +730,7 @@
   },
   {
    "codigo": "AC0002",
+   "partida": "OE.2.2.9",
    "nombre": "Falso piso de concreto e=4\"",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -834,6 +841,7 @@
   },
   {
    "codigo": "AC0003",
+   "partida": "OE.3.4.1",
    "nombre": "Contrapiso de 48 mm",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -932,6 +940,7 @@
   },
   {
    "codigo": "AC0004",
+   "partida": "OE.3.4.2.21",
    "nombre": "Piso cerámico 45x45",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -1030,6 +1039,7 @@
   },
   {
    "codigo": "AC0005",
+   "partida": "OE.3.11.1",
    "nombre": "Pintura látex en muros interiores (2 manos)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -1128,6 +1138,7 @@
   },
   {
    "codigo": "OG0005",
+   "partida": "OE.2.1.2.1",
    "nombre": "Excavaciones masivas con maquinaria",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -1207,6 +1218,7 @@
   },
   {
    "codigo": "OG0006",
+   "partida": "OE.1.1.9.1",
    "nombre": "Trazos de niveles y replanteo",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -1328,6 +1340,7 @@
   },
   {
    "codigo": "OG0007",
+   "partida": "OE.2.1.2.2",
    "nombre": "Excavación de zanjas para cimientos hasta 1.00 m de profundidad",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -1418,6 +1431,7 @@
   },
   {
    "codigo": "OG0008",
+   "partida": "OE.2.1.2.2",
    "nombre": "Excavación de zanjas para cimientos hasta 1,40 m de profundidad",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -1508,6 +1522,7 @@
   },
   {
    "codigo": "OG0009",
+   "partida": "OE.2.1.2.2",
    "nombre": "Excavación de zanjas para cimientos hasta 1,70 m de profundidad",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -1598,6 +1613,7 @@
   },
   {
    "codigo": "OG0010",
+   "partida": "OE.2.1.2.2",
    "nombre": "Excavación para zapatas aisladas de 1,40 m a 1.70 m de profundidad",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -1691,6 +1707,7 @@
   },
   {
    "codigo": "OG0011",
+   "partida": "OE.2.1.6",
    "nombre": "Acarreo de material excedente hasta una distancia promedio de 30 m",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -1758,6 +1775,7 @@
   },
   {
    "codigo": "OG0012",
+   "partida": "OE.2.1.3",
    "nombre": "Corte o relleno de terreno hasta 0,20 m de profundidad sin apisonado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -1819,6 +1837,7 @@
   },
   {
    "codigo": "OG0013",
+   "partida": "OE.2.1.4.1",
    "nombre": "Relleno con material propio: Manual",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -1894,6 +1913,7 @@
   },
   {
    "codigo": "OG0014",
+   "partida": "OE.2.1.5",
    "nombre": "Nivelación y apisonado para falso piso o piso, con pisón de mano",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -1992,6 +2012,7 @@
   },
   {
    "codigo": "OG0015",
+   "partida": "OE.2.2.1",
    "nombre": "Cimiento corridos 1:10 + 30 % PG",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -2160,6 +2181,7 @@
   },
   {
    "codigo": "OG0016",
+   "partida": "OE.2.2.6.1",
    "nombre": "Sobrecimiento de 0,25 m de ancho, 1:8 con 25 % PM",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -2321,6 +2343,7 @@
   },
   {
    "codigo": "OG0017",
+   "partida": "OE.2.2.6.1",
    "nombre": "Sobrecimiento de 0,15 m de ancho, 1:8 con 25 % PM",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -2482,6 +2505,7 @@
   },
   {
    "codigo": "OG0018",
+   "partida": "OE.2.2.9",
    "nombre": "Falso piso de 2\"",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -2628,6 +2652,7 @@
   },
   {
    "codigo": "OG0019",
+   "partida": "OE.2.2.3",
    "nombre": "Solado para zapatas de 3\" de espesor",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -2773,6 +2798,7 @@
   },
   {
    "codigo": "OG0020",
+   "partida": "OE.2.2.6.2",
    "nombre": "Encofrado y desencofrado de sobrecimiento hasta 0,30 m de alto",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -2894,6 +2920,7 @@
   },
   {
    "codigo": "OG0021",
+   "partida": "OE.2.3.2.2",
    "nombre": "Encofrado y desencofrado de zapatas",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3003,6 +3030,7 @@
   },
   {
    "codigo": "OG0022",
+   "partida": "OE.2.3.3.2",
    "nombre": "Encofrado y desencofrado de cimentación",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3124,6 +3152,7 @@
   },
   {
    "codigo": "OG0023",
+   "partida": "OE.2.3.6.1",
    "nombre": "Encofrado y desencofrado de muros de sostenimiento (una cara)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3246,6 +3275,7 @@
   },
   {
    "codigo": "OG0024",
+   "partida": "OE.2.3.6.1",
    "nombre": "Encofrado y desencofrado de sostenimiento (dos caras)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3355,6 +3385,7 @@
   },
   {
    "codigo": "OG0025",
+   "partida": "OE.2.3.12.2",
    "nombre": "Encofrado y desencofrado de cisterna (1 cara interior)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3476,6 +3507,7 @@
   },
   {
    "codigo": "OG0026",
+   "partida": "OE.2.3.12.2",
    "nombre": "Encofrado y desencofrado de cisterna (1 cara interior y una exterior)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3597,6 +3629,7 @@
   },
   {
    "codigo": "OG0027",
+   "partida": "OE.2.3.7.2",
    "nombre": "Encofrado y desencofrado de columna (típica)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3718,6 +3751,7 @@
   },
   {
    "codigo": "OG0028",
+   "partida": "OE.2.3.7.2",
    "nombre": "Encofrado y desencofrado de columna (caravista)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3875,6 +3909,7 @@
   },
   {
    "codigo": "OG0029",
+   "partida": "OE.2.3.8.2",
    "nombre": "Encofrado y desencofrado de vigas (típicas)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -3996,6 +4031,7 @@
   },
   {
    "codigo": "OG0030",
+   "partida": "OE.2.3.7.2",
    "nombre": "Encofrado y desencofrado de columna (caravista, tipo 2)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -4153,6 +4189,7 @@
   },
   {
    "codigo": "OG0031",
+   "partida": "OE.2.3.9.2.2",
    "nombre": "Encofrado y desencofrado de losa aligerada",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -4275,6 +4312,7 @@
   },
   {
    "codigo": "OG0032",
+   "partida": "OE.2.3.9.1.2",
    "nombre": "Encofrado y desencofrado de losa maciza",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -4397,6 +4435,7 @@
   },
   {
    "codigo": "OG0033",
+   "partida": "OE.2.3.9.2.2",
    "nombre": "Encofrado de frisos para losa aligerada de 0.20 m de espesor",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -4507,6 +4546,7 @@
   },
   {
    "codigo": "OG0034",
+   "partida": "OE.2.3.10.2",
    "nombre": "Encofrado y desencofrado de escaleras",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -4628,6 +4668,7 @@
   },
   {
    "codigo": "OG0035",
+   "partida": "OE.2.3.11.2",
    "nombre": "Encofrado y desencofrado de caja de ascensor",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -4749,6 +4790,7 @@
   },
   {
    "codigo": "OG0036",
+   "partida": "OE.2.3.13.2",
    "nombre": "Encofrado y desencofrado de tanque elevado de edificio (cuba)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -4870,6 +4912,7 @@
   },
   {
    "codigo": "OG0037",
+   "partida": "OE.2.3.2.1",
    "nombre": "Zapatas de f'c=140 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -5061,6 +5104,7 @@
   },
   {
    "codigo": "OG0038",
+   "partida": "OE.2.3.2.1",
    "nombre": "Zapatas de f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -5252,6 +5296,7 @@
   },
   {
    "codigo": "OG0039",
+   "partida": "OE.2.3.3.1",
    "nombre": "Viga de cimentación de f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -5445,6 +5490,7 @@
   },
   {
    "codigo": "OG0040",
+   "partida": "OE.2.3.3.1",
    "nombre": "Viga de cimentación de f'c=210 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -5638,6 +5684,7 @@
   },
   {
    "codigo": "OG0041",
+   "partida": "OE.2.3.4.1",
    "nombre": "Losa de cimentación de f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -5835,6 +5882,7 @@
   },
   {
    "codigo": "OG0042",
+   "partida": "OE.2.3.4.1",
    "nombre": "Losas de cimentación de f'c=210 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -6032,6 +6080,7 @@
   },
   {
    "codigo": "OG0043",
+   "partida": "OE.2.3.6.1",
    "nombre": "Muros de sostenimiento de 0.20 m de espesor de f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -6229,6 +6278,7 @@
   },
   {
    "codigo": "OG0044",
+   "partida": "OE.2.3.6.1",
    "nombre": "Muros de sostenimiento de 0,20 m de espesor de f'c=210 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -6426,6 +6476,7 @@
   },
   {
    "codigo": "OG0045",
+   "partida": "OE.2.3.6.2.1",
    "nombre": "Tabique de concreto de 0,10 m a 0,15 m de espesor f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -6617,6 +6668,7 @@
   },
   {
    "codigo": "OG0046",
+   "partida": "OE.2.3.6.2.1",
    "nombre": "Tabique de concreto de 0,10 m a 1,15 m de espesor f'c=210 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -6808,6 +6860,7 @@
   },
   {
    "codigo": "OG0047",
+   "partida": "OE.2.3.7.1",
    "nombre": "Columna de f'c=140 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -7008,6 +7061,7 @@
   },
   {
    "codigo": "OG0048",
+   "partida": "OE.2.3.7.1",
    "nombre": "Columna de f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -7208,6 +7262,7 @@
   },
   {
    "codigo": "OG0049",
+   "partida": "OE.2.3.8.1",
    "nombre": "Vigas de f'c=140 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -7408,6 +7463,7 @@
   },
   {
    "codigo": "OG0050",
+   "partida": "OE.2.3.8.1",
    "nombre": "Vigas de f'c=210 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -7608,6 +7664,7 @@
   },
   {
    "codigo": "OG0051",
+   "partida": "OE.2.3.9.1.1",
    "nombre": "Losas macizas de f'c=140 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -7805,6 +7862,7 @@
   },
   {
    "codigo": "OG0052",
+   "partida": "OE.2.3.9.1.1",
    "nombre": "Losas macizas de f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -8002,6 +8060,7 @@
   },
   {
    "codigo": "OG0053",
+   "partida": "OE.2.3.9.1.1",
    "nombre": "Losas macizas de f'c=210 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -8199,6 +8258,7 @@
   },
   {
    "codigo": "OG0054",
+   "partida": "OE.2.3.9.2.1",
    "nombre": "Losas aligeradas de f'c=140 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -8396,6 +8456,7 @@
   },
   {
    "codigo": "OG0055",
+   "partida": "OE.2.3.9.2.1",
    "nombre": "Losas aligeradas de f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -8593,6 +8654,7 @@
   },
   {
    "codigo": "OG0056",
+   "partida": "OE.2.3.9.2.1",
    "nombre": "Losas aligeradas de f'c=210 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -8790,6 +8852,7 @@
   },
   {
    "codigo": "OG0057",
+   "partida": "OE.2.3.10.1",
    "nombre": "Escaleras de f'c=140 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -8967,6 +9030,7 @@
   },
   {
    "codigo": "OG0058",
+   "partida": "OE.2.3.10.1",
    "nombre": "Escaleras de f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -9144,6 +9208,7 @@
   },
   {
    "codigo": "OG0059",
+   "partida": "OE.2.3.10.1",
    "nombre": "Escaleras de f'c=210 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -9321,6 +9386,7 @@
   },
   {
    "codigo": "OG0060",
+   "partida": "OE.2.3.11.1",
    "nombre": "Caja de ascensor de f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -9497,6 +9563,7 @@
   },
   {
    "codigo": "OG0061",
+   "partida": "OE.2.3.11.1",
    "nombre": "Caja de ascensor de f'c=210 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -9673,6 +9740,7 @@
   },
   {
    "codigo": "OG0062",
+   "partida": "OE.2.3.12.1",
    "nombre": "Cisterna de f'c=140 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -9836,6 +9904,7 @@
   },
   {
    "codigo": "OG0063",
+   "partida": "OE.2.3.13.1",
    "nombre": "Tanque elevado de f'c=175 kg/cm2",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -10011,6 +10080,7 @@
   },
   {
    "codigo": "OG0064",
+   "partida": "OE.2.3.9",
    "nombre": "Concreto premezclado en losas y vigas f 'c variable",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -10150,6 +10220,7 @@
   },
   {
    "codigo": "OG0065",
+   "partida": "OE.2.3.6.2.1",
    "nombre": "Concreto premezclado en muros y similares f'c variable",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -10287,6 +10358,7 @@
   },
   {
    "codigo": "MP0002",
+   "partida": "OE.2.3.9.2.4",
    "nombre": "Ladrillos hueco de arcilla de 12 x 30 x 30 cm",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -10372,6 +10444,7 @@
   },
   {
    "codigo": "MP0003",
+   "partida": "OE.2.3.9.2.4",
    "nombre": "Ladrillos hueco de arcilla de 15 x 30 x 30 cm",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -10457,6 +10530,7 @@
   },
   {
    "codigo": "MP0004",
+   "partida": "OE.2.3.9.2.4",
    "nombre": "Ladrillos hueco de arcilla de 20 x 30 x 30 cm",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -10542,6 +10616,7 @@
   },
   {
    "codigo": "MP0005",
+   "partida": "OE.3.1.1",
    "nombre": "Muro de ladrillo KK de arcilla de cabeza",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -10696,6 +10771,7 @@
   },
   {
    "codigo": "MP0006",
+   "partida": "OE.3.1.1",
    "nombre": "Muro de ladrillo KK 18 huecos de arcilla de cabeza",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -10850,6 +10926,7 @@
   },
   {
    "codigo": "MP0007",
+   "partida": "OE.3.1.1",
    "nombre": "Muro de ladrillo KK 18 huecos de arcilla de canto",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -11004,6 +11081,7 @@
   },
   {
    "codigo": "MP0008",
+   "partida": "OE.3.1.2",
    "nombre": "Muro de ladrillo corriente 25x12x10 de cabeza",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -11158,6 +11236,7 @@
   },
   {
    "codigo": "MP0009",
+   "partida": "OE.3.1.1",
    "nombre": "Muro de ladrillo KK 25x12x10 de arcilla de canto",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -11312,6 +11391,7 @@
   },
   {
    "codigo": "MP0010",
+   "partida": "OE.3.1.2",
    "nombre": "Muro de ladrillo corriente de cabeza",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -11466,6 +11546,7 @@
   },
   {
    "codigo": "MP0011",
+   "partida": "OE.3.1.2",
    "nombre": "Muro de ladrillo corriente de soga",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -11620,6 +11701,7 @@
   },
   {
    "codigo": "MP0012",
+   "partida": "OE.3.1.2",
    "nombre": "Muro de ladrillo corriente de canto",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -11774,6 +11856,7 @@
   },
   {
    "codigo": "MP0013",
+   "partida": "OE.3.1.2",
    "nombre": "Muro de ladrillo corriente, una caravista de cabeza",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -11928,6 +12011,7 @@
   },
   {
    "codigo": "MP0014",
+   "partida": "OE.3.1.2",
    "nombre": "Muro de ladrillo corriente, una caravista de soga",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -12082,6 +12166,7 @@
   },
   {
    "codigo": "MP0015",
+   "partida": "OE.3.1.4",
    "nombre": "Muro de ladrillo sílico-calcáreo KK normal solaqueado de soga",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -12248,6 +12333,7 @@
   },
   {
    "codigo": "MP0016",
+   "partida": "OE.3.1.4",
    "nombre": "Muro de ladrillo silico-calcáreo KK modulado solaqueado de soga",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -12414,6 +12500,7 @@
   },
   {
    "codigo": "AC0006",
+   "partida": "OE.3.2.1",
    "nombre": "Tarrajeo primario (rayado)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -12548,6 +12635,7 @@
   },
   {
    "codigo": "AC0007",
+   "partida": "OE.3.2.5",
    "nombre": "Tarrajeo de columnas–superficie",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -12681,6 +12769,7 @@
   },
   {
    "codigo": "AC0008",
+   "partida": "OE.3.2.5",
    "nombre": "Tarrajeo de columnas-aristas",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -12742,6 +12831,7 @@
   },
   {
    "codigo": "AC0009",
+   "partida": "OE.3.2.6",
    "nombre": "Tarrajeo de vigas-superficie",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -12875,6 +12965,7 @@
   },
   {
    "codigo": "AC0010",
+   "partida": "OE.3.2.6",
    "nombre": "Tarrajeo de vigas-aristas",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -12936,6 +13027,7 @@
   },
   {
    "codigo": "AC0011",
+   "partida": "OE.3.2.11",
    "nombre": "Vestidura de derrames",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -13064,6 +13156,7 @@
   },
   {
    "codigo": "AC0012",
+   "partida": "OE.3.2.19",
    "nombre": "Bruña de 1.0 cm",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -13131,6 +13224,7 @@
   },
   {
    "codigo": "AC0013",
+   "partida": "OE.3.2.16.3",
    "nombre": "Enlucido de yeso: sobre muros de ladrillo",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -13273,6 +13367,7 @@
   },
   {
    "codigo": "AC0014",
+   "partida": "OE.3.3.1",
    "nombre": "Cielo raso con yeso, sin cintas",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -13383,6 +13478,7 @@
   },
   {
    "codigo": "AC0015",
+   "partida": "OE.3.3.1",
    "nombre": "Cielo raso con yeso",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -13493,6 +13589,7 @@
   },
   {
    "codigo": "AC0016",
+   "partida": "OE.3.3.3",
    "nombre": "Cielo raso con mezcla",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -13627,6 +13724,7 @@
   },
   {
    "codigo": "AC0017",
+   "partida": "OE.3.2.20",
    "nombre": "Vestidura de fondo de escalera",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -13760,6 +13858,7 @@
   },
   {
    "codigo": "AC0018",
+   "partida": "OE.3.4.1",
    "nombre": "Contrapisos de 25 mm",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -13894,6 +13993,7 @@
   },
   {
    "codigo": "AC0019",
+   "partida": "OE.3.4.2.2",
    "nombre": "Piso de loseta veneciana de 20 x 20 cm",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -14016,6 +14116,7 @@
   },
   {
    "codigo": "AC0020",
+   "partida": "OE.3.4.2.2",
    "nombre": "Piso de loseta veneciana de 30 x 30 cm",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -14138,6 +14239,7 @@
   },
   {
    "codigo": "AC0021",
+   "partida": "OE.3.4.2.21",
    "nombre": "Piso cerámico 30 x 30",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -14272,6 +14374,7 @@
   },
   {
    "codigo": "AC0022",
+   "partida": "OE.3.4.2.8",
    "nombre": "Loseta vinílica de 1,6 mm",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -14370,6 +14473,7 @@
   },
   {
    "codigo": "AC0023",
+   "partida": "OE.3.4.2.10",
    "nombre": "Piso de mármol",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -14492,6 +14596,7 @@
   },
   {
    "codigo": "AC0024",
+   "partida": "OE.3.4.3",
    "nombre": "Piso de concreto de 2\" sin colorear",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -14662,6 +14767,7 @@
   },
   {
    "codigo": "AC0025",
+   "partida": "OE.3.4.3",
    "nombre": "Piso de concreto de 2\" coloreado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -14844,6 +14950,7 @@
   },
   {
    "codigo": "AC0026",
+   "partida": "OE.3.4.3",
    "nombre": "Piso de concreto de 4\" sin colorear",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -15014,6 +15121,7 @@
   },
   {
    "codigo": "EX0001",
+   "partida": "OE.3.4.5",
    "nombre": "Sardinel de mayólica de 15 x 15 cm",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -15141,6 +15249,7 @@
   },
   {
    "codigo": "EX0002",
+   "partida": "OE.3.4.5",
    "nombre": "Sardinel de cerámica de 30 x 30 cm",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -15268,6 +15377,7 @@
   },
   {
    "codigo": "EX0003",
+   "partida": "OE.3.4.6",
    "nombre": "Afirmado de 4\" para veredas",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -15377,6 +15487,7 @@
   },
   {
    "codigo": "EX0004",
+   "partida": "OE.3.4.6",
    "nombre": "Vereda de 4\"",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -15558,6 +15669,7 @@
   },
   {
    "codigo": "EX0005",
+   "partida": "OE.3.4.7",
    "nombre": "Pista de concreto de 6\"",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -15739,6 +15851,7 @@
   },
   {
    "codigo": "EX0006",
+   "partida": "OE.3.4.7",
    "nombre": "Carpeta asfáltica en frío de 2\"",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -15968,6 +16081,7 @@
   },
   {
    "codigo": "EX0007",
+   "partida": "OE.3.4.7",
    "nombre": "Carpeta asfáltica en caliente de 2\"",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -16197,6 +16311,7 @@
   },
   {
    "codigo": "AC0027",
+   "partida": "OE.3.5.2.1",
    "nombre": "Contrazócalo de loseta veneciana de 10 x 20 cm",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -16301,6 +16416,7 @@
   },
   {
    "codigo": "AC0028",
+   "partida": "OE.3.5.2.3",
    "nombre": "Contrazócalo de cemento de 0,10 m de alto - sin colorear",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -16393,6 +16509,7 @@
   },
   {
    "codigo": "AC0029",
+   "partida": "OE.3.5.2.3",
    "nombre": "Contrazócalo de cemento de 0,20 m de alto sin colorear",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -16485,6 +16602,7 @@
   },
   {
    "codigo": "AC0030",
+   "partida": "OE.3.5.2.3",
    "nombre": "Contrazócalo de cemento de 0,30 m de alto - sin colorear",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -16577,6 +16695,7 @@
   },
   {
    "codigo": "AC0031",
+   "partida": "OE.3.5.2.5",
    "nombre": "Contrazócalo de aluminio anodizado de h = 2\"",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -16669,6 +16788,7 @@
   },
   {
    "codigo": "AC0032",
+   "partida": "OE.3.5.2.7",
    "nombre": "Contrazócalo de madera de cedro de 3/4\" x 2\", rodón de 3/4\"",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -16773,6 +16893,7 @@
   },
   {
    "codigo": "AC0033",
+   "partida": "OE.3.5.2.7",
    "nombre": "Contrazócalo de madera de cedro de 3/4\" x 3\", rodón de 3/4\"",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -16877,6 +16998,7 @@
   },
   {
    "codigo": "AC0034",
+   "partida": "OE.3.5.1.11",
    "nombre": "Zócalo de mayólica de 15 x 15 de 1. a",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -16999,6 +17121,7 @@
   },
   {
    "codigo": "AC0035",
+   "partida": "OE.3.5.1.11",
    "nombre": "Zócalo de mayólica de 11 x 11 de 1. a",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -17121,6 +17244,7 @@
   },
   {
    "codigo": "AC0036",
+   "partida": "OE.3.2.21",
    "nombre": "Forjado y revestimiento de gradas de escalera, acabado frotachado",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -17224,6 +17348,7 @@
   },
   {
    "codigo": "AC0037",
+   "partida": "OE.3.2.21",
    "nombre": "Forjado y revestimiento de gradas de escalera acabado cemento coloreado pulido",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -17339,6 +17464,7 @@
   },
   {
    "codigo": "AC0038",
+   "partida": "OE.3.2.22",
    "nombre": "Descanso de escalera acabado frotachado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -17448,6 +17574,7 @@
   },
   {
    "codigo": "AC0039",
+   "partida": "OE.3.2.22",
    "nombre": "Descanso de escalera, acabado cemento coloreado pulido",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -17569,6 +17696,7 @@
   },
   {
    "codigo": "AC0040",
+   "partida": "OE.3.6.3",
    "nombre": "Ladrillo pastelero de 24 x 24 x 3 asentado con mezcla",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -17691,6 +17819,7 @@
   },
   {
    "codigo": "AC0041",
+   "partida": "OE.3.6.2",
    "nombre": "Ladrillo pastelero de 24 x 24 x 3 asentado con barro",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -17825,6 +17954,7 @@
   },
   {
    "codigo": "AC0042",
+   "partida": "OE.3.6.1",
    "nombre": "Cobertura de techo con torta de barro 2\"",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -17935,6 +18065,7 @@
   },
   {
    "codigo": "AC0043",
+   "partida": "OE.3.7.11",
    "nombre": "Pasamanos aislados de 2\" x 3\"",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -18015,6 +18146,7 @@
   },
   {
    "codigo": "AC0044",
+   "partida": "OE.3.9.1",
    "nombre": "Bisagras capuchinas de 3 1/2\" x 3 1/2\" aluminizado",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -18064,6 +18196,7 @@
   },
   {
    "codigo": "AC0045",
+   "partida": "OE.3.11.1",
    "nombre": "Pintura de cielo raso y muros al temple",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -18126,6 +18259,7 @@
   },
   {
    "codigo": "AC0046",
+   "partida": "OE.3.11.1",
    "nombre": "Pintura de cielo raso y muros (látex interiores)",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -18188,6 +18322,7 @@
   },
   {
    "codigo": "AC0047",
+   "partida": "OE.3.11.5",
    "nombre": "Pintura de contrazócalo con barniz",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -18256,6 +18391,7 @@
   },
   {
    "codigo": "IS0001",
+   "partida": "OE.4.1.3",
    "nombre": "Colocación de aparatos sanitarios",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -18317,6 +18453,7 @@
   },
   {
    "codigo": "IS0002",
+   "partida": "OE.4.1.4",
    "nombre": "Colocación de accesorios sanitarios",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -18390,6 +18527,7 @@
   },
   {
    "codigo": "AC0048",
+   "partida": "OE.3.7.1",
    "nombre": "Puertas contraplacadas de 35 mm",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -18488,6 +18626,7 @@
   },
   {
    "codigo": "IS0003",
+   "partida": "OE.4.6.1",
    "nombre": "Salida de desagüe en PVC",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -18609,6 +18748,7 @@
   },
   {
    "codigo": "IS0004",
+   "partida": "OE.4.6.4",
    "nombre": "Sumidero 2\"",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -18718,6 +18858,7 @@
   },
   {
    "codigo": "IS0005",
+   "partida": "OE.4.6.5.1",
    "nombre": "Registro de 4\"",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -18815,6 +18956,7 @@
   },
   {
    "codigo": "IE0001",
+   "partida": "OE.5.2.1",
    "nombre": "Centro de luz",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -18924,6 +19066,7 @@
   },
   {
    "codigo": "IE0002",
+   "partida": "OE.5.2.1",
    "nombre": "Salida para electricidad Braquete con PVC",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -19033,6 +19176,7 @@
   },
   {
    "codigo": "IE0003",
+   "partida": "OE.5.2.1",
    "nombre": "Salida para electricidad Spot Light con PVC",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -19154,6 +19298,7 @@
   },
   {
    "codigo": "IE0004",
+   "partida": "OE.5.2.1",
    "nombre": "Salida para tomacorriente bipolar simple con PVC",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -19263,6 +19408,7 @@
   },
   {
    "codigo": "IE0005",
+   "partida": "OE.5.2.1",
    "nombre": "Salida para calentador con PVC",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -19384,6 +19530,7 @@
   },
   {
    "codigo": "IE0006",
+   "partida": "OE.5.2.1",
    "nombre": "Salida de fuerza para cocina con PVC",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
