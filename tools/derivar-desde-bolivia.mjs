@@ -125,7 +125,7 @@ const CONFIG = {
     },
   },
   EC: {
-    version: "v20260924-fuentes-citables",
+    version: "v20260924b-apu-publicos",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Ecuador: Contraloría General del Estado (salarios mínimos por ley 2026, hora real con cargas: la caja lleva cargasSociales = 0) y precios de referencia de mercado de Quito 2026. Relevado en Quito; las otras 6 ciudades COPIAN Quito (referencial) hasta relevarse. La cadena ecuatoriana agrega el IVA (15 %) al final: los insumos van sin IVA.",
     // El cemento ecuatoriano se vende por SACO de 50 kg y el boliviano por kg: no es equivalente,
     // entra como REFERENCIA convertida (referencias_EC.json). Lo mismo con galones y tubos.
@@ -533,6 +533,30 @@ for (const it of itemsBO.items) {
   if (cfg.traducir && !nombre) sinTraducir.push(it.codigo);
   items.push({ ...it, codigo: `${it.codigo}${PAIS}`, nombre: nombre ?? it.nombre, insumos });
 }
+const derivadosN = items.length;
+
+// ── ÍTEMS PROPIOS DEL PAÍS (24-sep-2026) ────────────────────────────────────────────────────
+// Ítems que NO derivan de uno boliviano: en Ecuador, los APU de documentos públicos de
+// contratación (Guayaquil, Daule, MSP). Viven en `catalogo/fuentes/items_propios_XX.json`, ya con
+// su código del país, y usan insumos de la lista publicada o de `propios_XX.json`. Entran con la
+// MISMA regla que los derivados: sólo si cierran con precio en todas las ciudades servidas.
+// Cada uno trae la cita de su documento en `fuente`; eso NO se publica (el catálogo sólo lleva los
+// campos de su formato, y un campo desconocido puede romper un lector estricto).
+const itemsPropiosPath = `catalogo/fuentes/items_propios_${PAIS}.json`;
+const CAMPOS_ITEM = ["codigo", "nombre", "tipoCalculo", "inputPrincipalLabel", "unidadResultado", "categoria", "verificado",
+  "tipoIfc", "formulaResultado", "parametros", "presets", "armaduraJson", "insumos", "partida"];
+const propiosFuera = [];
+if (existsSync(join(BASE, itemsPropiosPath))) {
+  const precioEnTodas = (idc) => servidas.every((c) => (c.precios.find((p) => p.idCanonico === idc)?.precio ?? 0) > 0);
+  for (const it of leer(itemsPropiosPath).items) {
+    if (!String(it.codigo).endsWith(PAIS)) { propiosFuera.push(`${it.codigo}: el código no termina en ${PAIS}`); continue; }
+    const faltan = it.insumos.filter((s) => s.tipoCalculo !== "PORCENTAJE" && !precioEnTodas(s.idCanonico)).map((s) => s.idCanonico);
+    if (faltan.length) { propiosFuera.push(`${it.codigo}: sin precio ${faltan.slice(0, 3).join(", ")}`); continue; }
+    items.push(Object.fromEntries(CAMPOS_ITEM.filter((k) => it[k] !== undefined).map((k) => [k, it[k]])));
+  }
+  console.log(`  ítems propios de ${PAIS}: ${items.length - derivadosN} entran · ${propiosFuera.length} quedan fuera`);
+  for (const f of propiosFuera.slice(0, 10)) console.log(`    · ${f}`);
+}
 
 // ── Chequeos: lo que las guardas del PC van a exigir, comprobado ACÁ antes de escribir ─────
 const err = [];
@@ -581,7 +605,7 @@ const zerosPorCiudad = Math.max(...servidas.map((c) => c.precios.filter((p) => !
 const salidaItems = { version: cfg.version, schemaVersion: itemsBO.schemaVersion ?? 1, pais: PAIS, items };
 const salidaPrecios = {
   version: cfg.version, fuente: cfg.fuente, pais: PAIS,
-  nota: `Base de ${PAIS} DERIVADA de la boliviana (2-sep-2026): los ${maestro.length} insumos de Bolivia bajo el espacio ${iso}_${propiosN ? ` más ${propiosN} PROPIOS del país (precios/fuentes/propios_${PAIS}.json)` : ""}, en las ${ciudades.length} ciudades de la caja. Cada precio dice en su nota de dónde salió — en ${ciudadRef.nombre}: ${origen.RELEVADO} RELEVADOS, ${origen.REFERENCIA} por REFERENCIA (fuente citada), ${origen.ESTIMADO} ESTIMADOS por relación con Bolivia (material ×${k.MATERIAL?.toFixed(2)}, M.O. ×${k.MANO_DE_OBRA?.toFixed(2)}, equipo ×${k.HERRAMIENTA?.toFixed(2)}; revisar antes de ofertar), ${origen.PENDIENTE} PENDIENTES en 0. Las otras ciudades copian ${ciudadRef.nombre} hasta relevarse. Ítems publicados: los que cierran con precio completo (${items.length} de ${itemsBO.items.length}). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_${PAIS}.json).`,
+  nota: `Base de ${PAIS} DERIVADA de la boliviana (2-sep-2026): los ${maestro.length} insumos de Bolivia bajo el espacio ${iso}_${propiosN ? ` más ${propiosN} PROPIOS del país (precios/fuentes/propios_${PAIS}.json)` : ""}, en las ${ciudades.length} ciudades de la caja. Cada precio dice en su nota de dónde salió — en ${ciudadRef.nombre}: ${origen.RELEVADO} RELEVADOS, ${origen.REFERENCIA} por REFERENCIA (fuente citada), ${origen.ESTIMADO} ESTIMADOS por relación con Bolivia (material ×${k.MATERIAL?.toFixed(2)}, M.O. ×${k.MANO_DE_OBRA?.toFixed(2)}, equipo ×${k.HERRAMIENTA?.toFixed(2)}; revisar antes de ofertar), ${origen.PENDIENTE} PENDIENTES en 0. Las otras ciudades copian ${ciudadRef.nombre} hasta relevarse. Ítems publicados: los que cierran con precio completo (${derivadosN} de ${itemsBO.items.length} derivados${items.length > derivadosN ? ` + ${items.length - derivadosN} PROPIOS del país, de documentos públicos (catalogo/fuentes/items_propios_${PAIS}.json)` : ""}). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_${PAIS}.json).`,
   origenPrecios: { ciudadReferencia: ciudadRef.nombre, ...origen, relacionConBolivia: k, paresMedidos: Object.fromEntries(Object.entries(pares).map(([t, a]) => [t, a.length])), porCiudad: origenCiudad },
   precios: [],
   ciudades,
@@ -590,7 +614,7 @@ writeFileSync(join(BASE, `catalogo/v1.0/items_${PAIS}.json`), JSON.stringify(sal
 writeFileSync(join(BASE, `precios/v1.0/oficiales_${PAIS}.json`), JSON.stringify(salidaPrecios, null, 2) + "\n");
 
 const top = [...bloqueo.entries()].sort((a, b) => b[1] - a[1]).slice(0, 15);
-console.log(`✓ ${PAIS}: ${items.length}/${itemsBO.items.length} ítems con precio completo · ${maestro.length} insumos × ${ciudades.length} ciudades · pendientes por ciudad: ${zerosPorCiudad} (poner ese TOPE en estado-de-las-bases.test.ts)`);
+console.log(`✓ ${PAIS}: ${derivadosN}/${itemsBO.items.length} ítems derivados + ${items.length - derivadosN} propios con precio completo · ${ciudades[0].precios.length} insumos × ${ciudades.length} ciudades · pendientes por ciudad: ${zerosPorCiudad} (poner ese TOPE en estado-de-las-bases.test.ts)`);
 console.log(`  origen en ${ciudadRef.nombre}: ${origen.RELEVADO} relevados · ${origen.REFERENCIA} referencias · ${origen.ESTIMADO} estimados · ${origen.PENDIENTE} pendientes`);
 console.log(`  relación con Bolivia: material ×${k.MATERIAL?.toFixed(2)} (${pares.MATERIAL.length} pares) · M.O. ×${k.MANO_DE_OBRA?.toFixed(2)} (${pares.MANO_DE_OBRA.length}) · equipo ×${k.HERRAMIENTA?.toFixed(2)} (${pares.HERRAMIENTA.length})`);
 for (const [ciudad, o] of Object.entries(origenCiudad)) if (o.REFERENCIA) console.log(`  ${ciudad}: ${o.REFERENCIA} referencias propias · ${o.ESTIMADO_DESDE_REFERENCIA} estimados desde ${ciudadRef.nombre} (${Object.entries(o.relacionConReferencia).map(([t, v]) => `${t.toLowerCase()} ×${v.toFixed(3)}`).join(", ") || "sin relación"}) · ${o.COPIADO} copiados`);
