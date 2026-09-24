@@ -101,6 +101,14 @@
     "precios_BR": {
       "version": "v20260910-br-nombres-unicos",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_BR.json"
+    },
+    "catalogo_MX": {
+      "version": "v20260923-mx-base",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_MX.json"
+    },
+    "precios_MX": {
+      "version": "v20260923-mx-base",
+      "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_MX.json"
     }
   }
 }
