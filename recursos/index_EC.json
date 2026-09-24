@@ -36,7 +36,7 @@
    ]
   },
   {
-   "nombre": "Vivienda Unifamiliar De ejemplo",
+   "nombre": "Vivienda Unifamiliar De ejemplo (Ecuador)",
    "tipo": "ifc",
    "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ejemplo1_EC.ifc",
    "descripcion": "Se elaboro con VectorWorks exportado en formato .IFC    2x3 — con los ítems de Ecuador ya asignados por código.",

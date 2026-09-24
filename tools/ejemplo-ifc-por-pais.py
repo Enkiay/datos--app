@@ -90,6 +90,10 @@ def main():
             if r.get("url", "").endswith("/ejemplo1.ifc"):
                 r["url"] = BASE + archivo
                 r["pais"] = pais          # el genérico dice «BO»: la copia es de ESTE país
+                # EL NOMBRE LLEVA EL PAÍS (24-sep-2026, Oscar: «¿por qué no puedo ver este ejemplo en la ventana de
+                # los proyectos?»): el PC ofrece sólo los ejemplos que NO están en tu carpeta de modelos, y compara
+                # por NOMBRE. Con el mismo nombre que el boliviano, quien ya lo había bajado nunca veía el suyo.
+                r["nombre"] = f"{r['nombre'].split(' (')[0]} ({NOMBRE[pais]})"
                 r["descripcion"] = (r.get("descripcion", "").strip() +
                                     f" — con los ítems de {NOMBRE[pais]} ya asignados por código.").strip(" —")
         json.dump(idx, io.open(os.path.join(REC, f"index_{pais}.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
