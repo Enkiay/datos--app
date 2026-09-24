@@ -39,11 +39,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/empresas/v1.0/index.json"
     },
     "catalogo_PE": {
-      "version": "v20260923-partidas-oe",
+      "version": "v20260924-apu-tumbes",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_PE.json"
     },
     "precios_PE": {
-      "version": "v20260902-hdpe-por-masa",
+      "version": "v20260924-apu-tumbes",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PE.json"
     },
     "catalogo_CL": {
