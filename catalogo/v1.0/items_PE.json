@@ -1,5 +1,5 @@
 {
- "version": "v20260924b-tipos-ifc",
+ "version": "v20260924c-partidas-oe",
  "schemaVersion": 1,
  "pais": "PE",
  "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Medición SIMPLE por dimensiones (sin fórmulas) + presets por familia (17-ago). Armadura auto por elemento en el concreto armado (17-ago). · IU en base INEI dic-2025 (26-ago-2026): el unico codigo de la base vieja, el 64 (TERRAZO, Marmol travertino), migro al 40 (Loseta y terrazo); el resto de los indices declarados ya existia en la base nueva. PARTIDAS: cada ítem lleva `partida`, su numeración en la Norma Técnica «Metrados para Obras de Edificación y Habilitaciones Urbanas» (RD 073-2010/VIVIENDA/VMCS-DNC); el `codigo` sigue siendo la identidad interna. Excavaciones simples = OE.2.1.2.2 (la Norma las imprime OE.2.1.2.1 por errata). + 24-sep-2026: 476 partidas de expedientes técnicos PÚBLICOS del Gobierno Regional de Tumbes (catalogo/fuentes/items_propios_PE.json cita el documento de cada una).",
@@ -24211,7 +24211,7 @@
   },
   {
    "codigo": "OG0103",
-   "partida": "OE.2",
+   "partida": "OE.2.3",
    "nombre": "Curado de estructuras de concreto con aditivo",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -27349,7 +27349,7 @@
   },
   {
    "codigo": "OG0141",
-   "partida": "OE.1",
+   "partida": "OE.1.1.1",
    "nombre": "Suministro e instalación de paneles de triplay de 1.20x2.40 de 4mm",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -30477,7 +30477,7 @@
   },
   {
    "codigo": "AC0049",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Acero f'y=4200 kg/cm2 para mesas",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -30778,7 +30778,7 @@
   },
   {
    "codigo": "AC0052",
-   "partida": "OE.3",
+   "partida": "OE.3.4.3",
    "nombre": "Concreto en losas f'c=210 kg/cm2, e=20cm incluye encofrado y desencofrado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -30949,7 +30949,7 @@
   },
   {
    "codigo": "AC0053",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Concreto f'c=175 kg/cm2 para mesas",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -31101,7 +31101,7 @@
   },
   {
    "codigo": "AC0054",
-   "partida": "OE.3",
+   "partida": "OE.4.5.1",
    "nombre": "Concreto f'c=175kg/cm2 para redireccionamiento de agua pluvial en canaleta media caña",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -31969,7 +31969,7 @@
   },
   {
    "codigo": "AC0063",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Encofrado y desencofrado de mesas de concreto",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -32358,7 +32358,7 @@
   },
   {
    "codigo": "AC0068",
-   "partida": "OE.3",
+   "partida": "OE.3.4.3",
    "nombre": "Losa de cº f'c=210 kg/cm2, e=20cm inc. encofrado y desencofrado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -34239,7 +34239,7 @@
   },
   {
    "codigo": "AC0083",
-   "partida": "OE.3",
+   "partida": "OE.2.4.7",
    "nombre": "Suministro e instalación canaleta drenaje pluvial plancha fºgº de 2mm inc. accesorios",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -34427,7 +34427,7 @@
   },
   {
    "codigo": "AC0084",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Suministro e instalación de arcos c/tubo 4\"x2.5 mm (incl. malla)",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -34492,7 +34492,7 @@
   },
   {
    "codigo": "AC0086",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Suministro y colocación de bancas de concreto (1.80x0.45)",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -34721,7 +34721,7 @@
   },
   {
    "codigo": "AC0089",
-   "partida": "OE.3",
+   "partida": "OE.4.5.2",
    "nombre": "Suministro y colocación de gargolas de c° prefabricada",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -40247,7 +40247,7 @@
   },
   {
    "codigo": "CU0012",
-   "partida": "OE.3",
+   "partida": "OE.3.6.9",
    "nombre": "Suministro y colocación de cumbrera de fibra vegetal",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -41420,7 +41420,7 @@
   },
   {
    "codigo": "IS0006",
-   "partida": "OE.4",
+   "partida": "OE.2.1.6",
    "nombre": "Acarreo manual de material excedente",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -41514,7 +41514,7 @@
   },
   {
    "codigo": "IS0008",
-   "partida": "OE.4",
+   "partida": "OE.2.1.4.2",
    "nombre": "Colocación, nivelación y compactación con material de prestamo (hormigón) e=0.20m",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -41612,7 +41612,7 @@
   },
   {
    "codigo": "IS0009",
-   "partida": "OE.4",
+   "partida": "OE.2.1.4.2",
    "nombre": "Colocación, nivelación y compactación con material de prestamo (over de 2\" a 3\")",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -41704,7 +41704,7 @@
   },
   {
    "codigo": "IS0010",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Concreto f'c= 175 kg/cm2 - para cunetas",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -42452,7 +42452,7 @@
   },
   {
    "codigo": "IS0015",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Curado de estructuras",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -42660,7 +42660,7 @@
   },
   {
    "codigo": "IS0017",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Encofrado y desencofrado de cuenta",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -42948,7 +42948,7 @@
   },
   {
    "codigo": "IS0020",
-   "partida": "OE.4",
+   "partida": "OE.2.1.2.2",
    "nombre": "Excavación de zanjas manual",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -43016,7 +43016,7 @@
   },
   {
    "codigo": "IS0021",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Excavación manual para cunetas",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -43224,7 +43224,7 @@
   },
   {
    "codigo": "IS0026",
-   "partida": "OE.4",
+   "partida": "OE.2.1.4.2",
    "nombre": "Mejoramiento con material de prestamo (hormigón) e=0.15m",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -43322,7 +43322,7 @@
   },
   {
    "codigo": "IS0027",
-   "partida": "OE.4",
+   "partida": "OE.4.7",
    "nombre": "Prueba hidráulica de redes de alcantarillado",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -46263,7 +46263,7 @@
   },
   {
    "codigo": "IS0069",
-   "partida": "OE.4",
+   "partida": "OE.4.7",
    "nombre": "Suministro e instalación de geomembrana hdp",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -46830,7 +46830,7 @@
   },
   {
    "codigo": "IS0076",
-   "partida": "OE.4",
+   "partida": "OE.4.1.1",
    "nombre": "Suministro e instalación de ovalin losa blanca con accesorios",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -46979,7 +46979,7 @@
   },
   {
    "codigo": "IS0078",
-   "partida": "OE.4",
+   "partida": "OE.4.6.6",
    "nombre": "Suministro e instalación de pozo de absorción 1.20x1.20x2.00m",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -47535,7 +47535,7 @@
   },
   {
    "codigo": "IS0086",
-   "partida": "OE.4",
+   "partida": "OE.4.6.5.1",
    "nombre": "Suministro e instalación de tapa metálica de 0.60x0.60m, plancha e=3/16\"",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -47597,7 +47597,7 @@
   },
   {
    "codigo": "IS0087",
-   "partida": "OE.4",
+   "partida": "OE.4.6.5.1",
    "nombre": "Suministro e instalación de tapa metálica de 0.70x0.70m, plancha e=3/16\"",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -49043,7 +49043,7 @@
   },
   {
    "codigo": "IS0108",
-   "partida": "OE.4",
+   "partida": "OE.2.1.4.2",
    "nombre": "Suministro y colocación de cama de arena fina, e=0.10m",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -49111,7 +49111,7 @@
   },
   {
    "codigo": "IS0109",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Suministro y colocación de capa de hormigón para cuneta, e=0.25m",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -49779,7 +49779,7 @@
   },
   {
    "codigo": "IS0116",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Tarrajeo de cunetas prop. 1:4 - cemento tipo ms",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -51379,7 +51379,7 @@
   },
   {
    "codigo": "IE0017",
-   "partida": "OE.5",
+   "partida": "OE.5.2.3",
    "nombre": "Cinta aislante 3mm/1600",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -51417,7 +51417,7 @@
   },
   {
    "codigo": "IE0018",
-   "partida": "OE.5",
+   "partida": "OE.5.2.4.2",
    "nombre": "Cinta señalizadora de baja tensión rollo x 100m",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -52263,7 +52263,7 @@
   },
   {
    "codigo": "IE0030",
-   "partida": "OE.5",
+   "partida": "OE.5.2.3",
    "nombre": "Empalme conexiones eléctricas",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -52289,7 +52289,7 @@
   },
   {
    "codigo": "IE0031",
-   "partida": "OE.5",
+   "partida": "OE.5.5.2",
    "nombre": "Estructura de proyección",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -55783,7 +55783,7 @@
   },
   {
    "codigo": "IE0064",
-   "partida": "OE.5",
+   "partida": "OE.5.2.3",
    "nombre": "Suministro e nstalación de accesrios",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -59485,7 +59485,7 @@
   },
   {
    "codigo": "IE0091",
-   "partida": "OE.5",
+   "partida": "OE.5.5.1",
    "nombre": "Suministro y montaje de equipo de luz de emergencia",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -59559,7 +59559,7 @@
   },
   {
    "codigo": "IE0092",
-   "partida": "OE.5",
+   "partida": "OE.5.6.4",
    "nombre": "Suministro y montaje de grupo generador de 50HP, encapsulado",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -61555,7 +61555,7 @@
   },
   {
    "codigo": "IE0112",
-   "partida": "OE.5",
+   "partida": "OE.5.2.4.2",
    "nombre": "ZANJEO, RELLENO Y AGREGADOS (0.60 x 0.40 mts) terreno natural",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -62044,7 +62044,7 @@
   },
   {
    "codigo": "EX0011",
-   "partida": "OE.3",
+   "partida": "OE.2.2.8",
    "nombre": "Encofrado y desencofrado de rampa",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -62315,7 +62315,7 @@
   },
   {
    "codigo": "EX0014",
-   "partida": "OE.3",
+   "partida": "OE.3.4.3",
    "nombre": "Losa deportiva de c° f'c=175 kg/cm2, e=0.15m inc. encofrado y desencofrado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -63490,7 +63490,7 @@
   },
   {
    "codigo": "EX0021",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Suministro y colocación de asta de bandera",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",

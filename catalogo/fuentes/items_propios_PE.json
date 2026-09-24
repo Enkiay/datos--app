@@ -1,6 +1,6 @@
 {
  "_": "ÍTEMS PROPIOS de Perú tomados de expedientes técnicos PÚBLICOS del Gobierno Regional de Tumbes. `fuente` cita el documento; items_PE.json los publica SIN ese campo.",
- "version": "v20260924b-tipos-ifc",
+ "version": "v20260924c-partidas-oe",
  "pais": "PE",
  "items": [
   {
@@ -5017,7 +5017,7 @@
   },
   {
    "codigo": "OG0103",
-   "partida": "OE.2",
+   "partida": "OE.2.3",
    "nombre": "Curado de estructuras de concreto con aditivo",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -5086,7 +5086,7 @@
     "costoDirecto": 3.47,
     "rendimientoDia": 240.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 3.45
    }
   },
@@ -8662,7 +8662,7 @@
   },
   {
    "codigo": "OG0141",
-   "partida": "OE.1",
+   "partida": "OE.1.1.1",
    "nombre": "Suministro e instalación de paneles de triplay de 1.20x2.40 de 4mm",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -8815,7 +8815,7 @@
     "costoDirecto": 49.65,
     "rendimientoDia": 20.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 47.7
    }
   },
@@ -12050,7 +12050,7 @@
   },
   {
    "codigo": "AC0049",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Acero f'y=4200 kg/cm2 para mesas",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -12155,7 +12155,7 @@
     "costoDirecto": 7.47,
     "rendimientoDia": 250.0,
     "estadoFrenteAPE": "parecido a uno de PE",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 5.54
    }
   },
@@ -12390,7 +12390,7 @@
   },
   {
    "codigo": "AC0052",
-   "partida": "OE.3",
+   "partida": "OE.3.4.3",
    "nombre": "Concreto en losas f'c=210 kg/cm2, e=20cm incluye encofrado y desencofrado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -12567,14 +12567,14 @@
     "costoDirecto": 119.58,
     "rendimientoDia": 60.0,
     "estadoFrenteAPE": "parecido a uno de PE",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 121.06
    },
    "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0053",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Concreto f'c=175 kg/cm2 para mesas",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -12733,13 +12733,13 @@
     "costoDirecto": 511.82,
     "rendimientoDia": 15.0,
     "estadoFrenteAPE": "parecido a uno de PE",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 449.27
    }
   },
   {
    "codigo": "AC0054",
-   "partida": "OE.3",
+   "partida": "OE.4.5.1",
    "nombre": "Concreto f'c=175kg/cm2 para redireccionamiento de agua pluvial en canaleta media caña",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -12898,7 +12898,7 @@
     "costoDirecto": 537.57,
     "rendimientoDia": 15.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 471.81
    }
   },
@@ -13724,7 +13724,7 @@
   },
   {
    "codigo": "AC0063",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Encofrado y desencofrado de mesas de concreto",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -13829,7 +13829,7 @@
     "costoDirecto": 55.11,
     "rendimientoDia": 16.0,
     "estadoFrenteAPE": "parecido a uno de PE",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 50.67
    }
   },
@@ -14178,7 +14178,7 @@
   },
   {
    "codigo": "AC0068",
-   "partida": "OE.3",
+   "partida": "OE.3.4.3",
    "nombre": "Losa de cº f'c=210 kg/cm2, e=20cm inc. encofrado y desencofrado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -14355,7 +14355,7 @@
     "costoDirecto": 123.66,
     "rendimientoDia": 80.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 109.03
    },
    "tipoIfc": "SLAB"
@@ -16254,7 +16254,7 @@
   },
   {
    "codigo": "AC0083",
-   "partida": "OE.3",
+   "partida": "OE.2.4.7",
    "nombre": "Suministro e instalación canaleta drenaje pluvial plancha fºgº de 2mm inc. accesorios",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -16449,13 +16449,13 @@
     "costoDirecto": 71.92,
     "rendimientoDia": 30.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 70.99
    }
   },
   {
    "codigo": "AC0084",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Suministro e instalación de arcos c/tubo 4\"x2.5 mm (incl. malla)",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -16488,7 +16488,7 @@
     "costoDirecto": 2542.37,
     "rendimientoDia": 1.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 2542.37
    }
   },
@@ -16546,7 +16546,7 @@
   },
   {
    "codigo": "AC0086",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Suministro y colocación de bancas de concreto (1.80x0.45)",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -16579,7 +16579,7 @@
     "costoDirecto": 1300.0,
     "rendimientoDia": 5.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 1300.0
    }
   },
@@ -16814,7 +16814,7 @@
   },
   {
    "codigo": "AC0089",
-   "partida": "OE.3",
+   "partida": "OE.4.5.2",
    "nombre": "Suministro y colocación de gargolas de c° prefabricada",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -16883,7 +16883,7 @@
     "costoDirecto": 96.17,
     "rendimientoDia": 12.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 92.54
    }
   },
@@ -23497,7 +23497,7 @@
   },
   {
    "codigo": "CU0012",
-   "partida": "OE.3",
+   "partida": "OE.3.6.9",
    "nombre": "Suministro y colocación de cumbrera de fibra vegetal",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -23596,7 +23596,7 @@
     "costoDirecto": 29.810000000000002,
     "rendimientoDia": 40.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 29.46
    },
    "tipoIfc": "ROOF"
@@ -24761,7 +24761,7 @@
   },
   {
    "codigo": "IS0006",
-   "partida": "OE.4",
+   "partida": "OE.2.1.6",
    "nombre": "Acarreo manual de material excedente",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -24836,7 +24836,7 @@
     "costoDirecto": 29.26,
     "rendimientoDia": 6.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 26.27
    }
   },
@@ -24881,7 +24881,7 @@
   },
   {
    "codigo": "IS0008",
-   "partida": "OE.4",
+   "partida": "OE.2.1.4.2",
    "nombre": "Colocación, nivelación y compactación con material de prestamo (hormigón) e=0.20m",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -24986,13 +24986,13 @@
     "costoDirecto": 20.77,
     "rendimientoDia": 100.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 21.88
    }
   },
   {
    "codigo": "IS0009",
-   "partida": "OE.4",
+   "partida": "OE.2.1.4.2",
    "nombre": "Colocación, nivelación y compactación con material de prestamo (over de 2\" a 3\")",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -25091,13 +25091,13 @@
     "costoDirecto": 141.0,
     "rendimientoDia": 15.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 139.18
    }
   },
   {
    "codigo": "IS0010",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Concreto f'c= 175 kg/cm2 - para cunetas",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -25256,7 +25256,7 @@
     "costoDirecto": 400.93,
     "rendimientoDia": 20.0,
     "estadoFrenteAPE": "parecido a uno de PE",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 427.88
    }
   },
@@ -25910,7 +25910,7 @@
   },
   {
    "codigo": "IS0015",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Curado de estructuras",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -25979,7 +25979,7 @@
     "costoDirecto": 3.47,
     "rendimientoDia": 240.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 3.45
    }
   },
@@ -26144,7 +26144,7 @@
   },
   {
    "codigo": "IS0017",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Encofrado y desencofrado de cuenta",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -26249,7 +26249,7 @@
     "costoDirecto": 47.28,
     "rendimientoDia": 16.0,
     "estadoFrenteAPE": "parecido a uno de PE",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 44.7
    }
   },
@@ -26471,7 +26471,7 @@
   },
   {
    "codigo": "IS0020",
-   "partida": "OE.4",
+   "partida": "OE.2.1.2.2",
    "nombre": "Excavación de zanjas manual",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -26546,13 +26546,13 @@
     "costoDirecto": 50.160000000000004,
     "rendimientoDia": 3.5,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 45.03
    }
   },
   {
    "codigo": "IS0021",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Excavación manual para cunetas",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -26615,7 +26615,7 @@
     "costoDirecto": 40.71,
     "rendimientoDia": 3.5,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 39.67
    }
   },
@@ -26825,7 +26825,7 @@
   },
   {
    "codigo": "IS0026",
-   "partida": "OE.4",
+   "partida": "OE.2.1.4.2",
    "nombre": "Mejoramiento con material de prestamo (hormigón) e=0.15m",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -26930,13 +26930,13 @@
     "costoDirecto": 16.17,
     "rendimientoDia": 120.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 17.0
    }
   },
   {
    "codigo": "IS0027",
-   "partida": "OE.4",
+   "partida": "OE.4.7",
    "nombre": "Prueba hidráulica de redes de alcantarillado",
    "tipoCalculo": "LONGITUD",
    "inputPrincipalLabel": "Cantidad",
@@ -27035,7 +27035,7 @@
     "costoDirecto": 7.65,
     "rendimientoDia": 100.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 5.1
    }
   },
@@ -30423,7 +30423,7 @@
   },
   {
    "codigo": "IS0069",
-   "partida": "OE.4",
+   "partida": "OE.4.7",
    "nombre": "Suministro e instalación de geomembrana hdp",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -30552,7 +30552,7 @@
     "costoDirecto": 14.05,
     "rendimientoDia": 2000.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 13.99
    }
   },
@@ -31081,7 +31081,7 @@
   },
   {
    "codigo": "IS0076",
-   "partida": "OE.4",
+   "partida": "OE.4.1.1",
    "nombre": "Suministro e instalación de ovalin losa blanca con accesorios",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -31186,7 +31186,7 @@
     "costoDirecto": 255.02,
     "rendimientoDia": 4.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 247.01
    },
    "tipoIfc": "SLAB"
@@ -31256,7 +31256,7 @@
   },
   {
    "codigo": "IS0078",
-   "partida": "OE.4",
+   "partida": "OE.4.6.6",
    "nombre": "Suministro e instalación de pozo de absorción 1.20x1.20x2.00m",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -31361,7 +31361,7 @@
     "costoDirecto": 1002.6800000000001,
     "rendimientoDia": 1.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 944.1
    }
   },
@@ -31916,7 +31916,7 @@
   },
   {
    "codigo": "IS0086",
-   "partida": "OE.4",
+   "partida": "OE.4.6.5.1",
    "nombre": "Suministro e instalación de tapa metálica de 0.60x0.60m, plancha e=3/16\"",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -31985,13 +31985,13 @@
     "costoDirecto": 443.35,
     "rendimientoDia": 3.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 428.85
    }
   },
   {
    "codigo": "IS0087",
-   "partida": "OE.4",
+   "partida": "OE.4.6.5.1",
    "nombre": "Suministro e instalación de tapa metálica de 0.70x0.70m, plancha e=3/16\"",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -32048,7 +32048,7 @@
     "costoDirecto": 412.02,
     "rendimientoDia": 8.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 408.46
    }
   },
@@ -33710,7 +33710,7 @@
   },
   {
    "codigo": "IS0108",
-   "partida": "OE.4",
+   "partida": "OE.2.1.4.2",
    "nombre": "Suministro y colocación de cama de arena fina, e=0.10m",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -33785,13 +33785,13 @@
     "costoDirecto": 100.41,
     "rendimientoDia": 6.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 97.89
    }
   },
   {
    "codigo": "IS0109",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Suministro y colocación de capa de hormigón para cuneta, e=0.25m",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -33908,7 +33908,7 @@
     "costoDirecto": 33.730000000000004,
     "rendimientoDia": 80.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 30.59
    }
   },
@@ -34550,7 +34550,7 @@
   },
   {
    "codigo": "IS0116",
-   "partida": "OE.4",
+   "partida": "OE.4.5.1",
    "nombre": "Tarrajeo de cunetas prop. 1:4 - cemento tipo ms",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -34667,7 +34667,7 @@
     "costoDirecto": 64.03,
     "rendimientoDia": 9.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 58.18
    }
   },
@@ -36410,7 +36410,7 @@
   },
   {
    "codigo": "IE0017",
-   "partida": "OE.5",
+   "partida": "OE.5.2.3",
    "nombre": "Cinta aislante 3mm/1600",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -36455,13 +36455,13 @@
     "costoDirecto": 13.0,
     "rendimientoDia": 1.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 12.17
    }
   },
   {
    "codigo": "IE0018",
-   "partida": "OE.5",
+   "partida": "OE.5.2.4.2",
    "nombre": "Cinta señalizadora de baja tensión rollo x 100m",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -36530,7 +36530,7 @@
     "costoDirecto": 87.62,
     "rendimientoDia": 10.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 83.19
    }
   },
@@ -37463,7 +37463,7 @@
   },
   {
    "codigo": "IE0030",
-   "partida": "OE.5",
+   "partida": "OE.5.2.3",
    "nombre": "Empalme conexiones eléctricas",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -37496,13 +37496,13 @@
     "costoDirecto": 36.0,
     "rendimientoDia": 1.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 36.0
    }
   },
   {
    "codigo": "IE0031",
-   "partida": "OE.5",
+   "partida": "OE.5.5.2",
    "nombre": "Estructura de proyección",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -37571,7 +37571,7 @@
     "costoDirecto": 177.0,
     "rendimientoDia": 6.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 174.42
    }
   },
@@ -41425,7 +41425,7 @@
   },
   {
    "codigo": "IE0064",
-   "partida": "OE.5",
+   "partida": "OE.5.2.3",
    "nombre": "Suministro e nstalación de accesrios",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -41458,7 +41458,7 @@
     "costoDirecto": 200.0,
     "rendimientoDia": 8.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 200.0
    }
   },
@@ -45478,7 +45478,7 @@
   },
   {
    "codigo": "IE0091",
-   "partida": "OE.5",
+   "partida": "OE.5.5.1",
    "nombre": "Suministro y montaje de equipo de luz de emergencia",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -45559,13 +45559,13 @@
     "costoDirecto": 130.14000000000001,
     "rendimientoDia": 8.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 128.49
    }
   },
   {
    "codigo": "IE0092",
-   "partida": "OE.5",
+   "partida": "OE.5.6.4",
    "nombre": "Suministro y montaje de grupo generador de 50HP, encapsulado",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -45646,7 +45646,7 @@
     "costoDirecto": 27842.14,
     "rendimientoDia": 1.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 27815.78
    }
   },
@@ -47821,7 +47821,7 @@
   },
   {
    "codigo": "IE0112",
-   "partida": "OE.5",
+   "partida": "OE.5.2.4.2",
    "nombre": "ZANJEO, RELLENO Y AGREGADOS (0.60 x 0.40 mts) terreno natural",
    "tipoCalculo": "VOLUMEN",
    "inputPrincipalLabel": "Cantidad",
@@ -47896,7 +47896,7 @@
     "costoDirecto": 85.21000000000001,
     "rendimientoDia": 2.1,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 76.51
    }
   },
@@ -48362,7 +48362,7 @@
   },
   {
    "codigo": "EX0011",
-   "partida": "OE.3",
+   "partida": "OE.2.2.8",
    "nombre": "Encofrado y desencofrado de rampa",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -48467,7 +48467,7 @@
     "costoDirecto": 71.78,
     "rendimientoDia": 10.0,
     "estadoFrenteAPE": "parecido a uno de PE",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 68.22
    }
   },
@@ -48672,7 +48672,7 @@
   },
   {
    "codigo": "EX0014",
-   "partida": "OE.3",
+   "partida": "OE.3.4.3",
    "nombre": "Losa deportiva de c° f'c=175 kg/cm2, e=0.15m inc. encofrado y desencofrado",
    "tipoCalculo": "AREA",
    "inputPrincipalLabel": "Cantidad",
@@ -48861,7 +48861,7 @@
     "costoDirecto": 103.37,
     "rendimientoDia": 80.0,
     "estadoFrenteAPE": "parecido a uno de PE",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 92.96
    },
    "tipoIfc": "SLAB"
@@ -49938,7 +49938,7 @@
   },
   {
    "codigo": "EX0021",
-   "partida": "OE.3",
+   "partida": "OE.3.13",
    "nombre": "Suministro y colocación de asta de bandera",
    "tipoCalculo": "CANTIDAD",
    "inputPrincipalLabel": "Cantidad",
@@ -50187,7 +50187,7 @@
     "costoDirecto": 1163.76,
     "rendimientoDia": 1.0,
     "estadoFrenteAPE": "nuevo",
-    "partidaComo": "capítulo (revisar)",
+    "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 1062.38
    }
   },

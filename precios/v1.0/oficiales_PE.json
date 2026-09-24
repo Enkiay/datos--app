@@ -1,5 +1,5 @@
 {
-  "version": "v20260924b-tipos-ifc",
+  "version": "v20260924c-partidas-oe",
   "fuente": "Semilla de referencia de mercado peruano — pendiente de aportes locales + tabla de referencia nacional de mercado, 24-ago-2026 + tubería HDPE calculada por masa lineal (2-sep-2026): pared = D/SDR, masa = π·e·(D−e)·ρ, precio = masa × kilo de tubo calibrado con precios reales del mercado peruano (Aquaplast, CYPE Ingenieros, El Ganadero, Ferropolis PERU). Los HDPE llevan nota TENTATIVO. + expedientes técnicos públicos del Gobierno Regional de Tumbes (24-sep-2026): insumos nuevos y 37 precios de la tabla nacional actualizados (precios/fuentes/tumbes_PE.json).",
   "pais": "PE",
   "precios": [],
