@@ -20,6 +20,9 @@ BASE = "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/"
 CODIGOS = ["AC018", "UA001", "UH009", "UH007", "CA001", "UH006", "UA003", "OG021", "AC019", "AC001",
            "CA002", "UH004", "CR010"]   # estos tres vienen en minúsculas en el modelo
 DERIVADOS = ["EC", "CO", "CL", "AR", "PY", "BR", "MX"]
+# Países cuyo ejemplo ya lo armó Oscar con el Traductor IFC (24-sep-2026: «sube el de Perú para que aparezca en
+# Perú, y el de Bolivia sólo en Bolivia»): este script NO los regenera.
+A_MANO = {"PE"}
 NOMBRE = {"EC": "Ecuador", "CO": "Colombia", "CL": "Chile", "AR": "Argentina", "PY": "Paraguay", "BR": "Brasil",
           "MX": "México", "PE": "Perú", "ES": "España"}
 # OJO: index_XX.json es una COPIA del genérico. Si cambia recursos/index.json, volver a correr este script.
@@ -70,6 +73,8 @@ def main():
     indice = json.load(io.open(os.path.join(REC, "index.json"), encoding="utf-8"))
     _, base_cuenta = adaptar(fuente, {c: (c, "") for c in CODIGOS})
     for pais in DERIVADOS + list(EQUIV):
+        if pais in A_MANO:
+            print(f"{pais}: su ejemplo lo armó Oscar a mano (recursos/ejemplo1_{pais}.ifc): no se toca"); continue
         cat = items(pais)
         eq = EQUIV.get(pais) or {c: f"{c}{pais}" for c in CODIGOS}
         faltan = [f"{c}→{n}" for c, n in eq.items() if n.upper() not in cat]

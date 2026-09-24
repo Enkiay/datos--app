@@ -39,13 +39,14 @@
    "nombre": "Vivienda Unifamiliar De ejemplo",
    "tipo": "ifc",
    "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ejemplo1_PE.ifc",
-   "descripcion": "Se elaboro con VectorWorks exportado en formato .IFC    2x3 — con los ítems de Perú ya asignados por código.",
+   "descripcion": "Elaborado con Vectorworks, exportado en IFC 2x3 — con los ítems de Perú asignados (revisado por el Arq. Oscar B.H.).",
    "tamano": "2.0 MB",
    "tags": [
     "ifc",
     "archicad",
     "vectorworks"
-   ]
+   ],
+   "pais": "PE"
   }
  ],
  "recursosRetirados": [
