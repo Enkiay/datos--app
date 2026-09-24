@@ -1,6 +1,6 @@
 {
  "_": "ÍTEMS PROPIOS de Perú tomados de expedientes técnicos PÚBLICOS del Gobierno Regional de Tumbes. `fuente` cita el documento; items_PE.json los publica SIN ese campo.",
- "version": "v20260924-apu-tumbes",
+ "version": "v20260924b-tipos-ifc",
  "pais": "PE",
  "items": [
   {
@@ -223,7 +223,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "OG0068",
@@ -445,7 +446,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "OG0070",
@@ -556,7 +558,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
-   }
+   },
+   "tipoIfc": "MEMBER"
   },
   {
    "codigo": "OG0071",
@@ -667,7 +670,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
-   }
+   },
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "OG0072",
@@ -778,7 +782,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
-   }
+   },
+   "tipoIfc": "FOOTING"
   },
   {
    "codigo": "OG0073",
@@ -889,7 +894,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
-   }
+   },
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "OG0074",
@@ -1000,7 +1006,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
-   }
+   },
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "OG0075",
@@ -1111,7 +1118,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
-   }
+   },
+   "tipoIfc": "STAIR"
   },
   {
    "codigo": "OG0076",
@@ -1222,7 +1230,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "OG0077",
@@ -2386,7 +2395,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 240.08
-   }
+   },
+   "tipoIfc": "FOOTING"
   },
   {
    "codigo": "OG0085",
@@ -2539,7 +2549,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 270.86
-   }
+   },
+   "tipoIfc": "FOOTING"
   },
   {
    "codigo": "OG0086",
@@ -3511,7 +3522,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 438.44
-   }
+   },
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "OG0094",
@@ -3688,7 +3700,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 540.93
-   }
+   },
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "OG0095",
@@ -3865,7 +3878,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 451.85
-   }
+   },
+   "tipoIfc": "MEMBER"
   },
   {
    "codigo": "OG0096",
@@ -4384,7 +4398,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 494.71
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "OG0099",
@@ -4738,7 +4753,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 501.55
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "OG0101",
@@ -4903,7 +4919,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 506.47
-   }
+   },
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "OG0102",
@@ -6733,7 +6750,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 81.56
-   }
+   },
+   "tipoIfc": "STAIR"
   },
   {
    "codigo": "OG0124",
@@ -6913,7 +6931,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 39.67
-   }
+   },
+   "tipoIfc": "FOOTING"
   },
   {
    "codigo": "OG0126",
@@ -7048,7 +7067,96 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 26.35
-   }
+   },
+   "tipoIfc": "SLAB"
+  },
+  {
+   "codigo": "CU0003",
+   "partida": "OE.2.3.9.2.4",
+   "nombre": "Ladrillo de techo 15x30x30 - losa aligerada",
+   "tipoCalculo": "CANTIDAD",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "und",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "formulaResultado": "1",
+   "parametros": [],
+   "insumos": [
+    {
+     "nombre": "Operario",
+     "unidad": "hh",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.005,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "pe_mo_operario_hh",
+     "iuInei": "47"
+    },
+    {
+     "nombre": "Oficial",
+     "unidad": "hh",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.005,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "pe_mo_oficial_hh",
+     "iuInei": "47"
+    },
+    {
+     "nombre": "Peón",
+     "unidad": "hh",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No calificada",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "pe_mo_peon_hh",
+     "iuInei": "47"
+    },
+    {
+     "nombre": "Ladrillo de techo arcilla maquinado 15x30x30cm",
+     "unidad": "und",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "pe_ladrillo_de_techo_arcilla_maquinado_15x30x30cm_und",
+     "iuInei": "17"
+    },
+    {
+     "nombre": "Herramientas manuales",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "categoria": "Herramientas",
+     "rendimiento": 3.0,
+     "precio": 0,
+     "tipoCalculo": "PORCENTAJE",
+     "baseCalculo": "MO",
+     "idCanonico": "pe_herramientas_manuales_pct",
+     "iuInei": "37"
+    }
+   ],
+   "fuente": {
+    "documento": "Gobierno Regional de Tumbes — expediente técnico (análisis de precios unitarios, editable)",
+    "obra": "Rehabilitación del Local Escolar N° 064 del C.P. Pajaritos, Canoas de Punta Sal, Contralmirante Villar, Tumbes",
+    "url": "https://regiontumbes.gob.pe/piloto/documentos/Obras%20con%20Cambios/",
+    "especialidad": "ESTRUCTURAS",
+    "partidaDocumento": "01.07.08.04",
+    "fecha": "29/11/2022",
+    "costoDirecto": 5.19,
+    "rendimientoDia": 1600.0,
+    "estadoFrenteAPE": "nuevo",
+    "partidaComo": "regla",
+    "costoArqOnPE": 5.08
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "OG0127",
@@ -7357,7 +7465,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 52.31
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "OG0130",
@@ -8341,7 +8450,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 20.77
-   }
+   },
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "OG0140",
@@ -8800,7 +8910,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 13.63
-   }
+   },
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "OG0143",
@@ -8917,7 +9028,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 9.11
-   }
+   },
+   "tipoIfc": "MEMBER"
   },
   {
    "codigo": "OG0144",
@@ -11761,7 +11873,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 114.55
-   }
+   },
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "MP0018",
@@ -11932,7 +12045,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 87.45
-   }
+   },
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "AC0049",
@@ -12100,7 +12214,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 2.35
-   }
+   },
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "AC0051",
@@ -12454,7 +12569,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 121.06
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0053",
@@ -13258,7 +13374,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 31.38
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0059",
@@ -13327,7 +13444,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1.89
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0060",
@@ -13396,7 +13514,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1.89
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0061",
@@ -13465,7 +13584,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 2.55
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0062",
@@ -13960,7 +14080,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 5.61
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0067",
@@ -14236,7 +14357,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 109.03
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0069",
@@ -14443,7 +14565,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 85.33
-   }
+   },
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "AC0070",
@@ -14650,7 +14773,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 85.56
-   }
+   },
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "AC0071",
@@ -15205,7 +15329,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 15.46
-   }
+   },
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "AC0076",
@@ -15445,7 +15570,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 15.13
-   }
+   },
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "AC0078",
@@ -15580,7 +15706,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 15.46
-   }
+   },
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "AC0079",
@@ -15691,7 +15818,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 39.88
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0080",
@@ -15826,7 +15954,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 48.41
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0081",
@@ -16120,7 +16249,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 80.34
-   }
+   },
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "AC0083",
@@ -16411,7 +16541,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 270.0
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0086",
@@ -16678,7 +16809,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 147.8
-   }
+   },
+   "tipoIfc": "STAIR"
   },
   {
    "codigo": "AC0089",
@@ -17104,7 +17236,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 24.42
-   }
+   },
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "AC0093",
@@ -17185,7 +17318,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 28.25
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0094",
@@ -18487,7 +18621,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 24.16
-   }
+   },
+   "tipoIfc": "MEMBER"
   },
   {
    "codigo": "AC0116",
@@ -18634,7 +18769,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 39.58
-   }
+   },
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "AC0117",
@@ -18928,7 +19064,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 32.86
-   }
+   },
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "AC0119",
@@ -19087,7 +19224,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 34.15
-   }
+   },
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "AC0120",
@@ -19309,7 +19447,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 239.72
-   }
+   },
+   "tipoIfc": "RAILING"
   },
   {
    "codigo": "CR0002",
@@ -19354,7 +19493,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 200.0
-   }
+   },
+   "tipoIfc": "RAILING"
   },
   {
    "codigo": "CR0003",
@@ -19399,7 +19539,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 300.0
-   }
+   },
+   "tipoIfc": "RAILING"
   },
   {
    "codigo": "CR0004",
@@ -19444,7 +19585,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 420.0
-   }
+   },
+   "tipoIfc": "RAILING"
   },
   {
    "codigo": "CR0005",
@@ -19603,7 +19745,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 130.34
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0006",
@@ -19642,7 +19785,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 120.0
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0007",
@@ -19681,7 +19825,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 220.0
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0008",
@@ -19828,7 +19973,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 62.76
-   }
+   },
+   "tipoIfc": "WINDOW"
   },
   {
    "codigo": "CR0009",
@@ -19939,7 +20085,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 139.44
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0010",
@@ -19978,7 +20125,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 120.0
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0011",
@@ -20017,7 +20165,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 200.0
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0012",
@@ -20143,7 +20292,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 8.29
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0014",
@@ -20308,7 +20458,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 114.86
-   }
+   },
+   "tipoIfc": "RAILING"
   },
   {
    "codigo": "CR0015",
@@ -20347,7 +20498,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 4000.0
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0016",
@@ -20386,7 +20538,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 4389.0
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0017",
@@ -20425,7 +20578,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 908.0
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0018",
@@ -20464,7 +20618,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1355.93
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0019",
@@ -20503,7 +20658,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1486.66
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0020",
@@ -20542,7 +20698,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1525.42
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0021",
@@ -20581,7 +20738,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1635.3
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0022",
@@ -20620,7 +20778,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1696.74
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0023",
@@ -20659,7 +20818,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1694.92
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0024",
@@ -20698,7 +20858,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1694.92
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0025",
@@ -20737,7 +20898,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1856.33
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0026",
@@ -20776,7 +20938,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1720.34
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0027",
@@ -20815,7 +20978,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1864.41
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0028",
@@ -20854,7 +21018,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 2542.37
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0029",
@@ -20893,7 +21058,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 2966.1
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0030",
@@ -20932,7 +21098,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 3389.83
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0031",
@@ -20971,7 +21138,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1858.33
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0032",
@@ -21010,7 +21178,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 550.85
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0033",
@@ -21049,7 +21218,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 427.5
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0034",
@@ -21088,7 +21258,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 598.5
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0035",
@@ -21127,7 +21298,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 718.2
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0036",
@@ -21166,7 +21338,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 618.3
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0037",
@@ -21205,7 +21378,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1525.42
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0038",
@@ -21244,7 +21418,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1864.41
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0039",
@@ -21283,7 +21458,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1694.92
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0040",
@@ -21322,7 +21498,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1555.55
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0041",
@@ -21361,7 +21538,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 2643.16
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0042",
@@ -21400,7 +21578,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 5847.46
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0043",
@@ -21439,7 +21618,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 9328.8
-   }
+   },
+   "tipoIfc": "DOOR"
   },
   {
    "codigo": "CR0044",
@@ -21490,7 +21670,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 322.03
-   }
+   },
+   "tipoIfc": "WINDOW"
   },
   {
    "codigo": "CR0045",
@@ -21529,7 +21710,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 110.0
-   }
+   },
+   "tipoIfc": "WINDOW"
   },
   {
    "codigo": "CR0046",
@@ -21712,7 +21894,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 84.0
-   }
+   },
+   "tipoIfc": "WINDOW"
   },
   {
    "codigo": "CR0047",
@@ -21889,7 +22072,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 212.45
-   }
+   },
+   "tipoIfc": "RAILING"
   },
   {
    "codigo": "CU0001",
@@ -22054,7 +22238,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 32.94
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0002",
@@ -22159,94 +22344,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 15.36
-   }
-  },
-  {
-   "codigo": "CU0003",
-   "partida": "OE.2.3.9.2.4",
-   "nombre": "Ladrillo de techo 15x30x30 - losa aligerada",
-   "tipoCalculo": "CANTIDAD",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "und",
-   "categoria": "Cubiertas",
-   "verificado": false,
-   "formulaResultado": "1",
-   "parametros": [],
-   "insumos": [
-    {
-     "nombre": "Operario",
-     "unidad": "hh",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.005,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "pe_mo_operario_hh",
-     "iuInei": "47"
-    },
-    {
-     "nombre": "Oficial",
-     "unidad": "hh",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.005,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "pe_mo_oficial_hh",
-     "iuInei": "47"
-    },
-    {
-     "nombre": "Peón",
-     "unidad": "hh",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No calificada",
-     "rendimiento": 0.05,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "pe_mo_peon_hh",
-     "iuInei": "47"
-    },
-    {
-     "nombre": "Ladrillo de techo arcilla maquinado 15x30x30cm",
-     "unidad": "und",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "",
-     "rendimiento": 1.0,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "pe_ladrillo_de_techo_arcilla_maquinado_15x30x30cm_und",
-     "iuInei": "17"
-    },
-    {
-     "nombre": "Herramientas manuales",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "categoria": "Herramientas",
-     "rendimiento": 3.0,
-     "precio": 0,
-     "tipoCalculo": "PORCENTAJE",
-     "baseCalculo": "MO",
-     "idCanonico": "pe_herramientas_manuales_pct",
-     "iuInei": "37"
-    }
-   ],
-   "fuente": {
-    "documento": "Gobierno Regional de Tumbes — expediente técnico (análisis de precios unitarios, editable)",
-    "obra": "Rehabilitación del Local Escolar N° 064 del C.P. Pajaritos, Canoas de Punta Sal, Contralmirante Villar, Tumbes",
-    "url": "https://regiontumbes.gob.pe/piloto/documentos/Obras%20con%20Cambios/",
-    "especialidad": "ESTRUCTURAS",
-    "partidaDocumento": "01.07.08.04",
-    "fecha": "29/11/2022",
-    "costoDirecto": 5.19,
-    "rendimientoDia": 1600.0,
-    "estadoFrenteAPE": "nuevo",
-    "partidaComo": "regla",
-    "costoArqOnPE": 5.08
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0004",
@@ -22345,7 +22444,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 55.5
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0005",
@@ -22552,7 +22652,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 322.46
-   }
+   },
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "CU0006",
@@ -22759,7 +22860,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 450.3
-   }
+   },
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "CU0007",
@@ -22882,7 +22984,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 78.01
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0008",
@@ -23017,7 +23120,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 81.99
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0009",
@@ -23152,7 +23256,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 64.12
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0010",
@@ -23287,7 +23392,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 52.94
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0011",
@@ -23386,7 +23492,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 43.11
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0012",
@@ -23491,7 +23598,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 29.46
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0013",
@@ -23626,7 +23734,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 67.05
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0014",
@@ -23791,7 +23900,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 80.93
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0015",
@@ -24010,7 +24120,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 6924.63
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0016",
@@ -24229,7 +24340,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 7262.08
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0017",
@@ -24436,7 +24548,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 3511.0
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "CU0018",
@@ -24643,7 +24756,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 1533.53
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "IS0006",
@@ -29980,7 +30094,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 154.57
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "IS0067",
@@ -30538,7 +30653,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 482.37
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "IS0071",
@@ -31072,7 +31188,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 247.01
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "IS0077",
@@ -39190,7 +39307,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 76.98
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "IE0048",
@@ -39643,7 +39761,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 212.69
-   }
+   },
+   "tipoIfc": "ROOF"
   },
   {
    "codigo": "IE0051",
@@ -47890,7 +48009,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 5.93
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "EX0009",
@@ -48442,7 +48562,8 @@
     "estadoFrenteAPE": "nuevo",
     "partidaComo": "regla",
     "costoArqOnPE": 3.16
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "EX0013",
@@ -48742,7 +48863,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 92.96
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "EX0015",
@@ -48865,7 +48987,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 59.03
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "EX0016",
@@ -49432,7 +49555,8 @@
     "estadoFrenteAPE": "parecido a uno de PE",
     "partidaComo": "regla",
     "costoArqOnPE": 56.85
-   }
+   },
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "EX0019",

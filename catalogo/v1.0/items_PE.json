@@ -1,5 +1,5 @@
 {
- "version": "v20260924-apu-tumbes",
+ "version": "v20260924b-tipos-ifc",
  "schemaVersion": 1,
  "pais": "PE",
  "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Medición SIMPLE por dimensiones (sin fórmulas) + presets por familia (17-ago). Armadura auto por elemento en el concreto armado (17-ago). · IU en base INEI dic-2025 (26-ago-2026): el unico codigo de la base vieja, el 64 (TERRAZO, Marmol travertino), migro al 40 (Loseta y terrazo); el resto de los indices declarados ya existia en la base nueva. PARTIDAS: cada ítem lleva `partida`, su numeración en la Norma Técnica «Metrados para Obras de Edificación y Habilitaciones Urbanas» (RD 073-2010/VIVIENDA/VMCS-DNC); el `codigo` sigue siendo la identidad interna. Excavaciones simples = OE.2.1.2.2 (la Norma las imprime OE.2.1.2.1 por errata). + 24-sep-2026: 476 partidas de expedientes técnicos PÚBLICOS del Gobierno Regional de Tumbes (catalogo/fuentes/items_propios_PE.json cita el documento de cada una).",
@@ -484,7 +484,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "MP0001",
@@ -1427,7 +1428,8 @@
       "Profundidad": 1.0
      }
     }
-   ]
+   ],
+   "tipoIfc": "FOOTING"
   },
   {
    "codigo": "OG0008",
@@ -1518,7 +1520,8 @@
       "Profundidad": 1.4
      }
     }
-   ]
+   ],
+   "tipoIfc": "FOOTING"
   },
   {
    "codigo": "OG0009",
@@ -1609,7 +1612,8 @@
       "Profundidad": 1.7
      }
     }
-   ]
+   ],
+   "tipoIfc": "FOOTING"
   },
   {
    "codigo": "OG0010",
@@ -1703,7 +1707,8 @@
       "Profundidad": 1.7
      }
     }
-   ]
+   ],
+   "tipoIfc": "FOOTING"
   },
   {
    "codigo": "OG0011",
@@ -1833,7 +1838,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "OG0013",
@@ -2794,7 +2800,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "FOOTING"
   },
   {
    "codigo": "OG0020",
@@ -2916,7 +2923,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "MEMBER"
   },
   {
    "codigo": "OG0021",
@@ -3026,7 +3034,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "FOOTING"
   },
   {
    "codigo": "OG0022",
@@ -3747,7 +3756,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "OG0028",
@@ -3905,7 +3915,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "OG0029",
@@ -4027,7 +4038,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "OG0030",
@@ -4185,7 +4197,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "OG0031",
@@ -4664,7 +4677,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "STAIR"
   },
   {
    "codigo": "OG0035",
@@ -10440,7 +10454,8 @@
     }
    ],
    "parametros": [],
-   "formulaResultado": "1"
+   "formulaResultado": "1",
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "MP0003",
@@ -10526,7 +10541,8 @@
     }
    ],
    "parametros": [],
-   "formulaResultado": "1"
+   "formulaResultado": "1",
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "MP0004",
@@ -10612,7 +10628,8 @@
     }
    ],
    "parametros": [],
-   "formulaResultado": "1"
+   "formulaResultado": "1",
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "MP0005",
@@ -12765,7 +12782,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "AC0008",
@@ -12827,7 +12845,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "COLUMN"
   },
   {
    "codigo": "AC0009",
@@ -12961,7 +12980,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "AC0010",
@@ -13023,7 +13043,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "BEAM"
   },
   {
    "codigo": "AC0011",
@@ -13854,7 +13875,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "STAIR"
   },
   {
    "codigo": "AC0018",
@@ -16077,7 +16099,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "EX0007",
@@ -16307,7 +16330,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "SLAB"
   },
   {
    "codigo": "AC0027",
@@ -17344,7 +17368,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "STAIR"
   },
   {
    "codigo": "AC0037",
@@ -17460,7 +17485,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "STAIR"
   },
   {
    "codigo": "AC0038",
@@ -17570,7 +17596,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "STAIR"
   },
   {
    "codigo": "AC0039",
@@ -17692,7 +17719,8 @@
      "unidad": "m",
      "visiblePorDefecto": true
     }
-   ]
+   ],
+   "tipoIfc": "STAIR"
   },
   {
    "codigo": "AC0040",
@@ -19757,6 +19785,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -19953,6 +19982,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20051,6 +20081,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "MEMBER",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20149,6 +20180,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "BEAM",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20247,6 +20279,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "FOOTING",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20345,6 +20378,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "BEAM",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20443,6 +20477,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "COLUMN",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20541,6 +20576,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "STAIR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20639,6 +20675,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -21657,6 +21694,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "FOOTING",
    "parametros": [
     {
      "nombre": "Largo",
@@ -21797,6 +21835,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "FOOTING",
    "parametros": [
     {
      "nombre": "Largo",
@@ -22641,6 +22680,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "BEAM",
    "parametros": [
     {
      "nombre": "Largo",
@@ -22805,6 +22845,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "BEAM",
    "parametros": [
     {
      "nombre": "Largo",
@@ -22969,6 +23010,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "MEMBER",
    "parametros": [
     {
      "nombre": "Largo",
@@ -23449,6 +23491,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -23765,6 +23808,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -23941,6 +23985,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "BEAM",
    "parametros": [
     {
      "nombre": "Largo",
@@ -25539,6 +25584,7 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "STAIR",
    "parametros": [
     {
      "nombre": "Largo",
@@ -25735,6 +25781,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "FOOTING",
    "parametros": [
     {
      "nombre": "Largo",
@@ -25791,6 +25838,7 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -25905,6 +25953,81 @@
    ]
   },
   {
+   "codigo": "CU0003",
+   "partida": "OE.2.3.9.2.4",
+   "nombre": "Ladrillo de techo 15x30x30 - losa aligerada",
+   "tipoCalculo": "CANTIDAD",
+   "inputPrincipalLabel": "Cantidad",
+   "unidadResultado": "und",
+   "categoria": "Obra Gruesa",
+   "verificado": false,
+   "tipoIfc": "SLAB",
+   "formulaResultado": "1",
+   "parametros": [],
+   "insumos": [
+    {
+     "nombre": "Operario",
+     "unidad": "hh",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.005,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "pe_mo_operario_hh",
+     "iuInei": "47"
+    },
+    {
+     "nombre": "Oficial",
+     "unidad": "hh",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "Calificada",
+     "rendimiento": 0.005,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "pe_mo_oficial_hh",
+     "iuInei": "47"
+    },
+    {
+     "nombre": "Peón",
+     "unidad": "hh",
+     "tipoInsumo": "MANO_DE_OBRA",
+     "categoria": "No calificada",
+     "rendimiento": 0.05,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "pe_mo_peon_hh",
+     "iuInei": "47"
+    },
+    {
+     "nombre": "Ladrillo de techo arcilla maquinado 15x30x30cm",
+     "unidad": "und",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "pe_ladrillo_de_techo_arcilla_maquinado_15x30x30cm_und",
+     "iuInei": "17"
+    },
+    {
+     "nombre": "Herramientas manuales",
+     "unidad": "%",
+     "tipoInsumo": "HERRAMIENTA",
+     "categoria": "Herramientas",
+     "rendimiento": 3.0,
+     "precio": 0,
+     "tipoCalculo": "PORCENTAJE",
+     "baseCalculo": "MO",
+     "idCanonico": "pe_herramientas_manuales_pct",
+     "iuInei": "37"
+    }
+   ]
+  },
+  {
    "codigo": "OG0127",
    "partida": "OE.3.12.2",
    "nombre": "Limpieza final de obra",
@@ -26013,6 +26136,7 @@
    "unidadResultado": "m2",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -26969,6 +27093,7 @@
    "unidadResultado": "m",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "COLUMN",
    "parametros": [
     {
      "nombre": "Largo",
@@ -27377,6 +27502,7 @@
    "unidadResultado": "m",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "BEAM",
    "parametros": [
     {
      "nombre": "Largo",
@@ -27457,6 +27583,7 @@
    "unidadResultado": "m",
    "categoria": "Obra Gruesa",
    "verificado": false,
+   "tipoIfc": "MEMBER",
    "parametros": [
     {
      "nombre": "Largo",
@@ -30051,6 +30178,7 @@
    "unidadResultado": "m2",
    "categoria": "Mampostería",
    "verificado": false,
+   "tipoIfc": "WALL",
    "parametros": [
     {
      "nombre": "Largo",
@@ -30197,6 +30325,7 @@
    "unidadResultado": "m2",
    "categoria": "Mampostería",
    "verificado": false,
+   "tipoIfc": "WALL",
    "parametros": [
     {
      "nombre": "Largo",
@@ -30453,6 +30582,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "WALL",
    "parametros": [
     {
      "nombre": "Largo",
@@ -30655,6 +30785,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -31417,6 +31548,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -31551,6 +31683,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -31607,6 +31740,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -31663,6 +31797,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -32057,6 +32192,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -32229,6 +32365,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -32399,6 +32536,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "WALL",
    "parametros": [
     {
      "nombre": "Largo",
@@ -32593,6 +32731,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "WALL",
    "parametros": [
     {
      "nombre": "Largo",
@@ -33155,6 +33294,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "COLUMN",
    "parametros": [
     {
      "nombre": "Largo",
@@ -33369,6 +33509,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "WALL",
    "parametros": [
     {
      "nombre": "Largo",
@@ -33491,6 +33632,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "BEAM",
    "parametros": [
     {
      "nombre": "Largo",
@@ -33613,6 +33755,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -33711,6 +33854,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -33961,6 +34105,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "COLUMN",
    "parametros": [
     {
      "nombre": "Largo",
@@ -34315,6 +34460,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -34441,6 +34587,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "STAIR",
    "parametros": [
     {
      "nombre": "Largo",
@@ -34887,6 +35034,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "WALL",
    "parametros": [
     {
      "nombre": "Largo",
@@ -34955,6 +35103,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -35917,6 +36066,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "MEMBER",
    "parametros": [
     {
      "nombre": "Largo",
@@ -36039,6 +36189,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "BEAM",
    "parametros": [
     {
      "nombre": "Largo",
@@ -36307,6 +36458,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "COLUMN",
    "parametros": [
     {
      "nombre": "Largo",
@@ -36441,6 +36593,7 @@
    "unidadResultado": "m2",
    "categoria": "Acabados",
    "verificado": false,
+   "tipoIfc": "WALL",
    "parametros": [
     {
      "nombre": "Largo",
@@ -36709,6 +36862,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "RAILING",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -36783,6 +36937,7 @@
    "unidadResultado": "m",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "RAILING",
    "parametros": [
     {
      "nombre": "Largo",
@@ -36815,6 +36970,7 @@
    "unidadResultado": "m",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "RAILING",
    "parametros": [
     {
      "nombre": "Largo",
@@ -36847,6 +37003,7 @@
    "unidadResultado": "m",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "RAILING",
    "parametros": [
     {
      "nombre": "Largo",
@@ -36879,6 +37036,7 @@
    "unidadResultado": "m2",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "parametros": [
     {
      "nombre": "Largo",
@@ -37025,6 +37183,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37051,6 +37210,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37077,6 +37237,7 @@
    "unidadResultado": "m2",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "WINDOW",
    "parametros": [
     {
      "nombre": "Largo",
@@ -37211,6 +37372,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37309,6 +37471,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37335,6 +37498,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37411,6 +37575,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37461,6 +37626,7 @@
    "unidadResultado": "m",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "RAILING",
    "parametros": [
     {
      "nombre": "Largo",
@@ -37613,6 +37779,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37639,6 +37806,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37665,6 +37833,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37691,6 +37860,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37717,6 +37887,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37743,6 +37914,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37769,6 +37941,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37795,6 +37968,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37821,6 +37995,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37847,6 +38022,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37873,6 +38049,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37899,6 +38076,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37925,6 +38103,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37951,6 +38130,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -37977,6 +38157,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38003,6 +38184,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38029,6 +38211,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38055,6 +38238,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38081,6 +38265,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38107,6 +38292,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38133,6 +38319,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38159,6 +38346,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38185,6 +38373,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38211,6 +38400,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38237,6 +38427,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38263,6 +38454,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38289,6 +38481,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38315,6 +38508,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38341,6 +38535,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "DOOR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38367,6 +38562,7 @@
    "unidadResultado": "m2",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "WINDOW",
    "parametros": [
     {
      "nombre": "Largo",
@@ -38405,6 +38601,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "WINDOW",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -38431,6 +38628,7 @@
    "unidadResultado": "m2",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "WINDOW",
    "parametros": [
     {
      "nombre": "Largo",
@@ -38601,6 +38799,7 @@
    "unidadResultado": "m",
    "categoria": "Carpintería",
    "verificado": false,
+   "tipoIfc": "RAILING",
    "parametros": [
     {
      "nombre": "Largo",
@@ -38765,6 +38964,7 @@
    "unidadResultado": "m",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -38917,6 +39117,7 @@
    "unidadResultado": "m",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -39001,80 +39202,6 @@
    ]
   },
   {
-   "codigo": "CU0003",
-   "partida": "OE.2.3.9.2.4",
-   "nombre": "Ladrillo de techo 15x30x30 - losa aligerada",
-   "tipoCalculo": "CANTIDAD",
-   "inputPrincipalLabel": "Cantidad",
-   "unidadResultado": "und",
-   "categoria": "Cubiertas",
-   "verificado": false,
-   "formulaResultado": "1",
-   "parametros": [],
-   "insumos": [
-    {
-     "nombre": "Operario",
-     "unidad": "hh",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.005,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "pe_mo_operario_hh",
-     "iuInei": "47"
-    },
-    {
-     "nombre": "Oficial",
-     "unidad": "hh",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "Calificada",
-     "rendimiento": 0.005,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "pe_mo_oficial_hh",
-     "iuInei": "47"
-    },
-    {
-     "nombre": "Peón",
-     "unidad": "hh",
-     "tipoInsumo": "MANO_DE_OBRA",
-     "categoria": "No calificada",
-     "rendimiento": 0.05,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "pe_mo_peon_hh",
-     "iuInei": "47"
-    },
-    {
-     "nombre": "Ladrillo de techo arcilla maquinado 15x30x30cm",
-     "unidad": "und",
-     "tipoInsumo": "MATERIAL",
-     "categoria": "",
-     "rendimiento": 1.0,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "pe_ladrillo_de_techo_arcilla_maquinado_15x30x30cm_und",
-     "iuInei": "17"
-    },
-    {
-     "nombre": "Herramientas manuales",
-     "unidad": "%",
-     "tipoInsumo": "HERRAMIENTA",
-     "categoria": "Herramientas",
-     "rendimiento": 3.0,
-     "precio": 0,
-     "tipoCalculo": "PORCENTAJE",
-     "baseCalculo": "MO",
-     "idCanonico": "pe_herramientas_manuales_pct",
-     "iuInei": "37"
-    }
-   ]
-  },
-  {
    "codigo": "CU0004",
    "partida": "OE.3.6.9",
    "nombre": "Suministro e instalación de membrana asfaltica en cobertura",
@@ -39083,6 +39210,7 @@
    "unidadResultado": "m2",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -39169,6 +39297,7 @@
    "unidadResultado": "und",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "COLUMN",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -39363,6 +39492,7 @@
    "unidadResultado": "und",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "COLUMN",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -39557,6 +39687,7 @@
    "unidadResultado": "m2",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -39667,6 +39798,7 @@
    "unidadResultado": "m2",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -39789,6 +39921,7 @@
    "unidadResultado": "m2",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -39911,6 +40044,7 @@
    "unidadResultado": "m2",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -40033,6 +40167,7 @@
    "unidadResultado": "m2",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -40119,6 +40254,7 @@
    "unidadResultado": "m",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -40211,6 +40347,7 @@
    "unidadResultado": "m2",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -40333,6 +40470,7 @@
    "unidadResultado": "m",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "parametros": [
     {
      "nombre": "Largo",
@@ -40485,6 +40623,7 @@
    "unidadResultado": "und",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -40691,6 +40830,7 @@
    "unidadResultado": "und",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -40897,6 +41037,7 @@
    "unidadResultado": "und",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -41091,6 +41232,7 @@
    "unidadResultado": "und",
    "categoria": "Cubiertas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -45779,6 +45921,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -46249,6 +46392,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -46693,6 +46837,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -53605,6 +53750,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -54079,6 +54225,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
+   "tipoIfc": "ROOF",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -61483,6 +61630,7 @@
    "unidadResultado": "m2",
    "categoria": "Obras Exteriores",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -62001,6 +62149,7 @@
    "unidadResultado": "m",
    "categoria": "Obras Exteriores",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -62173,6 +62322,7 @@
    "unidadResultado": "m2",
    "categoria": "Obras Exteriores",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -62355,6 +62505,7 @@
    "unidadResultado": "m2",
    "categoria": "Obras Exteriores",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
@@ -62817,6 +62968,7 @@
    "unidadResultado": "m",
    "categoria": "Obras Exteriores",
    "verificado": false,
+   "tipoIfc": "SLAB",
    "parametros": [
     {
      "nombre": "Largo",
