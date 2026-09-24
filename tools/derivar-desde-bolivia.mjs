@@ -602,9 +602,13 @@ const zerosPorCiudad = Math.max(...servidas.map((c) => c.precios.filter((p) => !
     process.exit(1);
   }
 }
-const salidaItems = { version: cfg.version, schemaVersion: itemsBO.schemaVersion ?? 1, pais: PAIS, items };
+// LA MARCA DEL GENERADOR (24-sep-2026). Estos dos archivos NO se editan a mano: se rearman desde
+// sus fuentes (precios/fuentes, catalogo/fuentes y esta tabla). Los admins que publican ítems o
+// precios la leen y AVISAN antes de publicar: lo que se edite ahí se pierde al rearmar el país.
+const GENERADO = "tools/derivar-desde-bolivia.mjs";
+const salidaItems = { version: cfg.version, schemaVersion: itemsBO.schemaVersion ?? 1, pais: PAIS, generado: GENERADO, items };
 const salidaPrecios = {
-  version: cfg.version, fuente: cfg.fuente, pais: PAIS,
+  version: cfg.version, fuente: cfg.fuente, pais: PAIS, generado: GENERADO,
   nota: `Base de ${PAIS} DERIVADA de la boliviana (2-sep-2026): los ${maestro.length} insumos de Bolivia bajo el espacio ${iso}_${propiosN ? ` más ${propiosN} PROPIOS del país (precios/fuentes/propios_${PAIS}.json)` : ""}, en las ${ciudades.length} ciudades de la caja. Cada precio dice en su nota de dónde salió — en ${ciudadRef.nombre}: ${origen.RELEVADO} RELEVADOS, ${origen.REFERENCIA} por REFERENCIA (fuente citada), ${origen.ESTIMADO} ESTIMADOS por relación con Bolivia (material ×${k.MATERIAL?.toFixed(2)}, M.O. ×${k.MANO_DE_OBRA?.toFixed(2)}, equipo ×${k.HERRAMIENTA?.toFixed(2)}; revisar antes de ofertar), ${origen.PENDIENTE} PENDIENTES en 0. Las otras ciudades copian ${ciudadRef.nombre} hasta relevarse. Ítems publicados: los que cierran con precio completo (${derivadosN} de ${itemsBO.items.length} derivados${items.length > derivadosN ? ` + ${items.length - derivadosN} PROPIOS del país, de documentos públicos (catalogo/fuentes/items_propios_${PAIS}.json)` : ""}). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_${PAIS}.json).`,
   origenPrecios: { ciudadReferencia: ciudadRef.nombre, ...origen, relacionConBolivia: k, paresMedidos: Object.fromEntries(Object.entries(pares).map(([t, a]) => [t, a.length])), porCiudad: origenCiudad },
   precios: [],

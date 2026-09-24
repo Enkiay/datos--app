@@ -1,6 +1,7 @@
 {
   "version": "v20260911-acero-corrugado",
   "schemaVersion": 1,
+  "generado": "tools/derivar-desde-bolivia.mjs",
   "items": [
     {
       "codigo": "AC009AR",

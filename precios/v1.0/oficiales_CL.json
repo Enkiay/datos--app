@@ -2,6 +2,7 @@
   "version": "v20260911-acero-corrugado",
   "fuente": "Base boliviana (catálogo ArqOn) + precios de Chile: índices públicos de materiales (factoIA, ObraMaestra, CalculaObra) y un APU chileno real, jun-jul 2026. Relevado en Santiago; las otras 15 ciudades COPIAN Santiago (referencial) hasta relevarse.",
   "pais": "CL",
+  "generado": "tools/derivar-desde-bolivia.mjs",
   "nota": "Base de CL DERIVADA de la boliviana (2-sep-2026): los 751 insumos de Bolivia bajo el espacio cl_, en las 16 ciudades de la caja. Cada precio dice en su nota de dónde salió — en Santiago (STGO): 39 RELEVADOS, 307 por REFERENCIA (fuente citada), 405 ESTIMADOS por relación con Bolivia (material ×89.52, M.O. ×156.68, equipo ×125.22; revisar antes de ofertar), 0 PENDIENTES en 0. Las otras ciudades copian Santiago (STGO) hasta relevarse. Ítems publicados: los que cierran con precio completo (375 de 375). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_CL.json).",
   "origenPrecios": {
     "ciudadReferencia": "Santiago (STGO)",

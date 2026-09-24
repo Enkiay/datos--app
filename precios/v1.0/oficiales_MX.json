@@ -2,6 +2,7 @@
   "version": "v20260923-mx-base",
   "fuente": "Base boliviana (catálogo ArqOn) + precios de México: mano de obra = SALARIO REAL DE MERCADO de la CDMX (UNAM, «Costos y precios unitarios 2025»: oficial albañil $858,80 por jornada, con el factor de salario real adentro; los oficios que el libro no trae, por la proporción de los mínimos profesionales 2026 de la CONASAMI); materiales = precios de tiendas mexicanas 2025-2026 con URL, sin IVA. Relevado en Ciudad de México; las otras ciudades COPIAN la CDMX (referencial) hasta relevarse. La cadena MEX agrega el IVA (16 %) al final: los insumos van sin IVA.",
   "pais": "MX",
+  "generado": "tools/derivar-desde-bolivia.mjs",
   "nota": "Base de MX DERIVADA de la boliviana (2-sep-2026): los 751 insumos de Bolivia bajo el espacio mx_, en las 8 ciudades de la caja. Cada precio dice en su nota de dónde salió — en Ciudad de México (CDMX): 0 RELEVADOS, 43 por REFERENCIA (fuente citada), 708 ESTIMADOS por relación con Bolivia (material ×2.70, M.O. ×5.19, equipo ×2.70; revisar antes de ofertar), 0 PENDIENTES en 0. Las otras ciudades copian Ciudad de México (CDMX) hasta relevarse. Ítems publicados: los que cierran con precio completo (375 de 375). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_MX.json).",
   "origenPrecios": {
     "ciudadReferencia": "Ciudad de México (CDMX)",

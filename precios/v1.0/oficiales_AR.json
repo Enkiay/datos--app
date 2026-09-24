@@ -2,6 +2,7 @@
   "version": "v20260911-acero-corrugado",
   "fuente": "Base boliviana (catálogo ArqOn) + precios de Argentina: Unidad Central de Contrataciones (UCC), Provincia de Salta — planilla de insumos, julio 2026 (ciudad de referencia). Buenos Aires (Red Materiales 7-sep-2026 + Materiales Moreno, GBA Oeste) y Rosario (La Económica, Gran Rosario) con referencias propias de materiales y el resto estimado por relación; la mano de obra es la escala UOCRA zona A en todo el país. Las otras 13 ciudades COPIAN Salta hasta relevarse.",
   "pais": "AR",
+  "generado": "tools/derivar-desde-bolivia.mjs",
   "nota": "Base de AR DERIVADA de la boliviana (2-sep-2026): los 751 insumos de Bolivia bajo el espacio ar_, en las 16 ciudades de la caja. Cada precio dice en su nota de dónde salió — en Salta: 33 RELEVADOS, 341 por REFERENCIA (fuente citada), 377 ESTIMADOS por relación con Bolivia (material ×256.97, M.O. ×603.51, equipo ×293.93; revisar antes de ofertar), 0 PENDIENTES en 0. Las otras ciudades copian Salta hasta relevarse. Ítems publicados: los que cierran con precio completo (375 de 375). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_AR.json).",
   "origenPrecios": {
     "ciudadReferencia": "Salta",

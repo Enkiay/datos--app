@@ -2,6 +2,7 @@
   "version": "v20260911-acero-corrugado",
   "fuente": "Base boliviana (catálogo ArqOn) + precios de Colombia: precios de referencia de mercado de Bogotá 2026 y jornales con factor prestacional incluido (la caja lleva cargasSociales = 0). Relevado en Bogotá; las otras 7 ciudades COPIAN Bogotá (referencial) hasta relevarse. La cadena colombiana agrega el IVA (19 %) al final: los insumos van sin IVA.",
   "pais": "CO",
+  "generado": "tools/derivar-desde-bolivia.mjs",
   "nota": "Base de CO DERIVADA de la boliviana (2-sep-2026): los 751 insumos de Bolivia bajo el espacio co_, en las 8 ciudades de la caja. Cada precio dice en su nota de dónde salió — en Bogotá: 67 RELEVADOS, 335 por REFERENCIA (fuente citada), 349 ESTIMADOS por relación con Bolivia (material ×480.70, M.O. ×634.15, equipo ×521.74; revisar antes de ofertar), 0 PENDIENTES en 0. Las otras ciudades copian Bogotá hasta relevarse. Ítems publicados: los que cierran con precio completo (375 de 375). Regenerar con tools/derivar-desde-bolivia.mjs al entrar precios nuevos (precios/fuentes/referencias_CO.json).",
   "origenPrecios": {
     "ciudadReferencia": "Bogotá",

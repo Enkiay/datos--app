@@ -2,6 +2,7 @@
   "version": "v20260923-mx-base",
   "schemaVersion": 1,
   "pais": "MX",
+  "generado": "tools/derivar-desde-bolivia.mjs",
   "items": [
     {
       "codigo": "AC009MX",

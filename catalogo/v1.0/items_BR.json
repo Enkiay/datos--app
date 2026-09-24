@@ -2,6 +2,7 @@
   "version": "v20260910-br-nombres-unicos",
   "schemaVersion": 1,
   "pais": "BR",
+  "generado": "tools/derivar-desde-bolivia.mjs",
   "items": [
     {
       "codigo": "AC009BR",
