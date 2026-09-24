@@ -255,6 +255,20 @@ const CONFIG = {
     equivalentes: {},
     familias: {},
   },
+  MX: {
+    version: "v20260923-mx-base",
+    fuente: "Base boliviana (catálogo ArqOn) + precios de México: mano de obra = salarios mínimos profesionales 2026 de la CONASAMI (DOF 09-dic-2025) × factor de salario real calculado según el RLOPSRM art. 191 (≈1,72, con IMSS e INFONAVIT 2026) — es el PISO LEGAL, el mercado paga más —; materiales = precios de tiendas mexicanas 2025-2026 con URL, sin IVA. Relevado en Ciudad de México; las otras ciudades COPIAN la CDMX (referencial) hasta relevarse, salvo la mano de obra de Tijuana, que es la de la Zona Libre de la Frontera Norte. La cadena MEX agrega el IVA (16 %) al final: los insumos van sin IVA.",
+    // México es, como Brasil, un país SIN base previa: las ciudades se declaran acá (la de referencia
+    // PRIMERA) y todo el precio entra por referencias (precios/fuentes/referencias_MX.json) o por
+    // relación con Bolivia. La mano de obra va como SALARIO REAL (la caja mexicana lleva cargas
+    // sociales 0): el factor de salario real ya está adentro del precio por hora.
+    ciudades: [
+      "Ciudad de México (CDMX)", "Guadalajara (GDL)", "Monterrey (MTY)", "Puebla (PUE)",
+      "Querétaro (QRO)", "Tuxtla Gutiérrez (TGZ)", "Mérida (MID)", "Tijuana (TIJ)",
+    ],
+    equivalentes: {},
+    familias: {},
+  },
 };
 const cfg = CONFIG[PAIS];
 if (!cfg) { console.error(`no hay tabla para ${PAIS}: agregala en CONFIG`); process.exit(2); }
