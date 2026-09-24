@@ -89,6 +89,7 @@ def main():
         for r in idx["recursos"]:
             if r.get("url", "").endswith("/ejemplo1.ifc"):
                 r["url"] = BASE + archivo
+                r["pais"] = pais          # el genérico dice «BO»: la copia es de ESTE país
                 r["descripcion"] = (r.get("descripcion", "").strip() +
                                     f" — con los ítems de {NOMBRE[pais]} ya asignados por código.").strip(" —")
         json.dump(idx, io.open(os.path.join(REC, f"index_{pais}.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
