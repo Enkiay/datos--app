@@ -1,6 +1,6 @@
 {
  "_": "ÍTEMS PROPIOS de Perú tomados de expedientes técnicos PÚBLICOS del Gobierno Regional de Tumbes. `fuente` cita el documento; items_PE.json los publica SIN ese campo.",
- "version": "v20260924f-pliego-2026",
+ "version": "v20260924g-tipos-bim",
  "pais": "PE",
  "items": [
   {
@@ -107,7 +107,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 10.0
    },
-   "tipoIfc": "PILE"
+   "tipoIfc": ""
   },
   {
    "codigo": "OG0066",
@@ -330,7 +330,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0068",
@@ -553,7 +553,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0070",
@@ -665,7 +665,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
    },
-   "tipoIfc": "MEMBER"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0071",
@@ -777,7 +777,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
    },
-   "tipoIfc": "BEAM"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0072",
@@ -889,7 +889,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
    },
-   "tipoIfc": "FOOTING"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0073",
@@ -1001,7 +1001,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
    },
-   "tipoIfc": "BEAM"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0074",
@@ -1113,7 +1113,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
    },
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0160",
@@ -1336,7 +1336,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
    },
-   "tipoIfc": "STAIR"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0161",
@@ -1583,7 +1583,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.26
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0163",
@@ -1707,7 +1707,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.26
    },
-   "tipoIfc": "FOOTING"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0164",
@@ -1831,7 +1831,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.26
    },
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0165",
@@ -1955,7 +1955,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.26
    },
-   "tipoIfc": "STAIR"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0166",
@@ -2055,7 +2055,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 4.63
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0167",
@@ -2179,7 +2179,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.26
    },
-   "tipoIfc": "MEMBER"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0168",
@@ -2303,7 +2303,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.26
    },
-   "tipoIfc": "BEAM"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0169",
@@ -2427,7 +2427,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.26
    },
-   "tipoIfc": "FOOTING"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0170",
@@ -2662,7 +2662,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.54
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": "REINFORCING_BAR"
   },
   {
    "codigo": "OG0171",
@@ -2921,7 +2921,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 17.8
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "OG0175",
@@ -8474,26 +8474,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
+   "parametros": [],
    "insumos": [
     {
      "nombre": "Capataz",
@@ -8653,7 +8634,8 @@
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 401.83
    },
-   "tipoIfc": "PILE"
+   "tipoIfc": "PILE",
+   "formulaResultado": ""
   },
   {
    "codigo": "OG0098",
@@ -12731,7 +12713,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -12848,7 +12830,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 48.21
    },
-   "tipoIfc": "MEMBER"
+   "tipoIfc": "MEMBER",
+   "formulaResultado": ""
   },
   {
    "codigo": "OG0122",
@@ -13360,7 +13343,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -13477,7 +13460,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 56.65
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "OG0206",
@@ -13808,7 +13792,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 39.67
    },
-   "tipoIfc": "FOOTING"
+   "tipoIfc": ""
   },
   {
    "codigo": "OG0126",
@@ -14353,7 +14337,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5005.0
    },
-   "tipoIfc": "FOOTING"
+   "tipoIfc": ""
   },
   {
    "codigo": "OG0215",
@@ -14582,7 +14566,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.08
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "OG0216",
@@ -16495,7 +16479,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 48.31
    },
-   "tipoIfc": "PILE"
+   "tipoIfc": ""
   },
   {
    "codigo": "OG0136",
@@ -17123,7 +17107,7 @@
    "verificado": false,
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -17192,7 +17176,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 20.77
    },
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "COLUMN",
+   "formulaResultado": ""
   },
   {
    "codigo": "OG0140",
@@ -21251,7 +21236,7 @@
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 68.57
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "MP0017",
@@ -21270,7 +21255,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -21411,7 +21396,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 114.55
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "MP0018",
@@ -21430,7 +21416,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -21583,7 +21569,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 87.45
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "MP0020",
@@ -21602,7 +21589,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -21791,7 +21778,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 63.76
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "MP0021",
@@ -21810,7 +21798,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -21999,7 +21987,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 107.19
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0121",
@@ -26768,7 +26757,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 1.89
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "AC0060",
@@ -26838,7 +26827,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 1.89
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "AC0061",
@@ -26908,7 +26897,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 2.55
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "AC0145",
@@ -30049,7 +30038,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 5.61
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "AC0067",
@@ -30891,7 +30880,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -31044,7 +31033,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 71.57
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0069",
@@ -31063,7 +31053,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -31252,7 +31242,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 85.33
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0070",
@@ -31271,7 +31262,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -31460,7 +31451,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 85.56
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0167",
@@ -31974,7 +31966,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -32091,7 +32083,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 19.64
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0173",
@@ -32110,7 +32103,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -32215,7 +32208,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 9.25
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0174",
@@ -32234,7 +32228,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -32363,7 +32357,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 18.86
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0071",
@@ -32796,13 +32791,19 @@
    "verificado": false,
    "parametros": [
     {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
      "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -32919,7 +32920,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 15.46
    },
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto"
   },
   {
    "codigo": "AC0076",
@@ -33043,7 +33045,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -33160,7 +33162,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 15.13
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0078",
@@ -33173,13 +33176,19 @@
    "verificado": false,
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -33296,7 +33305,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 15.46
    },
-   "tipoIfc": "BEAM"
+   "tipoIfc": "BEAM",
+   "formulaResultado": "(Ancho+2*Alto)*Largo"
   },
   {
    "codigo": "AC0175",
@@ -36283,7 +36293,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 29.1
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "AC0194",
@@ -36371,7 +36381,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 20.75
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "AC0195",
@@ -37989,7 +37999,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 316.87
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "AC0211",
@@ -38089,7 +38099,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 316.87
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "AC0212",
@@ -38165,7 +38175,7 @@
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 18.51
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "AC0213",
@@ -38184,7 +38194,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -38277,7 +38287,8 @@
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 13.51
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0214",
@@ -38290,13 +38301,19 @@
    "verificado": false,
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -38449,7 +38466,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 18.64
    },
-   "tipoIfc": "BEAM"
+   "tipoIfc": "BEAM",
+   "formulaResultado": "(Ancho+2*Alto)*Largo"
   },
   {
    "codigo": "AC0082",
@@ -38462,7 +38480,7 @@
    "verificado": false,
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -38603,7 +38621,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 80.34
    },
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "COLUMN",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0083",
@@ -39672,7 +39691,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 28.25
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "AC0094",
@@ -41258,13 +41277,19 @@
    "verificado": false,
    "parametros": [
     {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
      "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -41405,7 +41430,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 35.82
    },
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto"
   },
   {
    "codigo": "AC0114",
@@ -41559,7 +41585,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -41724,7 +41750,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 73.44
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0221",
@@ -41743,7 +41770,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -41884,7 +41911,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 36.48
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0115",
@@ -41903,7 +41931,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -42020,7 +42048,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 24.16
    },
-   "tipoIfc": "MEMBER"
+   "tipoIfc": "MEMBER",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0222",
@@ -42033,13 +42062,19 @@
    "verificado": false,
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -42180,7 +42215,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 38.71
    },
-   "tipoIfc": "BEAM"
+   "tipoIfc": "BEAM",
+   "formulaResultado": "(Ancho+2*Alto)*Largo"
   },
   {
    "codigo": "AC0116",
@@ -42193,13 +42229,19 @@
    "verificado": false,
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -42328,7 +42370,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 39.58
    },
-   "tipoIfc": "BEAM"
+   "tipoIfc": "BEAM",
+   "formulaResultado": "(Ancho+2*Alto)*Largo"
   },
   {
    "codigo": "AC0117",
@@ -42488,13 +42531,19 @@
    "verificado": false,
    "parametros": [
     {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
      "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -42623,7 +42672,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 32.86
    },
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto"
   },
   {
    "codigo": "AC0223",
@@ -42802,7 +42852,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -42943,7 +42993,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 33.22
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0119",
@@ -42962,7 +43013,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -43103,7 +43154,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 34.15
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "AC0225",
@@ -43584,7 +43636,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 40.63
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "CR0001",
@@ -43988,7 +44040,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 67.54
    },
-   "tipoIfc": "STAIR"
+   "tipoIfc": "RAILING"
   },
   {
    "codigo": "CR0049",
@@ -44482,7 +44534,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -44623,7 +44675,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 130.34
    },
-   "tipoIfc": "DOOR"
+   "tipoIfc": "DOOR",
+   "formulaResultado": ""
   },
   {
    "codigo": "CR0053",
@@ -44924,7 +44977,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 59.86
    },
-   "tipoIfc": "STAIR"
+   "tipoIfc": "RAILING"
   },
   {
    "codigo": "CR0006",
@@ -45023,7 +45076,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -45152,7 +45205,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 62.76
    },
-   "tipoIfc": "WINDOW"
+   "tipoIfc": "WINDOW",
+   "formulaResultado": ""
   },
   {
    "codigo": "CR0009",
@@ -45717,7 +45771,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 8.29
    },
-   "tipoIfc": "DOOR"
+   "tipoIfc": ""
   },
   {
    "codigo": "CR0014",
@@ -47062,7 +47116,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -47095,7 +47149,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 322.03
    },
-   "tipoIfc": "WINDOW"
+   "tipoIfc": "WINDOW",
+   "formulaResultado": ""
   },
   {
    "codigo": "CR0045",
@@ -47154,7 +47209,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -47319,7 +47374,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 84.0
    },
-   "tipoIfc": "WINDOW"
+   "tipoIfc": "WINDOW",
+   "formulaResultado": ""
   },
   {
    "codigo": "CR0047",
@@ -47663,7 +47719,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 32.94
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "CU0019",
@@ -48101,7 +48157,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 15.36
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "CU0021",
@@ -48243,7 +48299,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 22.85
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": "WALL"
   },
   {
    "codigo": "CU0022",
@@ -48283,7 +48339,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 502.0
    },
-   "tipoIfc": "FOOTING"
+   "tipoIfc": ""
   },
   {
    "codigo": "CU0004",
@@ -48591,7 +48647,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 322.46
    },
-   "tipoIfc": "COLUMN"
+   "tipoIfc": ""
   },
   {
    "codigo": "CU0006",
@@ -48799,7 +48855,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 450.3
    },
-   "tipoIfc": "COLUMN"
+   "tipoIfc": ""
   },
   {
    "codigo": "CU0007",
@@ -51011,7 +51067,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 16.6
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IS0128",
@@ -58371,7 +58427,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 33.0
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "IS0182",
@@ -63181,7 +63237,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 26.65
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IS0220",
@@ -67088,7 +67144,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 24.12
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IS0245",
@@ -69306,7 +69362,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 154.57
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "IS0067",
@@ -69865,7 +69921,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 482.37
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": "TERMINAL"
   },
   {
    "codigo": "IS0071",
@@ -70400,7 +70456,7 @@
     "partidaComo": "a mano (24-sep)",
     "costoArqOnPE": 247.01
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": "TERMINAL"
   },
   {
    "codigo": "IS0077",
@@ -75405,7 +75461,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 19.5
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "IS0259",
@@ -80647,7 +80703,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 769.54
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "TERMINAL"
   },
   {
    "codigo": "IS0288",
@@ -86807,7 +86863,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 16.45
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0153",
@@ -86895,7 +86951,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 16.45
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0154",
@@ -86983,7 +87039,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 13.56
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0155",
@@ -87071,7 +87127,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 28.07
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0156",
@@ -87159,7 +87215,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 25.18
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0157",
@@ -87247,7 +87303,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 35.4
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0158",
@@ -87335,7 +87391,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 35.4
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0159",
@@ -87423,7 +87479,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 77.54
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0160",
@@ -87598,7 +87654,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 13.56
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0162",
@@ -88670,7 +88726,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 13.56
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0170",
@@ -88758,7 +88814,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 16.45
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0171",
@@ -90541,7 +90597,7 @@
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 49.0
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0024",
@@ -98027,7 +98083,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 218.79
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0237",
@@ -98115,7 +98171,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 218.79
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0238",
@@ -98464,7 +98520,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 288.79
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0242",
@@ -98552,7 +98608,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 648.43
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0243",
@@ -98640,7 +98696,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 947.31
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0244",
@@ -98728,7 +98784,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 440.71
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0245",
@@ -98816,7 +98872,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 741.83
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0246",
@@ -98904,7 +98960,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 256.15
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0247",
@@ -99079,7 +99135,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 218.79
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0249",
@@ -99167,7 +99223,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 238.15
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0250",
@@ -99516,7 +99572,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 200.11
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0254",
@@ -99604,7 +99660,7 @@
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 144.07
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0036",
@@ -100634,7 +100690,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 49.43
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0264",
@@ -106905,7 +106961,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 148.45
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0301",
@@ -107089,7 +107145,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 119.11
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0302",
@@ -107432,7 +107488,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 281.65
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0304",
@@ -107883,7 +107939,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 92.92
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0306",
@@ -108055,7 +108111,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 70.01
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0307",
@@ -108629,7 +108685,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 76.98
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0309",
@@ -109224,7 +109280,7 @@
     "partidaComo": "capítulo (revisar)",
     "costoArqOnPE": 517.67
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0315",
@@ -110233,7 +110289,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 212.69
    },
-   "tipoIfc": "ROOF"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0320",
@@ -119600,7 +119656,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 154.74
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0330",
@@ -119808,7 +119864,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 163.24
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0331",
@@ -120004,7 +120060,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 142.6
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0332",
@@ -120200,7 +120256,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 122.5
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0333",
@@ -120384,7 +120440,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 123.29
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0334",
@@ -120568,7 +120624,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 112.63
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": ""
   },
   {
    "codigo": "IE0335",
@@ -125659,7 +125715,7 @@
     "partidaComo": "regla",
     "costoArqOnPE": 3.16
    },
-   "tipoIfc": "SLAB"
+   "tipoIfc": ""
   },
   {
    "codigo": "EX0013",
@@ -126054,7 +126110,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -126171,7 +126227,8 @@
     "partidaComo": "regla",
     "costoArqOnPE": 23.59
    },
-   "tipoIfc": "WALL"
+   "tipoIfc": "WALL",
+   "formulaResultado": ""
   },
   {
    "codigo": "EX0015",

@@ -1,5 +1,5 @@
 {
- "version": "v20260924f-pliego-2026",
+ "version": "v20260924g-tipos-bim",
  "schemaVersion": 1,
  "pais": "PE",
  "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Medición SIMPLE por dimensiones (sin fórmulas) + presets por familia (17-ago). Armadura auto por elemento en el concreto armado (17-ago). · IU en base INEI dic-2025 (26-ago-2026): el unico codigo de la base vieja, el 64 (TERRAZO, Marmol travertino), migro al 40 (Loseta y terrazo); el resto de los indices declarados ya existia en la base nueva. PARTIDAS: cada ítem lleva `partida`, su numeración en la Norma Técnica «Metrados para Obras de Edificación y Habilitaciones Urbanas» (RD 073-2010/VIVIENDA/VMCS-DNC); el `codigo` sigue siendo la identidad interna. Excavaciones simples = OE.2.1.2.2 (la Norma las imprime OE.2.1.2.1 por errata). + 24-sep-2026: 1109 partidas de expedientes técnicos PÚBLICOS del Gobierno Regional de Tumbes (dos colegios y el Hospital Saúl Garrido Rosillo; catalogo/fuentes/items_propios_PE.json cita el documento de cada una).",
@@ -473,6 +473,12 @@
    ],
    "parametros": [
     {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
      "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
@@ -485,7 +491,8 @@
      "visiblePorDefecto": true
     }
    ],
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto"
   },
   {
    "codigo": "MP0001",
@@ -1429,7 +1436,7 @@
      }
     }
    ],
-   "tipoIfc": "FOOTING"
+   "tipoIfc": ""
   },
   {
    "codigo": "OG0008",
@@ -1521,7 +1528,7 @@
      }
     }
    ],
-   "tipoIfc": "FOOTING"
+   "tipoIfc": ""
   },
   {
    "codigo": "OG0009",
@@ -1613,7 +1620,7 @@
      }
     }
    ],
-   "tipoIfc": "FOOTING"
+   "tipoIfc": ""
   },
   {
    "codigo": "OG0010",
@@ -1708,7 +1715,7 @@
      }
     }
    ],
-   "tipoIfc": "FOOTING"
+   "tipoIfc": ""
   },
   {
    "codigo": "OG0011",
@@ -3029,13 +3036,20 @@
      "visiblePorDefecto": true
     },
     {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
      "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     }
    ],
-   "tipoIfc": "FOOTING"
+   "tipoIfc": "FOOTING",
+   "formulaResultado": "2*(Largo+Ancho)*Alto"
   },
   {
    "codigo": "OG0022",
@@ -3745,6 +3759,12 @@
    ],
    "parametros": [
     {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
      "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
@@ -3757,7 +3777,8 @@
      "visiblePorDefecto": true
     }
    ],
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto"
   },
   {
    "codigo": "OG0028",
@@ -3904,6 +3925,12 @@
    ],
    "parametros": [
     {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
      "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
@@ -3916,7 +3943,8 @@
      "visiblePorDefecto": true
     }
    ],
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto"
   },
   {
    "codigo": "OG0029",
@@ -4027,19 +4055,26 @@
    ],
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     }
    ],
-   "tipoIfc": "BEAM"
+   "tipoIfc": "BEAM",
+   "formulaResultado": "(Ancho+2*Alto)*Largo"
   },
   {
    "codigo": "OG0030",
@@ -4186,6 +4221,12 @@
    ],
    "parametros": [
     {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
      "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
@@ -4198,7 +4239,8 @@
      "visiblePorDefecto": true
     }
    ],
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto"
   },
   {
    "codigo": "OG0031",
@@ -12771,6 +12813,12 @@
    ],
    "parametros": [
     {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
      "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
@@ -12783,7 +12831,8 @@
      "visiblePorDefecto": true
     }
    ],
-   "tipoIfc": "COLUMN"
+   "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto"
   },
   {
    "codigo": "AC0008",
@@ -12969,19 +13018,26 @@
    ],
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     }
    ],
-   "tipoIfc": "BEAM"
+   "tipoIfc": "BEAM",
+   "formulaResultado": "(Ancho+2*Alto)*Largo"
   },
   {
    "codigo": "AC0010",
@@ -19687,7 +19743,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "PILE",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -19878,7 +19934,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20075,7 +20131,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20174,7 +20230,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "MEMBER",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20273,7 +20329,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "BEAM",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20372,7 +20428,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20471,7 +20527,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "BEAM",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20570,7 +20626,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "COLUMN",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20767,7 +20823,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "STAIR",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -20976,7 +21032,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -21087,7 +21143,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -21198,7 +21254,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "COLUMN",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -21309,7 +21365,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "STAIR",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -21420,7 +21476,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -21507,7 +21563,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "MEMBER",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -21618,7 +21674,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "BEAM",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -21729,7 +21785,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -21950,7 +22006,7 @@
    "unidadResultado": "kg",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "REINFORCING_BAR",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -22187,7 +22243,7 @@
    "unidadResultado": "m",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -27331,26 +27387,8 @@
    "categoria": "Obra Gruesa",
    "verificado": false,
    "tipoIfc": "PILE",
-   "parametros": [
-    {
-     "nombre": "Largo",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Ancho",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    },
-    {
-     "nombre": "Alto",
-     "valorDefault": 1,
-     "unidad": "m",
-     "visiblePorDefecto": true
-    }
-   ],
+   "formulaResultado": "",
+   "parametros": [],
    "insumos": [
     {
      "nombre": "Capataz",
@@ -31099,6 +31137,7 @@
    "categoria": "Obra Gruesa",
    "verificado": false,
    "tipoIfc": "MEMBER",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -31107,7 +31146,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -31663,6 +31702,7 @@
    "categoria": "Obra Gruesa",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -31671,7 +31711,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -31981,7 +32021,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -32491,7 +32531,7 @@
    "unidadResultado": "glb",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "FOOTING",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -32646,7 +32686,7 @@
    "unidadResultado": "und",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -34308,7 +34348,7 @@
    "unidadResultado": "m3",
    "categoria": "Obra Gruesa",
    "verificado": false,
-   "tipoIfc": "PILE",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -34964,9 +35004,10 @@
    "categoria": "Obra Gruesa",
    "verificado": false,
    "tipoIfc": "COLUMN",
+   "formulaResultado": "",
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -38656,7 +38697,7 @@
    "unidadResultado": "m2",
    "categoria": "Mampostería",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -38780,6 +38821,7 @@
    "categoria": "Mampostería",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -38788,7 +38830,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -38927,6 +38969,7 @@
    "categoria": "Mampostería",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -38935,7 +38978,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -39086,6 +39129,7 @@
    "categoria": "Mampostería",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -39094,7 +39138,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -39281,6 +39325,7 @@
    "categoria": "Mampostería",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -39289,7 +39334,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -43732,7 +43777,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -43789,7 +43834,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -43846,7 +43891,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -46691,7 +46736,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -47504,6 +47549,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -47512,7 +47558,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -47663,6 +47709,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -47671,7 +47718,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -47858,6 +47905,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -47866,7 +47914,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -48483,6 +48531,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -48491,7 +48540,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -48606,6 +48655,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -48614,7 +48664,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -48717,6 +48767,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -48725,7 +48776,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -49220,7 +49271,14 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto",
    "parametros": [
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
     {
      "nombre": "Largo",
      "valorDefault": 1,
@@ -49228,7 +49286,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -49435,6 +49493,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -49443,7 +49502,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -49558,15 +49617,22 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "BEAM",
+   "formulaResultado": "(Ancho+2*Alto)*Largo",
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -52289,7 +52355,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -52394,7 +52460,7 @@
    "unidadResultado": "und",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -53779,7 +53845,7 @@
    "unidadResultado": "und",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -53866,7 +53932,7 @@
    "unidadResultado": "und",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -53953,7 +54019,7 @@
    "unidadResultado": "und",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -54017,6 +54083,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -54025,7 +54092,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -54116,15 +54183,22 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "BEAM",
+   "formulaResultado": "(Ancho+2*Alto)*Largo",
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -54275,9 +54349,10 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "COLUMN",
+   "formulaResultado": "",
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -55272,7 +55347,7 @@
    "unidadResultado": "m",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -56603,7 +56678,14 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto",
    "parametros": [
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
     {
      "nombre": "Largo",
      "valorDefault": 1,
@@ -56611,7 +56693,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -56872,6 +56954,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -56880,7 +56963,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -57043,6 +57126,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -57051,7 +57135,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -57190,6 +57274,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "MEMBER",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -57198,7 +57283,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -57313,15 +57398,22 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "BEAM",
+   "formulaResultado": "(Ancho+2*Alto)*Largo",
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -57460,15 +57552,22 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "BEAM",
+   "formulaResultado": "(Ancho+2*Alto)*Largo",
    "parametros": [
     {
-     "nombre": "Largo",
+     "nombre": "Ancho",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Largo",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -57729,7 +57828,14 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "COLUMN",
+   "formulaResultado": "2*(Ancho+Largo)*Alto",
    "parametros": [
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
     {
      "nombre": "Largo",
      "valorDefault": 1,
@@ -57737,7 +57843,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -58011,6 +58117,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -58019,7 +58126,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -58158,6 +58265,7 @@
    "categoria": "Acabados",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -58166,7 +58274,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -58658,7 +58766,7 @@
    "unidadResultado": "und",
    "categoria": "Acabados",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -58907,7 +59015,7 @@
    "unidadResultado": "m",
    "categoria": "Carpintería",
    "verificado": false,
-   "tipoIfc": "STAIR",
+   "tipoIfc": "RAILING",
    "parametros": [
     {
      "nombre": "Largo",
@@ -59496,6 +59604,7 @@
    "categoria": "Carpintería",
    "verificado": false,
    "tipoIfc": "DOOR",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -59504,7 +59613,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -59728,7 +59837,7 @@
    "unidadResultado": "m",
    "categoria": "Carpintería",
    "verificado": false,
-   "tipoIfc": "STAIR",
+   "tipoIfc": "RAILING",
    "parametros": [
     {
      "nombre": "Largo",
@@ -59972,6 +60081,7 @@
    "categoria": "Carpintería",
    "verificado": false,
    "tipoIfc": "WINDOW",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -59980,7 +60090,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -60529,7 +60639,7 @@
    "unidadResultado": "und",
    "categoria": "Carpintería",
    "verificado": false,
-   "tipoIfc": "DOOR",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -61517,6 +61627,7 @@
    "categoria": "Carpintería",
    "verificado": false,
    "tipoIfc": "WINDOW",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -61525,7 +61636,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -61583,6 +61694,7 @@
    "categoria": "Carpintería",
    "verificado": false,
    "tipoIfc": "WINDOW",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -61591,7 +61703,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -61918,7 +62030,7 @@
    "unidadResultado": "m",
    "categoria": "Cubiertas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -62377,7 +62489,7 @@
    "unidadResultado": "m",
    "categoria": "Cubiertas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "WALL",
    "parametros": [
     {
      "nombre": "Largo",
@@ -62470,7 +62582,7 @@
    "unidadResultado": "m",
    "categoria": "Cubiertas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "WALL",
    "parametros": [
     {
      "nombre": "Largo",
@@ -62599,7 +62711,7 @@
    "unidadResultado": "glb",
    "categoria": "Cubiertas",
    "verificado": false,
-   "tipoIfc": "FOOTING",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -62713,7 +62825,7 @@
    "unidadResultado": "und",
    "categoria": "Cubiertas",
    "verificado": false,
-   "tipoIfc": "COLUMN",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -62908,7 +63020,7 @@
    "unidadResultado": "und",
    "categoria": "Cubiertas",
    "verificado": false,
-   "tipoIfc": "COLUMN",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -65021,7 +65133,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -71530,7 +71642,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -75735,7 +75847,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -79198,7 +79310,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -81037,7 +81149,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -81508,7 +81620,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "TERMINAL",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -81953,7 +82065,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "TERMINAL",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -86354,7 +86466,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -91115,7 +91227,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Sanitarias",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "TERMINAL",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -96512,7 +96624,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -96587,7 +96699,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -96662,7 +96774,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -96737,7 +96849,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -96812,7 +96924,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -96887,7 +96999,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -96962,7 +97074,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -97037,7 +97149,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -97186,7 +97298,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -98089,7 +98201,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -98164,7 +98276,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -99683,7 +99795,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -106302,7 +106414,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -106377,7 +106489,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -106674,7 +106786,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -106749,7 +106861,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -106824,7 +106936,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -106899,7 +107011,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -106974,7 +107086,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -107049,7 +107161,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -107198,7 +107310,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -107273,7 +107385,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -107570,7 +107682,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -107645,7 +107757,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -108506,7 +108618,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -114109,7 +114221,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -114280,7 +114392,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -114609,7 +114721,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -115034,7 +115146,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -115193,7 +115305,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -115752,7 +115864,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -116329,7 +116441,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -117234,7 +117346,7 @@
    "unidadResultado": "und",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "ROOF",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -125571,7 +125683,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -125766,7 +125878,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -125961,7 +126073,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -126144,7 +126256,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -126327,7 +126439,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -126498,7 +126610,7 @@
    "unidadResultado": "pto",
    "categoria": "Instalaciones Eléctricas",
    "verificado": false,
-   "tipoIfc": "WALL",
+   "tipoIfc": "",
    "formulaResultado": "1",
    "parametros": [],
    "insumos": [
@@ -131133,7 +131245,7 @@
    "unidadResultado": "m",
    "categoria": "Obras Exteriores",
    "verificado": false,
-   "tipoIfc": "SLAB",
+   "tipoIfc": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -131552,6 +131664,7 @@
    "categoria": "Obras Exteriores",
    "verificado": false,
    "tipoIfc": "WALL",
+   "formulaResultado": "",
    "parametros": [
     {
      "nombre": "Largo",
@@ -131560,7 +131673,7 @@
      "visiblePorDefecto": true
     },
     {
-     "nombre": "Ancho",
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true

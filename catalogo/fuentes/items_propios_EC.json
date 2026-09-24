@@ -233,7 +233,7 @@
       "unidadResultado": "m",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "RAILING",
       "parametros": [
         {
           "nombre": "Largo",
@@ -890,7 +890,7 @@
       "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -1589,7 +1589,7 @@
       "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -6986,7 +6986,7 @@
       "unidadResultado": "m",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "RAILING",
       "parametros": [
         {
           "nombre": "Largo",
@@ -7241,7 +7241,7 @@
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
       "parametros": [
         {
           "nombre": "Largo",
@@ -7496,7 +7496,7 @@
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
       "parametros": [
         {
           "nombre": "Largo",
@@ -10790,7 +10790,7 @@
       "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
       "parametros": [
         {
           "nombre": "Largo",
@@ -10799,7 +10799,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -10909,7 +10909,8 @@
         "pagina": 12,
         "costoDirectoUSD": 15.83,
         "estadoFrenteAEC": "nuevo"
-      }
+      },
+      "formulaResultado": ""
     },
     {
       "codigo": "MP024EC",
@@ -10919,7 +10920,7 @@
       "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
       "parametros": [
         {
           "nombre": "Largo",
@@ -10928,7 +10929,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -11026,7 +11027,8 @@
         "pagina": 13,
         "costoDirectoUSD": 34.22,
         "estadoFrenteAEC": "nuevo"
-      }
+      },
+      "formulaResultado": ""
     },
     {
       "codigo": "AC070EC",
@@ -11036,7 +11038,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
       "parametros": [
         {
           "nombre": "Largo",
@@ -11045,7 +11047,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -11143,7 +11145,8 @@
         "pagina": 17,
         "costoDirectoUSD": 25.16,
         "estadoFrenteAEC": "nuevo"
-      }
+      },
+      "formulaResultado": ""
     },
     {
       "codigo": "AC071EC",
@@ -11405,7 +11408,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
       "parametros": [
         {
           "nombre": "Largo",
@@ -11414,7 +11417,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -11500,7 +11503,8 @@
         "pagina": 19,
         "costoDirectoUSD": 2.82,
         "estadoFrenteAEC": "nuevo"
-      }
+      },
+      "formulaResultado": ""
     },
     {
       "codigo": "AC074EC",
@@ -11510,7 +11514,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
       "parametros": [
         {
           "nombre": "Largo",
@@ -11519,7 +11523,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -11701,7 +11705,8 @@
         "pagina": 90,
         "costoDirectoUSD": 14.404,
         "estadoFrenteAEC": "nuevo"
-      }
+      },
+      "formulaResultado": ""
     },
     {
       "codigo": "AC075EC",
@@ -12464,7 +12469,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -12758,7 +12763,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -12851,7 +12856,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -13220,7 +13225,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -13454,7 +13459,7 @@
       "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "ROOF",
       "parametros": [
         {
           "nombre": "Largo",
@@ -14570,7 +14575,7 @@
       "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "DOOR",
       "parametros": [
         {
           "nombre": "Largo",
@@ -14579,7 +14584,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -14749,7 +14754,8 @@
         "pagina": 25,
         "costoDirectoUSD": 201.19,
         "estadoFrenteAEC": "nuevo"
-      }
+      },
+      "formulaResultado": ""
     },
     {
       "codigo": "CR031EC",
@@ -14759,7 +14765,7 @@
       "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "DOOR",
       "parametros": [
         {
           "nombre": "Largo",
@@ -14768,7 +14774,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -14866,7 +14872,8 @@
         "pagina": 26,
         "costoDirectoUSD": 170.05,
         "estadoFrenteAEC": "nuevo"
-      }
+      },
+      "formulaResultado": ""
     },
     {
       "codigo": "CR032EC",
@@ -14876,7 +14883,7 @@
       "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "DOOR",
       "parametros": [
         {
           "nombre": "Largo",
@@ -14885,7 +14892,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -15007,7 +15014,8 @@
         "pagina": 22,
         "costoDirectoUSD": 63.82,
         "estadoFrenteAEC": "nuevo"
-      }
+      },
+      "formulaResultado": ""
     },
     {
       "codigo": "CR033EC",
@@ -15017,7 +15025,7 @@
       "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "DOOR",
       "parametros": [
         {
           "nombre": "Largo",
@@ -15026,7 +15034,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -15088,7 +15096,8 @@
         "pagina": 23,
         "costoDirectoUSD": 93.48,
         "estadoFrenteAEC": "nuevo"
-      }
+      },
+      "formulaResultado": ""
     },
     {
       "codigo": "CR034EC",

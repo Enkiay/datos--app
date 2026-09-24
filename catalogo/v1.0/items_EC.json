@@ -1,5 +1,5 @@
 {
-  "version": "v20260924c-rendimiento-3",
+  "version": "v20260924d-tipos-bim",
   "schemaVersion": 1,
   "pais": "EC",
   "generado": "tools/derivar-desde-bolivia.mjs",
@@ -43026,7 +43026,7 @@
       "unidadResultado": "m",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "RAILING",
       "parametros": [
         {
           "nombre": "Largo",
@@ -43662,7 +43662,7 @@
       "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -44340,7 +44340,7 @@
       "unidadResultado": "m2",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -49464,7 +49464,7 @@
       "unidadResultado": "m",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "RAILING",
       "parametros": [
         {
           "nombre": "Largo",
@@ -49712,7 +49712,7 @@
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
       "parametros": [
         {
           "nombre": "Largo",
@@ -49960,7 +49960,7 @@
       "unidadResultado": "m3",
       "categoria": "Obra Gruesa",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
       "parametros": [
         {
           "nombre": "Largo",
@@ -53072,7 +53072,8 @@
       "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
+      "formulaResultado": "",
       "parametros": [
         {
           "nombre": "Largo",
@@ -53081,7 +53082,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -53194,7 +53195,8 @@
       "unidadResultado": "m2",
       "categoria": "Mampostería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
+      "formulaResultado": "",
       "parametros": [
         {
           "nombre": "Largo",
@@ -53203,7 +53205,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -53304,7 +53306,8 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
+      "formulaResultado": "",
       "parametros": [
         {
           "nombre": "Largo",
@@ -53313,7 +53316,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -53652,7 +53655,8 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
+      "formulaResultado": "",
       "parametros": [
         {
           "nombre": "Largo",
@@ -53661,7 +53665,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -53750,7 +53754,8 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "WALL",
+      "formulaResultado": "",
       "parametros": [
         {
           "nombre": "Largo",
@@ -53759,7 +53764,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -54648,7 +54653,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -54928,7 +54933,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -55014,7 +55019,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -55362,7 +55367,7 @@
       "unidadResultado": "m2",
       "categoria": "Acabados",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "SLAB",
       "parametros": [
         {
           "nombre": "Largo",
@@ -55582,7 +55587,7 @@
       "unidadResultado": "m2",
       "categoria": "Cubiertas",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "ROOF",
       "parametros": [
         {
           "nombre": "Largo",
@@ -56628,7 +56633,8 @@
       "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "DOOR",
+      "formulaResultado": "",
       "parametros": [
         {
           "nombre": "Largo",
@@ -56637,7 +56643,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -56810,7 +56816,8 @@
       "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "DOOR",
+      "formulaResultado": "",
       "parametros": [
         {
           "nombre": "Largo",
@@ -56819,7 +56826,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -56920,7 +56927,8 @@
       "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "DOOR",
+      "formulaResultado": "",
       "parametros": [
         {
           "nombre": "Largo",
@@ -56929,7 +56937,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true
@@ -57054,7 +57062,8 @@
       "unidadResultado": "m2",
       "categoria": "Carpintería",
       "verificado": false,
-      "tipoIfc": "",
+      "tipoIfc": "DOOR",
+      "formulaResultado": "",
       "parametros": [
         {
           "nombre": "Largo",
@@ -57063,7 +57072,7 @@
           "visiblePorDefecto": true
         },
         {
-          "nombre": "Ancho",
+          "nombre": "Alto",
           "valorDefault": 1,
           "unidad": "m",
           "visiblePorDefecto": true

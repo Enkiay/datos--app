@@ -39,11 +39,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/empresas/v1.0/index.json"
     },
     "catalogo_PE": {
-      "version": "v20260924f-pliego-2026",
+      "version": "v20260924g-tipos-bim",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_PE.json"
     },
     "precios_PE": {
-      "version": "v20260924f-pliego-2026",
+      "version": "v20260924g-tipos-bim",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PE.json"
     },
     "catalogo_CL": {
@@ -63,11 +63,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_ES.json"
     },
     "catalogo_EC": {
-      "version": "v20260924c-rendimiento-3",
+      "version": "v20260924d-tipos-bim",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_EC.json"
     },
     "precios_EC": {
-      "version": "v20260924c-rendimiento-3",
+      "version": "v20260924d-tipos-bim",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_EC.json"
     },
     "catalogo_CO": {
