@@ -1,6 +1,6 @@
 {
  "_": "ÍTEMS PROPIOS de Perú tomados de expedientes técnicos PÚBLICOS del Gobierno Regional de Tumbes. `fuente` cita el documento; items_PE.json los publica SIN ese campo.",
- "version": "v20260924d-hospital-tumbes",
+ "version": "v20260924e-iu-oficiales",
  "pais": "PE",
  "items": [
   {
@@ -4807,7 +4807,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_water_stop_6_ancho_normal_nat_negro_70_shr_m",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -7511,7 +7511,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_aditivo_curador_de_concreto_de_4l_gal",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -7689,7 +7689,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_aditivo_curador_de_concreto_de_4l_gal",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -8069,7 +8069,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_aditivo_curador_de_concreto_de_4l_gal",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -8247,7 +8247,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_aditivo_curador_de_concreto_de_4l_gal",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -9122,7 +9122,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_aditivo_curador_de_concreto_de_4l_gal",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Aditivo impermeabilizante",
@@ -16068,7 +16068,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_correas_de_madera_de_2_x_2_m",
-     "iuInei": "84"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -16161,7 +16161,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Ángulo de fierro negro de 1\" x 1\" x 1/4\" x 6 m",
@@ -17718,7 +17718,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -17836,7 +17836,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -18037,7 +18037,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -18385,7 +18385,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -18616,7 +18616,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Panel cerca pro 2.40x3.00m, costero verde",
@@ -18829,7 +18829,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -19042,7 +19042,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -19219,7 +19219,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Dados de concreto f'c= 175 kg/cm2-anclaje",
@@ -19267,7 +19267,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_de_fierro_cuadrado_de_4_x_4_x3_0mm_m",
-     "iuInei": "81"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -19384,7 +19384,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -19573,7 +19573,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -19786,7 +19786,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -19963,7 +19963,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -20392,7 +20392,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_yeso_en_bolsas_de_12_kg_bls",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Madera tornillo para encofrado",
@@ -22813,7 +22813,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Tornillo # 10 x 1\"",
@@ -23005,7 +23005,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "TUBO Fº Nº DE Ø 2\" x 1\", e=2mm",
@@ -38503,7 +38503,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Dados de concreto f'c= 175 kg/cm2-anclaje",
@@ -38669,7 +38669,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -38828,7 +38828,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_suministro_e_instalacion_de_arcos_c_tubo_4_x2_5_mm_incl_malla_cjt",
-     "iuInei": "29"
+     "iuInei": ""
     }
    ],
    "fuente": {
@@ -38879,7 +38879,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_suministro_e_instalacion_de_piso_de_poliuretano_10mm_para_losa_deportiva_und",
-     "iuInei": "81"
+     "iuInei": ""
     }
    ],
    "fuente": {
@@ -39063,7 +39063,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija p/elem. metálicos",
@@ -39385,7 +39385,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Thiner",
@@ -43888,7 +43888,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Pintura esmalte sintetico estándar",
@@ -44800,7 +44800,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "PINTURA ESMALTE",
@@ -45124,7 +45124,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_vidrio_semidoble_p2",
-     "iuInei": "79"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -45224,7 +45224,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_thinner_gal",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Laca acrílica",
@@ -45771,7 +45771,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Platina 1\" x 1/8\"",
@@ -47079,7 +47079,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_suministro_y_colocacion_de_ventana_enmarcada_en_aluminio_y_vidrio_de_6mm_con_lamina_de_seguridad_incl_accesorios_segun_diseno_m2",
-     "iuInei": "29"
+     "iuInei": ""
     }
    ],
    "fuente": {
@@ -47397,7 +47397,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Platina 2\" x 1/4\"",
@@ -48455,7 +48455,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -48663,7 +48663,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -49923,7 +49923,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -50143,7 +50143,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -50547,7 +50547,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija para elementos metálicos",
@@ -58028,7 +58028,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_consumibles_para_instalar_accesorios_sanitarioas_est",
-     "iuInei": "82"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -59739,7 +59739,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_liberador_de_aire_automatico_en_montantes_und",
-     "iuInei": "81"
+     "iuInei": ""
     }
    ],
    "fuente": {
@@ -60159,7 +60159,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_valvula_esferica_de_1_1_4_acero_inox_rr_und",
-     "iuInei": "81"
+     "iuInei": ""
     },
     {
      "nombre": "Válvula esferica de 1\" acero inox. rr",
@@ -60171,7 +60171,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_valvula_esferica_de_1_acero_inox_rr_und",
-     "iuInei": "81"
+     "iuInei": ""
     },
     {
      "nombre": "Válvula de llenado Ø 1 1/4\" de acero inox. rr",
@@ -60183,7 +60183,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_valvula_de_llenado_1_1_4_de_acero_inox_rr_und",
-     "iuInei": "81"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -60354,7 +60354,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_valvula_de_llenado_1_1_2_de_bronce_roscado_und",
-     "iuInei": "81"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -61314,7 +61314,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_valvula_esferica_de_1_acero_inox_rr_und",
-     "iuInei": "81"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -63457,7 +63457,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_yeso_en_bolsas_de_12_kg_bls",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -67460,7 +67460,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_de_abasto_cromado_liso_de_1_2_und",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "CINTA TEFLON",
@@ -69140,7 +69140,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_codo_sch_40_de_90o_x_2_1_2_und",
-     "iuInei": "36"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -69360,7 +69360,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija p/elem. metálicos",
@@ -69913,7 +69913,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_de_abasto_cromado_liso_de_1_2_und",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lavadero a. inox.19\"x38\" satinado de 01 poza c/accesorios",
@@ -70024,7 +70024,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_de_abasto_cromado_liso_de_1_2_und",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "CINTA TEFLON",
@@ -70360,7 +70360,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_de_abasto_cromado_liso_de_1_2_und",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "CINTA TEFLON",
@@ -70535,7 +70535,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_accesorios_diversos_und",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Geotextil no tejido de 200gr",
@@ -71696,7 +71696,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tee_sch_40_de_90o_x_2_1_2_und",
-     "iuInei": "36"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -71897,7 +71897,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_de_abasto_cromado_liso_de_1_2_und",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "CINTA TEFLON",
@@ -75741,7 +75741,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_yeso_en_bolsas_de_12_kg_bls",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Madera tornillo para encofrado",
@@ -75876,7 +75876,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_yeso_en_bolsas_de_12_kg_bls",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Madera tornillo para encofrado",
@@ -75993,7 +75993,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_yeso_en_bolsas_de_12_kg_bls",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Madera tornillo para encofrado",
@@ -84538,7 +84538,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_arcos_de_fulbito_con_tablero_de_basquet_incluye_malla_segun_diseno_und",
-     "iuInei": "29"
+     "iuInei": ""
     }
    ],
    "fuente": {
@@ -96223,7 +96223,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_electronivel_tipo_boya_und",
-     "iuInei": "58"
+     "iuInei": ""
     },
     {
      "nombre": "Tablero de control para bomba de 1HP",
@@ -96235,7 +96235,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tablero_de_control_para_bomba_de_1hp_und",
-     "iuInei": "58"
+     "iuInei": ""
     },
     {
      "nombre": "SUMINISTRO DE BOMBA DE AGUA DE 1HP-220v-3500rpm Uso doméstico- Centrifuga",
@@ -96247,7 +96247,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_suministro_de_bomba_de_agua_de_1hp_220v_3500rpm_uso_domestico_centrifuga_und",
-     "iuInei": "58"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -101780,7 +101780,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_curva_pvc_p_de_50mm_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Tubo PVC-p 50mm de Ø, 3m",
@@ -101792,7 +101792,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_pvc_p_50mm_de_3m_tub",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -102026,7 +102026,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_aislante_rll",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Curva PVC-p (elect.) 20mm",
@@ -102050,7 +102050,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_pvc_p_elect_20mm_3m_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -102185,7 +102185,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_aislante_rll",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Curva PVC-p (elect.) 20mm",
@@ -102209,7 +102209,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_pvc_p_elect_20mm_3m_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -102344,7 +102344,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_aislante_rll",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Curva PVC-p (elect.) 20mm",
@@ -102368,7 +102368,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_pvc_p_elect_20mm_3m_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -102503,7 +102503,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_aislante_rll",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Curva PVC-p Ø 20mm",
@@ -102527,7 +102527,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_pvc_p_p_inst_elect_de_20mm_x_3m_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -108577,7 +108577,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_aislante_rll",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Tub. PVC sel p/inst. elect. de 3/4\" x 3m",
@@ -109431,7 +109431,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_panel_solar_400w_24v_per_monocristalino_era_und",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Cable de interconexion de bateria estacionarias",
@@ -109860,7 +109860,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_cadwell_conexion_en_derivacion_und",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Molde de soldadura exotermica tipo \"+\"",
@@ -109872,7 +109872,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_molde_de_soldadura_exotermica_tipo_und",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Molde de soldadura exotermica tipo \"t\"",
@@ -110404,7 +110404,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_senalizadora_de_peligro_bt_m",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Tub. PVC-p sap p/inst. elect. de 25mm Ø x 3m",
@@ -110428,7 +110428,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_curva_pvc_p_de_25mm_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -110545,7 +110545,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_senalizadora_de_peligro_bt_m",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Tub. PVC-p sap p/inst. elect. de 25mm Ø x 3m",
@@ -110569,7 +110569,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_curva_pvc_p_de_25mm_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -110686,7 +110686,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_senalizadora_de_peligro_bt_m",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Tub. PVC-p sap p/inst. elect. de 40mm Ø x 3m",
@@ -110827,7 +110827,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_senalizadora_de_peligro_bt_m",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Tub. PVC-p sap p/inst. elect. de 40mm Ø x 3m",
@@ -110968,7 +110968,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_senalizadora_de_peligro_bt_m",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Tub. PVC-p sap p/inst. elect. de 40mm Ø x 3m",
@@ -111109,7 +111109,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_senalizadora_de_peligro_bt_m",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Tub. PVC-p sap p/inst. elect. de 50 mm Ø",
@@ -111133,7 +111133,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_curva_pvc_p_de_50mm_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -111250,7 +111250,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_senalizadora_de_peligro_bt_m",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Tub. PVC-p sap p/inst. elect. de 60 mm Ø",
@@ -111274,7 +111274,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_curva_pvc_p_de_60mm_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -111391,7 +111391,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cinta_senalizadora_de_peligro_bt_m",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Curva PVC-p de 70mm",
@@ -111403,7 +111403,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_curva_pvc_p_de_70mm_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Tubo PVC-p Ø 70mm",
@@ -111415,7 +111415,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_pvc_p_70mm_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -111625,7 +111625,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_empalme_tipo_3m_und",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Soporte de f° g°",
@@ -111772,7 +111772,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_pvc_25mm_sap_m",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Curva PVC sap luz 25mm",
@@ -111784,7 +111784,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_curva_pvc_sap_luz_25mm_pza",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -115864,7 +115864,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_pvc_p_3_4_x_3m_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "CURVA PVC SAP 3/4\"",
@@ -115987,7 +115987,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_accesorios_de_fijacion_en_piso_cjt",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Tubo PVC-p 3/4\" Ø x 3m",
@@ -115999,7 +115999,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_pvc_p_3_4_x_3m_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -116443,7 +116443,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_sal_industrial_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Varilla de cobre de 3/4\" x 2.40m.",
@@ -116479,7 +116479,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_tubo_pvc_p_elect_20mm_3m_und",
-     "iuInei": "74"
+     "iuInei": ""
     },
     {
      "nombre": "Herramientas manuales",
@@ -128255,7 +128255,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_cordel_m",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Madera tornillo para encofrado",
@@ -128525,7 +128525,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_humus_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Grass",
@@ -128630,7 +128630,7 @@
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
      "idCanonico": "pe_soldadura_kg",
-     "iuInei": "29"
+     "iuInei": ""
     },
     {
      "nombre": "Lija p/elem. metálicos",
