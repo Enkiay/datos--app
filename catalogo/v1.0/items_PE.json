@@ -1,5 +1,5 @@
 {
- "version": "v20260924e-iu-oficiales",
+ "version": "v20260924f-pliego-2026",
  "schemaVersion": 1,
  "pais": "PE",
  "nota": "Semilla (10) + 137 partidas con cuadrillas y rendimientos del libro «Costos y Presupuestos en Edificaciones» (J. Ramos, ICG/CAPECO — estructura vigente, valores de referencia). PRECIOS referenciales de mercado: ajustar con aportes locales. Los rendimientos de MO salen de las cuadrillas oficiales del libro (hh = 8 x cuadrilla / rendimiento diario). Medición SIMPLE por dimensiones (sin fórmulas) + presets por familia (17-ago). Armadura auto por elemento en el concreto armado (17-ago). · IU en base INEI dic-2025 (26-ago-2026): el unico codigo de la base vieja, el 64 (TERRAZO, Marmol travertino), migro al 40 (Loseta y terrazo); el resto de los indices declarados ya existia en la base nueva. PARTIDAS: cada ítem lleva `partida`, su numeración en la Norma Técnica «Metrados para Obras de Edificación y Habilitaciones Urbanas» (RD 073-2010/VIVIENDA/VMCS-DNC); el `codigo` sigue siendo la identidad interna. Excavaciones simples = OE.2.1.2.2 (la Norma las imprime OE.2.1.2.1 por errata). + 24-sep-2026: 1109 partidas de expedientes técnicos PÚBLICOS del Gobierno Regional de Tumbes (dos colegios y el Hospital Saúl Garrido Rosillo; catalogo/fuentes/items_propios_PE.json cita el documento de cada una).",

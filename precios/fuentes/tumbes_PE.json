@@ -1,6 +1,6 @@
 {
  "_": "Insumos agregados y precios de la tabla nacional cambiados con los expedientes de Tumbes (24-sep-2026).",
- "version": "v20260924e-iu-oficiales",
+ "version": "v20260924f-pliego-2026",
  "nota": "REFERENCIA: expediente técnico público del Gobierno Regional de Tumbes (I.E. N° 093 Efraín Arcaya Zevallos / Local Escolar N° 064 Pajaritos), precios 2021-2022 — no es un precio relevado en esta ciudad.",
  "agregados": [
   "pe_abono_m3",
@@ -1464,24 +1464,38 @@
    "notaAntes": "Semilla: precio referencial de mercado — ajustar con aportes locales"
   },
   {
+   "idCanonico": "pe_mo_capataz_hh",
+   "nombre": "Capataz",
+   "antes": 24.5,
+   "despues": 37.64,
+   "notaAntes": "Tabla de referencia nacional de mercado peruano — no es un precio de esta ciudad; ajustar con aportes locales"
+  },
+  {
    "idCanonico": "pe_mo_operario_hh",
    "nombre": "Operario",
    "antes": 22.78,
-   "despues": 24.22,
+   "despues": 28.95,
    "notaAntes": "Tabla de referencia nacional de mercado peruano — no es un precio de esta ciudad; ajustar con aportes locales"
   },
   {
    "idCanonico": "pe_mo_oficial_hh",
    "nombre": "Oficial",
    "antes": 18.25,
-   "despues": 19.13,
+   "despues": 22.68,
    "notaAntes": "Tabla de referencia nacional de mercado peruano — no es un precio de esta ciudad; ajustar con aportes locales"
   },
   {
    "idCanonico": "pe_mo_peon_hh",
    "nombre": "Peón",
    "antes": 16.85,
-   "despues": 17.29,
+   "despues": 20.54,
+   "notaAntes": "Tabla de referencia nacional de mercado peruano — no es un precio de esta ciudad; ajustar con aportes locales"
+  },
+  {
+   "idCanonico": "pe_mo_topografo_hh",
+   "nombre": "Topógrafo",
+   "antes": 24.5,
+   "despues": 30.08,
    "notaAntes": "Tabla de referencia nacional de mercado peruano — no es un precio de esta ciudad; ajustar con aportes locales"
   },
   {
@@ -1489,6 +1503,13 @@
    "nombre": "Clavos para madera (surtidos)",
    "antes": 5.5,
    "despues": 5.93,
+   "notaAntes": "Semilla: precio referencial de mercado — ajustar con aportes locales"
+  },
+  {
+   "idCanonico": "pe_mo_operador_eq_mediano_hh",
+   "nombre": "Operador de equipo mediano",
+   "antes": 24.85,
+   "despues": 29.95,
    "notaAntes": "Semilla: precio referencial de mercado — ajustar con aportes locales"
   },
   {
@@ -1504,6 +1525,13 @@
    "antes": 3.5,
    "despues": 5.46,
    "notaAntes": "Tabla de referencia nacional de mercado peruano — no es un precio de esta ciudad; ajustar con aportes locales"
+  },
+  {
+   "idCanonico": "pe_mo_operador_eq_pesado_hh",
+   "nombre": "Operador de equipo pesado",
+   "antes": 25.3,
+   "despues": 30.21,
+   "notaAntes": "Semilla: precio referencial de mercado — ajustar con aportes locales"
   },
   {
    "idCanonico": "pe_tierra_de_chacra",
@@ -1532,6 +1560,20 @@
    "antes": 25,
    "despues": 10.17,
    "notaAntes": "Semilla: precio referencial de mercado — ajustar con aportes locales"
+  },
+  {
+   "idCanonico": "pe_ayudante_de_topografia_hh",
+   "nombre": "AYUDANTE DE TOPOGRAFIA",
+   "antes": 16.85,
+   "despues": 20.54,
+   "notaAntes": "Tabla de referencia nacional de mercado peruano — no es un precio de esta ciudad; ajustar con aportes locales"
+  },
+  {
+   "idCanonico": "pe_operador_de_equipo_liviano_hh",
+   "nombre": "OPERADOR DE EQUIPO LIVIANO",
+   "antes": 24.38,
+   "despues": 28.95,
+   "notaAntes": "Tabla de referencia nacional de mercado peruano — no es un precio de esta ciudad; ajustar con aportes locales"
   },
   {
    "idCanonico": "pe_asfalto_rc_250_gal",
