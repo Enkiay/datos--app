@@ -125,7 +125,7 @@ const CONFIG = {
     },
   },
   EC: {
-    version: "v20260910c",
+    version: "v20260924-fuentes-citables",
     fuente: "Base boliviana (catálogo ArqOn) + precios de Ecuador: Contraloría General del Estado (salarios mínimos por ley 2026, hora real con cargas: la caja lleva cargasSociales = 0) y precios de referencia de mercado de Quito 2026. Relevado en Quito; las otras 6 ciudades COPIAN Quito (referencial) hasta relevarse. La cadena ecuatoriana agrega el IVA (15 %) al final: los insumos van sin IVA.",
     // El cemento ecuatoriano se vende por SACO de 50 kg y el boliviano por kg: no es equivalente,
     // entra como REFERENCIA convertida (referencias_EC.json). Lo mismo con galones y tubos.
@@ -160,42 +160,19 @@ const CONFIG = {
       mo_tecnico_especialista_juntas: "ec_mo_albanil", mo_plomero_certificado: "ec_mo_plomero", mo_cerrajero: "ec_mo_albanil", mo_perforista: "ec_mo_albanil",
       mo_operador_de_compactadora: "ec_mo_operador", mo_operador_de_mezcladora: "ec_mo_operador", mo_operador_de_volqueta: "ec_mo_operador",
     },
-    // UNIFICAR (10-sep-2026): el insumo boliviano ES este producto de los presupuestos reales de
-    // obra, con LA MISMA UNIDAD (lo verifica el generador). Los ítems pasan a usar el producto
-    // ecuatoriano —nombre, unidad y precio reales— y la fila boliviana deja de publicarse.
-    // Criterio: mismo producto sin interpretar. Lo dudoso NO entra (ver abajo).
+    // UNIFICAR: el insumo boliviano ES este producto del país, con LA MISMA UNIDAD (lo verifica el
+    // generador). Los ítems pasan a usar el producto del país y la fila boliviana deja de publicarse.
+    //
+    // 24-sep-2026: se RETIRARON las 20 entradas que apuntaban a productos tomados de un programa de
+    // presupuestos de terceros. ArqOn sólo publica precios de fuentes que puede citar (Contraloría,
+    // documentos públicos de contratación, tiendas con enlace). Esos insumos vuelven a su
+    // equivalente con precio de referencia citada.
     unificar: {
-      // Duplicados que había en la lista: el de agosto era un precio de referencia a ojo
-      // («ajustar con aportes…»); el de hoy es el de un presupuesto real de obra.
-      piedra_bruta_m3: "ec_mat_piedra_bola", piedra_para_cimiento_m3: "ec_mat_piedra_bola",
-      porcelanato_m2: "ec_mat_porcelanato_nacional",
-      mo_operador_de_equipo_pesado: "ec_mo_operador",
-      // Cemento: el hidráulico de uso general (tipo GU, INEN 2380) es el portland de obra en Ecuador.
-      cemento_portland_kg: "ec_mat_cemento_fuerte_tipo_gu_holcim_disensa", cemento_kg: "ec_mat_cemento_fuerte_tipo_gu_holcim_disensa",
-      arena_fina_m3: "ec_mat_arena_corriente_fina",
-      arena_comun_m3: "ec_mat_arena_lavada_de_rio_gruesa", arena_lavada_m3: "ec_mat_arena_lavada_de_rio_gruesa",
-      clavos_kg: "ec_mat_clavos_2_2_1_2_3_3_1_2", alambre_de_amarre_kg: "ec_mat_alambre_de_amarre_18",
-      hormigon_premezclado_h_21_m3: "ec_mat_h_premezclado_210_kg_cm2_19mm_13cm_28d_holcim",   // H-21 ≈ 210 kg/cm²
-      bloque_de_hormigon_3h_e_15_cm_pza: "ec_mat_bloque_pesado_de_15x20x40",
-      ceramica_esmaltada_30_30_m2: "ec_mat_ceramica_para_piso_30x30cm",
-      cemento_cola_facil_porcelanato_kg: "ec_mat_mortero_adhesivo_porcelanato",
-      sika_1_impermeabilizante_kg: "ec_mat_sika_1", fulminante_pza: "ec_mat_fulminante",
-      eq_vibradora: "ec_eq_vibrador_de_manguera", eq_mezcladora: "ec_eq_concretera_1_saco",
-      eq_volqueta_6_m3: "ec_eq_volqueta_8m3", eq_amoladora: "ec_eq_amoladora_electrica",
-      // NO ENTRAN, a propósito (decidir con un dato más):
-      //  · fierro_corrugado_kg → «Acero de refuerzo» a 0,81/kg: el MISMO presupuesto cotiza la
-      //    varilla a 52,34/quintal = 1,15/kg, que es justo lo que ya tiene la base. El 0,81 no cierra.
-      //  · cemento_blanco_kg → «Cemento blanco Tolteca» a 0,22/kg: la captura del catálogo decía
-      //    0,46; es el único precio que no coincidió entre las dos fuentes.
-      //  · electrodos_kg → «Electrodos» a 1,50/kg: demasiado barato (el 6011 del mismo lote, 4,40).
-      //  · grava_comun_m3 → «Piedra 3/4"», tierra_seleccionada_m3 → «Tierra clasificada»,
-      //    hormigon_premezclado_h_25_m3 → «240 kg/cm²», eq_retroexcavadora → «Retro 75 HP»,
-      //    eq_compactadora_manual_de_impacto → «Compactador mecánico», eq_bomba_de_agua_3_hp →
-      //    «Bomba de agua» (sin potencia): parecidos, no iguales.
-      //  · Todo lo que cambia de unidad (saco↔kg, galón↔litro, tubo↔metro, agua m³↔litro).
+      mo_operador_de_equipo_pesado: "ec_mo_operador",   // mismo cargo de la tabla de la Contraloría
     },
-    // HERRAMIENTA MENOR (5 % de la M.O.): en Ecuador NO es opcional. Se midió sobre 325 APU
-    // reales exportados de presupuestos reales de obra (10-sep-2026): la llevan 323, y los 323 al 5 % exacto.
+    // HERRAMIENTA MENOR (5 % de la M.O.): en Ecuador NO es opcional. Medido sobre 1.272 APU de
+    // documentos públicos de contratación (Municipio de Guayaquil 2024, GAD de Daule 2025, MSP
+    // Zona 7 2020): 1.225 la llevan, todos al 5 % exacto; los demás no llevan mano de obra que la sostenga.
     // Va DENTRO del costo directo, en el cajón de EQUIPO —la cadena ECU suma D + E + C—, así
     // que no se pisa con los indirectos ni con la utilidad. Mismo mecanismo que las leyes
     // sociales chilenas. Sin esta línea, los 375 ítems derivados de Bolivia cotizan un APU
@@ -318,15 +295,15 @@ const idPais = (idBo) => cfg.equivalentes[idBo] ?? `${iso}_${idBo}`;
 // `unificar: { idBoliviano: idDelPais }` dice «este insumo boliviano ES este producto del país».
 // Distinto de `equivalentes` y `familias`, que conservan la fila derivada: acá la fila boliviana
 // DEJA DE PUBLICARSE y las líneas de los ítems apuntan al producto del país — con su nombre, su
-// unidad y su precio. Nació en Ecuador: los 375 ítems usaban «Cemento Portland» con precio de
-// referencia mientras el cemento real de los presupuestos de obra estaba en la lista, al lado,
-// sin que ningún ítem lo usara. Dos listas del mismo producto es peor que una sola.
+// unidad y su precio. Sirve cuando el país tiene su propio producto con precio de FUENTE CITABLE
+// y el ítem derivado de Bolivia usaba otro nombre para lo mismo: dos listas del mismo producto
+// es peor que una sola.
 // ⚠ Sólo con LA MISMA UNIDAD (se verifica abajo): los rendimientos de los ítems están en la
 // unidad boliviana, y un «7 kg/m³» apuntando a un saco de 50 kg serían 350 kg.
 const unificar = cfg.unificar ?? {};
 const idLinea = (idBo) => unificar[idBo] ?? idPais(idBo);
 // Unidades que son la misma aunque se escriban distinto («Pza» del catálogo boliviano y
-// «Unidad» de los presupuestos ecuatorianos; «Hr» y «hora»).
+// «Unidad» de los documentos ecuatorianos; «Hr» y «hora»).
 const uComp = (s) => { const x = u(s); return ({ pza: "u", pieza: "u", und: "u", unid: "u", unidad: "u", lt: "l", litro: "l", litros: "l", kilo: "kg", kilos: "kg" })[x] ?? x; };
 const codigoPais = (idBo, codBo) => cfg.equivalentes[idBo] ? cfg.equivalentes[idBo].toUpperCase() : `${PAIS}_${codBo}`;
 
@@ -485,9 +462,8 @@ const quitarIds = new Set([...productores].filter(([, bos]) => bos.every((b) => 
 for (const c of ciudades) c.precios = c.precios.filter((p) => !quitarIds.has(p.idCanonico));
 
 // ── INSUMOS PROPIOS DEL PAÍS ────────────────────────────────────────────────────────────────
-// Un país puede tener insumos que NO son traducción de ninguno boliviano: Ecuador (10-sep-2026)
-// entró 302 sacados de presupuestos reales de obra, con nombre comercial de allá («Cemento
-// Fuerte Tipo GU - Holcim DISENSA», «Eurolit 6 ondas»). Sin esto, la primera regeneración los
+// Un país puede tener insumos que NO son traducción de ninguno boliviano (en Ecuador, las
+// categorías de mano de obra de la Contraloría sin par boliviano). Sin esto, la regeneración los
 // BORRABA — el generador escribe exactamente los 751 bolivianos y nada más.
 // Viven en `precios/fuentes/propios_XX.json`, con la misma forma que oficiales_XX (ciudades[]),
 // y se arrastran TAL CUAL: su precio no lo decide este generador.
