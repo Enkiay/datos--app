@@ -1,0 +1,21 @@
+{
+  "actualizado": "2026-09-25",
+  "planes": {
+    "perpetua": {
+      "monto": 400,
+      "moneda": "$"
+    },
+    "anual": {
+      "monto": 120,
+      "moneda": "$"
+    },
+    "semestral": {
+      "monto": 80,
+      "moneda": "$"
+    },
+    "trimestral": {
+      "monto": 50,
+      "moneda": "$"
+    }
+  }
+}
