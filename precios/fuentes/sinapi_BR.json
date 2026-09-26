@@ -1,0 +1,9 @@
+{
+  "fuente": "SINAPI (Caixa/IBGE) — SINAPI_Referência nacional",
+  "mes": "08/2026",
+  "regime": "COM desoneração (ICD/CCD)",
+  "archivo": "SINAPI_Referencia_2026_08.xlsx",
+  "sha256": "1587f45801fac7f50e44cffcd1269926534c47a161b37142d04d1b56664aec89",
+  "caixa": "https://www.caixa.gov.br/Downloads/sinapi-relatorios-mensais/",
+  "nota": "Desde fuera de Brasil la Caixa no responde (302 en bucle); se usa una copia del libro sin cambios y se registra su sha256."
+}
