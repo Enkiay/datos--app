@@ -667,7 +667,7 @@
   },
   {
     "codigo": "AC001",
-    "pt": "Forro de Madeira Macho-e-Fêmea (Palo María)",
+    "pt": "Forro de Madeira Macho-e-Fêmea (Guanandi)",
     "confianza": "MEDIA",
     "nota": "«Machihembre» = encaixe macho-fêmea; «Palo María» é espécie boliviana, mantida."
   },
@@ -721,7 +721,7 @@
   },
   {
     "codigo": "AC069",
-    "pt": "Batente de Madeira 2″x4″ (Palo María)",
+    "pt": "Batente de Madeira 2″x4″ (Guanandi)",
     "confianza": "ALTA",
     "nota": ""
   },
@@ -853,7 +853,7 @@
   },
   {
     "codigo": "AC020",
-    "pt": "Contrapiso de Tijolo Maciço (Adobito)",
+    "pt": "Contrapiso de Tijolo Maciço",
     "confianza": "MEDIA",
     "nota": "«Adobito» é tijolo maciço pequeno boliviano."
   },
@@ -937,13 +937,13 @@
   },
   {
     "codigo": "AC036",
-    "pt": "Piso de Parquete de Ipê (Tajibo)",
+    "pt": "Piso de Parquete de Ipê",
     "confianza": "MEDIA",
     "nota": "«Tajibo» é o nome boliviano do ipê."
   },
   {
     "codigo": "AC037",
-    "pt": "Piso de Pedra de Tarija",
+    "pt": "Piso de Pedra São Tomé",
     "confianza": "MEDIA",
     "nota": "Pedra regional boliviana (Tarija); sem equivalente brasileiro, mantido o nome."
   },
@@ -1177,7 +1177,7 @@
   },
   {
     "codigo": "IS029",
-    "pt": "Caixa Sifonada de PVC 4° com Sifão",
+    "pt": "Caixa Sifonada de PVC 100 mm com Sifão",
     "confianza": "MEDIA",
     "nota": "O «4°» do original é provável erro de digitação de 4″; mantido tal qual."
   },
@@ -1525,19 +1525,19 @@
   },
   {
     "codigo": "IE006",
-    "pt": "Fornecimento e Instalação de Fio de Cobre Awg N° 1x8",
+    "pt": "Fornecimento e Instalação de Fio de Cobre 10 mm² (AWG 8)",
     "confianza": "ALTA",
     "nota": ""
   },
   {
     "codigo": "IE007",
-    "pt": "Fornecimento e Instalação de Fio de Cobre Awg N° 1x10",
+    "pt": "Fornecimento e Instalação de Fio de Cobre 6 mm² (AWG 10)",
     "confianza": "ALTA",
     "nota": ""
   },
   {
     "codigo": "IE008",
-    "pt": "Fornecimento e Instalação de Fio de Cobre Awg N° 1x12",
+    "pt": "Fornecimento e Instalação de Fio de Cobre 4 mm² (AWG 12)",
     "confianza": "ALTA",
     "nota": ""
   },

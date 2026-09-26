@@ -1,5 +1,5 @@
 {
-  "version": "v20260910-br-nombres-unicos",
+  "version": "v20260926-br-nombres-brasil",
   "schemaVersion": 1,
   "pais": "BR",
   "generado": "tools/derivar-desde-bolivia.mjs",
@@ -11278,7 +11278,7 @@
     },
     {
       "codigo": "AC001BR",
-      "nombre": "Forro de Madeira Macho-e-Fêmea (Palo María)",
+      "nombre": "Forro de Madeira Macho-e-Fêmea (Guanandi)",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
       "unidadResultado": "m2",
@@ -11286,7 +11286,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
@@ -12177,7 +12177,7 @@
     },
     {
       "codigo": "AC069BR",
-      "nombre": "Batente de Madeira 2″x4″ (Palo María)",
+      "nombre": "Batente de Madeira 2″x4″ (Guanandi)",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
       "unidadResultado": "Pza",
@@ -12185,7 +12185,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
@@ -14799,7 +14799,7 @@
     },
     {
       "codigo": "AC020BR",
-      "nombre": "Contrapiso de Tijolo Maciço (Adobito)",
+      "nombre": "Contrapiso de Tijolo Maciço",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
       "unidadResultado": "m2",
@@ -16166,7 +16166,7 @@
     },
     {
       "codigo": "AC036BR",
-      "nombre": "Piso de Parquete de Ipê (Tajibo)",
+      "nombre": "Piso de Parquete de Ipê",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
       "unidadResultado": "m2",
@@ -16174,7 +16174,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
@@ -16272,7 +16272,7 @@
     },
     {
       "codigo": "AC037BR",
-      "nombre": "Piso de Pedra de Tarija",
+      "nombre": "Piso de Pedra São Tomé",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
       "unidadResultado": "m2",
@@ -16304,7 +16304,7 @@
           "codigo": "BR_AG004"
         },
         {
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
@@ -19893,7 +19893,7 @@
     },
     {
       "codigo": "IS029BR",
-      "nombre": "Caixa Sifonada de PVC 4° com Sifão",
+      "nombre": "Caixa Sifonada de PVC 100 mm com Sifão",
       "tipoCalculo": "CANTIDAD",
       "inputPrincipalLabel": "Cantidad",
       "unidadResultado": "Pza",
@@ -24947,7 +24947,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -25252,7 +25252,7 @@
     },
     {
       "codigo": "IE006BR",
-      "nombre": "Fornecimento e Instalação de Fio de Cobre Awg N° 1x8",
+      "nombre": "Fornecimento e Instalação de Fio de Cobre 10 mm² (AWG 8)",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
       "unidadResultado": "m",
@@ -25260,7 +25260,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -25316,7 +25316,7 @@
     },
     {
       "codigo": "IE007BR",
-      "nombre": "Fornecimento e Instalação de Fio de Cobre Awg N° 1x10",
+      "nombre": "Fornecimento e Instalação de Fio de Cobre 6 mm² (AWG 10)",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
       "unidadResultado": "m",
@@ -25324,7 +25324,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -25380,7 +25380,7 @@
     },
     {
       "codigo": "IE008BR",
-      "nombre": "Fornecimento e Instalação de Fio de Cobre Awg N° 1x12",
+      "nombre": "Fornecimento e Instalação de Fio de Cobre 4 mm² (AWG 12)",
       "tipoCalculo": "LONGITUD",
       "inputPrincipalLabel": "Longitud",
       "unidadResultado": "m",
@@ -25388,7 +25388,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -25758,7 +25758,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -25899,7 +25899,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -26274,7 +26274,7 @@
           "codigo": "BR_AC010"
         },
         {
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -26484,7 +26484,7 @@
           "codigo": "BR_AC010"
         },
         {
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -31062,7 +31062,7 @@
           "codigo": "BR_PL090"
         },
         {
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -31374,7 +31374,7 @@
           "codigo": "BR_PL090"
         },
         {
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -33538,7 +33538,7 @@
           "codigo": "BR_AG017"
         },
         {
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
@@ -33740,7 +33740,7 @@
           "codigo": "BR_AG017"
         },
         {
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",

@@ -1,5 +1,5 @@
 {
-  "version": "v20260910-br-nombres-unicos",
+  "version": "v20260926-br-nombres-brasil",
   "fuente": "Base boliviana (catálogo ArqOn), traducida al portugués, + precios del SINAPI (Caixa/IBGE), praça São Paulo, regime DESONERADO. La mano de obra del SINAPI es hora bruta CON encargos complementares pero SEM encargos sociais: los 85 % de la caja brasileña (cargasSocialesDefecto) SÍ se aplican encima. El recargo brasileño es el BDI, uno solo y multiplicativo (Acórdão 2622/2013 del TCU), y los tributos van adentro: por eso la cadena no lleva IVA y los insumos van como se compran.",
   "pais": "BR",
   "generado": "tools/derivar-desde-bolivia.mjs",
@@ -369,7 +369,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x10_m",
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -379,7 +379,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x12_m",
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -389,7 +389,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x14_m",
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -399,7 +399,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x8_m",
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -419,7 +419,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_10_kg",
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -2379,7 +2379,7 @@
         },
         {
           "idCanonico": "br_machihembre_palo_maria_p2",
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -2409,7 +2409,7 @@
         },
         {
           "idCanonico": "br_madera_palo_maria_p2",
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -2759,7 +2759,7 @@
         },
         {
           "idCanonico": "br_parket_tajibo_m2",
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "categoria": "Madera",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -3119,7 +3119,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_m2",
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -6669,7 +6669,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_8_4_20_mm_kg",
-          "nombre": "Arame galvanizado N° 8 (4.20 mm)",
+          "nombre": "Arame galvanizado 8 BWG (4,20 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -6679,7 +6679,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_12_2_76_mm_kg",
-          "nombre": "Arame galvanizado N° 12 (2.76 mm)",
+          "nombre": "Arame galvanizado 12 BWG (2,76 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -6939,7 +6939,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_cortada_y_pulida_m2",
-          "nombre": "Pedra Tarija cortada e polida",
+          "nombre": "Pedra São Tomé cortada e polida",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -7884,7 +7884,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x10_m",
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -7894,7 +7894,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x12_m",
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -7904,7 +7904,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x14_m",
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -7914,7 +7914,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x8_m",
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -7934,7 +7934,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_10_kg",
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -9894,7 +9894,7 @@
         },
         {
           "idCanonico": "br_machihembre_palo_maria_p2",
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -9924,7 +9924,7 @@
         },
         {
           "idCanonico": "br_madera_palo_maria_p2",
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -10274,7 +10274,7 @@
         },
         {
           "idCanonico": "br_parket_tajibo_m2",
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "categoria": "Madera",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -10634,7 +10634,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_m2",
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -14184,7 +14184,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_8_4_20_mm_kg",
-          "nombre": "Arame galvanizado N° 8 (4.20 mm)",
+          "nombre": "Arame galvanizado 8 BWG (4,20 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -14194,7 +14194,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_12_2_76_mm_kg",
-          "nombre": "Arame galvanizado N° 12 (2.76 mm)",
+          "nombre": "Arame galvanizado 12 BWG (2,76 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -14454,7 +14454,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_cortada_y_pulida_m2",
-          "nombre": "Pedra Tarija cortada e polida",
+          "nombre": "Pedra São Tomé cortada e polida",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -15399,7 +15399,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x10_m",
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -15409,7 +15409,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x12_m",
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -15419,7 +15419,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x14_m",
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -15429,7 +15429,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x8_m",
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -15449,7 +15449,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_10_kg",
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -17409,7 +17409,7 @@
         },
         {
           "idCanonico": "br_machihembre_palo_maria_p2",
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -17439,7 +17439,7 @@
         },
         {
           "idCanonico": "br_madera_palo_maria_p2",
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -17789,7 +17789,7 @@
         },
         {
           "idCanonico": "br_parket_tajibo_m2",
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "categoria": "Madera",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -18149,7 +18149,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_m2",
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -21699,7 +21699,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_8_4_20_mm_kg",
-          "nombre": "Arame galvanizado N° 8 (4.20 mm)",
+          "nombre": "Arame galvanizado 8 BWG (4,20 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -21709,7 +21709,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_12_2_76_mm_kg",
-          "nombre": "Arame galvanizado N° 12 (2.76 mm)",
+          "nombre": "Arame galvanizado 12 BWG (2,76 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -21969,7 +21969,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_cortada_y_pulida_m2",
-          "nombre": "Pedra Tarija cortada e polida",
+          "nombre": "Pedra São Tomé cortada e polida",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -22914,7 +22914,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x10_m",
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -22924,7 +22924,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x12_m",
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -22934,7 +22934,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x14_m",
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -22944,7 +22944,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x8_m",
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -22964,7 +22964,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_10_kg",
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -24924,7 +24924,7 @@
         },
         {
           "idCanonico": "br_machihembre_palo_maria_p2",
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -24954,7 +24954,7 @@
         },
         {
           "idCanonico": "br_madera_palo_maria_p2",
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -25304,7 +25304,7 @@
         },
         {
           "idCanonico": "br_parket_tajibo_m2",
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "categoria": "Madera",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -25664,7 +25664,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_m2",
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -29214,7 +29214,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_8_4_20_mm_kg",
-          "nombre": "Arame galvanizado N° 8 (4.20 mm)",
+          "nombre": "Arame galvanizado 8 BWG (4,20 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -29224,7 +29224,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_12_2_76_mm_kg",
-          "nombre": "Arame galvanizado N° 12 (2.76 mm)",
+          "nombre": "Arame galvanizado 12 BWG (2,76 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -29484,7 +29484,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_cortada_y_pulida_m2",
-          "nombre": "Pedra Tarija cortada e polida",
+          "nombre": "Pedra São Tomé cortada e polida",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -30429,7 +30429,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x10_m",
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -30439,7 +30439,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x12_m",
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -30449,7 +30449,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x14_m",
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -30459,7 +30459,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x8_m",
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -30479,7 +30479,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_10_kg",
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -32439,7 +32439,7 @@
         },
         {
           "idCanonico": "br_machihembre_palo_maria_p2",
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -32469,7 +32469,7 @@
         },
         {
           "idCanonico": "br_madera_palo_maria_p2",
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -32819,7 +32819,7 @@
         },
         {
           "idCanonico": "br_parket_tajibo_m2",
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "categoria": "Madera",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -33179,7 +33179,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_m2",
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -36729,7 +36729,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_8_4_20_mm_kg",
-          "nombre": "Arame galvanizado N° 8 (4.20 mm)",
+          "nombre": "Arame galvanizado 8 BWG (4,20 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -36739,7 +36739,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_12_2_76_mm_kg",
-          "nombre": "Arame galvanizado N° 12 (2.76 mm)",
+          "nombre": "Arame galvanizado 12 BWG (2,76 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -36999,7 +36999,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_cortada_y_pulida_m2",
-          "nombre": "Pedra Tarija cortada e polida",
+          "nombre": "Pedra São Tomé cortada e polida",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -37944,7 +37944,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x10_m",
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -37954,7 +37954,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x12_m",
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -37964,7 +37964,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x14_m",
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -37974,7 +37974,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x8_m",
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -37994,7 +37994,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_10_kg",
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -39954,7 +39954,7 @@
         },
         {
           "idCanonico": "br_machihembre_palo_maria_p2",
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -39984,7 +39984,7 @@
         },
         {
           "idCanonico": "br_madera_palo_maria_p2",
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -40334,7 +40334,7 @@
         },
         {
           "idCanonico": "br_parket_tajibo_m2",
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "categoria": "Madera",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -40694,7 +40694,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_m2",
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -44244,7 +44244,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_8_4_20_mm_kg",
-          "nombre": "Arame galvanizado N° 8 (4.20 mm)",
+          "nombre": "Arame galvanizado 8 BWG (4,20 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -44254,7 +44254,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_12_2_76_mm_kg",
-          "nombre": "Arame galvanizado N° 12 (2.76 mm)",
+          "nombre": "Arame galvanizado 12 BWG (2,76 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -44514,7 +44514,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_cortada_y_pulida_m2",
-          "nombre": "Pedra Tarija cortada e polida",
+          "nombre": "Pedra São Tomé cortada e polida",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -45459,7 +45459,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x10_m",
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -45469,7 +45469,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x12_m",
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -45479,7 +45479,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x14_m",
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -45489,7 +45489,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x8_m",
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -45509,7 +45509,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_10_kg",
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -47469,7 +47469,7 @@
         },
         {
           "idCanonico": "br_machihembre_palo_maria_p2",
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -47499,7 +47499,7 @@
         },
         {
           "idCanonico": "br_madera_palo_maria_p2",
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -47849,7 +47849,7 @@
         },
         {
           "idCanonico": "br_parket_tajibo_m2",
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "categoria": "Madera",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -48209,7 +48209,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_m2",
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -51759,7 +51759,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_8_4_20_mm_kg",
-          "nombre": "Arame galvanizado N° 8 (4.20 mm)",
+          "nombre": "Arame galvanizado 8 BWG (4,20 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -51769,7 +51769,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_12_2_76_mm_kg",
-          "nombre": "Arame galvanizado N° 12 (2.76 mm)",
+          "nombre": "Arame galvanizado 12 BWG (2,76 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -52029,7 +52029,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_cortada_y_pulida_m2",
-          "nombre": "Pedra Tarija cortada e polida",
+          "nombre": "Pedra São Tomé cortada e polida",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -52974,7 +52974,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x10_m",
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -52984,7 +52984,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x12_m",
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -52994,7 +52994,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x14_m",
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -53004,7 +53004,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x8_m",
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -53024,7 +53024,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_10_kg",
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -54984,7 +54984,7 @@
         },
         {
           "idCanonico": "br_machihembre_palo_maria_p2",
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -55014,7 +55014,7 @@
         },
         {
           "idCanonico": "br_madera_palo_maria_p2",
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -55364,7 +55364,7 @@
         },
         {
           "idCanonico": "br_parket_tajibo_m2",
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "categoria": "Madera",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -55724,7 +55724,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_m2",
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -59274,7 +59274,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_8_4_20_mm_kg",
-          "nombre": "Arame galvanizado N° 8 (4.20 mm)",
+          "nombre": "Arame galvanizado 8 BWG (4,20 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -59284,7 +59284,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_12_2_76_mm_kg",
-          "nombre": "Arame galvanizado N° 12 (2.76 mm)",
+          "nombre": "Arame galvanizado 12 BWG (2,76 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -59544,7 +59544,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_cortada_y_pulida_m2",
-          "nombre": "Pedra Tarija cortada e polida",
+          "nombre": "Pedra São Tomé cortada e polida",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -60489,7 +60489,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x10_m",
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -60499,7 +60499,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x12_m",
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -60509,7 +60509,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x14_m",
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -60519,7 +60519,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x8_m",
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -60539,7 +60539,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_10_kg",
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -62499,7 +62499,7 @@
         },
         {
           "idCanonico": "br_machihembre_palo_maria_p2",
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -62529,7 +62529,7 @@
         },
         {
           "idCanonico": "br_madera_palo_maria_p2",
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -62879,7 +62879,7 @@
         },
         {
           "idCanonico": "br_parket_tajibo_m2",
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "categoria": "Madera",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -63239,7 +63239,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_m2",
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -66789,7 +66789,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_8_4_20_mm_kg",
-          "nombre": "Arame galvanizado N° 8 (4.20 mm)",
+          "nombre": "Arame galvanizado 8 BWG (4,20 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -66799,7 +66799,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_12_2_76_mm_kg",
-          "nombre": "Arame galvanizado N° 12 (2.76 mm)",
+          "nombre": "Arame galvanizado 12 BWG (2,76 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -67059,7 +67059,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_cortada_y_pulida_m2",
-          "nombre": "Pedra Tarija cortada e polida",
+          "nombre": "Pedra São Tomé cortada e polida",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -68004,7 +68004,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x10_m",
-          "nombre": "Fio de Cobre AWG N° 1X10",
+          "nombre": "Fio de Cobre 6 mm² (AWG 10)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -68014,7 +68014,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x12_m",
-          "nombre": "Fio de Cobre AWG N° 1X12",
+          "nombre": "Fio de Cobre 4 mm² (AWG 12)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -68024,7 +68024,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x14_m",
-          "nombre": "Fio de Cobre AWG N° 1X14",
+          "nombre": "Fio de Cobre 2,5 mm² (AWG 14)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -68034,7 +68034,7 @@
         },
         {
           "idCanonico": "br_alambre_cu_awg_n_1x8_m",
-          "nombre": "Fio de Cobre AWG N° 1X8",
+          "nombre": "Fio de Cobre 10 mm² (AWG 8)",
           "categoria": "Acero y Metal",
           "unidad": "m",
           "tipoInsumo": "MATERIAL",
@@ -68054,7 +68054,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_10_kg",
-          "nombre": "Arame Galvanizado N° 10",
+          "nombre": "Arame Galvanizado 10 BWG",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -70014,7 +70014,7 @@
         },
         {
           "idCanonico": "br_machihembre_palo_maria_p2",
-          "nombre": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+          "nombre": "Tábua Macho-Fêmea de Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -70044,7 +70044,7 @@
         },
         {
           "idCanonico": "br_madera_palo_maria_p2",
-          "nombre": "Madeira Guanandi (Palo María)",
+          "nombre": "Madeira Guanandi",
           "categoria": "Madera",
           "unidad": "p2",
           "tipoInsumo": "MATERIAL",
@@ -70394,7 +70394,7 @@
         },
         {
           "idCanonico": "br_parket_tajibo_m2",
-          "nombre": "Parquete de Ipê (Tajibo)",
+          "nombre": "Parquete de Ipê",
           "categoria": "Madera",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -70754,7 +70754,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_m2",
-          "nombre": "Pedra Tarija",
+          "nombre": "Pedra São Tomé",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
@@ -74304,7 +74304,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_8_4_20_mm_kg",
-          "nombre": "Arame galvanizado N° 8 (4.20 mm)",
+          "nombre": "Arame galvanizado 8 BWG (4,20 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -74314,7 +74314,7 @@
         },
         {
           "idCanonico": "br_alambre_galvanizado_n_12_2_76_mm_kg",
-          "nombre": "Arame galvanizado N° 12 (2.76 mm)",
+          "nombre": "Arame galvanizado 12 BWG (2,76 mm)",
           "categoria": "Acero y Metal",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -74574,7 +74574,7 @@
         },
         {
           "idCanonico": "br_piedra_tarija_cortada_y_pulida_m2",
-          "nombre": "Pedra Tarija cortada e polida",
+          "nombre": "Pedra São Tomé cortada e polida",
           "categoria": "Agregados",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",

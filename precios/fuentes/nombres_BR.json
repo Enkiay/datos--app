@@ -301,7 +301,7 @@
   },
   {
     "idBo": "alambre_galvanizado_n_10_kg",
-    "pt": "Arame Galvanizado N° 10",
+    "pt": "Arame Galvanizado 10 BWG",
     "confianza": "ALTA",
     "nota": ""
   },
@@ -685,25 +685,25 @@
   },
   {
     "idBo": "alambre_cu_awg_n_1x10_m",
-    "pt": "Fio de Cobre AWG N° 1X10",
+    "pt": "Fio de Cobre 6 mm² (AWG 10)",
     "confianza": "ALTA",
     "nota": ""
   },
   {
     "idBo": "alambre_cu_awg_n_1x12_m",
-    "pt": "Fio de Cobre AWG N° 1X12",
+    "pt": "Fio de Cobre 4 mm² (AWG 12)",
     "confianza": "ALTA",
     "nota": ""
   },
   {
     "idBo": "alambre_cu_awg_n_1x14_m",
-    "pt": "Fio de Cobre AWG N° 1X14",
+    "pt": "Fio de Cobre 2,5 mm² (AWG 14)",
     "confianza": "ALTA",
     "nota": ""
   },
   {
     "idBo": "alambre_cu_awg_n_1x8_m",
-    "pt": "Fio de Cobre AWG N° 1X8",
+    "pt": "Fio de Cobre 10 mm² (AWG 8)",
     "confianza": "ALTA",
     "nota": ""
   },
@@ -2143,7 +2143,7 @@
   },
   {
     "idBo": "machihembre_palo_maria_p2",
-    "pt": "Tábua Macho-Fêmea de Guanandi (Palo María)",
+    "pt": "Tábua Macho-Fêmea de Guanandi",
     "confianza": "MEDIA",
     "nota": "«Palo María» corresponde ao guanandi/jacareúba no Brasil."
   },
@@ -2155,7 +2155,7 @@
   },
   {
     "idBo": "madera_palo_maria_p2",
-    "pt": "Madeira Guanandi (Palo María)",
+    "pt": "Madeira Guanandi",
     "confianza": "MEDIA",
     "nota": "«Palo María» corresponde ao guanandi/jacareúba no Brasil."
   },
@@ -2311,7 +2311,7 @@
   },
   {
     "idBo": "parket_tajibo_m2",
-    "pt": "Parquete de Ipê (Tajibo)",
+    "pt": "Parquete de Ipê",
     "confianza": "MEDIA",
     "nota": "«Tajibo» é o ipê (Tabebuia) na Bolívia."
   },
@@ -2425,7 +2425,7 @@
   },
   {
     "idBo": "piedra_tarija_m2",
-    "pt": "Pedra Tarija",
+    "pt": "Pedra São Tomé",
     "confianza": "BAJA",
     "nota": "Pedra natural boliviana da região de Tarija; sem equivalente comercial no Brasil, nome mantido."
   },
@@ -3097,13 +3097,13 @@
   },
   {
     "idBo": "alambre_galvanizado_n_12_2_76_mm_kg",
-    "pt": "Arame galvanizado N° 12 (2.76 mm)",
+    "pt": "Arame galvanizado 12 BWG (2,76 mm)",
     "confianza": "ALTA",
     "nota": ""
   },
   {
     "idBo": "alambre_galvanizado_n_8_4_20_mm_kg",
-    "pt": "Arame galvanizado N° 8 (4.20 mm)",
+    "pt": "Arame galvanizado 8 BWG (4,20 mm)",
     "confianza": "ALTA",
     "nota": ""
   },
@@ -4003,7 +4003,7 @@
   },
   {
     "idBo": "piedra_tarija_cortada_y_pulida_m2",
-    "pt": "Pedra Tarija cortada e polida",
+    "pt": "Pedra São Tomé cortada e polida",
     "confianza": "BAJA",
     "nota": "Pedra natural boliviana da região de Tarija; sem equivalente comercial no Brasil, nome mantido."
   },
