@@ -82,6 +82,14 @@
       "url": "https://www.youtube.com/watch?v=O4BuGJFZTMk",
       "duracion": "1:46",
       "tema": "Revit"
+    },
+    {
+      "titulo": "Rendimientos ITEM e INSUMOS",
+      "descripcion": "Aprende a crear nuevos ítems de presupuesto en ArqOn utilizando asistentes de hormigón, acero y mano de obra, calculando rendimientos a partir de datos reales de obra. También veremos cómo agregar los ítems al módulo y configurar sus mediciones y cómputos métricos.\n",
+      "url": "https://www.youtube.com/watch?v=lNCQXQ4CqV0",
+      "duracion": "2:34",
+      "premium": true,
+      "tema": "Ítems y biblioteca"
     }
   ]
 }
