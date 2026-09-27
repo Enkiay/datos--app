@@ -1,8 +1,0 @@
-{
-  "formato": "arqon-datos-v1",
-  "actualizado": "2026-09-27T22:10:28Z",
-  "firmada": {
-    "datos": "{\"v\":1,\"generado\":1790547028,\"obligatoria\":false,\"archivos\":{\"precios/v1.0/oficiales.json\":\"44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a\"}}",
-    "firma": "OCDI5UvKe8OintTFC6EXlI3L52xtopJBTkPKt/GqHeY9u6dzetlzyD2kkMGx8UH1AdU6mbSfBpzTCqpl8ifDBg=="
-  }
-}
