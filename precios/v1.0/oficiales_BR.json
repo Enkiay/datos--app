@@ -1,5 +1,5 @@
 {
-  "version": "v20260928f-br-sinapi-202608",
+  "version": "v20260928g-br-sinapi-202608",
   "fuente": "Base boliviana (catálogo ArqOn), traducida al portugués, + precios del SINAPI (Caixa/IBGE), praça São Paulo, regime DESONERADO. La mano de obra del SINAPI es hora bruta CON encargos complementares pero SEM encargos sociais: los 85 % de la caja brasileña (cargasSocialesDefecto) SÍ se aplican encima. El recargo brasileño es el BDI, uno solo y multiplicativo (Acórdão 2622/2013 del TCU), y los tributos van adentro: por eso la cadena no lleva IVA y los insumos van como se compran.",
   "pais": "BR",
   "generado": "tools/derivar-desde-bolivia.mjs",
@@ -1909,7 +1909,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_m3",
-          "nombre": "Concreto Usinado H-21",
+          "nombre": "Concreto Usinado C15 Convencional (Não Bombeável)",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -1919,8 +1919,8 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
-          "nombre": "Concreto Usinado H-21 Bombeado",
-          "categoria": "Plomería",
+          "nombre": "Concreto Usinado C20 Bombeado",
+          "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_PL044",
@@ -1929,7 +1929,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -13184,7 +13184,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_m3",
-          "nombre": "Concreto Usinado H-21",
+          "nombre": "Concreto Usinado C15 Convencional (Não Bombeável)",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -13194,8 +13194,8 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
-          "nombre": "Concreto Usinado H-21 Bombeado",
-          "categoria": "Plomería",
+          "nombre": "Concreto Usinado C20 Bombeado",
+          "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_PL044",
@@ -13204,7 +13204,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -24459,7 +24459,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_m3",
-          "nombre": "Concreto Usinado H-21",
+          "nombre": "Concreto Usinado C15 Convencional (Não Bombeável)",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -24469,8 +24469,8 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
-          "nombre": "Concreto Usinado H-21 Bombeado",
-          "categoria": "Plomería",
+          "nombre": "Concreto Usinado C20 Bombeado",
+          "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_PL044",
@@ -24479,7 +24479,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -35734,7 +35734,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_m3",
-          "nombre": "Concreto Usinado H-21",
+          "nombre": "Concreto Usinado C15 Convencional (Não Bombeável)",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -35744,8 +35744,8 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
-          "nombre": "Concreto Usinado H-21 Bombeado",
-          "categoria": "Plomería",
+          "nombre": "Concreto Usinado C20 Bombeado",
+          "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_PL044",
@@ -35754,7 +35754,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -47009,7 +47009,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_m3",
-          "nombre": "Concreto Usinado H-21",
+          "nombre": "Concreto Usinado C15 Convencional (Não Bombeável)",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -47019,8 +47019,8 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
-          "nombre": "Concreto Usinado H-21 Bombeado",
-          "categoria": "Plomería",
+          "nombre": "Concreto Usinado C20 Bombeado",
+          "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_PL044",
@@ -47029,7 +47029,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -58284,7 +58284,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_m3",
-          "nombre": "Concreto Usinado H-21",
+          "nombre": "Concreto Usinado C15 Convencional (Não Bombeável)",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -58294,8 +58294,8 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
-          "nombre": "Concreto Usinado H-21 Bombeado",
-          "categoria": "Plomería",
+          "nombre": "Concreto Usinado C20 Bombeado",
+          "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_PL044",
@@ -58304,7 +58304,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -69559,7 +69559,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_m3",
-          "nombre": "Concreto Usinado H-21",
+          "nombre": "Concreto Usinado C15 Convencional (Não Bombeável)",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -69569,8 +69569,8 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
-          "nombre": "Concreto Usinado H-21 Bombeado",
-          "categoria": "Plomería",
+          "nombre": "Concreto Usinado C20 Bombeado",
+          "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_PL044",
@@ -69579,7 +69579,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -80834,7 +80834,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_m3",
-          "nombre": "Concreto Usinado H-21",
+          "nombre": "Concreto Usinado C15 Convencional (Não Bombeável)",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -80844,8 +80844,8 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
-          "nombre": "Concreto Usinado H-21 Bombeado",
-          "categoria": "Plomería",
+          "nombre": "Concreto Usinado C20 Bombeado",
+          "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_PL044",
@@ -80854,7 +80854,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -92109,7 +92109,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_m3",
-          "nombre": "Concreto Usinado H-21",
+          "nombre": "Concreto Usinado C15 Convencional (Não Bombeável)",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -92119,8 +92119,8 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
-          "nombre": "Concreto Usinado H-21 Bombeado",
-          "categoria": "Plomería",
+          "nombre": "Concreto Usinado C20 Bombeado",
+          "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_PL044",
@@ -92129,7 +92129,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -103384,7 +103384,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_m3",
-          "nombre": "Concreto Usinado H-21",
+          "nombre": "Concreto Usinado C15 Convencional (Não Bombeável)",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
@@ -103394,8 +103394,8 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
-          "nombre": "Concreto Usinado H-21 Bombeado",
-          "categoria": "Plomería",
+          "nombre": "Concreto Usinado C20 Bombeado",
+          "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_PL044",
@@ -103404,7 +103404,7 @@
         },
         {
           "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "categoria": "Cemento y Cal",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",

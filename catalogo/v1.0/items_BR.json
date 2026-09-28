@@ -1,5 +1,5 @@
 {
-  "version": "v20260928g-br-sinapi-fase-c",
+  "version": "v20260928h-br-hormigones",
   "schemaVersion": 1,
   "pais": "BR",
   "generado": "tools/derivar-desde-bolivia.mjs",
@@ -7558,7 +7558,7 @@
     },
     {
       "codigo": "OG004BR",
-      "nombre": "Radier com Concreto Usinado H-21",
+      "nombre": "Radier com Concreto Usinado C20",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
       "unidadResultado": "m3",
@@ -7566,7 +7566,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Concreto Usinado Bombeável, Classe de Resistência C30, Brita 0 e 1, Slump = 100 +/- 20 mm, com Bombeamento (Disponibilizacao de Bomba)",
+          "nombre": "Concreto Usinado C20 Bombeado",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
@@ -7574,8 +7574,8 @@
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_sinapi_icd_1525",
-          "codigo": "BR_SI1525"
+          "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
+          "codigo": "BR_PL044"
         },
         {
           "nombre": "Tábua 2,5 x 23 cm em Pinus, Mista ou Equivalente da Região - Bruta",
@@ -7801,7 +7801,7 @@
       "tags": [
         "estructural"
       ],
-      "referencia": "SINAPI 97096 + 97086×0,45 + 107281×50 · 08/2026"
+      "referencia": "adaptado de SINAPI 97096 (1525→1524) + 97086×0,45 + 107281×50 · 08/2026"
     },
     {
       "codigo": "OG005BR",
@@ -8344,7 +8344,7 @@
     },
     {
       "codigo": "OG012BR",
-      "nombre": "Ábaco em Lajes com Concreto Usinado H-21",
+      "nombre": "Ábaco em Lajes com Concreto Usinado C20",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
       "unidadResultado": "m3",
@@ -8352,7 +8352,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C20 Bombeado",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
@@ -8360,8 +8360,8 @@
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "codigo": "BR_CM020"
+          "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
+          "codigo": "BR_PL044"
         },
         {
           "nombre": "Prego de Aço Polido com Cabeça 17 x 21 (2 x 11)",
@@ -8637,7 +8637,7 @@
       "tags": [
         "estructural"
       ],
-      "referencia": "adaptado de SINAPI 103675 + 92484×5 + 92771×58,77 + insumo 156 · 08/2026"
+      "referencia": "adaptado de SINAPI 103675 (1527→1524) + 92484×5 + 92771×58,77 + insumo 156 · 08/2026"
     },
     {
       "codigo": "OG013BR",
@@ -8723,7 +8723,7 @@
     },
     {
       "codigo": "OG015BR",
-      "nombre": "Pilar de Concreto Usinado H-21",
+      "nombre": "Pilar de Concreto Usinado C20",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
       "unidadResultado": "m3",
@@ -8731,7 +8731,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Concreto Usinado Bombeável, Classe de Resistência C25, com Brita 0 e 1, Slump = 190 +/- 20 mm, Exclui Serviço de Bombeamento (NBR 8953)",
+          "nombre": "Concreto Usinado Bombeável, Classe de Resistência C20, com Brita 0 e 1, Slump = 100 +/- 20 mm, Exclui Serviço de Bombeamento (NBR 8953)",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
@@ -8739,8 +8739,8 @@
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_sinapi_icd_38408",
-          "codigo": "BR_SI38408"
+          "idCanonico": "br_sinapi_icd_34492",
+          "codigo": "BR_SI34492"
         },
         {
           "nombre": "Tábua 2,5 x 30 cm em Pinus, Mista ou Equivalente da Região - Bruta",
@@ -8992,11 +8992,11 @@
       "tags": [
         "estructural"
       ],
-      "referencia": "SINAPI 103669 + 92411×16 + 92762×125 · 08/2026"
+      "referencia": "adaptado de SINAPI 103669 (38408→34492) + 92411×16 + 92762×125 · 08/2026"
     },
     {
       "codigo": "OG016BR",
-      "nombre": "Pilar de Concreto Usinado H-21 com Bomba",
+      "nombre": "Pilar de Concreto Usinado C20 com Bomba",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
       "unidadResultado": "m3",
@@ -9004,7 +9004,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C20 Bombeado",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
@@ -9012,8 +9012,8 @@
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "codigo": "BR_CM020"
+          "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
+          "codigo": "BR_PL044"
         },
         {
           "nombre": "Tábua 2,5 x 30 cm em Pinus, Mista ou Equivalente da Região - Bruta",
@@ -9265,11 +9265,11 @@
       "tags": [
         "estructural"
       ],
-      "referencia": "SINAPI 103672 + 92411×16 + 92762×125 · 08/2026"
+      "referencia": "adaptado de SINAPI 103672 (1527→1524) + 92411×16 + 92762×125 · 08/2026"
     },
     {
       "codigo": "OG017BR",
-      "nombre": "Pilar de Concreto Usinado H-25",
+      "nombre": "Pilar de Concreto Usinado C25",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
       "unidadResultado": "m3",
@@ -9550,7 +9550,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
@@ -9883,7 +9883,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
@@ -10335,18 +10335,6 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Concreto Usinado H-25",
-          "unidad": "m3",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Cemento y Cal",
-          "rendimiento": 0.061768,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "codigo": "BR_CM020"
-        },
-        {
           "nombre": "Aço CA-60, 4,2 mm, ou 5,0 mm, ou 6,0 mm, ou 7,0 mm, Vergalhão",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
@@ -10447,7 +10435,7 @@
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.199752,
+          "rendimiento": 0.342541,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -10561,6 +10549,78 @@
           "baseCalculo": "",
           "idCanonico": "br_sinapi_ccd_91692",
           "codigo": "BR_SC91692"
+        },
+        {
+          "nombre": "Betoneira (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.0438738,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_88831",
+          "codigo": "BR_SC88831"
+        },
+        {
+          "nombre": "Betoneira",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.046536,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_eq_mezcladora",
+          "codigo": "BR_MQ009"
+        },
+        {
+          "nombre": "Operador de Betoneira",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Equipo",
+          "rendimiento": 0.0904098,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_operador_de_mezcladora",
+          "codigo": "BR_EQ004"
+        },
+        {
+          "nombre": "Brita Comum",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.0366531,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_grava_comun_m3",
+          "codigo": "BR_AG011"
+        },
+        {
+          "nombre": "Cimento",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 22.4007,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_cemento_kg",
+          "codigo": "BR_CM013"
+        },
+        {
+          "nombre": "Areia Comum",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.0446521,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_arena_comun_m3",
+          "codigo": "BR_AG003"
         }
       ],
       "parametros": [
@@ -10589,11 +10649,11 @@
         "H°P°",
         "estructural"
       ],
-      "referencia": "SINAPI 106058 · 08/2026"
+      "referencia": "adaptado de SINAPI 106058 (1527→94965) · 08/2026"
     },
     {
       "codigo": "OG022BR",
-      "nombre": "Laje H=20 com Vigota, Concreto Usinado H-25",
+      "nombre": "Laje H=20 com Vigota, Concreto Usinado C25",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
       "unidadResultado": "m2",
@@ -10601,7 +10661,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C25 Bombeado",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
@@ -10860,7 +10920,7 @@
     },
     {
       "codigo": "OG023BR",
-      "nombre": "Laje H=20 com Vigota, Concreto Usinado H-21",
+      "nombre": "Laje H=20 com Vigota, Concreto Usinado C20",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
       "unidadResultado": "m2",
@@ -10868,7 +10928,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C20 Bombeado",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
@@ -10876,8 +10936,8 @@
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "codigo": "BR_CM020"
+          "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
+          "codigo": "BR_PL044"
         },
         {
           "nombre": "Aço CA-60, 4,2 mm, ou 5,0 mm, ou 6,0 mm, ou 7,0 mm, Vergalhão",
@@ -11123,11 +11183,11 @@
       "tags": [
         "estructural"
       ],
-      "referencia": "SINAPI 106058 · 08/2026"
+      "referencia": "adaptado de SINAPI 106058 (1527→1524) · 08/2026"
     },
     {
       "codigo": "OG024BR",
-      "nombre": "Laje H=20 com Vigota, Concreto Usinado H-21 com Bomba Adicional",
+      "nombre": "Laje H=20 com Vigota, Concreto Usinado C20 com Bomba Adicional",
       "tipoCalculo": "AREA",
       "inputPrincipalLabel": "Área",
       "unidadResultado": "m2",
@@ -11135,7 +11195,7 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Concreto Usinado H-25",
+          "nombre": "Concreto Usinado C20 Bombeado",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
@@ -11143,8 +11203,8 @@
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_hormigon_premezclado_h_25_m3",
-          "codigo": "BR_CM020"
+          "idCanonico": "br_hormigon_premezclado_h_21_con_bomba_m3",
+          "codigo": "BR_PL044"
         },
         {
           "nombre": "Aço CA-60, 4,2 mm, ou 5,0 mm, ou 6,0 mm, ou 7,0 mm, Vergalhão",
@@ -11390,7 +11450,7 @@
       "tags": [
         "estructural"
       ],
-      "referencia": "SINAPI 106058 · 08/2026"
+      "referencia": "adaptado de SINAPI 106058 (1527→1524) · 08/2026"
     },
     {
       "codigo": "OG025BR",

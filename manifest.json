@@ -95,11 +95,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PY.json"
     },
     "catalogo_BR": {
-      "version": "v20260928g-br-sinapi-fase-c",
+      "version": "v20260928h-br-hormigones",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_BR.json"
     },
     "precios_BR": {
-      "version": "v20260928f-br-sinapi-202608",
+      "version": "v20260928g-br-sinapi-202608",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_BR.json"
     },
     "catalogo_MX": {
