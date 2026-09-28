@@ -1,5 +1,5 @@
 {
-  "version": "v20260928b-br-sinapi-202608",
+  "version": "v20260928c-br-sinapi-202608",
   "fuente": "Base boliviana (catálogo ArqOn), traducida al portugués, + precios del SINAPI (Caixa/IBGE), praça São Paulo, regime DESONERADO. La mano de obra del SINAPI es hora bruta CON encargos complementares pero SEM encargos sociais: los 85 % de la caja brasileña (cargasSocialesDefecto) SÍ se aplican encima. El recargo brasileño es el BDI, uno solo y multiplicativo (Acórdão 2622/2013 del TCU), y los tributos van adentro: por eso la cadena no lleva IVA y los insumos van como se compran.",
   "pais": "BR",
   "generado": "tools/derivar-desde-bolivia.mjs",
@@ -4074,8 +4074,8 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_AG027",
-          "precio": 235.71,
-          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 7253 (M3) - TERRA VEGETAL (GRANEL)."
+          "precio": 57.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 6081 (M3) - ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATE 10 KM)."
         },
         {
           "idCanonico": "br_timbre_pulsador_con_campanilla_pza",
@@ -8736,6 +8736,216 @@
           "codigo": "BR_SI7796",
           "precio": 72.14,
           "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 7796 (M) - TUBO DE CONCRETO SIMPLES PARA AGUAS PLUVIAIS, CLASSE PS1, COM ENCAIXE PONTA E BOLSA, DIAME."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5849",
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5849",
+          "precio": 99.95,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 5849 (CHI) - TRATOR DE ESTEIRAS, POTÊNCIA 170 HP, PESO OPERACIONAL 19 T, CAÇAMBA 5,2 M3 - CHI DIURNO. A."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5928",
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5928",
+          "precio": 303.67,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 5928 (CHP) - GUINDAUTO HIDRÁULICO, CAPACIDADE MÁXIMA DE CARGA 6200 KG, MOMENTO MÁXIMO DE CARGA 11,7 TM,."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_10527",
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "categoria": "Herramientas",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SI10527",
+          "precio": 28.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 10527 (MXMES) - LOCACAO DE ANDAIME METALICO TUBULAR DE ENCAIXE, TIPO DE TORRE, CADA PAINEL COM LARGURA DE ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_183",
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "categoria": "Madera",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI183",
+          "precio": 240.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 183 (JG) - BATENTE / PORTAL / ADUELA / MARCO EM MADEIRA MACICA COM REBAIXO, E = *3* CM, L = *14* CM, ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_3148",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI3148",
+          "precio": 16.87,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 3148 (UN) - FITA VEDA ROSCA, EM PTFE, ROLO DE 18 MM X 50 M (L X C)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_35277",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI35277",
+          "precio": 441.28,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 35277 (UN) - CAIXA DE GORDURA EM PVC, DIAMETRO MINIMO 300 MM, DIAMETRO DE SAIDA 100 MM, CAPACIDADE APRO."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_39027",
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI39027",
+          "precio": 12.45,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 39027 (KG) - PREGO DE ACO POLIDO COM CABECA 19 X 36 (3 1/4 X 9)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_40568",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI40568",
+          "precio": 12.55,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 40568 (KG) - PREGO DE ACO POLIDO COM CABECA 22 X 48 (4 1/4 X 5)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4417",
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4417",
+          "precio": 9.08,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 4417 (M) - SARRAFO NAO APARELHADO *2,5 X 7* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM, PEROBA-ROSA OU ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4433",
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4433",
+          "precio": 32.66,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 4433 (M) - CAIBRO NAO APARELHADO *6 X 6* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA R."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4448",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4448",
+          "precio": 20.22,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 4448 (M) - VIGA *7,5 X 15 CM EM PINUS, MISTA OU EQUIVALENTE DA REGIAO - BRUTA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4710",
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
+          "categoria": "Agregados",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4710",
+          "precio": 255.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 4710 (M2) - PEDRA QUARTZITO OU CALCARIO LAMINADO, SERRADA, TIPO CARIRI, ITACOLOMI, LAGOA SANTA, LUMINA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5065",
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5065",
+          "precio": 23.7,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 5065 (KG) - PREGO DE ACO POLIDO COM CABECA 10 X 10 (7/8 X 17)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5066",
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5066",
+          "precio": 16.42,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 5066 (KG) - PREGO DE ACO POLIDO COM CABECA 12 X 12."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5075",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5075",
+          "precio": 12.46,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 5075 (KG) - PREGO DE ACO POLIDO COM CABECA 18 X 30 (2 3/4 X 10)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6178",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6178",
+          "precio": 467.16,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 6178 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6180",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6180",
+          "precio": 504.19,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 6180 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6189",
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6189",
+          "precio": 34.44,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 6189 (M) - TABUA NAO APARELHADA *2,5 X 30* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7292",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7292",
+          "precio": 42.07,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 7292 (L) - TINTA ESMALTE SINTETICO PREMIUM BRILHANTE."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7319",
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7319",
+          "precio": 11.7,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 7319 (L) - TINTA ASFALTICA IMPERMEABILIZANTE DISPERSA EM AGUA, PARA MATERIAIS CIMENTICIOS."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7614",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
+          "categoria": "Eléctrico",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7614",
+          "precio": 24537.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, SP, COM desoneração, código 7614 (UN) - TRANSFORMADOR TRIFASICO DE DISTRIBUICAO, POTENCIA DE 150 KVA, TENSAO NOMINAL DE 15 KV, TEN."
         }
       ]
     },
@@ -12689,8 +12899,8 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_AG027",
-          "precio": 167.14,
-          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 7253 (M3) - TERRA VEGETAL (GRANEL)."
+          "precio": 57.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 6081 (M3) - ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATE 10 KM). Sem preço em RJ no SINAPI 08/2026: preço de SP."
         },
         {
           "idCanonico": "br_timbre_pulsador_con_campanilla_pza",
@@ -17351,6 +17561,216 @@
           "codigo": "BR_SI7796",
           "precio": 100.0,
           "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 7796 (M) - TUBO DE CONCRETO SIMPLES PARA AGUAS PLUVIAIS, CLASSE PS1, COM ENCAIXE PONTA E BOLSA, DIAME."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5849",
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5849",
+          "precio": 102.24,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 5849 (CHI) - TRATOR DE ESTEIRAS, POTÊNCIA 170 HP, PESO OPERACIONAL 19 T, CAÇAMBA 5,2 M3 - CHI DIURNO. A."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5928",
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5928",
+          "precio": 324.28,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 5928 (CHP) - GUINDAUTO HIDRÁULICO, CAPACIDADE MÁXIMA DE CARGA 6200 KG, MOMENTO MÁXIMO DE CARGA 11,7 TM,."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_10527",
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "categoria": "Herramientas",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SI10527",
+          "precio": 36.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 10527 (MXMES) - LOCACAO DE ANDAIME METALICO TUBULAR DE ENCAIXE, TIPO DE TORRE, CADA PAINEL COM LARGURA DE ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_183",
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "categoria": "Madera",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI183",
+          "precio": 231.93,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 183 (JG) - BATENTE / PORTAL / ADUELA / MARCO EM MADEIRA MACICA COM REBAIXO, E = *3* CM, L = *14* CM, ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_3148",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI3148",
+          "precio": 17.02,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 3148 (UN) - FITA VEDA ROSCA, EM PTFE, ROLO DE 18 MM X 50 M (L X C)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_35277",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI35277",
+          "precio": 513.29,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 35277 (UN) - CAIXA DE GORDURA EM PVC, DIAMETRO MINIMO 300 MM, DIAMETRO DE SAIDA 100 MM, CAPACIDADE APRO."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_39027",
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI39027",
+          "precio": 19.05,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 39027 (KG) - PREGO DE ACO POLIDO COM CABECA 19 X 36 (3 1/4 X 9)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_40568",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI40568",
+          "precio": 19.21,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 40568 (KG) - PREGO DE ACO POLIDO COM CABECA 22 X 48 (4 1/4 X 5)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4417",
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4417",
+          "precio": 8.13,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 4417 (M) - SARRAFO NAO APARELHADO *2,5 X 7* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM, PEROBA-ROSA OU ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4433",
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4433",
+          "precio": 29.23,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 4433 (M) - CAIBRO NAO APARELHADO *6 X 6* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA R."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4448",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4448",
+          "precio": 20.23,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 4448 (M) - VIGA *7,5 X 15 CM EM PINUS, MISTA OU EQUIVALENTE DA REGIAO - BRUTA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4710",
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
+          "categoria": "Agregados",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4710",
+          "precio": 255.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 4710 (M2) - PEDRA QUARTZITO OU CALCARIO LAMINADO, SERRADA, TIPO CARIRI, ITACOLOMI, LAGOA SANTA, LUMINA. Sem preço em RJ no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5065",
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5065",
+          "precio": 36.28,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 5065 (KG) - PREGO DE ACO POLIDO COM CABECA 10 X 10 (7/8 X 17)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5066",
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5066",
+          "precio": 25.13,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 5066 (KG) - PREGO DE ACO POLIDO COM CABECA 12 X 12."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5075",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5075",
+          "precio": 19.07,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 5075 (KG) - PREGO DE ACO POLIDO COM CABECA 18 X 30 (2 3/4 X 10)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6178",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6178",
+          "precio": 292.7,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 6178 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6180",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6180",
+          "precio": 315.9,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 6180 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6189",
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6189",
+          "precio": 30.83,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 6189 (M) - TABUA NAO APARELHADA *2,5 X 30* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7292",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7292",
+          "precio": 47.15,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 7292 (L) - TINTA ESMALTE SINTETICO PREMIUM BRILHANTE."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7319",
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7319",
+          "precio": 11.7,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 7319 (L) - TINTA ASFALTICA IMPERMEABILIZANTE DISPERSA EM AGUA, PARA MATERIAIS CIMENTICIOS. Sem preço em RJ no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7614",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
+          "categoria": "Eléctrico",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7614",
+          "precio": 24537.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RJ, COM desoneração, código 7614 (UN) - TRANSFORMADOR TRIFASICO DE DISTRIBUICAO, POTENCIA DE 150 KVA, TENSAO NOMINAL DE 15 KV, TEN. Sem preço em RJ no SINAPI 08/2026: preço de SP."
         }
       ]
     },
@@ -21304,8 +21724,8 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_AG027",
-          "precio": 188.57,
-          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 7253 (M3) - TERRA VEGETAL (GRANEL)."
+          "precio": 57.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 6081 (M3) - ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATE 10 KM). Sem preço em MG no SINAPI 08/2026: preço de SP."
         },
         {
           "idCanonico": "br_timbre_pulsador_con_campanilla_pza",
@@ -25966,6 +26386,216 @@
           "codigo": "BR_SI7796",
           "precio": 100.0,
           "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 7796 (M) - TUBO DE CONCRETO SIMPLES PARA AGUAS PLUVIAIS, CLASSE PS1, COM ENCAIXE PONTA E BOLSA, DIAME."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5849",
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5849",
+          "precio": 100.14,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 5849 (CHI) - TRATOR DE ESTEIRAS, POTÊNCIA 170 HP, PESO OPERACIONAL 19 T, CAÇAMBA 5,2 M3 - CHI DIURNO. A."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5928",
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5928",
+          "precio": 292.21,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 5928 (CHP) - GUINDAUTO HIDRÁULICO, CAPACIDADE MÁXIMA DE CARGA 6200 KG, MOMENTO MÁXIMO DE CARGA 11,7 TM,."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_10527",
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "categoria": "Herramientas",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SI10527",
+          "precio": 24.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 10527 (MXMES) - LOCACAO DE ANDAIME METALICO TUBULAR DE ENCAIXE, TIPO DE TORRE, CADA PAINEL COM LARGURA DE ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_183",
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "categoria": "Madera",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI183",
+          "precio": 219.5,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 183 (JG) - BATENTE / PORTAL / ADUELA / MARCO EM MADEIRA MACICA COM REBAIXO, E = *3* CM, L = *14* CM, ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_3148",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI3148",
+          "precio": 16.56,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 3148 (UN) - FITA VEDA ROSCA, EM PTFE, ROLO DE 18 MM X 50 M (L X C)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_35277",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI35277",
+          "precio": 421.27,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 35277 (UN) - CAIXA DE GORDURA EM PVC, DIAMETRO MINIMO 300 MM, DIAMETRO DE SAIDA 100 MM, CAPACIDADE APRO."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_39027",
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI39027",
+          "precio": 19.26,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 39027 (KG) - PREGO DE ACO POLIDO COM CABECA 19 X 36 (3 1/4 X 9)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_40568",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI40568",
+          "precio": 19.42,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 40568 (KG) - PREGO DE ACO POLIDO COM CABECA 22 X 48 (4 1/4 X 5)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4417",
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4417",
+          "precio": 11.43,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 4417 (M) - SARRAFO NAO APARELHADO *2,5 X 7* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM, PEROBA-ROSA OU ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4433",
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4433",
+          "precio": 41.06,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 4433 (M) - CAIBRO NAO APARELHADO *6 X 6* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA R."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4448",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4448",
+          "precio": 20.18,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 4448 (M) - VIGA *7,5 X 15 CM EM PINUS, MISTA OU EQUIVALENTE DA REGIAO - BRUTA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4710",
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
+          "categoria": "Agregados",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4710",
+          "precio": 255.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 4710 (M2) - PEDRA QUARTZITO OU CALCARIO LAMINADO, SERRADA, TIPO CARIRI, ITACOLOMI, LAGOA SANTA, LUMINA. Sem preço em MG no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5065",
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5065",
+          "precio": 36.67,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 5065 (KG) - PREGO DE ACO POLIDO COM CABECA 10 X 10 (7/8 X 17)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5066",
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5066",
+          "precio": 25.4,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 5066 (KG) - PREGO DE ACO POLIDO COM CABECA 12 X 12."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5075",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5075",
+          "precio": 19.28,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 5075 (KG) - PREGO DE ACO POLIDO COM CABECA 18 X 30 (2 3/4 X 10)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6178",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6178",
+          "precio": 467.16,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 6178 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F. Sem preço em MG no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6180",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6180",
+          "precio": 504.19,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 6180 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F. Sem preço em MG no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6189",
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6189",
+          "precio": 43.31,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 6189 (M) - TABUA NAO APARELHADA *2,5 X 30* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7292",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7292",
+          "precio": 52.2,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 7292 (L) - TINTA ESMALTE SINTETICO PREMIUM BRILHANTE."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7319",
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7319",
+          "precio": 11.43,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 7319 (L) - TINTA ASFALTICA IMPERMEABILIZANTE DISPERSA EM AGUA, PARA MATERIAIS CIMENTICIOS."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7614",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
+          "categoria": "Eléctrico",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7614",
+          "precio": 24537.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, MG, COM desoneração, código 7614 (UN) - TRANSFORMADOR TRIFASICO DE DISTRIBUICAO, POTENCIA DE 150 KVA, TENSAO NOMINAL DE 15 KV, TEN. Sem preço em MG no SINAPI 08/2026: preço de SP."
         }
       ]
     },
@@ -29919,8 +30549,8 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_AG027",
-          "precio": 192.85,
-          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 7253 (M3) - TERRA VEGETAL (GRANEL)."
+          "precio": 57.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 6081 (M3) - ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATE 10 KM). Sem preço em DF no SINAPI 08/2026: preço de SP."
         },
         {
           "idCanonico": "br_timbre_pulsador_con_campanilla_pza",
@@ -34581,6 +35211,216 @@
           "codigo": "BR_SI7796",
           "precio": 63.32,
           "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 7796 (M) - TUBO DE CONCRETO SIMPLES PARA AGUAS PLUVIAIS, CLASSE PS1, COM ENCAIXE PONTA E BOLSA, DIAME."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5849",
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5849",
+          "precio": 89.07,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 5849 (CHI) - TRATOR DE ESTEIRAS, POTÊNCIA 170 HP, PESO OPERACIONAL 19 T, CAÇAMBA 5,2 M3 - CHI DIURNO. A."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5928",
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5928",
+          "precio": 307.27,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 5928 (CHP) - GUINDAUTO HIDRÁULICO, CAPACIDADE MÁXIMA DE CARGA 6200 KG, MOMENTO MÁXIMO DE CARGA 11,7 TM,."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_10527",
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "categoria": "Herramientas",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SI10527",
+          "precio": 30.13,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 10527 (MXMES) - LOCACAO DE ANDAIME METALICO TUBULAR DE ENCAIXE, TIPO DE TORRE, CADA PAINEL COM LARGURA DE ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_183",
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "categoria": "Madera",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI183",
+          "precio": 300.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 183 (JG) - BATENTE / PORTAL / ADUELA / MARCO EM MADEIRA MACICA COM REBAIXO, E = *3* CM, L = *14* CM, ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_3148",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI3148",
+          "precio": 16.07,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 3148 (UN) - FITA VEDA ROSCA, EM PTFE, ROLO DE 18 MM X 50 M (L X C)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_35277",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI35277",
+          "precio": 539.88,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 35277 (UN) - CAIXA DE GORDURA EM PVC, DIAMETRO MINIMO 300 MM, DIAMETRO DE SAIDA 100 MM, CAPACIDADE APRO."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_39027",
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI39027",
+          "precio": 16.69,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 39027 (KG) - PREGO DE ACO POLIDO COM CABECA 19 X 36 (3 1/4 X 9)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_40568",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI40568",
+          "precio": 16.83,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 40568 (KG) - PREGO DE ACO POLIDO COM CABECA 22 X 48 (4 1/4 X 5)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4417",
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4417",
+          "precio": 7.43,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 4417 (M) - SARRAFO NAO APARELHADO *2,5 X 7* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM, PEROBA-ROSA OU ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4433",
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4433",
+          "precio": 26.71,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 4433 (M) - CAIBRO NAO APARELHADO *6 X 6* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA R."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4448",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4448",
+          "precio": 19.96,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 4448 (M) - VIGA *7,5 X 15 CM EM PINUS, MISTA OU EQUIVALENTE DA REGIAO - BRUTA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4710",
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
+          "categoria": "Agregados",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4710",
+          "precio": 255.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 4710 (M2) - PEDRA QUARTZITO OU CALCARIO LAMINADO, SERRADA, TIPO CARIRI, ITACOLOMI, LAGOA SANTA, LUMINA. Sem preço em DF no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5065",
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5065",
+          "precio": 31.77,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 5065 (KG) - PREGO DE ACO POLIDO COM CABECA 10 X 10 (7/8 X 17)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5066",
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5066",
+          "precio": 22.01,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 5066 (KG) - PREGO DE ACO POLIDO COM CABECA 12 X 12."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5075",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5075",
+          "precio": 16.7,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 5075 (KG) - PREGO DE ACO POLIDO COM CABECA 18 X 30 (2 3/4 X 10)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6178",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6178",
+          "precio": 467.16,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 6178 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F. Sem preço em DF no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6180",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6180",
+          "precio": 504.19,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 6180 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F. Sem preço em DF no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6189",
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6189",
+          "precio": 28.17,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 6189 (M) - TABUA NAO APARELHADA *2,5 X 30* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7292",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7292",
+          "precio": 47.2,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 7292 (L) - TINTA ESMALTE SINTETICO PREMIUM BRILHANTE."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7319",
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7319",
+          "precio": 10.25,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 7319 (L) - TINTA ASFALTICA IMPERMEABILIZANTE DISPERSA EM AGUA, PARA MATERIAIS CIMENTICIOS."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7614",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
+          "categoria": "Eléctrico",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7614",
+          "precio": 24537.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, DF, COM desoneração, código 7614 (UN) - TRANSFORMADOR TRIFASICO DE DISTRIBUICAO, POTENCIA DE 150 KVA, TENSAO NOMINAL DE 15 KV, TEN. Sem preço em DF no SINAPI 08/2026: preço de SP."
         }
       ]
     },
@@ -38534,8 +39374,8 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_AG027",
-          "precio": 285.0,
-          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 7253 (M3) - TERRA VEGETAL (GRANEL)."
+          "precio": 57.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 6081 (M3) - ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATE 10 KM). Sem preço em PR no SINAPI 08/2026: preço de SP."
         },
         {
           "idCanonico": "br_timbre_pulsador_con_campanilla_pza",
@@ -43196,6 +44036,216 @@
           "codigo": "BR_SI7796",
           "precio": 37.0,
           "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 7796 (M) - TUBO DE CONCRETO SIMPLES PARA AGUAS PLUVIAIS, CLASSE PS1, COM ENCAIXE PONTA E BOLSA, DIAME."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5849",
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5849",
+          "precio": 96.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 5849 (CHI) - TRATOR DE ESTEIRAS, POTÊNCIA 170 HP, PESO OPERACIONAL 19 T, CAÇAMBA 5,2 M3 - CHI DIURNO. A."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5928",
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5928",
+          "precio": 297.22,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 5928 (CHP) - GUINDAUTO HIDRÁULICO, CAPACIDADE MÁXIMA DE CARGA 6200 KG, MOMENTO MÁXIMO DE CARGA 11,7 TM,."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_10527",
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "categoria": "Herramientas",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SI10527",
+          "precio": 30.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 10527 (MXMES) - LOCACAO DE ANDAIME METALICO TUBULAR DE ENCAIXE, TIPO DE TORRE, CADA PAINEL COM LARGURA DE ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_183",
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "categoria": "Madera",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI183",
+          "precio": 274.95,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 183 (JG) - BATENTE / PORTAL / ADUELA / MARCO EM MADEIRA MACICA COM REBAIXO, E = *3* CM, L = *14* CM, ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_3148",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI3148",
+          "precio": 18.17,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 3148 (UN) - FITA VEDA ROSCA, EM PTFE, ROLO DE 18 MM X 50 M (L X C)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_35277",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI35277",
+          "precio": 387.92,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 35277 (UN) - CAIXA DE GORDURA EM PVC, DIAMETRO MINIMO 300 MM, DIAMETRO DE SAIDA 100 MM, CAPACIDADE APRO."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_39027",
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI39027",
+          "precio": 16.66,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 39027 (KG) - PREGO DE ACO POLIDO COM CABECA 19 X 36 (3 1/4 X 9)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_40568",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI40568",
+          "precio": 16.81,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 40568 (KG) - PREGO DE ACO POLIDO COM CABECA 22 X 48 (4 1/4 X 5)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4417",
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4417",
+          "precio": 10.13,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 4417 (M) - SARRAFO NAO APARELHADO *2,5 X 7* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM, PEROBA-ROSA OU ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4433",
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4433",
+          "precio": 36.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 4433 (M) - CAIBRO NAO APARELHADO *6 X 6* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA R."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4448",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4448",
+          "precio": 18.83,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 4448 (M) - VIGA *7,5 X 15 CM EM PINUS, MISTA OU EQUIVALENTE DA REGIAO - BRUTA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4710",
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
+          "categoria": "Agregados",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4710",
+          "precio": 255.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 4710 (M2) - PEDRA QUARTZITO OU CALCARIO LAMINADO, SERRADA, TIPO CARIRI, ITACOLOMI, LAGOA SANTA, LUMINA. Sem preço em PR no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5065",
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5065",
+          "precio": 31.73,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 5065 (KG) - PREGO DE ACO POLIDO COM CABECA 10 X 10 (7/8 X 17)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5066",
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5066",
+          "precio": 21.98,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 5066 (KG) - PREGO DE ACO POLIDO COM CABECA 12 X 12."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5075",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5075",
+          "precio": 16.68,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 5075 (KG) - PREGO DE ACO POLIDO COM CABECA 18 X 30 (2 3/4 X 10)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6178",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6178",
+          "precio": 250.17,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 6178 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6180",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6180",
+          "precio": 270.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 6180 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6189",
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6189",
+          "precio": 38.4,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 6189 (M) - TABUA NAO APARELHADA *2,5 X 30* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7292",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7292",
+          "precio": 46.67,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 7292 (L) - TINTA ESMALTE SINTETICO PREMIUM BRILHANTE."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7319",
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7319",
+          "precio": 13.78,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 7319 (L) - TINTA ASFALTICA IMPERMEABILIZANTE DISPERSA EM AGUA, PARA MATERIAIS CIMENTICIOS."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7614",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
+          "categoria": "Eléctrico",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7614",
+          "precio": 24537.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PR, COM desoneração, código 7614 (UN) - TRANSFORMADOR TRIFASICO DE DISTRIBUICAO, POTENCIA DE 150 KVA, TENSAO NOMINAL DE 15 KV, TEN. Sem preço em PR no SINAPI 08/2026: preço de SP."
         }
       ]
     },
@@ -47149,8 +48199,8 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_AG027",
-          "precio": 201.42,
-          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 7253 (M3) - TERRA VEGETAL (GRANEL)."
+          "precio": 57.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 6081 (M3) - ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATE 10 KM). Sem preço em RS no SINAPI 08/2026: preço de SP."
         },
         {
           "idCanonico": "br_timbre_pulsador_con_campanilla_pza",
@@ -51811,6 +52861,216 @@
           "codigo": "BR_SI7796",
           "precio": 66.0,
           "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 7796 (M) - TUBO DE CONCRETO SIMPLES PARA AGUAS PLUVIAIS, CLASSE PS1, COM ENCAIXE PONTA E BOLSA, DIAME."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5849",
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5849",
+          "precio": 93.53,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 5849 (CHI) - TRATOR DE ESTEIRAS, POTÊNCIA 170 HP, PESO OPERACIONAL 19 T, CAÇAMBA 5,2 M3 - CHI DIURNO. A."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5928",
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5928",
+          "precio": 296.95,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 5928 (CHP) - GUINDAUTO HIDRÁULICO, CAPACIDADE MÁXIMA DE CARGA 6200 KG, MOMENTO MÁXIMO DE CARGA 11,7 TM,."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_10527",
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "categoria": "Herramientas",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SI10527",
+          "precio": 30.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 10527 (MXMES) - LOCACAO DE ANDAIME METALICO TUBULAR DE ENCAIXE, TIPO DE TORRE, CADA PAINEL COM LARGURA DE ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_183",
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "categoria": "Madera",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI183",
+          "precio": 299.45,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 183 (JG) - BATENTE / PORTAL / ADUELA / MARCO EM MADEIRA MACICA COM REBAIXO, E = *3* CM, L = *14* CM, ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_3148",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI3148",
+          "precio": 16.56,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 3148 (UN) - FITA VEDA ROSCA, EM PTFE, ROLO DE 18 MM X 50 M (L X C)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_35277",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI35277",
+          "precio": 552.63,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 35277 (UN) - CAIXA DE GORDURA EM PVC, DIAMETRO MINIMO 300 MM, DIAMETRO DE SAIDA 100 MM, CAPACIDADE APRO."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_39027",
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI39027",
+          "precio": 14.68,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 39027 (KG) - PREGO DE ACO POLIDO COM CABECA 19 X 36 (3 1/4 X 9)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_40568",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI40568",
+          "precio": 14.81,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 40568 (KG) - PREGO DE ACO POLIDO COM CABECA 22 X 48 (4 1/4 X 5)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4417",
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4417",
+          "precio": 7.43,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 4417 (M) - SARRAFO NAO APARELHADO *2,5 X 7* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM, PEROBA-ROSA OU ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4433",
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4433",
+          "precio": 26.71,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 4433 (M) - CAIBRO NAO APARELHADO *6 X 6* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA R."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4448",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4448",
+          "precio": 19.05,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 4448 (M) - VIGA *7,5 X 15 CM EM PINUS, MISTA OU EQUIVALENTE DA REGIAO - BRUTA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4710",
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
+          "categoria": "Agregados",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4710",
+          "precio": 255.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 4710 (M2) - PEDRA QUARTZITO OU CALCARIO LAMINADO, SERRADA, TIPO CARIRI, ITACOLOMI, LAGOA SANTA, LUMINA. Sem preço em RS no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5065",
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5065",
+          "precio": 27.96,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 5065 (KG) - PREGO DE ACO POLIDO COM CABECA 10 X 10 (7/8 X 17)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5066",
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5066",
+          "precio": 19.37,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 5066 (KG) - PREGO DE ACO POLIDO COM CABECA 12 X 12."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5075",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5075",
+          "precio": 14.7,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 5075 (KG) - PREGO DE ACO POLIDO COM CABECA 18 X 30 (2 3/4 X 10)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6178",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6178",
+          "precio": 352.09,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 6178 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6180",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6180",
+          "precio": 380.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 6180 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6189",
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6189",
+          "precio": 28.17,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 6189 (M) - TABUA NAO APARELHADA *2,5 X 30* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7292",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7292",
+          "precio": 41.67,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 7292 (L) - TINTA ESMALTE SINTETICO PREMIUM BRILHANTE."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7319",
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7319",
+          "precio": 13.09,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 7319 (L) - TINTA ASFALTICA IMPERMEABILIZANTE DISPERSA EM AGUA, PARA MATERIAIS CIMENTICIOS."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7614",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
+          "categoria": "Eléctrico",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7614",
+          "precio": 24537.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, RS, COM desoneração, código 7614 (UN) - TRANSFORMADOR TRIFASICO DE DISTRIBUICAO, POTENCIA DE 150 KVA, TENSAO NOMINAL DE 15 KV, TEN. Sem preço em RS no SINAPI 08/2026: preço de SP."
         }
       ]
     },
@@ -55764,8 +57024,8 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_AG027",
-          "precio": 167.14,
-          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 7253 (M3) - TERRA VEGETAL (GRANEL)."
+          "precio": 57.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 6081 (M3) - ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATE 10 KM). Sem preço em BA no SINAPI 08/2026: preço de SP."
         },
         {
           "idCanonico": "br_timbre_pulsador_con_campanilla_pza",
@@ -60426,6 +61686,216 @@
           "codigo": "BR_SI7796",
           "precio": 68.0,
           "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 7796 (M) - TUBO DE CONCRETO SIMPLES PARA AGUAS PLUVIAIS, CLASSE PS1, COM ENCAIXE PONTA E BOLSA, DIAME."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5849",
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5849",
+          "precio": 103.81,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 5849 (CHI) - TRATOR DE ESTEIRAS, POTÊNCIA 170 HP, PESO OPERACIONAL 19 T, CAÇAMBA 5,2 M3 - CHI DIURNO. A."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5928",
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5928",
+          "precio": 309.51,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 5928 (CHP) - GUINDAUTO HIDRÁULICO, CAPACIDADE MÁXIMA DE CARGA 6200 KG, MOMENTO MÁXIMO DE CARGA 11,7 TM,."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_10527",
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "categoria": "Herramientas",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SI10527",
+          "precio": 24.5,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 10527 (MXMES) - LOCACAO DE ANDAIME METALICO TUBULAR DE ENCAIXE, TIPO DE TORRE, CADA PAINEL COM LARGURA DE ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_183",
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "categoria": "Madera",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI183",
+          "precio": 239.9,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 183 (JG) - BATENTE / PORTAL / ADUELA / MARCO EM MADEIRA MACICA COM REBAIXO, E = *3* CM, L = *14* CM, ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_3148",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI3148",
+          "precio": 15.68,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 3148 (UN) - FITA VEDA ROSCA, EM PTFE, ROLO DE 18 MM X 50 M (L X C)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_35277",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI35277",
+          "precio": 368.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 35277 (UN) - CAIXA DE GORDURA EM PVC, DIAMETRO MINIMO 300 MM, DIAMETRO DE SAIDA 100 MM, CAPACIDADE APRO."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_39027",
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI39027",
+          "precio": 17.34,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 39027 (KG) - PREGO DE ACO POLIDO COM CABECA 19 X 36 (3 1/4 X 9)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_40568",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI40568",
+          "precio": 17.48,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 40568 (KG) - PREGO DE ACO POLIDO COM CABECA 22 X 48 (4 1/4 X 5)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4417",
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4417",
+          "precio": 8.25,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 4417 (M) - SARRAFO NAO APARELHADO *2,5 X 7* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM, PEROBA-ROSA OU ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4433",
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4433",
+          "precio": 29.66,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 4433 (M) - CAIBRO NAO APARELHADO *6 X 6* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA R."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4448",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4448",
+          "precio": 26.35,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 4448 (M) - VIGA *7,5 X 15 CM EM PINUS, MISTA OU EQUIVALENTE DA REGIAO - BRUTA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4710",
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
+          "categoria": "Agregados",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4710",
+          "precio": 255.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 4710 (M2) - PEDRA QUARTZITO OU CALCARIO LAMINADO, SERRADA, TIPO CARIRI, ITACOLOMI, LAGOA SANTA, LUMINA. Sem preço em BA no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5065",
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5065",
+          "precio": 33.01,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 5065 (KG) - PREGO DE ACO POLIDO COM CABECA 10 X 10 (7/8 X 17)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5066",
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5066",
+          "precio": 22.86,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 5066 (KG) - PREGO DE ACO POLIDO COM CABECA 12 X 12."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5075",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5075",
+          "precio": 17.35,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 5075 (KG) - PREGO DE ACO POLIDO COM CABECA 18 X 30 (2 3/4 X 10)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6178",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6178",
+          "precio": 262.22,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 6178 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6180",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6180",
+          "precio": 283.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 6180 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6189",
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6189",
+          "precio": 31.29,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 6189 (M) - TABUA NAO APARELHADA *2,5 X 30* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7292",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7292",
+          "precio": 45.81,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 7292 (L) - TINTA ESMALTE SINTETICO PREMIUM BRILHANTE."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7319",
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7319",
+          "precio": 13.52,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 7319 (L) - TINTA ASFALTICA IMPERMEABILIZANTE DISPERSA EM AGUA, PARA MATERIAIS CIMENTICIOS."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7614",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
+          "categoria": "Eléctrico",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7614",
+          "precio": 24155.52,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, BA, COM desoneração, código 7614 (UN) - TRANSFORMADOR TRIFASICO DE DISTRIBUICAO, POTENCIA DE 150 KVA, TENSAO NOMINAL DE 15 KV, TEN."
         }
       ]
     },
@@ -64379,8 +65849,8 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_AG027",
-          "precio": 167.14,
-          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 7253 (M3) - TERRA VEGETAL (GRANEL)."
+          "precio": 57.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 6081 (M3) - ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATE 10 KM). Sem preço em PE no SINAPI 08/2026: preço de SP."
         },
         {
           "idCanonico": "br_timbre_pulsador_con_campanilla_pza",
@@ -69041,6 +70511,216 @@
           "codigo": "BR_SI7796",
           "precio": 72.14,
           "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 7796 (M) - TUBO DE CONCRETO SIMPLES PARA AGUAS PLUVIAIS, CLASSE PS1, COM ENCAIXE PONTA E BOLSA, DIAME."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5849",
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5849",
+          "precio": 87.45,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 5849 (CHI) - TRATOR DE ESTEIRAS, POTÊNCIA 170 HP, PESO OPERACIONAL 19 T, CAÇAMBA 5,2 M3 - CHI DIURNO. A."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5928",
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5928",
+          "precio": 316.42,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 5928 (CHP) - GUINDAUTO HIDRÁULICO, CAPACIDADE MÁXIMA DE CARGA 6200 KG, MOMENTO MÁXIMO DE CARGA 11,7 TM,."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_10527",
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "categoria": "Herramientas",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SI10527",
+          "precio": 28.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 10527 (MXMES) - LOCACAO DE ANDAIME METALICO TUBULAR DE ENCAIXE, TIPO DE TORRE, CADA PAINEL COM LARGURA DE ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_183",
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "categoria": "Madera",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI183",
+          "precio": 175.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 183 (JG) - BATENTE / PORTAL / ADUELA / MARCO EM MADEIRA MACICA COM REBAIXO, E = *3* CM, L = *14* CM, ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_3148",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI3148",
+          "precio": 20.66,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 3148 (UN) - FITA VEDA ROSCA, EM PTFE, ROLO DE 18 MM X 50 M (L X C)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_35277",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI35277",
+          "precio": 405.14,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 35277 (UN) - CAIXA DE GORDURA EM PVC, DIAMETRO MINIMO 300 MM, DIAMETRO DE SAIDA 100 MM, CAPACIDADE APRO."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_39027",
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI39027",
+          "precio": 17.28,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 39027 (KG) - PREGO DE ACO POLIDO COM CABECA 19 X 36 (3 1/4 X 9)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_40568",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI40568",
+          "precio": 17.43,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 40568 (KG) - PREGO DE ACO POLIDO COM CABECA 22 X 48 (4 1/4 X 5)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4417",
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4417",
+          "precio": 8.84,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 4417 (M) - SARRAFO NAO APARELHADO *2,5 X 7* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM, PEROBA-ROSA OU ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4433",
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4433",
+          "precio": 31.77,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 4433 (M) - CAIBRO NAO APARELHADO *6 X 6* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA R."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4448",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4448",
+          "precio": 30.74,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 4448 (M) - VIGA *7,5 X 15 CM EM PINUS, MISTA OU EQUIVALENTE DA REGIAO - BRUTA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4710",
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
+          "categoria": "Agregados",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4710",
+          "precio": 255.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 4710 (M2) - PEDRA QUARTZITO OU CALCARIO LAMINADO, SERRADA, TIPO CARIRI, ITACOLOMI, LAGOA SANTA, LUMINA. Sem preço em PE no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5065",
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5065",
+          "precio": 32.91,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 5065 (KG) - PREGO DE ACO POLIDO COM CABECA 10 X 10 (7/8 X 17)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5066",
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5066",
+          "precio": 22.8,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 5066 (KG) - PREGO DE ACO POLIDO COM CABECA 12 X 12."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5075",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5075",
+          "precio": 17.3,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 5075 (KG) - PREGO DE ACO POLIDO COM CABECA 18 X 30 (2 3/4 X 10)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6178",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6178",
+          "precio": 467.16,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 6178 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F. Sem preço em PE no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6180",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6180",
+          "precio": 504.19,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 6180 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F. Sem preço em PE no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6189",
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6189",
+          "precio": 33.51,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 6189 (M) - TABUA NAO APARELHADA *2,5 X 30* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7292",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7292",
+          "precio": 48.08,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 7292 (L) - TINTA ESMALTE SINTETICO PREMIUM BRILHANTE."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7319",
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7319",
+          "precio": 15.38,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 7319 (L) - TINTA ASFALTICA IMPERMEABILIZANTE DISPERSA EM AGUA, PARA MATERIAIS CIMENTICIOS."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7614",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
+          "categoria": "Eléctrico",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7614",
+          "precio": 24537.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, PE, COM desoneração, código 7614 (UN) - TRANSFORMADOR TRIFASICO DE DISTRIBUICAO, POTENCIA DE 150 KVA, TENSAO NOMINAL DE 15 KV, TEN. Sem preço em PE no SINAPI 08/2026: preço de SP."
         }
       ]
     },
@@ -72994,8 +74674,8 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_AG027",
-          "precio": 310.71,
-          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 7253 (M3) - TERRA VEGETAL (GRANEL)."
+          "precio": 57.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 6081 (M3) - ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATE 10 KM). Sem preço em CE no SINAPI 08/2026: preço de SP."
         },
         {
           "idCanonico": "br_timbre_pulsador_con_campanilla_pza",
@@ -77656,6 +79336,216 @@
           "codigo": "BR_SI7796",
           "precio": 72.14,
           "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 7796 (M) - TUBO DE CONCRETO SIMPLES PARA AGUAS PLUVIAIS, CLASSE PS1, COM ENCAIXE PONTA E BOLSA, DIAME. Sem preço em CE no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5849",
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5849",
+          "precio": 97.24,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 5849 (CHI) - TRATOR DE ESTEIRAS, POTÊNCIA 170 HP, PESO OPERACIONAL 19 T, CAÇAMBA 5,2 M3 - CHI DIURNO. A."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5928",
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5928",
+          "precio": 319.36,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 5928 (CHP) - GUINDAUTO HIDRÁULICO, CAPACIDADE MÁXIMA DE CARGA 6200 KG, MOMENTO MÁXIMO DE CARGA 11,7 TM,."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_10527",
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "categoria": "Herramientas",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SI10527",
+          "precio": 27.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 10527 (MXMES) - LOCACAO DE ANDAIME METALICO TUBULAR DE ENCAIXE, TIPO DE TORRE, CADA PAINEL COM LARGURA DE ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_183",
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "categoria": "Madera",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI183",
+          "precio": 280.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 183 (JG) - BATENTE / PORTAL / ADUELA / MARCO EM MADEIRA MACICA COM REBAIXO, E = *3* CM, L = *14* CM, ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_3148",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI3148",
+          "precio": 18.44,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 3148 (UN) - FITA VEDA ROSCA, EM PTFE, ROLO DE 18 MM X 50 M (L X C)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_35277",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI35277",
+          "precio": 399.74,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 35277 (UN) - CAIXA DE GORDURA EM PVC, DIAMETRO MINIMO 300 MM, DIAMETRO DE SAIDA 100 MM, CAPACIDADE APRO."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_39027",
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI39027",
+          "precio": 15.4,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 39027 (KG) - PREGO DE ACO POLIDO COM CABECA 19 X 36 (3 1/4 X 9)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_40568",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI40568",
+          "precio": 15.53,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 40568 (KG) - PREGO DE ACO POLIDO COM CABECA 22 X 48 (4 1/4 X 5)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4417",
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4417",
+          "precio": 7.89,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 4417 (M) - SARRAFO NAO APARELHADO *2,5 X 7* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM, PEROBA-ROSA OU ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4433",
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4433",
+          "precio": 28.35,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 4433 (M) - CAIBRO NAO APARELHADO *6 X 6* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA R."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4448",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4448",
+          "precio": 29.27,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 4448 (M) - VIGA *7,5 X 15 CM EM PINUS, MISTA OU EQUIVALENTE DA REGIAO - BRUTA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4710",
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
+          "categoria": "Agregados",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4710",
+          "precio": 255.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 4710 (M2) - PEDRA QUARTZITO OU CALCARIO LAMINADO, SERRADA, TIPO CARIRI, ITACOLOMI, LAGOA SANTA, LUMINA. Sem preço em CE no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5065",
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5065",
+          "precio": 29.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 5065 (KG) - PREGO DE ACO POLIDO COM CABECA 10 X 10 (7/8 X 17)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5066",
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5066",
+          "precio": 20.32,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 5066 (KG) - PREGO DE ACO POLIDO COM CABECA 12 X 12."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5075",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5075",
+          "precio": 15.42,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 5075 (KG) - PREGO DE ACO POLIDO COM CABECA 18 X 30 (2 3/4 X 10)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6178",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6178",
+          "precio": 467.16,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 6178 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F. Sem preço em CE no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6180",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6180",
+          "precio": 504.19,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 6180 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F. Sem preço em CE no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6189",
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6189",
+          "precio": 29.9,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 6189 (M) - TABUA NAO APARELHADA *2,5 X 30* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7292",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7292",
+          "precio": 42.81,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 7292 (L) - TINTA ESMALTE SINTETICO PREMIUM BRILHANTE."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7319",
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7319",
+          "precio": 11.7,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 7319 (L) - TINTA ASFALTICA IMPERMEABILIZANTE DISPERSA EM AGUA, PARA MATERIAIS CIMENTICIOS. Sem preço em CE no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7614",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
+          "categoria": "Eléctrico",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7614",
+          "precio": 24537.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, CE, COM desoneração, código 7614 (UN) - TRANSFORMADOR TRIFASICO DE DISTRIBUICAO, POTENCIA DE 150 KVA, TENSAO NOMINAL DE 15 KV, TEN. Sem preço em CE no SINAPI 08/2026: preço de SP."
         }
       ]
     },
@@ -81609,8 +83499,8 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "codigo": "BR_AG027",
-          "precio": 235.71,
-          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 7253 (M3) - TERRA VEGETAL (GRANEL). Sem preço em AM no SINAPI 08/2026: preço de SP."
+          "precio": 57.41,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 6081 (M3) - ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATE 10 KM). Sem preço em AM no SINAPI 08/2026: preço de SP."
         },
         {
           "idCanonico": "br_timbre_pulsador_con_campanilla_pza",
@@ -86271,6 +88161,216 @@
           "codigo": "BR_SI7796",
           "precio": 72.14,
           "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 7796 (M) - TUBO DE CONCRETO SIMPLES PARA AGUAS PLUVIAIS, CLASSE PS1, COM ENCAIXE PONTA E BOLSA, DIAME. Sem preço em AM no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5849",
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5849",
+          "precio": 106.17,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 5849 (CHI) - TRATOR DE ESTEIRAS, POTÊNCIA 170 HP, PESO OPERACIONAL 19 T, CAÇAMBA 5,2 M3 - CHI DIURNO. A."
+        },
+        {
+          "idCanonico": "br_sinapi_ccd_5928",
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "categoria": "Maquinaria",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SC5928",
+          "precio": 317.67,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 5928 (CHP) - GUINDAUTO HIDRÁULICO, CAPACIDADE MÁXIMA DE CARGA 6200 KG, MOMENTO MÁXIMO DE CARGA 11,7 TM,."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_10527",
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "categoria": "Herramientas",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "codigo": "BR_SI10527",
+          "precio": 35.2,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 10527 (MXMES) - LOCACAO DE ANDAIME METALICO TUBULAR DE ENCAIXE, TIPO DE TORRE, CADA PAINEL COM LARGURA DE ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_183",
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "categoria": "Madera",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI183",
+          "precio": 104.1,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 183 (JG) - BATENTE / PORTAL / ADUELA / MARCO EM MADEIRA MACICA COM REBAIXO, E = *3* CM, L = *14* CM, ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_3148",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI3148",
+          "precio": 13.62,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 3148 (UN) - FITA VEDA ROSCA, EM PTFE, ROLO DE 18 MM X 50 M (L X C)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_35277",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
+          "categoria": "Plomería",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI35277",
+          "precio": 350.69,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 35277 (UN) - CAIXA DE GORDURA EM PVC, DIAMETRO MINIMO 300 MM, DIAMETRO DE SAIDA 100 MM, CAPACIDADE APRO."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_39027",
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI39027",
+          "precio": 19.56,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 39027 (KG) - PREGO DE ACO POLIDO COM CABECA 19 X 36 (3 1/4 X 9)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_40568",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI40568",
+          "precio": 19.73,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 40568 (KG) - PREGO DE ACO POLIDO COM CABECA 22 X 48 (4 1/4 X 5)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4417",
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4417",
+          "precio": 5.66,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 4417 (M) - SARRAFO NAO APARELHADO *2,5 X 7* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM, PEROBA-ROSA OU ."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4433",
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4433",
+          "precio": 20.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 4433 (M) - CAIBRO NAO APARELHADO *6 X 6* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA R."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4448",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4448",
+          "precio": 24.98,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 4448 (M) - VIGA *7,5 X 15 CM EM PINUS, MISTA OU EQUIVALENTE DA REGIAO - BRUTA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_4710",
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
+          "categoria": "Agregados",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI4710",
+          "precio": 255.82,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 4710 (M2) - PEDRA QUARTZITO OU CALCARIO LAMINADO, SERRADA, TIPO CARIRI, ITACOLOMI, LAGOA SANTA, LUMINA. Sem preço em AM no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5065",
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5065",
+          "precio": 37.25,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 5065 (KG) - PREGO DE ACO POLIDO COM CABECA 10 X 10 (7/8 X 17)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5066",
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5066",
+          "precio": 25.8,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 5066 (KG) - PREGO DE ACO POLIDO COM CABECA 12 X 12."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_5075",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
+          "categoria": "Acero y Metal",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI5075",
+          "precio": 19.58,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 5075 (KG) - PREGO DE ACO POLIDO COM CABECA 18 X 30 (2 3/4 X 10)."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6178",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6178",
+          "precio": 467.16,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 6178 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F. Sem preço em AM no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6180",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "categoria": "Madera",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6180",
+          "precio": 504.19,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 6180 (M2) - TABUA DE MADEIRA PARA PISO, CUMARU/IPE CHAMPANHE OU EQUIVALENTE DA REGIAO, ENCAIXE MACHO/F. Sem preço em AM no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_6189",
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "categoria": "Madera",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI6189",
+          "precio": 21.45,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 6189 (M) - TABUA NAO APARELHADA *2,5 X 30* CM, EM MACARANDUBA/MASSARANDUBA, ANGELIM OU EQUIVALENTE DA."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7292",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7292",
+          "precio": 35.0,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 7292 (L) - TINTA ESMALTE SINTETICO PREMIUM BRILHANTE."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7319",
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "categoria": "Pinturas",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7319",
+          "precio": 11.7,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 7319 (L) - TINTA ASFALTICA IMPERMEABILIZANTE DISPERSA EM AGUA, PARA MATERIAIS CIMENTICIOS. Sem preço em AM no SINAPI 08/2026: preço de SP."
+        },
+        {
+          "idCanonico": "br_sinapi_icd_7614",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
+          "categoria": "Eléctrico",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "codigo": "BR_SI7614",
+          "precio": 24537.33,
+          "nota": "REFERENCIA: SINAPI (Caixa/IBGE) ref. 08/2026, AM, COM desoneração, código 7614 (UN) - TRANSFORMADOR TRIFASICO DE DISTRIBUICAO, POTENCIA DE 150 KVA, TENSAO NOMINAL DE 15 KV, TEN. Sem preço em AM no SINAPI 08/2026: preço de SP."
         }
       ]
     }

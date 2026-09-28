@@ -95,11 +95,11 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PY.json"
     },
     "catalogo_BR": {
-      "version": "v20260928b-br-sinapi-fase-a",
+      "version": "v20260928c-br-sinapi-revision25",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_BR.json"
     },
     "precios_BR": {
-      "version": "v20260928b-br-sinapi-202608",
+      "version": "v20260928c-br-sinapi-202608",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_BR.json"
     },
     "catalogo_MX": {

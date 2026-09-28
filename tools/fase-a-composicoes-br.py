@@ -41,13 +41,28 @@ SE SALTEA (y se informa)
   · la unidad no coincide (m2/M2, m3/M3, m/M, Kg/KG, Pza/UN, Glb/UN) o la tabla pide un factor de unidad;
   · el costo SP de la receta aplanada difiere > 5 % del costo CCD publicado (el aplanado no reproduce la
     composición; entre 1 y 5 % se informa como aviso).
+
+REVISIÓN DE LOS 25 (28-sep-2026, aprobada por Oscar; ver `catalogo/fuentes/revision_25_extremos_BR_20260928.md`)
+  La fase A (commit 04a1e83, `--ratio-min 0.5 --ratio-max 2`) dejó 25 ítems a revisar. Oscar aprobó:
+  · REVISION25_OK (19): van con la composição de la fase A tal cual, aunque su costo caiga fuera del rango.
+  · COMP_CAMBIADA: IS074BR → 90105 (vala < 0,8 m) y OT014BR → 97631 («OT014 es yeso aplicado bajo losa»).
+  · ADAPTADAS: recetas armadas a mano desde composições SINAPI, explícitas por ítem (partes × factor +
+    cambios de insumo), con `referencia: "adaptado de SINAPI … · MM/AAAA"`. El control de aplanado compara
+    contra Σ factor × CCD SP de las partes + la diferencia de precio SP de los insumos cambiados.
+  · DEJAR_RECETA: IS066BR y OT007BR no se tocan nunca (se informan como salteados).
+  · MAPA_CORREGIDO: `br_tierra_seleccionada_m3` estaba mapeado a 7253 TERRA VEGETAL (tierra de jardín); pasa a
+    6081 «ARGILA OU BARRO PARA ATERRO/REATERRO (COM TRANSPORTE ATÉ 10 KM)». Con --aplicar se corrige la fila
+    del mapa y se vuelve a correr precios-sinapi-br.py (cambia ese insumo en las 10 ciudades).
+  El resumen de esta tanda va a `catalogo/fuentes/revision_25_aplicada_BR_20260928.md` (--resumen para otro
+  destino; una sección «## Validación» agregada a mano al final se conserva). El resumen general de la fase A
+  (`fase_a_BR_20260928.md`, histórico) sólo se reescribe con --resumen-fase-a <archivo>.
 """
 import argparse, csv, datetime, hashlib, io, json, os, re, statistics, subprocess, sys, unicodedata
 import openpyxl
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 AQUI = os.path.dirname(os.path.abspath(__file__))
-VERSION_CATALOGO = "v20260928b-br-sinapi-fase-a"
+VERSION_CATALOGO = "v20260928c-br-sinapi-revision25"
 LIBRO_DEF = os.path.join(os.environ.get("LOCALAPPDATA", ""), "Temp", "sinapi", "SINAPI_Referencia_2026_08.xlsx")
 CIUDAD_UF = {
     "São Paulo": "SP", "Rio de Janeiro": "RJ", "Belo Horizonte": "MG", "Brasília": "DF", "Curitiba": "PR",
@@ -57,6 +72,34 @@ UNID = {"M": "m", "M2": "m2", "M3": "m3", "KG": "Kg", "H": "Hr", "UN": "Pza", "L
 UNID_ITEM_OK = {("m2", "M2"), ("m3", "M3"), ("m", "M"), ("Kg", "KG"), ("Pza", "UN"), ("Glb", "UN")}
 ORDEN_TIPO = {"MATERIAL": 0, "MANO_DE_OBRA": 1, "HERRAMIENTA": 2}
 TOL_AVISO, TOL_SALTO = 0.01, 0.05
+
+# ── Revisión de los 25 fuera de rango (28-sep-2026, APROBADA POR OSCAR) ──
+# Fuente: catalogo/fuentes/revision_25_extremos_BR_20260928.md. Todo lo de abajo pasa aunque su costo
+# SINAPI/hoy caiga fuera de --ratio-min/--ratio-max.
+REVISION25_OK = {  # OK_PUBLICAR: la composição de la fase A tal cual
+    "AC002BR", "AC017BR", "AC033BR", "AC035BR", "AC037BR", "AC049BR", "AC050BR", "AC069BR", "CU001BR", "IE022BR",
+    "IS015BR", "IS016BR", "IS034BR", "IS052BR", "IS083BR", "OG083BR", "OT005BR", "OT010BR", "OT022BR",
+}
+COMP_CAMBIADA = {  # OTRA_COMPOSICAO: pisa la composição de la tabla EQUIVALENTE del análisis
+    "IS074BR": ("90106", "90105", "vala de instalação predial: largura < 0,8 m"),
+    "OT014BR": ("97641", "97631", "Oscar: «OT014 es yeso aplicado bajo losa» → demolição de argamassas manual"),
+}
+ADAPTADAS = {  # ADAPTAR: partes [(composição, factor)] sumadas + cambios de insumo ICD {viejo: nuevo}
+    "CR002BR": {"partes": [("102220", 2.0), ("102193", 2.0)], "cambios": {},
+                "ref": "adaptado de SINAPI 102220+102193",
+                "motivo": "esmalte 2 demãos (102220) + lixamento (102193), por m² de vano y las DOS caras de la puerta"},
+    "OT026BR": {"partes": [("94319", 1.0)], "cambios": {"6079": "6081"},
+                "ref": "adaptado de SINAPI 94319",
+                "motivo": "94319 con el suelo 6079 (sin transporte) cambiado por 6081 (argila/barro p/ reaterro COM transporte até 10 km)"},
+}
+DEJAR_RECETA = {  # no se tocan
+    "IS066BR": "falta precio BR del PEAD SDR 17/21; SINAPI sólo trae SDR 11 PN 12,5",
+    "OT007BR": "97635 es remoção CON reaprovechamiento (otro servicio)",
+}
+REVISION25 = REVISION25_OK | set(COMP_CAMBIADA) | set(ADAPTADAS)
+MAPA_CORREGIDO = {  # idCanonico: (hoja, código SINAPI correcto, código equivocado)
+    "br_tierra_seleccionada_m3": ("ICD", "6081", "7253"),
+}
 
 
 def rutas(raiz):
@@ -68,6 +111,7 @@ def rutas(raiz):
         "analisis": os.path.join(raiz, "catalogo", "fuentes", "analisis_composicoes_BR_20260928.md"),
         "manifest": os.path.join(raiz, "manifest.json"),
         "resumen": os.path.join(raiz, "catalogo", "fuentes", "fase_a_BR_20260928.md"),
+        "resumen_rev": os.path.join(raiz, "catalogo", "fuentes", "revision_25_aplicada_BR_20260928.md"),
         "tool_precios": os.path.join(raiz, "tools", "precios-sinapi-br.py"),
     }
 
@@ -142,8 +186,13 @@ def leer_equivalentes(p):
         if not m: continue
         c = [x.strip() for x in l.strip().strip("|").split("|")]
         mc = re.fullmatch(r"(\d+)(?:\s*×\s*([\d.,]+))?", c[2])
-        out.append({"codigo": m.group(1), "unidad": c[1], "comp": mc.group(1) if mc else c[2],
-                    "factor": mc.group(2) if mc else None, "nota": c[3]})
+        e = {"codigo": m.group(1), "unidad": c[1], "comp": mc.group(1) if mc else c[2],
+             "factor": mc.group(2) if mc else None, "nota": c[3]}
+        if e["codigo"] in COMP_CAMBIADA:  # revisión de los 25: otra composição (aprobado por Oscar)
+            viejo, nuevo, _ = COMP_CAMBIADA[e["codigo"]]
+            assert e["comp"] == viejo, f"{e['codigo']}: el análisis dice {e['comp']}, la revisión esperaba {viejo}"
+            e.update({"comp": nuevo, "comp_analisis": viejo})
+        out.append(e)
     return out
 
 
@@ -313,6 +362,23 @@ def calcular(R, libro_path):
 
     sp = next(c for c in precios_doc["ciudades"] if c["nombre"] == "São Paulo")
     sp_por_id = {x["idCanonico"]: x for x in sp["precios"]}
+    # Mapeos corregidos (revisión de los 25): el mapa se corrige en memoria; el precio SP que valdrá tras
+    # correr precios-sinapi-br.py es SINAPI SP × factor. «Hoy» sigue usando el precio publicado.
+    correcciones = []
+    for r in mapa:
+        if r["idCanonico"] not in MAPA_CORREGIDO: continue
+        h, bueno, malo = MAPA_CORREGIDO[r["idCanonico"]]
+        assert r["hoja"] == h and r["codigoSinapi"] in (bueno, malo), f"mapa inesperado para {r['idCanonico']}: {r}"
+        s = hojas[h][bueno]
+        correcciones.append({"idCanonico": r["idCanonico"], "hoja": h, "de": r["codigoSinapi"] if r["codigoSinapi"] != bueno else malo,
+                             "a": bueno, "desc_de": hojas[h][malo]["d"], "desc_a": s["d"], "u": s["u"],
+                             "pendiente_mapa": r["codigoSinapi"] != bueno})
+        r.update({"codigoSinapi": bueno, "unidadSinapi": s["u"], "descripcionSinapi": s["d"][:120]})
+    precio_nuevo = {k: x["precio"] for k, x in sp_por_id.items()}
+    for cr in correcciones:
+        r = next(r for r in mapa if r["idCanonico"] == cr["idCanonico"])
+        precio_nuevo[cr["idCanonico"]] = round(hojas[cr["hoja"]][cr["a"]]["p"]["SP"] * float(r["factor"]), 4 if float(r["factor"]) != 1 else 2)
+        cr["pendiente_precio"] = sp_por_id[cr["idCanonico"]]["precio"] != precio_nuevo[cr["idCanonico"]]
     items = {x["codigo"]: x for x in items_doc["items"]}
     uso = {}
     for it in items_doc["items"]:
@@ -350,6 +416,13 @@ def calcular(R, libro_path):
         c = e["comp"]
         if not it:
             saltados.append((e, "el ítem no está en items_BR.json")); continue
+        if e["codigo"] in DEJAR_RECETA:
+            saltados.append((e, "DEJAR_RECETA (revisión de los 25, Oscar 28-sep-2026): " + DEJAR_RECETA[e["codigo"]])); continue
+        ad = ADAPTADAS.get(e["codigo"])
+        if ad:
+            c = ad["partes"][0][0]
+            e = {**e, "comp": " + ".join(f"{pc}{'×' + format(f, 'g') if f != 1 else ''}" for pc, f in ad["partes"])
+                 + "".join(f" ({v}→{n})" for v, n in ad["cambios"].items()), "adaptada": True}
         if e["factor"]:
             saltados.append((e, f"unidad distinta: la tabla pide factor ×{e['factor']} ({it['unidadResultado']} ↔ {comp.get(c, {}).get('u', '?')}); decidir aparte")); continue
         if c not in comp:
@@ -357,11 +430,24 @@ def calcular(R, libro_path):
         cu = comp[c]["u"].upper()
         if (it["unidadResultado"], cu) not in UNID_ITEM_OK:
             saltados.append((e, f"unidad distinta: ítem {it['unidadResultado']} ↔ composición {cu}")); continue
-        ccd_sp = hojas["CCD"].get(c, {}).get("p", {}).get("SP")
-        if not ccd_sp:
-            saltados.append((e, f"la composición {c} no tiene costo en SP en {mes} (CCD vacío)")); continue
+        partes = ad["partes"] if ad else [(c, 1.0)]
+        sin_ccd = [pc for pc, _ in partes if not hojas["CCD"].get(pc, {}).get("p", {}).get("SP")]
+        if sin_ccd:
+            saltados.append((e, f"la composición {', '.join(sin_ccd)} no tiene costo en SP en {mes} (CCD vacío)")); continue
+        ccd_sp = sum(f * hojas["CCD"][pc]["p"]["SP"] for pc, f in partes)
         try:
-            acc, orden = aplanar(c, comp)
+            acc, orden = {}, []
+            for pc, f in partes:
+                if pc not in comp: raise KeyError(f"la composición {pc} no está en el Analítico")
+                aplanar(pc, comp, f, 0, acc, orden)
+            if ad:  # cambios de insumo explícitos; el costo de referencia suma la diferencia de precio SP
+                for viejo, nuevo in ad["cambios"].items():
+                    kv, kn = ("ICD", viejo, "MATERIAL"), ("ICD", nuevo, "MATERIAL")
+                    if kv not in acc: raise KeyError(f"el insumo {viejo} no está en {c}")
+                    q = acc.pop(kv)
+                    ccd_sp += q * (hojas["ICD"][nuevo]["p"]["SP"] - hojas["ICD"][viejo]["p"]["SP"])
+                    acc[kn] = acc.get(kn, 0.0) + q
+                    orden = [kn if k == kv else k for k in orden]
         except (KeyError, ValueError) as ex:
             saltados.append((e, f"no se pudo aplanar: {ex}")); continue
         faltan = [f"{h} {ci}" for (h, ci, t) in orden if not hojas[h].get(ci, {}).get("p", {}).get("SP")]
@@ -380,7 +466,7 @@ def calcular(R, libro_path):
                 rend = q / f
                 base = {"nombre": x["nombre"], "unidad": x["unidad"], "tipoInsumo": x["tipoInsumo"], "categoria": x["categoria"],
                         "idCanonico": x["idCanonico"], "codigo": x["codigo"]}
-                precio_sp = x["precio"]
+                precio_sp = precio_nuevo[m["idCanonico"]]
                 es_nuevo = False
             else:
                 idc = f"br_sinapi_{h.lower()}_{ci}"
@@ -419,12 +505,14 @@ def calcular(R, libro_path):
         if abs(dif) > TOL_SALTO:
             saltados.append((e, f"el aplanado da {costo_sin:.2f} en SP y el CCD publica {ccd_sp:.2f} ({dif:+.1%})")); continue
         costo_hoy = sum(l["rendimiento"] * sp_por_id.get(l["idCanonico"], {}).get("precio", 0) for l in it["insumos"])
-        convertidos.append({"e": e, "item": it, "lineas": lineas, "ref": ref_txt(c), "ccd_sp": ccd_sp,
+        ref = f"{ad['ref']} · {mes}" if ad else ref_txt(c)
+        convertidos.append({"e": e, "item": it, "lineas": lineas, "ref": ref, "ccd_sp": ccd_sp,
                             "costo_sin": costo_sin, "costo_nuevo": costo_nuevo, "costo_hoy": costo_hoy, "dif": dif,
                             "comp_d": comp[c]["d"], "comp_u": cu,
-                            "cambia": it["insumos"] != lineas or it.get("referencia") != ref_txt(c)})
+                            "cambia": it["insumos"] != lineas or it.get("referencia") != ref})
     return {"mes": mes, "sha": sha, "ambiguos": ambiguos, "convertidos": convertidos, "saltados": saltados, "nuevos": nuevos,
-            "items_doc": items_doc, "precios_doc": precios_doc, "sp_por_id": sp_por_id, "equiv": equiv}
+            "items_doc": items_doc, "precios_doc": precios_doc, "sp_por_id": sp_por_id, "equiv": equiv,
+            "correcciones": correcciones, "precio_nuevo": precio_nuevo, "hojas": hojas}
 
 
 # ───────────────────────── aplicar ─────────────────────────
@@ -455,8 +543,24 @@ def aplicar(R, res, libro_path):
             w.writerow({"idCanonico": idc, "codigoSinapi": x["codigoSinapi"], "hoja": x["hoja"], "factor": repr(float(x["factor"])),
                         "unidadArqon": x["unidad"], "unidadSinapi": x["unidadSinapi"], "descripcionSinapi": x["descripcionSinapi"][:120]})
         io.open(R["mapa"], "w", encoding="utf-8", newline="").write(raw + ("" if raw.endswith("\n") else "\n") + buf.getvalue())
+    # mapeos corregidos (revisión de los 25): se reescribe la fila del mapa; el precio lo pone precios-sinapi-br.py
+    corr = [cr for cr in res["correcciones"] if cr["pendiente_mapa"] or cr["pendiente_precio"]]
+    if any(cr["pendiente_mapa"] for cr in corr):
+        # sólo se reescribe la línea del insumo corregido (el archivo mezcla CRLF y LF: el resto queda byte a byte)
+        lineas = io.open(R["mapa"], encoding="utf-8", newline="").read().splitlines(keepends=True)
+        campos = next(csv.reader([lineas[0]]))
+        for i, ln in enumerate(lineas):
+            r = next(csv.DictReader(io.StringIO(lineas[0] + ln))) if i else None
+            cr = next((cr for cr in corr if r and cr["pendiente_mapa"] and cr["idCanonico"] == r["idCanonico"]), None)
+            if not cr: continue
+            r.update({"codigoSinapi": cr["a"], "unidadSinapi": cr["u"], "descripcionSinapi": cr["desc_a"][:120]})
+            buf = io.StringIO()
+            csv.DictWriter(buf, fieldnames=campos, lineterminator="").writerow(r)
+            lineas[i] = buf.getvalue() + ln[len(ln.rstrip(chr(13) + chr(10))):]
+        io.open(R["mapa"], "w", encoding="utf-8", newline="").write("".join(lineas))
+        print("mapa_sinapi_BR.csv: " + ", ".join(f"{cr['idCanonico']} {cr['de']} → {cr['a']}" for cr in corr if cr["pendiente_mapa"]))
     pendientes = any(x.get("nota") == PENDIENTE for c in precios_doc["ciudades"] for x in c["precios"])
-    if nuevos or pendientes:
+    if nuevos or pendientes or corr:
         # precio SINAPI por UF (misma regla de siempre: UF de la ciudad; si falta, SP)
         env = dict(os.environ, PYTHONIOENCODING="utf-8")
         r = subprocess.run([sys.executable, "-B", R["tool_precios"], libro_path], capture_output=True, text=True,
@@ -464,13 +568,17 @@ def aplicar(R, res, libro_path):
         print((r.stdout or "").strip(), (r.stderr or "").strip())
         if r.returncode: sys.exit("precios-sinapi-br.py falló: las recetas NO se escribieron")
         precios_doc, crlf_p, fin_p = leer_json(R["precios"])
-        if precios_doc["version"] == version_antes:  # mismo día que la corrida anterior: la app no bajaría los precios
-            m = re.match(r"v(\d{8})([a-z]?)(-.*)", version_antes)
-            letra = chr(ord(m.group(2)) + 1) if m.group(2) else "b"
-            precios_doc["version"] = f"v{m.group(1)}{letra}{m.group(3)}"
+        # Mismo día que la corrida anterior: precios-sinapi-br.py escribe «vAAAAMMDD-…» sin letra, que no es más
+        # nueva que «vAAAAMMDDb-…» y la app no bajaría los precios → se toma la letra siguiente a la de antes.
+        m0 = re.match(r"v(\d{8})([a-z]?)(-.*)", version_antes)
+        m1 = re.match(r"v(\d{8})([a-z]?)(-.*)", precios_doc["version"])
+        if m0 and m1 and m1.group(1) == m0.group(1) and m1.group(2) <= m0.group(2):
+            letra = chr(ord(m0.group(2)) + 1) if m0.group(2) else "b"
+            precios_doc["version"] = f"v{m1.group(1)}{letra}{m1.group(3)}"
             escribir_json(R["precios"], precios_doc, crlf_p, fin_p)
         set_manifest(R["manifest"], "precios_BR", precios_doc["version"])
-        print(f"oficiales_BR.json: +{len(nuevos)} insumos en las 10 ciudades · versión {precios_doc['version']}")
+        print(f"oficiales_BR.json: +{len(nuevos)} insumos en las 10 ciudades"
+              f"{' · mapeo corregido: ' + ', '.join(cr['idCanonico'] for cr in corr) if corr else ''} · versión {precios_doc['version']}")
     else:
         print("oficiales_BR.json: sin insumos nuevos (no se toca)")
 
@@ -644,45 +752,169 @@ def resumen(res):
     return "\n".join(o) + "\n", est
 
 
+def resumen_revision(res, lo, hi):
+    """Resumen de la revisión de los 25 (Oscar, 28-sep-2026): antes/después por ítem, mapeo corregido, insumos nuevos."""
+    conv = {c["item"]["codigo"]: c for c in res["convertidos"]}
+    sp, nuevos, mes, hojas = res["sp_por_id"], res["nuevos"], res["mes"], res["hojas"]
+    pn = dict(res["precio_nuevo"]); pn.update({k: v["precioSP"] for k, v in nuevos.items()})
+    items = {x["codigo"]: x for x in res["items_doc"]["items"]}
+    costo = lambda lineas, precios: sum(l["rendimiento"] * precios.get(l["idCanonico"], 0) for l in lineas)
+    hoy_p = {k: x["precio"] for k, x in sp.items()}
+    rev_path = "catalogo/fuentes/revision_25_extremos_BR_20260928.md"
+    o = [f"# Brasil: revisión de los 25 ítems fuera de rango, APLICADA (resumen, {datetime.date.today():%d-%m-%Y})\n"]
+    o.append(f"Decisiones de Oscar (28-sep-2026) sobre `{rev_path}`, aplicadas con `tools/fase-a-composicoes-br.py` "
+             f"(constantes `REVISION25_OK`, `COMP_CAMBIADA`, `ADAPTADAS`, `DEJAR_RECETA`, `MAPA_CORREGIDO`). Fuente: SINAPI "
+             f"(Caixa/IBGE) {mes}, hojas Analítico e ICD/CCD (COM desoneração), libro sha256 `{res['sha'][:8]}…{res['sha'][-6:]}`. "
+             f"Versiones al aplicar: catalogo_BR `{VERSION_CATALOGO}`; precios_BR sube una letra sobre la publicada "
+             f"(hoy `{res['precios_doc']['version']}`).\n")
+    o.append("Sólo cambian `insumos` y `referencia` de cada ítem; código, nombre, categoría, unidad, parámetros, fórmula, "
+             "tipoIfc, etiqueta y «verificado» quedan iguales. Reglas de aplanado sin cambios (M.O. y equipo como UNA línea "
+             "con costo CCD; auxiliares abiertas). Costos: 1 unidad del ítem en São Paulo, sin cargas ni BDI; «Antes» = receta "
+             "publicada × precios publicados; «Después» = receta nueva × precios SINAPI SP que quedan al aplicar.\n")
+    o.append(f"Comando (sobre el repo): `python tools/fase-a-composicoes-br.py --ratio-min {lo:g} --ratio-max {hi:g} --aplicar`\n")
+    ver = {**{k: "OK_PUBLICAR" for k in REVISION25_OK}, **{k: "OTRA_COMPOSICAO" for k in COMP_CAMBIADA},
+           **{k: "ADAPTAR" for k in ADAPTADAS}, **{k: "DEJAR_RECETA" for k in DEJAR_RECETA}}
+    o.append("## Por ítem\n")
+    o.append("| Ítem | Unidad | Veredicto | Composição usada | `referencia` | Líneas | Antes SP | Después SP | Después/antes | Aplanado vs CCD |")
+    o.append("|---|---|---|---|---|---|---:|---:|---:|---:|")
+    tot_a = tot_d = 0.0
+    for k in sorted(ver):
+        it = items[k]
+        a = costo(it["insumos"], hoy_p)
+        c = conv.get(k)
+        if c:
+            d = c["costo_nuevo"]
+            o.append(f"| {k} {it['nombre']} | {it['unidadResultado']} | {ver[k]} | {c['e']['comp']} | {c['ref']} | "
+                     f"{len(it['insumos'])} → {len(c['lineas'])} | {fmt(a)} | {fmt(d)} | {fmt(d / a) if a else '—'} | "
+                     f"{c['dif']:+.1%} |")
+        else:
+            d = costo(it["insumos"], pn)
+            why = next((w for e, w in res["saltados"] if e["codigo"] == k), "no convertido")
+            o.append(f"| {k} {it['nombre']} | {it['unidadResultado']} | {ver[k]} | — (receta sin cambios) | "
+                     f"{it.get('referencia', '—')} | {len(it['insumos'])} | {fmt(a)} | {fmt(d)} | "
+                     f"{fmt(d / a) if a else '—'} | {why} |")
+        tot_a += a; tot_d += d
+    o.append(f"\nSuma (1 unidad de cada uno): antes {fmt(tot_a)} → después {fmt(tot_d)}. «Aplanado vs CCD» = costo SP de la receta "
+             "aplanada contra el CCD SP publicado (en las adaptadas, Σ factor × CCD de las partes + la diferencia de precio del insumo "
+             "cambiado). Si la receta ya estaba aplicada, «Antes» y «Después» coinciden.\n")
+    o.append("## Detalle de las composições cambiadas y adaptadas\n")
+    for k in list(COMP_CAMBIADA) + list(ADAPTADAS):
+        c = conv.get(k)
+        if not c: o.append(f"### {k}: no convertido\n"); continue
+        it = c["item"]
+        if k in COMP_CAMBIADA:
+            v, n, mot = COMP_CAMBIADA[k]
+            o.append(f"### {k} {it['nombre']} [{it['unidadResultado']}]: {v} → {n}\n\n{mot}.\n\n_{n}: {hojas['CCD'].get(n, {}).get('d', '')}_\n")
+        else:
+            ad = ADAPTADAS[k]
+            o.append(f"### {k} {it['nombre']} [{it['unidadResultado']}]: {c['e']['comp']}\n\n{ad['motivo']}.\n")
+        o.append("| Antes: insumo | unidad | rend. | | Después: insumo | unidad | rend. | P. SP |\n|---|---|---:|---|---|---|---:|---:|")
+        A, D = it["insumos"], c["lineas"]
+        for i in range(max(len(A), len(D))):
+            x = A[i] if i < len(A) else None
+            y = D[i] if i < len(D) else None
+            o.append("| " + (f"{x['nombre']} | {x['unidad']} | {x['rendimiento']:g}" if x else " | | ") + " | | " +
+                     (f"{y['nombre']}{' *(nuevo)*' if y['idCanonico'] in nuevos else ''} | {y['unidad']} | {y['rendimiento']:g} | "
+                      f"{fmt(pn[y['idCanonico']])}" if y else " | | | ") + " |")
+        o.append(f"\nCosto SP: {fmt(costo(it['insumos'], hoy_p))} → {fmt(c['costo_nuevo'])} (referencia SINAPI {fmt(c['ccd_sp'])}).\n")
+    for cr in res["correcciones"]:
+        o.append(f"## Mapeo corregido: `{cr['idCanonico']}`\n")
+        r_sp = hojas[cr["hoja"]][cr["a"]]["p"]
+        o.append(f"SINAPI {cr['de']} «{cr['desc_de']}» → **{cr['a']} «{cr['desc_a']}» ({cr['u']})**. "
+                 f"El {cr['de']} es tierra vegetal de jardín, no suelo de relleno (`br_tierra_negra_m3` sigue en {cr['de']}, que sí "
+                 f"le corresponde). El SINAPI {mes} publica el {cr['a']} sólo en {', '.join(sorted(r_sp))}; las demás capitales llevan "
+                 "el precio de SP con la nota «Sem preço em UF… preço de SP» (misma regla de siempre).\n")
+        o.append("| Ciudad | Antes | Después |\n|---|---:|---:|")
+        for ciu in res["precios_doc"]["ciudades"]:
+            x = next(x for x in ciu["precios"] if x["idCanonico"] == cr["idCanonico"])
+            uf = CIUDAD_UF[ciu["nombre"]]
+            o.append(f"| {ciu['nombre']} ({uf}) | {fmt(x['precio'])} | {fmt(r_sp.get(uf, r_sp['SP']))} |")
+        o.append("\nÍtems que usan el insumo (costo SP de 1 unidad):\n")
+        o.append("| Ítem | Unidad | Rend. del insumo | Antes | Después | Cambio |\n|---|---|---:|---:|---:|---|")
+        for it in res["items_doc"]["items"]:
+            c = conv.get(it["codigo"])
+            despues_l = c["lineas"] if c else it["insumos"]
+            if not any(l["idCanonico"] == cr["idCanonico"] for l in it["insumos"] + despues_l): continue
+            a, d = costo(it["insumos"], hoy_p), costo(despues_l, pn)
+            rd = next((l["rendimiento"] for l in despues_l if l["idCanonico"] == cr["idCanonico"]), 0)
+            o.append(f"| {it['codigo']} {it['nombre']} | {it['unidadResultado']} | {rd:g} | {fmt(a)} | {fmt(d)} | "
+                     f"{'receta nueva + precio' if c and c['cambia'] else 'sólo precio'} |")
+        o.append("")
+    o.append(f"## Insumos nuevos ({len(nuevos)})\n")
+    o.append("Id `br_sinapi_<hoja>_<código>`, en las 10 ciudades de `oficiales_BR.json` y en `mapa_sinapi_BR.csv`; "
+             "`precios-sinapi-br.py` les pone el precio SINAPI de cada UF (si la UF no tiene, el de SP).\n")
+    o.append("| idCanonico | Nombre | Unidad | Tipo | Categoría | Precio SP | Ítems |\n|---|---|---|---|---|---:|---|")
+    for idc, x in sorted(nuevos.items(), key=lambda kv: (kv[1]["tipoInsumo"], kv[1]["categoria"], kv[1]["nombre"])):
+        o.append(f"| `{idc}` | {x['nombre']} | {x['unidad']} | {x['tipoInsumo']} | {x['categoria']} | {fmt(x['precioSP'])} | "
+                 f"{', '.join(sorted(set(x['items'])))} |")
+    o.append("")
+    otros = sorted(c["item"]["codigo"] for c in res["convertidos"] if c["cambia"] and c["item"]["codigo"] not in REVISION25)
+    o.append("## Controles de la herramienta\n")
+    o.append(f"- Ítems con cambios pendientes fuera de la revisión: {len(otros)}{' (' + ', '.join(otros) + ')' if otros else ''}.")
+    o.append(f"- Ítems de la revisión convertidos: {sum(1 for k in REVISION25 if k in conv)} de {len(REVISION25)}; "
+             f"DEJAR_RECETA sin tocar: {', '.join(sorted(DEJAR_RECETA))}.")
+    peor = max((abs(conv[k]["dif"]) for k in REVISION25 if k in conv), default=0)
+    o.append(f"- Mayor diferencia aplanado vs CCD en la revisión: {peor:.2%} (tolerancia 5 %).")
+    o.append("- Antes de escribir recetas, `--aplicar` exige precio «REFERENCIA: SINAPI …» en las 10 ciudades para todo insumo usado; "
+             "si falta uno, no escribe nada.\n")
+    return "\n".join(o) + "\n"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--libro", default=LIBRO_DEF)
     ap.add_argument("--raiz", default=os.path.dirname(AQUI))
-    ap.add_argument("--resumen")
+    ap.add_argument("--resumen", help="destino del resumen de la revisión de los 25 (por defecto revision_25_aplicada_BR_20260928.md)")
+    ap.add_argument("--resumen-fase-a", help="reescribe el resumen general de la fase A en este archivo (histórico: no se pisa solo)")
     ap.add_argument("--aplicar", action="store_true")
     # TANDA POR RANGO DE COSTO (28-sep-2026, Oscar: «publica los 74 y revisa los 25»): sólo se convierten los ítems
     # cuyo costo SINAPI/hoy (SP) cae en [--ratio-min, --ratio-max]; los demás pasan a «salteados» para revisarlos
     # uno por uno (alcance: sección, material incluido, espesor), y los insumos nuevos que sólo usan ellos no entran.
+    # Excepción: los ítems de la revisión de los 25 aprobada por Oscar (REVISION25) pasan siempre.
     ap.add_argument("--ratio-min", type=float)
     ap.add_argument("--ratio-max", type=float)
     a = ap.parse_args()
     R = rutas(os.path.abspath(a.raiz))
     res = calcular(R, a.libro)
+    lo, hi = (a.ratio_min or 0.0), (a.ratio_max if a.ratio_max is not None else float("inf"))
     if a.ratio_min is not None or a.ratio_max is not None:
-        lo, hi = a.ratio_min or 0.0, a.ratio_max or float("inf")
         quedan, fuera = [], []
         for c in res["convertidos"]:
             r = (c["costo_nuevo"] / c["costo_hoy"]) if c["costo_hoy"] else None
-            (quedan if (r is not None and lo <= r <= hi) else fuera).append(c)
+            ok = c["item"]["codigo"] in REVISION25 or (r is not None and lo <= r <= hi)
+            (quedan if ok else fuera).append(c)
         for c in fuera:
             r = (c["costo_nuevo"] / c["costo_hoy"]) if c["costo_hoy"] else 0
             res["saltados"].append((c["e"], f"revisar alcance: costo SINAPI/hoy = {r:.2f} (fuera de {lo}–{hi})"))
         res["convertidos"] = quedan
         usados = {l["idCanonico"] for c in quedan for l in c["lineas"]}
         res["nuevos"] = {k: v for k, v in res["nuevos"].items() if k in usados}
-        print(f"tanda por rango {lo}–{hi}: {len(quedan)} ítems · {len(fuera)} a revisar · {len(res['nuevos'])} insumos nuevos")
+        print(f"tanda por rango {lo}–{hi} (+ revisión de los 25): {len(quedan)} ítems · {len(fuera)} a revisar · "
+              f"{len(res['nuevos'])} insumos nuevos")
     md, est = resumen(res)
+    if a.resumen_fase_a:
+        io.open(a.resumen_fase_a, "w", encoding="utf-8", newline="\n").write(md)
+        print("resumen fase A:", a.resumen_fase_a)
     pend = [c for c in res["convertidos"] if c["cambia"]]
-    dest = a.resumen or R["resumen"]
-    if pend or res["nuevos"] or not os.path.exists(dest):
-        io.open(dest, "w", encoding="utf-8", newline="\n").write(md)
+    corr = [cr for cr in res["correcciones"] if cr["pendiente_mapa"] or cr["pendiente_precio"]]
+    dest = a.resumen or R["resumen_rev"]
+    if pend or res["nuevos"] or corr or not os.path.exists(dest):
+        md_rev = resumen_revision(res, lo, hi)
+        if os.path.exists(dest):  # una sección «## Validación» agregada a mano al final se conserva
+            viejo = io.open(dest, encoding="utf-8").read()
+            if "\n## Validación" in viejo: md_rev += viejo[viejo.index("\n## Validación") + 1:]
+        io.open(dest, "w", encoding="utf-8", newline="\n").write(md_rev)
         print("resumen:", dest)
     else:
         print("nada pendiente: el resumen existente no se pisa")
-    print(f"EQUIVALENTE {len(res['equiv'])} · convertibles {len(res['convertidos'])} (pendientes {len(pend)}) · "
-          f"salteados {len(res['saltados'])} · insumos nuevos {len(res['nuevos'])} · estimados referenciados {len(est)}")
+    print(f"EQUIVALENTE {len(res['equiv'])} · convertibles {len(res['convertidos'])} (pendientes {len(pend)}: "
+          f"{', '.join(sorted(c['item']['codigo'] for c in pend))}) · salteados {len(res['saltados'])} · "
+          f"insumos nuevos {len(res['nuevos'])} · mapeos a corregir {len(corr)} · estimados referenciados {len(est)}")
+    otros = [c["item"]["codigo"] for c in pend if c["item"]["codigo"] not in REVISION25]
+    if otros: print("ATENCIÓN: cambios fuera de la revisión de los 25:", ", ".join(otros))
     if a.aplicar:
         if est: sys.exit("Hay insumos ESTIMADOS en las recetas nuevas: no aplico.")
+        if otros: sys.exit("Hay cambios fuera de la revisión de los 25: no aplico.")
         aplicar(R, res, a.libro)
 
 

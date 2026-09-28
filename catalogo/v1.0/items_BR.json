@@ -1,5 +1,5 @@
 {
-  "version": "v20260928b-br-sinapi-fase-a",
+  "version": "v20260928c-br-sinapi-revision25",
   "schemaVersion": 1,
   "pais": "BR",
   "generado": "tools/derivar-desde-bolivia.mjs",
@@ -2915,7 +2915,7 @@
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.09264,
+          "rendimiento": 0.2132,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -2936,7 +2936,8 @@
           "unidad": "m",
           "visiblePorDefecto": true
         }
-      ]
+      ],
+      "referencia": "SINAPI 98524 · 08/2026"
     },
     {
       "codigo": "OG028BR",
@@ -3660,11 +3661,23 @@
       "verificado": true,
       "insumos": [
         {
+          "nombre": "Telhadista",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.0408,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_88323",
+          "codigo": "BR_SC88323"
+        },
+        {
           "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.7012,
+          "rendimiento": 0.1153,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -3694,7 +3707,8 @@
       "formulaResultado": "Largo*Ancho",
       "aliases": [],
       "subcategoria": "Calamina",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 97647 · 08/2026"
     },
     {
       "codigo": "OT006BR",
@@ -4091,7 +4105,7 @@
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.07903,
+          "rendimiento": 0.2132,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -4121,7 +4135,8 @@
       "formulaResultado": "",
       "aliases": [],
       "subcategoria": "Faenas",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 98524 · 08/2026"
     },
     {
       "codigo": "OT011BR",
@@ -4198,12 +4213,24 @@
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.5272,
+          "rendimiento": 0.3872,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "br_mo_ayudante",
           "codigo": "BR_NC001"
+        },
+        {
+          "nombre": "Pedreiro",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.1151,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_albanil",
+          "codigo": "BR_CA001"
         }
       ],
       "parametros": [
@@ -4230,7 +4257,8 @@
       "subcategoria": "Faenas",
       "tags": [
         "estructural"
-      ]
+      ],
+      "referencia": "SINAPI 97631 · 08/2026"
     },
     {
       "codigo": "OT015BR",
@@ -4806,23 +4834,35 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Operador de Trator de Esteira",
+          "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Equipo",
-          "rendimiento": 0.0262,
+          "categoria": "No Calificada",
+          "rendimiento": 0.0131,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_operador_de_topadora",
-          "codigo": "BR_EQ008"
+          "idCanonico": "br_mo_ayudante",
+          "codigo": "BR_NC001"
+        },
+        {
+          "nombre": "Trator de Esteira D7G (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.0082,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_5849",
+          "codigo": "BR_SC5849"
         },
         {
           "nombre": "Trator de Esteira D7G",
           "unidad": "Hr",
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Herramientas",
-          "rendimiento": 0.03513,
+          "rendimiento": 0.0048,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -4860,7 +4900,8 @@
         "MOVIMIENTO DE TIERRA C/TOPADORA"
       ],
       "subcategoria": "Excavación",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 101116 · 08/2026"
     },
     {
       "codigo": "OT023BR",
@@ -5041,7 +5082,7 @@
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
-          "rendimiento": 1.1236,
+          "rendimiento": 1.3889,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -5049,28 +5090,52 @@
           "codigo": "BR_AG027"
         },
         {
-          "nombre": "Pedreiro",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
-          "rendimiento": 0.4623,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_mo_albanil",
-          "codigo": "BR_CA001"
-        },
-        {
           "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 2.3008,
+          "rendimiento": 0.7866,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "br_mo_ayudante",
           "codigo": "BR_NC001"
+        },
+        {
+          "nombre": "Compactador Manual de Impacto (Sapo)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Herramientas",
+          "rendimiento": 0.1962,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_eq_compactadora_manual_de_impacto",
+          "codigo": "BR_HE003"
+        },
+        {
+          "nombre": "Caminhão Pipa (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.0006,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_5903",
+          "codigo": "BR_SC5903"
+        },
+        {
+          "nombre": "Caminhão Pipa",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Herramientas",
+          "rendimiento": 0.0054,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_eq_camion_cisterna",
+          "codigo": "BR_HE002"
         }
       ],
       "parametros": [
@@ -5101,7 +5166,8 @@
       "formulaResultado": "",
       "aliases": [],
       "subcategoria": "Excavación",
-      "tags": []
+      "tags": [],
+      "referencia": "adaptado de SINAPI 94319 · 08/2026"
     },
     {
       "codigo": "OT027BR",
@@ -9098,47 +9164,11 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Cimento Portland",
-          "unidad": "Kg",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Cemento y Cal",
-          "rendimiento": 22,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_cemento_portland_kg",
-          "codigo": "BR_CM016"
-        },
-        {
-          "nombre": "Aço CA-50 (Vergalhão)",
-          "unidad": "Kg",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Acero/Fierro de construcción",
-          "rendimiento": 5,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_fierro_corrugado_kg",
-          "codigo": "BR_AC018"
-        },
-        {
-          "nombre": "Areia Comum",
-          "unidad": "m3",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Agregados",
-          "rendimiento": 0.03,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_arena_comun_m3",
-          "codigo": "BR_AG003"
-        },
-        {
           "nombre": "Brita Comum",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
-          "rendimiento": 0.05,
+          "rendimiento": 0.0252496,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -9146,71 +9176,143 @@
           "codigo": "BR_AG011"
         },
         {
-          "nombre": "Madeira para Construção",
-          "unidad": "p2",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Madera",
-          "rendimiento": 3.5,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_madera_de_construccion_p2",
-          "codigo": "BR_MD007"
-        },
-        {
-          "nombre": "Pregos",
+          "nombre": "Cimento Portland",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
-          "rendimiento": 0.063,
+          "categoria": "Cemento y Cal",
+          "rendimiento": 13.88804,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_clavos_kg",
-          "codigo": "BR_FE030"
+          "idCanonico": "br_cemento_portland_kg",
+          "codigo": "BR_CM016"
         },
         {
-          "nombre": "Arame Recozido",
+          "nombre": "Areia Comum",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.0324994,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_arena_comun_m3",
+          "codigo": "BR_AG003"
+        },
+        {
+          "nombre": "Vergalhão de aço CA-50 Ø 8 mm (5/16″)",
+          "unidad": "Barra",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.185,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_fierro_corrugado_o_8_mm_5_16_barra",
+          "codigo": "BR_AC059"
+        },
+        {
+          "nombre": "Tábua Não Aparelhada 2,5 x 30 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 0.507072,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_6189",
+          "codigo": "BR_SI6189"
+        },
+        {
+          "nombre": "Prego de Aço Polido com Cabeça 17 x 21 (2 x 11)",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Acero y Metal",
-          "rendimiento": 0.05,
+          "rendimiento": 0.014592,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_alambre_de_amarre_kg",
-          "codigo": "BR_AC006"
+          "idCanonico": "br_sinapi_icd_5068",
+          "codigo": "BR_SI5068"
         },
         {
-          "nombre": "Pedreiro",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
-          "rendimiento": 1.8,
+          "nombre": "Sarrafo 2,5 x 7,5 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 0.481992,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_albanil",
-          "codigo": "BR_CA001"
+          "idCanonico": "br_sinapi_icd_4517",
+          "codigo": "BR_SI4517"
         },
         {
-          "nombre": "Carpinteiro de Formas",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
-          "rendimiento": 1.8,
+          "nombre": "Espaçador / Distanciador Circular com Entrada Lateral, em Plástico, para Vergalhão 4,2 a 12,5 mm, Cobrimento 20 mm",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 6.0,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_encofrador",
-          "codigo": "BR_CA005"
+          "idCanonico": "br_sinapi_icd_39017",
+          "codigo": "BR_SI39017"
+        },
+        {
+          "nombre": "Pontalete 7,5 x 7,5 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 0.203,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_4491",
+          "codigo": "BR_SI4491"
+        },
+        {
+          "nombre": "Desmoldante Protetor para Formas de Madeira, de Base Oleosa Emulsionada em Água",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 0.01,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_2692",
+          "codigo": "BR_SI2692"
+        },
+        {
+          "nombre": "Operador de Betoneira",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Equipo",
+          "rendimiento": 0.0689978,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_operador_de_mezcladora",
+          "codigo": "BR_EQ004"
+        },
+        {
+          "nombre": "Servente",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.4149319,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_ayudante",
+          "codigo": "BR_NC001"
         },
         {
           "nombre": "Armador",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
-          "rendimiento": 1.8,
+          "rendimiento": 0.012798,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -9218,16 +9320,100 @@
           "codigo": "BR_CA002"
         },
         {
-          "nombre": "Servente",
+          "nombre": "Ajudante de Armador",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 1.8,
+          "rendimiento": 0.002054,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_ayudante",
-          "codigo": "BR_NC001"
+          "idCanonico": "br_sinapi_ccd_88238",
+          "codigo": "BR_SC88238"
+        },
+        {
+          "nombre": "Carpinteiro de Formas",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.090288,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_encofrador",
+          "codigo": "BR_CA005"
+        },
+        {
+          "nombre": "Ajudante de Carpinteiro",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.020406,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_88239",
+          "codigo": "BR_SC88239"
+        },
+        {
+          "nombre": "Pedreiro",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.612,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_albanil",
+          "codigo": "BR_CA001"
+        },
+        {
+          "nombre": "Betoneira (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.0334841,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_88831",
+          "codigo": "BR_SC88831"
+        },
+        {
+          "nombre": "Betoneira",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.0355137,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_eq_mezcladora",
+          "codigo": "BR_MQ009"
+        },
+        {
+          "nombre": "Serra Circular de Bancada com Motor Elétrico Potência de 5 HP (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.025536,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_91693",
+          "codigo": "BR_SC91693"
+        },
+        {
+          "nombre": "Serra Circular de Bancada com Motor Elétrico Potência de 5 HP (CHP, hora produtiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.006384,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_91692",
+          "codigo": "BR_SC91692"
         }
       ],
       "parametros": [
@@ -9250,7 +9436,8 @@
       "subcategoria": "",
       "tags": [
         "H°A°"
-      ]
+      ],
+      "referencia": "SINAPI 93187 · 08/2026"
     },
     {
       "codigo": "OG029BR",
@@ -12450,7 +12637,7 @@
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
-          "rendimiento": 18.2987,
+          "rendimiento": 17.07379,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -12458,28 +12645,28 @@
           "codigo": "BR_CM018"
         },
         {
-          "nombre": "Pedreiro",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
-          "rendimiento": 1.7528,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_mo_albanil",
-          "codigo": "BR_CA001"
-        },
-        {
           "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 1.8446,
+          "rendimiento": 0.19117,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "br_mo_ayudante",
           "codigo": "BR_NC001"
+        },
+        {
+          "nombre": "Gesseiro",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.6037,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_88269",
+          "codigo": "BR_SC88269"
         }
       ],
       "parametros": [
@@ -12506,7 +12693,8 @@
       "subcategoria": "Revoque",
       "tags": [
         "estructural"
-      ]
+      ],
+      "referencia": "SINAPI 87415 · 08/2026"
     },
     {
       "codigo": "AC003BR",
@@ -13109,35 +13297,47 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Madeira Guanandi",
-          "unidad": "p2",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Madera",
-          "rendimiento": 11.7458,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_madera_palo_maria_p2",
-          "codigo": "BR_MD009"
-        },
-        {
-          "nombre": "Pregos",
+          "nombre": "Prego de Aço Polido com Cabeça 18 x 30 (2 3/4 x 10)",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
-          "rendimiento": 0.2763,
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.024,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_clavos_kg",
-          "codigo": "BR_FE030"
+          "idCanonico": "br_sinapi_icd_5075",
+          "codigo": "BR_SI5075"
+        },
+        {
+          "nombre": "Prego de Aço Polido com Cabeça 12 x 12",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.011,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_5066",
+          "codigo": "BR_SI5066"
+        },
+        {
+          "nombre": "Batente / Portal / Aduela / Marco em Madeira Maciça com Rebaixo, e = 3 cm, L = 14 cm, para Portas de Giro de 60 cm a 120 cm x 210 cm",
+          "unidad": "Pza",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 1.0,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_183",
+          "codigo": "BR_SI183"
         },
         {
           "nombre": "Cimento Portland",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
-          "rendimiento": 1.5309,
+          "rendimiento": 10.51148,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -13145,23 +13345,59 @@
           "codigo": "BR_CM016"
         },
         {
-          "nombre": "Areia Fina",
+          "nombre": "Areia Comum",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
-          "rendimiento": 0.009764,
+          "rendimiento": 0.02335885,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_arena_fina_m3",
-          "codigo": "BR_AG004"
+          "idCanonico": "br_arena_comun_m3",
+          "codigo": "BR_AG003"
+        },
+        {
+          "nombre": "Prego de Aço Polido com Cabeça 19 x 36 (3 1/4 x 9)",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.2,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_39027",
+          "codigo": "BR_SI39027"
+        },
+        {
+          "nombre": "Tinta Asfáltica Impermeabilizante Dispersa em Água, para Materiais Cimentícios",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 0.7084,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_7319",
+          "codigo": "BR_SI7319"
+        },
+        {
+          "nombre": "Servente",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 2.051356,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_ayudante",
+          "codigo": "BR_NC001"
         },
         {
           "nombre": "Carpinteiro",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
-          "rendimiento": 1.655,
+          "rendimiento": 4.614388,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -13169,16 +13405,16 @@
           "codigo": "BR_CA003"
         },
         {
-          "nombre": "Servente",
+          "nombre": "Pedreiro",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "No Calificada",
-          "rendimiento": 1.6544,
+          "categoria": "Calificada",
+          "rendimiento": 1.672504,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_ayudante",
-          "codigo": "BR_NC001"
+          "idCanonico": "br_mo_albanil",
+          "codigo": "BR_CA001"
         }
       ],
       "parametros": [],
@@ -13192,7 +13428,8 @@
         "MARCO MADERA 2\"x4\" PALO MARÍA"
       ],
       "subcategoria": "",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 90806 · 08/2026"
     },
     {
       "codigo": "AC010BR",
@@ -13878,7 +14115,7 @@
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
-          "rendimiento": 11.2477,
+          "rendimiento": 9.66321,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -13886,28 +14123,28 @@
           "codigo": "BR_CM018"
         },
         {
-          "nombre": "Pedreiro",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Calificada",
-          "rendimiento": 1.3843,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_mo_albanil",
-          "codigo": "BR_CA001"
-        },
-        {
           "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 1.3118,
+          "rendimiento": 0.10443,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "br_mo_ayudante",
           "codigo": "BR_NC001"
+        },
+        {
+          "nombre": "Gesseiro",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.32979,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_88269",
+          "codigo": "BR_SC88269"
         }
       ],
       "parametros": [
@@ -13934,7 +14171,8 @@
       "subcategoria": "Revoque",
       "tags": [
         "interior"
-      ]
+      ],
+      "referencia": "SINAPI 87418 · 08/2026"
     },
     {
       "codigo": "AC018BR",
@@ -16979,40 +17217,64 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Assoalho de Madeira E=1.9 Cm",
+          "nombre": "Cola Branca (PVA)",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Adhesivos",
+          "rendimiento": 1.7773,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_cola_fresca_kg",
+          "codigo": "BR_AD001"
+        },
+        {
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 10 x 2 cm",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
-          "rendimiento": 1.0217,
+          "rendimiento": 1.075,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_entablonado_madera_e_1_9_cm_m2",
-          "codigo": "BR_MD002"
+          "idCanonico": "br_sinapi_icd_6178",
+          "codigo": "BR_SI6178"
         },
         {
-          "nombre": "Oficial Especializado",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Obras Civiles",
-          "rendimiento": 1.9401,
+          "nombre": "Prego de Aço Polido com Cabeça 10 x 10 (7/8 x 17)",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.0825,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_especialista",
-          "codigo": "BR_OC004"
+          "idCanonico": "br_sinapi_icd_5065",
+          "codigo": "BR_SI5065"
         },
         {
           "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 2.0367,
+          "rendimiento": 0.2451161,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "br_mo_ayudante",
           "codigo": "BR_NC001"
+        },
+        {
+          "nombre": "Carpinteiro",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.4902322,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_carpintero",
+          "codigo": "BR_CA003"
         }
       ],
       "parametros": [
@@ -17037,7 +17299,8 @@
       "formulaResultado": "",
       "aliases": [],
       "subcategoria": "",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 101746 · 08/2026"
     },
     {
       "codigo": "AC034BR",
@@ -17119,76 +17382,88 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Madeira para Construção",
-          "unidad": "p2",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Madera",
-          "rendimiento": 6.669,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_madera_de_construccion_p2",
-          "codigo": "BR_MD007"
-        },
-        {
-          "nombre": "Estuque (Gesso para Acabamento)",
+          "nombre": "Prego de Aço Polido com Cabeça 22 x 48 (4 1/4 x 5)",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Cemento y Cal",
-          "rendimiento": 0.3574,
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.06875,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_estuco_kg",
-          "codigo": "BR_CM018"
+          "idCanonico": "br_sinapi_icd_40568",
+          "codigo": "BR_SI40568"
         },
         {
-          "nombre": "Tábua Macho-Fêmea de Cedro",
-          "unidad": "p2",
+          "nombre": "Tábua de Madeira para Piso, Cumaru/Ipê Champanhe ou Equivalente da Região, Encaixe Macho/Fêmea, 15 x 2 cm",
+          "unidad": "m2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Madera",
-          "rendimiento": 11.7459,
+          "rendimiento": 1.0162,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_machihembre_cedro_p2",
-          "codigo": "BR_MD005"
+          "idCanonico": "br_sinapi_icd_6180",
+          "codigo": "BR_SI6180"
         },
         {
-          "nombre": "Pregos",
+          "nombre": "Prego de Aço Polido com Cabeça 17 x 21 (2 x 11)",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Ferretería",
-          "rendimiento": 0.1762,
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.0189,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_clavos_kg",
-          "codigo": "BR_FE030"
+          "idCanonico": "br_sinapi_icd_5068",
+          "codigo": "BR_SI5068"
         },
         {
-          "nombre": "Pedreiro",
+          "nombre": "Viga 7,5 x 15 cm em Pinus, Mista ou Equivalente da Região - Bruta",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 2.18318,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_4448",
+          "codigo": "BR_SI4448"
+        },
+        {
+          "nombre": "Carpinteiro de Formas",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
-          "rendimiento": 2.5949,
+          "rendimiento": 0.630403,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_albanil",
-          "codigo": "BR_CA001"
+          "idCanonico": "br_mo_encofrador",
+          "codigo": "BR_CA005"
         },
         {
-          "nombre": "Servente",
+          "nombre": "Ajudante de Carpinteiro",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 2.4548,
+          "rendimiento": 0.45028,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_ayudante",
-          "codigo": "BR_NC001"
+          "idCanonico": "br_sinapi_ccd_88239",
+          "codigo": "BR_SC88239"
+        },
+        {
+          "nombre": "Locação de Andaime Metálico Tubular de Encaixe, tipo de Torre, Cada Painel com Largura de 1 Até 1,5 m e Altura de 1,00 m, Incluindo Diagonal",
+          "unidad": "m×mes",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Herramientas",
+          "rendimiento": 0.000835,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_10527",
+          "codigo": "BR_SI10527"
         }
       ],
       "parametros": [
@@ -17221,7 +17496,8 @@
       "subcategoria": "",
       "tags": [
         "estructural"
-      ]
+      ],
+      "referencia": "SINAPI 105090 · 08/2026"
     },
     {
       "codigo": "AC036BR",
@@ -17343,7 +17619,7 @@
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
-          "rendimiento": 21.3426,
+          "rendimiento": 17.65111,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -17351,35 +17627,59 @@
           "codigo": "BR_CM016"
         },
         {
-          "nombre": "Areia Fina",
+          "nombre": "Areia Comum",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
-          "rendimiento": 0.0487,
+          "rendimiento": 0.0392247,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_arena_fina_m3",
-          "codigo": "BR_AG004"
+          "idCanonico": "br_arena_comun_m3",
+          "codigo": "BR_AG003"
         },
         {
-          "nombre": "Pedra São Tomé",
+          "nombre": "Argamassa Colante tipo AC III",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Cemento y Cal",
+          "rendimiento": 6.85,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_37595",
+          "codigo": "BR_SI37595"
+        },
+        {
+          "nombre": "Pedra Quartzito ou Calcário Laminado, Serrada, tipo Cariri, Itacolomi, Lagoa Santa, Luminária, Pirenópolis",
           "unidad": "m2",
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
-          "rendimiento": 1.0733,
+          "rendimiento": 1.075,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_piedra_tarija_m2",
-          "codigo": "BR_AG021"
+          "idCanonico": "br_sinapi_icd_4710",
+          "codigo": "BR_SI4710"
+        },
+        {
+          "nombre": "Servente",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 1.25,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_ayudante",
+          "codigo": "BR_NC001"
         },
         {
           "nombre": "Pedreiro",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
-          "rendimiento": 2.2048,
+          "rendimiento": 1.25,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -17387,16 +17687,40 @@
           "codigo": "BR_CA001"
         },
         {
-          "nombre": "Servente",
+          "nombre": "Operador de Betoneira",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "No Calificada",
-          "rendimiento": 2.3127,
+          "categoria": "Equipo",
+          "rendimiento": 0.140735,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_ayudante",
-          "codigo": "BR_NC001"
+          "idCanonico": "br_mo_operador_de_mezcladora",
+          "codigo": "BR_EQ004"
+        },
+        {
+          "nombre": "Betoneira (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.109117,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_88831",
+          "codigo": "BR_SC88831"
+        },
+        {
+          "nombre": "Betoneira",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.031618,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_eq_mezcladora",
+          "codigo": "BR_MQ009"
         }
       ],
       "parametros": [
@@ -17421,7 +17745,8 @@
       "formulaResultado": "",
       "aliases": [],
       "subcategoria": "",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 101731 · 08/2026"
     },
     {
       "codigo": "AC038BR",
@@ -19812,7 +20137,7 @@
           "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
-          "rendimiento": 1.0225,
+          "rendimiento": 1.0,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -19820,23 +20145,23 @@
           "codigo": "BR_PL050"
         },
         {
-          "nombre": "Luva de PVC Roscável 1/2″",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
           "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
-          "rendimiento": 0.9747,
+          "rendimiento": 0.0084,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_copla_rosca_pvc_1_2_pza",
-          "codigo": "BR_PL034"
+          "idCanonico": "br_sinapi_icd_3148",
+          "codigo": "BR_SI3148"
         },
         {
           "nombre": "Encanador Especializado",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
-          "rendimiento": 0.8804,
+          "rendimiento": 0.0719,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -19844,16 +20169,16 @@
           "codigo": "BR_OC005"
         },
         {
-          "nombre": "Servente",
+          "nombre": "Auxiliar de Encanador ou Bombeiro Hidráulico",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.4369,
+          "rendimiento": 0.0719,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_ayudante",
-          "codigo": "BR_NC001"
+          "idCanonico": "br_sinapi_ccd_88248",
+          "codigo": "BR_SC88248"
         }
       ],
       "parametros": [],
@@ -19867,7 +20192,8 @@
         "PROVISIÓN Y COLOCADO DE LLAVE DE PASO 1/2\""
       ],
       "subcategoria": "",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 89352 · 08/2026"
     },
     {
       "codigo": "IS016BR",
@@ -19883,7 +20209,7 @@
           "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
-          "rendimiento": 0.9742,
+          "rendimiento": 1.0,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -19891,23 +20217,23 @@
           "codigo": "BR_PL051"
         },
         {
-          "nombre": "Luva de PVC Roscável 3/4″",
+          "nombre": "Fita Veda Rosca, em PTFE, Rolo de 18 mm x 50 m (L x C)",
           "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
-          "rendimiento": 0.9787,
+          "rendimiento": 0.0106,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_copla_rosca_pvc_3_4_pza",
-          "codigo": "BR_PL036"
+          "idCanonico": "br_sinapi_icd_3148",
+          "codigo": "BR_SI3148"
         },
         {
           "nombre": "Encanador Especializado",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Obras Civiles",
-          "rendimiento": 0.9228,
+          "rendimiento": 0.1102,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -19915,16 +20241,16 @@
           "codigo": "BR_OC005"
         },
         {
-          "nombre": "Servente",
+          "nombre": "Auxiliar de Encanador ou Bombeiro Hidráulico",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.4385,
+          "rendimiento": 0.1102,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_ayudante",
-          "codigo": "BR_NC001"
+          "idCanonico": "br_sinapi_ccd_88248",
+          "codigo": "BR_SC88248"
         }
       ],
       "parametros": [],
@@ -19938,7 +20264,8 @@
         "PROVISIÓN Y COLOCADO DE LLAVE DE PASO 3/4\""
       ],
       "subcategoria": "",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 89353 · 08/2026"
     },
     {
       "codigo": "IS017BR",
@@ -21793,35 +22120,11 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Caixa de Gordura de PVC",
-          "unidad": "Pza",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Plomería",
-          "rendimiento": 1.0288,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_camara_desgrasadora_pvc_sanear_pza",
-          "codigo": "BR_PL021"
-        },
-        {
-          "nombre": "Cimento Portland",
-          "unidad": "Kg",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Cemento y Cal",
-          "rendimiento": 5.1286,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_cemento_portland_kg",
-          "codigo": "BR_CM016"
-        },
-        {
           "nombre": "Areia Comum",
           "unidad": "m3",
           "tipoInsumo": "MATERIAL",
           "categoria": "Agregados",
-          "rendimiento": 0.04891,
+          "rendimiento": 0.01551,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -21829,28 +22132,52 @@
           "codigo": "BR_AG003"
         },
         {
-          "nombre": "Anel de Borracha para Junta Elástica 2″",
+          "nombre": "Caixa de Gordura em PVC, Diâmetro Mínimo 300 mm, Diâmetro de Saída 100 mm, Capacidade Aproximada 18 Litros, com Tampa e Cesto",
           "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
           "categoria": "Plomería",
-          "rendimiento": 2.057,
+          "rendimiento": 1.0,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_anillo_de_goma_stp_2_pza",
-          "codigo": "BR_PL011"
+          "idCanonico": "br_sinapi_icd_35277",
+          "codigo": "BR_SI35277"
+        },
+        {
+          "nombre": "Servente",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.266558,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_ayudante",
+          "codigo": "BR_NC001"
         },
         {
           "nombre": "Pedreiro",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
-          "rendimiento": 1.754,
+          "rendimiento": 0.3091599,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "br_mo_albanil",
           "codigo": "BR_CA001"
+        },
+        {
+          "nombre": "Compactador Manual de Impacto (Sapo)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Herramientas",
+          "rendimiento": 0.001904205,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_eq_compactadora_manual_de_impacto",
+          "codigo": "BR_HE003"
         }
       ],
       "parametros": [],
@@ -21864,7 +22191,8 @@
         "CÁMARA DESGRASADORA DE POLIETILENO 25x35x35 cm."
       ],
       "subcategoria": "Cámaras",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 98110 · 08/2026"
     },
     {
       "codigo": "IS035BR",
@@ -23844,47 +24172,179 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Estuque (Gesso para Acabamento)",
+          "nombre": "Brita Comum",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.00035832,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_grava_comun_m3",
+          "codigo": "BR_AG011"
+        },
+        {
+          "nombre": "Cimento Portland",
           "unidad": "Kg",
           "tipoInsumo": "MATERIAL",
           "categoria": "Cemento y Cal",
-          "rendimiento": 0.06458,
+          "rendimiento": 0.218966,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_estuco_kg",
-          "codigo": "BR_CM018"
+          "idCanonico": "br_cemento_portland_kg",
+          "codigo": "BR_CM016"
         },
         {
-          "nombre": "Estacas de Madeira",
+          "nombre": "Areia Comum",
+          "unidad": "m3",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Agregados",
+          "rendimiento": 0.0004365,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_arena_comun_m3",
+          "codigo": "BR_AG003"
+        },
+        {
+          "nombre": "Aço CA-60, 4,2 mm, ou 5,0 mm, ou 6,0 mm, ou 7,0 mm, Vergalhão",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.02281577,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_43059",
+          "codigo": "BR_SI43059"
+        },
+        {
+          "nombre": "Arame Recozido",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.0005330788,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_alambre_de_amarre_kg",
+          "codigo": "BR_AC006"
+        },
+        {
+          "nombre": "Espaçador / Distanciador Circular com Entrada Lateral, em Plástico, para Vergalhão 4,2 a 12,5 mm, Cobrimento 20 mm",
           "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
-          "categoria": "Madera",
-          "rendimiento": 0.0511,
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.06004599,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_estacas_de_madera_pza",
-          "codigo": "BR_MD003"
+          "idCanonico": "br_sinapi_icd_39017",
+          "codigo": "BR_SI39017"
         },
         {
-          "nombre": "Topógrafo",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Obras Civiles",
-          "rendimiento": 0.03707,
+          "nombre": "Prego de Aço Polido com Cabeça 15 x 15 (1 1/4 x 13)",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.00032225,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_topografo",
-          "codigo": "BR_OC008"
+          "idCanonico": "br_sinapi_icd_20247",
+          "codigo": "BR_SI20247"
+        },
+        {
+          "nombre": "Desmoldante Protetor para Formas de Madeira, de Base Oleosa Emulsionada em Água",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 6e-05,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_2692",
+          "codigo": "BR_SI2692"
+        },
+        {
+          "nombre": "Chapa/Painel de Madeira Compensada Resinada (Madeirite Resinado Rosa) para Forma de Concreto, de 2200 x 1100 mm, e = 17 mm",
+          "unidad": "m2",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 0.0014895,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_1358",
+          "codigo": "BR_SI1358"
+        },
+        {
+          "nombre": "Tinta Látex Acrílica Premium, Cor Branco Fosco",
+          "unidad": "L",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Pinturas",
+          "rendimiento": 0.0011,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_7356",
+          "codigo": "BR_SI7356"
+        },
+        {
+          "nombre": "Prego de Aço Polido com Cabeça 17 x 21 (2 x 11)",
+          "unidad": "Kg",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Acero y Metal",
+          "rendimiento": 0.0007,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_5068",
+          "codigo": "BR_SI5068"
+        },
+        {
+          "nombre": "Caibro Não Aparelhado 6 x 6 cm, em Macaranduba/Massaranduba, Angelim ou Equivalente da Região - Bruta",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 0.0413,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_4433",
+          "codigo": "BR_SI4433"
+        },
+        {
+          "nombre": "Sarrafo Não Aparelhado 2,5 x 7 cm, em Macaranduba/Massaranduba, Angelim, Peroba-Rosa ou Equivalente da Região - Bruta",
+          "unidad": "m",
+          "tipoInsumo": "MATERIAL",
+          "categoria": "Madera",
+          "rendimiento": 0.0413,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_icd_4417",
+          "codigo": "BR_SI4417"
+        },
+        {
+          "nombre": "Operador de Betoneira",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Equipo",
+          "rendimiento": 0.00075006,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_operador_de_mezcladora",
+          "codigo": "BR_EQ004"
         },
         {
           "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.03708,
+          "rendimiento": 0.01718402,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -23892,16 +24352,148 @@
           "codigo": "BR_NC001"
         },
         {
-          "nombre": "Estação Total",
+          "nombre": "Armador",
           "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Herramientas",
-          "rendimiento": 0.02772,
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.004239042,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_eq_estacion_total",
-          "codigo": "BR_HE008"
+          "idCanonico": "br_mo_armador",
+          "codigo": "BR_CA002"
+        },
+        {
+          "nombre": "Ajudante de Armador",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.0006908701,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_88238",
+          "codigo": "BR_SC88238"
+        },
+        {
+          "nombre": "Pedreiro",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.0159965,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_albanil",
+          "codigo": "BR_CA001"
+        },
+        {
+          "nombre": "Carpinteiro",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.00453425,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_carpintero",
+          "codigo": "BR_CA003"
+        },
+        {
+          "nombre": "Ajudante de Carpinteiro",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "No Calificada",
+          "rendimiento": 0.1193069,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_88239",
+          "codigo": "BR_SC88239"
+        },
+        {
+          "nombre": "Carpinteiro de Formas",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.1184,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_encofrador",
+          "codigo": "BR_CA005"
+        },
+        {
+          "nombre": "Betoneira Capacidade Nominal de 600 L (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.00036402,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_89226",
+          "codigo": "BR_SC89226"
+        },
+        {
+          "nombre": "Betoneira Capacidade Nominal de 600 L (CHP, hora produtiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.00038604,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_89225",
+          "codigo": "BR_SC89225"
+        },
+        {
+          "nombre": "Serra Circular de Bancada com Motor Elétrico Potência de 5 HP (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.00262005,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_91693",
+          "codigo": "BR_SC91693"
+        },
+        {
+          "nombre": "Serra Circular de Bancada com Motor Elétrico Potência de 5 HP (CHP, hora produtiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.0008868,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_91692",
+          "codigo": "BR_SC91692"
+        },
+        {
+          "nombre": "Vibrador de Imersão (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.00904585,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_90587",
+          "codigo": "BR_SC90587"
+        },
+        {
+          "nombre": "Vibrador de Imersão",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.0033175,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_eq_vibradora",
+          "codigo": "BR_MQ013"
         }
       ],
       "parametros": [
@@ -23920,7 +24512,8 @@
       "formulaResultado": "",
       "aliases": [],
       "subcategoria": "",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 99063 · 08/2026"
     },
     {
       "codigo": "IS053BR",
@@ -25673,23 +26266,11 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Operador de Retroescavadeira",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Equipo",
-          "rendimiento": 0.132,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_mo_operador_de_retroexcavadora",
-          "codigo": "BR_EQ007"
-        },
-        {
           "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.0644,
+          "rendimiento": 0.0762094,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -25697,11 +26278,23 @@
           "codigo": "BR_NC001"
         },
         {
+          "nombre": "Retroescavadeira (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.0375152,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_5679",
+          "codigo": "BR_SC5679"
+        },
+        {
           "nombre": "Retroescavadeira",
           "unidad": "Hr",
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Maquinaria",
-          "rendimiento": 0.1389,
+          "rendimiento": 0.0332585,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -25737,7 +26330,8 @@
       "formulaResultado": "",
       "aliases": [],
       "subcategoria": "",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 90105 · 08/2026"
     },
     {
       "codigo": "IS076BR",
@@ -26415,23 +27009,11 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Operador de Compactador",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Equipo",
-          "rendimiento": 0.3674,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_mo_operador_de_compactadora",
-          "codigo": "BR_EQ002"
-        },
-        {
           "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 1.3839,
+          "rendimiento": 0.7866,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -26443,12 +27025,36 @@
           "unidad": "Hr",
           "tipoInsumo": "HERRAMIENTA",
           "categoria": "Herramientas",
-          "rendimiento": 0.3524,
+          "rendimiento": 0.1962,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "br_eq_compactadora_manual_de_impacto",
           "codigo": "BR_HE003"
+        },
+        {
+          "nombre": "Caminhão Pipa (CHI, hora improdutiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.0006,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_5903",
+          "codigo": "BR_SC5903"
+        },
+        {
+          "nombre": "Caminhão Pipa",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Herramientas",
+          "rendimiento": 0.0054,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_eq_camion_cisterna",
+          "codigo": "BR_HE002"
         }
       ],
       "parametros": [
@@ -26479,7 +27085,8 @@
       "formulaResultado": "",
       "aliases": [],
       "subcategoria": "",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 93382 · 08/2026"
     },
     {
       "codigo": "IE024BR",
@@ -28211,23 +28818,23 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Transformador Trifásico 150 KVA 10.5 KV 380/220V",
+          "nombre": "Transformador Trifásico de Distribuição, Potência de 150 KVA, Tensão Nominal de 15 kV, Tensão Secundaria de 220/127V",
           "unidad": "Pza",
           "tipoInsumo": "MATERIAL",
           "categoria": "Eléctrico",
-          "rendimiento": 0.9709,
+          "rendimiento": 1.0,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_transformador_trifasico_150_kva_10_5_kv_380_220v_pza",
-          "codigo": "BR_EL038"
+          "idCanonico": "br_sinapi_icd_7614",
+          "codigo": "BR_SI7614"
         },
         {
           "nombre": "Eletricista",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "Calificada",
-          "rendimiento": 22.2455,
+          "rendimiento": 9.4717,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -28235,16 +28842,28 @@
           "codigo": "BR_CA004"
         },
         {
-          "nombre": "Servente",
+          "nombre": "Auxiliar de Eletricista",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 42.3038,
+          "rendimiento": 9.4717,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_ayudante",
-          "codigo": "BR_NC001"
+          "idCanonico": "br_sinapi_ccd_88247",
+          "codigo": "BR_SC88247"
+        },
+        {
+          "nombre": "Guindauto Hidráulico (CHP, hora produtiva)",
+          "unidad": "Hr",
+          "tipoInsumo": "HERRAMIENTA",
+          "categoria": "Maquinaria",
+          "rendimiento": 0.27586,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_sinapi_ccd_5928",
+          "codigo": "BR_SC5928"
         }
       ],
       "parametros": [],
@@ -28256,7 +28875,8 @@
       "formulaResultado": "1",
       "aliases": [],
       "subcategoria": "",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 102106 · 08/2026"
     },
     {
       "codigo": "CU023BR",
@@ -28961,7 +29581,7 @@
           "unidad": "L",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
-          "rendimiento": 0.1758,
+          "rendimiento": 0.2367,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -28969,40 +29589,28 @@
           "codigo": "BR_PT009"
         },
         {
-          "nombre": "Lixa para Parede",
-          "unidad": "Hoja",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Pinturas",
-          "rendimiento": 0.4605,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_lija_para_pared_hoja",
-          "codigo": "BR_PT003"
-        },
-        {
-          "nombre": "Oficial Especializado",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Obras Civiles",
-          "rendimiento": 0.4409,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_mo_especialista",
-          "codigo": "BR_OC004"
-        },
-        {
           "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.4604,
+          "rendimiento": 0.0757,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "br_mo_ayudante",
           "codigo": "BR_NC001"
+        },
+        {
+          "nombre": "Pintor",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.227,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_pintor",
+          "codigo": "BR_CA011"
         }
       ],
       "parametros": [
@@ -29027,7 +29635,8 @@
       "formulaResultado": "",
       "aliases": [],
       "subcategoria": "Pintura Interior",
-      "tags": []
+      "tags": [],
+      "referencia": "SINAPI 104640 · 08/2026"
     },
     {
       "codigo": "CU027BR",
@@ -29111,23 +29720,23 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Tinta Esmalte Sintético Brilhante",
+          "nombre": "Tinta Esmalte Sintético Premium Brilhante",
           "unidad": "L",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
-          "rendimiento": 0.3224,
+          "rendimiento": 0.2506,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_pintura_sintetica_brillo_l",
-          "codigo": "BR_PT011"
+          "idCanonico": "br_sinapi_icd_7292",
+          "codigo": "BR_SI7292"
         },
         {
           "nombre": "Aguarrás",
           "unidad": "L",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
-          "rendimiento": 0.3071,
+          "rendimiento": 0.025,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -29139,7 +29748,7 @@
           "unidad": "Hoja",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
-          "rendimiento": 0.4406,
+          "rendimiento": 0.8,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
@@ -29147,28 +29756,16 @@
           "codigo": "BR_PT003"
         },
         {
-          "nombre": "Oficial Especializado",
+          "nombre": "Pintor",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Obras Civiles",
-          "rendimiento": 0.5256,
+          "categoria": "Calificada",
+          "rendimiento": 0.8692,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_mo_especialista",
-          "codigo": "BR_OC004"
-        },
-        {
-          "nombre": "Servente",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "No Calificada",
-          "rendimiento": 0.5271,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_mo_ayudante",
-          "codigo": "BR_NC001"
+          "idCanonico": "br_mo_pintor",
+          "codigo": "BR_CA011"
         }
       ],
       "parametros": [
@@ -29193,7 +29790,8 @@
       "formulaResultado": "",
       "aliases": [],
       "subcategoria": "Puerta",
-      "tags": []
+      "tags": [],
+      "referencia": "adaptado de SINAPI 102220+102193 · 08/2026"
     },
     {
       "codigo": "AC050BR",
@@ -29205,52 +29803,40 @@
       "verificado": true,
       "insumos": [
         {
-          "nombre": "Tinta Super Látex Acrílica",
+          "nombre": "Tinta Látex Acrílica Premium, Cor Branco Fosco",
           "unidad": "L",
           "tipoInsumo": "MATERIAL",
           "categoria": "Pinturas",
-          "rendimiento": 0.3908,
+          "rendimiento": 0.20615,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
-          "idCanonico": "br_superlatex_acrilico_l",
-          "codigo": "BR_PT014"
-        },
-        {
-          "nombre": "Lixa para Parede",
-          "unidad": "Hoja",
-          "tipoInsumo": "MATERIAL",
-          "categoria": "Pinturas",
-          "rendimiento": 0.2309,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_lija_para_pared_hoja",
-          "codigo": "BR_PT003"
-        },
-        {
-          "nombre": "Oficial Especializado",
-          "unidad": "Hr",
-          "tipoInsumo": "MANO_DE_OBRA",
-          "categoria": "Obras Civiles",
-          "rendimiento": 0.4155,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_mo_especialista",
-          "codigo": "BR_OC004"
+          "idCanonico": "br_sinapi_icd_7356",
+          "codigo": "BR_SI7356"
         },
         {
           "nombre": "Servente",
           "unidad": "Hr",
           "tipoInsumo": "MANO_DE_OBRA",
           "categoria": "No Calificada",
-          "rendimiento": 0.3954,
+          "rendimiento": 0.0468,
           "precio": 0,
           "tipoCalculo": "DIRECTO",
           "baseCalculo": "",
           "idCanonico": "br_mo_ayudante",
           "codigo": "BR_NC001"
+        },
+        {
+          "nombre": "Pintor",
+          "unidad": "Hr",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "categoria": "Calificada",
+          "rendimiento": 0.2866,
+          "precio": 0,
+          "tipoCalculo": "DIRECTO",
+          "baseCalculo": "",
+          "idCanonico": "br_mo_pintor",
+          "codigo": "BR_CA011"
         }
       ],
       "parametros": [
@@ -29279,7 +29865,8 @@
       "subcategoria": "Pintura Exterior",
       "tags": [
         "exterior"
-      ]
+      ],
+      "referencia": "SINAPI 95626 · 08/2026"
     },
     {
       "codigo": "AC052BR",
