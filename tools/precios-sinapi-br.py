@@ -121,7 +121,8 @@ def main():
     man = os.path.join(RAIZ, "manifest.json")
     mraw = io.open(man, encoding="utf-8", newline="").read()
     mraw2 = re.sub(r'("precios_BR"\s*:\s*\{[^}]*?"version"\s*:\s*")[^"]*(")', lambda m: m.group(1) + of["version"] + m.group(2), mraw, count=1)
-    assert mraw2 != mraw, "no encontré precios_BR en el manifiesto"
+    # (una segunda corrida el mismo día deja la misma versión: eso no es error; sí lo es no hallar la clave)
+    assert re.search(r'"precios_BR"\s*:\s*\{[^}]*?"version"', mraw), "no encontré precios_BR en el manifiesto"
     io.open(man, "w", encoding="utf-8", newline="").write(mraw2)
     t = json.dumps(of, ensure_ascii=False, indent=2) + ("\n" if fin else "")
     io.open(OFICIALES, "w", encoding="utf-8", newline="").write(t.replace("\n", "\r\n") if crlf else t)
