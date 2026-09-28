@@ -95,7 +95,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PY.json"
     },
     "catalogo_BR": {
-      "version": "v20260928d-br-sinapi-fase-b",
+      "version": "v20260928e-br-transporte-unificado",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_BR.json"
     },
     "precios_BR": {

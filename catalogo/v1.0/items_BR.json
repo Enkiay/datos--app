@@ -1,5 +1,5 @@
 {
-  "version": "v20260928d-br-sinapi-fase-b",
+  "version": "v20260928e-br-transporte-unificado",
   "schemaVersion": 1,
   "pais": "BR",
   "generado": "tools/derivar-desde-bolivia.mjs",
@@ -5088,7 +5088,7 @@
     },
     {
       "codigo": "OT015BR",
-      "nombre": "Transporte de Material Excedente",
+      "nombre": "Carga e Transporte de Entulho ou Material Excedente (DMT 5 km)",
       "tipoCalculo": "VOLUMEN",
       "inputPrincipalLabel": "Volumen",
       "unidadResultado": "m3",
@@ -6033,95 +6033,6 @@
       "subcategoria": "Excavación",
       "tags": [],
       "referencia": "adaptado de SINAPI 94319 · 08/2026"
-    },
-    {
-      "codigo": "OT027BR",
-      "nombre": "Retirada e Transporte de Entulho com Carga",
-      "tipoCalculo": "VOLUMEN",
-      "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m3",
-      "categoria": "Otros",
-      "verificado": true,
-      "insumos": [
-        {
-          "nombre": "Caminhão Basculante 6 m³ Toco (CHI, hora improdutiva)",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Maquinaria",
-          "rendimiento": 0.0461244,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_sinapi_ccd_67827",
-          "codigo": "BR_SC67827"
-        },
-        {
-          "nombre": "Caminhão Basculante 6 m³ Toco (CHP, hora produtiva)",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Maquinaria",
-          "rendimiento": 0.0992785,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_sinapi_ccd_67826",
-          "codigo": "BR_SC67826"
-        },
-        {
-          "nombre": "Retroescavadeira 110 HP (CHI, hora improdutiva)",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Maquinaria",
-          "rendimiento": 0.0147124,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_sinapi_ccd_5632",
-          "codigo": "BR_SC5632"
-        },
-        {
-          "nombre": "Retroescavadeira 110 HP",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Maquinaria",
-          "rendimiento": 0.0083333,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_retroexcavadora_110_hp_hr",
-          "codigo": "BR_MQ017"
-        }
-      ],
-      "parametros": [
-        {
-          "nombre": "Largo",
-          "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        }
-      ],
-      "presets": [],
-      "tipoIfc": "",
-      "autorNombre": "",
-      "autorUid": "",
-      "armaduraJson": "",
-      "formulaResultado": "",
-      "aliases": [],
-      "subcategoria": "Excavación",
-      "tags": [],
-      "referencia": "SINAPI 100981 + 97914×5 · 08/2026"
     },
     {
       "codigo": "OG001BR",
@@ -42809,95 +42720,6 @@
       "aliases": [],
       "subcategoria": "Limpieza",
       "tags": []
-    },
-    {
-      "codigo": "OT038BR",
-      "nombre": "Limpeza e Retirada de Entulho",
-      "tipoCalculo": "VOLUMEN",
-      "inputPrincipalLabel": "Volumen",
-      "unidadResultado": "m3",
-      "categoria": "Otros",
-      "verificado": true,
-      "insumos": [
-        {
-          "nombre": "Caminhão Basculante 6 m³ Toco (CHI, hora improdutiva)",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Maquinaria",
-          "rendimiento": 0.0461244,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_sinapi_ccd_67827",
-          "codigo": "BR_SC67827"
-        },
-        {
-          "nombre": "Caminhão Basculante 6 m³ Toco (CHP, hora produtiva)",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Maquinaria",
-          "rendimiento": 0.0992785,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_sinapi_ccd_67826",
-          "codigo": "BR_SC67826"
-        },
-        {
-          "nombre": "Retroescavadeira 110 HP (CHI, hora improdutiva)",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Maquinaria",
-          "rendimiento": 0.0147124,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_sinapi_ccd_5632",
-          "codigo": "BR_SC5632"
-        },
-        {
-          "nombre": "Retroescavadeira 110 HP",
-          "unidad": "Hr",
-          "tipoInsumo": "HERRAMIENTA",
-          "categoria": "Maquinaria",
-          "rendimiento": 0.0083333,
-          "precio": 0,
-          "tipoCalculo": "DIRECTO",
-          "baseCalculo": "",
-          "idCanonico": "br_retroexcavadora_110_hp_hr",
-          "codigo": "BR_MQ017"
-        }
-      ],
-      "parametros": [
-        {
-          "nombre": "Largo",
-          "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Ancho",
-          "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        },
-        {
-          "nombre": "Alto",
-          "valorDefault": 1,
-          "unidad": "m",
-          "visiblePorDefecto": true
-        }
-      ],
-      "presets": [],
-      "tipoIfc": "",
-      "autorNombre": "",
-      "autorUid": "",
-      "armaduraJson": "",
-      "formulaResultado": "",
-      "aliases": [],
-      "subcategoria": "Limpieza",
-      "tags": [],
-      "referencia": "SINAPI 100981 + 97914×5 · 08/2026"
     },
     {
       "codigo": "UH006BR",
