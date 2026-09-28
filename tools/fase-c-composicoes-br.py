@@ -2608,6 +2608,17 @@ EN_ESPERA = {"OG047BR", "AC040BR", "AC044BR",
              "OG044BR", "OG052BR", "OG081BR", "OT008BR", "OT023BR", "UH022BR"}
 ELEGIDAS = {c: d["recomendada"] for c, d in DECISION.items()
             if not TEMA_DE[d.get("grupo", "")].startswith("1.") and c not in EN_ESPERA}
+# 28-sep-2026 (tarde) — las 60 que quedaban: Oscar las vio en la página de revisión y respondió «decide tú».
+# Elegidas por Claude, ítem por ítem (criterio: seguir el SINAPI sin cambiar lo que el ítem ES ni subvalorarlo; donde el
+# único sustituto SINAPI es otro producto o subvalora, queda la receta actual). Distintas de la recomendada del informe:
+# MP009 B (el nombre dice 15 cm),
+# IE005 A (sigue siendo un spot), OG044 B (horas del ítem con la cortadora SINAPI), CA002 B (1,00 × 1,00: los parámetros
+# del ítem), CR001 B (la ventana, el caso más caro), y quedan con su receta IE026, OG081 y OT023.
+ELEGIDAS_28SEP_TARDE = {"AC008BR": "A", "AC023BR": "A", "AC038BR": "A", "AC040BR": "A", "AC043BR": "A", "AC044BR": "A", "AC063BR": "A", "AC064BR": "B", "AC068BR": "A", "CA002BR": "B", "CA003BR": "B", "CR001BR": "B", "CR018BR": "A", "CU008BR": "A", "CU010BR": "A", "CU013BR": "A", "CU021BR": "A", "IE004BR": "A", "IE005BR": "A", "IS004BR": "A", "IS007BR": "A", "IS009BR": "A", "IS010BR": "A", "IS027BR": "A", "IS030BR": "A", "IS032BR": "A", "IS061BR": "A", "IS071BR": "A", "IS079BR": "A", "IS080BR": "A", "MP001BR": "A", "MP006BR": "A", "MP007BR": "A", "MP008BR": "A", "MP009BR": "B", "MP014BR": "A", "MP015BR": "A", "MP020BR": "A", "MP021BR": "A", "OG019BR": "A", "OG044BR": "B", "OG047BR": "A", "OG052BR": "A", "OG053BR": "B", "OG057BR": "A", "OT008BR": "A", "OT009BR": "A", "OT029BR": "A", "OT045BR": "A", "UH009BR": "A", "UH022BR": "A"}
+QUEDAN_CON_SU_RECETA = ["AC034BR", "AC058BR", "IE026BR", "IS037BR", "OG059BR", "OG060BR", "OG081BR", "OT023BR", "OT041BR"]
+assert not (set(ELEGIDAS) & set(ELEGIDAS_28SEP_TARDE)) and not (set(QUEDAN_CON_SU_RECETA) & set(ELEGIDAS))
+ELEGIDAS = {**ELEGIDAS, **ELEGIDAS_28SEP_TARDE}
+
 
 
 # ═════════════════════════════ cálculo ═════════════════════════════
