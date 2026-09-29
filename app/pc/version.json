@@ -1,10 +1,10 @@
 {
-  "version": "2.5.1",
-  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v2.5.1/ArqOn.Desktop_2.5.1_x64-setup.exe",
-  "notas": "## ArqOn PC 2.5.1\n\n### Pedir y activar la licencia\n- **Pantalla de licencia más clara**: con el código generado aparece la tarjeta «Licencia que solicitaste» (plan, precio y duración) y los pasos van numerados; el que toca se resalta y los ya hechos quedan con ✓.\n- **«Cambiar de plan y generar otro»** y **«corregir mis datos»** sin empezar de nuevo. Al cambiar de plan el pedido se reenvía en el momento.\n- Pedir QR, Comprobante y Comprobar en una sola fila de botones. El QR y el comprobante sólo aparecen en los planes de pago.\n- «Pedir el QR por WhatsApp» queda activo al volver a abrir ArqOn con la solicitud en proceso.\n- La casilla «Leí y acepto los Términos» se destaca cuando es lo único que falta.\n- El cuadro para pegar la licencia se vacía al activar.\n- Al generar el código se guardan tu contacto y el plan elegido, y el precio ya muestra el descuento por recomendación.\n\n### Cuenta\n- **«Comprobar»**: revisa tu licencia con el servidor en un clic (3 veces por mes).\n- «Quitar licencia» pide confirmación, con el plan a la vista.\n\n### Presupuesto\n- **Análisis de costos editable**: desde la ventana se corrige el precio del insumo en el proyecto y se abre el APU de la partida (lápiz o doble clic); al aplicar, el análisis se recalcula.\n- El editor de APU muestra los precios que el presupuesto está usando, también los que pusiste a mano.\n- Con el análisis abierto, la tabla de atrás ya no responde al teclado.\n\n### Brasil\n- Los mensajes salen en portugués: respuestas al pedir la licencia, WhatsApp a ventas y pedido de cotización al proveedor (con CNPJ).\n- Tutoriales en portugués para las licencias de Brasil.\n- La ficha del ítem oficial muestra su referencia (por ejemplo «SINAPI 87292 · 08/2026»).\n\n### Otros\n- La pestaña «Comprar» va centrada en la ventana.",
-  "publicado": "2026-09-28",
-  "sha256": "5848d37a055e7ea629a69839f6b6bade453bae613a078ed3f88554cbe2975061",
-  "firma": "93chZikWy1Pvh4rDrHS7gj81LmXpmynuXCYV+qOCMAFMmzgmvYOLNnFaqVeUiX5Gz1CFp8w5BnPGGIdl6AyqBA==",
+  "version": "2.5.2",
+  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v2.5.2/ArqOn.Desktop_2.5.2_x64-setup.exe",
+  "notas": "## ArqOn PC 2.5.2\n\n### Código de recomendación\n- **El código vale en todos los países y descuenta lo acordado para el tuyo**, en tu moneda. Antes el mismo número se restaba igual en cualquier moneda.\n- El monto del descuento se muestra con la moneda de tu país (Bs, S/, €, $, R$…).\n- Si el código no tiene descuento publicado para tu país, la pantalla lo dice. Igual queda registrado con tu solicitud, para que quien te recomendó no pierda el crédito.",
+  "publicado": "2026-09-29",
+  "sha256": "0791fe05f6c3c2ebe6c20f7766239ea8f2b2c3a27dfc71a932d8285072fab09b",
+  "firma": "j1J6auvJDg65hkYmx+22ZZMzlRKaLQLyxq4cTc0S+Cuns4qOYsqtNrf+9g/kcF+WOTyMOHUQGKpyk8CwMnRKCA==",
   "minima": "2.1.8",
-  "firmaManifiesto": "ieFvmehZWUutZqBIHs8a7k8Pe0KJKImbiW6R/1KFvyL4WW1XPR+bu1PAcjFJ5u2eYKIaQ/dnCvgg1Vxalq04BQ=="
+  "firmaManifiesto": "+FK8M9yvlDoYxdT6SIPQz4DdbswbILNkWX/fqAVxpxRy8bpff87ScJjsk8pUszlx+IAHZB99sGFBN6p43VzzAA=="
 }
