@@ -67,7 +67,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_EC.json"
     },
     "precios_EC": {
-      "version": "v20260924d-tipos-bim",
+      "version": "v20260929-una-ciudad-por-departamento",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_EC.json"
     },
     "catalogo_CO": {
@@ -75,7 +75,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_CO.json"
     },
     "precios_CO": {
-      "version": "v20260911-acero-corrugado",
+      "version": "v20260929-una-ciudad-por-departamento",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_CO.json"
     },
     "catalogo_AR": {
@@ -83,7 +83,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_AR.json"
     },
     "precios_AR": {
-      "version": "v20260911-acero-corrugado",
+      "version": "v20260929-una-ciudad-por-departamento",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_AR.json"
     },
     "catalogo_PY": {
@@ -91,7 +91,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_PY.json"
     },
     "precios_PY": {
-      "version": "v20260911-acero-corrugado",
+      "version": "v20260929-una-ciudad-por-departamento",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_PY.json"
     },
     "catalogo_BR": {
@@ -99,7 +99,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_BR.json"
     },
     "precios_BR": {
-      "version": "v20260928h-br-sinapi-202608",
+      "version": "v20260929-br-sinapi-202608",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_BR.json"
     },
     "catalogo_MX": {
@@ -107,7 +107,7 @@
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/catalogo/v1.0/items_MX.json"
     },
     "precios_MX": {
-      "version": "v20260923-mx-base",
+      "version": "v20260929-una-ciudad-por-departamento",
       "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/precios/v1.0/oficiales_MX.json"
     }
   }

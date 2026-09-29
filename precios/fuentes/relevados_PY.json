@@ -1984,6 +1984,46 @@
      "nota": "Jornal minimo LEGAL de Peones (Edificaciones y Obras de Construccion): G. 118.248/dia (Resolucion MTESS N 670/2026 (Decreto 6.225/2026), vigente 1-jul-2026), dividido por 8 h y cargado con IPS patronal 16,5 % y aguinaldo 8,33 % (x1,2483). Es COSTO HORARIO con las cargas ADENTRO: por eso la caja paraguaya lleva cargasSociales = 0. Es el MINIMO legal, no un precio de mercado, y rige «en todo el territorio de la Republica»: por eso no varia por ciudad."
     }
    ]
+  },
+  {
+   "nombre": "San Pedro de Ycuamandiyú (SPY)",
+   "precios": []
+  },
+  {
+   "nombre": "Caacupé (CAA)",
+   "precios": []
+  },
+  {
+   "nombre": "Caazapá (CZP)",
+   "precios": []
+  },
+  {
+   "nombre": "San Juan Bautista (SJB)",
+   "precios": []
+  },
+  {
+   "nombre": "Paraguarí (PAR)",
+   "precios": []
+  },
+  {
+   "nombre": "Pilar (PIL)",
+   "precios": []
+  },
+  {
+   "nombre": "Salto del Guairá (SDG)",
+   "precios": []
+  },
+  {
+   "nombre": "Villa Hayes (VHA)",
+   "precios": []
+  },
+  {
+   "nombre": "Filadelfia (FIL)",
+   "precios": []
+  },
+  {
+   "nombre": "Fuerte Olimpo (FOL)",
+   "precios": []
   }
  ]
 }

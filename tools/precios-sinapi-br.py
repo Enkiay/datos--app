@@ -29,6 +29,10 @@ FUENTE = os.path.join(RAIZ, "precios", "fuentes", "sinapi_BR.json")
 CIUDAD_UF = {
     "São Paulo": "SP", "Rio de Janeiro": "RJ", "Belo Horizonte": "MG", "Brasília": "DF", "Curitiba": "PR",
     "Porto Alegre": "RS", "Salvador": "BA", "Recife": "PE", "Fortaleza": "CE", "Manaus": "AM",
+    # Las otras 17 capitales (29-sep-2026, una ciudad por estado): el libro las trae a todas.
+    "Rio Branco": "AC", "Maceió": "AL", "Macapá": "AP", "Vitória": "ES", "Goiânia": "GO", "São Luís": "MA",
+    "Cuiabá": "MT", "Campo Grande": "MS", "Belém": "PA", "João Pessoa": "PB", "Teresina": "PI", "Natal": "RN",
+    "Porto Velho": "RO", "Boa Vista": "RR", "Florianópolis": "SC", "Aracaju": "SE", "Palmas": "TO",
 }
 
 

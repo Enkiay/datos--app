@@ -99,7 +99,7 @@ const CONFIG = {
   },
   AR: {
     version: "v20260907-referencias-ba-rosario",
-    fuente: "Base boliviana (catálogo ArqOn) + precios de Argentina: Unidad Central de Contrataciones (UCC), Provincia de Salta — planilla de insumos, julio 2026 (ciudad de referencia). Buenos Aires (Red Materiales 7-sep-2026 + Materiales Moreno, GBA Oeste) y Rosario (La Económica, Gran Rosario) con referencias propias de materiales y el resto estimado por relación; la mano de obra es la escala UOCRA zona A en todo el país. Las otras 13 ciudades COPIAN Salta hasta relevarse.",
+    fuente: "Base boliviana (catálogo ArqOn) + precios de Argentina: Unidad Central de Contrataciones (UCC), Provincia de Salta — planilla de insumos, julio 2026 (ciudad de referencia). Buenos Aires (Red Materiales 7-sep-2026 + Materiales Moreno, GBA Oeste) y Rosario (La Económica, Gran Rosario) con referencias propias de materiales y el resto estimado por relación; la mano de obra es la escala UOCRA zona A en todo el país. Las otras 24 ciudades COPIAN Salta hasta relevarse.",
     // MANO DE OBRA: la UCC cotiza «Cuadrilla tipo UOCRA» a $10.836/h y un ayudante a $10.030/h —
     // la magnitud de UNA hora-hombre promedio, no de un equipo entero—, con las cargas ADENTRO
     // (costo empresa; por eso la caja argentina lleva cargasSociales = 0 y ninguna línea de %).
@@ -125,8 +125,8 @@ const CONFIG = {
     },
   },
   EC: {
-    version: "v20260924d-tipos-bim",
-    fuente: "Base boliviana (catálogo ArqOn) + precios de Ecuador: Contraloría General del Estado (salarios mínimos por ley 2026, hora real con cargas: la caja lleva cargasSociales = 0) y precios de referencia de mercado de Quito 2026. Relevado en Quito; las otras 6 ciudades COPIAN Quito (referencial) hasta relevarse. La cadena ecuatoriana agrega el IVA (15 %) al final: los insumos van sin IVA.",
+    version: "v20260929-una-ciudad-por-departamento",
+    fuente: "Base boliviana (catálogo ArqOn) + precios de Ecuador: Contraloría General del Estado (salarios mínimos por ley 2026, hora real con cargas: la caja lleva cargasSociales = 0) y precios de referencia de mercado de Quito 2026. Relevado en Quito; las otras 23 ciudades COPIAN Quito (referencial) hasta relevarse. La cadena ecuatoriana agrega el IVA (15 %) al final: los insumos van sin IVA.",
     // El cemento ecuatoriano se vende por SACO de 50 kg y el boliviano por kg: no es equivalente,
     // entra como REFERENCIA convertida (referencias_EC.json). Lo mismo con galones y tubos.
     equivalentes: {
@@ -184,7 +184,7 @@ const CONFIG = {
   },
   CO: {
     version: "v20260902-referencias-ffie",
-    fuente: "Base boliviana (catálogo ArqOn) + precios de Colombia: precios de referencia de mercado de Bogotá 2026 y jornales con factor prestacional incluido (la caja lleva cargasSociales = 0). Relevado en Bogotá; las otras 7 ciudades COPIAN Bogotá (referencial) hasta relevarse. La cadena colombiana agrega el IVA (19 %) al final: los insumos van sin IVA.",
+    fuente: "Base boliviana (catálogo ArqOn) + precios de Colombia: precios de referencia de mercado de Bogotá 2026 y jornales con factor prestacional incluido (la caja lleva cargasSociales = 0). Relevado en Bogotá; las otras 31 ciudades COPIAN Bogotá (referencial) hasta relevarse. La cadena colombiana agrega el IVA (19 %) al final: los insumos van sin IVA.",
     // Cemento por BULTO de 50 kg, pintura por galón, tubería por tubo: entran como REFERENCIA
     // convertida (referencias_CO.json), no como equivalentes.
     equivalentes: {
@@ -224,6 +224,10 @@ const CONFIG = {
     ciudades: [
       "São Paulo", "Rio de Janeiro", "Belo Horizonte", "Brasília", "Curitiba",
       "Porto Alegre", "Salvador", "Recife", "Fortaleza", "Manaus",
+      // Una ciudad por estado (29-sep-2026): las otras 17 capitales. Ver tools/sembrar-ciudades.py.
+      "Rio Branco", "Maceió", "Macapá", "Vitória", "Goiânia", "São Luís", "Cuiabá", "Campo Grande",
+      "Belém", "João Pessoa", "Teresina", "Natal", "Porto Velho", "Boa Vista", "Florianópolis",
+      "Aracaju", "Palmas",
     ],
     // Y el primero que no habla español: los nombres salen de precios/fuentes/nombres_BR.json
     // (insumos) y catalogo/fuentes/nombres_items_BR.json (ítems). Sin ellos NO se publica: un
@@ -233,7 +237,7 @@ const CONFIG = {
     familias: {},
   },
   MX: {
-    version: "v20260923-mx-base",
+    version: "v20260929-una-ciudad-por-departamento",
     fuente: "Base boliviana (catálogo ArqOn) + precios de México: mano de obra = SALARIO REAL DE MERCADO de la CDMX (UNAM, «Costos y precios unitarios 2025»: oficial albañil $858,80 por jornada, con el factor de salario real adentro; los oficios que el libro no trae, por la proporción de los mínimos profesionales 2026 de la CONASAMI); materiales = precios de tiendas mexicanas 2025-2026 con URL, sin IVA. Relevado en Ciudad de México; las otras ciudades COPIAN la CDMX (referencial) hasta relevarse. La cadena MEX agrega el IVA (16 %) al final: los insumos van sin IVA.",
     // México es, como Brasil, un país SIN base previa: las ciudades se declaran acá (la de referencia
     // PRIMERA) y todo el precio entra por referencias (precios/fuentes/referencias_MX.json) o por
@@ -242,6 +246,12 @@ const CONFIG = {
     ciudades: [
       "Ciudad de México (CDMX)", "Guadalajara (GDL)", "Monterrey (MTY)", "Puebla (PUE)",
       "Querétaro (QRO)", "Tuxtla Gutiérrez (TGZ)", "Mérida (MID)", "Tijuana (TIJ)",
+      // Una ciudad por estado (29-sep-2026): la capital de los otros 24. Ver tools/sembrar-ciudades.py.
+      "Aguascalientes (AGU)", "La Paz (LAP)", "Campeche (CPE)", "Chihuahua (CUU)", "Saltillo (SLW)",
+      "Colima (CLQ)", "Durango (DGO)", "Guanajuato (GTO)", "Chilpancingo (CHP)", "Pachuca (PAC)",
+      "Toluca (TLC)", "Morelia (MLM)", "Cuernavaca (CVJ)", "Tepic (TPQ)", "Oaxaca (OAX)",
+      "Chetumal (CTM)", "San Luis Potosí (SLP)", "Culiacán (CUL)", "Hermosillo (HMO)",
+      "Villahermosa (VSA)", "Ciudad Victoria (CVM)", "Tlaxcala (TLX)", "Xalapa (XAL)", "Zacatecas (ZCL)",
     ],
     equivalentes: {},
     familias: {},

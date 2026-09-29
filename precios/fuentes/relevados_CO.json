@@ -546,6 +546,102 @@
     {
       "nombre": "Pereira",
       "precios": []
+    },
+    {
+      "nombre": "Leticia",
+      "precios": []
+    },
+    {
+      "nombre": "Arauca",
+      "precios": []
+    },
+    {
+      "nombre": "Tunja",
+      "precios": []
+    },
+    {
+      "nombre": "Manizales",
+      "precios": []
+    },
+    {
+      "nombre": "Florencia",
+      "precios": []
+    },
+    {
+      "nombre": "Yopal",
+      "precios": []
+    },
+    {
+      "nombre": "Popayán",
+      "precios": []
+    },
+    {
+      "nombre": "Valledupar",
+      "precios": []
+    },
+    {
+      "nombre": "Quibdó",
+      "precios": []
+    },
+    {
+      "nombre": "Montería",
+      "precios": []
+    },
+    {
+      "nombre": "Inírida",
+      "precios": []
+    },
+    {
+      "nombre": "San José del Guaviare",
+      "precios": []
+    },
+    {
+      "nombre": "Neiva",
+      "precios": []
+    },
+    {
+      "nombre": "Riohacha",
+      "precios": []
+    },
+    {
+      "nombre": "Santa Marta",
+      "precios": []
+    },
+    {
+      "nombre": "Villavicencio",
+      "precios": []
+    },
+    {
+      "nombre": "Pasto",
+      "precios": []
+    },
+    {
+      "nombre": "Mocoa",
+      "precios": []
+    },
+    {
+      "nombre": "Armenia",
+      "precios": []
+    },
+    {
+      "nombre": "San Andrés",
+      "precios": []
+    },
+    {
+      "nombre": "Sincelejo",
+      "precios": []
+    },
+    {
+      "nombre": "Ibagué",
+      "precios": []
+    },
+    {
+      "nombre": "Mitú",
+      "precios": []
+    },
+    {
+      "nombre": "Puerto Carreño",
+      "precios": []
     }
   ]
 }

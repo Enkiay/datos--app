@@ -672,6 +672,74 @@
     {
       "nombre": "Machala",
       "precios": []
+    },
+    {
+      "nombre": "Guaranda",
+      "precios": []
+    },
+    {
+      "nombre": "Azogues",
+      "precios": []
+    },
+    {
+      "nombre": "Tulcán",
+      "precios": []
+    },
+    {
+      "nombre": "Riobamba",
+      "precios": []
+    },
+    {
+      "nombre": "Latacunga",
+      "precios": []
+    },
+    {
+      "nombre": "Esmeraldas",
+      "precios": []
+    },
+    {
+      "nombre": "Puerto Baquerizo Moreno",
+      "precios": []
+    },
+    {
+      "nombre": "Ibarra",
+      "precios": []
+    },
+    {
+      "nombre": "Babahoyo",
+      "precios": []
+    },
+    {
+      "nombre": "Macas",
+      "precios": []
+    },
+    {
+      "nombre": "Tena",
+      "precios": []
+    },
+    {
+      "nombre": "Puerto Francisco de Orellana",
+      "precios": []
+    },
+    {
+      "nombre": "Puyo",
+      "precios": []
+    },
+    {
+      "nombre": "Santa Elena",
+      "precios": []
+    },
+    {
+      "nombre": "Santo Domingo",
+      "precios": []
+    },
+    {
+      "nombre": "Nueva Loja",
+      "precios": []
+    },
+    {
+      "nombre": "Zamora",
+      "precios": []
     }
   ]
 }
