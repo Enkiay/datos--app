@@ -22,7 +22,8 @@
     "xRhCKT4B2T3hOHhPf5dJ",
     "OFF-9de85efb58712ddb",
     "WssR3nfU06qwYGVyAFiE",
-    "j41EjvY3pqtbVujTInnq"
+    "j41EjvY3pqtbVujTInnq",
+    "OFF-7c491c57b957e6c5"
   ],
   "maquinas": [
     {
@@ -36,7 +37,7 @@
   ],
   "actualizado": "2026-09-29",
   "firmada": {
-    "datos": "{\"v\":1,\"generado\":1790722530,\"ids\":[\"OFF-b181090b400dcbc6\",\"OFF-496c11e3ca906ae5\",\"OFF-a277788acba8a939\",\"OFF-34404f62de733a49\",\"OFF-90a3052b54503a56\",\"OFF-a2adc70fd6ffae9b\",\"OFF-a3d0184d84c68507\",\"OFF-9bc610fb68cf1e56\",\"OFF-b6c508835dab4c53\",\"OFF-c45032cc13117f4e\",\"OFF-afbe70830fffcc32\",\"OFF-00706375f48ccbc4\",\"OFF-fa450bd5371e2355\",\"OFF-abdf1c6f72b0e541\",\"OFF-16d3b2e6f845ce82\",\"OFF-0ed310b92a1bf3e0\",\"wTzJLhLus8YghqBStjr1\",\"FuNdybHPBjmoDE1I2nkB\",\"OFF-9476b5803beaf0bf\",\"xRhCKT4B2T3hOHhPf5dJ\",\"OFF-9de85efb58712ddb\",\"WssR3nfU06qwYGVyAFiE\",\"j41EjvY3pqtbVujTInnq\"],\"maquinas\":[{\"id\":\"3d95590766afe9fae4b734a4b0516b11eeba0e50af77c734d265a287be15da10\",\"ts\":1790514138},{\"id\":\"6eaa50a1ad30bb9587fb7047f5601a23085fe9d8532b2366edde0703aaeabdef\",\"ts\":1790514154}]}",
-    "firma": "nAeRoCfRZ6ttqjJGkWCPzzk5o4cZs/G5JwgcYxJdLnFZiupHtQOrcJxtXxqcv0dPaczUXtyaIUNKY72VULODCw=="
+    "datos": "{\"v\":1,\"generado\":1790722534,\"ids\":[\"OFF-b181090b400dcbc6\",\"OFF-496c11e3ca906ae5\",\"OFF-a277788acba8a939\",\"OFF-34404f62de733a49\",\"OFF-90a3052b54503a56\",\"OFF-a2adc70fd6ffae9b\",\"OFF-a3d0184d84c68507\",\"OFF-9bc610fb68cf1e56\",\"OFF-b6c508835dab4c53\",\"OFF-c45032cc13117f4e\",\"OFF-afbe70830fffcc32\",\"OFF-00706375f48ccbc4\",\"OFF-fa450bd5371e2355\",\"OFF-abdf1c6f72b0e541\",\"OFF-16d3b2e6f845ce82\",\"OFF-0ed310b92a1bf3e0\",\"wTzJLhLus8YghqBStjr1\",\"FuNdybHPBjmoDE1I2nkB\",\"OFF-9476b5803beaf0bf\",\"xRhCKT4B2T3hOHhPf5dJ\",\"OFF-9de85efb58712ddb\",\"WssR3nfU06qwYGVyAFiE\",\"j41EjvY3pqtbVujTInnq\",\"OFF-7c491c57b957e6c5\"],\"maquinas\":[{\"id\":\"3d95590766afe9fae4b734a4b0516b11eeba0e50af77c734d265a287be15da10\",\"ts\":1790514138},{\"id\":\"6eaa50a1ad30bb9587fb7047f5601a23085fe9d8532b2366edde0703aaeabdef\",\"ts\":1790514154}]}",
+    "firma": "hOzX1Ofka/175cuDm3RHMsegN4uOibrrXqmiAOwLDYJ86hHhgfQlgoC5svGEUSstzJ1YJhwshj9Fcaj1BGJ5Cg=="
   }
 }
