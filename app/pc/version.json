@@ -1,10 +1,10 @@
 {
-  "version": "2.5.3",
-  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v2.5.3/ArqOn.Desktop_2.5.3_x64-setup.exe",
-  "notas": "## ArqOn PC 2.5.3\n\n### Máquinas virtuales\n- **ArqOn no funciona en máquinas virtuales** (VMware, VirtualBox, Hyper-V, Parallels y similares). Si el programa detecta una, lo avisa en la pantalla de licencia y no se pueden pedir licencias ni pruebas desde ahí. Instalalo en una computadora con Windows; si necesitás una excepción, escribinos por WhatsApp.\n- Una Mac con Windows instalado directamente (Boot Camp) funciona como cualquier PC.\n\n### Ciudades\n- Más ciudades con precios en Argentina, Paraguay, Brasil, Colombia, México y Ecuador: ahora hay al menos una por departamento, estado o provincia.\n\n### Mensajes\n- Mensajes más claros cuando un equipo está bloqueado o no puede pedir una licencia, también en portugués.",
+  "version": "2.5.4",
+  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v2.5.4/ArqOn.Desktop_2.5.4_x64-setup.exe",
+  "notas": "## ArqOn PC 2.5.4\n\n### Datos oficiales con tu licencia\n- La base oficial de ítems y precios, el Índice ArqOn y los recursos se descargan ahora a través de tu licencia, para el país de tu licencia. No tenés que hacer nada: funciona igual que antes.\n- «Actualizar precios», «Descargar la BD oficial», Comunidad y el precio publicado en «Editar insumo» usan el mismo camino.\n\n### Seguridad\n- ArqOn no funciona en máquinas virtuales (VMware, VirtualBox, Hyper-V, Parallels y similares).",
   "publicado": "2026-09-29",
-  "sha256": "8918e43b598e5ab381283b7378f129242a074d9723e038db7c9ff12a637fac0b",
-  "firma": "TwumsQ3zyJJKk37AoxB5qiPmvdpneyf53RM6zIKG1N7KvCnRVmJF9aTcyR8+1eyLtt7e2LDJpr74VJAuFB9OCQ==",
+  "sha256": "5343a210d46f8b27a8e4580e0fa06a19443effdbc008629e51872ca74b231581",
+  "firma": "KGrW/PHVWSmO2ixKu2ZrutBPpNmeMHHCTQFdtKz+NVJVdN9+CLIjPAZBoX2WO0lJ6OME3TnWXlRl4qYJUOUJAw==",
   "minima": "2.1.8",
-  "firmaManifiesto": "uyQZQBbO4lNwK2Kee0yL/0MAfFPavkNOhzdLjQBFhLV0W/s3lym3XS6YDrG/eosGK9j5ixKcNpYgT1m0FIFIDA=="
+  "firmaManifiesto": "eS2n4oIh2KsWvWDqjRsAo/SI/jLMXk+ZDeib33nMg0pQ/iBbjrviHsfmcltj6KZXb2BZRjK4m+CoecQvPlkuDg=="
 }
