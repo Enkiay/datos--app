@@ -1,10 +1,10 @@
 {
-  "version": "2.5.4",
-  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v2.5.4/ArqOn.Desktop_2.5.4_x64-setup.exe",
-  "notas": "## ArqOn PC 2.5.4\n\n### Datos oficiales con tu licencia\n- La base oficial de ítems y precios, el Índice ArqOn y los recursos se descargan ahora a través de tu licencia, para el país de tu licencia. No tenés que hacer nada: funciona igual que antes.\n- «Actualizar precios», «Descargar la BD oficial», Comunidad y el precio publicado en «Editar insumo» usan el mismo camino.\n\n### Seguridad\n- ArqOn no funciona en máquinas virtuales (VMware, VirtualBox, Hyper-V, Parallels y similares).",
-  "publicado": "2026-09-29",
-  "sha256": "5343a210d46f8b27a8e4580e0fa06a19443effdbc008629e51872ca74b231581",
-  "firma": "KGrW/PHVWSmO2ixKu2ZrutBPpNmeMHHCTQFdtKz+NVJVdN9+CLIjPAZBoX2WO0lJ6OME3TnWXlRl4qYJUOUJAw==",
+  "version": "2.5.5",
+  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v2.5.5/ArqOn.Desktop_2.5.5_x64-setup.exe",
+  "notas": "",
+  "publicado": "2026-09-30",
+  "sha256": "50edea5a6b904ca7940c1b0eb3b1bba4cfba4c74bfe255a17ff45e244fc68f12",
+  "firma": "mKVn0tqCYIB0n8k0WkcBjFA8oADwU5EHisbpEBK1PGouENvzkM5jjJ2B/31HPtbW38J026RsUssBOI1yGwxqCw==",
   "minima": "2.1.8",
-  "firmaManifiesto": "eS2n4oIh2KsWvWDqjRsAo/SI/jLMXk+ZDeib33nMg0pQ/iBbjrviHsfmcltj6KZXb2BZRjK4m+CoecQvPlkuDg=="
+  "firmaManifiesto": "1CXkRnPo+Lvybq1Y4ss7eI15vjfjAoeYWKXzWRV+N6WCTQ6tKl3EDsm8EFOxhcJmwX+6sxwfTEnTz6YmVlV7CQ=="
 }
