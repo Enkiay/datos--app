@@ -90,6 +90,13 @@
       "duracion": "2:34",
       "premium": true,
       "tema": "Ítems y biblioteca"
+    },
+    {
+      "titulo": "PARAMETROS DE CALCULO, FACTURADOS Y NO FACTURADOS",
+      "descripcion": "Aprende a separar insumos facturados y no facturados dentro del APU y configura tus cadenas de cálculo según las necesidades de cada proyecto.\n",
+      "url": "https://www.youtube.com/watch?v=Ficp4nbBQO0",
+      "duracion": "2:22",
+      "tema": "Cadenas de cálculo"
     }
   ]
 }
