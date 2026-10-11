@@ -1,8 +1,8 @@
 {
   "formato": "arqon-datos-v1",
-  "actualizado": "2026-10-01T23:03:55Z",
+  "actualizado": "2026-10-11T14:29:25Z",
   "firmada": {
-    "datos": "{\"v\":1,\"generado\":1790895835,\"obligatoria\":false,\"archivos\":{\"precios/v1.0/oficiales.json\":\"fe4faf40332042b5e4b716edbdc5529d2c32a1f5244efd0b4a2b457de56ea569\"}}",
-    "firma": "4blfntnzY1VgyVGTYChGSffT7eOUm3xb1YaseSOlwerwWidGjUKsovhsio1nIpp5Pa6s05ZTaGjWMv7dnurADw=="
+    "datos": "{\"v\":1,\"generado\":1791728965,\"obligatoria\":false,\"archivos\":{\"precios/v1.0/oficiales.json\":\"d13d78168e07ae751dd8cc83ef6dffed8b3cab5add38f7e1094055ed0a4ec64c\"}}",
+    "firma": "IlBbhTfTC2Kb3VgiHKrXGQx+fGqwH2YQlb6JiBw5jrJNln20lsARIudSKcINQNYpTXq8kOHQvn4r5qiMKci/Cw=="
   }
 }
