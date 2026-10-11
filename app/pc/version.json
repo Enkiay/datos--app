@@ -1,10 +1,10 @@
 {
-  "version": "2.5.7",
-  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v2.5.7/ArqOn.Desktop_2.5.7_x64-setup.exe",
+  "version": "2.5.6",
+  "url": "https://github.com/Enkiay/datos--app/releases/download/pc-v2.5.6/ArqOn.Desktop_2.5.6_x64-setup.exe",
   "notas": "",
-  "publicado": "2026-10-11",
-  "sha256": "ad4f3611eab45667fc913971ab8f4cbcc6a32e1525213e909da87e24745c8689",
-  "firma": "FWoyfby3yGFh5iRwI7q8wmVmikIyf6jj7MMJbKlFkZAtO2XOS4RBq1hFNJl3dz4Gp+tSomd7msAmtExBPKkMDQ==",
+  "publicado": "2026-10-05",
+  "sha256": "16147807c02ccf649714fb058542fe232d9601fb6d286b0646b06218808868b9",
+  "firma": "LFF834dGzgcySEUNevB/xU15ONDf95arzSwpXmwCyCZ/arNeQLMFoGPgkKnWybs2VCsL2Y9b6mbS0daylzVXDg==",
   "minima": "2.1.8",
-  "firmaManifiesto": "A1xdlFam6cD3kkAGZv1JYrrZKnSMbwApwxRLbECcBRBOBMpMQ0WWRJcHfPLE5IVFgBZVnxBgV7VV7e/pEjWoBQ=="
+  "firmaManifiesto": "KjRjp/NLxBw12vdosiG9NXKQhhZP9pCUiGsO39LDQTHlJUiA7s/C64cg5pWvbSGrfoC9lT3N1/XqJFQ7CDFxAg=="
 }
