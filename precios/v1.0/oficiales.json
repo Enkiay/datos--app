@@ -1,5 +1,5 @@
 {
-  "version": "v20261021-165541-precios",
+  "version": "v20261021-165813-precios",
   "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -9155,6 +9155,46 @@
           "idCanonico": "accesorios_para_hipoclorador_gl",
           "categoria": "Ferretería",
           "nota": "Alta desde ArqOn Precios 2026-10-11"
+        },
+        {
+          "nombre": "Minicargador (Bobcat)",
+          "codigo": "MQ044",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 400,
+          "unidad": "Hr",
+          "idCanonico": "minicargador_bobcat_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Vibrocompactadora 3,5 ton",
+          "codigo": "MQ045",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 500,
+          "unidad": "Hr",
+          "idCanonico": "vibrocompactadora_3_5_ton_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío manual (camión 6 m³)",
+          "codigo": "MQ046",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 100,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_manual_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío con minicargador (volqueta 14 m³)",
+          "codigo": "MQ047",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 85.71,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_minicargador_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Cochabamba",
@@ -18312,6 +18352,46 @@
           "idCanonico": "accesorios_para_hipoclorador_gl",
           "categoria": "Ferretería",
           "nota": "Alta desde ArqOn Precios 2026-10-11"
+        },
+        {
+          "nombre": "Minicargador (Bobcat)",
+          "codigo": "MQ044",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 400,
+          "unidad": "Hr",
+          "idCanonico": "minicargador_bobcat_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Vibrocompactadora 3,5 ton",
+          "codigo": "MQ045",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 500,
+          "unidad": "Hr",
+          "idCanonico": "vibrocompactadora_3_5_ton_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío manual (camión 6 m³)",
+          "codigo": "MQ046",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 100,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_manual_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío con minicargador (volqueta 14 m³)",
+          "codigo": "MQ047",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 85.71,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_minicargador_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "La Paz",
@@ -27469,6 +27549,46 @@
           "idCanonico": "accesorios_para_hipoclorador_gl",
           "categoria": "Ferretería",
           "nota": "Alta desde ArqOn Precios 2026-10-11"
+        },
+        {
+          "nombre": "Minicargador (Bobcat)",
+          "codigo": "MQ044",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 400,
+          "unidad": "Hr",
+          "idCanonico": "minicargador_bobcat_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Vibrocompactadora 3,5 ton",
+          "codigo": "MQ045",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 500,
+          "unidad": "Hr",
+          "idCanonico": "vibrocompactadora_3_5_ton_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío manual (camión 6 m³)",
+          "codigo": "MQ046",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 100,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_manual_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío con minicargador (volqueta 14 m³)",
+          "codigo": "MQ047",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 85.71,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_minicargador_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Santa Cruz",
@@ -36626,6 +36746,46 @@
           "idCanonico": "accesorios_para_hipoclorador_gl",
           "categoria": "Ferretería",
           "nota": "Alta desde ArqOn Precios 2026-10-11"
+        },
+        {
+          "nombre": "Minicargador (Bobcat)",
+          "codigo": "MQ044",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 400,
+          "unidad": "Hr",
+          "idCanonico": "minicargador_bobcat_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Vibrocompactadora 3,5 ton",
+          "codigo": "MQ045",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 500,
+          "unidad": "Hr",
+          "idCanonico": "vibrocompactadora_3_5_ton_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío manual (camión 6 m³)",
+          "codigo": "MQ046",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 100,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_manual_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío con minicargador (volqueta 14 m³)",
+          "codigo": "MQ047",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 85.71,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_minicargador_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Oruro",
@@ -45783,6 +45943,46 @@
           "idCanonico": "accesorios_para_hipoclorador_gl",
           "categoria": "Ferretería",
           "nota": "Alta desde ArqOn Precios 2026-10-11"
+        },
+        {
+          "nombre": "Minicargador (Bobcat)",
+          "codigo": "MQ044",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 400,
+          "unidad": "Hr",
+          "idCanonico": "minicargador_bobcat_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Vibrocompactadora 3,5 ton",
+          "codigo": "MQ045",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 500,
+          "unidad": "Hr",
+          "idCanonico": "vibrocompactadora_3_5_ton_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío manual (camión 6 m³)",
+          "codigo": "MQ046",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 100,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_manual_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío con minicargador (volqueta 14 m³)",
+          "codigo": "MQ047",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 85.71,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_minicargador_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Potosí",
@@ -54940,6 +55140,46 @@
           "idCanonico": "accesorios_para_hipoclorador_gl",
           "categoria": "Ferretería",
           "nota": "Alta desde ArqOn Precios 2026-10-11"
+        },
+        {
+          "nombre": "Minicargador (Bobcat)",
+          "codigo": "MQ044",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 400,
+          "unidad": "Hr",
+          "idCanonico": "minicargador_bobcat_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Vibrocompactadora 3,5 ton",
+          "codigo": "MQ045",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 500,
+          "unidad": "Hr",
+          "idCanonico": "vibrocompactadora_3_5_ton_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío manual (camión 6 m³)",
+          "codigo": "MQ046",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 100,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_manual_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío con minicargador (volqueta 14 m³)",
+          "codigo": "MQ047",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 85.71,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_minicargador_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Sucre",
@@ -64097,6 +64337,46 @@
           "idCanonico": "accesorios_para_hipoclorador_gl",
           "categoria": "Ferretería",
           "nota": "Alta desde ArqOn Precios 2026-10-11"
+        },
+        {
+          "nombre": "Minicargador (Bobcat)",
+          "codigo": "MQ044",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 400,
+          "unidad": "Hr",
+          "idCanonico": "minicargador_bobcat_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Vibrocompactadora 3,5 ton",
+          "codigo": "MQ045",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 500,
+          "unidad": "Hr",
+          "idCanonico": "vibrocompactadora_3_5_ton_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío manual (camión 6 m³)",
+          "codigo": "MQ046",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 100,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_manual_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío con minicargador (volqueta 14 m³)",
+          "codigo": "MQ047",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 85.71,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_minicargador_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Tarija",
@@ -73254,6 +73534,46 @@
           "idCanonico": "accesorios_para_hipoclorador_gl",
           "categoria": "Ferretería",
           "nota": "Alta desde ArqOn Precios 2026-10-11"
+        },
+        {
+          "nombre": "Minicargador (Bobcat)",
+          "codigo": "MQ044",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 400,
+          "unidad": "Hr",
+          "idCanonico": "minicargador_bobcat_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Vibrocompactadora 3,5 ton",
+          "codigo": "MQ045",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 500,
+          "unidad": "Hr",
+          "idCanonico": "vibrocompactadora_3_5_ton_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío manual (camión 6 m³)",
+          "codigo": "MQ046",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 100,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_manual_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío con minicargador (volqueta 14 m³)",
+          "codigo": "MQ047",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 85.71,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_minicargador_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Trinidad",
@@ -82411,6 +82731,46 @@
           "idCanonico": "accesorios_para_hipoclorador_gl",
           "categoria": "Ferretería",
           "nota": "Alta desde ArqOn Precios 2026-10-11"
+        },
+        {
+          "nombre": "Minicargador (Bobcat)",
+          "codigo": "MQ044",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 400,
+          "unidad": "Hr",
+          "idCanonico": "minicargador_bobcat_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Vibrocompactadora 3,5 ton",
+          "codigo": "MQ045",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 500,
+          "unidad": "Hr",
+          "idCanonico": "vibrocompactadora_3_5_ton_hr",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío manual (camión 6 m³)",
+          "codigo": "MQ046",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 100,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_manual_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Retiro de escombro – carguío con minicargador (volqueta 14 m³)",
+          "codigo": "MQ047",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 85.71,
+          "unidad": "m3",
+          "idCanonico": "retiro_escombro_carguio_minicargador_m3",
+          "categoria": "Maquinaria",
+          "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Cobija",
