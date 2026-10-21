@@ -1,5 +1,5 @@
 {
-  "version": "v20261021-171749-precios",
+  "version": "v20261021-172206-precios",
   "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -23024,9 +23024,9 @@
           "nombre": "Yeso",
           "codigo": "CM033",
           "tipoInsumo": "MATERIAL",
-          "precio": 0.8,
+          "precio": 1.12,
           "unidad": "Kg",
-          "nota": "Semilla: precio nacional del catálogo — ajustar por ciudad con aportes",
+          "nota": "Editado en ArqOn Precios 2026-10-21",
           "idCanonico": "yeso_kg",
           "categoria": "Cemento y Cal"
         },
