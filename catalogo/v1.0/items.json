@@ -1,5 +1,5 @@
 {
- "version": "v20260919-muro-cortina",
+ "version": "v20261021-multimix",
  "schemaVersion": 1,
  "items": [
   {
@@ -731,6 +731,18 @@
      "baseCalculo": "",
      "idCanonico": "pegamento_ceramico_kg",
      "codigo": "AD005"
+    },
+    {
+     "nombre": "Pastina",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Adhesivos",
+     "rendimiento": 0.65,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "pastina_kg",
+     "codigo": "PL187"
     },
     {
      "nombre": "Albañil",
@@ -2864,6 +2876,18 @@
      "baseCalculo": "",
      "idCanonico": "pegamento_ceramico_kg",
      "codigo": "AD005"
+    },
+    {
+     "nombre": "Pastina",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Adhesivos",
+     "rendimiento": 0.07,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "pastina_kg",
+     "codigo": "PL187"
     },
     {
      "nombre": "Albañil",
@@ -15376,7 +15400,7 @@
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Cemento y Cal",
-     "rendimiento": 10.8,
+     "rendimiento": 5.0,
      "precio": 0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
