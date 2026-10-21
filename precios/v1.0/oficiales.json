@@ -1,5 +1,5 @@
 {
-  "version": "v20261021-172206-precios",
+  "version": "v20261021-172826-precios",
   "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -2702,7 +2702,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 1.4,
           "unidad": "Kg",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
           "idCanonico": "pegamento_ceramico_kg",
           "categoria": "Adhesivos"
         },
@@ -7654,7 +7654,7 @@
           "unidad": "Kg",
           "idCanonico": "pastina_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
           "nombre": "Sellador",
@@ -9197,74 +9197,74 @@
           "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola, adhesivo para cerámica",
+          "nombre": "Cemento Cola, adhesivo para cerámica",
           "codigo": "LC059",
           "tipoInsumo": "MATERIAL",
           "precio": 28,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_adhesivo_para_ceramica_20_kg",
+          "idCanonico": "cemento_cola_adhesivo_para_ceramica_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato",
+          "nombre": "Cemento Cola Porcelanato",
           "codigo": "LC060",
           "tipoInsumo": "MATERIAL",
           "precio": 39,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Grandes Formatos",
+          "nombre": "Cemento Cola Grandes Formatos",
           "codigo": "LC061",
           "tipoInsumo": "MATERIAL",
           "precio": 48,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_grandes_formatos_20_kg",
+          "idCanonico": "cemento_cola_grandes_formatos_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato Piscina",
+          "nombre": "Cemento Cola Porcelanato Piscina",
           "codigo": "LC062",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_piscina_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_piscina_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color, fragua para juntas",
+          "nombre": "Junta Color, fragua para juntas",
           "codigo": "AD031",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color Piscina, fragua para juntas",
+          "nombre": "Junta Color Piscina, fragua para juntas",
           "codigo": "AD032",
           "tipoInsumo": "MATERIAL",
           "precio": 56,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_piscina_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_piscina_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Fina, fragua para juntas",
+          "nombre": "Junta Fina, fragua para juntas",
           "codigo": "AD033",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "4 kg",
-          "idCanonico": "multimix_junta_fina_fragua_para_juntas_4_kg",
+          "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Cochabamba",
@@ -11969,7 +11969,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 1.4,
           "unidad": "Kg",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
           "idCanonico": "pegamento_ceramico_kg",
           "categoria": "Adhesivos"
         },
@@ -16921,7 +16921,7 @@
           "unidad": "Kg",
           "idCanonico": "pastina_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
           "nombre": "Sellador",
@@ -18464,74 +18464,74 @@
           "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola, adhesivo para cerámica",
+          "nombre": "Cemento Cola, adhesivo para cerámica",
           "codigo": "LC059",
           "tipoInsumo": "MATERIAL",
           "precio": 28,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_adhesivo_para_ceramica_20_kg",
+          "idCanonico": "cemento_cola_adhesivo_para_ceramica_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato",
+          "nombre": "Cemento Cola Porcelanato",
           "codigo": "LC060",
           "tipoInsumo": "MATERIAL",
           "precio": 39,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Grandes Formatos",
+          "nombre": "Cemento Cola Grandes Formatos",
           "codigo": "LC061",
           "tipoInsumo": "MATERIAL",
           "precio": 48,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_grandes_formatos_20_kg",
+          "idCanonico": "cemento_cola_grandes_formatos_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato Piscina",
+          "nombre": "Cemento Cola Porcelanato Piscina",
           "codigo": "LC062",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_piscina_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_piscina_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color, fragua para juntas",
+          "nombre": "Junta Color, fragua para juntas",
           "codigo": "AD031",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color Piscina, fragua para juntas",
+          "nombre": "Junta Color Piscina, fragua para juntas",
           "codigo": "AD032",
           "tipoInsumo": "MATERIAL",
           "precio": 56,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_piscina_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_piscina_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Fina, fragua para juntas",
+          "nombre": "Junta Fina, fragua para juntas",
           "codigo": "AD033",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "4 kg",
-          "idCanonico": "multimix_junta_fina_fragua_para_juntas_4_kg",
+          "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "La Paz",
@@ -21236,7 +21236,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 1.4,
           "unidad": "Kg",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
           "idCanonico": "pegamento_ceramico_kg",
           "categoria": "Adhesivos"
         },
@@ -26188,7 +26188,7 @@
           "unidad": "Kg",
           "idCanonico": "pastina_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
           "nombre": "Sellador",
@@ -27731,74 +27731,74 @@
           "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola, adhesivo para cerámica",
+          "nombre": "Cemento Cola, adhesivo para cerámica",
           "codigo": "LC059",
           "tipoInsumo": "MATERIAL",
           "precio": 28,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_adhesivo_para_ceramica_20_kg",
+          "idCanonico": "cemento_cola_adhesivo_para_ceramica_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato",
+          "nombre": "Cemento Cola Porcelanato",
           "codigo": "LC060",
           "tipoInsumo": "MATERIAL",
           "precio": 39,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Grandes Formatos",
+          "nombre": "Cemento Cola Grandes Formatos",
           "codigo": "LC061",
           "tipoInsumo": "MATERIAL",
           "precio": 48,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_grandes_formatos_20_kg",
+          "idCanonico": "cemento_cola_grandes_formatos_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato Piscina",
+          "nombre": "Cemento Cola Porcelanato Piscina",
           "codigo": "LC062",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_piscina_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_piscina_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color, fragua para juntas",
+          "nombre": "Junta Color, fragua para juntas",
           "codigo": "AD031",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color Piscina, fragua para juntas",
+          "nombre": "Junta Color Piscina, fragua para juntas",
           "codigo": "AD032",
           "tipoInsumo": "MATERIAL",
           "precio": 56,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_piscina_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_piscina_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Fina, fragua para juntas",
+          "nombre": "Junta Fina, fragua para juntas",
           "codigo": "AD033",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "4 kg",
-          "idCanonico": "multimix_junta_fina_fragua_para_juntas_4_kg",
+          "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Santa Cruz",
@@ -30503,7 +30503,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 1.4,
           "unidad": "Kg",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
           "idCanonico": "pegamento_ceramico_kg",
           "categoria": "Adhesivos"
         },
@@ -35455,7 +35455,7 @@
           "unidad": "Kg",
           "idCanonico": "pastina_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
           "nombre": "Sellador",
@@ -36998,74 +36998,74 @@
           "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola, adhesivo para cerámica",
+          "nombre": "Cemento Cola, adhesivo para cerámica",
           "codigo": "LC059",
           "tipoInsumo": "MATERIAL",
           "precio": 28,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_adhesivo_para_ceramica_20_kg",
+          "idCanonico": "cemento_cola_adhesivo_para_ceramica_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato",
+          "nombre": "Cemento Cola Porcelanato",
           "codigo": "LC060",
           "tipoInsumo": "MATERIAL",
           "precio": 39,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Grandes Formatos",
+          "nombre": "Cemento Cola Grandes Formatos",
           "codigo": "LC061",
           "tipoInsumo": "MATERIAL",
           "precio": 48,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_grandes_formatos_20_kg",
+          "idCanonico": "cemento_cola_grandes_formatos_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato Piscina",
+          "nombre": "Cemento Cola Porcelanato Piscina",
           "codigo": "LC062",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_piscina_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_piscina_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color, fragua para juntas",
+          "nombre": "Junta Color, fragua para juntas",
           "codigo": "AD031",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color Piscina, fragua para juntas",
+          "nombre": "Junta Color Piscina, fragua para juntas",
           "codigo": "AD032",
           "tipoInsumo": "MATERIAL",
           "precio": 56,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_piscina_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_piscina_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Fina, fragua para juntas",
+          "nombre": "Junta Fina, fragua para juntas",
           "codigo": "AD033",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "4 kg",
-          "idCanonico": "multimix_junta_fina_fragua_para_juntas_4_kg",
+          "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Oruro",
@@ -39770,7 +39770,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 1.4,
           "unidad": "Kg",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
           "idCanonico": "pegamento_ceramico_kg",
           "categoria": "Adhesivos"
         },
@@ -44722,7 +44722,7 @@
           "unidad": "Kg",
           "idCanonico": "pastina_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
           "nombre": "Sellador",
@@ -46265,74 +46265,74 @@
           "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola, adhesivo para cerámica",
+          "nombre": "Cemento Cola, adhesivo para cerámica",
           "codigo": "LC059",
           "tipoInsumo": "MATERIAL",
           "precio": 28,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_adhesivo_para_ceramica_20_kg",
+          "idCanonico": "cemento_cola_adhesivo_para_ceramica_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato",
+          "nombre": "Cemento Cola Porcelanato",
           "codigo": "LC060",
           "tipoInsumo": "MATERIAL",
           "precio": 39,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Grandes Formatos",
+          "nombre": "Cemento Cola Grandes Formatos",
           "codigo": "LC061",
           "tipoInsumo": "MATERIAL",
           "precio": 48,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_grandes_formatos_20_kg",
+          "idCanonico": "cemento_cola_grandes_formatos_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato Piscina",
+          "nombre": "Cemento Cola Porcelanato Piscina",
           "codigo": "LC062",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_piscina_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_piscina_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color, fragua para juntas",
+          "nombre": "Junta Color, fragua para juntas",
           "codigo": "AD031",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color Piscina, fragua para juntas",
+          "nombre": "Junta Color Piscina, fragua para juntas",
           "codigo": "AD032",
           "tipoInsumo": "MATERIAL",
           "precio": 56,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_piscina_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_piscina_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Fina, fragua para juntas",
+          "nombre": "Junta Fina, fragua para juntas",
           "codigo": "AD033",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "4 kg",
-          "idCanonico": "multimix_junta_fina_fragua_para_juntas_4_kg",
+          "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Potosí",
@@ -49037,7 +49037,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 1.4,
           "unidad": "Kg",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
           "idCanonico": "pegamento_ceramico_kg",
           "categoria": "Adhesivos"
         },
@@ -53989,7 +53989,7 @@
           "unidad": "Kg",
           "idCanonico": "pastina_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
           "nombre": "Sellador",
@@ -55532,74 +55532,74 @@
           "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola, adhesivo para cerámica",
+          "nombre": "Cemento Cola, adhesivo para cerámica",
           "codigo": "LC059",
           "tipoInsumo": "MATERIAL",
           "precio": 28,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_adhesivo_para_ceramica_20_kg",
+          "idCanonico": "cemento_cola_adhesivo_para_ceramica_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato",
+          "nombre": "Cemento Cola Porcelanato",
           "codigo": "LC060",
           "tipoInsumo": "MATERIAL",
           "precio": 39,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Grandes Formatos",
+          "nombre": "Cemento Cola Grandes Formatos",
           "codigo": "LC061",
           "tipoInsumo": "MATERIAL",
           "precio": 48,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_grandes_formatos_20_kg",
+          "idCanonico": "cemento_cola_grandes_formatos_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato Piscina",
+          "nombre": "Cemento Cola Porcelanato Piscina",
           "codigo": "LC062",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_piscina_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_piscina_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color, fragua para juntas",
+          "nombre": "Junta Color, fragua para juntas",
           "codigo": "AD031",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color Piscina, fragua para juntas",
+          "nombre": "Junta Color Piscina, fragua para juntas",
           "codigo": "AD032",
           "tipoInsumo": "MATERIAL",
           "precio": 56,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_piscina_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_piscina_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Fina, fragua para juntas",
+          "nombre": "Junta Fina, fragua para juntas",
           "codigo": "AD033",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "4 kg",
-          "idCanonico": "multimix_junta_fina_fragua_para_juntas_4_kg",
+          "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Sucre",
@@ -58304,7 +58304,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 1.4,
           "unidad": "Kg",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
           "idCanonico": "pegamento_ceramico_kg",
           "categoria": "Adhesivos"
         },
@@ -63256,7 +63256,7 @@
           "unidad": "Kg",
           "idCanonico": "pastina_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
           "nombre": "Sellador",
@@ -64799,74 +64799,74 @@
           "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola, adhesivo para cerámica",
+          "nombre": "Cemento Cola, adhesivo para cerámica",
           "codigo": "LC059",
           "tipoInsumo": "MATERIAL",
           "precio": 28,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_adhesivo_para_ceramica_20_kg",
+          "idCanonico": "cemento_cola_adhesivo_para_ceramica_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato",
+          "nombre": "Cemento Cola Porcelanato",
           "codigo": "LC060",
           "tipoInsumo": "MATERIAL",
           "precio": 39,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Grandes Formatos",
+          "nombre": "Cemento Cola Grandes Formatos",
           "codigo": "LC061",
           "tipoInsumo": "MATERIAL",
           "precio": 48,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_grandes_formatos_20_kg",
+          "idCanonico": "cemento_cola_grandes_formatos_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato Piscina",
+          "nombre": "Cemento Cola Porcelanato Piscina",
           "codigo": "LC062",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_piscina_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_piscina_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color, fragua para juntas",
+          "nombre": "Junta Color, fragua para juntas",
           "codigo": "AD031",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color Piscina, fragua para juntas",
+          "nombre": "Junta Color Piscina, fragua para juntas",
           "codigo": "AD032",
           "tipoInsumo": "MATERIAL",
           "precio": 56,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_piscina_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_piscina_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Fina, fragua para juntas",
+          "nombre": "Junta Fina, fragua para juntas",
           "codigo": "AD033",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "4 kg",
-          "idCanonico": "multimix_junta_fina_fragua_para_juntas_4_kg",
+          "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Tarija",
@@ -67571,7 +67571,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 1.4,
           "unidad": "Kg",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
           "idCanonico": "pegamento_ceramico_kg",
           "categoria": "Adhesivos"
         },
@@ -72523,7 +72523,7 @@
           "unidad": "Kg",
           "idCanonico": "pastina_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
           "nombre": "Sellador",
@@ -74066,74 +74066,74 @@
           "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola, adhesivo para cerámica",
+          "nombre": "Cemento Cola, adhesivo para cerámica",
           "codigo": "LC059",
           "tipoInsumo": "MATERIAL",
           "precio": 28,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_adhesivo_para_ceramica_20_kg",
+          "idCanonico": "cemento_cola_adhesivo_para_ceramica_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato",
+          "nombre": "Cemento Cola Porcelanato",
           "codigo": "LC060",
           "tipoInsumo": "MATERIAL",
           "precio": 39,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Grandes Formatos",
+          "nombre": "Cemento Cola Grandes Formatos",
           "codigo": "LC061",
           "tipoInsumo": "MATERIAL",
           "precio": 48,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_grandes_formatos_20_kg",
+          "idCanonico": "cemento_cola_grandes_formatos_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato Piscina",
+          "nombre": "Cemento Cola Porcelanato Piscina",
           "codigo": "LC062",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_piscina_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_piscina_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color, fragua para juntas",
+          "nombre": "Junta Color, fragua para juntas",
           "codigo": "AD031",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color Piscina, fragua para juntas",
+          "nombre": "Junta Color Piscina, fragua para juntas",
           "codigo": "AD032",
           "tipoInsumo": "MATERIAL",
           "precio": 56,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_piscina_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_piscina_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Fina, fragua para juntas",
+          "nombre": "Junta Fina, fragua para juntas",
           "codigo": "AD033",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "4 kg",
-          "idCanonico": "multimix_junta_fina_fragua_para_juntas_4_kg",
+          "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Trinidad",
@@ -76838,7 +76838,7 @@
           "tipoInsumo": "MATERIAL",
           "precio": 1.4,
           "unidad": "Kg",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades",
           "idCanonico": "pegamento_ceramico_kg",
           "categoria": "Adhesivos"
         },
@@ -81790,7 +81790,7 @@
           "unidad": "Kg",
           "idCanonico": "pastina_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
           "nombre": "Sellador",
@@ -83333,74 +83333,74 @@
           "nota": "Alta 2026-10-21 · cotización de proveedor Cochabamba (por hora con operador; retiro por m³ incluye carguío, transporte y botadero) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola, adhesivo para cerámica",
+          "nombre": "Cemento Cola, adhesivo para cerámica",
           "codigo": "LC059",
           "tipoInsumo": "MATERIAL",
           "precio": 28,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_adhesivo_para_ceramica_20_kg",
+          "idCanonico": "cemento_cola_adhesivo_para_ceramica_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato",
+          "nombre": "Cemento Cola Porcelanato",
           "codigo": "LC060",
           "tipoInsumo": "MATERIAL",
           "precio": 39,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Grandes Formatos",
+          "nombre": "Cemento Cola Grandes Formatos",
           "codigo": "LC061",
           "tipoInsumo": "MATERIAL",
           "precio": 48,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_grandes_formatos_20_kg",
+          "idCanonico": "cemento_cola_grandes_formatos_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Cemento Cola Porcelanato Piscina",
+          "nombre": "Cemento Cola Porcelanato Piscina",
           "codigo": "LC062",
           "tipoInsumo": "MATERIAL",
           "precio": 50,
           "unidad": "20 kg",
-          "idCanonico": "multimix_cemento_cola_porcelanato_piscina_20_kg",
+          "idCanonico": "cemento_cola_porcelanato_piscina_20_kg",
           "categoria": "Ladrillos y Cerámicos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color, fragua para juntas",
+          "nombre": "Junta Color, fragua para juntas",
           "codigo": "AD031",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Color Piscina, fragua para juntas",
+          "nombre": "Junta Color Piscina, fragua para juntas",
           "codigo": "AD032",
           "tipoInsumo": "MATERIAL",
           "precio": 56,
           "unidad": "5 kg",
-          "idCanonico": "multimix_junta_color_piscina_fragua_para_juntas_5_kg",
+          "idCanonico": "junta_color_piscina_fragua_para_juntas_5_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         },
         {
-          "nombre": "Multimix Junta Fina, fragua para juntas",
+          "nombre": "Junta Fina, fragua para juntas",
           "codigo": "AD033",
           "tipoInsumo": "MATERIAL",
           "precio": 46,
           "unidad": "4 kg",
-          "idCanonico": "multimix_junta_fina_fragua_para_juntas_4_kg",
+          "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
-          "nota": "Lista de precios Multimix 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+          "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
         }
       ],
       "nombreCorto": "Cobija",
