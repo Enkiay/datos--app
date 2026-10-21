@@ -1,8 +1,8 @@
 {
   "formato": "arqon-datos-v1",
-  "actualizado": "2026-10-21T23:44:07Z",
+  "actualizado": "2026-10-21T23:49:40Z",
   "firmada": {
-    "datos": "{\"v\":1,\"generado\":1792626247,\"obligatoria\":false,\"archivos\":{\"catalogo/v1.0/items.json\":\"832de62428d8571682775e5cc90e5c043ae52431c7c62093915c7885d8bc786e\",\"precios/v1.0/oficiales.json\":\"69e80a6b6a6a79cc11112f338d5857179c1a98d7761e23a41f572c8480751547\"}}",
-    "firma": "YCO4okhDIqY63i95pbg6Desi8Ge6siwViACbXEtdsWWNU0FdWVlJuG85cEMwQ83T7B9MKAAKNbFD+UPOxI6oCA=="
+    "datos": "{\"v\":1,\"generado\":1792626580,\"obligatoria\":false,\"archivos\":{\"catalogo/v1.0/items.json\":\"fadce76d5b1b9d8cf443261f0745e19b8f5b3e190a9db0916628509ce34df05f\",\"precios/v1.0/oficiales.json\":\"69e80a6b6a6a79cc11112f338d5857179c1a98d7761e23a41f572c8480751547\"}}",
+    "firma": "cNhl0t/3Qbw/+b8lJWY917AlfWF6a7L7c68C97SSKXfODWK2BpeQKzAOrGb5bjHwRWsUEWb9hthnCb7FSrOoAA=="
   }
 }

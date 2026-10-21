@@ -1,5 +1,5 @@
 {
- "version": "v20261021-rendimientos-revista-b",
+ "version": "v20261021-rendimientos-revista-c",
  "schemaVersion": 1,
  "items": [
   {
@@ -5006,7 +5006,7 @@
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Cemento y Cal",
-     "rendimiento": 20,
+     "rendimiento": 200,
      "precio": 0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
@@ -38259,7 +38259,7 @@
      "unidad": "L",
      "tipoInsumo": "MATERIAL",
      "categoria": "Pinturas",
-     "rendimiento": 0.036,
+     "rendimiento": 0.1363,
      "precio": 0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
