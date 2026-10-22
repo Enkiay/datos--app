@@ -1,5 +1,5 @@
 {
- "version": "v20261021-rendimientos-revista-d",
+ "version": "v20261021-retiro-escombros",
  "schemaVersion": 1,
  "items": [
   {
@@ -4938,28 +4938,16 @@
      "codigo": "NC001"
     },
     {
-     "nombre": "Volqueta 6 m3",
-     "unidad": "Hr",
+     "nombre": "Retiro de escombro – carguío con minicargador (volqueta 14 m³)",
+     "unidad": "m3",
      "tipoInsumo": "HERRAMIENTA",
      "categoria": "Maquinaria",
-     "rendimiento": 0.135,
+     "rendimiento": 1,
      "precio": 0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "eq_volqueta_6_m3",
-     "codigo": "MQ015"
-    },
-    {
-     "nombre": "Retroexcavadora",
-     "unidad": "Hr",
-     "tipoInsumo": "HERRAMIENTA",
-     "categoria": "Maquinaria",
-     "rendimiento": 0.045,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "eq_retroexcavadora",
-     "codigo": "MQ012"
+     "idCanonico": "retiro_escombro_carguio_minicargador_m3",
+     "codigo": "MQ047"
     }
    ],
    "parametros": [
@@ -35935,28 +35923,16 @@
      "codigo": "NC001"
     },
     {
-     "nombre": "Volqueta 6 m3",
-     "unidad": "Hr",
+     "nombre": "Retiro de escombro – carguío manual (camión 6 m³)",
+     "unidad": "m3",
      "tipoInsumo": "HERRAMIENTA",
      "categoria": "Maquinaria",
-     "rendimiento": 0.18,
+     "rendimiento": 1,
      "precio": 0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
-     "idCanonico": "eq_volqueta_6_m3",
-     "codigo": "MQ015"
-    },
-    {
-     "nombre": "Retroexcavadora",
-     "unidad": "Hr",
-     "tipoInsumo": "HERRAMIENTA",
-     "categoria": "Maquinaria",
-     "rendimiento": 0.045,
-     "precio": 0,
-     "tipoCalculo": "DIRECTO",
-     "baseCalculo": "",
-     "idCanonico": "eq_retroexcavadora",
-     "codigo": "MQ012"
+     "idCanonico": "retiro_escombro_carguio_manual_m3",
+     "codigo": "MQ046"
     }
    ],
    "parametros": [
