@@ -1,5 +1,5 @@
 {
- "version": "v20261021-insumos-revista",
+ "version": "v20261022-pavic",
  "schemaVersion": 1,
  "items": [
   {
@@ -33113,7 +33113,7 @@
      "unidad": "Pza",
      "tipoInsumo": "MATERIAL",
      "categoria": "Ladrillos y Cerámicos",
-     "rendimiento": 12.6,
+     "rendimiento": 52.5,
      "precio": 0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
