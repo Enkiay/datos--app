@@ -1,5 +1,5 @@
 {
-  "version": "v20261021-172826-precios",
+  "version": "v20261022-111131-precios",
   "fuente": "Aportes de proveedores y datos de mercado",
   "precios": [],
   "ciudades": [
@@ -9265,6 +9265,146 @@
           "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
           "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Tanque Plástico 1000 Lt. con Tapa",
+          "codigo": "PL246",
+          "tipoInsumo": "MATERIAL",
+          "precio": 993.89,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_1000_lt_con_tapa_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Tanque Plástico 180 Lt.",
+          "codigo": "PL247",
+          "tipoInsumo": "MATERIAL",
+          "precio": 441,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_180_lt_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Lavandería Doble de Cemento",
+          "codigo": "PL248",
+          "tipoInsumo": "MATERIAL",
+          "precio": 262.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "lavanderia_doble_de_cemento_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Sopapa para Lavandería",
+          "codigo": "PL249",
+          "tipoInsumo": "MATERIAL",
+          "precio": 31.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "sopapa_para_lavanderia_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Porcelanato Esmaltado 61×122 (gran formato)",
+          "codigo": "LC063",
+          "tipoInsumo": "MATERIAL",
+          "precio": 157.5,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "porcelanato_esmaltado_61122_gran_formato_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Cerámica sin Esmalte 42×42",
+          "codigo": "LC064",
+          "tipoInsumo": "MATERIAL",
+          "precio": 36.42,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ceramica_sin_esmalte_4242_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Tepe (Césped Natural)",
+          "codigo": "AG039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 21,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tepe_cesped_natural_m2",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Material Seleccionado para Relleno",
+          "codigo": "AG040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 73.5,
+          "unidad": "m3",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "material_seleccionado_para_relleno_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Martillo de Goma",
+          "codigo": "HE015",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "martillo_de_goma_hr",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Ayudante de Pintor",
+          "codigo": "NC003",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aportes de usuarios (Índice ArqOn, 2 usuarios) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ayudante_de_pintor_hr",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Chofer / Operador de Grúa",
+          "codigo": "EQ012",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "chofer_operador_de_grua_hr",
+          "categoria": "Equipo"
+        },
+        {
+          "nombre": "Camión 8-10 t",
+          "codigo": "MQ048",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 150,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "camion_8_10_t_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Alquiler de Andamio Tubular (juego de 6 cuerpos)",
+          "codigo": "HE016",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 95,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · promedio de 2 aportes de usuarios (70 y 120 Bs/día) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_andamio_tubular_juego_de_6_cuerpos_dia",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Alquiler de Puntal Metálico",
+          "codigo": "HE017",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_puntal_metalico_dia",
+          "categoria": "Herramientas"
         }
       ],
       "nombreCorto": "Cochabamba",
@@ -18532,6 +18672,146 @@
           "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
           "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Tanque Plástico 1000 Lt. con Tapa",
+          "codigo": "PL246",
+          "tipoInsumo": "MATERIAL",
+          "precio": 993.89,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_1000_lt_con_tapa_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Tanque Plástico 180 Lt.",
+          "codigo": "PL247",
+          "tipoInsumo": "MATERIAL",
+          "precio": 441,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_180_lt_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Lavandería Doble de Cemento",
+          "codigo": "PL248",
+          "tipoInsumo": "MATERIAL",
+          "precio": 262.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "lavanderia_doble_de_cemento_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Sopapa para Lavandería",
+          "codigo": "PL249",
+          "tipoInsumo": "MATERIAL",
+          "precio": 31.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "sopapa_para_lavanderia_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Porcelanato Esmaltado 61×122 (gran formato)",
+          "codigo": "LC063",
+          "tipoInsumo": "MATERIAL",
+          "precio": 157.5,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "porcelanato_esmaltado_61122_gran_formato_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Cerámica sin Esmalte 42×42",
+          "codigo": "LC064",
+          "tipoInsumo": "MATERIAL",
+          "precio": 36.42,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ceramica_sin_esmalte_4242_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Tepe (Césped Natural)",
+          "codigo": "AG039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 21,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tepe_cesped_natural_m2",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Material Seleccionado para Relleno",
+          "codigo": "AG040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 73.5,
+          "unidad": "m3",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "material_seleccionado_para_relleno_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Martillo de Goma",
+          "codigo": "HE015",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "martillo_de_goma_hr",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Ayudante de Pintor",
+          "codigo": "NC003",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aportes de usuarios (Índice ArqOn, 2 usuarios) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ayudante_de_pintor_hr",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Chofer / Operador de Grúa",
+          "codigo": "EQ012",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "chofer_operador_de_grua_hr",
+          "categoria": "Equipo"
+        },
+        {
+          "nombre": "Camión 8-10 t",
+          "codigo": "MQ048",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 150,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "camion_8_10_t_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Alquiler de Andamio Tubular (juego de 6 cuerpos)",
+          "codigo": "HE016",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 95,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · promedio de 2 aportes de usuarios (70 y 120 Bs/día) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_andamio_tubular_juego_de_6_cuerpos_dia",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Alquiler de Puntal Metálico",
+          "codigo": "HE017",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_puntal_metalico_dia",
+          "categoria": "Herramientas"
         }
       ],
       "nombreCorto": "La Paz",
@@ -27799,6 +28079,146 @@
           "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
           "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Tanque Plástico 1000 Lt. con Tapa",
+          "codigo": "PL246",
+          "tipoInsumo": "MATERIAL",
+          "precio": 993.89,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_1000_lt_con_tapa_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Tanque Plástico 180 Lt.",
+          "codigo": "PL247",
+          "tipoInsumo": "MATERIAL",
+          "precio": 441,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_180_lt_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Lavandería Doble de Cemento",
+          "codigo": "PL248",
+          "tipoInsumo": "MATERIAL",
+          "precio": 262.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "lavanderia_doble_de_cemento_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Sopapa para Lavandería",
+          "codigo": "PL249",
+          "tipoInsumo": "MATERIAL",
+          "precio": 31.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "sopapa_para_lavanderia_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Porcelanato Esmaltado 61×122 (gran formato)",
+          "codigo": "LC063",
+          "tipoInsumo": "MATERIAL",
+          "precio": 157.5,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "porcelanato_esmaltado_61122_gran_formato_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Cerámica sin Esmalte 42×42",
+          "codigo": "LC064",
+          "tipoInsumo": "MATERIAL",
+          "precio": 36.42,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ceramica_sin_esmalte_4242_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Tepe (Césped Natural)",
+          "codigo": "AG039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 21,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tepe_cesped_natural_m2",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Material Seleccionado para Relleno",
+          "codigo": "AG040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 73.5,
+          "unidad": "m3",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "material_seleccionado_para_relleno_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Martillo de Goma",
+          "codigo": "HE015",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "martillo_de_goma_hr",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Ayudante de Pintor",
+          "codigo": "NC003",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aportes de usuarios (Índice ArqOn, 2 usuarios) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ayudante_de_pintor_hr",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Chofer / Operador de Grúa",
+          "codigo": "EQ012",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "chofer_operador_de_grua_hr",
+          "categoria": "Equipo"
+        },
+        {
+          "nombre": "Camión 8-10 t",
+          "codigo": "MQ048",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 150,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "camion_8_10_t_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Alquiler de Andamio Tubular (juego de 6 cuerpos)",
+          "codigo": "HE016",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 95,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · promedio de 2 aportes de usuarios (70 y 120 Bs/día) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_andamio_tubular_juego_de_6_cuerpos_dia",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Alquiler de Puntal Metálico",
+          "codigo": "HE017",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_puntal_metalico_dia",
+          "categoria": "Herramientas"
         }
       ],
       "nombreCorto": "Santa Cruz",
@@ -37066,6 +37486,146 @@
           "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
           "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Tanque Plástico 1000 Lt. con Tapa",
+          "codigo": "PL246",
+          "tipoInsumo": "MATERIAL",
+          "precio": 993.89,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_1000_lt_con_tapa_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Tanque Plástico 180 Lt.",
+          "codigo": "PL247",
+          "tipoInsumo": "MATERIAL",
+          "precio": 441,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_180_lt_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Lavandería Doble de Cemento",
+          "codigo": "PL248",
+          "tipoInsumo": "MATERIAL",
+          "precio": 262.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "lavanderia_doble_de_cemento_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Sopapa para Lavandería",
+          "codigo": "PL249",
+          "tipoInsumo": "MATERIAL",
+          "precio": 31.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "sopapa_para_lavanderia_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Porcelanato Esmaltado 61×122 (gran formato)",
+          "codigo": "LC063",
+          "tipoInsumo": "MATERIAL",
+          "precio": 157.5,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "porcelanato_esmaltado_61122_gran_formato_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Cerámica sin Esmalte 42×42",
+          "codigo": "LC064",
+          "tipoInsumo": "MATERIAL",
+          "precio": 36.42,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ceramica_sin_esmalte_4242_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Tepe (Césped Natural)",
+          "codigo": "AG039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 21,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tepe_cesped_natural_m2",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Material Seleccionado para Relleno",
+          "codigo": "AG040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 73.5,
+          "unidad": "m3",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "material_seleccionado_para_relleno_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Martillo de Goma",
+          "codigo": "HE015",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "martillo_de_goma_hr",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Ayudante de Pintor",
+          "codigo": "NC003",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aportes de usuarios (Índice ArqOn, 2 usuarios) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ayudante_de_pintor_hr",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Chofer / Operador de Grúa",
+          "codigo": "EQ012",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "chofer_operador_de_grua_hr",
+          "categoria": "Equipo"
+        },
+        {
+          "nombre": "Camión 8-10 t",
+          "codigo": "MQ048",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 150,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "camion_8_10_t_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Alquiler de Andamio Tubular (juego de 6 cuerpos)",
+          "codigo": "HE016",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 95,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · promedio de 2 aportes de usuarios (70 y 120 Bs/día) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_andamio_tubular_juego_de_6_cuerpos_dia",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Alquiler de Puntal Metálico",
+          "codigo": "HE017",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_puntal_metalico_dia",
+          "categoria": "Herramientas"
         }
       ],
       "nombreCorto": "Oruro",
@@ -46333,6 +46893,146 @@
           "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
           "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Tanque Plástico 1000 Lt. con Tapa",
+          "codigo": "PL246",
+          "tipoInsumo": "MATERIAL",
+          "precio": 993.89,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_1000_lt_con_tapa_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Tanque Plástico 180 Lt.",
+          "codigo": "PL247",
+          "tipoInsumo": "MATERIAL",
+          "precio": 441,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_180_lt_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Lavandería Doble de Cemento",
+          "codigo": "PL248",
+          "tipoInsumo": "MATERIAL",
+          "precio": 262.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "lavanderia_doble_de_cemento_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Sopapa para Lavandería",
+          "codigo": "PL249",
+          "tipoInsumo": "MATERIAL",
+          "precio": 31.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "sopapa_para_lavanderia_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Porcelanato Esmaltado 61×122 (gran formato)",
+          "codigo": "LC063",
+          "tipoInsumo": "MATERIAL",
+          "precio": 157.5,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "porcelanato_esmaltado_61122_gran_formato_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Cerámica sin Esmalte 42×42",
+          "codigo": "LC064",
+          "tipoInsumo": "MATERIAL",
+          "precio": 36.42,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ceramica_sin_esmalte_4242_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Tepe (Césped Natural)",
+          "codigo": "AG039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 21,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tepe_cesped_natural_m2",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Material Seleccionado para Relleno",
+          "codigo": "AG040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 73.5,
+          "unidad": "m3",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "material_seleccionado_para_relleno_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Martillo de Goma",
+          "codigo": "HE015",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "martillo_de_goma_hr",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Ayudante de Pintor",
+          "codigo": "NC003",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aportes de usuarios (Índice ArqOn, 2 usuarios) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ayudante_de_pintor_hr",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Chofer / Operador de Grúa",
+          "codigo": "EQ012",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "chofer_operador_de_grua_hr",
+          "categoria": "Equipo"
+        },
+        {
+          "nombre": "Camión 8-10 t",
+          "codigo": "MQ048",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 150,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "camion_8_10_t_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Alquiler de Andamio Tubular (juego de 6 cuerpos)",
+          "codigo": "HE016",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 95,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · promedio de 2 aportes de usuarios (70 y 120 Bs/día) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_andamio_tubular_juego_de_6_cuerpos_dia",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Alquiler de Puntal Metálico",
+          "codigo": "HE017",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_puntal_metalico_dia",
+          "categoria": "Herramientas"
         }
       ],
       "nombreCorto": "Potosí",
@@ -55600,6 +56300,146 @@
           "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
           "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Tanque Plástico 1000 Lt. con Tapa",
+          "codigo": "PL246",
+          "tipoInsumo": "MATERIAL",
+          "precio": 993.89,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_1000_lt_con_tapa_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Tanque Plástico 180 Lt.",
+          "codigo": "PL247",
+          "tipoInsumo": "MATERIAL",
+          "precio": 441,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_180_lt_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Lavandería Doble de Cemento",
+          "codigo": "PL248",
+          "tipoInsumo": "MATERIAL",
+          "precio": 262.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "lavanderia_doble_de_cemento_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Sopapa para Lavandería",
+          "codigo": "PL249",
+          "tipoInsumo": "MATERIAL",
+          "precio": 31.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "sopapa_para_lavanderia_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Porcelanato Esmaltado 61×122 (gran formato)",
+          "codigo": "LC063",
+          "tipoInsumo": "MATERIAL",
+          "precio": 157.5,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "porcelanato_esmaltado_61122_gran_formato_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Cerámica sin Esmalte 42×42",
+          "codigo": "LC064",
+          "tipoInsumo": "MATERIAL",
+          "precio": 36.42,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ceramica_sin_esmalte_4242_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Tepe (Césped Natural)",
+          "codigo": "AG039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 21,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tepe_cesped_natural_m2",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Material Seleccionado para Relleno",
+          "codigo": "AG040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 73.5,
+          "unidad": "m3",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "material_seleccionado_para_relleno_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Martillo de Goma",
+          "codigo": "HE015",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "martillo_de_goma_hr",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Ayudante de Pintor",
+          "codigo": "NC003",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aportes de usuarios (Índice ArqOn, 2 usuarios) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ayudante_de_pintor_hr",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Chofer / Operador de Grúa",
+          "codigo": "EQ012",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "chofer_operador_de_grua_hr",
+          "categoria": "Equipo"
+        },
+        {
+          "nombre": "Camión 8-10 t",
+          "codigo": "MQ048",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 150,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "camion_8_10_t_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Alquiler de Andamio Tubular (juego de 6 cuerpos)",
+          "codigo": "HE016",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 95,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · promedio de 2 aportes de usuarios (70 y 120 Bs/día) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_andamio_tubular_juego_de_6_cuerpos_dia",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Alquiler de Puntal Metálico",
+          "codigo": "HE017",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_puntal_metalico_dia",
+          "categoria": "Herramientas"
         }
       ],
       "nombreCorto": "Sucre",
@@ -64867,6 +65707,146 @@
           "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
           "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Tanque Plástico 1000 Lt. con Tapa",
+          "codigo": "PL246",
+          "tipoInsumo": "MATERIAL",
+          "precio": 993.89,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_1000_lt_con_tapa_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Tanque Plástico 180 Lt.",
+          "codigo": "PL247",
+          "tipoInsumo": "MATERIAL",
+          "precio": 441,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_180_lt_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Lavandería Doble de Cemento",
+          "codigo": "PL248",
+          "tipoInsumo": "MATERIAL",
+          "precio": 262.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "lavanderia_doble_de_cemento_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Sopapa para Lavandería",
+          "codigo": "PL249",
+          "tipoInsumo": "MATERIAL",
+          "precio": 31.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "sopapa_para_lavanderia_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Porcelanato Esmaltado 61×122 (gran formato)",
+          "codigo": "LC063",
+          "tipoInsumo": "MATERIAL",
+          "precio": 157.5,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "porcelanato_esmaltado_61122_gran_formato_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Cerámica sin Esmalte 42×42",
+          "codigo": "LC064",
+          "tipoInsumo": "MATERIAL",
+          "precio": 36.42,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ceramica_sin_esmalte_4242_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Tepe (Césped Natural)",
+          "codigo": "AG039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 21,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tepe_cesped_natural_m2",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Material Seleccionado para Relleno",
+          "codigo": "AG040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 73.5,
+          "unidad": "m3",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "material_seleccionado_para_relleno_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Martillo de Goma",
+          "codigo": "HE015",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "martillo_de_goma_hr",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Ayudante de Pintor",
+          "codigo": "NC003",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aportes de usuarios (Índice ArqOn, 2 usuarios) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ayudante_de_pintor_hr",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Chofer / Operador de Grúa",
+          "codigo": "EQ012",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "chofer_operador_de_grua_hr",
+          "categoria": "Equipo"
+        },
+        {
+          "nombre": "Camión 8-10 t",
+          "codigo": "MQ048",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 150,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "camion_8_10_t_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Alquiler de Andamio Tubular (juego de 6 cuerpos)",
+          "codigo": "HE016",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 95,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · promedio de 2 aportes de usuarios (70 y 120 Bs/día) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_andamio_tubular_juego_de_6_cuerpos_dia",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Alquiler de Puntal Metálico",
+          "codigo": "HE017",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_puntal_metalico_dia",
+          "categoria": "Herramientas"
         }
       ],
       "nombreCorto": "Tarija",
@@ -74134,6 +75114,146 @@
           "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
           "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Tanque Plástico 1000 Lt. con Tapa",
+          "codigo": "PL246",
+          "tipoInsumo": "MATERIAL",
+          "precio": 993.89,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_1000_lt_con_tapa_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Tanque Plástico 180 Lt.",
+          "codigo": "PL247",
+          "tipoInsumo": "MATERIAL",
+          "precio": 441,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_180_lt_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Lavandería Doble de Cemento",
+          "codigo": "PL248",
+          "tipoInsumo": "MATERIAL",
+          "precio": 262.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "lavanderia_doble_de_cemento_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Sopapa para Lavandería",
+          "codigo": "PL249",
+          "tipoInsumo": "MATERIAL",
+          "precio": 31.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "sopapa_para_lavanderia_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Porcelanato Esmaltado 61×122 (gran formato)",
+          "codigo": "LC063",
+          "tipoInsumo": "MATERIAL",
+          "precio": 157.5,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "porcelanato_esmaltado_61122_gran_formato_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Cerámica sin Esmalte 42×42",
+          "codigo": "LC064",
+          "tipoInsumo": "MATERIAL",
+          "precio": 36.42,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ceramica_sin_esmalte_4242_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Tepe (Césped Natural)",
+          "codigo": "AG039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 21,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tepe_cesped_natural_m2",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Material Seleccionado para Relleno",
+          "codigo": "AG040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 73.5,
+          "unidad": "m3",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "material_seleccionado_para_relleno_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Martillo de Goma",
+          "codigo": "HE015",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "martillo_de_goma_hr",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Ayudante de Pintor",
+          "codigo": "NC003",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aportes de usuarios (Índice ArqOn, 2 usuarios) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ayudante_de_pintor_hr",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Chofer / Operador de Grúa",
+          "codigo": "EQ012",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "chofer_operador_de_grua_hr",
+          "categoria": "Equipo"
+        },
+        {
+          "nombre": "Camión 8-10 t",
+          "codigo": "MQ048",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 150,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "camion_8_10_t_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Alquiler de Andamio Tubular (juego de 6 cuerpos)",
+          "codigo": "HE016",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 95,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · promedio de 2 aportes de usuarios (70 y 120 Bs/día) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_andamio_tubular_juego_de_6_cuerpos_dia",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Alquiler de Puntal Metálico",
+          "codigo": "HE017",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_puntal_metalico_dia",
+          "categoria": "Herramientas"
         }
       ],
       "nombreCorto": "Trinidad",
@@ -83401,6 +84521,146 @@
           "idCanonico": "junta_fina_fragua_para_juntas_4_kg",
           "categoria": "Adhesivos",
           "nota": "Lista de precios de proveedor 2026-10-21 (rendimiento del fabricante: cemento cola 4–5 m²/bolsa de 20 kg; junta color 8 m²/5 kg; junta fina 10 m²/4 kg) — aplicada a las 9 ciudades"
+        },
+        {
+          "nombre": "Tanque Plástico 1000 Lt. con Tapa",
+          "codigo": "PL246",
+          "tipoInsumo": "MATERIAL",
+          "precio": 993.89,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_1000_lt_con_tapa_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Tanque Plástico 180 Lt.",
+          "codigo": "PL247",
+          "tipoInsumo": "MATERIAL",
+          "precio": 441,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tanque_plastico_180_lt_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Lavandería Doble de Cemento",
+          "codigo": "PL248",
+          "tipoInsumo": "MATERIAL",
+          "precio": 262.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "lavanderia_doble_de_cemento_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Sopapa para Lavandería",
+          "codigo": "PL249",
+          "tipoInsumo": "MATERIAL",
+          "precio": 31.5,
+          "unidad": "Pza",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "sopapa_para_lavanderia_pza",
+          "categoria": "Plomería"
+        },
+        {
+          "nombre": "Porcelanato Esmaltado 61×122 (gran formato)",
+          "codigo": "LC063",
+          "tipoInsumo": "MATERIAL",
+          "precio": 157.5,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "porcelanato_esmaltado_61122_gran_formato_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Cerámica sin Esmalte 42×42",
+          "codigo": "LC064",
+          "tipoInsumo": "MATERIAL",
+          "precio": 36.42,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ceramica_sin_esmalte_4242_m2",
+          "categoria": "Ladrillos y Cerámicos"
+        },
+        {
+          "nombre": "Tepe (Césped Natural)",
+          "codigo": "AG039",
+          "tipoInsumo": "MATERIAL",
+          "precio": 21,
+          "unidad": "m2",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "tepe_cesped_natural_m2",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Material Seleccionado para Relleno",
+          "codigo": "AG040",
+          "tipoInsumo": "MATERIAL",
+          "precio": 73.5,
+          "unidad": "m3",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "material_seleccionado_para_relleno_m3",
+          "categoria": "Agregados"
+        },
+        {
+          "nombre": "Martillo de Goma",
+          "codigo": "HE015",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · CADECO Cochabamba 2026 — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "martillo_de_goma_hr",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Ayudante de Pintor",
+          "codigo": "NC003",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 15,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aportes de usuarios (Índice ArqOn, 2 usuarios) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "ayudante_de_pintor_hr",
+          "categoria": "No Calificada"
+        },
+        {
+          "nombre": "Chofer / Operador de Grúa",
+          "codigo": "EQ012",
+          "tipoInsumo": "MANO_DE_OBRA",
+          "precio": 20,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "chofer_operador_de_grua_hr",
+          "categoria": "Equipo"
+        },
+        {
+          "nombre": "Camión 8-10 t",
+          "codigo": "MQ048",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 150,
+          "unidad": "Hr",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "camion_8_10_t_hr",
+          "categoria": "Maquinaria"
+        },
+        {
+          "nombre": "Alquiler de Andamio Tubular (juego de 6 cuerpos)",
+          "codigo": "HE016",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 95,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · promedio de 2 aportes de usuarios (70 y 120 Bs/día) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_andamio_tubular_juego_de_6_cuerpos_dia",
+          "categoria": "Herramientas"
+        },
+        {
+          "nombre": "Alquiler de Puntal Metálico",
+          "codigo": "HE017",
+          "tipoInsumo": "HERRAMIENTA",
+          "precio": 0.5,
+          "unidad": "día",
+          "nota": "Alta 2026-10-22 · aporte de usuario (Índice ArqOn) — aplicada a las 9 ciudades (ajustar por ciudad con aportes)",
+          "idCanonico": "alquiler_de_puntal_metalico_dia",
+          "categoria": "Herramientas"
         }
       ],
       "nombreCorto": "Cobija",
