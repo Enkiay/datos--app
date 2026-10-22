@@ -2,10 +2,12 @@
 // Validador del modelo de datos del catálogo. Falla (exit 1) si un cambio
 // rompe los invariantes acordados:
 //
-//  ÍTEMS (regla espejo):
-//   1. items.json e items_BO.json tienen el MISMO set de códigos.
+//  ÍTEMS:
+//   1. Códigos únicos en items.json (items_BO.json ya no existe: el catálogo de
+//      Bolivia ES items.json desde que se unificó; la regla espejo se retiró).
 //  INSUMOS (un catálogo, precio por ciudad):
-//   2. Todo insumo embebido lleva idCanonico y precio > 0.
+//   2. Todo insumo embebido lleva idCanonico. El precio del ítem va en 0 a
+//      propósito: el precio vive SÓLO en oficiales.json, por ciudad.
 //   3. Mismo idCanonico → mismo precio nacional, nombre, unidad y tipo en
 //      TODAS sus referencias (0 divergencias).
 //   4. Todo idCanonico del catálogo existe en oficiales.json en TODAS las
@@ -14,7 +16,9 @@
 //   5. oficiales.json: sin duplicados dentro de una ciudad; todas las
 //      ciudades comparten el mismo set de insumos.
 //  POLÍTICA DE PARÁMETROS:
-//   6. valorDefault = 1 en todos los parámetros (única excepción: UH021).
+//   6. valorDefault = 1 en todos los parámetros. Excepciones a propósito:
+//      UH021 (escalera paramétrica) y el «Espesor» = 0,20 m de las losas por m³
+//      OG003/OG004/OG012/OG063 (auditoría 24-jul-2026, commit ccf1f80).
 //
 // Uso:  node scripts/validar-catalogo.mjs   (también corre como hook pre-push)
 import { readFileSync } from "node:fs";
@@ -23,17 +27,17 @@ import { fileURLToPath } from "node:url";
 
 const BASE = join(dirname(fileURLToPath(import.meta.url)), "..");
 const items = JSON.parse(readFileSync(join(BASE, "catalogo/v1.0/items.json"), "utf8"));
-const itemsBO = JSON.parse(readFileSync(join(BASE, "catalogo/v1.0/items_BO.json"), "utf8"));
 const ofi = JSON.parse(readFileSync(join(BASE, "precios/v1.0/oficiales.json"), "utf8"));
 
 const errores = [];
 const err = (m) => errores.push(m);
 
-// 1. Espejo de códigos
-const cods = new Set(items.items.map((i) => i.codigo));
-const codsBO = new Set(itemsBO.items.map((i) => i.codigo));
-for (const c of cods) if (!codsBO.has(c)) err(`ESPEJO: ${c} está en items.json pero falta en items_BO.json`);
-for (const c of codsBO) if (!cods.has(c)) err(`ESPEJO: ${c} está en items_BO.json pero falta en items.json`);
+// 1. Códigos únicos
+const cods = new Set();
+for (const it of items.items) {
+  if (cods.has(it.codigo)) err(`CÓDIGO duplicado: ${it.codigo}`);
+  cods.add(it.codigo);
+}
 
 // Unidades que la APK NORMALIZA a otra forma (UnidadCanonica.MAPA): si el
 // catálogo trae la variante (ej. "Lt"), la app la guarda canonizada ("L") y
@@ -60,13 +64,12 @@ const unidadCanonica = (u) => {
 
 // 2-3. Insumos embebidos coherentes (sobre ambos archivos)
 const porId = new Map(); // id → { precio, nombre, unidad, tipo, ref }
-for (const [tag, cat] of [["items", items], ["items_BO", itemsBO]]) {
+for (const [tag, cat] of [["items", items]]) {
   for (const it of cat.items) {
     for (const ins of it.insumos || []) {
       const ref = `${tag}/${it.codigo}`;
       const id = (ins.idCanonico || "").trim();
       if (!id) { err(`INSUMO sin idCanonico: "${ins.nombre}" en ${ref}`); continue; }
-      if (!(ins.precio > 0)) err(`INSUMO sin precio (>0): "${ins.nombre}" [${id}] en ${ref}`);
       // Unidad debe estar ya canonizada (sino la APK la "corregiría" en loop).
       const canon = unidadCanonica(ins.unidad);
       if (ins.unidad && ins.unidad.trim() !== canon) {
@@ -74,7 +77,6 @@ for (const [tag, cat] of [["items", items], ["items_BO", itemsBO]]) {
       }
       const prev = porId.get(id);
       if (!prev) { porId.set(id, { precio: ins.precio, nombre: ins.nombre, unidad: ins.unidad, tipo: ins.tipoInsumo, ref }); continue; }
-      if (ins.precio !== prev.precio) err(`PRECIO divergente [${id}]: ${prev.precio} (${prev.ref}) vs ${ins.precio} (${ref})`);
       if (ins.nombre !== prev.nombre) err(`NOMBRE divergente [${id}]: "${prev.nombre}" vs "${ins.nombre}" (${ref})`);
       if (ins.unidad !== prev.unidad) err(`UNIDAD divergente [${id}]: "${prev.unidad}" vs "${ins.unidad}" (${ref})`);
       if (ins.tipoInsumo !== prev.tipo) err(`TIPO divergente [${id}]: ${prev.tipo} vs ${ins.tipoInsumo} (${ref})`);
@@ -105,11 +107,13 @@ for (const id of porId.keys()) {
   if (base && !base.ids.has(id)) err(`COBERTURA: [${id}] usado en el catálogo pero ausente de oficiales.json`);
 }
 
-// 6. Política: defaults = 1 (excepción UH021, paramétrico real)
-for (const [tag, cat] of [["items", items], ["items_BO", itemsBO]]) {
+// 6. Política: defaults = 1 (excepciones: UH021, paramétrico real, y el espesor de las losas por m³)
+const ESPESOR_LOSA = new Set(["OG003", "OG004", "OG012", "OG063"]);
+for (const [tag, cat] of [["items", items]]) {
   for (const it of cat.items) {
     if (it.codigo === "UH021") continue;
     for (const p of it.parametros || []) {
+      if (ESPESOR_LOSA.has(it.codigo) && p.nombre === "Espesor") continue;
       if (p.valorDefault !== undefined && p.valorDefault !== 1) {
         err(`DEFAULT≠1: ${tag}/${it.codigo} param "${p.nombre}" = ${p.valorDefault}`);
       }
@@ -123,4 +127,4 @@ if (errores.length) {
   if (errores.length > 50) console.error(`  … y ${errores.length - 50} más`);
   process.exit(1);
 }
-console.log(`✓ Catálogo válido: ${cods.size} ítems espejo · ${porId.size} insumos canónicos · ${ciudades.length} ciudades × ${base ? base.ids.size : 0} precios`);
+console.log(`✓ Catálogo válido: ${cods.size} ítems · ${porId.size} insumos canónicos · ${ciudades.length} ciudades × ${base ? base.ids.size : 0} precios`);
