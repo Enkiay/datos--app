@@ -1,5 +1,5 @@
 {
- "version": "v20261021-retiro-escombros",
+ "version": "v20261021-insumos-revista",
  "schemaVersion": 1,
  "items": [
   {
@@ -414,6 +414,18 @@
      "codigo": "EL014"
     },
     {
+     "nombre": "Tubo Conduit PVC 5/8″",
+     "unidad": "m",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Plomería",
+     "rendimiento": 9.0,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "tubo_conduit_pvc_5_8_m",
+     "codigo": "PL102"
+    },
+    {
      "nombre": "Electricista",
      "unidad": "Hr",
      "tipoInsumo": "MANO_DE_OBRA",
@@ -817,6 +829,18 @@
      "baseCalculo": "",
      "idCanonico": "lija_para_pared_hoja",
      "codigo": "PT003"
+    },
+    {
+     "nombre": "Sellador para Pared",
+     "unidad": "L",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Adhesivos",
+     "rendimiento": 0.0681,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "sellador_para_pared_l",
+     "codigo": "AD010"
     },
     {
      "nombre": "Pintor",
@@ -2556,6 +2580,18 @@
      "codigo": "FE030"
     },
     {
+     "nombre": "Alambre de Amarre",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero y Metal",
+     "rendimiento": 0.0207,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "alambre_de_amarre_kg",
+     "codigo": "AC006"
+    },
+    {
      "nombre": "Albañil",
      "unidad": "Hr",
      "tipoInsumo": "MANO_DE_OBRA",
@@ -2969,6 +3005,30 @@
      "baseCalculo": "",
      "idCanonico": "cinta_aislante_pza",
      "codigo": "EL014"
+    },
+    {
+     "nombre": "Interruptor Térmico 2X30 Amp",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Eléctrico",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "interruptor_termico_2x30_amp_pza",
+     "codigo": "EL020"
+    },
+    {
+     "nombre": "Interruptor Térmico 2X40 Amp",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Eléctrico",
+     "rendimiento": 1.0,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "interruptor_termico_2x40_amp_pza",
+     "codigo": "EL021"
     },
     {
      "nombre": "Electricista",
@@ -9580,6 +9640,18 @@
      "baseCalculo": "",
      "idCanonico": "clavos_kg",
      "codigo": "FE030"
+    },
+    {
+     "nombre": "Tirafondos de 4 1/2X1/4″",
+     "unidad": "Pza",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Ferretería",
+     "rendimiento": 1.5,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "tirafondos_de_4_1_2x1_4_pza",
+     "codigo": "FE071"
     },
     {
      "nombre": "Albañil",
@@ -36456,6 +36528,30 @@
      "codigo": "FE030"
     },
     {
+     "nombre": "Alambre de Amarre",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero y Metal",
+     "rendimiento": 0.5175,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "alambre_de_amarre_kg",
+     "codigo": "AC006"
+    },
+    {
+     "nombre": "Sika 1 Impermeabilizante",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Impermeabilización",
+     "rendimiento": 1.8,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "sika_1_impermeabilizante_kg",
+     "codigo": "IM011"
+    },
+    {
      "nombre": "Albañil",
      "unidad": "Hr",
      "tipoInsumo": "MANO_DE_OBRA",
@@ -36841,6 +36937,18 @@
      "baseCalculo": "",
      "idCanonico": "yeso_kg",
      "codigo": "CM033"
+    },
+    {
+     "nombre": "Alambre de Amarre",
+     "unidad": "Kg",
+     "tipoInsumo": "MATERIAL",
+     "categoria": "Acero y Metal",
+     "rendimiento": 0.0207,
+     "precio": 0,
+     "tipoCalculo": "DIRECTO",
+     "baseCalculo": "",
+     "idCanonico": "alambre_de_amarre_kg",
+     "codigo": "AC006"
     },
     {
      "nombre": "Ayudante",
