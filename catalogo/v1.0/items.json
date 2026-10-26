@@ -1,5 +1,5 @@
 {
- "version": "v20261022-pavic",
+ "version": "v20261026-medidas",
  "schemaVersion": 1,
  "items": [
   {
@@ -2953,6 +2953,12 @@
    "parametros": [
     {
      "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
@@ -8320,6 +8326,18 @@
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
     }
    ],
    "presets": [],
@@ -8421,6 +8439,18 @@
    "parametros": [
     {
      "nombre": "Largo",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Ancho",
+     "valorDefault": 1,
+     "unidad": "m",
+     "visiblePorDefecto": true
+    },
+    {
+     "nombre": "Alto",
      "valorDefault": 1,
      "unidad": "m",
      "visiblePorDefecto": true
