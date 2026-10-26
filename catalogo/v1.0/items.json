@@ -1,5 +1,5 @@
 {
- "version": "v20261026-medidas",
+ "version": "v20261026-estiercol",
  "schemaVersion": 1,
  "items": [
   {
@@ -30459,7 +30459,7 @@
      "unidad": "Kg",
      "tipoInsumo": "MATERIAL",
      "categoria": "Agregados",
-     "rendimiento": 0.02,
+     "rendimiento": 10,
      "precio": 0,
      "tipoCalculo": "DIRECTO",
      "baseCalculo": "",
@@ -33577,7 +33577,7 @@
    "insumos": [
     {
      "nombre": "Gavión Maccaferri 2X1X0.5 con D",
-     "unidad": "m",
+     "unidad": "Pza",
      "tipoInsumo": "MATERIAL",
      "categoria": "Ferretería",
      "rendimiento": 1,
