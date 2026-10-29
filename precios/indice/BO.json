@@ -2,7 +2,7 @@
  "version": "2026-10-29-9",
  "pais": "BO",
  "generado": "2026-10-29",
- "regla": "3 o más usuarios, o 2 que coinciden ±25 %; mediana",
+ "regla": "3 o más usuarios, o 2 que coinciden ±25 %; mediana. Fuera de escala sólo con 3 usuarios que coinciden",
  "precios": [
   {
    "idCanonico": "cemento_portland_kg",
