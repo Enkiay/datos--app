@@ -164,6 +164,22 @@
     "vectorworks"
    ],
    "pais": "ES"
+  },
+  {
+   "nombre": "Ejemplo de licitación de obra: puente vehicular Iramayu (Potosí)",
+   "tipo": "zip",
+   "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ejemplo-licitacion-obra-potosi-puente-iramayu.rar",
+   "descripcion": "Convocatoria real del SICOES para practicar el tutorial de licitaciones de obra pública: DBC con la tabla de volúmenes, datos generales de la contratación, especificaciones técnicas y planos. Descomprimilo y usá «Traer documentos» en ArqOn.",
+   "tamano": "2.4 MB",
+   "pais": "BO"
+  },
+  {
+   "nombre": "Ejemplo de licitación de obra: El Torno (Santa Cruz)",
+   "tipo": "zip",
+   "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ejemplo-licitacion-obra-el-torno.rar",
+   "descripcion": "Segunda convocatoria real del SICOES para el tutorial de licitaciones de obra pública: DBC, convocatoria y documento técnico. Descomprimilo y usá «Traer documentos» en ArqOn.",
+   "tamano": "2.6 MB",
+   "pais": "BO"
   }
  ],
  "recursosRetirados": [
