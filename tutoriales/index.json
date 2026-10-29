@@ -97,6 +97,25 @@
       "url": "https://www.youtube.com/watch?v=Ficp4nbBQO0",
       "duracion": "2:22",
       "tema": "Cadenas de cálculo"
+    },
+    {
+      "titulo": "Cómo agilizar licitaciones públicas del SICOES con ArqOn | Extracción de datos del DBC",
+      "descripcion": "Descubre las funciones de ArqOn que te permiten agilizar el análisis de licitaciones públicas, identificar información clave y extraer datos del Documento Base de Contratación (DBC) para facilitar la elaboración de presupuestos de obra.\n",
+      "url": "https://www.youtube.com/watch?v=VhBBltDQkEA",
+      "duracion": "2:43",
+      "premium": true,
+      "tema": "Primeros pasos",
+      "pais": "BO",
+      "adjuntos": [
+        {
+          "nombre": "Ejemplo de licitación de obra: puente vehicular Iramayu (Potosí)",
+          "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ejemplo-licitacion-obra-potosi-puente-iramayu.rar"
+        },
+        {
+          "nombre": "Ejemplo de licitación de obra: El Torno (Santa Cruz)",
+          "url": "https://raw.githubusercontent.com/Enkiay/datos--app/main/recursos/ejemplo-licitacion-obra-el-torno.rar"
+        }
+      ]
     }
   ]
 }
