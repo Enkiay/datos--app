@@ -1,5 +1,5 @@
 {
- "version": "2026-10-29-9",
+ "version": "2026-10-29-9-7bb423",
  "pais": "BO",
  "generado": "2026-10-29",
  "regla": "3 o más usuarios, o 2 que coinciden ±25 %; mediana. Fuera de escala sólo con 3 usuarios que coinciden",
@@ -7,7 +7,7 @@
   {
    "idCanonico": "cemento_portland_kg",
    "ciudad": "BO-SCZ",
-   "precio": 1.6,
+   "precio": 1.65,
    "usuarios": 4
   },
   {
@@ -55,7 +55,7 @@
   {
    "idCanonico": "mo_ayudante",
    "ciudad": "BO-SCZ",
-   "precio": 16.25,
+   "precio": 16.5,
    "usuarios": 3
   }
  ]
