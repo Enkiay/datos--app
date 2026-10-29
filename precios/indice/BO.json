@@ -1,8 +1,8 @@
 {
- "version": "2026-10-29-9-7bb423",
+ "version": "2026-10-29-9-2922c2",
  "pais": "BO",
  "generado": "2026-10-29",
- "regla": "3 o más usuarios, o 2 que coinciden ±25 %; mediana. Fuera de escala sólo con 3 usuarios que coinciden",
+ "regla": "3 o más usuarios, o 2 que coinciden ±25 %; mediana. A más de ±50 % de la referencia sólo si 2 usuarios coinciden ±10 %",
  "precios": [
   {
    "idCanonico": "cemento_portland_kg",
@@ -14,13 +14,13 @@
    "idCanonico": "clavos_kg",
    "ciudad": "BO-CBBA",
    "precio": 20.0,
-   "usuarios": 3
+   "usuarios": 2
   },
   {
    "idCanonico": "grava_comun_m3",
    "ciudad": "BO-CBBA",
-   "precio": 300.0,
-   "usuarios": 3
+   "precio": 275.0,
+   "usuarios": 2
   },
   {
    "idCanonico": "ladrillo_6h_24x15x11_cm_pza",
@@ -56,7 +56,7 @@
    "idCanonico": "mo_ayudante",
    "ciudad": "BO-SCZ",
    "precio": 16.5,
-   "usuarios": 3
+   "usuarios": 2
   }
  ]
 }
