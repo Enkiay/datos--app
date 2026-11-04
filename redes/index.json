@@ -14,6 +14,16 @@
       "url": "https://wa.me/59160348854"
     },
     {
+      "id": "gmail",
+      "cuenta": "soporte@arqonbim.com",
+      "url": "mailto:soporte@arqonbim.com"
+    },
+    {
+      "id": "correo-ventas",
+      "cuenta": "ventas@arqonbim.com",
+      "url": "mailto:ventas@arqonbim.com"
+    },
+    {
       "id": "whatsapp-grupo",
       "cuenta": "Grupo abierto",
       "url": "https://chat.whatsapp.com/C65lfZqSLVtLTTMIs7Sgwt"
