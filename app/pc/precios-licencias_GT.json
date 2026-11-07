@@ -5,25 +5,25 @@
       "monto": 1540,
       "moneda": "Q",
       "descuentoPct": 50,
-      "hasta": "2027-01-29"
+      "hasta": "2027-03-01"
     },
     "anual": {
       "monto": 680,
       "moneda": "Q",
       "descuentoPct": 50,
-      "hasta": "2027-01-29"
+      "hasta": "2027-03-01"
     },
     "semestral": {
       "monto": 430,
       "moneda": "Q",
       "descuentoPct": 50,
-      "hasta": "2027-01-29"
+      "hasta": "2027-03-01"
     },
     "trimestral": {
       "monto": 230,
       "moneda": "Q",
       "descuentoPct": 50,
-      "hasta": "2027-01-29"
+      "hasta": "2027-03-01"
     }
   }
 }
