@@ -1,9 +1,16 @@
 {
-  "actualizado": "2026-08-21",
+  "actualizado": "2026-11-07",
   "promotores": {
     "38099": {
       "n": "POLLINGUI",
       "m": 50
+    },
+    "61887": {
+      "n": "ArqOscar",
+      "m": 50
     }
-  }
+  },
+  "sinCodigoEn": [
+    "ES"
+  ]
 }
