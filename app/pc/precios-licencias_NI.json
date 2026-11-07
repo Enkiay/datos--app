@@ -5,25 +5,25 @@
       "monto": 7340,
       "moneda": "C$",
       "descuentoPct": 50,
-      "hasta": "2027-01-29"
+      "hasta": "2027-03-01"
     },
     "anual": {
       "monto": 3230,
       "moneda": "C$",
       "descuentoPct": 50,
-      "hasta": "2027-01-29"
+      "hasta": "2027-03-01"
     },
     "semestral": {
       "monto": 2060,
       "moneda": "C$",
       "descuentoPct": 50,
-      "hasta": "2027-01-29"
+      "hasta": "2027-03-01"
     },
     "trimestral": {
       "monto": 1100,
       "moneda": "C$",
       "descuentoPct": 50,
-      "hasta": "2027-01-29"
+      "hasta": "2027-03-01"
     }
   }
 }
