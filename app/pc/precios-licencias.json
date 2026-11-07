@@ -1,33 +1,33 @@
 {
-  "actualizado": "2026-09-30",
+  "actualizado": "2026-11-07",
   "planes": {
     "perpetua": {
       "monto": 2000,
       "moneda": "Bs",
       "bs": 2000,
       "descuentoPct": 30,
-      "hasta": "2026-11-29"
+      "hasta": "2027-03-01"
     },
     "anual": {
       "monto": 700,
       "moneda": "Bs",
       "bs": 700,
       "descuentoPct": 30,
-      "hasta": "2026-11-29"
+      "hasta": "2027-03-01"
     },
     "semestral": {
       "monto": 400,
       "moneda": "Bs",
       "bs": 400,
       "descuentoPct": 30,
-      "hasta": "2026-11-29"
+      "hasta": "2027-03-01"
     },
     "trimestral": {
       "monto": 250,
       "moneda": "Bs",
       "bs": 250,
       "descuentoPct": 30,
-      "hasta": "2026-11-29"
+      "hasta": "2027-03-01"
     }
   }
 }
