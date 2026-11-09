@@ -1,7 +1,7 @@
 {
- "version": "2026-11-03-8-0762e6",
+ "version": "2026-11-09-9-6a3a57",
  "pais": "BO",
- "generado": "2026-11-03",
+ "generado": "2026-11-09",
  "regla": "3 o más usuarios, o 2 que coinciden ±25 %; mediana. A más de ±50 % de la referencia sólo si 2 usuarios coinciden ±10 %",
  "precios": [
   {
@@ -50,6 +50,12 @@
    "idCanonico": "mo_ayudante",
    "ciudad": "BO-SCZ",
    "precio": 16.5,
+   "usuarios": 2
+  },
+  {
+   "idCanonico": "mo_especialista",
+   "ciudad": "BO-CBBA",
+   "precio": 22.5,
    "usuarios": 2
   }
  ]
