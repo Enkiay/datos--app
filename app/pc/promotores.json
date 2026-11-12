@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-07",
+  "actualizado": "2026-11-12",
   "promotores": {
     "38099": {
       "n": "POLLINGUI",
@@ -11,6 +11,7 @@
     }
   },
   "sinCodigoEn": [
-    "ES"
+    "ES",
+    "PE"
   ]
 }
