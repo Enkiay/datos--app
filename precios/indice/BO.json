@@ -1,7 +1,7 @@
 {
- "version": "2026-11-09-9-6a3a57",
+ "version": "2026-11-16-9-0be0a4",
  "pais": "BO",
- "generado": "2026-11-09",
+ "generado": "2026-11-16",
  "regla": "3 o más usuarios, o 2 que coinciden ±25 %; mediana. A más de ±50 % de la referencia sólo si 2 usuarios coinciden ±10 %",
  "precios": [
   {
@@ -31,7 +31,7 @@
   {
    "idCanonico": "mo_albanil",
    "ciudad": "BO-CBBA",
-   "precio": 20.0,
+   "precio": 22.5,
    "usuarios": 3
   },
   {
@@ -55,7 +55,7 @@
   {
    "idCanonico": "mo_especialista",
    "ciudad": "BO-CBBA",
-   "precio": 22.5,
+   "precio": 25.0,
    "usuarios": 2
   }
  ]
