@@ -1,5 +1,5 @@
 {
-  "version": "v20260828-155320",
+  "version": "v20261122-083945",
   "empresas": [
     {
       "id": "ceramicas-y-acabados-del-illimani-ejemplo-la-paz",
@@ -405,43 +405,6 @@
         "bide_blanco_con_griferia_pza",
         "pegamento_para_pvc_y_cpvc_1_l",
         "bomba_hidroneumatica_1_5_hp_pza"
-      ],
-      "destacada": false,
-      "destacadaHasta": null,
-      "fichaFondo": null
-    },
-    {
-      "id": "todocemento-santa-cruz-de-la-sierra",
-      "nombre": "TodoCemento",
-      "ciudad": "Santa Cruz de la Sierra",
-      "pais": "BO",
-      "tipo": "FERRETERIA",
-      "estado": "ACTIVA",
-      "fechaPrimeraColaboracion": "2026-08",
-      "fechaUltimaColaboracion": "2026-08",
-      "telefono": "591 60348854",
-      "descripcion": "probando funciones",
-      "rubro": "Cemento y Cal",
-      "email": "enkiay67@gmail.com",
-      "sitioWeb": "https://www.google.com",
-      "tags": [
-        "cemento",
-        "yeso",
-        "ladrillo 3 huecos",
-        "accesorios div",
-        "arena común",
-        "grava común",
-        "fierro corrugado",
-        "cemento y cal"
-      ],
-      "ofrece": [
-        "cemento_kg",
-        "yeso_kg",
-        "ladrillo_3_huecos_pza",
-        "accesorios_div_glb",
-        "arena_comun_m3",
-        "grava_comun_m3",
-        "fierro_corrugado_kg"
       ],
       "destacada": false,
       "destacadaHasta": null,
