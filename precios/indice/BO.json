@@ -1,7 +1,7 @@
 {
- "version": "2026-11-16-9-0be0a4",
+ "version": "2026-11-23-10-5ac3b7",
  "pais": "BO",
- "generado": "2026-11-16",
+ "generado": "2026-11-23",
  "regla": "3 o más usuarios, o 2 que coinciden ±25 %; mediana. A más de ±50 % de la referencia sólo si 2 usuarios coinciden ±10 %",
  "precios": [
   {
@@ -13,7 +13,7 @@
   {
    "idCanonico": "grava_comun_m3",
    "ciudad": "BO-CBBA",
-   "precio": 250.0,
+   "precio": 350.0,
    "usuarios": 3
   },
   {
@@ -56,6 +56,12 @@
    "idCanonico": "mo_especialista",
    "ciudad": "BO-CBBA",
    "precio": 25.0,
+   "usuarios": 2
+  },
+  {
+   "idCanonico": "piedra_manzana_m3",
+   "ciudad": "BO-CBBA",
+   "precio": 370.0,
    "usuarios": 2
   }
  ]
